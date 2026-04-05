@@ -38,8 +38,9 @@ Formatas remiasi [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versi
 
 ### Docs
 
-- `GITHUB_SETUP.md` — GitHub Actions kaip Pages šaltinis, `_site` viešas rinkinys, branch protection / CI rekomendacija; `AGENTS.md`, `CONTRIBUTING.md` — Pages artefaktas ir `validate-prompts-json.mjs` aprašymas `verify` skiltyje.
-- `docs/MULTILINGUAL_STRUCTURE.md`, `README.md`, `QUICK_START.md`, `docs/DOCUMENTATION.md`, `docs/UI_UX_AUDIT_CHECKLIST.md`, `TODO.md`, `.github/PULL_REQUEST_TEMPLATE.md`, `memo_ee_lv.md` — ET/LV, keliai, `verify` ir skirtumas nuo `memo_ee_lv.md` porų generatoriaus.
+- `GITHUB_SETUP.md` — GitHub Actions kaip Pages šaltinis, `_site` viešas rinkinys, branch protection / CI rekomendacija, tuščio repo pirmas push į **DITreneris/ecommerce**; `AGENTS.md`, `CONTRIBUTING.md` — Pages artefaktas ir `validate-prompts-json.mjs` aprašymas `verify` skiltyje.
+- `README.md` — planuojamas viešas URL `ditreneris.github.io/ecommerce`.
+- `docs/MULTILINGUAL_STRUCTURE.md`, `QUICK_START.md`, `docs/DOCUMENTATION.md`, `docs/UI_UX_AUDIT_CHECKLIST.md`, `TODO.md`, `.github/PULL_REQUEST_TEMPLATE.md` — ET/LV, keliai ir `verify`.
 - `.cursor/rules/lemona-project.mdc` — produkto aprašymas ir globai LT/EN/ET/LV HTML katalogams.
 - `docs/archive/notes/P2_IMPLEMENTATION.md` — GitHub Actions nuorodos atnaujintos į `ci.yml` ir `static.yml` (vietoj `deploy.yml`).
 - `TODO.md` — paieškos skyrius atskleidžia skirtumą tarp P2 archyvo (Fuse / autocomplete / istorija) ir dabartinės Spin-off 8 `app.js` paieškos.
