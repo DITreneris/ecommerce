@@ -36,7 +36,7 @@
 
 ## QA checklist (prieš PR / release)
 
-1. `npm ci` → `npm run verify`
+1. `npm ci` → `npm run verify` (CI naudoja Node **24** ir `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24` GitHub Actions)
 2. `npm run dev` — atidaryti `/lt/`, `/en/`, `/et/`, `/lv/` ir šaknį: redirect, paieška (`?q=`), kalbų jungiklis su `?q=`, kopijavimas, skyriai, temos mygtukas (sistema / šviesi / tamsi), mobilus paieškos modalas
 3. Jei keitėte duomenis — `npm run verify` patikrina visus `prompts.*.json` (žr. `scripts/validate-prompts-json.mjs`)
 4. **Dokumentai:** pagal `docs/DOCUMENTATION.md` — `CHANGELOG.md` (`[Unreleased]`), `README` / `AGENTS` / `CONTRIBUTING` / `TODO` jei aktualu

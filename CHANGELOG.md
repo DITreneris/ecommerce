@@ -6,6 +6,10 @@ Formatas remiasi [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versi
 
 ## [Unreleased]
 
+### Changed
+
+- GitHub Actions (`.github/workflows/ci.yml`, `static.yml`): `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true` (JS veiksmai ant Node 24, žr. [GitHub deprecation](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/)); `setup-node` versija **24** `npm run verify` jobuose.
+
 ## [4.2.0] — 2026-04-05
 
 ### Fixed
