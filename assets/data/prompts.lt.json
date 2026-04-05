@@ -54,7 +54,7 @@
       "id": "sales",
       "name": "Pardavimai",
       "icon": "💼",
-      "count": 27,
+      "count": 19,
       "prompts": [
         {
           "id": 4,
@@ -247,118 +247,6 @@
             "youtube",
             "pamoka",
             "paaiškinimas"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 64,
-          "title": "Atsarginių kopijų ir atkūrimo planas",
-          "text": "Parengk atsarginių kopijų ir atkūrimo procedūrą [sistemai/duomenų bazei]. Nustatyk: kopijų darymo dažnumą (kasdien/ kas savaitę), tipą (pilna/inkrementinė), saugojimo vietą (vietoje/debesis), saugojimo politiką, atkūrimo laiką (RTO), atkūrimo taško tikslą (RPO) ir testavimo grafiką.",
-          "copyText": "Parengk atsarginių kopijų ir atkūrimo procedūrą [sistemai/duomenų bazei]. Nustatyk: kopijų darymo dažnumą (kasdien/kas savaitę), tipą (pilna/inkrementinė), saugojimo vietą (vietoje/debesis), saugojimo politiką, atkūrimo laiką (RTO), atkūrimo taško tikslą (RPO) ir testavimo grafiką.",
-          "keywords": [
-            "atsarginės",
-            "kopijos",
-            "atkūrimas",
-            "planas",
-            "duomenų",
-            "apsauga"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 65,
-          "title": "Vartotojų prieigos matrica",
-          "text": "Sukurk vartotojų prieigos kontrolės matricą [sistemai/programai]. Apibrėžk roles (administratorius, vadovas, vartotojas, tik skaitymas), kiekvienos rolės leidimus, duomenų prieigos lygius, prieigos prašymų tvirtinimo procesą ir periodinio peržiūrėjimo grafiką. Suformatuok kaip aiškią lentelę su RBAC logika.",
-          "copyText": "Sukurk vartotojų prieigos kontrolės matricą [sistemai/programai]. Apibrėžk roles (administratorius, vadovas, vartotojas, tik skaitymas), kiekvienos rolės leidimus, duomenų prieigos lygius, prieigos prašymų tvirtinimo procesą ir periodinio peržiūrėjimo grafiką. Suformatuok kaip aiškią lentelę su RBAC logika.",
-          "keywords": [
-            "vartotojų",
-            "prieiga",
-            "leidimai",
-            "rolės",
-            "saugumas"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 66,
-          "title": "Techninės dokumentacijos šablonas",
-          "text": "Parengk techninę dokumentaciją [funkcijai/API/moduliui]. Įtrauk: apžvalgą ir paskirtį, reikalavimus, žingsnis po žingsnio instrukcijas su vietomis ekrano vaizdams, kodų pavyzdžius (jei taikoma), dažniausias klaidas ir sprendimus, DUK ir versijų istoriją. Tikslinė auditorija: [kūrėjai/galutiniai vartotojai/administratoriai].",
-          "copyText": "Parengk techninę dokumentaciją [funkcijai/API/moduliui]. Įtrauk: apžvalgą ir paskirtį, reikalavimus, žingsnis po žingsnio instrukcijas su vietomis ekrano vaizdams, kodų pavyzdžius (jei taikoma), dažniausias klaidas ir sprendimus, DUK ir versijų istoriją. Tikslinė auditorija: [kūrėjai/galutiniai vartotojai/administratoriai].",
-          "keywords": [
-            "programinė",
-            "dokumentacija",
-            "api",
-            "techninės",
-            "specifikacijos"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 67,
-          "title": "Duomenų atsarginės kopijos strategija",
-          "text": "Sukurk duomenų atsarginės kopijos strategiją [sistema/duomenys]. Įtrauk: kas kopijuojama, dažnumą (kasdien/kaip savaitę), saugojimo vietas (cloud/local), saugojimo laikotarpį, atkūrimo procedūras, testavimo grafiką. Optimizuok saugumui ir greitam atkūrimui.",
-          "copyText": "Sukurk duomenų atsarginės kopijos strategiją [sistema/duomenys]. Įtrauk: kas kopijuojama, dažnumą (kasdien/kaip savaitę), saugojimo vietas (cloud/local), saugojimo laikotarpį, atkūrimo procedūras, testavimo grafiką. Optimizuok saugumui ir greitam atkūrimui.",
-          "keywords": [
-            "backup",
-            "strategija",
-            "atsarginė",
-            "kopija",
-            "duomenys"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 71,
-          "title": "Pinigų srautų prognozė",
-          "text": "Sukurk 3 mėnesių pinigų srautų prognozę remdamasis šiais duomenimis: [įklijuokite skaičius]. Įtrauk: pradinį likutį, planuojamas įplaukas (su mokėjimo terminais), planuojamas išlaidas ir prognozuojamą likutinę sumą. Paryškink galimas likvidumo rizikas ir pasiūlyk mažinimo priemones.",
-          "copyText": "Sukurk 3 mėnesių pinigų srautų prognozę remdamasis šiais duomenimis: [įklijuokite skaičius]. Įtrauk: pradinį likutį, planuojamas įplaukas (su mokėjimo terminais), planuojamas išlaidas ir prognozuojamą likutinę sumą. Paryškink galimas likvidumo rizikas ir pasiūlyk mažinimo priemones.",
-          "keywords": [
-            "pinigų",
-            "srautai",
-            "prognozė",
-            "likvidumas"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 79,
-          "title": "Veiklos vertinimo šablonas",
-          "text": "Sukurk subalansuotą veiklos vertinimo šabloną darbuotojui [darbuotojo vardas], dirbančiam [pareigybės pavadinimas]. Įtrauk skiltis: pasiekimai, tobulintinos sritys, tikslų pažanga, įgūdžių vystymas ir kito ketvirčio tikslai. Naudok konstruktyvią, augimui skirtą kalbą.",
-          "copyText": "Sukurk subalansuotą veiklos vertinimo šabloną darbuotojui [darbuotojo vardas], dirbančiam [pareigybės pavadinimas]. Įtrauk skiltis: pasiekimai, tobulintinos sritys, tikslų pažanga, įgūdžių vystymas ir kito ketvirčio tikslai. Naudok konstruktyvią, augimui skirtą kalbą.",
-          "keywords": [
-            "veiklos",
-            "vertinimas",
-            "grįžtamasis",
-            "ryšys",
-            "tikslai"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 81,
-          "title": "Mokymo programos planas",
-          "text": "Sukurk pusės dienos mokymo programą tema [tema] [skyriui/komandai]. Įtrauk: mokymosi tikslus, darbotvarkę su laiko planu, veiklas/praktinius pratimus, reikalingas medžiagas ir kaip matuoti mokymo efektyvumą.",
-          "copyText": "Sukurk pusės dienos mokymo programą tema [tema] [skyriui/komandai]. Įtrauk: mokymosi tikslus, darbotvarkę su laiko planu, veiklas/praktinius pratimus, reikalingas medžiagas ir kaip matuoti mokymo efektyvumą.",
-          "keywords": [
-            "mokymai",
-            "programa",
-            "įgūdžių",
-            "ugdymas",
-            "dirbtuvės"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 82,
-          "title": "Darbo pasiūlymo laiškas",
-          "text": "Parašyk profesionalų darbo pasiūlymo laišką kandidatui [kandidato vardas] į [pareigybės pavadinimas]. Įtrauk: atlyginimą, pradžios datą, naudų santrauką, atskaitomybę ir tolesnius žingsnius. Tonas: šiltas ir svetingas, išlaikant oficialumą.",
-          "copyText": "Parašyk profesionalų darbo pasiūlymo laišką kandidatui [kandidato vardas] į [pareigybės pavadinimas]. Įtrauk: atlyginimą, pradžios datą, naudų santrauką, atskaitomybę ir tolesnius žingsnius. Tonas: šiltas ir svetingas, išlaikant oficialumą.",
-          "keywords": [
-            "darbo",
-            "pasiūlymas",
-            "laiškas",
-            "įdarbinimas",
-            "sutartis"
           ],
           "category": "sales"
         },
@@ -768,8 +656,8 @@
         {
           "id": 18,
           "title": "Tiekimo sutarties rizikos analizė",
-          "text": "Išanalizuok tiekimo sutarties rizikas [sutartis]. Identifikuok: kainų svyravimo riziką, pristatymo vėlavimų riziką, kokybės riziką, tiekėjo finansinę riziką, jėgos majėjimo riziką. Kiekvienai rizikai pateik: tikimybę, poveikį, mitigaacijos strategijas.",
-          "copyText": "Išanalizuok tiekimo sutarties rizikas [sutartis]. Identifikuok: kainų svyravimo riziką, pristatymo vėlavimų riziką, kokybės riziką, tiekėjo finansinę riziką, jėgos majėjimo riziką. Kiekvienai rizikai pateik: tikimybę, poveikį, mitigaacijos strategijas.",
+          "text": "Išanalizuok tiekimo sutarties rizikas [sutartis]. Identifikuok: kainų svyravimo riziką, pristatymo vėlavimų riziką, kokybės riziką, tiekėjo finansinę riziką, derybų galios riziką. Kiekvienai rizikai pateik: tikimybę, poveikį, mitigacijos strategijas.",
+          "copyText": "Išanalizuok tiekimo sutarties rizikas [sutartis]. Identifikuok: kainų svyravimo riziką, pristatymo vėlavimų riziką, kokybės riziką, tiekėjo finansinę riziką, derybų galios riziką. Kiekvienai rizikai pateik: tikimybę, poveikį, mitigacijos strategijas.",
           "keywords": [
             "sutartis",
             "sąlygos",
@@ -1105,7 +993,7 @@
       "id": "it",
       "name": "IT",
       "icon": "💻",
-      "count": 9,
+      "count": 12,
       "prompts": [
         {
           "id": 13,
@@ -1164,6 +1052,63 @@
           "category": "it"
         },
         {
+          "id": 64,
+          "title": "Atsarginių kopijų ir atkūrimo planas",
+          "text": "Parengk atsarginių kopijų ir atkūrimo procedūrą [sistemai/duomenų bazei]. Nustatyk: kopijų darymo dažnumą (kasdien/ kas savaitę), tipą (pilna/inkrementinė), saugojimo vietą (vietoje/debesis), saugojimo politiką, atkūrimo laiką (RTO), atkūrimo taško tikslą (RPO) ir testavimo grafiką.",
+          "copyText": "Parengk atsarginių kopijų ir atkūrimo procedūrą [sistemai/duomenų bazei]. Nustatyk: kopijų darymo dažnumą (kasdien/kas savaitę), tipą (pilna/inkrementinė), saugojimo vietą (vietoje/debesis), saugojimo politiką, atkūrimo laiką (RTO), atkūrimo taško tikslą (RPO) ir testavimo grafiką.",
+          "keywords": [
+            "atsarginės",
+            "kopijos",
+            "atkūrimas",
+            "planas",
+            "duomenų",
+            "apsauga"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 65,
+          "title": "Vartotojų prieigos matrica",
+          "text": "Sukurk vartotojų prieigos kontrolės matricą [sistemai/programai]. Apibrėžk roles (administratorius, vadovas, vartotojas, tik skaitymas), kiekvienos rolės leidimus, duomenų prieigos lygius, prieigos prašymų tvirtinimo procesą ir periodinio peržiūrėjimo grafiką. Suformatuok kaip aiškią lentelę su RBAC logika.",
+          "copyText": "Sukurk vartotojų prieigos kontrolės matricą [sistemai/programai]. Apibrėžk roles (administratorius, vadovas, vartotojas, tik skaitymas), kiekvienos rolės leidimus, duomenų prieigos lygius, prieigos prašymų tvirtinimo procesą ir periodinio peržiūrėjimo grafiką. Suformatuok kaip aiškią lentelę su RBAC logika.",
+          "keywords": [
+            "vartotojų",
+            "prieiga",
+            "leidimai",
+            "rolės",
+            "saugumas"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 66,
+          "title": "Techninės dokumentacijos šablonas",
+          "text": "Parengk techninę dokumentaciją [funkcijai/API/moduliui]. Įtrauk: apžvalgą ir paskirtį, reikalavimus, žingsnis po žingsnio instrukcijas su vietomis ekrano vaizdams, kodų pavyzdžius (jei taikoma), dažniausias klaidas ir sprendimus, DUK ir versijų istoriją. Tikslinė auditorija: [kūrėjai/galutiniai vartotojai/administratoriai].",
+          "copyText": "Parengk techninę dokumentaciją [funkcijai/API/moduliui]. Įtrauk: apžvalgą ir paskirtį, reikalavimus, žingsnis po žingsnio instrukcijas su vietomis ekrano vaizdams, kodų pavyzdžius (jei taikoma), dažniausias klaidas ir sprendimus, DUK ir versijų istoriją. Tikslinė auditorija: [kūrėjai/galutiniai vartotojai/administratoriai].",
+          "keywords": [
+            "programinė",
+            "dokumentacija",
+            "api",
+            "techninės",
+            "specifikacijos"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 67,
+          "title": "Duomenų atsarginės kopijos strategija",
+          "text": "Sukurk duomenų atsarginės kopijos strategiją [sistema/duomenys]. Įtrauk: kas kopijuojama, dažnumą (kasdien/kas savaitę), saugojimo vietas (cloud/local), saugojimo laikotarpį, atkūrimo procedūras, testavimo grafiką. Optimizuok saugumui ir greitam atkūrimui.",
+          "copyText": "Sukurk duomenų atsarginės kopijos strategiją [sistema/duomenys]. Įtrauk: kas kopijuojama, dažnumą (kasdien/kas savaitę), saugojimo vietas (cloud/local), saugojimo laikotarpį, atkūrimo procedūras, testavimo grafiką. Optimizuok saugumui ir greitam atkūrimui.",
+          "keywords": [
+            "backup",
+            "strategija",
+            "atsarginė",
+            "kopija",
+            "duomenys"
+          ],
+          "category": "it"
+        },
+        {
           "id": 69,
           "title": "Mokėjimo priminimo el. laiškas",
           "text": "Parašyk profesionalų, bet draugišką mokėjimo priminimo el. laišką dėl sąskaitos #[numeris], kuri vėluoja [X dienos]. Įtrauk: sąskaitos detales, mokėjimo būdus ir kontaktinę informaciją. Tonas: mandagus, bet tvirtas, išlaikant ryšį su klientu.",
@@ -1186,19 +1131,6 @@
             "kontrolinis",
             "sąrašas",
             "atitiktis"
-          ],
-          "category": "it"
-        },
-        {
-          "id": 80,
-          "title": "Personalo politikos projektas",
-          "text": "Parenk aiškų, darbuotojams draugišką [politikos tema: pvz., nuotolinis darbas, atostogos, išlaidos] politikos projektą. Struktūra: paskirtis, taikymo sritis, politikos detalės, procedūros ir DUK. Naudok paprastą kalbą ir pateik 3–5 dažniausias situacijas su pavyzdžiais.",
-          "copyText": "Parenk aiškų, darbuotojams draugišką [politikos tema: pvz., nuotolinis darbas, atostogos, išlaidos] politikos projektą. Struktūra: paskirtis, taikymo sritis, politikos detalės, procedūros ir DUK. Naudok paprastą kalbą ir pateik 3–5 dažniausias situacijas su pavyzdžiais.",
-          "keywords": [
-            "politika",
-            "personalas",
-            "taisyklės",
-            "vadovas"
           ],
           "category": "it"
         },
@@ -1235,7 +1167,7 @@
       "id": "finance",
       "name": "Finansai",
       "icon": "💰",
-      "count": 2,
+      "count": 3,
       "prompts": [
         {
           "id": 5,
@@ -1253,13 +1185,26 @@
         {
           "id": 68,
           "title": "PVM paaiškinimas",
-          "text": "Parašyk aiškų paaiškinimą klientui, kaip skaičiuojamas PVM ir kokios taisyklės galioja pirkėjams iš Latvijos.",
-          "copyText": "Parašyk aiškų paaiškinimą klientui, kaip skaičiuojamas PVM ir kokios taisyklės galioja pirkėjams iš Latvijos.",
+          "text": "Parašyk aiškų paaiškinimą klientui, kaip skaičiuojamas PVM ir kokios taisyklės galioja pirkėjams iš Lietuvos.",
+          "copyText": "Parašyk aiškų paaiškinimą klientui, kaip skaičiuojamas PVM ir kokios taisyklės galioja pirkėjams iš Lietuvos.",
           "keywords": [
             "pvm",
             "paaiškinimas",
             "mokestis",
-            "latvija"
+            "lietuva"
+          ],
+          "category": "finance"
+        },
+        {
+          "id": 71,
+          "title": "Pinigų srautų prognozė",
+          "text": "Sukurk 3 mėnesių pinigų srautų prognozę remdamasis šiais duomenimis: [įklijuokite skaičius]. Įtrauk: pradinį likutį, planuojamas įplaukas (su mokėjimo terminais), planuojamas išlaidas ir prognozuojamą likutinę sumą. Paryškink galimas likvidumo rizikas ir pasiūlyk mažinimo priemones.",
+          "copyText": "Sukurk 3 mėnesių pinigų srautų prognozę remdamasis šiais duomenimis: [įklijuokite skaičius]. Įtrauk: pradinį likutį, planuojamas įplaukas (su mokėjimo terminais), planuojamas išlaidas ir prognozuojamą likutinę sumą. Paryškink galimas likvidumo rizikas ir pasiūlyk mažinimo priemones.",
+          "keywords": [
+            "pinigų",
+            "srautai",
+            "prognozė",
+            "likvidumas"
           ],
           "category": "finance"
         }
@@ -1269,7 +1214,7 @@
       "id": "hr",
       "name": "Personalas",
       "icon": "👥",
-      "count": 3,
+      "count": 7,
       "prompts": [
         {
           "id": 77,
@@ -1295,6 +1240,61 @@
             "sąrašas",
             "naujas",
             "darbuotojas"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 79,
+          "title": "Veiklos vertinimo šablonas",
+          "text": "Sukurk subalansuotą veiklos vertinimo šabloną darbuotojui [darbuotojo vardas], dirbančiam [pareigybės pavadinimas]. Įtrauk skiltis: pasiekimai, tobulintinos sritys, tikslų pažanga, įgūdžių vystymas ir kito ketvirčio tikslai. Naudok konstruktyvią, augimui skirtą kalbą.",
+          "copyText": "Sukurk subalansuotą veiklos vertinimo šabloną darbuotojui [darbuotojo vardas], dirbančiam [pareigybės pavadinimas]. Įtrauk skiltis: pasiekimai, tobulintinos sritys, tikslų pažanga, įgūdžių vystymas ir kito ketvirčio tikslai. Naudok konstruktyvią, augimui skirtą kalbą.",
+          "keywords": [
+            "veiklos",
+            "vertinimas",
+            "grįžtamasis",
+            "ryšys",
+            "tikslai"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 80,
+          "title": "Personalo politikos projektas",
+          "text": "Paruošk aiškų, darbuotojams draugišką [politikos tema: pvz., nuotolinis darbas, atostogos, išlaidos] politikos projektą. Struktūra: paskirtis, taikymo sritis, politikos detalės, procedūros ir DUK. Naudok paprastą kalbą ir pateik 3–5 dažniausias situacijas su pavyzdžiais.",
+          "copyText": "Paruošk aiškų, darbuotojams draugišką [politikos tema: pvz., nuotolinis darbas, atostogos, išlaidos] politikos projektą. Struktūra: paskirtis, taikymo sritis, politikos detalės, procedūros ir DUK. Naudok paprastą kalbą ir pateik 3–5 dažniausias situacijas su pavyzdžiais.",
+          "keywords": [
+            "politika",
+            "personalas",
+            "taisyklės",
+            "vadovas"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 81,
+          "title": "Mokymo programos planas",
+          "text": "Sukurk pusės dienos mokymo programą tema [tema] [skyriui/komandai]. Įtrauk: mokymosi tikslus, darbotvarkę su laiko planu, veiklas/praktinius pratimus, reikalingas medžiagas ir kaip matuoti mokymo efektyvumą.",
+          "copyText": "Sukurk pusės dienos mokymo programą tema [tema] [skyriui/komandai]. Įtrauk: mokymosi tikslus, darbotvarkę su laiko planu, veiklas/praktinius pratimus, reikalingas medžiagas ir kaip matuoti mokymo efektyvumą.",
+          "keywords": [
+            "mokymai",
+            "programa",
+            "įgūdžių",
+            "ugdymas",
+            "dirbtuvės"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 82,
+          "title": "Darbo pasiūlymo laiškas",
+          "text": "Parašyk profesionalų darbo pasiūlymo laišką kandidatui [kandidato vardas] į [pareigybės pavadinimas]. Įtrauk: atlyginimą, pradžios datą, naudų santrauką, atskaitomybę ir tolesnius žingsnius. Tonas: šiltas ir svetingas, išlaikant oficialumą.",
+          "copyText": "Parašyk profesionalų darbo pasiūlymo laišką kandidatui [kandidato vardas] į [pareigybės pavadinimas]. Įtrauk: atlyginimą, pradžios datą, naudų santrauką, atskaitomybę ir tolesnius žingsnius. Tonas: šiltas ir svetingas, išlaikant oficialumą.",
+          "keywords": [
+            "darbo",
+            "pasiūlymas",
+            "laiškas",
+            "įdarbinimas",
+            "sutartis"
           ],
           "category": "hr"
         },

@@ -54,7 +54,7 @@
       "id": "sales",
       "name": "Sales",
       "icon": "💼",
-      "count": 27,
+      "count": 19,
       "prompts": [
         {
           "id": 4,
@@ -74,9 +74,9 @@
           "text": "Create a list of 5 frequently asked questions (FAQs) and answers about [product category].",
           "copyText": "Create a list of 5 frequently asked questions (FAQs) and answers about [product category].",
           "keywords": [
-            "daughter",
+            "faq",
             "questions",
-            "the answers"
+            "answers"
           ],
           "category": "sales"
         },
@@ -107,12 +107,12 @@
         {
           "id": 10,
           "title": "Objection Answer Guide",
-          "text": "Create a [product/service] objection response guide. For each object (price, time, reliability, competitors), provide: object understanding, empathetic response, solution/alternative, social proof. Use natural, non-aggressive language.",
-          "copyText": "Create a [product/service] objection response guide. For each object (price, time, reliability, competitors), provide: object understanding, empathetic response, solution/alternative, social proof. Use natural, non-aggressive language.",
+          "text": "Create a [product/service] objection response guide. For each objection (price, time, reliability, competitors), provide: understanding of the objection, empathetic response, solution/alternative, social proof. Use natural, non-aggressive language.",
+          "copyText": "Create a [product/service] objection response guide. For each objection (price, time, reliability, competitors), provide: understanding of the objection, empathetic response, solution/alternative, social proof. Use natural, non-aggressive language.",
           "keywords": [
-            "objects",
-            "the answers",
-            "objections"
+            "objections",
+            "responses",
+            "sales"
           ],
           "category": "sales"
         },
@@ -136,8 +136,8 @@
           "text": "Prepare return processing procedure for RMA #[number]. Record: reason for return, product condition assessment, quality control steps, return/exchange decision criteria, and return-to-warehouse instructions. Include a client communication template.",
           "copyText": "Prepare return processing procedure for RMA #[number]. Record: reason for return, product condition assessment, quality control steps, return/exchange decision criteria, and return-to-warehouse instructions. Include a client communication template.",
           "keywords": [
-            "refunds",
-            "rm",
+            "returns",
+            "rma",
             "quality",
             "process"
           ],
@@ -158,9 +158,9 @@
         },
         {
           "id": 31,
-          "title": "Abandoned cart email series of letters",
-          "text": "Create 3 emails mail sequence for an abandoned cart. 1 email letter (after 1 hour): friendly reminder + product photos. 2 emails email (after 24 hours): add social proof and an element of urgency. 3 emails letter (after 48 hours): last chance with a small discount. Maintain a friendly, non-intrusive tone.",
-          "copyText": "Create 3 emails mail sequence for an abandoned cart. 1 email letter (after 1 hour): friendly reminder + product photos. 2 emails email (after 24 hours): add social proof and an element of urgency. 3 emails letter (after 48 hours): last chance with a small discount. Maintain a friendly, non-intrusive tone.",
+          "title": "Abandoned cart email series",
+          "text": "Create a 3-email sequence for an abandoned cart. Email 1 (after 1 hour): friendly reminder + product photos. Email 2 (after 24 hours): add social proof and an element of urgency. Email 3 (after 48 hours): last chance with a small discount. Maintain a friendly, non-intrusive tone.",
+          "copyText": "Create a 3-email sequence for an abandoned cart. Email 1 (after 1 hour): friendly reminder + product photos. Email 2 (after 24 hours): add social proof and an element of urgency. Email 3 (after 48 hours): last chance with a small discount. Maintain a friendly, non-intrusive tone.",
           "keywords": [
             "email",
             "letter",
@@ -191,8 +191,7 @@
           "keywords": [
             "colors",
             "palette",
-            "mature",
-            "colors",
+            "brand",
             "psychology"
           ],
           "category": "sales"
@@ -229,7 +228,7 @@
           "copyText": "Create 5 LinkedIn posts on [topic/industry trend] for a B2B audience. Mix up the formats: 1) question/survey, 2) quick carousel structure tip, 3) personal story or case study, 4) industry insight or data, 5) how-to guide. Include a hashtag strategy and publishing schedule.",
           "keywords": [
             "linkedin",
-            "record",
+            "post",
             "b2b",
             "professional",
             "leadership"
@@ -245,120 +244,8 @@
             "video",
             "script",
             "youtube",
-            "a lesson",
+            "tutorial",
             "explanation"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 64,
-          "title": "Backup and recovery plan",
-          "text": "Develop a backup and recovery procedure for [system/database]. Set: backup frequency (daily/weekly), type (full/incremental), storage location (local/cloud), storage policy, recovery time (RTO), recovery point objective (RPO) and testing schedule.",
-          "copyText": "Develop a backup and recovery procedure for [system/database]. Set: backup frequency (daily/weekly), type (full/incremental), storage location (local/cloud), storage policy, recovery time (RTO), recovery point objective (RPO), and testing schedule.",
-          "keywords": [
-            "spare",
-            "copies",
-            "recovery",
-            "plan",
-            "data",
-            "protection"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 65,
-          "title": "User access matrix",
-          "text": "Create a user access control matrix for [system/application]. Define roles (administrator, manager, user, read-only), permissions for each role, data access levels, approval process for access requests, and periodic review schedule. Format as a clear table with RBAC logic.",
-          "copyText": "Create a user access control matrix for [system/application]. Define roles (administrator, manager, user, read-only), permissions for each role, data access levels, approval process for access requests, and periodic review schedule. Format as a clear table with RBAC logic.",
-          "keywords": [
-            "users",
-            "access",
-            "permits",
-            "roles",
-            "security"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 66,
-          "title": "Technical documentation template",
-          "text": "Prepare technical documentation for [feature/API/module]. Include: overview and purpose, requirements, step-by-step instructions with screenshots, code samples (if applicable), common errors and solutions, FAQ, and version history. Target audience: [developers/end users/administrators].",
-          "copyText": "Prepare technical documentation for [feature/API/module]. Include: overview and purpose, requirements, step-by-step instructions with screenshots, code samples (if applicable), common errors and solutions, FAQ, and version history. Target audience: [developers/end users/administrators].",
-          "keywords": [
-            "software",
-            "documentation",
-            "approx",
-            "technical",
-            "specifications"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 67,
-          "title": "Data backup strategy",
-          "text": "Create a data backup strategy [system/data]. Include: what is backed up, frequency (daily/weekly), storage locations (cloud/local), storage period, recovery procedures, testing schedule. Optimize for security and fast recovery.",
-          "copyText": "Create a data backup strategy [system/data]. Include: what is backed up, frequency (daily/weekly), storage locations (cloud/local), storage period, recovery procedures, testing schedule. Optimize for security and fast recovery.",
-          "keywords": [
-            "backup",
-            "strategy",
-            "spare",
-            "copy",
-            "data"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 71,
-          "title": "Cash flow forecast",
-          "text": "Create a 3-month cash flow forecast based on the following data: [paste numbers]. Įtrauk: pradinį likutį, planuojamas įplaukas (su mokėjimo terminais), planuojamas išlaidas ir prognozuojamą likutinę sumą. Highlight potential liquidity risks and suggest mitigation measures.",
-          "copyText": "Create a 3-month cash flow forecast based on the following data: [paste numbers]. Įtrauk: pradinį likutį, planuojamas įplaukas (su mokėjimo terminais), planuojamas išlaidas ir prognozuojamą likutinę sumą. Highlight potential liquidity risks and suggest mitigation measures.",
-          "keywords": [
-            "money",
-            "streams",
-            "forecast",
-            "liquidity"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 79,
-          "title": "Performance appraisal template",
-          "text": "Create a balanced performance appraisal template for employee [employee name] working in [position title]. Include sections for: achievements, areas for improvement, goal progress, skill development, and goals for next quarter. Use constructive, growth-oriented language.",
-          "copyText": "Create a balanced performance appraisal template for employee [employee name] working in [position title]. Include sections for: achievements, areas for improvement, goal progress, skill development, and goals for next quarter. Use constructive, growth-oriented language.",
-          "keywords": [
-            "activities",
-            "evaluation",
-            "reversible",
-            "connection",
-            "goals"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 81,
-          "title": "Curriculum plan",
-          "text": "Create a half-day training program on [topic] for [department/team]. Include: learning objectives, agenda with time plan, activities/practice, materials needed and how to measure teaching effectiveness.",
-          "copyText": "Create a half-day training program on [topic] for [department/team]. Include: learning objectives, agenda with time plan, activities/practice, materials needed and how to measure teaching effectiveness.",
-          "keywords": [
-            "training",
-            "program",
-            "skills",
-            "education",
-            "workshop"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 82,
-          "title": "Job offer letter",
-          "text": "Write a professional job offer letter to candidate [candidate name] for [position title]. Include: salary, start date, summary of benefits, accountability and next steps. Tone: Warm and welcoming while maintaining formality.",
-          "copyText": "Write a professional job offer letter to candidate [candidate name] for [position title]. Include: salary, start date, summary of benefits, accountability and next steps. Tone: Warm and welcoming while maintaining formality.",
-          "keywords": [
-            "of work",
-            "offer",
-            "letter",
-            "employment",
-            "contract"
           ],
           "category": "sales"
         },
@@ -368,7 +255,7 @@
           "text": "Organize tasks [paste tasks] using GTD (Getting Things Done) method. Categories: 1) Do now (2 min or less), 2) Delegate (to whom and when), 3) Snooze (when and how to remind), 4) Archive (information without action). Create an action plan and tracking system for each category.",
           "copyText": "Organize tasks [paste tasks] using GTD (Getting Things Done) method. Categories: 1) Do now (2 min or less), 2) Delegate (to whom and when), 3) Snooze (when and how to remind), 4) Archive (information without action). Create an action plan and tracking system for each category.",
           "keywords": [
-            "etc",
+            "gtd",
             "method",
             "organization",
             "tasks"
@@ -378,8 +265,8 @@
         {
           "id": 98,
           "title": "Kanban board structure",
-          "text": "Create a Kanban board structure [project/team]. Include: columns (Done, In Progress, Under Review, Completed), tasks with priorities, responsible persons, deadlines, blocking factors. Optimize for visualization and traffic. Present as a structured plan that can be used in Trello, Asana or other platforms.",
-          "copyText": "Create a Kanban board structure [project/team]. Include: columns (Done, In Progress, Under Review, Completed), tasks with priorities, responsible persons, deadlines, blocking factors. Optimize for visualization and traffic. Present as a structured plan that can be used in Trello, Asana or other platforms.",
+          "text": "Create a Kanban board structure [project/team]. Include: columns (To Do, In Progress, Review, Done), tasks with priorities, responsible persons, deadlines, blocking factors. Optimize for visualization and flow. Present as a structured plan that can be used in Trello, Asana, or other platforms.",
+          "copyText": "Create a Kanban board structure [project/team]. Include: columns (To Do, In Progress, Review, Done), tasks with priorities, responsible persons, deadlines, blocking factors. Optimize for visualization and flow. Present as a structured plan that can be used in Trello, Asana, or other platforms.",
           "keywords": [
             "kanban",
             "board",
@@ -391,30 +278,29 @@
         {
           "id": 102,
           "title": "🎯 Optimizing the customer journey",
-          "text": "You are a UX researcher and customer experience strategist specializing in B2B e-mail. commerce platforms.\n\nROLE CONTEXT: You have helped over 50 companies optimize their customer engagement processes, reducing churn by an average of 32%.\n\nTASK: Analyze our current customer journey [customer segment] and identify friction points in the following stages:\n- Search and investigation\n- Account creation and first purchase\n- After purchase and support\n- Repeat purchase and loyalty\n\nFORMAT: Create a detailed travel map with:\n1. Timeline (visual description of each stage)\n2. Customer actions at each touch point\n3. Emotion and Pain Points (3-5 per stage)\n4. Opportunities for improvement (ranked by impact/effort)\n5. Quick wins (implemented within 2 weeks)\n\nTONE: Empathetic to customers, constructive to internal teams, action driven\n\nSTYLE: Use a story to illustrate the customer's perspective. Include:\n- real customer quotes or realistic examples\n- emotional language when describing pain points\n- recommendations based on data (even if the percentages are hypothetical)\n- visual metaphors that help concretize abstract ideas\n\nRESULT REQUIREMENTS:\n- Customer quotes are enclosed in quotation marks\n- Skausmo taškai pažymėti ⚠️\n- Opportunities are marked with 💡\n- Quick wins are marked with ⚡\n\nGOAL: Enable the team to implement at least 3 improvements in the next sprint that will visibly improve customer satisfaction indicators.",
-          "copyText": "You are a UX researcher and customer experience strategist specializing in B2B e-mail. commerce platforms.\n\nROLE CONTEXT: You have helped over 50 companies optimize their customer engagement processes, reducing churn by an average of 32%.\n\nTASK: Analyze our current customer journey [customer segment] and identify friction points in the following stages:\n- Search and investigation\n- Account creation and first purchase\n- After purchase and support\n- Repeat purchase and loyalty\n\nFORMAT: Create a detailed travel map with:\n1. Timeline (visual description of each stage)\n2. Customer actions at each touch point\n3. Emotion and Pain Points (3-5 per stage)\n4. Opportunities for improvement (ranked by impact/effort)\n5. Quick wins (implemented within 2 weeks)\n\nTONE: Empathetic to customers, constructive to internal teams, action driven\n\nSTYLE: Use a story to illustrate the customer's perspective. Include:\n- real customer quotes or realistic examples\n- emotional language when describing pain points\n- recommendations based on data (even if the percentages are hypothetical)\n- visual metaphors that help concretize abstract ideas\n\nRESULT REQUIREMENTS:\n- Customer quotes are enclosed in quotation marks\n- Skausmo taškai pažymėti ⚠️\n- Opportunities are marked with 💡\n- Quick wins are marked with ⚡\n\nGOAL: Enable the team to implement at least 3 improvements in the next sprint that will visibly improve customer satisfaction indicators.",
+          "text": "You are a UX researcher and customer experience strategist specializing in B2B e-commerce platforms.\n\nROLE CONTEXT: You have helped over 50 companies optimize their customer engagement processes, reducing churn by an average of 32%.\n\nTASK: Analyze our current customer journey [customer segment] and identify friction points in the following stages:\n- Search and investigation\n- Account creation and first purchase\n- After purchase and support\n- Repeat purchase and loyalty\n\nFORMAT: Create a detailed travel map with:\n1. Timeline (visual description of each stage)\n2. Customer actions at each touch point\n3. Emotion and Pain Points (3-5 per stage)\n4. Opportunities for improvement (ranked by impact/effort)\n5. Quick wins (implemented within 2 weeks)\n\nTONE: Empathetic to customers, constructive to internal teams, action driven\n\nSTYLE: Use a story to illustrate the customer's perspective. Include:\n- real customer quotes or realistic examples\n- emotional language when describing pain points\n- recommendations based on data (even if the percentages are hypothetical)\n- visual metaphors that help concretize abstract ideas\n\nRESULT REQUIREMENTS:\n- Customer quotes are enclosed in quotation marks\n- Mark pain points with ⚠️\n- Opportunities are marked with 💡\n- Quick wins are marked with ⚡\n\nGOAL: Enable the team to implement at least 3 improvements in the next sprint that will visibly improve customer satisfaction indicators.",
+          "copyText": "You are a UX researcher and customer experience strategist specializing in B2B e-commerce platforms.\n\nROLE CONTEXT: You have helped over 50 companies optimize their customer engagement processes, reducing churn by an average of 32%.\n\nTASK: Analyze our current customer journey [customer segment] and identify friction points in the following stages:\n- Search and investigation\n- Account creation and first purchase\n- After purchase and support\n- Repeat purchase and loyalty\n\nFORMAT: Create a detailed travel map with:\n1. Timeline (visual description of each stage)\n2. Customer actions at each touch point\n3. Emotion and Pain Points (3-5 per stage)\n4. Opportunities for improvement (ranked by impact/effort)\n5. Quick wins (implemented within 2 weeks)\n\nTONE: Empathetic to customers, constructive to internal teams, action driven\n\nSTYLE: Use a story to illustrate the customer's perspective. Include:\n- real customer quotes or realistic examples\n- emotional language when describing pain points\n- recommendations based on data (even if the percentages are hypothetical)\n- visual metaphors that help concretize abstract ideas\n\nRESULT REQUIREMENTS:\n- Customer quotes are enclosed in quotation marks\n- Mark pain points with ⚠️\n- Opportunities are marked with 💡\n- Quick wins are marked with ⚡\n\nGOAL: Enable the team to implement at least 3 improvements in the next sprint that will visibly improve customer satisfaction indicators.",
           "keywords": [
-            "of the client",
-            "trip",
+            "customer",
+            "journey",
             "onboarding",
             "experience",
-            "of pain",
-            "points"
+            "pain points"
           ],
           "category": "sales"
         },
         {
           "id": 104,
-          "title": "🎯 Multiple sales email sequence of letters",
-          "text": "You are a B2B sales copywriter specializing in cold letters and emails. in email automation sequences, achieving 25%+ open rates and 8%+ response rates.\n\nROLE EXPERTISE: Understand buyer psychology, decision-making processes in technical procurement, and the art of consistent but respectful reminders.\n\nTASK: Write 5 e-mails. email sequence for [position title] [business type], introducing [product/service].\n\nSEQUENCE STRUCTURE:\n\n1 email letter (day 0): Pattern Interrupt\n- A topic that stands out in the noise\n- Personalized first line based on [research signal]\n- One clear value proposition\n- Soft CTA (a question, not a meeting request)\n\n2 emails Letter (Day 3): Value Add\n- Subject: link to letter 1\n- Share a relevant resource (case study/guide/data)\n- No request—just value\n- P.S. with social proof\n\n3 emails letter (day 7): Specific use case\n- Topic: How [similar company] achieved [result]\n- Tell a micro story (problem → solution → result)\n- Include specific indicators\n- CTA: \"Would this be relevant to your company?\"\n\n4 emails letter (day 14): An honest \"goodbye\"\n- Subject: \"Should I close your case?\"\n- Admit that they are busy\n- Offer an easy opt-out or a specific contact time\n- Create FOMO without the pressure\n\n5 emails Letter (Day 21): A valuable alternative offer\n- Topic: \"Last Resource Before Leaving\"\n- Share your best content (ultimate guide/tool/template)\n- No sale—final value only\n- Leave the door open: \"If plans change, you know where to find me\"\n\nTONE: Professional, conversational, human. Non-sales and non-corporate. Confident but modest.\n\nSTYLE:\n- Write at an 8th grade reading level for clarity\n- Use \"you\" 3 times more than \"I\" or \"we\"\n- Sentences shorter than 20 words\n- One CTA per email\n- Include [CUSTOMIZATION TAGS] in brackets\n- Format for mobile\n\nLIMITATIONS:\n- Each letter: 75-125 words (without signature)\n- Subject lines: up to 50 characters\n- Avoid the phrases \"just checking in\", \"following up\", \"circle back\", \"touch base\"\n- Provide an A/B tested alternate subject line for the first email\n\nOBJECTIVE: Start conversations, not close deals. Focus on building curiosity and trust.",
-          "copyText": "You are a B2B sales copywriter specializing in cold letters and emails. in email automation sequences, achieving 25%+ open rates and 8%+ response rates.\n\nROLE EXPERTISE: Understand buyer psychology, decision-making processes in technical procurement, and the art of consistent but respectful reminders.\n\nTASK: Write 5 e-mails. email sequence for [position title] [business type], introducing [product/service].\n\nSEQUENCE STRUCTURE:\n\n1 email letter (day 0): Pattern Interrupt\n- A topic that stands out in the noise\n- Personalized first line based on [research signal]\n- One clear value proposition\n- Soft CTA (a question, not a meeting request)\n\n2 emails Letter (Day 3): Value Add\n- Subject: link to letter 1\n- Share a relevant resource (case study/guide/data)\n- No request—just value\n- P.S. with social proof\n\n3 emails letter (day 7): Specific use case\n- Topic: How [similar company] achieved [result]\n- Tell a micro story (problem → solution → result)\n- Include specific indicators\n- CTA: \"Would this be relevant to your company?\"\n\n4 emails letter (day 14): An honest \"goodbye\"\n- Subject: \"Should I close your case?\"\n- Admit that they are busy\n- Offer an easy opt-out or a specific contact time\n- Create FOMO without the pressure\n\n5 emails Letter (Day 21): A valuable alternative offer\n- Topic: \"Last Resource Before Leaving\"\n- Share your best content (ultimate guide/tool/template)\n- No sale—final value only\n- Leave the door open: \"If plans change, you know where to find me\"\n\nTONE: Professional, conversational, human. Non-sales and non-corporate. Confident but modest.\n\nSTYLE:\n- Write at an 8th grade reading level for clarity\n- Use \"you\" 3 times more than \"I\" or \"we\"\n- Sentences shorter than 20 words\n- One CTA per email\n- Include [CUSTOMIZATION TAGS] in brackets\n- Format for mobile\n\nLIMITATIONS:\n- Each letter: 75-125 words (without signature)\n- Subject lines: up to 50 characters\n- Avoid the phrases \"just checking in\", \"following up\", \"circle back\", \"touch base\"\n- Provide an A/B tested alternate subject line for the first email\n\nOBJECTIVE: Start conversations, not close deals. Focus on building curiosity and trust.",
+          "title": "🎯 Multi-touch sales email sequence",
+          "text": "You are a B2B sales copywriter specializing in cold outreach and email automation sequences, achieving 25%+ open rates and 8%+ response rates.\n\nROLE EXPERTISE: Understand buyer psychology, decision-making processes in technical procurement, and the art of consistent but respectful reminders.\n\nTASK: Write a 5-email sequence for [position title] [business type], introducing [product/service].\n\nSEQUENCE STRUCTURE:\n\n1 email letter (day 0): Pattern Interrupt\n- A topic that stands out in the noise\n- Personalized first line based on [research signal]\n- One clear value proposition\n- Soft CTA (a question, not a meeting request)\n\n2 emails Letter (Day 3): Value Add\n- Subject: link to letter 1\n- Share a relevant resource (case study/guide/data)\n- No request—just value\n- P.S. with social proof\n\n3 emails letter (day 7): Specific use case\n- Topic: How [similar company] achieved [result]\n- Tell a micro story (problem → solution → result)\n- Include specific indicators\n- CTA: \"Would this be relevant to your company?\"\n\n4 emails letter (day 14): An honest \"goodbye\"\n- Subject: \"Should I close your case?\"\n- Admit that they are busy\n- Offer an easy opt-out or a specific contact time\n- Create FOMO without the pressure\n\n5 emails Letter (Day 21): A valuable alternative offer\n- Topic: \"Last Resource Before Leaving\"\n- Share your best content (ultimate guide/tool/template)\n- No sale—final value only\n- Leave the door open: \"If plans change, you know where to find me\"\n\nTONE: Professional, conversational, human. Non-sales and non-corporate. Confident but modest.\n\nSTYLE:\n- Write at an 8th grade reading level for clarity\n- Use \"you\" 3 times more than \"I\" or \"we\"\n- Sentences shorter than 20 words\n- One CTA per email\n- Include [CUSTOMIZATION TAGS] in brackets\n- Format for mobile\n\nLIMITATIONS:\n- Each letter: 75-125 words (without signature)\n- Subject lines: up to 50 characters\n- Avoid the phrases \"just checking in\", \"following up\", \"circle back\", \"touch base\"\n- Provide an A/B tested alternate subject line for the first email\n\nOBJECTIVE: Start conversations, not close deals. Focus on building curiosity and trust.",
+          "copyText": "You are a B2B sales copywriter specializing in cold outreach and email automation sequences, achieving 25%+ open rates and 8%+ response rates.\n\nROLE EXPERTISE: Understand buyer psychology, decision-making processes in technical procurement, and the art of consistent but respectful reminders.\n\nTASK: Write a 5-email sequence for [position title] [business type], introducing [product/service].\n\nSEQUENCE STRUCTURE:\n\n1 email letter (day 0): Pattern Interrupt\n- A topic that stands out in the noise\n- Personalized first line based on [research signal]\n- One clear value proposition\n- Soft CTA (a question, not a meeting request)\n\n2 emails Letter (Day 3): Value Add\n- Subject: link to letter 1\n- Share a relevant resource (case study/guide/data)\n- No request—just value\n- P.S. with social proof\n\n3 emails letter (day 7): Specific use case\n- Topic: How [similar company] achieved [result]\n- Tell a micro story (problem → solution → result)\n- Include specific indicators\n- CTA: \"Would this be relevant to your company?\"\n\n4 emails letter (day 14): An honest \"goodbye\"\n- Subject: \"Should I close your case?\"\n- Admit that they are busy\n- Offer an easy opt-out or a specific contact time\n- Create FOMO without the pressure\n\n5 emails Letter (Day 21): A valuable alternative offer\n- Topic: \"Last Resource Before Leaving\"\n- Share your best content (ultimate guide/tool/template)\n- No sale—final value only\n- Leave the door open: \"If plans change, you know where to find me\"\n\nTONE: Professional, conversational, human. Non-sales and non-corporate. Confident but modest.\n\nSTYLE:\n- Write at an 8th grade reading level for clarity\n- Use \"you\" 3 times more than \"I\" or \"we\"\n- Sentences shorter than 20 words\n- One CTA per email\n- Include [CUSTOMIZATION TAGS] in brackets\n- Format for mobile\n\nLIMITATIONS:\n- Each letter: 75-125 words (without signature)\n- Subject lines: up to 50 characters\n- Avoid the phrases \"just checking in\", \"following up\", \"circle back\", \"touch base\"\n- Provide an A/B tested alternate subject line for the first email\n\nOBJECTIVE: Start conversations, not close deals. Focus on building curiosity and trust.",
           "keywords": [
             "sales",
             "email",
             "letters",
             "personalization",
             "automation",
-            "follows"
+            "follow-up"
           ],
           "category": "sales"
         }
@@ -429,8 +315,8 @@
         {
           "id": 12,
           "title": "Notice of delay",
-          "text": "Write a formal e-mail send a letter to the supplier about the order delay and ask for an updated delivery date.",
-          "copyText": "Write a formal e-mail send a letter to the supplier about the order delay and ask for an updated delivery date.",
+          "text": "Write a formal email to the supplier about the order delay and ask for an updated delivery date.",
+          "copyText": "Write a formal email to the supplier about the order delay and ask for an updated delivery date.",
           "keywords": [
             "delay",
             "email",
@@ -547,12 +433,12 @@
         {
           "id": 27,
           "title": "E-store text rewriting",
-          "text": "Rewrite this product description to make it more attractive in email. for store: [paste text].",
-          "copyText": "Rewrite this product description to make it more attractive in email. for store: [paste text].",
+          "text": "Rewrite this product description to make it more attractive for the online store: [paste text].",
+          "copyText": "Rewrite this product description to make it more attractive for the online store: [paste text].",
           "keywords": [
             "rewrite",
             "description",
-            "email",
+            "e-commerce",
             "shop"
           ],
           "category": "ecommerce"
@@ -563,11 +449,11 @@
           "text": "Generate SEO meta tags for [product name] page. Provide: meta name (up to 60 characters), meta description (up to 155 characters), Open Graph tags and JSON-LD product schema with price, availability, ratings. Include target keywords: [keyword list].",
           "copyText": "Generate SEO meta tags for [product name] page. Provide: meta name (up to 60 characters), meta description (up to 155 characters), Open Graph tags and JSON-LD product schema with price, availability, ratings. Include target keywords: [keyword list].",
           "keywords": [
-            "throwing",
+            "meta",
             "tags",
             "title",
             "description",
-            "scheme"
+            "schema"
           ],
           "category": "ecommerce"
         },
@@ -902,12 +788,11 @@
           "text": "Write a compelling customer success story about [customer name]. Structure: a description of the client's performance, what challenge was faced, the solution implemented, the results achieved (with indicators), a quote from the client and lessons learned. Scope: 500-700 words. Tone: Inspirational but matter-of-fact, with a focus on measurable results.",
           "copyText": "Write a compelling customer success story about [customer name]. Structure: a description of the client's performance, what challenge was faced, the solution implemented, the results achieved (with indicators), a quote from the client and lessons learned. Scope: 500-700 words. Tone: Inspirational but matter-of-fact, with a focus on measurable results.",
           "keywords": [
-            "of the client",
-            "good luck",
+            "customer",
+            "success",
             "story",
-            "the case",
-            "analysis",
-            "feedback"
+            "case study",
+            "testimonial"
           ],
           "category": "analytics"
         },
@@ -953,8 +838,8 @@
         {
           "id": 73,
           "title": "Summary of financial KPIs",
-          "text": "Create a summary summary of financial KPIs for [period]. Include: revenue growth %, gross margin %, operating expense ratio, days owed by customers, inventory turnover, and cash conversion cycle. Add a year-on-year (YoY) comparison and a brief comment on the trend for each indicator.",
-          "copyText": "Create a summary summary of financial KPIs for [period]. Include: revenue growth %, gross margin %, operating expense ratio, days owed by customers, inventory turnover, and cash conversion cycle. Add a year-on-year (YoY) comparison and a brief comment on the trend for each indicator.",
+          "text": "Create a summary of financial KPIs for [period]. Include: revenue growth %, gross margin %, operating expense ratio, days owed by customers, inventory turnover, and cash conversion cycle. Add a year-on-year (YoY) comparison and a brief comment on the trend for each indicator.",
+          "copyText": "Create a summary of financial KPIs for [period]. Include: revenue growth %, gross margin %, operating expense ratio, days owed by customers, inventory turnover, and cash conversion cycle. Add a year-on-year (YoY) comparison and a brief comment on the trend for each indicator.",
           "keywords": [
             "financial",
             "kpi",
@@ -984,7 +869,7 @@
           "text": "Conduct a detailed SWOT analysis for [project/company/product]. Include: Strengths (4-6 points), Weaknesses (4-6 points), Opportunities (4-6 points), Risks (4-6 points). For each point, provide: description, evidence/data, impact and recommendations. Format as a structured report with priorities.",
           "copyText": "Conduct a detailed SWOT analysis for [project/company/product]. Include: Strengths (4-6 points), Weaknesses (4-6 points), Opportunities (4-6 points), Risks (4-6 points). For each point, provide: description, evidence/data, impact and recommendations. Format as a structured report with priorities.",
           "keywords": [
-            "swt",
+            "swot",
             "analysis",
             "strategy",
             "strengths",
@@ -998,7 +883,7 @@
           "text": "Conduct a PEST analysis for [company/project/business] [country/region]. Include: Political factors (4-5 points), Economic factors (4-5 points), Social factors (4-5 points), Technological factors (4-5 points). For each factor, provide: description, impact, trends and recommendations. Submit as a strategic report.",
           "copyText": "Conduct a PEST analysis for [company/project/business] [country/region]. Include: Political factors (4-5 points), Economic factors (4-5 points), Social factors (4-5 points), Technological factors (4-5 points). For each factor, provide: description, impact, trends and recommendations. Submit as a strategic report.",
           "keywords": [
-            "plague",
+            "pest",
             "analysis",
             "politics",
             "economy",
@@ -1015,7 +900,7 @@
           "keywords": [
             "competitors",
             "analysis",
-            "swt",
+            "swot",
             "strategic",
             "market",
             "research"
@@ -1025,8 +910,8 @@
         {
           "id": 106,
           "title": "🔬 Deep research methodology",
-          "text": "You are a senior research analyst with an academic background and 10+ years of experience in multi-layered market, scientific and business research.\n\nASSIGNMENT: Carry out a detailed in-depth study on: [research topic/question].\n\nTYRIMO METODOLOGIJA (5 FAZĖS):\n\n## PHASE 1: SCOPE DEFINITION\n- Main research question: [formulate clearly]\n- Hypotheses (2-3): [what is expected to be found]\n- Limits: [what is NOT included in the study]\n- Success criteria: [how we will know the study is successful]\n\n## PHASE 2: SOURCE MAPPING\nGather information from different levels:\n🏛️ Primary sources: [official statistics, company reports, patents]\n📊 Secondary sources: [scientific articles, analyses, reviews]\n💬 Third-party sources: [expert opinions, forums, podcasts]\n⚡ Real-time signals: [news, social networks, trends]\n\n## PHASE 3: CROSS VERIFICATION\nFor each key statement:\n- Source A claims: [X]\n- Source B confirms/disagrees: [Y]\n- Confidence Score: [High/Medium/Low]\n- Uncertainties: [what remains unconfirmed]\n\n## PHASE 4: SYNTHESIS AND INSIGHTS\nStructured Analysis:\n1. Executive summary (5 sentences)\n2. Key findings (points 5-7 with evidence)\n3. Unexpected discoveries (what surprised)\n4. Contradictions between sources\n5. Knowledge gaps (what could not be found)\n\n## PHASE 5: RECOMMENDATIONS AND NEXT STEPS\n- Practical conclusions: [3-5 action recommendations]\n- Further research: [what questions need to be explored]\n- Declaration of credibility: [research limitations]\n\nFORMAT: Present your research with a clear visual structure, numbering and citations.\n\nLIMITATION: Clearly separate FACTS from INTERPRETATIONS from ASSUMPTIONS.",
-          "copyText": "You are a senior research analyst with an academic background and 10+ years of experience in multi-layered market, scientific and business research.\n\nASSIGNMENT: Carry out a detailed in-depth study on: [research topic/question].\n\nTYRIMO METODOLOGIJA (5 FAZĖS):\n\n## PHASE 1: SCOPE DEFINITION\n- Main research question: [formulate clearly]\n- Hypotheses (2-3): [what is expected to be found]\n- Limits: [what is NOT included in the study]\n- Success criteria: [how we will know the study is successful]\n\n## PHASE 2: SOURCE MAPPING\nGather information from different levels:\n🏛️ Primary sources: [official statistics, company reports, patents]\n📊 Secondary sources: [scientific articles, analyses, reviews]\n💬 Third-party sources: [expert opinions, forums, podcasts]\n⚡ Real-time signals: [news, social networks, trends]\n\n## PHASE 3: CROSS VERIFICATION\nFor each key statement:\n- Source A claims: [X]\n- Source B confirms/disagrees: [Y]\n- Confidence Score: [High/Medium/Low]\n- Uncertainties: [what remains unconfirmed]\n\n## PHASE 4: SYNTHESIS AND INSIGHTS\nStructured Analysis:\n1. Executive summary (5 sentences)\n2. Key findings (points 5-7 with evidence)\n3. Unexpected discoveries (what surprised)\n4. Contradictions between sources\n5. Knowledge gaps (what could not be found)\n\n## PHASE 5: RECOMMENDATIONS AND NEXT STEPS\n- Practical conclusions: [3-5 action recommendations]\n- Further research: [what questions need to be explored]\n- Declaration of credibility: [research limitations]\n\nFORMAT: Present your research with a clear visual structure, numbering and citations.\n\nLIMITATION: Clearly separate FACTS from INTERPRETATIONS from ASSUMPTIONS.",
+          "text": "You are a senior research analyst with an academic background and 10+ years of experience in multi-layered market, scientific and business research.\n\nASSIGNMENT: Carry out a detailed in-depth study on: [research topic/question].\n\nRESEARCH METHODOLOGY (5 PHASES):\n\n## PHASE 1: SCOPE DEFINITION\n- Main research question: [formulate clearly]\n- Hypotheses (2-3): [what is expected to be found]\n- Limits: [what is NOT included in the study]\n- Success criteria: [how we will know the study is successful]\n\n## PHASE 2: SOURCE MAPPING\nGather information from different levels:\n🏛️ Primary sources: [official statistics, company reports, patents]\n📊 Secondary sources: [scientific articles, analyses, reviews]\n💬 Third-party sources: [expert opinions, forums, podcasts]\n⚡ Real-time signals: [news, social networks, trends]\n\n## PHASE 3: CROSS VERIFICATION\nFor each key statement:\n- Source A claims: [X]\n- Source B confirms/disagrees: [Y]\n- Confidence Score: [High/Medium/Low]\n- Uncertainties: [what remains unconfirmed]\n\n## PHASE 4: SYNTHESIS AND INSIGHTS\nStructured Analysis:\n1. Executive summary (5 sentences)\n2. Key findings (points 5-7 with evidence)\n3. Unexpected discoveries (what surprised)\n4. Contradictions between sources\n5. Knowledge gaps (what could not be found)\n\n## PHASE 5: RECOMMENDATIONS AND NEXT STEPS\n- Practical conclusions: [3-5 action recommendations]\n- Further research: [what questions need to be explored]\n- Declaration of credibility: [research limitations]\n\nFORMAT: Present your research with a clear visual structure, numbering and citations.\n\nLIMITATION: Clearly separate FACTS from INTERPRETATIONS from ASSUMPTIONS.",
+          "copyText": "You are a senior research analyst with an academic background and 10+ years of experience in multi-layered market, scientific and business research.\n\nASSIGNMENT: Carry out a detailed in-depth study on: [research topic/question].\n\nRESEARCH METHODOLOGY (5 PHASES):\n\n## PHASE 1: SCOPE DEFINITION\n- Main research question: [formulate clearly]\n- Hypotheses (2-3): [what is expected to be found]\n- Limits: [what is NOT included in the study]\n- Success criteria: [how we will know the study is successful]\n\n## PHASE 2: SOURCE MAPPING\nGather information from different levels:\n🏛️ Primary sources: [official statistics, company reports, patents]\n📊 Secondary sources: [scientific articles, analyses, reviews]\n💬 Third-party sources: [expert opinions, forums, podcasts]\n⚡ Real-time signals: [news, social networks, trends]\n\n## PHASE 3: CROSS VERIFICATION\nFor each key statement:\n- Source A claims: [X]\n- Source B confirms/disagrees: [Y]\n- Confidence Score: [High/Medium/Low]\n- Uncertainties: [what remains unconfirmed]\n\n## PHASE 4: SYNTHESIS AND INSIGHTS\nStructured Analysis:\n1. Executive summary (5 sentences)\n2. Key findings (points 5-7 with evidence)\n3. Unexpected discoveries (what surprised)\n4. Contradictions between sources\n5. Knowledge gaps (what could not be found)\n\n## PHASE 5: RECOMMENDATIONS AND NEXT STEPS\n- Practical conclusions: [3-5 action recommendations]\n- Further research: [what questions need to be explored]\n- Declaration of credibility: [research limitations]\n\nFORMAT: Present your research with a clear visual structure, numbering and citations.\n\nLIMITATION: Clearly separate FACTS from INTERPRETATIONS from ASSUMPTIONS.",
           "keywords": [
             "investigation",
             "analysis",
@@ -1079,7 +964,7 @@
           "copyText": "Generate 5 Facebook post ideas about new Arduino products, each with a clear call to action.",
           "keywords": [
             "facebook",
-            "record",
+            "post",
             "social",
             "networks",
             "arduino"
@@ -1088,9 +973,9 @@
         },
         {
           "id": 60,
-          "title": "email mail marketing campaign plan",
-          "text": "Create [period] email email marketing campaign plan [subject]. Include: campaign goals, audience segmentation, email email subjects and graphics, personalization strategy, A/B tests, success rates. Optimize for open and conversion rates.",
-          "copyText": "Create [period] email email marketing campaign plan [subject]. Include: campaign goals, audience segmentation, email email subjects and graphics, personalization strategy, A/B tests, success rates. Optimize for open and conversion rates.",
+          "title": "Email marketing campaign plan",
+          "text": "Create an email marketing campaign plan for [period] on [subject]. Include: campaign goals, audience segmentation, email subject lines and creative, personalization strategy, A/B tests, and success metrics. Optimize for open and conversion rates.",
+          "copyText": "Create an email marketing campaign plan for [period] on [subject]. Include: campaign goals, audience segmentation, email subject lines and creative, personalization strategy, A/B tests, and success metrics. Optimize for open and conversion rates.",
           "keywords": [
             "email",
             "marketing",
@@ -1105,7 +990,7 @@
       "id": "it",
       "name": "IT",
       "icon": "💻",
-      "count": 9,
+      "count": 12,
       "prompts": [
         {
           "id": 13,
@@ -1152,8 +1037,8 @@
         {
           "id": 63,
           "title": "IT Support Response Template",
-          "text": "Create a Help Desk Response Template [Common IT Problem: Password Reset/Email mail access/VPN connection]. Include: greeting, problem confirmation, numbered troubleshooting steps, estimated resolution time, escalation path if not resolved, and closing with a ticket number.",
-          "copyText": "Create a Help Desk Response Template [Common IT Problem: Password Reset/Email mail access/VPN connection]. Include: greeting, problem confirmation, numbered troubleshooting steps, estimated resolution time, escalation path if not resolved, and closing with a ticket number.",
+          "text": "Create a Help Desk Response Template [Common IT Problem: Password Reset/Email access/VPN connection]. Include: greeting, problem confirmation, numbered troubleshooting steps, estimated resolution time, escalation path if not resolved, and closing with a ticket number.",
+          "copyText": "Create a Help Desk Response Template [Common IT Problem: Password Reset/Email access/VPN connection]. Include: greeting, problem confirmation, numbered troubleshooting steps, estimated resolution time, escalation path if not resolved, and closing with a ticket number.",
           "keywords": [
             "password",
             "restoration",
@@ -1164,10 +1049,67 @@
           "category": "it"
         },
         {
+          "id": 64,
+          "title": "Backup and recovery plan",
+          "text": "Develop a backup and recovery procedure for [system/database]. Set: backup frequency (daily/weekly), type (full/incremental), storage location (local/cloud), storage policy, recovery time (RTO), recovery point objective (RPO) and testing schedule.",
+          "copyText": "Develop a backup and recovery procedure for [system/database]. Set: backup frequency (daily/weekly), type (full/incremental), storage location (local/cloud), storage policy, recovery time (RTO), recovery point objective (RPO), and testing schedule.",
+          "keywords": [
+            "spare",
+            "copies",
+            "recovery",
+            "plan",
+            "data",
+            "protection"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 65,
+          "title": "User access matrix",
+          "text": "Create a user access control matrix for [system/application]. Define roles (administrator, manager, user, read-only), permissions for each role, data access levels, approval process for access requests, and periodic review schedule. Format as a clear table with RBAC logic.",
+          "copyText": "Create a user access control matrix for [system/application]. Define roles (administrator, manager, user, read-only), permissions for each role, data access levels, approval process for access requests, and periodic review schedule. Format as a clear table with RBAC logic.",
+          "keywords": [
+            "users",
+            "access",
+            "permits",
+            "roles",
+            "security"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 66,
+          "title": "Technical documentation template",
+          "text": "Prepare technical documentation for [feature/API/module]. Include: overview and purpose, requirements, step-by-step instructions with screenshots, code samples (if applicable), common errors and solutions, FAQ, and version history. Target audience: [developers/end users/administrators].",
+          "copyText": "Prepare technical documentation for [feature/API/module]. Include: overview and purpose, requirements, step-by-step instructions with screenshots, code samples (if applicable), common errors and solutions, FAQ, and version history. Target audience: [developers/end users/administrators].",
+          "keywords": [
+            "software",
+            "documentation",
+            "api",
+            "technical",
+            "specifications"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 67,
+          "title": "Data backup strategy",
+          "text": "Create a data backup strategy [system/data]. Include: what is backed up, frequency (daily/weekly), storage locations (cloud/local), storage period, recovery procedures, testing schedule. Optimize for security and fast recovery.",
+          "copyText": "Create a data backup strategy [system/data]. Include: what is backed up, frequency (daily/weekly), storage locations (cloud/local), storage period, recovery procedures, testing schedule. Optimize for security and fast recovery.",
+          "keywords": [
+            "backup",
+            "strategy",
+            "spare",
+            "copy",
+            "data"
+          ],
+          "category": "it"
+        },
+        {
           "id": 69,
-          "title": "Payment reminder email letter",
-          "text": "Write a professional yet friendly payment reminder email. letter regarding invoice #[number], which is [X days] late. Include: account details, payment methods and contact information. Tone: Polite but firm while maintaining contact with the customer.",
-          "copyText": "Write a professional yet friendly payment reminder email. letter regarding invoice #[number], which is [X days] late. Include: account details, payment methods and contact information. Tone: Polite but firm while maintaining contact with the customer.",
+          "title": "Payment reminder email",
+          "text": "Write a professional yet friendly payment reminder email regarding invoice #[number], which is [X days] overdue. Include: invoice details, payment methods, and contact information. Tone: polite but firm while maintaining a good customer relationship.",
+          "copyText": "Write a professional yet friendly payment reminder email regarding invoice #[number], which is [X days] overdue. Include: invoice details, payment methods, and contact information. Tone: polite but firm while maintaining a good customer relationship.",
           "keywords": [
             "account",
             "a reminder",
@@ -1186,19 +1128,6 @@
             "control",
             "list",
             "compliance"
-          ],
-          "category": "it"
-        },
-        {
-          "id": 80,
-          "title": "Draft personnel policy",
-          "text": "Draft a clear, employee-friendly [policy topic: eg telecommuting, leave, expenses] policy. Structure: purpose, scope, policy details, procedures and FAQs. Use simple language and give 3-5 most common situations with examples.",
-          "copyText": "Draft a clear, employee-friendly [policy topic: eg telecommuting, leave, expenses] policy. Structure: purpose, scope, policy details, procedures and FAQs. Use simple language and give 3-5 most common situations with examples.",
-          "keywords": [
-            "politics",
-            "personnel",
-            "rules",
-            "manager"
           ],
           "category": "it"
         },
@@ -1235,7 +1164,7 @@
       "id": "finance",
       "name": "Finance",
       "icon": "💰",
-      "count": 2,
+      "count": 3,
       "prompts": [
         {
           "id": 5,
@@ -1253,13 +1182,26 @@
         {
           "id": 68,
           "title": "VAT explanation",
-          "text": "Write a clear explanation to the client on how VAT is calculated and what rules apply to buyers from Latvia.",
-          "copyText": "Write a clear explanation to the client on how VAT is calculated and what rules apply to buyers from Latvia.",
+          "text": "Write a clear explanation to the client on how VAT is calculated and what rules apply to buyers from Lithuania.",
+          "copyText": "Write a clear explanation to the client on how VAT is calculated and what rules apply to buyers from Lithuania.",
           "keywords": [
             "VAT",
             "explanation",
-            "fee",
-            "Latvia"
+            "tax",
+            "Lithuania"
+          ],
+          "category": "finance"
+        },
+        {
+          "id": 71,
+          "title": "Cash flow forecast",
+          "text": "Create a 3-month cash flow forecast based on the following data: [paste numbers]. Include: opening balance, expected inflows (with payment terms), expected outflows, and projected ending balance. Highlight potential liquidity risks and suggest mitigation measures.",
+          "copyText": "Create a 3-month cash flow forecast based on the following data: [paste numbers]. Include: opening balance, expected inflows (with payment terms), expected outflows, and projected ending balance. Highlight potential liquidity risks and suggest mitigation measures.",
+          "keywords": [
+            "money",
+            "streams",
+            "forecast",
+            "liquidity"
           ],
           "category": "finance"
         }
@@ -1269,7 +1211,7 @@
       "id": "hr",
       "name": "HR",
       "icon": "👥",
-      "count": 3,
+      "count": 7,
       "prompts": [
         {
           "id": 77,
@@ -1299,6 +1241,61 @@
           "category": "hr"
         },
         {
+          "id": 79,
+          "title": "Performance appraisal template",
+          "text": "Create a balanced performance appraisal template for employee [employee name] working in [position title]. Include sections for: achievements, areas for improvement, goal progress, skill development, and goals for next quarter. Use constructive, growth-oriented language.",
+          "copyText": "Create a balanced performance appraisal template for employee [employee name] working in [position title]. Include sections for: achievements, areas for improvement, goal progress, skill development, and goals for next quarter. Use constructive, growth-oriented language.",
+          "keywords": [
+            "activities",
+            "evaluation",
+            "reversible",
+            "connection",
+            "goals"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 80,
+          "title": "Draft personnel policy",
+          "text": "Draft a clear, employee-friendly [policy topic: eg telecommuting, leave, expenses] policy. Structure: purpose, scope, policy details, procedures and FAQs. Use simple language and give 3-5 most common situations with examples.",
+          "copyText": "Draft a clear, employee-friendly [policy topic: eg telecommuting, leave, expenses] policy. Structure: purpose, scope, policy details, procedures and FAQs. Use simple language and give 3-5 most common situations with examples.",
+          "keywords": [
+            "politics",
+            "personnel",
+            "rules",
+            "manager"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 81,
+          "title": "Curriculum plan",
+          "text": "Create a half-day training program on [topic] for [department/team]. Include: learning objectives, agenda with time plan, activities/practice, materials needed and how to measure teaching effectiveness.",
+          "copyText": "Create a half-day training program on [topic] for [department/team]. Include: learning objectives, agenda with time plan, activities/practice, materials needed and how to measure teaching effectiveness.",
+          "keywords": [
+            "training",
+            "program",
+            "skills",
+            "education",
+            "workshop"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 82,
+          "title": "Job offer letter",
+          "text": "Write a professional job offer letter to candidate [candidate name] for [position title]. Include: salary, start date, summary of benefits, accountability and next steps. Tone: Warm and welcoming while maintaining formality.",
+          "copyText": "Write a professional job offer letter to candidate [candidate name] for [position title]. Include: salary, start date, summary of benefits, accountability and next steps. Tone: Warm and welcoming while maintaining formality.",
+          "keywords": [
+            "of work",
+            "offer",
+            "letter",
+            "employment",
+            "contract"
+          ],
+          "category": "hr"
+        },
+        {
           "id": 83,
           "title": "Employee Engagement Survey",
           "text": "Create a 15-question employee engagement survey covering: job satisfaction, manager effectiveness, work-life balance, growth opportunities, and company culture. Use a mixed form of rating scale (1-5) and open-ended questions. Make sure the survey is anonymous.",
@@ -1307,8 +1304,8 @@
             "employees",
             "engagement",
             "survey",
-            "reversible",
-            "connection"
+            "feedback",
+            "culture"
           ],
           "category": "hr"
         }
@@ -1534,8 +1531,8 @@
         {
           "id": 107,
           "title": "🤖 Agent execution of tasks",
-          "text": "You are an autonomous AI agent with planning, decomposition and iterative execution capabilities.\n\nMAIN TASK: [Describe a complex task, eg: \"Develop a complete marketing campaign for a new product launch\"]\n\nAGENCY EXECUTION PROTOCOL:\n\n## 1. TASK DECOMPOSITION\nBreak down the main task into smaller, executable parts:\n\n```\nMAIN_TASK: [Main Objective]\n├── SUBTASK_1: [Step One]\n│ ├── action_1.1: [Specific Action]\n│ ├── action_1.2: [Specific Action]\n│ └── checkpoint_1: [How to check done]\n├── SUBTASK_2: [Step Two]\n│ └── ...\n└── SUBTASK_N: [Last Step]\n```\n\n## 2. DEPENDENCY MAP\nDefine order and relationships:\n- [SUBTASK_1] → blocks → [SUBTASK_3]\n- [SUBTASK_2] → parallelized with → [SUBTASK_1]\n- Critical path: [which steps are necessary]\n\n## 3. TOOLS AND RESOURCES INVENTORY\nFor each task:\n| Task | Required Tool | Data Source | Human input? |\n|----------|--------------------|--------------------|------------------|\n| 1.1 | [tool] | [source] | Yes/No |\n\n## 4. EXECUTION CYCLE (for each step)\n```\nWHILE task_incomplete:\n    1. PLAN: What will I do in this step?\n    2. EXECUTE: I perform an action\n    3. MONITOR: Does the result meet expectations?\n    4. REFLECT: What worked? Who isn't? Why?\n    5. ADAPT: Do you need to adjust the plan?\n    6. CONTINUE or ASK the person\n```\n\n## 5. ERROR MANAGEMENT PROTOCOL\n- If step X fails → [backup plan]\n- If information is missing → [how to get]\n- If limitation is reached → [eskalavik with context]\n\n## 6. FORMAT OF PROGRESS REPORTS\nAfter each stage, provide:\n✅ Done: [what's done]\n⏳ Ongoing: [what is being done now]\n📋 Laukia: [kas liko]\n🚧 Blockers: [what blocks]\n💡 Insights: [what I learned]\n\nOUTPUT REQUIREMENT: Start with a complete plan, then proceed step by step, waiting for approval or corrections after each step. Be proactive, but ask for human input at critical decision points.",
-          "copyText": "You are an autonomous AI agent with planning, decomposition and iterative execution capabilities.\n\nMAIN TASK: [Describe a complex task, eg: \"Develop a complete marketing campaign for a new product launch\"]\n\nAGENCY EXECUTION PROTOCOL:\n\n## 1. TASK DECOMPOSITION\nBreak down the main task into smaller, executable parts:\n\n```\nMAIN_TASK: [Main Objective]\n├── SUBTASK_1: [Step One]\n│ ├── action_1.1: [Specific Action]\n│ ├── action_1.2: [Specific Action]\n│ └── checkpoint_1: [How to check done]\n├── SUBTASK_2: [Step Two]\n│ └── ...\n└── SUBTASK_N: [Last Step]\n```\n\n## 2. DEPENDENCY MAP\nDefine order and relationships:\n- [SUBTASK_1] → blocks → [SUBTASK_3]\n- [SUBTASK_2] → parallelized with → [SUBTASK_1]\n- Critical path: [which steps are necessary]\n\n## 3. TOOLS AND RESOURCES INVENTORY\nFor each task:\n| Task | Required Tool | Data Source | Human input? |\n|----------|--------------------|--------------------|------------------|\n| 1.1 | [tool] | [source] | Yes/No |\n\n## 4. EXECUTION CYCLE (for each step)\n```\nWHILE task_incomplete:\n    1. PLAN: What will I do in this step?\n    2. EXECUTE: I perform an action\n    3. MONITOR: Does the result meet expectations?\n    4. REFLECT: What worked? Who isn't? Why?\n    5. ADAPT: Do you need to adjust the plan?\n    6. CONTINUE or ASK the person\n```\n\n## 5. ERROR MANAGEMENT PROTOCOL\n- If step X fails → [backup plan]\n- If information is missing → [how to get]\n- If limitation is reached → [eskalavik with context]\n\n## 6. FORMAT OF PROGRESS REPORTS\nAfter each stage, provide:\n✅ Done: [what's done]\n⏳ Ongoing: [what is being done now]\n📋 Laukia: [kas liko]\n🚧 Blockers: [what blocks]\n💡 Insights: [what I learned]\n\nOUTPUT REQUIREMENT: Start with a complete plan, then proceed step by step, waiting for approval or corrections after each step. Be proactive, but ask for human input at critical decision points.",
+          "text": "You are an autonomous AI agent with planning, decomposition and iterative execution capabilities.\n\nMAIN TASK: [Describe a complex task, eg: \"Develop a complete marketing campaign for a new product launch\"]\n\nAGENCY EXECUTION PROTOCOL:\n\n## 1. TASK DECOMPOSITION\nBreak down the main task into smaller, executable parts:\n\n```\nMAIN_TASK: [Main Objective]\n├── SUBTASK_1: [Step One]\n│ ├── action_1.1: [Specific Action]\n│ ├── action_1.2: [Specific Action]\n│ └── checkpoint_1: [How to check done]\n├── SUBTASK_2: [Step Two]\n│ └── ...\n└── SUBTASK_N: [Last Step]\n```\n\n## 2. DEPENDENCY MAP\nDefine order and relationships:\n- [SUBTASK_1] → blocks → [SUBTASK_3]\n- [SUBTASK_2] → parallelized with → [SUBTASK_1]\n- Critical path: [which steps are necessary]\n\n## 3. TOOLS AND RESOURCES INVENTORY\nFor each task:\n| Task | Required Tool | Data Source | Human input? |\n|----------|--------------------|--------------------|------------------|\n| 1.1 | [tool] | [source] | Yes/No |\n\n## 4. EXECUTION CYCLE (for each step)\n```\nWHILE task_incomplete:\n    1. PLAN: What will I do in this step?\n    2. EXECUTE: I perform an action\n    3. MONITOR: Does the result meet expectations?\n    4. REFLECT: What worked? What did not? Why?\n    5. ADAPT: Do you need to adjust the plan?\n    6. CONTINUE or ASK a human\n```\n\n## 5. ERROR MANAGEMENT PROTOCOL\n- If step X fails → [backup plan]\n- If information is missing → [how to get]\n- If limitation is reached → [escalate with context]\n\n## 6. FORMAT OF PROGRESS REPORTS\nAfter each stage, provide:\n✅ Done: [what's done]\n⏳ Ongoing: [what is being done now]\n📋 Remaining: [what is left]\n🚧 Blockers: [what blocks]\n💡 Insights: [what I learned]\n\nOUTPUT REQUIREMENT: Start with a complete plan, then proceed step by step, waiting for approval or corrections after each step. Be proactive, but ask for human input at critical decision points.",
+          "copyText": "You are an autonomous AI agent with planning, decomposition and iterative execution capabilities.\n\nMAIN TASK: [Describe a complex task, eg: \"Develop a complete marketing campaign for a new product launch\"]\n\nAGENCY EXECUTION PROTOCOL:\n\n## 1. TASK DECOMPOSITION\nBreak down the main task into smaller, executable parts:\n\n```\nMAIN_TASK: [Main Objective]\n├── SUBTASK_1: [Step One]\n│ ├── action_1.1: [Specific Action]\n│ ├── action_1.2: [Specific Action]\n│ └── checkpoint_1: [How to check done]\n├── SUBTASK_2: [Step Two]\n│ └── ...\n└── SUBTASK_N: [Last Step]\n```\n\n## 2. DEPENDENCY MAP\nDefine order and relationships:\n- [SUBTASK_1] → blocks → [SUBTASK_3]\n- [SUBTASK_2] → parallelized with → [SUBTASK_1]\n- Critical path: [which steps are necessary]\n\n## 3. TOOLS AND RESOURCES INVENTORY\nFor each task:\n| Task | Required Tool | Data Source | Human input? |\n|----------|--------------------|--------------------|------------------|\n| 1.1 | [tool] | [source] | Yes/No |\n\n## 4. EXECUTION CYCLE (for each step)\n```\nWHILE task_incomplete:\n    1. PLAN: What will I do in this step?\n    2. EXECUTE: I perform an action\n    3. MONITOR: Does the result meet expectations?\n    4. REFLECT: What worked? What did not? Why?\n    5. ADAPT: Do you need to adjust the plan?\n    6. CONTINUE or ASK a human\n```\n\n## 5. ERROR MANAGEMENT PROTOCOL\n- If step X fails → [backup plan]\n- If information is missing → [how to get]\n- If limitation is reached → [escalate with context]\n\n## 6. FORMAT OF PROGRESS REPORTS\nAfter each stage, provide:\n✅ Done: [what's done]\n⏳ Ongoing: [what is being done now]\n📋 Remaining: [what is left]\n🚧 Blockers: [what blocks]\n💡 Insights: [what I learned]\n\nOUTPUT REQUIREMENT: Start with a complete plan, then proceed step by step, waiting for approval or corrections after each step. Be proactive, but ask for human input at critical decision points.",
           "keywords": [
             "agent",
             "autonomous",

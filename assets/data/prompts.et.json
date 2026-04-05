@@ -11,8 +11,8 @@
         {
           "id": 1,
           "title": "meilikiri kliendile",
-          "text": "Kirjutage [tootest] huvitatud kliendile selge ja sõbralik e-kiri. ",
-          "copyText": "Kirjutage [tootest] huvitatud kliendile selge ja sõbralik e-kiri. ",
+          "text": "Kirjutage [tootest] huvitatud kliendile selge ja sõbralik e-kiri. Selgitage peamisi eeliseid ja soovitage sobivaid alternatiive.",
+          "copyText": "Kirjutage [tootest] huvitatud kliendile selge ja sõbralik e-kiri. Selgitage peamisi eeliseid ja soovitage sobivaid alternatiive.",
           "keywords": [
             "email",
             "kiri",
@@ -37,7 +37,7 @@
         },
         {
           "id": 3,
-          "title": "Kuuaruanne",
+          "title": "Igakuine aruanne",
           "text": "Looge lühike juhtimisaruanne, mis näitab muutusi igakuises müügis, kasutades järgmisi andmeid: [kleebi CSV].",
           "copyText": "Looge lühike juhtimisaruanne, mis näitab muutusi igakuises müügis, kasutades järgmisi andmeid: [kleebi CSV].",
           "keywords": [
@@ -54,7 +54,7 @@
       "id": "sales",
       "name": "Müük",
       "icon": "💼",
-      "count": 27,
+      "count": 19,
       "prompts": [
         {
           "id": 4,
@@ -74,7 +74,7 @@
           "text": "Looge [tootekategooria] kohta viie korduma kippuva küsimuse (KKK) ja vastuste loend.",
           "copyText": "Looge [tootekategooria] kohta viie korduma kippuva küsimuse (KKK) ja vastuste loend.",
           "keywords": [
-            "tütar",
+            "KKK",
             "küsimusi",
             "vastuseid"
           ],
@@ -95,8 +95,8 @@
         {
           "id": 8,
           "title": "Kaubanduspakkumise struktuur",
-          "text": "Looge professionaalse äripakkumise struktuur [klient/projekt]. ",
-          "copyText": "Looge professionaalse äripakkumise struktuur [klient/projekt]. ",
+          "text": "Looge professionaalse äripakkumise struktuur [klient/projekt]. Kaasa: kokkuvõte, probleemi kirjeldus, lahendus, eelised, hinnakujundus, rakendusplaan, garantiid, CTA. Optimeerige uuesti lugemiseks ja kiireks lahendamiseks.",
+          "copyText": "Looge professionaalse äripakkumise struktuur [klient/projekt]. Kaasa: kokkuvõte, probleemi kirjeldus, lahendus, eelised, hinnakujundus, rakendusplaan, garantiid, CTA. Optimeerige uuesti lugemiseks ja kiireks lahendamiseks.",
           "keywords": [
             "pakkuma",
             "kaubanduslik",
@@ -107,20 +107,20 @@
         {
           "id": 10,
           "title": "Vastulause vastuse juhend",
-          "text": "Looge [toote/teenuse] vastuväidetele vastamise juhend. ",
-          "copyText": "Looge [toote/teenuse] vastuväidetele vastamise juhend. ",
+          "text": "Looge [toote/teenuse] vastuväidetele vastamise juhend. Iga vastuväite (hind, aeg, usaldusväärsus, konkurendid) puhul esitage: vastuväite mõistmine, empaatiline vastus, lahendus/alternatiiv, sotsiaalne tõestus. Kasutage loomulikku, mitteagressiivset keelt.",
+          "copyText": "Looge [toote/teenuse] vastuväidetele vastamise juhend. Iga vastuväite (hind, aeg, usaldusväärsus, konkurendid) puhul esitage: vastuväite mõistmine, empaatiline vastus, lahendus/alternatiiv, sotsiaalne tõestus. Kasutage loomulikku, mitteagressiivset keelt.",
           "keywords": [
-            "objektid",
+            "vastuväiteid",
             "vastuseid",
-            "vastuväiteid"
+            "müük"
           ],
           "category": "sales"
         },
         {
           "id": 14,
           "title": "RFQ (Request for Proposal) mall",
-          "text": "Looge tarnijatele professionaalne pakkumine [toode/komponendi] jaoks. ",
-          "copyText": "Looge tarnijatele professionaalne pakkumine [toode/komponendi] jaoks. ",
+          "text": "Looge tarnijatele professionaalne pakkumine [toode/komponendi] jaoks. Kaasake: toote spetsifikatsioonid, nõutav kogus, tarneaeg, kvaliteedinõuded, maksetingimused ja hindamiskriteeriumid. Vormindage professionaalse ärimeilina.",
+          "copyText": "Looge tarnijatele professionaalne pakkumine [toode/komponendi] jaoks. Kaasake: toote spetsifikatsioonid, nõutav kogus, tarneaeg, kvaliteedinõuded, maksetingimused ja hindamiskriteeriumid. Vormindage professionaalse ärimeilina.",
           "keywords": [
             "rfq",
             "pakkuma",
@@ -133,11 +133,11 @@
         {
           "id": 23,
           "title": "Tagastamise (RMA) töötlemise juhend",
-          "text": "Valmistage ette RMA #[number] tagastamise töötlemise protseduur. ",
-          "copyText": "Valmistage ette RMA #[number] tagastamise töötlemise protseduur. ",
+          "text": "Valmistage ette RMA #[number] tagastamise töötlemise protseduur. Kirje: tagastamise põhjus, toote seisukorra hindamine, kvaliteedikontrolli sammud, tagastamise/vahetuse otsuse kriteeriumid ja lattu tagastamise juhised. Kaasake kliendisuhtluse mall.",
+          "copyText": "Valmistage ette RMA #[number] tagastamise töötlemise protseduur. Kirje: tagastamise põhjus, toote seisukorra hindamine, kvaliteedikontrolli sammud, tagastamise/vahetuse otsuse kriteeriumid ja lattu tagastamise juhised. Kaasake kliendisuhtluse mall.",
           "keywords": [
-            "tagasimakseid",
-            "rm",
+            "naaseb",
+            "rma",
             "kvaliteet",
             "protsessi"
           ],
@@ -146,8 +146,8 @@
         {
           "id": 28,
           "title": "Toodete võrdlustabel",
-          "text": "Looge võrdlustabel [Toode 1] vs [Toode 2] vs [Toode 3]. ",
-          "copyText": "Looge võrdlustabel [Toode 1] vs [Toode 2] vs [Toode 3]. ",
+          "text": "Looge võrdlustabel [Toode 1] vs [Toode 2] vs [Toode 3]. Võrdle: peamised andmed, hind, funktsioonid, parimad kasutusjuhtumid, plussid ja miinused. Vormindage selge visuaalse hierarhiaga HTML-tabelina. Aidake klientidel teha teadlikke otsuseid.",
+          "copyText": "Looge võrdlustabel [Toode 1] vs [Toode 2] vs [Toode 3]. Võrdle: peamised andmed, hind, funktsioonid, parimad kasutusjuhtumid, plussid ja miinused. Vormindage selge visuaalse hierarhiaga HTML-tabelina. Aidake klientidel teha teadlikke otsuseid.",
           "keywords": [
             "tooteid",
             "võrdlus",
@@ -158,9 +158,9 @@
         },
         {
           "id": 31,
-          "title": "Mahajäetud ostukorvi meilikirjade seeria",
-          "text": "Looge mahajäetud ostukorvi jaoks 3 meilisõnumi jada. ",
-          "copyText": "Looge mahajäetud ostukorvi jaoks 3 meilisõnumi jada. ",
+          "title": "Mahajäetud ostukorvi meili seeria",
+          "text": "Looge hüljatud ostukorvi jaoks kolmest meilist koosnev jada. Meil 1 (1 tunni pärast): sõbralik meeldetuletus + tootefotod. Meil 2 (pärast 24 tundi): lisage sotsiaalne tõend ja kiireloomulisuse element. Meil 3 (pärast 48 tundi): viimane võimalus väikese allahindlusega. Säilitage sõbralik, mittepealetükkiv toon.",
+          "copyText": "Looge hüljatud ostukorvi jaoks kolmest meilist koosnev jada. Meil 1 (1 tunni pärast): sõbralik meeldetuletus + tootefotod. Meil 2 (pärast 24 tundi): lisage sotsiaalne tõend ja kiireloomulisuse element. Meil 3 (pärast 48 tundi): viimane võimalus väikese allahindlusega. Säilitage sõbralik, mittepealetükkiv toon.",
           "keywords": [
             "email",
             "kiri",
@@ -173,8 +173,8 @@
         {
           "id": 35,
           "title": "Tootelehe konversiooni optimeerimine",
-          "text": "Looge tootelehe optimeerimisplaan [toode]. ",
-          "copyText": "Looge tootelehe optimeerimisplaan [toode]. ",
+          "text": "Looge tootelehe optimeerimisplaan [toode]. Sisaldab: kangelase jaotise täiustusi, tootekirjelduse struktuuri, pildistrateegiat, sotsiaalseid tõendeid, CTA optimeerimist, usaldussignaale, mobiili optimeerimist. Esitage prioriteedid ja eeldatav mõju.",
+          "copyText": "Looge tootelehe optimeerimisplaan [toode]. Sisaldab: kangelase jaotise täiustusi, tootekirjelduse struktuuri, pildistrateegiat, sotsiaalseid tõendeid, CTA optimeerimist, usaldussignaale, mobiili optimeerimist. Esitage prioriteedid ja eeldatav mõju.",
           "keywords": [
             "konversioonid",
             "optimeerimine",
@@ -186,13 +186,12 @@
         {
           "id": 38,
           "title": "Värvipaleti soovitus",
-          "text": "Soovitage värvipaletti tüübile [projekt/ettevõte]. ",
-          "copyText": "Soovitage värvipaletti tüübile [projekt/ettevõte]. ",
+          "text": "Soovitage värvipaletti tüübile [projekt/ettevõte]. Kaasa: põhivärv (kuueteistkümnendkood), sekundaarsed värvid, aktsentvärvid, neutraalsed värvid. Selgitage iga värvi psühholoogilist mõju ja nende koos töötamist. Tooge näiteid iga värvi kasutamise kohta.",
+          "copyText": "Soovitage värvipaletti tüübile [projekt/ettevõte]. Kaasa: põhivärv (kuueteistkümnendkood), sekundaarsed värvid, aktsentvärvid, neutraalsed värvid. Selgitage iga värvi psühholoogilist mõju ja nende koos töötamist. Tooge näiteid iga värvi kasutamise kohta.",
           "keywords": [
             "värvid",
             "palett",
-            "küps",
-            "värvid",
+            "kaubamärk",
             "psühholoogia"
           ],
           "category": "sales"
@@ -212,8 +211,8 @@
         {
           "id": 56,
           "title": "Pressiteate mustand",
-          "text": "Koostage pressiteade teemal [Ettevõtte uudised/toote lansseerimine]. ",
-          "copyText": "Koostage pressiteade teemal [Ettevõtte uudised/toote lansseerimine]. ",
+          "text": "Koostage pressiteade teemal [Ettevõtte uudised/toote lansseerimine]. Struktuur: pealkiri, kuupäev ja koht, sissejuhatav lõik (kes/mis/millal/kus/miks), sisu koos hinnapakkumistega, ettevõtte kirjeldus ja kontaktandmed. Toon: uudishimulik, faktiline, professionaalne. Sihtmärk: tööstusmeedia.",
+          "copyText": "Koostage pressiteade teemal [Ettevõtte uudised/toote lansseerimine]. Struktuur: pealkiri, kuupäev ja koht, sissejuhatav lõik (kes/mis/millal/kus/miks), sisu koos hinnapakkumistega, ettevõtte kirjeldus ja kontaktandmed. Toon: uudishimulik, faktiline, professionaalne. Sihtmärk: tööstusmeedia.",
           "keywords": [
             "sõnum",
             "ajakirjanduse jaoks",
@@ -225,11 +224,11 @@
         {
           "id": 57,
           "title": "LinkedIn postitusseeria",
-          "text": "Looge B2B vaatajaskonna jaoks 5 LinkedIn postitust teemal [teema/valdkonna trend]. ",
-          "copyText": "Looge B2B vaatajaskonna jaoks 5 LinkedIn postitust teemal [teema/valdkonna trend]. ",
+          "text": "Looge B2B vaatajaskonna jaoks 5 LinkedIn postitust teemal [teema/valdkonna trend]. Segage vorminguid: 1) küsimus/küsitlus, 2) kiire karusselli struktuuri näpunäide, 3) isiklik lugu või juhtumiuuring, 4) valdkonna ülevaade või andmed, 5) juhend. Kaasake hashtag-strateegia ja avaldamise ajakava.",
+          "copyText": "Looge B2B vaatajaskonna jaoks 5 LinkedIn postitust teemal [teema/valdkonna trend]. Segage vorminguid: 1) küsimus/küsitlus, 2) kiire karusselli struktuuri näpunäide, 3) isiklik lugu või juhtumiuuring, 4) valdkonna ülevaade või andmed, 5) juhend. Kaasake hashtag-strateegia ja avaldamise ajakava.",
           "keywords": [
             "linkedin",
-            "rekord",
+            "postitus",
             "b2b",
             "professionaalne",
             "juhtimine"
@@ -239,136 +238,24 @@
         {
           "id": 58,
           "title": "Toote video skript",
-          "text": "Kirjutage 90-sekundilise tootevideo [toode] stsenaarium. ",
-          "copyText": "Kirjutage 90-sekundilise tootevideo [toode] stsenaarium. ",
+          "text": "Kirjutage 90-sekundilise tootevideo [toode] stsenaarium. Kaasa: konks (esimesed 5 sekundit), probleemi esitlus, lahenduse demo, põhifunktsioonid (kuni 3), eelised, sotsiaalne tõend ja CTA. Vormindage ajatemplite, häälteksti ja visuaalsete märkmetega. Eesmärk: YouTube ja sotsiaalsed võrgustikud.",
+          "copyText": "Kirjutage 90-sekundilise tootevideo [toode] stsenaarium. Kaasa: konks (esimesed 5 sekundit), probleemi esitlus, lahenduse demo, põhifunktsioonid (kuni 3), eelised, sotsiaalne tõend ja CTA. Vormindage ajatemplite, häälteksti ja visuaalsete märkmetega. Eesmärk: YouTube ja sotsiaalsed võrgustikud.",
           "keywords": [
             "video",
             "stsenaarium",
             "youtube",
-            "õppetund",
+            "õpetus",
             "selgitus"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 64,
-          "title": "Varundus- ja taasteplaan",
-          "text": "Töötage välja [süsteemi/andmebaas] jaoks varundus- ja taasteprotseduur. ",
-          "copyText": "Töötage välja [süsteemi/andmebaas] jaoks varundus- ja taasteprotseduur. ",
-          "keywords": [
-            "tagavaraks",
-            "koopiaid",
-            "taastumine",
-            "plaan",
-            "andmeid",
-            "kaitse"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 65,
-          "title": "Kasutaja juurdepääsu maatriks",
-          "text": "Looge [süsteemi/rakenduse] jaoks kasutaja juurdepääsu juhtimise maatriks. ",
-          "copyText": "Looge [süsteemi/rakenduse] jaoks kasutaja juurdepääsu juhtimise maatriks. ",
-          "keywords": [
-            "kasutajad",
-            "juurdepääs",
-            "lubasid",
-            "rollid",
-            "turvalisus"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 66,
-          "title": "Tehnilise dokumentatsiooni mall",
-          "text": "Valmistage ette [funktsioon/API/moodul] tehniline dokumentatsioon. ",
-          "copyText": "Valmistage ette [funktsioon/API/moodul] tehniline dokumentatsioon. ",
-          "keywords": [
-            "tarkvara",
-            "dokumentatsiooni",
-            "u",
-            "tehniline",
-            "spetsifikatsioonid"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 67,
-          "title": "Andmete varundamise strateegia",
-          "text": "Looge andmete varundamise strateegia [süsteem/andmed]. ",
-          "copyText": "Looge andmete varundamise strateegia [süsteem/andmed]. ",
-          "keywords": [
-            "varukoopia",
-            "strateegia",
-            "tagavaraks",
-            "kopeerida",
-            "andmeid"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 71,
-          "title": "Rahavoogude prognoos",
-          "text": "Koostage 3 kuu rahavoogude prognoos järgmiste andmete põhjal: [kleebi numbrid]. ",
-          "copyText": "Koostage 3 kuu rahavoogude prognoos järgmiste andmete põhjal: [kleebi numbrid]. ",
-          "keywords": [
-            "raha",
-            "ojad",
-            "prognoos",
-            "likviidsus"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 79,
-          "title": "Tulemuslikkuse hindamise mall",
-          "text": "Looge [ametikoha pealkiri] töötavale töötajale [töötaja nimi] tasakaalustatud tulemuslikkuse hindamise mall. ",
-          "copyText": "Looge [ametikoha pealkiri] töötavale töötajale [töötaja nimi] tasakaalustatud tulemuslikkuse hindamise mall. ",
-          "keywords": [
-            "tegevused",
-            "hindamine",
-            "pööratav",
-            "ühendus",
-            "eesmärgid"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 81,
-          "title": "Õppekava plaan",
-          "text": "Koostage [osakonnale/meeskonnale] poolepäevane koolitusprogramm teemal [teema]. ",
-          "copyText": "Koostage [osakonnale/meeskonnale] poolepäevane koolitusprogramm teemal [teema]. ",
-          "keywords": [
-            "koolitust",
-            "programm",
-            "oskusi",
-            "haridust",
-            "töötuba"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 82,
-          "title": "Tööpakkumise kiri",
-          "text": "Kirjutage professionaalse tööpakkumise kiri kandidaadile [kandidaadi nimi] [ametikoha nimetus]. ",
-          "copyText": "Kirjutage professionaalse tööpakkumise kiri kandidaadile [kandidaadi nimi] [ametikoha nimetus]. ",
-          "keywords": [
-            "tööst",
-            "pakkuma",
-            "kiri",
-            "tööhõive",
-            "leping"
           ],
           "category": "sales"
         },
         {
           "id": 92,
           "title": "GTD meetod - ülesannete organiseerimine",
-          "text": "Korraldage ülesandeid [kleebi ülesanded] GTD (Getting Things Done) meetodil. ",
-          "copyText": "Korraldage ülesandeid [kleebi ülesanded] GTD (Getting Things Done) meetodil. ",
+          "text": "Korraldage ülesandeid [kleebi ülesanded] GTD (Getting Things Done) meetodil. Kategooriad: 1) Tee kohe (2 min või vähem), 2) Delegeeri (kellele ja millal), 3) Lükka edasi (millal ja kuidas meelde tuletada), 4) Arhiiv (info ilma tegevuseta). Koostage iga kategooria jaoks tegevuskava ja jälgimissüsteem.",
+          "copyText": "Korraldage ülesandeid [kleebi ülesanded] GTD (Getting Things Done) meetodil. Kategooriad: 1) Tee kohe (2 min või vähem), 2) Delegeeri (kellele ja millal), 3) Lükka edasi (millal ja kuidas meelde tuletada), 4) Arhiiv (info ilma tegevuseta). Koostage iga kategooria jaoks tegevuskava ja jälgimissüsteem.",
           "keywords": [
-            "jne",
+            "gtd",
             "meetod",
             "organisatsioon",
             "ülesandeid"
@@ -378,8 +265,8 @@
         {
           "id": 98,
           "title": "Kanbani tahvli struktuur",
-          "text": "Looge Kanbani tahvli struktuur [projekt/meeskond]. ",
-          "copyText": "Looge Kanbani tahvli struktuur [projekt/meeskond]. ",
+          "text": "Looge Kanbani tahvli struktuur [projekt/meeskond]. Kaasake: veerud (To Do, In Progress, Review, Done), ülesanded prioriteetidega, vastutavad isikud, tähtajad, blokeerivad tegurid. Optimeerige visualiseerimiseks ja voolamiseks. Esitage struktureeritud plaanina, mida saab kasutada Trello, Asana või muudel platvormidel.",
+          "copyText": "Looge Kanbani tahvli struktuur [projekt/meeskond]. Kaasake: veerud (To Do, In Progress, Review, Done), ülesanded prioriteetidega, vastutavad isikud, tähtajad, blokeerivad tegurid. Optimeerige visualiseerimiseks ja voolamiseks. Esitage struktureeritud plaanina, mida saab kasutada Trello, Asana või muudel platvormidel.",
           "keywords": [
             "kanban",
             "juhatus",
@@ -391,30 +278,29 @@
         {
           "id": 102,
           "title": "🎯 Kliendi teekonna optimeerimine",
-          "text": "Olete kasutajakogemuse uurija ja kliendikogemuse strateeg, kes on spetsialiseerunud B2B e-postile. ",
-          "copyText": "Olete kasutajakogemuse uurija ja kliendikogemuse strateeg, kes on spetsialiseerunud B2B e-postile. ",
+          "text": "Olete kasutajakogemuse uurija ja kliendikogemuse strateeg, kes on spetsialiseerunud B2B e-kaubanduse platvormidele.\n\nROLLIDE KONTEKST: olete aidanud enam kui 50 ettevõttel optimeerida oma klientide kaasamise protsesse, vähendades klientide vähenemist keskmiselt 32%.\n\nÜLESANNE: Analüüsige meie praegust klienditeekonda [kliendisegment] ja tuvastage hõõrdepunktid järgmistes etappides:\n- Otsimine ja uurimine\n- Konto loomine ja esimene ost\n- Pärast ostmist ja toetust\n- Korduv ostmine ja lojaalsus\n\nFORMAAT: looge üksikasjalik reisikaart koos:\n1. Ajaskaala (iga etapi visuaalne kirjeldus)\n2. Kliendi tegevused igas puutepunktis\n3. Emotsiooni- ja valupunktid (3-5 etapi kohta)\n4. Täiustamisvõimalused (reastatud mõju/pingutuste alusel)\n5. Kiired võidud (rakendatud 2 nädala jooksul)\n\nTOON: empaatiline klientide suhtes, konstruktiivne sisemiste meeskondade suhtes, tegutsemishimuline\n\nSTIIL: kasutage lugu kliendi vaatenurga illustreerimiseks. Kaasa:\n- tõelised klientide hinnapakkumised või realistlikud näited\n- emotsionaalne keel valupunktide kirjeldamisel\n- andmetel põhinevad soovitused (isegi kui protsendid on hüpoteetilised)\n- visuaalsed metafoorid, mis aitavad abstraktseid ideid konkretiseerida\n\nTULEMUSTE NÕUDED:\n- Kliendi hinnapakkumised on jutumärkides\n- Märgi valupunktid ⚠️-ga\n- Võimalused on tähistatud 💡-ga\n- Kiired võidud on tähistatud ⚡-ga\n\nEESMÄRK: võimaldada meeskonnal rakendada järgmisel sprindil vähemalt 3 täiustust, mis parandavad nähtavalt klientide rahulolu näitajaid.",
+          "copyText": "Olete kasutajakogemuse uurija ja kliendikogemuse strateeg, kes on spetsialiseerunud B2B e-kaubanduse platvormidele.\n\nROLLIDE KONTEKST: olete aidanud enam kui 50 ettevõttel optimeerida oma klientide kaasamise protsesse, vähendades klientide vähenemist keskmiselt 32%.\n\nÜLESANNE: Analüüsige meie praegust klienditeekonda [kliendisegment] ja tuvastage hõõrdepunktid järgmistes etappides:\n- Otsimine ja uurimine\n- Konto loomine ja esimene ost\n- Pärast ostmist ja toetust\n- Korduv ostmine ja lojaalsus\n\nFORMAAT: looge üksikasjalik reisikaart koos:\n1. Ajaskaala (iga etapi visuaalne kirjeldus)\n2. Kliendi tegevused igas puutepunktis\n3. Emotsiooni- ja valupunktid (3-5 etapi kohta)\n4. Täiustamisvõimalused (reastatud mõju/pingutuste alusel)\n5. Kiired võidud (rakendatud 2 nädala jooksul)\n\nTOON: empaatiline klientide suhtes, konstruktiivne sisemiste meeskondade suhtes, tegutsemishimuline\n\nSTIIL: kasutage lugu kliendi vaatenurga illustreerimiseks. Kaasa:\n- tõelised klientide hinnapakkumised või realistlikud näited\n- emotsionaalne keel valupunktide kirjeldamisel\n- andmetel põhinevad soovitused (isegi kui protsendid on hüpoteetilised)\n- visuaalsed metafoorid, mis aitavad abstraktseid ideid konkretiseerida\n\nTULEMUSTE NÕUDED:\n- Kliendi hinnapakkumised on jutumärkides\n- Märgi valupunktid ⚠️-ga\n- Võimalused on tähistatud 💡-ga\n- Kiired võidud on tähistatud ⚡-ga\n\nEESMÄRK: võimaldada meeskonnal rakendada järgmisel sprindil vähemalt 3 täiustust, mis parandavad nähtavalt klientide rahulolu näitajaid.",
           "keywords": [
-            "kliendist",
-            "reis",
+            "klient",
+            "teekonda",
             "pardaleminek",
             "kogemusi",
-            "valust",
-            "punktid"
+            "valupunktid"
           ],
           "category": "sales"
         },
         {
           "id": 104,
-          "title": "🎯 Mitu müügimeili kirjade jada",
-          "text": "Olete B2B müügitekstide kirjutaja, kes on spetsialiseerunud külmadele kirjadele ja meilidele. ",
-          "copyText": "Olete B2B müügitekstide kirjutaja, kes on spetsialiseerunud külmadele kirjadele ja meilidele. ",
+          "title": "🎯 Mitme puutega müügi e-posti jada",
+          "text": "Olete B2B müügitekstikirjutaja, kes on spetsialiseerunud külmadele teavitus- ja meiliautomaatikatele, saavutades 25%+ avamismäära ja 8%+ vastamismäära.\n\nROLLEKSPERT: mõista ostja psühholoogiat, tehniliste hangete otsustusprotsesse ja järjepidevate, kuid lugupidavate meeldetuletuste kunsti.\n\nÜLESANNE: Kirjutage [positsiooni pealkiri] [äri tüüp] jaoks 5-meili järgne jada, mis tutvustab [toodet/teenust].\n\nJÄRJESTUSSTRUKTUUR:\n\n1 meilikiri (0. päev): mustri katkestus\n- Teema, mis mürast silma paistab\n- Isikupärastatud esimene rida, mis põhineb [uurimissignaalil]\n- Üks selge väärtuspakkumine\n- pehme CTA (küsimus, mitte koosolekukutse)\n\n2 e-kirja Kiri (3. päev): Lisaväärtus\n- Teema: link kirjale 1\n- Jagage asjakohast ressurssi (juhtumianalüüs/juhend/andmed)\n- Pole taotlust – lihtsalt väärtus\n- P.S. sotsiaalse tõendiga\n\n3 e-kirja kiri (7. päev): konkreetne kasutusjuht\n- Teema: kuidas [sarnane ettevõte] saavutas [tulemuse]\n- Rääkige mikrolugu (probleem → lahendus → tulemus)\n- Lisage konkreetsed näitajad\n- CTA: \"Kas see oleks teie ettevõtte jaoks asjakohane?\"\n\n4 meili kiri (14. päev): aus \"hüvasti\"\n- Teema: \"Kas ma peaksin teie juhtumi lõpetama?\"\n- Tunnista, et nad on hõivatud\n- Pakkuge lihtsat loobumist või kindlat kontakti aega\n- Looge FOMO ilma surveta\n\n5 e-kirja Kiri (21. päev): väärtuslik alternatiivne pakkumine\n- Teema: \"Viimane materjal enne lahkumist\"\n- Jagage oma parimat sisu (lõplik juhend/tööriist/mall)\n- Müüki ei toimu – ainult lõppväärtus\n- Jätke uks lahti: \"Kui plaanid muutuvad, teate, kust mind leida\"\n\nTOON: Professionaalne, jutukas, inimlik. Mitte-müügi ja mittekorporatiivne. Enesekindel, kuid tagasihoidlik.\n\nSTIIL:\n- Selguse huvides kirjutage 8. klassi lugemistasemel\n- Kasutage sõna \"sina\" 3 korda rohkem kui \"mina\" või \"meie\"\n- laused, mis on lühemad kui 20 sõna\n- Üks CTA meili kohta\n- Lisage sulgudesse [KOHANDAMISE MÄRGID]\n- Mobiili jaoks mõeldud vorming\n\nPIIRANGUD:\n- Iga täht: 75-125 sõna (ilma allkirjata)\n- Teemaread: kuni 50 tähemärki\n- Vältige fraase \"ainult sisseregistreerimine\", \"jälgimine\", \"ring tagasi\", \"puudutusalus\"\n- Esitage esimesele meilile A/B testitud alternatiivne teemarida\n\nEESMÄRK: alustage vestlusi, mitte tehke tehinguid. Keskendu uudishimu ja usalduse loomisele.",
+          "copyText": "Olete B2B müügitekstikirjutaja, kes on spetsialiseerunud külmadele teavitus- ja meiliautomaatikatele, saavutades 25%+ avamismäära ja 8%+ vastamismäära.\n\nROLLEKSPERT: mõista ostja psühholoogiat, tehniliste hangete otsustusprotsesse ja järjepidevate, kuid lugupidavate meeldetuletuste kunsti.\n\nÜLESANNE: Kirjutage [positsiooni pealkiri] [äri tüüp] jaoks 5-meili järgne jada, mis tutvustab [toodet/teenust].\n\nJÄRJESTUSSTRUKTUUR:\n\n1 meilikiri (0. päev): mustri katkestus\n- Teema, mis mürast silma paistab\n- Isikupärastatud esimene rida, mis põhineb [uurimissignaalil]\n- Üks selge väärtuspakkumine\n- pehme CTA (küsimus, mitte koosolekukutse)\n\n2 e-kirja Kiri (3. päev): Lisaväärtus\n- Teema: link kirjale 1\n- Jagage asjakohast ressurssi (juhtumianalüüs/juhend/andmed)\n- Pole taotlust – lihtsalt väärtus\n- P.S. sotsiaalse tõendiga\n\n3 e-kirja kiri (7. päev): konkreetne kasutusjuht\n- Teema: kuidas [sarnane ettevõte] saavutas [tulemuse]\n- Rääkige mikrolugu (probleem → lahendus → tulemus)\n- Lisage konkreetsed näitajad\n- CTA: \"Kas see oleks teie ettevõtte jaoks asjakohane?\"\n\n4 meili kiri (14. päev): aus \"hüvasti\"\n- Teema: \"Kas ma peaksin teie juhtumi lõpetama?\"\n- Tunnista, et nad on hõivatud\n- Pakkuge lihtsat loobumist või kindlat kontakti aega\n- Looge FOMO ilma surveta\n\n5 e-kirja Kiri (21. päev): väärtuslik alternatiivne pakkumine\n- Teema: \"Viimane materjal enne lahkumist\"\n- Jagage oma parimat sisu (lõplik juhend/tööriist/mall)\n- Müüki ei toimu – ainult lõppväärtus\n- Jätke uks lahti: \"Kui plaanid muutuvad, teate, kust mind leida\"\n\nTOON: Professionaalne, jutukas, inimlik. Mitte-müügi ja mittekorporatiivne. Enesekindel, kuid tagasihoidlik.\n\nSTIIL:\n- Selguse huvides kirjutage 8. klassi lugemistasemel\n- Kasutage sõna \"sina\" 3 korda rohkem kui \"mina\" või \"meie\"\n- laused, mis on lühemad kui 20 sõna\n- Üks CTA meili kohta\n- Lisage sulgudesse [KOHANDAMISE MÄRGID]\n- Mobiili jaoks mõeldud vorming\n\nPIIRANGUD:\n- Iga täht: 75-125 sõna (ilma allkirjata)\n- Teemaread: kuni 50 tähemärki\n- Vältige fraase \"ainult sisseregistreerimine\", \"jälgimine\", \"ring tagasi\", \"puudutusalus\"\n- Esitage esimesele meilile A/B testitud alternatiivne teemarida\n\nEESMÄRK: alustage vestlusi, mitte tehke tehinguid. Keskendu uudishimu ja usalduse loomisele.",
           "keywords": [
             "müük",
             "email",
             "kirju",
             "isikupärastamine",
             "automatiseerimine",
-            "järgneb"
+            "järeltegevus"
           ],
           "category": "sales"
         }
@@ -429,8 +315,8 @@
         {
           "id": 12,
           "title": "Viivitusteade",
-          "text": "Kirjutage ametlik e-kiri, saatke tarnijale kiri tellimuse hilinemise kohta ja küsige uuendatud tarnekuupäeva.",
-          "copyText": "Kirjutage ametlik e-kiri, saatke tarnijale kiri tellimuse hilinemise kohta ja küsige uuendatud tarnekuupäeva.",
+          "text": "Kirjutage tarnijale ametlik e-kiri tellimuse hilinemise kohta ja küsige värskendatud tarnekuupäeva.",
+          "copyText": "Kirjutage tarnijale ametlik e-kiri tellimuse hilinemise kohta ja küsige värskendatud tarnekuupäeva.",
           "keywords": [
             "viivitus",
             "email",
@@ -447,7 +333,7 @@
           "keywords": [
             "leping",
             "tarnija",
-            "läbirääkimisi",
+            "läbirääkimised",
             "tingimused"
           ],
           "category": "procurement"
@@ -501,8 +387,8 @@
         {
           "id": 21,
           "title": "Pakkimis- ja saatmisjuhised",
-          "text": "Looge tellimuse [tellimuse nr] jaoks pakkimis- ja saatmisjuhised. ",
-          "copyText": "Looge tellimuse [tellimuse nr] jaoks pakkimis- ja saatmisjuhised. ",
+          "text": "Looge tellimuse [tellimuse nr] jaoks pakkimis- ja saatmisjuhised. Kaasake: pakendatavad kaubad, erinõuded (habras, ESD-tundlik), nõutavad pakkematerjalid, vedaja valik ja saatelehed. Vorminda lao kontrollnimekirjana.",
+          "copyText": "Looge tellimuse [tellimuse nr] jaoks pakkimis- ja saatmisjuhised. Kaasake: pakendatavad kaubad, erinõuded (habras, ESD-tundlik), nõutavad pakkematerjalid, vedaja valik ja saatelehed. Vorminda lao kontrollnimekirjana.",
           "keywords": [
             "pakkimine",
             "saatmine",
@@ -514,8 +400,8 @@
         {
           "id": 25,
           "title": "Tarneteede optimeerimine",
-          "text": "Loo tarnemarsruudi optimeerimise plaan [regioon]. ",
-          "copyText": "Loo tarnemarsruudi optimeerimise plaan [regioon]. ",
+          "text": "Loo tarnemarsruudi optimeerimise plaan [regioon]. Hinnake: tarneaadressid, vahemaad, aeg, veose kaal/maht, tarnetingimused. Esitage: optimaalsed marsruudid, ajakava, kütusekulu, tarnejärjestus. Optimeerige aja ja kulude jaoks.",
+          "copyText": "Loo tarnemarsruudi optimeerimise plaan [regioon]. Hinnake: tarneaadressid, vahemaad, aeg, veose kaal/maht, tarnetingimused. Esitage: optimaalsed marsruudid, ajakava, kütusekulu, tarnejärjestus. Optimeerige aja ja kulude jaoks.",
           "keywords": [
             "kohaletoimetamine",
             "marsruut",
@@ -547,12 +433,12 @@
         {
           "id": 27,
           "title": "E-poe teksti ümberkirjutamine",
-          "text": "Kirjutage see tootekirjeldus ümber, et muuta see meilis atraktiivsemaks. ",
-          "copyText": "Kirjutage see tootekirjeldus ümber, et muuta see meilis atraktiivsemaks. ",
+          "text": "Kirjutage see tootekirjeldus ümber, et muuta see veebipoe jaoks atraktiivsemaks: [kleebi tekst].",
+          "copyText": "Kirjutage see tootekirjeldus ümber, et muuta see veebipoe jaoks atraktiivsemaks: [kleebi tekst].",
           "keywords": [
             "ümber kirjutama",
             "kirjeldus",
-            "email",
+            "e-kaubandus",
             "pood"
           ],
           "category": "ecommerce"
@@ -560,10 +446,10 @@
         {
           "id": 29,
           "title": "Tootelehe metasildid",
-          "text": "Looge [toote nimi] lehele SEO metasildid. ",
-          "copyText": "Looge [toote nimi] lehele SEO metasildid. ",
+          "text": "Looge [toote nimi] lehele SEO metasildid. Esitage: metanimi (kuni 60 tähemärki), metakirjeldus (kuni 155 tähemärki), Open Graphi sildid ja JSON-LD tooteskeem koos hinna, saadavuse, hinnangutega. Kaasake sihtmärksõnad: [märksõnade loend].",
+          "copyText": "Looge [toote nimi] lehele SEO metasildid. Esitage: metanimi (kuni 60 tähemärki), metakirjeldus (kuni 155 tähemärki), Open Graphi sildid ja JSON-LD tooteskeem koos hinna, saadavuse, hinnangutega. Kaasake sihtmärksõnad: [märksõnade loend].",
           "keywords": [
-            "viskamine",
+            "meta",
             "sildid",
             "pealkiri",
             "kirjeldus",
@@ -574,8 +460,8 @@
         {
           "id": 33,
           "title": "E-kaubanduse hinnastrateegia",
-          "text": "Looge [tootekategooria] jaoks hinnastrateegia. ",
-          "copyText": "Looge [tootekategooria] jaoks hinnastrateegia. ",
+          "text": "Looge [tootekategooria] jaoks hinnastrateegia. Hinnake: konkurentide hindu, toote väärtust, sihtrühma, kasumimarginaali. Pakkumine: põhihind, allahindlusstrateegia, paketthinnad, hooajahinnad. Esitage soovitusi koos põhjendusega.",
+          "copyText": "Looge [tootekategooria] jaoks hinnastrateegia. Hinnake: konkurentide hindu, toote väärtust, sihtrühma, kasumimarginaali. Pakkumine: põhihind, allahindlusstrateegia, paketthinnad, hooajahinnad. Esitage soovitusi koos põhjendusega.",
           "keywords": [
             "hinnakujundus",
             "strateegia",
@@ -586,8 +472,8 @@
         {
           "id": 34,
           "title": "Tootekategooriate hierarhia plaan",
-          "text": "Loo tootekategooriate hierarhia [e-poe jaoks]. ",
-          "copyText": "Loo tootekategooriate hierarhia [e-poe jaoks]. ",
+          "text": "Loo tootekategooriate hierarhia [e-poe jaoks]. Struktuur: 3-4 põhikategooriat, igas 3-5 alamkategooriat, toodete filtreerimise kriteeriumid (hind, kaubamärk, spetsifikatsioonid). Optimeerige kasutajakogemuse ja SEO jaoks.",
+          "copyText": "Loo tootekategooriate hierarhia [e-poe jaoks]. Struktuur: 3-4 põhikategooriat, igas 3-5 alamkategooriat, toodete filtreerimise kriteeriumid (hind, kaubamärk, spetsifikatsioonid). Optimeerige kasutajakogemuse ja SEO jaoks.",
           "keywords": [
             "toode",
             "kategooriad",
@@ -599,8 +485,8 @@
         {
           "id": 36,
           "title": "Tarnestrateegia kirjeldus",
-          "text": "Loo selge tarnestrateegia kirjeldus [e-poe jaoks]. ",
-          "copyText": "Loo selge tarnestrateegia kirjeldus [e-poe jaoks]. ",
+          "text": "Loo selge tarnestrateegia kirjeldus [e-poe jaoks]. Kaasake: saatmisviisid ja hinnad, tarneajad, rahvusvahelised tarnevõimalused, tasuta tarnetingimused, tagastuspoliitika. Vormindage see lehele, millest kliendid saavad hõlpsasti aru.",
+          "copyText": "Loo selge tarnestrateegia kirjeldus [e-poe jaoks]. Kaasake: saatmisviisid ja hinnad, tarneajad, rahvusvahelised tarnevõimalused, tasuta tarnetingimused, tagastuspoliitika. Vormindage see lehele, millest kliendid saavad hõlpsasti aru.",
           "keywords": [
             "kohaletoimetamine",
             "strateegia",
@@ -612,8 +498,8 @@
         {
           "id": 76,
           "title": "Töökirjelduse generaator",
-          "text": "Kirjutage [töönimetus] jaoks köitev töökirjeldus. ",
-          "copyText": "Kirjutage [töönimetus] jaoks köitev töökirjeldus. ",
+          "text": "Kirjutage [töönimetus] jaoks köitev töökirjeldus. Kaasake: rolli kokkuvõte, 5-7 peamist kohustust, nõutav kvalifikatsioon, eelistatud pädevused ja miks peaksite meie heaks töötama. Toon: professionaalne, kuid vastutulelik.",
+          "copyText": "Kirjutage [töönimetus] jaoks köitev töökirjeldus. Kaasake: rolli kokkuvõte, 5-7 peamist kohustust, nõutav kvalifikatsioon, eelistatud pädevused ja miks peaksite meie heaks töötama. Toon: professionaalne, kuid vastutulelik.",
           "keywords": [
             "tööst",
             "kirjeldus",
@@ -625,8 +511,8 @@
         {
           "id": 84,
           "title": "Töökirjelduse mall",
-          "text": "Looge [positsiooni nimetus] ametijuhend. ",
-          "copyText": "Looge [positsiooni nimetus] ametijuhend. ",
+          "text": "Looge [positsiooni nimetus] ametijuhend. Kaasake: tööülevaade, peamised kohustused, nõutavad oskused ja kogemused, haridusnõuded, töötingimused, palgavahemik, hüvitised ja kandideerimisviis. Optimeerige õigete kandidaatide meelitamiseks.",
+          "copyText": "Looge [positsiooni nimetus] ametijuhend. Kaasake: tööülevaade, peamised kohustused, nõutavad oskused ja kogemused, haridusnõuded, töötingimused, palgavahemik, hüvitised ja kandideerimisviis. Optimeerige õigete kandidaatide meelitamiseks.",
           "keywords": [
             "tööst",
             "kirjeldus",
@@ -638,8 +524,8 @@
         {
           "id": 103,
           "title": "🎯 Sisustrateegia ja toimetuse kalender",
-          "text": "Oled sisuturunduse strateeg ja SEO spetsialist, kes tegeleb tehnilise B2B sisu ja mõtte juhtimisega.\n\n",
-          "copyText": "Oled sisuturunduse strateeg ja SEO spetsialist, kes tegeleb tehnilise B2B sisu ja mõtte juhtimisega.\n\n",
+          "text": "Oled sisuturunduse strateeg ja SEO spetsialist, kes tegeleb tehnilise B2B sisu ja mõtte juhtimisega.\n\nKONTEKST. Olete loonud sisuprogrammid, mis on suurendanud tööstus- ja elektroonikaettevõtete orgaanilist liiklust enam kui 200%.\n\nÜLESANNE: looge meie ettevõtte ajaveebi jaoks 3-kuuline toimetuse kalender, mis sihib [sihtrühma] [tööstuse] sektoris.\n\nVORMING: esitage iga sisuüksuse kohta:\n1. Pealkiri (SEO optimeeritud, kuni 60 tähemärki)\n2. Peamine märksõna + 3 teisest märksõna\n3. Otsingu eesmärk (teave/äriline/tehinguline)\n4. Sisu nurk (ainulaadne perspektiiv või konks)\n5. Struktuur (H2 ja H3 plaan)\n6. Sihtsõnade arv\n7. Siselinkide võimalused\n8. CTA strateegia\n9. Prognoositav orgaanilise liikluse potentsiaal (madal/keskmine/kõrge)\n\nSISU TASAKAAL:\n- 40% harivaid juhendeid\n- 30% tööstusharu teadmisi ja suundumusi\n- 20% toote/lahenduse selgitused\n- 10% klientide edulugusid\n\nTOON: autoriteetne, kuid ligipääsetav; tehniline, kuid ilma liigse žargoonita; hariv koos peene müügitoetusega\n\nSTIIL:\n- Kasutage pealkirjades tugevaid sõnu (\"Ultimate\", \"Complete\", \"Essential\")\n- loetavuse struktuur (lühikesed lõigud, punktid)\n- Vajadusel esitage andmeid ja statistikat\n- Kirjutage tehnilisele ostjale (insener või ostujuht)\n\nSEO NÕUDED:\n- Valige märksõnad 500–5000 igakuise otsinguga\n- Keskenduge madala ja keskmise konkurentsiga märksõnadele\n- Eelistage esiletõstetud sisulõike võimalusi\n- Kaasake pikkade sabade variatsioonid\n\nTARNE: koostage ajakava 12 blogipostitusest (4 kuus), mis moodustavad ühtse narratiivi, loovad autoriteeti meie nišis ja hõlmavad ostja teekonna erinevaid etappe.",
+          "copyText": "Oled sisuturunduse strateeg ja SEO spetsialist, kes tegeleb tehnilise B2B sisu ja mõtte juhtimisega.\n\nKONTEKST. Olete loonud sisuprogrammid, mis on suurendanud tööstus- ja elektroonikaettevõtete orgaanilist liiklust enam kui 200%.\n\nÜLESANNE: looge meie ettevõtte ajaveebi jaoks 3-kuuline toimetuse kalender, mis sihib [sihtrühma] [tööstuse] sektoris.\n\nVORMING: esitage iga sisuüksuse kohta:\n1. Pealkiri (SEO optimeeritud, kuni 60 tähemärki)\n2. Peamine märksõna + 3 teisest märksõna\n3. Otsingu eesmärk (teave/äriline/tehinguline)\n4. Sisu nurk (ainulaadne perspektiiv või konks)\n5. Struktuur (H2 ja H3 plaan)\n6. Sihtsõnade arv\n7. Siselinkide võimalused\n8. CTA strateegia\n9. Prognoositav orgaanilise liikluse potentsiaal (madal/keskmine/kõrge)\n\nSISU TASAKAAL:\n- 40% harivaid juhendeid\n- 30% tööstusharu teadmisi ja suundumusi\n- 20% toote/lahenduse selgitused\n- 10% klientide edulugusid\n\nTOON: autoriteetne, kuid ligipääsetav; tehniline, kuid ilma liigse žargoonita; hariv koos peene müügitoetusega\n\nSTIIL:\n- Kasutage pealkirjades tugevaid sõnu (\"Ultimate\", \"Complete\", \"Essential\")\n- loetavuse struktuur (lühikesed lõigud, punktid)\n- Vajadusel esitage andmeid ja statistikat\n- Kirjutage tehnilisele ostjale (insener või ostujuht)\n\nSEO NÕUDED:\n- Valige märksõnad 500–5000 igakuise otsinguga\n- Keskenduge madala ja keskmise konkurentsiga märksõnadele\n- Eelistage esiletõstetud sisulõike võimalusi\n- Kaasake pikkade sabade variatsioonid\n\nTARNE: koostage ajakava 12 blogipostitusest (4 kuus), mis moodustavad ühtse narratiivi, loovad autoriteeti meie nišis ja hõlmavad ostja teekonna erinevaid etappe.",
           "keywords": [
             "sisu",
             "strateegia",
@@ -661,8 +547,8 @@
         {
           "id": 37,
           "title": "Logo disaini kontseptsioon",
-          "text": "Looge [ettevõtte/toote nimi] jaoks 5 logo kujunduskontseptsiooni. ",
-          "copyText": "Looge [ettevõtte/toote nimi] jaoks 5 logo kujunduskontseptsiooni. ",
+          "text": "Looge [ettevõtte/toote nimi] jaoks 5 logo kujunduskontseptsiooni. Kirjeldage iga võimalust: värvipalett, tüpograafia, sümboolika, kohandamine erinevatele meediatele (print, digitaalne, sotsiaalne). Esitage selge kirjeldus, mida disainer saab viitena kasutada.",
+          "copyText": "Looge [ettevõtte/toote nimi] jaoks 5 logo kujunduskontseptsiooni. Kirjeldage iga võimalust: värvipalett, tüpograafia, sümboolika, kohandamine erinevatele meediatele (print, digitaalne, sotsiaalne). Esitage selge kirjeldus, mida disainer saab viitena kasutada.",
           "keywords": [
             "logo",
             "disain",
@@ -676,8 +562,8 @@
         {
           "id": 39,
           "title": "Sotsiaalmeedia graafiliste elementide kirjeldus",
-          "text": "Looge 10 sotsiaalmeedia graafika üksikasjalik kirjeldus [teema/kampaania]. ",
-          "copyText": "Looge 10 sotsiaalmeedia graafika üksikasjalik kirjeldus [teema/kampaania]. ",
+          "text": "Looge 10 sotsiaalmeedia graafika üksikasjalik kirjeldus [teema/kampaania]. Määrake iga elemendi suurus, koostis, värvid, tüpograafia, pildid/ikoonid, tekst ja CTA. Optimeerige Instagrami, Facebooki, LinkedIni vormingute jaoks.",
+          "copyText": "Looge 10 sotsiaalmeedia graafika üksikasjalik kirjeldus [teema/kampaania]. Määrake iga elemendi suurus, koostis, värvid, tüpograafia, pildid/ikoonid, tekst ja CTA. Optimeerige Instagrami, Facebooki, LinkedIni vormingute jaoks.",
           "keywords": [
             "sotsiaalne",
             "meedia",
@@ -692,8 +578,8 @@
         {
           "id": 40,
           "title": "Esitlusmalli struktuur",
-          "text": "Looge professionaalse [teema] esitlusmalli struktuur. ",
-          "copyText": "Looge professionaalse [teema] esitlusmalli struktuur. ",
+          "text": "Looge professionaalse [teema] esitlusmalli struktuur. Kirjeldage: tiitlislaidi kujundus, sisuslaidid (3-4 tüüpi), andmete visualiseerimise slaidid, sulgemisslaid. Määrake iga slaidi jaoks: paigutus, värvid, tüpograafia, piltide/graafika kohad.",
+          "copyText": "Looge professionaalse [teema] esitlusmalli struktuur. Kirjeldage: tiitlislaidi kujundus, sisuslaidid (3-4 tüüpi), andmete visualiseerimise slaidid, sulgemisslaid. Määrake iga slaidi jaoks: paigutus, värvid, tüpograafia, piltide/graafika kohad.",
           "keywords": [
             "esitlusi",
             "malli",
@@ -706,8 +592,8 @@
         {
           "id": 41,
           "title": "Toote pakendi disaini spetsifikatsioon",
-          "text": "Looge üksikasjalik tootepakendi disaini spetsifikatsioon [toode]. ",
-          "copyText": "Looge üksikasjalik tootepakendi disaini spetsifikatsioon [toode]. ",
+          "text": "Looge üksikasjalik tootepakendi disaini spetsifikatsioon [toode]. Kaasa: pakendi suurus ja kuju, värvilahendus, logo ja kaubamärgi paigutus, tooteinfo struktuur, vajalikud tekstid ja sümbolid, materjalisoovitused. Optimeerige müügikohas äratundmiseks.",
+          "copyText": "Looge üksikasjalik tootepakendi disaini spetsifikatsioon [toode]. Kaasa: pakendi suurus ja kuju, värvilahendus, logo ja kaubamärgi paigutus, tooteinfo struktuur, vajalikud tekstid ja sümbolid, materjalisoovitused. Optimeerige müügikohas äratundmiseks.",
           "keywords": [
             "toode",
             "pakendamine",
@@ -720,8 +606,8 @@
         {
           "id": 42,
           "title": "Veebilehe traatraami kirjeldus",
-          "text": "Looge veebilehe üksikasjalik raami kirjeldus [lehe tüüp: nt. ",
-          "copyText": "Looge veebilehe üksikasjalik raami kirjeldus [lehe tüüp: nt. ",
+          "text": "Looge veebilehe üksikasjalik raami kirjeldus [lehe tüüp: nt. peamine, toode, kontakt]. Kirjeldage: päise struktuuri, navigeerimist, kangelasektsiooni, sisuplokke, jalust. Iga elemendi jaoks määrake: suurus, asukoht, funktsionaalsus, prioriteet. Optimeerige esmaseks juurdepääsuks mobiilile.",
+          "copyText": "Looge veebilehe üksikasjalik raami kirjeldus [lehe tüüp: nt. peamine, toode, kontakt]. Kirjeldage: päise struktuuri, navigeerimist, kangelasektsiooni, sisuplokke, jalust. Iga elemendi jaoks määrake: suurus, asukoht, funktsionaalsus, prioriteet. Optimeerige esmaseks juurdepääsuks mobiilile.",
           "keywords": [
             "veebis",
             "disain",
@@ -734,8 +620,8 @@
         {
           "id": 43,
           "title": "Infograafiline struktuuriplaan",
-          "text": "Looge infograafiline struktuuriplaan [teema/andmed]. ",
-          "copyText": "Looge infograafiline struktuuriplaan [teema/andmed]. ",
+          "text": "Looge infograafiline struktuuriplaan [teema/andmed]. Kirjeldage: paigutust, andmete visualiseerimise tüüpe (graafikud, diagrammid, ikoonid), värvikoodi, teksti hierarhiat, voogu (ülevalt alla). Esitage selge kirjeldus, mida disainer saab viitena kasutada.",
+          "copyText": "Looge infograafiline struktuuriplaan [teema/andmed]. Kirjeldage: paigutust, andmete visualiseerimise tüüpe (graafikud, diagrammid, ikoonid), värvikoodi, teksti hierarhiat, voogu (ülevalt alla). Esitage selge kirjeldus, mida disainer saab viitena kasutada.",
           "keywords": [
             "infograafika",
             "andmeid",
@@ -747,8 +633,8 @@
         {
           "id": 44,
           "title": "meilikirja kujundusmalli spetsifikatsioon",
-          "text": "Loo meilikirja kujundusmalli spetsifikatsioon [tüüp: nt. ",
-          "copyText": "Loo meilikirja kujundusmalli spetsifikatsioon [tüüp: nt. ",
+          "text": "Loo meilikirja kujundusmalli spetsifikatsioon [tüüp: nt. uudiskiri, kampaania, tehing]. Kirjeldage: päise kujundus, sisuplokid, CTA nupud, jalus. Täpsustage: värvid, tüpograafia, vahed, reageerivad katkestuspunktid, e-posti kliendi ühilduvus. Optimeerige loetavuse ja tegutsemisvõime tagamiseks.",
+          "copyText": "Loo meilikirja kujundusmalli spetsifikatsioon [tüüp: nt. uudiskiri, kampaania, tehing]. Kirjeldage: päise kujundus, sisuplokid, CTA nupud, jalus. Täpsustage: värvid, tüpograafia, vahed, reageerivad katkestuspunktid, e-posti kliendi ühilduvus. Optimeerige loetavuse ja tegutsemisvõime tagamiseks.",
           "keywords": [
             "email",
             "disain",
@@ -768,8 +654,8 @@
         {
           "id": 18,
           "title": "Tarnelepingu riskianalüüs",
-          "text": "Analüüsige tarnelepingu riske [lepinguid]. ",
-          "copyText": "Analüüsige tarnelepingu riske [lepinguid]. ",
+          "text": "Analüüsige tarnelepingu riske [lepinguid]. Tuvastage: hinnakõikumiste risk, tarneviivituste risk, kvaliteedirisk, tarnija finantsrisk, võimsuse kõikumise risk. Iga riski kohta esitage: tõenäosus, mõju, leevendamisstrateegiad.",
+          "copyText": "Analüüsige tarnelepingu riske [lepinguid]. Tuvastage: hinnakõikumiste risk, tarneviivituste risk, kvaliteedirisk, tarnija finantsrisk, võimsuse kõikumise risk. Iga riski kohta esitage: tõenäosus, mõju, leevendamisstrateegiad.",
           "keywords": [
             "leping",
             "tingimused",
@@ -780,8 +666,8 @@
         {
           "id": 22,
           "title": "Laoseisu auditi aruanne",
-          "text": "Koostage varude auditi aruanne [asukoht/kategooria]. ",
-          "copyText": "Koostage varude auditi aruanne [asukoht/kategooria]. ",
+          "text": "Koostage varude auditi aruanne [asukoht/kategooria]. Võrrelge: süsteemi koguseid füüsilise loendusega, tuvastage lahknevused >5%, arvutage kahjuprotsent, soovitage võimalikke põhjuseid (kahjustused, vargused, vead) ja soovitage parandusmeetmeid.",
+          "copyText": "Koostage varude auditi aruanne [asukoht/kategooria]. Võrrelge: süsteemi koguseid füüsilise loendusega, tuvastage lahknevused >5%, arvutage kahjuprotsent, soovitage võimalikke põhjuseid (kahjustused, vargused, vead) ja soovitage parandusmeetmeid.",
           "keywords": [
             "inventar",
             "audit",
@@ -806,8 +692,8 @@
         {
           "id": 45,
           "title": "Müügiandmete analüüs",
-          "text": "Analüüsige järgmisi müügiandmeid [kleepige CSV või Exceli andmed] ja esitage: kuu/kvartali võrdlus, 10 parimat toodet, geograafiline jaotus, klientide segmenteerimine, trendid ja prognoosid. ",
-          "copyText": "Analüüsige järgmisi müügiandmeid [kleepige CSV või Exceli andmed] ja esitage: kuu/kvartali võrdlus, 10 parimat toodet, geograafiline jaotus, klientide segmenteerimine, trendid ja prognoosid. ",
+          "text": "Analüüsige järgmisi müügiandmeid [kleepige CSV või Exceli andmed] ja esitage: kuu/kvartali võrdlus, 10 parimat toodet, geograafiline jaotus, klientide segmenteerimine, trendid ja prognoosid. Andke soovitusi tulemuste parandamiseks.",
+          "copyText": "Analüüsige järgmisi müügiandmeid [kleepige CSV või Exceli andmed] ja esitage: kuu/kvartali võrdlus, 10 parimat toodet, geograafiline jaotus, klientide segmenteerimine, trendid ja prognoosid. Andke soovitusi tulemuste parandamiseks.",
           "keywords": [
             "andmeid",
             "analüüs",
@@ -820,8 +706,8 @@
         {
           "id": 46,
           "title": "KPI armatuurlaua struktuur",
-          "text": "Looge KPI armatuurlaua struktuur [osakond/projekt]. ",
-          "copyText": "Looge KPI armatuurlaua struktuur [osakond/projekt]. ",
+          "text": "Looge KPI armatuurlaua struktuur [osakond/projekt]. Määratlege: 8-10 põhinäitajat, iga näitaja arvutusvalem, andmeallikad, uuendamise sagedus, visualiseerimise tüüp (graafik, arv, indikaator). Esitage selge kirjeldus, mida saab kasutada Excelis, Power BI-s või Tableau's.",
+          "copyText": "Looge KPI armatuurlaua struktuur [osakond/projekt]. Määratlege: 8-10 põhinäitajat, iga näitaja arvutusvalem, andmeallikad, uuendamise sagedus, visualiseerimise tüüp (graafik, arv, indikaator). Esitage selge kirjeldus, mida saab kasutada Excelis, Power BI-s või Tableau's.",
           "keywords": [
             "KPI-d",
             "armatuurlaud",
@@ -833,8 +719,8 @@
         {
           "id": 47,
           "title": "Veebianalüütika aruanne",
-          "text": "Looge igakuine veebianalüütika aruanne [veebisait]. ",
-          "copyText": "Looge igakuine veebianalüütika aruanne [veebisait]. ",
+          "text": "Looge igakuine veebianalüütika aruanne [veebisait]. Kaasake: külastajate arv ja kordumatud külastajad, seansi kestus, põrkemäär, populaarseimad lehed, allikad, seadmed, geograafia. Pakkuge teavet ja soovitusi toimingute parandamiseks.",
+          "copyText": "Looge igakuine veebianalüütika aruanne [veebisait]. Kaasake: külastajate arv ja kordumatud külastajad, seansi kestus, põrkemäär, populaarseimad lehed, allikad, seadmed, geograafia. Pakkuge teavet ja soovitusi toimingute parandamiseks.",
           "keywords": [
             "veebis",
             "analüütika",
@@ -847,8 +733,8 @@
         {
           "id": 48,
           "title": "Klientide segmenteerimise analüüs",
-          "text": "Tehke RFM-i (recency, Frequency, Monetary) klientide segmenteerimise analüüs, kasutades [andmeid]. ",
-          "copyText": "Tehke RFM-i (recency, Frequency, Monetary) klientide segmenteerimise analüüs, kasutades [andmeid]. ",
+          "text": "Tehke RFM-i (recency, Frequency, Monetary) klientide segmenteerimise analüüs, kasutades [andmeid]. Tuvastage: VIP-kliendid, püsikliendid, potentsiaalsed kliendid, riskikliendid. Iga segmendi kohta esitage: omadused, suurus, soovitatavad turundusstrateegiad.",
+          "copyText": "Tehke RFM-i (recency, Frequency, Monetary) klientide segmenteerimise analüüs, kasutades [andmeid]. Tuvastage: VIP-kliendid, püsikliendid, potentsiaalsed kliendid, riskikliendid. Iga segmendi kohta esitage: omadused, suurus, soovitatavad turundusstrateegiad.",
           "keywords": [
             "klientidele",
             "segmenteerimine",
@@ -860,8 +746,8 @@
         {
           "id": 49,
           "title": "Müügiprognoos",
-          "text": "Loo [periood: nt 3 kuud, 6 kuud] müügiprognoos, mis põhineb ajaloolistel andmetel [kleebi andmed]. ",
-          "copyText": "Loo [periood: nt 3 kuud, 6 kuud] müügiprognoos, mis põhineb ajaloolistel andmetel [kleebi andmed]. ",
+          "text": "Loo [periood: nt 3 kuud, 6 kuud] müügiprognoos, mis põhineb ajaloolistel andmetel [kleebi andmed]. Kaasa: hooajalisuse analüüs, trendi tuvastamine, optimistlik/pessimistlik/realistlik stsenaarium, riskitegurid ja soovitused.",
+          "copyText": "Loo [periood: nt 3 kuud, 6 kuud] müügiprognoos, mis põhineb ajaloolistel andmetel [kleebi andmed]. Kaasa: hooajalisuse analüüs, trendi tuvastamine, optimistlik/pessimistlik/realistlik stsenaarium, riskitegurid ja soovitused.",
           "keywords": [
             "prognoosimine",
             "trend",
@@ -873,8 +759,8 @@
         {
           "id": 50,
           "title": "A/B testi tulemuste analüüs",
-          "text": "Analüüsige A/B testi tulemusi [kleepige andmed: valik A vs valik B]. ",
-          "copyText": "Analüüsige A/B testi tulemusi [kleepige andmed: valik A vs valik B]. ",
+          "text": "Analüüsige A/B testi tulemusi [kleepige andmed: valik A vs valik B]. Kaasake konversioonimäärad, statistiline olulisus, usaldusvahemikud, ülevaated põhjustest ja soovitused selle kohta, millist valikut ja miks kasutada.",
+          "copyText": "Analüüsige A/B testi tulemusi [kleepige andmed: valik A vs valik B]. Kaasake konversioonimäärad, statistiline olulisus, usaldusvahemikud, ülevaated põhjustest ja soovitused selle kohta, millist valikut ja miks kasutada.",
           "keywords": [
             "A/B",
             "test",
@@ -886,8 +772,8 @@
         {
           "id": 52,
           "title": "Andmearuanne juhtkonnale",
-          "text": "Looge haldamiseks [periood] andmearuanne [teema]. ",
-          "copyText": "Looge haldamiseks [periood] andmearuanne [teema]. ",
+          "text": "Looge haldamiseks [periood] andmearuanne [teema]. Struktuur: kokkuvõte (3-5 punkti), põhinäitajad koos võrdlustega, arusaamad, riskid ja võimalused, soovituslikud tegevused. Kasutage selget keelt, visualiseeringuid ja konkreetseid numbreid.",
+          "copyText": "Looge haldamiseks [periood] andmearuanne [teema]. Struktuur: kokkuvõte (3-5 punkti), põhinäitajad koos võrdlustega, arusaamad, riskid ja võimalused, soovituslikud tegevused. Kasutage selget keelt, visualiseeringuid ja konkreetseid numbreid.",
           "keywords": [
             "aruanne",
             "juhtimine",
@@ -899,15 +785,14 @@
         {
           "id": 59,
           "title": "Kliendi edulugu",
-          "text": "Kirjutage kliendist [kliendi nimi] kaasahaarav edulugu. ",
-          "copyText": "Kirjutage kliendist [kliendi nimi] kaasahaarav edulugu. ",
+          "text": "Kirjutage kliendist [kliendi nimi] kaasahaarav edulugu. Struktuur: kliendi soorituse kirjeldus, millise väljakutsega silmitsi seisis, rakendatud lahendus, saavutatud tulemused (koos indikaatoritega), tsitaat kliendilt ja saadud õppetunnid. Ulatus: 500-700 sõna. Toon: inspireeriv, kuid asjalik, keskendudes mõõdetavatele tulemustele.",
+          "copyText": "Kirjutage kliendist [kliendi nimi] kaasahaarav edulugu. Struktuur: kliendi soorituse kirjeldus, millise väljakutsega silmitsi seisis, rakendatud lahendus, saavutatud tulemused (koos indikaatoritega), tsitaat kliendilt ja saadud õppetunnid. Ulatus: 500-700 sõna. Toon: inspireeriv, kuid asjalik, keskendudes mõõdetavatele tulemustele.",
           "keywords": [
-            "kliendist",
-            "palju õnne",
+            "klient",
+            "edu",
             "lugu",
-            "juhtum",
-            "analüüs",
-            "tagasisidet"
+            "juhtumiuuring",
+            "iseloomustus"
           ],
           "category": "analytics"
         },
@@ -927,8 +812,8 @@
         {
           "id": 70,
           "title": "Eelarve dispersiooni analüüs",
-          "text": "Analüüsige [osakonna/projekti] eelarve dispersiooni, võrreldes planeeritud ja tegelikke kulusid. ",
-          "copyText": "Analüüsige [osakonna/projekti] eelarve dispersiooni, võrreldes planeeritud ja tegelikke kulusid. ",
+          "text": "Analüüsige [osakonna/projekti] eelarve dispersiooni, võrreldes planeeritud ja tegelikke kulusid. Tuvastage: 3 suurimat üleplaneeritud kategooriat, 3 suurimat säästu, kõrvalekalde põhjused ja soovitused järgmiseks kvartaliks. Vormindage peamiste teadmistega kokkuvõte.",
+          "copyText": "Analüüsige [osakonna/projekti] eelarve dispersiooni, võrreldes planeeritud ja tegelikke kulusid. Tuvastage: 3 suurimat üleplaneeritud kategooriat, 3 suurimat säästu, kõrvalekalde põhjused ja soovitused järgmiseks kvartaliks. Vormindage peamiste teadmistega kokkuvõte.",
           "keywords": [
             "eelarve",
             "kõrvalekalle",
@@ -940,8 +825,8 @@
         {
           "id": 72,
           "title": "Kuluaruande kokkuvõte",
-          "text": "Tehke kokkuvõte [kuu/kvartal] töötajate kuluaruannetest. ",
-          "copyText": "Tehke kokkuvõte [kuu/kvartal] töötajate kuluaruannetest. ",
+          "text": "Tehke kokkuvõte [kuu/kvartal] töötajate kuluaruannetest. Rühmitage: reisimine, einestamine, kontoritarbed ja palju muud. Märkige kulud, mis ületavad poliisi piirmäärasid või nõuavad selgitust. Esitage kinnitatud kogusumma ja tagasilükatud taotlused koos põhjustega.",
+          "copyText": "Tehke kokkuvõte [kuu/kvartal] töötajate kuluaruannetest. Rühmitage: reisimine, einestamine, kontoritarbed ja palju muud. Märkige kulud, mis ületavad poliisi piirmäärasid või nõuavad selgitust. Esitage kinnitatud kogusumma ja tagasilükatud taotlused koos põhjustega.",
           "keywords": [
             "kulud",
             "aruanne",
@@ -953,8 +838,8 @@
         {
           "id": 73,
           "title": "Finants-KPI-de kokkuvõte",
-          "text": "Looge kokkuvõte finants-KPI-de kohta [periood]. ",
-          "copyText": "Looge kokkuvõte finants-KPI-de kohta [periood]. ",
+          "text": "Looge [periood] finants-KPI-de kokkuvõte. Sisaldab: tulude kasvu %, brutomarginaali %, tegevuskulude suhet, klientide võlgu olevaid päevi, varude käivet ja sularaha konversioonitsüklit. Lisage iga näitaja aasta-aasta (YoY) võrdlus ja lühike kommentaar trendi kohta.",
+          "copyText": "Looge [periood] finants-KPI-de kokkuvõte. Sisaldab: tulude kasvu %, brutomarginaali %, tegevuskulude suhet, klientide võlgu olevaid päevi, varude käivet ja sularaha konversioonitsüklit. Lisage iga näitaja aasta-aasta (YoY) võrdlus ja lühike kommentaar trendi kohta.",
           "keywords": [
             "rahaline",
             "kpi",
@@ -967,8 +852,8 @@
         {
           "id": 74,
           "title": "Hinnastrateegia analüüs",
-          "text": "Analüüsige [toote/teenuse] optimaalseid hindu, võttes arvesse: omahinda ([X] eurot), konkurentide hindu ([kleebi andmed]), sihtmarginaali ([Y]%) ja turupositsiooni. ",
-          "copyText": "Analüüsige [toote/teenuse] optimaalseid hindu, võttes arvesse: omahinda ([X] eurot), konkurentide hindu ([kleebi andmed]), sihtmarginaali ([Y]%) ja turupositsiooni. ",
+          "text": "Analüüsige [toote/teenuse] optimaalseid hindu, võttes arvesse: omahinda ([X] eurot), konkurentide hindu ([kleebi andmed]), sihtmarginaali ([Y]%) ja turupositsiooni. Esitage kolm hinnastsenaariumit (säästlik, standardne, lisatasu) koos kasumiprognooside ja soovitustega.",
+          "copyText": "Analüüsige [toote/teenuse] optimaalseid hindu, võttes arvesse: omahinda ([X] eurot), konkurentide hindu ([kleebi andmed]), sihtmarginaali ([Y]%) ja turupositsiooni. Esitage kolm hinnastsenaariumit (säästlik, standardne, lisatasu) koos kasumiprognooside ja soovitustega.",
           "keywords": [
             "hinnakujundus",
             "kasumist",
@@ -981,10 +866,10 @@
         {
           "id": 85,
           "title": "SWOT analüüs",
-          "text": "Tehke [projekt/ettevõte/toode] jaoks üksikasjalik SWOT-analüüs. ",
-          "copyText": "Tehke [projekt/ettevõte/toode] jaoks üksikasjalik SWOT-analüüs. ",
+          "text": "Tehke [projekt/ettevõte/toode] jaoks üksikasjalik SWOT-analüüs. Kaasake: tugevused (4-6 punkti), nõrkused (4-6 punkti), võimalused (4-6 punkti), riskid (4-6 punkti). Esitage iga punkti kohta: kirjeldus, tõendid/andmed, mõju ja soovitused. Vormindage prioriteetidega struktureeritud aruanne.",
+          "copyText": "Tehke [projekt/ettevõte/toode] jaoks üksikasjalik SWOT-analüüs. Kaasake: tugevused (4-6 punkti), nõrkused (4-6 punkti), võimalused (4-6 punkti), riskid (4-6 punkti). Esitage iga punkti kohta: kirjeldus, tõendid/andmed, mõju ja soovitused. Vormindage prioriteetidega struktureeritud aruanne.",
           "keywords": [
-            "swt",
+            "swot",
             "analüüs",
             "strateegia",
             "tugevused",
@@ -995,10 +880,10 @@
         {
           "id": 86,
           "title": "PEST analüüs",
-          "text": "Viige läbi [ettevõte/projekt/ettevõte] [riik/regioon] PEST-analüüs. ",
-          "copyText": "Viige läbi [ettevõte/projekt/ettevõte] [riik/regioon] PEST-analüüs. ",
+          "text": "Viige läbi [ettevõte/projekt/ettevõte] [riik/regioon] PEST-analüüs. Kaasa: poliitilised tegurid (4-5 punkti), majanduslikud tegurid (4-5 punkti), sotsiaalsed tegurid (4-5 punkti), tehnoloogilised tegurid (4-5 punkti). Esitage iga teguri kohta: kirjeldus, mõju, suundumused ja soovitused. Esitage strateegilise aruandena.",
+          "copyText": "Viige läbi [ettevõte/projekt/ettevõte] [riik/regioon] PEST-analüüs. Kaasa: poliitilised tegurid (4-5 punkti), majanduslikud tegurid (4-5 punkti), sotsiaalsed tegurid (4-5 punkti), tehnoloogilised tegurid (4-5 punkti). Esitage iga teguri kohta: kirjeldus, mõju, suundumused ja soovitused. Esitage strateegilise aruandena.",
           "keywords": [
-            "katk",
+            "kahjur",
             "analüüs",
             "poliitika",
             "majandust",
@@ -1010,12 +895,12 @@
         {
           "id": 101,
           "title": "🎯 Konkurentide strateegiline analüüs",
-          "text": "Olete turu-uuringute vanemanalüütik, kellel on 15-aastane kogemus B2B elektroonika turustamisel.\n\n",
-          "copyText": "Olete turu-uuringute vanemanalüütik, kellel on 15-aastane kogemus B2B elektroonika turustamisel.\n\n",
+          "text": "Olete turu-uuringute vanemanalüütik, kellel on 15-aastane kogemus B2B elektroonika turustamisel.\n\nÜLESANNE: Tehke konkurendi [konkurendi nimi] üksikasjalik analüüs [tootekategooria] turul.\n\nFORMAT: esitage analüüs järgmises struktuuris:\n1. Kokkuvõte (2–3 lauset)\n2. SWOT-analüüs (4-6 punkti igas kvadrandis)\n3. Hinnakujundusstrateegia hindamine\n4. Turu positsioneerimise kaart (kirjeldage visuaalselt)\n5. Kolm rakendatavat soovitust eeldatava mõjuga\n\nTOON: professionaalne, andmepõhine, strateegiline\n\nSTIIL: kasutage äriterminoloogiat, lisage võimaluse korral konkreetseid mõõdikuid, viidake valdkonna võrdlusalustele ja vältige oletusi – keskenduge nähtavatele faktidele ja loogilistele järeldustele.\n\nKONTEKST: Oleme keskmise suurusega turustaja, kes soovib oma pakkumist konkurentsitihedal turul eristada. Meie tugevusteks on klienditeenindus ja tehniline asjatundlikkus.\n\nPIIRANGUD: koguväljund peab olema kuni 500 sõna. Eelistage teadmisi, mis pakuvad kiiret konkurentsieelist.",
+          "copyText": "Olete turu-uuringute vanemanalüütik, kellel on 15-aastane kogemus B2B elektroonika turustamisel.\n\nÜLESANNE: Tehke konkurendi [konkurendi nimi] üksikasjalik analüüs [tootekategooria] turul.\n\nFORMAT: esitage analüüs järgmises struktuuris:\n1. Kokkuvõte (2–3 lauset)\n2. SWOT-analüüs (4-6 punkti igas kvadrandis)\n3. Hinnakujundusstrateegia hindamine\n4. Turu positsioneerimise kaart (kirjeldage visuaalselt)\n5. Kolm rakendatavat soovitust eeldatava mõjuga\n\nTOON: professionaalne, andmepõhine, strateegiline\n\nSTIIL: kasutage äriterminoloogiat, lisage võimaluse korral konkreetseid mõõdikuid, viidake valdkonna võrdlusalustele ja vältige oletusi – keskenduge nähtavatele faktidele ja loogilistele järeldustele.\n\nKONTEKST: Oleme keskmise suurusega turustaja, kes soovib oma pakkumist konkurentsitihedal turul eristada. Meie tugevusteks on klienditeenindus ja tehniline asjatundlikkus.\n\nPIIRANGUD: koguväljund peab olema kuni 500 sõna. Eelistage teadmisi, mis pakuvad kiiret konkurentsieelist.",
           "keywords": [
             "konkurendid",
             "analüüs",
-            "swt",
+            "swot",
             "strateegiline",
             "turul",
             "uurimine"
@@ -1025,8 +910,8 @@
         {
           "id": 106,
           "title": "🔬 Süvauuringu metoodika",
-          "text": "Olete vanemteaduranalüütik, kellel on akadeemiline taust ja 10+ aastat kogemusi mitmetasandiliste turu-, teadus- ja äriuuringute alal.\n\n",
-          "copyText": "Olete vanemteaduranalüütik, kellel on akadeemiline taust ja 10+ aastat kogemusi mitmetasandiliste turu-, teadus- ja äriuuringute alal.\n\n",
+          "text": "Olete vanemteaduranalüütik, kellel on akadeemiline taust ja 10+ aastat kogemusi mitmetasandiliste turu-, teadus- ja äriuuringute alal.\n\nÜLESANNE: Viige läbi üksikasjalik süvauuring teemal [uurimisteema/küsimus].\n\nUURIMISE METOODIKA (5 faasi):\n\n## 1. FAAS: ULATUSALA MÄÄRATLUS\n- Peamine uurimisküsimus: [sõnastage selgelt]\n- Hüpoteesid (2–3): [mida oodatakse]\n- Piirangud: [mis EI sisaldu uuringus]\n- Edukriteeriumid: [kuidas me teame, et uuring on edukas]\n\n## 2. FAAS: ALLIKA KAARDISTAMINE\nKoguge teavet erinevatelt tasanditelt:\n🏛️ Peamised allikad: [ametlik statistika, ettevõtete aruanded, patendid]\n📊 Teisesed allikad: [teadusartiklid, analüüsid, ülevaated]\n💬 Kolmandate osapoolte allikad: [ekspertide arvamused, foorumid, taskuhäälingusaated]\n⚡ Reaalajas signaalid: [uudised, sotsiaalvõrgustikud, trendid]\n\n## 3. FAAS: RISTKONTROLL\nIga põhilause kohta:\n- Allikas A väidab: [X]\n- Allikas B kinnitab/ei nõustu: [Y]\n- Usaldusskoor: [kõrge/keskmine/madal]\n- Ebakindlus: [mis jääb kinnitamata]\n\n## 4. FAAS: SÜNTEES JA SISEMINE\nStruktureeritud analüüs:\n1. Kokkuvõte (5 lauset)\n2. Peamised leiud (punktid 5–7 koos tõenditega)\n3. Ootamatud avastused (mis üllatas)\n4. Allikatevahelised vastuolud\n5. Teadmiste lüngad (mida ei leitud)\n\n## 5. FAAS: SOOVITUSED JA JÄRGMISED SAMMUD\n- Praktilised järeldused: [3–5 tegevussoovitust]\n- Täiendavad uuringud: [millisi küsimusi tuleb uurida]\n- Usaldusväärsuse deklaratsioon: [uuringute piirangud]\n\nVORMING: esitlege oma uurimistööd selge visuaalse struktuuri, nummerdamise ja tsitaatidega.\n\nPIIRANG: Eraldage selgelt FAKTID TÕLGENDUStest ja EELDUStest.",
+          "copyText": "Olete vanemteaduranalüütik, kellel on akadeemiline taust ja 10+ aastat kogemusi mitmetasandiliste turu-, teadus- ja äriuuringute alal.\n\nÜLESANNE: Viige läbi üksikasjalik süvauuring teemal [uurimisteema/küsimus].\n\nUURIMISE METOODIKA (5 faasi):\n\n## 1. FAAS: ULATUSALA MÄÄRATLUS\n- Peamine uurimisküsimus: [sõnastage selgelt]\n- Hüpoteesid (2–3): [mida oodatakse]\n- Piirangud: [mis EI sisaldu uuringus]\n- Edukriteeriumid: [kuidas me teame, et uuring on edukas]\n\n## 2. FAAS: ALLIKA KAARDISTAMINE\nKoguge teavet erinevatelt tasanditelt:\n🏛️ Peamised allikad: [ametlik statistika, ettevõtete aruanded, patendid]\n📊 Teisesed allikad: [teadusartiklid, analüüsid, ülevaated]\n💬 Kolmandate osapoolte allikad: [ekspertide arvamused, foorumid, taskuhäälingusaated]\n⚡ Reaalajas signaalid: [uudised, sotsiaalvõrgustikud, trendid]\n\n## 3. FAAS: RISTKONTROLL\nIga põhilause kohta:\n- Allikas A väidab: [X]\n- Allikas B kinnitab/ei nõustu: [Y]\n- Usaldusskoor: [kõrge/keskmine/madal]\n- Ebakindlus: [mis jääb kinnitamata]\n\n## 4. FAAS: SÜNTEES JA SISEMINE\nStruktureeritud analüüs:\n1. Kokkuvõte (5 lauset)\n2. Peamised leiud (punktid 5–7 koos tõenditega)\n3. Ootamatud avastused (mis üllatas)\n4. Allikatevahelised vastuolud\n5. Teadmiste lüngad (mida ei leitud)\n\n## 5. FAAS: SOOVITUSED JA JÄRGMISED SAMMUD\n- Praktilised järeldused: [3–5 tegevussoovitust]\n- Täiendavad uuringud: [millisi küsimusi tuleb uurida]\n- Usaldusväärsuse deklaratsioon: [uuringute piirangud]\n\nVORMING: esitlege oma uurimistööd selge visuaalse struktuuri, nummerdamise ja tsitaatidega.\n\nPIIRANG: Eraldage selgelt FAKTID TÕLGENDUStest ja EELDUStest.",
           "keywords": [
             "uurimine",
             "analüüs",
@@ -1050,8 +935,8 @@
         {
           "id": 30,
           "title": "Reklaamibänneri tekst",
-          "text": "Kirjutage kampaania [Reklaam/müük] jaoks köitev bännertekst. ",
-          "copyText": "Kirjutage kampaania [Reklaam/müük] jaoks köitev bännertekst. ",
+          "text": "Kirjutage kampaania [Reklaam/müük] jaoks köitev bännertekst. Looge 3 versiooni: 1) Lühike pealkiri + CTA nupp (5-7 sõna), 2) Keskmise pikkusega tekst eelistega (15-20 sõna), 3) Kiireloomuline tekst tähtajaga. Andke soovitusi A/B testimiseks.",
+          "copyText": "Kirjutage kampaania [Reklaam/müük] jaoks köitev bännertekst. Looge 3 versiooni: 1) Lühike pealkiri + CTA nupp (5-7 sõna), 2) Keskmise pikkusega tekst eelistega (15-20 sõna), 3) Kiireloomuline tekst tähtajaga. Andke soovitusi A/B testimiseks.",
           "keywords": [
             "bänner",
             "tegevust",
@@ -1079,7 +964,7 @@
           "copyText": "Looge 5 Facebooki postituse ideed uute Arduino toodete kohta, millest igaühel on selge üleskutse tegevusele.",
           "keywords": [
             "facebook",
-            "rekord",
+            "postitus",
             "sotsiaalne",
             "võrgud",
             "arduino"
@@ -1088,9 +973,9 @@
         },
         {
           "id": 60,
-          "title": "e-posti turunduskampaania plaan",
-          "text": "Loo [periood] meiliturunduse kampaaniaplaan [teema]. ",
-          "copyText": "Loo [periood] meiliturunduse kampaaniaplaan [teema]. ",
+          "title": "Meiliturunduse kampaania plaan",
+          "text": "Looge meiliturunduse kampaania plaan [periood] teemal [teema]. Kaasake: kampaania eesmärgid, vaatajaskonna segmenteerimine, meili teemaread ja reklaam, isikupärastamise strateegia, A/B testid ja edumõõdikud. Optimeerige avamis- ja konversioonimäärade jaoks.",
+          "copyText": "Looge meiliturunduse kampaania plaan [periood] teemal [teema]. Kaasake: kampaania eesmärgid, vaatajaskonna segmenteerimine, meili teemaread ja reklaam, isikupärastamise strateegia, A/B testid ja edumõõdikud. Optimeerige avamis- ja konversioonimäärade jaoks.",
           "keywords": [
             "email",
             "turundus",
@@ -1105,7 +990,7 @@
       "id": "it",
       "name": "IT",
       "icon": "💻",
-      "count": 9,
+      "count": 12,
       "prompts": [
         {
           "id": 13,
@@ -1124,8 +1009,8 @@
         {
           "id": 51,
           "title": "Andmekvaliteedi audit",
-          "text": "Tehke andmete kvaliteedi audit [andmestik]. ",
-          "copyText": "Tehke andmete kvaliteedi audit [andmestik]. ",
+          "text": "Tehke andmete kvaliteedi audit [andmestik]. Tuvastage: puuduvad andmed, duplikaadid, valed vormingud, kõrvalekalded, ebakõlad. Esitage: probleemi ülevaade, mõju hindamine, prioriteedid ja soovitused andmete puhastamiseks.",
+          "copyText": "Tehke andmete kvaliteedi audit [andmestik]. Tuvastage: puuduvad andmed, duplikaadid, valed vormingud, kõrvalekalded, ebakõlad. Esitage: probleemi ülevaade, mõju hindamine, prioriteedid ja soovitused andmete puhastamiseks.",
           "keywords": [
             "andmeid",
             "puhastamine",
@@ -1152,8 +1037,8 @@
         {
           "id": 63,
           "title": "IT-toe vastuse mall",
-          "text": "Looge kasutajatoe vastuse mall [Tavaline IT-probleem: parooli lähtestamine / e-posti juurdepääs / VPN-ühendus]. ",
-          "copyText": "Looge kasutajatoe vastuse mall [Tavaline IT-probleem: parooli lähtestamine / e-posti juurdepääs / VPN-ühendus]. ",
+          "text": "Looge kasutajatoe vastuse mall [Tavaline IT-probleem: parooli lähtestamine / e-posti juurdepääs / VPN-ühendus]. Kaasake: tervitus, probleemi kinnitus, nummerdatud tõrkeotsingu sammud, hinnanguline lahendusaeg, eskalatsioonitee, kui probleemi ei lahendata, ja sulgemine pileti numbriga.",
+          "copyText": "Looge kasutajatoe vastuse mall [Tavaline IT-probleem: parooli lähtestamine / e-posti juurdepääs / VPN-ühendus]. Kaasake: tervitus, probleemi kinnitus, nummerdatud tõrkeotsingu sammud, hinnanguline lahendusaeg, eskalatsioonitee, kui probleemi ei lahendata, ja sulgemine pileti numbriga.",
           "keywords": [
             "parool",
             "taastamine",
@@ -1164,10 +1049,67 @@
           "category": "it"
         },
         {
+          "id": 64,
+          "title": "Varundus- ja taasteplaan",
+          "text": "Töötage välja [süsteemi/andmebaas] jaoks varundus- ja taasteprotseduur. Määrake: varundamise sagedus (igapäevane/nädalane), tüüp (täielik/inkrementaalne), salvestuskoht (kohalik/pilv), salvestuspoliitika, taasteaeg (RTO), taastepunkti eesmärk (RPO) ja testimise ajakava.",
+          "copyText": "Töötage välja [süsteemi/andmebaas] jaoks varundus- ja taasteprotseduur. Määrake: varundamise sagedus (igapäevane/nädalane), tüüp (täielik/inkrementaalne), salvestuskoht (kohalik/pilv), salvestuspoliitika, taasteaeg (RTO), taastepunkti eesmärk (RPO) ja testimise ajakava.",
+          "keywords": [
+            "tagavaraks",
+            "koopiaid",
+            "taastumine",
+            "plaan",
+            "andmeid",
+            "kaitse"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 65,
+          "title": "Kasutaja juurdepääsu maatriks",
+          "text": "Looge [süsteemi/rakenduse] jaoks kasutaja juurdepääsu juhtimise maatriks. Määratlege rollid (administraator, haldur, kasutaja, kirjutuskaitstud), iga rolli õigused, andmete juurdepääsutasemed, juurdepääsutaotluste kinnitamise protsess ja perioodiline ülevaatuse ajakava. Vormindage selge tabelina RBAC-loogikaga.",
+          "copyText": "Looge [süsteemi/rakenduse] jaoks kasutaja juurdepääsu juhtimise maatriks. Määratlege rollid (administraator, haldur, kasutaja, kirjutuskaitstud), iga rolli õigused, andmete juurdepääsutasemed, juurdepääsutaotluste kinnitamise protsess ja perioodiline ülevaatuse ajakava. Vormindage selge tabelina RBAC-loogikaga.",
+          "keywords": [
+            "kasutajad",
+            "juurdepääs",
+            "lubasid",
+            "rollid",
+            "turvalisus"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 66,
+          "title": "Tehnilise dokumentatsiooni mall",
+          "text": "Valmistage ette [funktsioon/API/moodul] tehniline dokumentatsioon. Kaasake: ülevaade ja eesmärk, nõuded, samm-sammult juhised koos ekraanipiltidega, koodinäidised (kui on olemas), levinud vead ja lahendused, KKK ja versiooniajalugu. Sihtrühm: [arendajad/lõppkasutajad/administraatorid].",
+          "copyText": "Valmistage ette [funktsioon/API/moodul] tehniline dokumentatsioon. Kaasake: ülevaade ja eesmärk, nõuded, samm-sammult juhised koos ekraanipiltidega, koodinäidised (kui on olemas), levinud vead ja lahendused, KKK ja versiooniajalugu. Sihtrühm: [arendajad/lõppkasutajad/administraatorid].",
+          "keywords": [
+            "tarkvara",
+            "dokumentatsiooni",
+            "api",
+            "tehniline",
+            "spetsifikatsioonid"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 67,
+          "title": "Andmete varundamise strateegia",
+          "text": "Looge andmete varundamise strateegia [süsteem/andmed]. Kaasake: mis on varundatud, sagedus (igapäevane/nädalane), salvestuskohad (pilv/kohalik), salvestusperiood, taasteprotseduurid, testimise ajakava. Optimeerige turvalisuse ja kiire taastamise jaoks.",
+          "copyText": "Looge andmete varundamise strateegia [süsteem/andmed]. Kaasake: mis on varundatud, sagedus (igapäevane/nädalane), salvestuskohad (pilv/kohalik), salvestusperiood, taasteprotseduurid, testimise ajakava. Optimeerige turvalisuse ja kiire taastamise jaoks.",
+          "keywords": [
+            "varukoopia",
+            "strateegia",
+            "tagavaraks",
+            "kopeerida",
+            "andmeid"
+          ],
+          "category": "it"
+        },
+        {
           "id": 69,
-          "title": "Makse meeldetuletuse kiri",
-          "text": "Kirjutage professionaalne, kuid sõbralik maksemeeldetuletusmeil. ",
-          "copyText": "Kirjutage professionaalne, kuid sõbralik maksemeeldetuletusmeil. ",
+          "title": "Maksemeeldetuletuse meil",
+          "text": "Kirjutage professionaalne, kuid sõbralik maksemeeldetuletusmeil arve #[number] kohta, mille tähtaeg on [X päeva] hilinenud. Kaasake: arve üksikasjad, makseviisid ja kontaktteave. Toon: viisakas, kuid kindel, säilitades samas head kliendisuhet.",
+          "copyText": "Kirjutage professionaalne, kuid sõbralik maksemeeldetuletusmeil arve #[number] kohta, mille tähtaeg on [X päeva] hilinenud. Kaasake: arve üksikasjad, makseviisid ja kontaktteave. Toon: viisakas, kuid kindel, säilitades samas head kliendisuhet.",
           "keywords": [
             "konto",
             "meeldetuletus",
@@ -1179,8 +1121,8 @@
         {
           "id": 75,
           "title": "Finantsauditi kontrollnimekiri",
-          "text": "Koostage auditi ettevalmistamise kontrollnimekiri [auditi tüüp: aastane/sisemine/maks]. ",
-          "copyText": "Koostage auditi ettevalmistamise kontrollnimekiri [auditi tüüp: aastane/sisemine/maks]. ",
+          "text": "Koostage auditi ettevalmistamise kontrollnimekiri [auditi tüüp: aastane/sisemine/maks]. Kaasake: koostatavad dokumendid, nõutavad vastavusprotseduurid, vastavuspunktid ja täitmise ajakava. Korraldage vastavalt prioriteetidele (kriitiline, oluline, saadaval).",
+          "copyText": "Koostage auditi ettevalmistamise kontrollnimekiri [auditi tüüp: aastane/sisemine/maks]. Kaasake: koostatavad dokumendid, nõutavad vastavusprotseduurid, vastavuspunktid ja täitmise ajakava. Korraldage vastavalt prioriteetidele (kriitiline, oluline, saadaval).",
           "keywords": [
             "audit",
             "kontrolli",
@@ -1190,23 +1132,10 @@
           "category": "it"
         },
         {
-          "id": 80,
-          "title": "Personalipoliitika projekt",
-          "text": "Koostage selge töötajasõbralik [poliitikateema: nt kaugtöö, puhkused, kulud] poliitika. ",
-          "copyText": "Koostage selge töötajasõbralik [poliitikateema: nt kaugtöö, puhkused, kulud] poliitika. ",
-          "keywords": [
-            "poliitika",
-            "personali",
-            "reeglid",
-            "juht"
-          ],
-          "category": "it"
-        },
-        {
           "id": 88,
           "title": "Eisenhoweri maatriksülesannete klassifikatsioon",
-          "text": "Liigitage järgmised ülesanded [kleebi ülesannete loend] Eisenhoweri maatriksi abil. ",
-          "copyText": "Liigitage järgmised ülesanded [kleebi ülesannete loend] Eisenhoweri maatriksi abil. ",
+          "text": "Liigitage järgmised ülesanded [kleebi ülesannete loend] Eisenhoweri maatriksi abil. Kategooriad: 1) Kiireloomuline ja oluline (tee kohe), 2) Tähtis, kuid mitte kiireloomuline (plaan), 3) Kiireloomuline, kuid mitte oluline (delegeeri), 4) Pole kiireloomuline ja mitte oluline (jätke kõrvale). Iga kategooria kohta esitage: ülesanded, tegevuskava ja ajaprognoos.",
+          "copyText": "Liigitage järgmised ülesanded [kleebi ülesannete loend] Eisenhoweri maatriksi abil. Kategooriad: 1) Kiireloomuline ja oluline (tee kohe), 2) Tähtis, kuid mitte kiireloomuline (plaan), 3) Kiireloomuline, kuid mitte oluline (delegeeri), 4) Pole kiireloomuline ja mitte oluline (jätke kõrvale). Iga kategooria kohta esitage: ülesanded, tegevuskava ja ajaprognoos.",
           "keywords": [
             "Eisenhower",
             "maatriks",
@@ -1219,8 +1148,8 @@
         {
           "id": 100,
           "title": "Otsustusmaatriks",
-          "text": "Loo otsustusmaatriks [otsus: nt tootevalik, strateegia valik]. ",
-          "copyText": "Loo otsustusmaatriks [otsus: nt tootevalik, strateegia valik]. ",
+          "text": "Loo otsustusmaatriks [otsus: nt tootevalik, strateegia valik]. Kaasake: alternatiivid (3-5 varianti), hindamiskriteeriumid (5-7 kriteeriumi), iga kriteeriumi kaal (1-10), iga alternatiivi hinnang (1-10). Arvutage koondskoor ja esitage soovitus koos põhjendusega.",
+          "copyText": "Loo otsustusmaatriks [otsus: nt tootevalik, strateegia valik]. Kaasake: alternatiivid (3-5 varianti), hindamiskriteeriumid (5-7 kriteeriumi), iga kriteeriumi kaal (1-10), iga alternatiivi hinnang (1-10). Arvutage koondskoor ja esitage soovitus koos põhjendusega.",
           "keywords": [
             "lahendusi",
             "maatriks",
@@ -1235,7 +1164,7 @@
       "id": "finance",
       "name": "Rahandus",
       "icon": "💰",
-      "count": 2,
+      "count": 3,
       "prompts": [
         {
           "id": 5,
@@ -1253,13 +1182,26 @@
         {
           "id": 68,
           "title": "Käibemaksu selgitus",
-          "text": "Kirjutage kliendile selge selgitus, kuidas käibemaksu arvestatakse ja millised reeglid kehtivad Lätist ostjatele.",
-          "copyText": "Kirjutage kliendile selge selgitus, kuidas käibemaksu arvestatakse ja millised reeglid kehtivad Lätist ostjatele.",
+          "text": "Kirjutage kliendile selge selgitus, kuidas käibemaksu arvestatakse ja millised reeglid kehtivad Eestist ostjatele.",
+          "copyText": "Kirjutage kliendile selge selgitus, kuidas käibemaksu arvestatakse ja millised reeglid kehtivad Eestist ostjatele.",
           "keywords": [
             "käibemaks",
             "selgitus",
-            "tasu",
-            "Läti"
+            "maks",
+            "Eesti"
+          ],
+          "category": "finance"
+        },
+        {
+          "id": 71,
+          "title": "Rahavoogude prognoos",
+          "text": "Koostage 3 kuu rahavoogude prognoos järgmiste andmete põhjal: [kleebi numbrid]. Kaasake: algsaldo, eeldatav sissevool (koos maksetingimustega), eeldatav väljavool ja prognoositav lõppsaldo. Tõstke esile võimalikud likviidsusriskid ja soovitage leevendusmeetmeid.",
+          "copyText": "Koostage 3 kuu rahavoogude prognoos järgmiste andmete põhjal: [kleebi numbrid]. Kaasake: algsaldo, eeldatav sissevool (koos maksetingimustega), eeldatav väljavool ja prognoositav lõppsaldo. Tõstke esile võimalikud likviidsusriskid ja soovitage leevendusmeetmeid.",
+          "keywords": [
+            "raha",
+            "ojad",
+            "prognoos",
+            "likviidsus"
           ],
           "category": "finance"
         }
@@ -1269,13 +1211,13 @@
       "id": "hr",
       "name": "HR",
       "icon": "👥",
-      "count": 3,
+      "count": 7,
       "prompts": [
         {
           "id": 77,
           "title": "Intervjuu küsimuste komplekt",
-          "text": "Looge [positsiooni pealkiri] kandidaadile 10 käitumisintervjuu küsimust. ",
-          "copyText": "Looge [positsiooni pealkiri] kandidaadile 10 käitumisintervjuu küsimust. ",
+          "text": "Looge [positsiooni pealkiri] kandidaadile 10 käitumisintervjuu küsimust. Kaasake 3 küsimust probleemide lahendamise kohta, 3 meeskonnatöö oskuste kohta, 2 surve all töötamise kohta ja 2 rolliga seotud tehnilist küsimust. Andke teada, mida otsida, kui kandidaat vastab hästi.",
+          "copyText": "Looge [positsiooni pealkiri] kandidaadile 10 käitumisintervjuu küsimust. Kaasake 3 küsimust probleemide lahendamise kohta, 3 meeskonnatöö oskuste kohta, 2 surve all töötamise kohta ja 2 rolliga seotud tehnilist küsimust. Andke teada, mida otsida, kui kandidaat vastab hästi.",
           "keywords": [
             "intervjuu",
             "küsimusi",
@@ -1287,8 +1229,8 @@
         {
           "id": 78,
           "title": "Sisenemise kontrollnimekiri",
-          "text": "Looge uue [positsiooni pealkiri] jaoks põhjalik 30-päevane sisseastumise kontrollnimekiri alates [kuupäev]. ",
-          "copyText": "Looge uue [positsiooni pealkiri] jaoks põhjalik 30-päevane sisseastumise kontrollnimekiri alates [kuupäev]. ",
+          "text": "Looge uue [positsiooni pealkiri] jaoks põhjalik 30-päevane sisseastumise kontrollnimekiri alates [kuupäev]. Sorteeri: 1 päev, 1 nädal, 2-4 nädalat ja 1 kuu. Kaasake ülesanded töötajatele, juhile ja uuele töötajale.",
+          "copyText": "Looge uue [positsiooni pealkiri] jaoks põhjalik 30-päevane sisseastumise kontrollnimekiri alates [kuupäev]. Sorteeri: 1 päev, 1 nädal, 2-4 nädalat ja 1 kuu. Kaasake ülesanded töötajatele, juhile ja uuele töötajale.",
           "keywords": [
             "sissejuhatus",
             "kontrolli",
@@ -1299,16 +1241,71 @@
           "category": "hr"
         },
         {
+          "id": 79,
+          "title": "Tulemuslikkuse hindamise mall",
+          "text": "Looge [ametikoha pealkiri] töötavale töötajale [töötaja nimi] tasakaalustatud tulemuslikkuse hindamise mall. Kaasake jaotised saavutuste, parandamist vajavate valdkondade, eesmärkide saavutamise, oskuste arendamise ja järgmise kvartali eesmärkide kohta. Kasutage konstruktiivset, kasvule orienteeritud keelt.",
+          "copyText": "Looge [ametikoha pealkiri] töötavale töötajale [töötaja nimi] tasakaalustatud tulemuslikkuse hindamise mall. Kaasake jaotised saavutuste, parandamist vajavate valdkondade, eesmärkide saavutamise, oskuste arendamise ja järgmise kvartali eesmärkide kohta. Kasutage konstruktiivset, kasvule orienteeritud keelt.",
+          "keywords": [
+            "tegevused",
+            "hindamine",
+            "pööratav",
+            "ühendus",
+            "eesmärgid"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 80,
+          "title": "Personalipoliitika projekt",
+          "text": "Koostage selge töötajasõbralik [poliitikateema: nt kaugtöö, puhkused, kulud] poliitika. Struktuur: eesmärk, ulatus, poliitika üksikasjad, protseduurid ja KKK. Kasutage lihtsat keelt ja tooge näidetega 3–5 levinumat olukorda.",
+          "copyText": "Koostage selge töötajasõbralik [poliitikateema: nt kaugtöö, puhkused, kulud] poliitika. Struktuur: eesmärk, ulatus, poliitika üksikasjad, protseduurid ja KKK. Kasutage lihtsat keelt ja tooge näidetega 3–5 levinumat olukorda.",
+          "keywords": [
+            "poliitika",
+            "personali",
+            "reeglid",
+            "juht"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 81,
+          "title": "Õppekava plaan",
+          "text": "Koostage [osakonnale/meeskonnale] poolepäevane koolitusprogramm teemal [teema]. Kaasake: õpieesmärgid, päevakava koos ajakavaga, tegevused/praktika, vajalikud materjalid ja kuidas mõõta õpetamise tõhusust.",
+          "copyText": "Koostage [osakonnale/meeskonnale] poolepäevane koolitusprogramm teemal [teema]. Kaasake: õpieesmärgid, päevakava koos ajakavaga, tegevused/praktika, vajalikud materjalid ja kuidas mõõta õpetamise tõhusust.",
+          "keywords": [
+            "koolitust",
+            "programm",
+            "oskusi",
+            "haridust",
+            "töötuba"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 82,
+          "title": "Tööpakkumise kiri",
+          "text": "Kirjutage professionaalse tööpakkumise kiri kandidaadile [kandidaadi nimi] [ametikoha nimetus]. Kaasake: palk, alguskuupäev, hüvitiste kokkuvõte, vastutus ja järgmised sammud. Toon: soe ja tervitatav, säilitades formaalsuse.",
+          "copyText": "Kirjutage professionaalse tööpakkumise kiri kandidaadile [kandidaadi nimi] [ametikoha nimetus]. Kaasake: palk, alguskuupäev, hüvitiste kokkuvõte, vastutus ja järgmised sammud. Toon: soe ja tervitatav, säilitades formaalsuse.",
+          "keywords": [
+            "tööst",
+            "pakkuma",
+            "kiri",
+            "tööhõive",
+            "leping"
+          ],
+          "category": "hr"
+        },
+        {
           "id": 83,
           "title": "Töötajate kaasamise uuring",
-          "text": "Koostage 15 küsimusest koosnev töötajate kaasamise uuring, mis hõlmab tööga rahulolu, juhi tõhusust, töö- ja eraelu tasakaalu, kasvuvõimalusi ja ettevõtte kultuuri. ",
-          "copyText": "Koostage 15 küsimusest koosnev töötajate kaasamise uuring, mis hõlmab tööga rahulolu, juhi tõhusust, töö- ja eraelu tasakaalu, kasvuvõimalusi ja ettevõtte kultuuri. ",
+          "text": "Koostage 15 küsimusest koosnev töötajate kaasamise uuring, mis hõlmab tööga rahulolu, juhi tõhusust, töö- ja eraelu tasakaalu, kasvuvõimalusi ja ettevõtte kultuuri. Kasutage hindamisskaala (1–5) ja avatud küsimuste segavormi. Veenduge, et küsitlus oleks anonüümne.",
+          "copyText": "Koostage 15 küsimusest koosnev töötajate kaasamise uuring, mis hõlmab tööga rahulolu, juhi tõhusust, töö- ja eraelu tasakaalu, kasvuvõimalusi ja ettevõtte kultuuri. Kasutage hindamisskaala (1–5) ja avatud küsimuste segavormi. Veenduge, et küsitlus oleks anonüümne.",
           "keywords": [
             "töötajad",
             "kaasamine",
             "uuring",
-            "pööratav",
-            "ühendus"
+            "tagasisidet",
+            "kultuur"
           ],
           "category": "hr"
         }
@@ -1323,8 +1320,8 @@
         {
           "id": 9,
           "title": "Kliendikohtumise päevakord",
-          "text": "Looge 30-minutiline kliendikohtumise päevakava [teema]. ",
-          "copyText": "Looge 30-minutiline kliendikohtumise päevakava [teema]. ",
+          "text": "Looge 30-minutiline kliendikohtumise päevakava [teema]. Sisaldab: sissejuhatav osa (5 min), kliendi vajaduste väljaselgitamine (10 min), lahenduse esitlus (10 min), küsimused ja vastused (5 min). Esitage arutelu küsimuste loend ja juhised.",
+          "copyText": "Looge 30-minutiline kliendikohtumise päevakava [teema]. Sisaldab: sissejuhatav osa (5 min), kliendi vajaduste väljaselgitamine (10 min), lahenduse esitlus (10 min), küsimused ja vastused (5 min). Esitage arutelu küsimuste loend ja juhised.",
           "keywords": [
             "kliendist",
             "koosolek",
@@ -1335,8 +1332,8 @@
         {
           "id": 16,
           "title": "Varude täiendamise soovitus",
-          "text": "Analüüsige [tootekategooria] laoseisu ja tehke ettepanekuid täiendamise kogused. ",
-          "copyText": "Analüüsige [tootekategooria] laoseisu ja tehke ettepanekuid täiendamise kogused. ",
+          "text": "Analüüsige [tootekategooria] laoseisu ja tehke ettepanekuid täiendamise kogused. Hinnake: praegused laoseisud, keskmine igakuine müük, tarneaeg ([X päeva]), ohutusvaru nõuded ja hooajalisus. Esitage hanketoimingute prioriteetne loend.",
+          "copyText": "Analüüsige [tootekategooria] laoseisu ja tehke ettepanekuid täiendamise kogused. Hinnake: praegused laoseisud, keskmine igakuine müük, tarneaeg ([X päeva]), ohutusvaru nõuded ja hooajalisus. Esitage hanketoimingute prioriteetne loend.",
           "keywords": [
             "aktsiad",
             "lisamine",
@@ -1348,8 +1345,8 @@
         {
           "id": 24,
           "title": "Laopinna optimeerimine",
-          "text": "Analüüsige laopindade kasutamist tsoonis [tsoon/koridor]. ",
-          "copyText": "Analüüsige laopindade kasutamist tsoonis [tsoon/koridor]. ",
+          "text": "Analüüsige laopindade kasutamist tsoonis [tsoon/koridor]. Tuvastage: aeglaselt liikuvad esemed, mis asuvad suurepärases kohas, sageli kokkupandavad esemed, mis asuvad pakkimisjaamast kaugel, ja raisatud ruum. Esitage viis ümberkorraldamise soovitust, et parandada kooste efektiivsust [X]% võrra.",
+          "copyText": "Analüüsige laopindade kasutamist tsoonis [tsoon/koridor]. Tuvastage: aeglaselt liikuvad esemed, mis asuvad suurepärases kohas, sageli kokkupandavad esemed, mis asuvad pakkimisjaamast kaugel, ja raisatud ruum. Esitage viis ümberkorraldamise soovitust, et parandada kooste efektiivsust [X]% võrra.",
           "keywords": [
             "ladu",
             "paigutus",
@@ -1361,8 +1358,8 @@
         {
           "id": 87,
           "title": "Pomodoro päevakava",
-          "text": "Looge Pomodoro päevakava [päev/nädal] [teema/projekt]. ",
-          "copyText": "Looge Pomodoro päevakava [päev/nädal] [teema/projekt]. ",
+          "text": "Looge Pomodoro päevakava [päev/nädal] [teema/projekt]. Kaasake: ülesannete loetelu prioriteetidega, iga ülesande jaoks Pomodorode arv (1 Pomodoro = 25 min), lühikesed pausid (5 min) ja pikad pausid (15-30 minutit pärast 4 Pomodorot). Optimeerige ülesannete jada energiataseme ja prioriteetide alusel. Esitage tunniplaanina.",
+          "copyText": "Looge Pomodoro päevakava [päev/nädal] [teema/projekt]. Kaasake: ülesannete loetelu prioriteetidega, iga ülesande jaoks Pomodorode arv (1 Pomodoro = 25 min), lühikesed pausid (5 min) ja pikad pausid (15-30 minutit pärast 4 Pomodorot). Optimeerige ülesannete jada energiataseme ja prioriteetide alusel. Esitage tunniplaanina.",
           "keywords": [
             "pomodoro",
             "päevakorda",
@@ -1375,8 +1372,8 @@
         {
           "id": 89,
           "title": "SMART-eesmärkide sõnastamine",
-          "text": "Loo 5 SMART-eesmärki [teema/projekt]. ",
-          "copyText": "Loo 5 SMART-eesmärki [teema/projekt]. ",
+          "text": "Loo 5 SMART-eesmärki [teema/projekt]. Iga eesmärk peab olema: konkreetne, mõõdetav, saavutatav, asjakohane, ajaline. Esitage iga eesmärgi jaoks: kirjeldus, mõõdikud, tegevuskava, ajaraamid ja edukriteeriumid.",
+          "copyText": "Loo 5 SMART-eesmärki [teema/projekt]. Iga eesmärk peab olema: konkreetne, mõõdetav, saavutatav, asjakohane, ajaline. Esitage iga eesmärgi jaoks: kirjeldus, mõõdikud, tegevuskava, ajaraamid ja edukriteeriumid.",
           "keywords": [
             "tark",
             "eesmärgid",
@@ -1388,8 +1385,8 @@
         {
           "id": 90,
           "title": "Aja blokeerimise päevakord",
-          "text": "Looge [päev/nädal] [ülesanne/projekt] ajablokeeriv päevakava. ",
-          "copyText": "Looge [päev/nädal] [ülesanne/projekt] ajablokeeriv päevakava. ",
+          "text": "Looge [päev/nädal] [ülesanne/projekt] ajablokeeriv päevakava. Sisaldab: fikseeritud ajad (koosolekud, kõned), sügavad päevakorra plokid (2-3 tundi ilma vaheajata), lühikesed ülesannete blokid (30-60 min), vaheajad ja vabad ajad. Optimeerige vastavalt energiatasemele ja prioriteetidele. Esitage ajakalendrina.",
+          "copyText": "Looge [päev/nädal] [ülesanne/projekt] ajablokeeriv päevakava. Sisaldab: fikseeritud ajad (koosolekud, kõned), sügavad päevakorra plokid (2-3 tundi ilma vaheajata), lühikesed ülesannete blokid (30-60 min), vaheajad ja vabad ajad. Optimeerige vastavalt energiatasemele ja prioriteetidele. Esitage ajakalendrina.",
           "keywords": [
             "aega",
             "blokeerimine",
@@ -1401,8 +1398,8 @@
         {
           "id": 91,
           "title": "2-minutilise reegli ülesande tuvastamine",
-          "text": "Analüüsige ülesannete loendit [kleebi ülesanded] ja tehke kindlaks, millised saab täita 2 minutiga või vähem. ",
-          "copyText": "Analüüsige ülesannete loendit [kleebi ülesanded] ja tehke kindlaks, millised saab täita 2 minutiga või vähem. ",
+          "text": "Analüüsige ülesannete loendit [kleebi ülesanded] ja tehke kindlaks, millised saab täita 2 minutiga või vähem. Koostage: 1) Kiirülesannete loend (tehke seda kohe), 2) Ülesanded, mida saab jagada 2 minutiks. osa, 3) Tegevuskava, kuidas neid kiiresti teostada. Optimeerige tootlikkuse ja aja kokkuhoiu jaoks.",
+          "copyText": "Analüüsige ülesannete loendit [kleebi ülesanded] ja tehke kindlaks, millised saab täita 2 minutiga või vähem. Koostage: 1) Kiirülesannete loend (tehke seda kohe), 2) Ülesanded, mida saab jagada 2 minutiks. osa, 3) Tegevuskava, kuidas neid kiiresti teostada. Optimeerige tootlikkuse ja aja kokkuhoiu jaoks.",
           "keywords": [
             "2",
             "minutit",
@@ -1416,8 +1413,8 @@
         {
           "id": 93,
           "title": "Sügav töögraafik",
-          "text": "Looge põhjalik töögraafik [nädal/kuu] [projekt]. ",
-          "copyText": "Looge põhjalik töögraafik [nädal/kuu] [projekt]. ",
+          "text": "Looge põhjalik töögraafik [nädal/kuu] [projekt]. Sisaldab: 2-4 tundi. süvatöö plokid ilma pausideta, optimaalsed ajad vastavalt energiatasemele, ettevalmistus enne süvatööd (ülesannete loetelu, materjalid), tegevused pärast süvatööd (lihtsamad ülesanded). Optimeerige keskendumisvõimet ja produktiivsust.",
+          "copyText": "Looge põhjalik töögraafik [nädal/kuu] [projekt]. Sisaldab: 2-4 tundi. süvatöö plokid ilma pausideta, optimaalsed ajad vastavalt energiatasemele, ettevalmistus enne süvatööd (ülesannete loetelu, materjalid), tegevused pärast süvatööd (lihtsamad ülesanded). Optimeerige keskendumisvõimet ja produktiivsust.",
           "keywords": [
             "sügav",
             "tööd",
@@ -1429,8 +1426,8 @@
         {
           "id": 94,
           "title": "Iganädalase ülevaate mall",
-          "text": "Looge iganädalane ülevaatemall [nädal]. ",
-          "copyText": "Looge iganädalane ülevaatemall [nädal]. ",
+          "text": "Looge iganädalane ülevaatemall [nädal]. Kaasake: 1) saavutatud eesmärgid ja õnnestumised, 2) täitmata jäetud ülesanded ja miks, 3) saadud õppetunnid, 4) järgmise nädala prioriteedid, 5) tegevuskava. Optimeerige järelemõtlemiseks, õppimiseks ja tuleviku planeerimiseks.",
+          "copyText": "Looge iganädalane ülevaatemall [nädal]. Kaasake: 1) saavutatud eesmärgid ja õnnestumised, 2) täitmata jäetud ülesanded ja miks, 3) saadud õppetunnid, 4) järgmise nädala prioriteedid, 5) tegevuskava. Optimeerige järelemõtlemiseks, õppimiseks ja tuleviku planeerimiseks.",
           "keywords": [
             "nädalaid",
             "ülevaadet",
@@ -1442,8 +1439,8 @@
         {
           "id": 95,
           "title": "Energiamajanduse päevakava",
-          "text": "Koostage energiajuhtimise päevaplaan [päev] [ülesanne]. ",
-          "copyText": "Koostage energiajuhtimise päevaplaan [päev] [ülesanne]. ",
+          "text": "Koostage energiajuhtimise päevaplaan [päev] [ülesanne]. Tuvastage: energiakulukad ajad (rasked ülesanded), keskmise energiakuluga ajad (mõõdukad ülesanded), madala energiatarbega ajad (lihtsad ülesanded). Optimeerige ülesannete jada energiataseme alusel. Esitage tunniplaanina koos ülesannete jaotusega.",
+          "copyText": "Koostage energiajuhtimise päevaplaan [päev] [ülesanne]. Tuvastage: energiakulukad ajad (rasked ülesanded), keskmise energiakuluga ajad (mõõdukad ülesanded), madala energiatarbega ajad (lihtsad ülesanded). Optimeerige ülesannete jada energiataseme alusel. Esitage tunniplaanina koos ülesannete jaotusega.",
           "keywords": [
             "energiat",
             "juhtimine",
@@ -1456,8 +1453,8 @@
         {
           "id": 96,
           "title": "Harjumuste virnastamise plaan",
-          "text": "Looge harjumuste kujundamise plaan, kasutades harjumuste virnastamise meetodit [Target Habit]. ",
-          "copyText": "Looge harjumuste kujundamise plaan, kasutades harjumuste virnastamise meetodit [Target Habit]. ",
+          "text": "Looge harjumuste kujundamise plaan, kasutades harjumuste virnastamise meetodit [Target Habit]. Kaasa: olemasolev harjumus (ankur), uus harjumus (lisage enne/pärast ankrut), konkreetsed tegevused, aeg, koht, edukriteeriumid. Esitage 30-päevane plaan koos edusammude jälgimise ja motivatsioonistrateegiatega.",
+          "copyText": "Looge harjumuste kujundamise plaan, kasutades harjumuste virnastamise meetodit [Target Habit]. Kaasa: olemasolev harjumus (ankur), uus harjumus (lisage enne/pärast ankrut), konkreetsed tegevused, aeg, koht, edukriteeriumid. Esitage 30-päevane plaan koos edusammude jälgimise ja motivatsioonistrateegiatega.",
           "keywords": [
             "harjumusi",
             "looming",
@@ -1469,8 +1466,8 @@
         {
           "id": 97,
           "title": "Partii töötlemise strateegia",
-          "text": "Looge paketttöötlusstrateegia [ülesande tüüp: nt. ",
-          "copyText": "Looge paketttöötlusstrateegia [ülesande tüüp: nt. ",
+          "text": "Looge paketttöötlusstrateegia [ülesande tüüp: nt. kirjad, kõned, dokumendid]. Sisaldab: sarnaste ülesannete rühmitamist, partii töötlemise optimaalset aega, ettevalmistamist (mallid, materjalid), töötlemise järjekorda ja aja kokkuhoiu hindamist. Optimeerige tõhususe ja kontsentratsiooni saavutamiseks.",
+          "copyText": "Looge paketttöötlusstrateegia [ülesande tüüp: nt. kirjad, kõned, dokumendid]. Sisaldab: sarnaste ülesannete rühmitamist, partii töötlemise optimaalset aega, ettevalmistamist (mallid, materjalid), töötlemise järjekorda ja aja kokkuhoiu hindamist. Optimeerige tõhususe ja kontsentratsiooni saavutamiseks.",
           "keywords": [
             "partii",
             "töötlemine",
@@ -1483,8 +1480,8 @@
         {
           "id": 99,
           "title": "Plaan produktiivseks hommikurutiiniks",
-          "text": "Looge produktiivse hommikurutiini plaan [kestvus: 30-60 min]. ",
-          "copyText": "Looge produktiivse hommikurutiini plaan [kestvus: 30-60 min]. ",
+          "text": "Looge produktiivse hommikurutiini plaan [kestvus: 30-60 min]. Sisaldab: äratustegevused (hüdratsioon, liikumine), tegevuste planeerimine (eesmärgid, prioriteedid), motivatsioonitegevused (lugemine, meditatsioon), päevaks valmistumine (to-do list). Optimeerige kogu päeva energiat, keskendumist ja produktiivsust.",
+          "copyText": "Looge produktiivse hommikurutiini plaan [kestvus: 30-60 min]. Sisaldab: äratustegevused (hüdratsioon, liikumine), tegevuste planeerimine (eesmärgid, prioriteedid), motivatsioonitegevused (lugemine, meditatsioon), päevaks valmistumine (to-do list). Optimeerige kogu päeva energiat, keskendumist ja produktiivsust.",
           "keywords": [
             "hommikul",
             "rutiin",
@@ -1505,8 +1502,8 @@
         {
           "id": 17,
           "title": "Tarnijate hindamissüsteem",
-          "text": "Loo tarnijate hindamissüsteem [tarnija]. ",
-          "copyText": "Loo tarnijate hindamissüsteem [tarnija]. ",
+          "text": "Loo tarnijate hindamissüsteem [tarnija]. Kaasake: kvaliteedinäitajad, tarneaeg, hindade konkurentsivõime, kommunikatsiooni tõhusus, probleemide lahendamine. Iga näitaja puhul täpsustage: kaal, hindamisskaala (1-10), miinimumnõuded. Esitage üldine hinnang ja soovitused.",
+          "copyText": "Loo tarnijate hindamissüsteem [tarnija]. Kaasake: kvaliteedinäitajad, tarneaeg, hindade konkurentsivõime, kommunikatsiooni tõhusus, probleemide lahendamine. Iga näitaja puhul täpsustage: kaal, hindamisskaala (1-10), miinimumnõuded. Esitage üldine hinnang ja soovitused.",
           "keywords": [
             "tarnija",
             "hindamine",
@@ -1518,8 +1515,8 @@
         {
           "id": 105,
           "title": "🔧 Süstemaatiline AI assistendi viip",
-          "text": "Olete tehisintellekti süsteemiarhitekt, kes on spetsialiseerunud kohandatud assistentide arendamisele ja optimeerimisele.\n\n",
-          "copyText": "Olete tehisintellekti süsteemiarhitekt, kes on spetsialiseerunud kohandatud assistentide arendamisele ja optimeerimisele.\n\n",
+          "text": "Olete tehisintellekti süsteemiarhitekt, kes on spetsialiseerunud kohandatud assistentide arendamisele ja optimeerimisele.\n\nÜLESANNE: looge üksikasjalik süsteemiviip tehisintellekti assistendi jaoks, mis toimib [assistendi tüübina] [organisatsiooni/piirkonna] kontekstis.\n\nSÜSTEEMI KIIRA STRUKTUUR:\n\n## IDENTITEET JA ROLL\n- Defineeri: kes sa oled? Milline on teie teadmiste tase?\n- Spetsialiseerumine: [3–5 põhipädevust]\n- Piirangud: mida te EI tee ja millele suunate kasutaja\n\n## KÄITUMISE REEGLID\n1. Vastuse formaat: [struktuur, pikkus, stiil]\n2. Toon: [ametlik/sõbralik/tehniline]\n3. Keele valik: [vastavalt kasutaja keelele/alati LT]\n4. Ebakindluse juhtimine: [küsi selgitust/tehke oletusi]\n\n## TEADMISBAAS\n- Peamised allikad: [docs, DB, API]\n- Värskenduste sagedus: [reaalajas/päevane/nädalane]\n- Usaldusväärsus: kui te ei tea → [tunnusta/otsu]\n\n## TURVAPROTOKOLLID\n- Keelatud toimingud: [loend]\n- Konfidentsiaalsus: [mida tohib/ei tohi avaldada]\n- Eskalatsioon: millal ja kuidas inimesele üle anda\n\n## KOOSTOIMIMISE NÄITED\n✅ Hea vastus: [näide]\n❌ Halb vastus: [näide]\n🔄 Kuidas reageerida [konkreetsele olukorrale]\n\n## Mõõdikud JA OPTIMISEERIMINE\n- Edukriteeriumid: [KPI]\n- Tagasiside mehhanism: [kuidas saada tagasisidet]\n\nVÄLJUND: pakkuge täielikku kopeerimis-kleepimisvalmis süsteemiviipa, mida saab kasutada otse ChatGPT kohandatud juhistes, Claude'i projektides või API süsteemisõnumites.",
+          "copyText": "Olete tehisintellekti süsteemiarhitekt, kes on spetsialiseerunud kohandatud assistentide arendamisele ja optimeerimisele.\n\nÜLESANNE: looge üksikasjalik süsteemiviip tehisintellekti assistendi jaoks, mis toimib [assistendi tüübina] [organisatsiooni/piirkonna] kontekstis.\n\nSÜSTEEMI KIIRA STRUKTUUR:\n\n## IDENTITEET JA ROLL\n- Defineeri: kes sa oled? Milline on teie teadmiste tase?\n- Spetsialiseerumine: [3–5 põhipädevust]\n- Piirangud: mida te EI tee ja millele suunate kasutaja\n\n## KÄITUMISE REEGLID\n1. Vastuse formaat: [struktuur, pikkus, stiil]\n2. Toon: [ametlik/sõbralik/tehniline]\n3. Keele valik: [vastavalt kasutaja keelele/alati LT]\n4. Ebakindluse juhtimine: [küsi selgitust/tehke oletusi]\n\n## TEADMISBAAS\n- Peamised allikad: [docs, DB, API]\n- Värskenduste sagedus: [reaalajas/päevane/nädalane]\n- Usaldusväärsus: kui te ei tea → [tunnusta/otsu]\n\n## TURVAPROTOKOLLID\n- Keelatud toimingud: [loend]\n- Konfidentsiaalsus: [mida tohib/ei tohi avaldada]\n- Eskalatsioon: millal ja kuidas inimesele üle anda\n\n## KOOSTOIMIMISE NÄITED\n✅ Hea vastus: [näide]\n❌ Halb vastus: [näide]\n🔄 Kuidas reageerida [konkreetsele olukorrale]\n\n## Mõõdikud JA OPTIMISEERIMINE\n- Edukriteeriumid: [KPI]\n- Tagasiside mehhanism: [kuidas saada tagasisidet]\n\nVÄLJUND: pakkuge täielikku kopeerimis-kleepimisvalmis süsteemiviipa, mida saab kasutada otse ChatGPT kohandatud juhistes, Claude'i projektides või API süsteemisõnumites.",
           "keywords": [
             "süsteem",
             "juhiseid",
@@ -1534,14 +1531,14 @@
         {
           "id": 107,
           "title": "🤖 Agendi ülesannete täitmine",
-          "text": "Olete autonoomne AI-agent, kellel on planeerimise, dekomponeerimise ja iteratiivse täitmise võimalused.\n\n",
-          "copyText": "Olete autonoomne AI-agent, kellel on planeerimise, dekomponeerimise ja iteratiivse täitmise võimalused.\n\n",
+          "text": "Olete autonoomne AI-agent, kellel on planeerimise, dekomponeerimise ja iteratiivse täitmise võimalused.\n\nPÕHIÜLESANNE: [Kirjeldage keerulist ülesannet, nt: \"Uue toote turuletoomiseks tervikliku turunduskampaania väljatöötamine\"]\n\nAGENTUURI TÄITMISPROTOKOLL:\n\n## 1. ÜLESANDE LAGUSTAMINE\nJagage põhiülesanne väiksemateks käivitatavateks osadeks:\n\n```\nMAIN_TASK: [Peamine eesmärk]\n├── SUBTASK_1: [Esimene samm]\n│ ├── action_1.1: [konkreetne toiming]\n│ ├── action_1.2: [konkreetne toiming]\n│ └── kontrollpunkt_1: [Kuidas kontrollida, kas on tehtud]\n├── SUBTASK_2: [teine samm]\n│ └── ...\n└── SUBTASK_N: [viimane samm]\n```\n\n## 2. SÕLTUVUSKAART\nMääratlege järjekord ja suhted:\n- [SUBTASK_1] → blokeerib → [SUBTASK_3]\n- [SUBTASK_2] → paralleelselt → [SUBTASK_1]\n- Kriitiline tee: [millised sammud on vajalikud]\n\n## 3. TÖÖRIISTAD JA VAHENDID\nIga ülesande jaoks:\n| Ülesanne | Vajalik tööriist | Andmeallikas | Inimpanus? |\n|----------|--------------------|--------------------|-------------------|\n| 1.1 | [tööriist] | [allikas] | jah/ei |\n\n## 4. TÄITMISTSÜKKEL (iga sammu jaoks)\n```\nWHILE task_incomplete:\n    1. PLAAN: mida ma selles etapis teen?\n    2. TEOSTA: teen toimingu\n    3. MONITOR: Kas tulemus vastab ootustele?\n    4. REFLEKTI: Mis töötas? Mida ei teinud? Miks?\n    5. KOHANDA: kas peate plaani kohandama?\n    6. JÄTKAKE või KÜSIGE inimeselt\n```\n\n## 5. VEAHALDUSPROTOKOLL\n- Kui samm X ebaõnnestub → [varuplaan]\n- Kui teave puudub → [kuidas saada]\n- Kui piirang saavutatakse → [eskaleeru kontekstiga]\n\n## 6. EDUMISARUANNETE VORM\nPärast iga etappi esitage:\n✅ Valmis: [mis on tehtud]\n⏳ Käimas: [mida praegu tehakse]\n📋 Järelejäänud: [mis on alles]\n🚧 Blokeerijad: [mis blokeerib]\n💡 Insights: [mida ma õppisin]\n\nVÄLJUNDUSNÕUDED: alustage täieliku plaaniga, seejärel jätkake samm-sammult, oodates pärast iga sammu kinnitust või parandusi. Olge ennetav, kuid küsige kriitilistes otsustuspunktides inimeste panust.",
+          "copyText": "Olete autonoomne AI-agent, kellel on planeerimise, dekomponeerimise ja iteratiivse täitmise võimalused.\n\nPÕHIÜLESANNE: [Kirjeldage keerulist ülesannet, nt: \"Uue toote turuletoomiseks tervikliku turunduskampaania väljatöötamine\"]\n\nAGENTUURI TÄITMISPROTOKOLL:\n\n## 1. ÜLESANDE LAGUSTAMINE\nJagage põhiülesanne väiksemateks käivitatavateks osadeks:\n\n```\nMAIN_TASK: [Peamine eesmärk]\n├── SUBTASK_1: [Esimene samm]\n│ ├── action_1.1: [konkreetne toiming]\n│ ├── action_1.2: [konkreetne toiming]\n│ └── kontrollpunkt_1: [Kuidas kontrollida, kas on tehtud]\n├── SUBTASK_2: [teine samm]\n│ └── ...\n└── SUBTASK_N: [viimane samm]\n```\n\n## 2. SÕLTUVUSKAART\nMääratlege järjekord ja suhted:\n- [SUBTASK_1] → blokeerib → [SUBTASK_3]\n- [SUBTASK_2] → paralleelselt → [SUBTASK_1]\n- Kriitiline tee: [millised sammud on vajalikud]\n\n## 3. TÖÖRIISTAD JA VAHENDID\nIga ülesande jaoks:\n| Ülesanne | Vajalik tööriist | Andmeallikas | Inimpanus? |\n|----------|--------------------|--------------------|-------------------|\n| 1.1 | [tööriist] | [allikas] | jah/ei |\n\n## 4. TÄITMISTSÜKKEL (iga sammu jaoks)\n```\nWHILE task_incomplete:\n    1. PLAAN: mida ma selles etapis teen?\n    2. TEOSTA: teen toimingu\n    3. MONITOR: Kas tulemus vastab ootustele?\n    4. REFLEKTI: Mis töötas? Mida ei teinud? Miks?\n    5. KOHANDA: kas peate plaani kohandama?\n    6. JÄTKAKE või KÜSIGE inimeselt\n```\n\n## 5. VEAHALDUSPROTOKOLL\n- Kui samm X ebaõnnestub → [varuplaan]\n- Kui teave puudub → [kuidas saada]\n- Kui piirang saavutatakse → [eskaleeru kontekstiga]\n\n## 6. EDUMISARUANNETE VORM\nPärast iga etappi esitage:\n✅ Valmis: [mis on tehtud]\n⏳ Käimas: [mida praegu tehakse]\n📋 Järelejäänud: [mis on alles]\n🚧 Blokeerijad: [mis blokeerib]\n💡 Insights: [mida ma õppisin]\n\nVÄLJUNDUSNÕUDED: alustage täieliku plaaniga, seejärel jätkake samm-sammult, oodates pärast iga sammu kinnitust või parandusi. Olge ennetav, kuid küsige kriitilistes otsustuspunktides inimeste panust.",
           "keywords": [
             "agent",
             "autonoomne",
             "töövoog",
             "lagunemine",
-            "hukkamine",
+            "täitmine",
             "planeerimine",
             "AI",
             "ketid"

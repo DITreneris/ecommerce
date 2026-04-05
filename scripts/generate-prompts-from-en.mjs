@@ -51,11 +51,67 @@ const TARGETS = {
 
 const PAUSE_MS = 250;
 
+/** Keep GET URL under typical proxy limits (encoded q= grows fast with Unicode). */
+const MAX_ENCODED_QUERY = 1600;
+
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
+function encodedLength(s) {
+  return encodeURIComponent(s).length;
+}
+
+/**
+ * Split long string into segments whose encodeURIComponent length is <= maxEnc.
+ * Greedy grow, then prefer break at newline or space inside the segment.
+ * @param {string} s
+ * @param {number} maxEnc
+ * @returns {string[]}
+ */
+function splitByEncodedBudget(s, maxEnc) {
+  if (encodedLength(s) <= maxEnc) return [s];
+  const chunks = [];
+  let i = 0;
+  while (i < s.length) {
+    let j = i;
+    while (j < s.length && encodedLength(s.slice(i, j + 1)) <= maxEnc) {
+      j++;
+    }
+    if (j === i) {
+      chunks.push(s.slice(i, i + 1));
+      i++;
+      continue;
+    }
+    let slice = s.slice(i, j);
+    const lastNl = slice.lastIndexOf('\n');
+    const lastSp = slice.lastIndexOf(' ');
+    const br = Math.max(lastNl, lastSp);
+    if (br > 0 && br >= slice.length * 0.15) {
+      const atNl = lastNl === br;
+      slice = s.slice(i, i + br + (atNl ? 1 : 0));
+      chunks.push(slice);
+      i += slice.length;
+    } else {
+      chunks.push(slice);
+      i = j;
+    }
+  }
+  return chunks;
+}
+
 /** @param {string} text @param {string} tl et|lv */
+/** Join all sentence/phrase segments from client=gtx JSON (first column only is [0][i][0]). */
+function gtxJoinTranslatedSegments(data) {
+  const row = data?.[0];
+  if (!Array.isArray(row)) return '';
+  let out = '';
+  for (const seg of row) {
+    if (Array.isArray(seg) && typeof seg[0] === 'string') out += seg[0];
+  }
+  return out;
+}
+
 async function gtxTranslate(text, tl) {
   const q = encodeURIComponent(text);
   const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${tl}&dt=t&q=${q}`;
@@ -65,8 +121,8 @@ async function gtxTranslate(text, tl) {
       const res = await fetch(url);
       if (!res.ok) throw new Error(String(res.status));
       const data = await res.json();
-      const out = data?.[0]?.[0]?.[0];
-      if (typeof out !== 'string') throw new Error('bad gtx shape');
+      const out = gtxJoinTranslatedSegments(data);
+      if (out === '') throw new Error('bad gtx shape');
       await sleep(PAUSE_MS);
       return out;
     } catch (e) {
@@ -75,6 +131,43 @@ async function gtxTranslate(text, tl) {
     }
   }
   throw lastErr;
+}
+
+/**
+ * Translate possibly long text by splitting paragraphs, lines, then encoded-size chunks.
+ * @param {string} text
+ * @param {string} tl
+ */
+async function gtxTranslateChunked(text, tl) {
+  if (text === '') return '';
+  if (encodedLength(text) <= MAX_ENCODED_QUERY) {
+    return gtxTranslate(text, tl);
+  }
+  const re = /\n{2,}/;
+  if (re.test(text)) {
+    const bits = text.split(re);
+    const sep = text.match(re)?.[0] || '\n\n';
+    let acc = '';
+    for (let i = 0; i < bits.length; i++) {
+      acc += await gtxTranslateChunked(bits[i], tl);
+      if (i < bits.length - 1) acc += sep;
+    }
+    return acc;
+  }
+  if (text.includes('\n')) {
+    const lines = text.split('\n');
+    const tr = [];
+    for (let li = 0; li < lines.length; li++) {
+      tr.push(await gtxTranslateChunked(lines[li], tl));
+    }
+    return tr.join('\n');
+  }
+  const hard = splitByEncodedBudget(text, MAX_ENCODED_QUERY);
+  const sub = [];
+  for (const h of hard) {
+    sub.push(await gtxTranslate(h, tl));
+  }
+  return sub.join('');
 }
 
 async function main() {
@@ -95,12 +188,12 @@ async function main() {
     for (const p of cat.prompts) {
       p.title = await gtxTranslate(p.title, tl);
       if (p.text === p.copyText) {
-        const once = await gtxTranslate(p.text, tl);
+        const once = await gtxTranslateChunked(p.text, tl);
         p.text = once;
         p.copyText = once;
       } else {
-        p.text = await gtxTranslate(p.text, tl);
-        p.copyText = await gtxTranslate(p.copyText, tl);
+        p.text = await gtxTranslateChunked(p.text, tl);
+        p.copyText = await gtxTranslateChunked(p.copyText, tl);
       }
       if (Array.isArray(p.keywords)) {
         const kw = [];

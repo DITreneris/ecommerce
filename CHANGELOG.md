@@ -6,6 +6,27 @@ Formatas remiasi [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versi
 
 ## [Unreleased]
 
+## [4.2.0] — 2026-04-05
+
+### Fixed
+
+- **`scripts/generate-prompts-from-en.mjs`** — ilgiems tekstams vertimas dalimis (`encodeURIComponent` biudžetas); GTX atsakyme sujungiami visi vertimo segmentai (ne tik pirmas), kad ET/LV nebūtų nutrūkstąčių `text` / `copyText`.
+- **`assets/data/prompts.lt.json`** — copy taisymai (ID 67, 18, 80, 68: terminija, PVM kontekstas Lietuvai, ID 18 „mitigacijos“ rašyba).
+- **`assets/data/prompts.en.json`** — P0/P1 copy pagal auditą (kalbos mišiniai, „email“ frazės, keywords, Kanban stulpeliai, ID 107 anglų blokas ir kt.).
+- **`assets/data/prompts.et.json`**, **`prompts.lv.json`** — pergeneruota iš atnaujinto EN po generatoriaus pataisų; rankinis retušas (ET: 3, 68, 107; LV: 68 → Latvijas pircēji).
+
+### Changed
+
+- **`assets/data/prompts.et.json`**, **`prompts.lv.json`** — pilnas turinys po `npm run generate:et` / `generate:lv` (sulyginta su EN ilgiu kritinėms užduotims).
+- **`assets/data/prompts.{lt,en,et,lv}.json`** — informacinė architektūra: ID **64–67** perkelti į **IT**, **71** į **finance**, **79–82** į **HR** (įskaitant **80** iš IT), atnaujinti `count` ir `p.category` visose kalbose (UX atitiktis temai, žr. copy auditą).
+
+### Docs
+
+- **`docs/COPY_UX_AUDIT_LT_EN_LV_ET_2026-04-05.md`** — išsamus copy ir UX auditas visiems 107 promptams kalbose LT, EN, LV, ET (įvertinimai, prioritetai, backlog); papildyta skyriumi **Po remediacijos** ir ET/LV rankinės QA gairėmis.
+- **`docs/DOCUMENTATION.md`** — dokumentų registre įrašas apie copy auditą.
+
+## [4.1.0] — 2026-04-05
+
 ### Added
 
 - Keturios kalbos: **`et/`** (eesti) ir **`lv/`** (latviešu) bibliotekos puslapiai, duomenys **`assets/data/prompts.et.json`**, **`prompts.lv.json`** (generuojama iš EN: `npm run generate:et` / `generate:lv`).
@@ -13,6 +34,7 @@ Formatas remiasi [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versi
 - Šaknies **`index.html`**: `localStorage` raktas **`prompt-library-lang`** (`lt` \| `en` \| `et` \| `lv`), tada naršyklės kalba; numatytoji ne LT kalbai — **`en/`**; `x-default` į EN.
 - **`assets/js/app.js`**: `STRINGS.et` / `STRINGS.lv`, teisinga paieškos santraukos daugiskaita ET/LV, kalbų nuorodoms išsaugomas **`?q=`**, paspaudus kalbą — įrašomas `prompt-library-lang`.
 - **`scripts/generate-prompts-from-en.mjs`** — EN → ET/LV (Google `translate.googleapis.com` client=gtx); **`scripts/validate-prompts-json.mjs`** ir įtraukta į **`npm run verify`**.
+- GitHub Pages publikavimas į viešą repozitoriją **[DITreneris/ecommerce](https://github.com/DITreneris/ecommerce)** — numatytas URL **`https://ditreneris.github.io/ecommerce/`** (po Pages šaltinio įjungimo).
 
 ### Fixed
 

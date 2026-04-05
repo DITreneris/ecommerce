@@ -7,20 +7,21 @@
 
 ## Dokumentų registras
 
-| Dokumentas                                                  | Paskirtis                                            | Kada atnaujinti                                     |
-| ----------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------- |
-| [README.md](../README.md)                                   | Naudotojui: kas tai, kaip naudoti, funkcijos         | Naujos funkcijos, kalbos, deploy, matomas UX        |
-| [CHANGELOG.md](../CHANGELOG.md)                             | Kas pasikeitė versijose (žmonėms ir release)         | Kiekviena reikšminga pataisa / funkcija / tooling   |
-| [TODO.md](../TODO.md)                                       | Vidinės užduotys ir backlog                          | Užduotis uždaromos/atidaromos pagal darbą           |
-| [QUICK_START.md](../QUICK_START.md)                         | Trumpas startas                                      | Pasikeitus minimaliam naudojimo keliui              |
-| [GITHUB_SETUP.md](../GITHUB_SETUP.md)                       | Pages ir repo setup                                  | Pasikeitus deploy ar GitHub žingsniams              |
-| [AGENTS.md](../AGENTS.md)                                   | AI agentų kontekstas                                 | Architektūra, įrankiai, QA checklist                |
-| [CONTRIBUTING.md](../CONTRIBUTING.md)                       | PR ir kokybės gairės                                 | CI, lint, proceso pakeitimai                        |
-| [SECURITY.md](../SECURITY.md)                               | Saugos pranešimai                                    | Pasikeitus rizikoms ar kontaktui                    |
-| `docs/DOCUMENTATION.md` (šis failas)                        | Dokumentų politika                                   | Nauji kanoniniai doc failai ar QA taisyklės         |
-| [docs/archive/](archive/README.md)                          | Seni HTML/JS/skriptai ir darbo užrašai               | Tik istorija; ne produkcijos kelias                 |
-| [docs/MULTILINGUAL_STRUCTURE.md](MULTILINGUAL_STRUCTURE.md) | LT/EN/ET/LV keliai ir failai                         | Pasikeitus įėjimui, kalboms ar duomenų failams      |
-| [docs/UI_UX_AUDIT_CHECKLIST.md](UI_UX_AUDIT_CHECKLIST.md)   | Prieš release: klaviatūra, SR, WCAG, funkcinis visoms kalboms | Po matomų UI/UX elgsenos pakeitimų ar prieš release |
+| Dokumentas                                                                              | Paskirtis                                                              | Kada atnaujinti                                          |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------- |
+| [README.md](../README.md)                                                               | Naudotojui: kas tai, kaip naudoti, funkcijos                           | Naujos funkcijos, kalbos, deploy, matomas UX             |
+| [CHANGELOG.md](../CHANGELOG.md)                                                         | Kas pasikeitė versijose (žmonėms ir release)                           | Kiekviena reikšminga pataisa / funkcija / tooling        |
+| [TODO.md](../TODO.md)                                                                   | Vidinės užduotys ir backlog                                            | Užduotis uždaromos/atidaromos pagal darbą                |
+| [QUICK_START.md](../QUICK_START.md)                                                     | Trumpas startas                                                        | Pasikeitus minimaliam naudojimo keliui                   |
+| [GITHUB_SETUP.md](../GITHUB_SETUP.md)                                                   | Pages ir repo setup                                                    | Pasikeitus deploy ar GitHub žingsniams                   |
+| [AGENTS.md](../AGENTS.md)                                                               | AI agentų kontekstas                                                   | Architektūra, įrankiai, QA checklist                     |
+| [CONTRIBUTING.md](../CONTRIBUTING.md)                                                   | PR ir kokybės gairės                                                   | CI, lint, proceso pakeitimai                             |
+| [SECURITY.md](../SECURITY.md)                                                           | Saugos pranešimai                                                      | Pasikeitus rizikoms ar kontaktui                         |
+| `docs/DOCUMENTATION.md` (šis failas)                                                    | Dokumentų politika                                                     | Nauji kanoniniai doc failai ar QA taisyklės              |
+| [docs/archive/](archive/README.md)                                                      | Seni HTML/JS/skriptai ir darbo užrašai                                 | Tik istorija; ne produkcijos kelias                      |
+| [docs/MULTILINGUAL_STRUCTURE.md](MULTILINGUAL_STRUCTURE.md)                             | LT/EN/ET/LV keliai ir failai                                           | Pasikeitus įėjimui, kalboms ar duomenų failams           |
+| [docs/UI_UX_AUDIT_CHECKLIST.md](UI_UX_AUDIT_CHECKLIST.md)                               | Prieš release: klaviatūra, SR, WCAG, funkcinis visoms kalboms          | Po matomų UI/UX elgsenos pakeitimų ar prieš release      |
+| [docs/COPY_UX_AUDIT_LT_EN_LV_ET_2026-04-05.md](COPY_UX_AUDIT_LT_EN_LV_ET_2026-04-05.md) | Copy / UX auditas visoms kalboms (107 promptai), remediacijos istorija | Po didelių `prompts.*.json` ar vertimo proceso pakeitimų |
 
 Dizaino / vertinimo užrašai ir P2 užrašai perkelti į **`docs/archive/notes/`**. Aktyviam planavimui atnaujinkite tik jei sąmoningai dirbate su archyvu.
 
