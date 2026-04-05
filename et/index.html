@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="et" data-locale="et" data-assets-base="../assets">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (function () {
+        try {
+          var k = 'prompt-library-theme';
+          var r = localStorage.getItem(k);
+          if (!r) return;
+          var v = JSON.parse(r);
+          if (v === 'light' || v === 'dark') document.documentElement.setAttribute('data-theme', v);
+        } catch (e) {
+          /* ignore */
+        }
+      })();
+    </script>
+    <meta name="theme-color" content="#0d6efd" />
+    <title>DI ülesannete raamatukogu e-kaubandusele — Spin-off nr 8</title>
+    <meta
+      name="description"
+      content="Kopeeritavad DI ülesanded e-kaubandusele ja operatsioonidele: müük, logistika, turundus, analüütika ja muu. Tasuta statiline raamatukogu."
+    />
+    <meta property="og:title" content="DI ülesannete raamatukogu e-kaubandusele" />
+    <meta property="og:description" content="Praktilised ülesanded igapäevaseks tööks DI tööriistadega." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="alternate" hreflang="lt" href="../lt/" />
+    <link rel="alternate" hreflang="en" href="../en/" />
+    <link rel="alternate" hreflang="et" href="../et/" />
+    <link rel="alternate" hreflang="lv" href="../lv/" />
+    <link rel="alternate" hreflang="x-default" href="../en/" />
+  </head>
+  <body>
+    <div class="progress-bar" id="progress-bar"></div>
+    <div class="toast-container">
+      <div class="toast" id="toast"></div>
+    </div>
+
+    <a class="skip-link" href="#main">Liigu sisu juurde</a>
+    <div id="nav-overlay" class="nav__overlay" aria-hidden="true"></div>
+
+    <div class="sticky-head">
+      <div class="top-announcement" role="region" aria-label="Teadaanne">
+        <div class="container container--wide top-announcement__inner">
+          <span>E-kaubanduse ja operatsioonide ülesanded — kiiremini tehisintellektiga</span>
+        </div>
+      </div>
+
+      <header class="site-header">
+        <div class="site-header__brand-row">
+          <div class="container container--wide site-header__brand-inner">
+            <div class="site-header__brand">
+              <a class="site-header__logo" href="./"
+                >DI ülesannete raamatukogu <span class="site-header__sub">e-kaubandusele</span></a
+              >
+              <span class="site-header__badge" title="Seeria">Spin-off nr 8</span>
+            </div>
+            <div class="site-header__search-wrap">
+              <label class="visually-hidden" for="search-prompts">Otsing</label>
+              <input
+                type="search"
+                id="search-prompts"
+                class="search-input search-input--header"
+                autocomplete="off"
+              />
+              <div
+                id="search-results"
+                class="search-results search-results--header"
+                style="display: none"
+                aria-live="polite"
+              ></div>
+            </div>
+            <div class="site-header__lang">
+              <a class="lang-link" href="../lt/" hreflang="lt" data-lang="lt">LT</a>
+              <span class="lang-sep" aria-hidden="true">|</span>
+              <a class="lang-link" href="../en/" hreflang="en" data-lang="en">EN</a>
+              <span class="lang-sep" aria-hidden="true">|</span>
+              <span class="lang-current" aria-current="page">ET</span>
+              <span class="lang-sep" aria-hidden="true">|</span>
+              <a class="lang-link" href="../lv/" hreflang="lv" data-lang="lv">LV</a>
+              <button type="button" class="theme-toggle" id="theme-toggle"></button>
+            </div>
+          </div>
+        </div>
+        <div class="site-header__nav-row">
+          <div class="container container--wide header__inner">
+            <nav class="nav" aria-label="Põhimenüü">
+              <button
+                id="nav-toggle"
+                class="nav__toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="primary-nav"
+              >
+                <span class="nav__icon" aria-hidden="true"><span></span></span>
+                <span>Menüü</span>
+              </button>
+              <ul id="primary-nav" class="nav__list"></ul>
+            </nav>
+            <div class="site-header__cta-row">
+              <a class="btn-cta-red" href="#ecommerce">E-kaubandus</a>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <main id="main">
+      <section class="hero hero--spinoff" aria-label="Sissejuhatus">
+        <div class="container hero__inner">
+          <h1 class="hero__title">Pole teooria — valmis AI ülesanded müügi ja operatsioonide jaoks</h1>
+          <p class="hero__subtitle">Kopeeri ülesanded ChatGPT-sse, Claudesse või teistesse tööriistadesse</p>
+          <ul class="hero__features">
+            <li>Tiimidele ja üksikutele spetsialistidele</li>
+            <li>Jaotised müügist analüütikani</li>
+            <li>Otsing ja ühe klõpsuga kopeerimine</li>
+          </ul>
+          <div class="hero__cta">
+            <a href="#start" class="btn btn--primary">Alusta</a>
+            <a href="#guide" class="btn btn--secondary">Kuidas kasutada</a>
+          </div>
+          <div class="hero__stats">
+            <a href="#prompts-container" class="stat stat--clickable">
+              <div class="stat__number" id="hero-stat-tasks">107</div>
+              <div class="stat__label">Ülesanded</div>
+              <div class="stat__hint">Raamatukogus</div>
+            </a>
+            <a href="#prompts-container" class="stat stat--clickable">
+              <div class="stat__number" id="hero-stat-sections">13</div>
+              <div class="stat__label">Jaotised</div>
+              <div class="stat__hint">Teema järgi</div>
+            </a>
+            <div class="stat">
+              <div class="stat__number">100%</div>
+              <div class="stat__label">Kopeeritav</div>
+              <div class="stat__hint">Üks klõps</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefit-bar" aria-label="Eelised">
+        <div class="container container--wide benefit-bar__grid">
+          <div class="benefit-bar__item">
+            <span class="benefit-bar__icon" aria-hidden="true">🔍</span>
+            <div class="benefit-bar__text">
+              <strong>Kiire otsing</strong>
+              <span>Leia ülesanne märksõna järgi</span>
+            </div>
+          </div>
+          <div class="benefit-bar__item">
+            <span class="benefit-bar__icon" aria-hidden="true">📋</span>
+            <div class="benefit-bar__text">
+              <strong>Üks puudutus</strong>
+              <span>Ülesanne lõikelauale</span>
+            </div>
+          </div>
+          <div class="benefit-bar__item">
+            <span class="benefit-bar__icon" aria-hidden="true">🧩</span>
+            <div class="benefit-bar__text">
+              <strong>13 teemat</strong>
+              <span>HR-ist täpsema mallini</span>
+            </div>
+          </div>
+          <div class="benefit-bar__item">
+            <span class="benefit-bar__icon" aria-hidden="true">🆓</span>
+            <div class="benefit-bar__text">
+              <strong>Tasuta</strong>
+              <span>Staatiline kasutamine brauseris</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--guide" id="guide">
+        <div class="container guide-steps">
+          <div class="guide-steps__item">
+            <span class="guide-steps__num">1</span><span>Vali ülesanne</span>
+          </div>
+          <div class="guide-steps__item">
+            <span class="guide-steps__num">2</span><span>Kopieeri</span>
+          </div>
+          <div class="guide-steps__item">
+            <span class="guide-steps__num">3</span><span>Kleebi AI tööriista</span>
+          </div>
+          <div class="guide-steps__item">
+            <span class="guide-steps__num">4</span><span>Asenda [kohatäited]</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container container--wide">
+          <div class="section__header">
+            <h2 class="section__title">Kõik ülesanded</h2>
+            <p class="section__subtitle">Sirvi jaotise kaudu või kasuta ülaosa otsingut.</p>
+          </div>
+          <div id="prompts-container"></div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="resources">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Rohkem ressursse</h2>
+          </div>
+          <div class="resources-grid">
+            <article class="card">
+              <h3 class="card__title">Algaja juhend</h3>
+              <p class="card__text">Kuidas sõnastada ülesandeid, et AI annaks täpsemaid vastuseid.</p>
+              <span class="card__muted">Varsti</span>
+            </article>
+            <article class="card">
+              <h3 class="card__title">Mallide ideid</h3>
+              <p class="card__text">E-kirjad, pakkumised ja kliendisuhtlus.</p>
+              <span class="card__muted">Selles raamatukogus</span>
+            </article>
+            <article class="card">
+              <h3 class="card__title">Spin-off seeria</h3>
+              <p class="card__text">Teised DITreneris projektid ja koolitused.</p>
+              <a
+                class="button"
+                href="https://github.com/DITreneris/biblioteka"
+                rel="noopener noreferrer"
+                >Raamatukogu (nr 1)</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Tagasi üles">↑</button>
+
+    <footer id="contact">
+      <div class="container">
+        <h2 class="footer__title" id="footer-contact-title">Kontakt</h2>
+        <p class="helper" id="footer-contact-lead">
+          Kas teil on ideid? Vorm kontrollib sisendit, kuid andmeid ei saadeta.
+        </p>
+        <div
+          id="form-success"
+          class="form__success"
+          role="alert"
+          aria-live="polite"
+          tabindex="-1"
+        ></div>
+        <form id="contact-form" class="form" novalidate>
+          <div class="form__row">
+            <label class="form__label" for="name">Nimi</label>
+            <input
+              class="form__input"
+              id="name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              placeholder="Teie nimi"
+              required
+              aria-describedby="name-error"
+            />
+            <div class="form__error" id="name-error" aria-live="polite"></div>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="email">E-post</label>
+            <input
+              class="form__input"
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="teie@example.com"
+              required
+              aria-describedby="email-error"
+            />
+            <div class="form__error" id="email-error" aria-live="polite"></div>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="message">Sõnum</label>
+            <textarea
+              class="form__textarea"
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Teie ettepanek"
+              required
+              minlength="10"
+              aria-describedby="message-error"
+            ></textarea>
+            <div class="form__error" id="message-error" aria-live="polite"></div>
+          </div>
+          <div class="form__actions">
+            <button class="button" type="submit">Saada</button>
+            <button class="button button--secondary" type="reset">Tühjenda</button>
+          </div>
+        </form>
+        <p class="footer__meta">
+          <a href="privacy.html">Privaatsuspoliitika</a> · Spin-off nr 8 ·
+          <span id="footer-year"></span>
+        </p>
+      </div>
+    </footer>
+
+    <div class="mobile-bottom-bar">
+      <button type="button" id="mobile-search-btn" class="mobile-bottom-bar__btn">
+        <span aria-hidden="true">🔍</span>
+        <span class="mobile-nav-label">Otsi</span>
+      </button>
+      <button type="button" id="mobile-sections-btn" class="mobile-bottom-bar__btn">
+        <span aria-hidden="true">📂</span>
+        <span class="mobile-nav-label">Jaotised</span>
+      </button>
+    </div>
+
+    <div
+      id="mobile-search-modal"
+      class="mobile-search-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="mobile-search-title"
+      aria-hidden="true"
+      hidden
+    >
+      <div class="mobile-search-modal__content">
+        <h2 class="mobile-search-modal__title" id="mobile-search-title">Otsing</h2>
+        <input type="search" id="mobile-search-input" class="search-input" autocomplete="off" />
+        <div
+          id="mobile-search-results"
+          class="search-results"
+          style="display: none"
+          aria-live="polite"
+        ></div>
+        <button type="button" class="mobile-search-close" id="mobile-search-close">Sulge</button>
+      </div>
+    </div>
+
+    <div class="keyboard-hint" id="keyboard-hint"></div>
+
+    <script>
+      document.getElementById('footer-year').textContent = new Date().getFullYear();
+    </script>
+    <script src="../assets/js/app.js" defer></script>
+  </body>
+</html>

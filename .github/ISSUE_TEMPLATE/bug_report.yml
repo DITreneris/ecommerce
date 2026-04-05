@@ -1,0 +1,36 @@
+name: Klaida (bug)
+description: Kažkas neveikia arba veikia neteisingai
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Prašome aprašyti problemą konkrečiai. Jei galite — nurodykite naršyklę ir įrenginį.
+  - type: textarea
+    id: expected
+    attributes:
+      label: Tikėtasi
+      description: Ką turėjo įvykti?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Įvyko
+      description: Ką matote dabar?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Žingsniai atkartoti
+      description: "1. … 2. … 3. …"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Aplinka
+      description: pvz. Chrome 120, Windows 11 / iOS Safari
+    validations:
+      required: false

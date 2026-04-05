@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="lt" data-locale="lt" data-assets-base="../assets">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (function () {
+        try {
+          var k = 'prompt-library-theme';
+          var r = localStorage.getItem(k);
+          if (!r) return;
+          var v = JSON.parse(r);
+          if (v === 'light' || v === 'dark') document.documentElement.setAttribute('data-theme', v);
+        } catch (e) {
+          /* ignore */
+        }
+      })();
+    </script>
+    <meta name="theme-color" content="#0d6efd" />
+    <title>DI Promptų biblioteka e-komercijai — Spin-off Nr. 8</title>
+    <meta
+      name="description"
+      content="Kopijuojami DI promptai verslui ir e-komercijai: pardavimai, logistika, rinkodara, analitika ir kt. Nemokama biblioteka."
+    />
+    <meta property="og:title" content="DI Promptų biblioteka e-komercijai" />
+    <meta
+      property="og:description"
+      content="Praktiniai promptai kasdieniam darbui su DI įrankiais."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="alternate" hreflang="lt" href="../lt/" />
+    <link rel="alternate" hreflang="en" href="../en/" />
+    <link rel="alternate" hreflang="et" href="../et/" />
+    <link rel="alternate" hreflang="lv" href="../lv/" />
+    <link rel="alternate" hreflang="x-default" href="../en/" />
+  </head>
+  <body>
+    <div class="progress-bar" id="progress-bar"></div>
+    <div class="toast-container">
+      <div class="toast" id="toast"></div>
+    </div>
+
+    <a class="skip-link" href="#main">Pereiti prie turinio</a>
+    <div id="nav-overlay" class="nav__overlay" aria-hidden="true"></div>
+
+    <div class="sticky-head">
+      <div class="top-announcement" role="region" aria-label="Pranešimas">
+        <div class="container container--wide top-announcement__inner">
+          <span>DI užduotys e-komercijai ir operacijoms — kurk greičiau su AI</span>
+        </div>
+      </div>
+
+      <header class="site-header">
+        <div class="site-header__brand-row">
+          <div class="container container--wide site-header__brand-inner">
+            <div class="site-header__brand">
+              <a class="site-header__logo" href="./"
+                >DI Promptų biblioteka <span class="site-header__sub">e-komercijai</span></a
+              >
+              <span class="site-header__badge" title="Serija">Spin-off Nr. 8</span>
+            </div>
+            <div class="site-header__search-wrap">
+              <label class="visually-hidden" for="search-prompts">Paieška</label>
+              <input
+                type="search"
+                id="search-prompts"
+                class="search-input search-input--header"
+                autocomplete="off"
+              />
+              <div
+                id="search-results"
+                class="search-results search-results--header"
+                style="display: none"
+                aria-live="polite"
+              ></div>
+            </div>
+            <div class="site-header__lang">
+              <span class="lang-current" aria-current="page">LT</span>
+              <span class="lang-sep" aria-hidden="true">|</span>
+              <a class="lang-link" href="../en/" hreflang="en" data-lang="en">EN</a>
+              <span class="lang-sep" aria-hidden="true">|</span>
+              <a class="lang-link" href="../et/" hreflang="et" data-lang="et">ET</a>
+              <span class="lang-sep" aria-hidden="true">|</span>
+              <a class="lang-link" href="../lv/" hreflang="lv" data-lang="lv">LV</a>
+              <button type="button" class="theme-toggle" id="theme-toggle"></button>
+            </div>
+          </div>
+        </div>
+        <div class="site-header__nav-row">
+          <div class="container container--wide header__inner">
+            <nav class="nav" aria-label="Pagrindinis meniu">
+              <button
+                id="nav-toggle"
+                class="nav__toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="primary-nav"
+              >
+                <span class="nav__icon" aria-hidden="true"><span></span></span>
+                <span>Meniu</span>
+              </button>
+              <ul id="primary-nav" class="nav__list"></ul>
+            </nav>
+            <div class="site-header__cta-row">
+              <a class="btn-cta-red" href="#ecommerce">E-komercija</a>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <main id="main">
+      <section class="hero hero--spinoff" aria-label="Įžanga">
+        <div class="container hero__inner">
+          <h1 class="hero__title">Ne teorija — paruoštos DI užduotys pardavimams ir operacijoms</h1>
+          <p class="hero__subtitle">Kopijuokite promptus į ChatGPT, Claude ar kitus įrankius</p>
+          <ul class="hero__features">
+            <li>Tinka komandoms ir solo specialistams</li>
+            <li>Skyriai nuo pardavimų iki analitikos</li>
+            <li>Paieška ir momentinis kopijavimas</li>
+          </ul>
+          <div class="hero__cta">
+            <a href="#start" class="btn btn--primary">Pradėti</a>
+            <a href="#guide" class="btn btn--secondary">Kaip naudoti</a>
+          </div>
+          <div class="hero__stats">
+            <a href="#prompts-container" class="stat stat--clickable">
+              <div class="stat__number" id="hero-stat-tasks">107</div>
+              <div class="stat__label">Užduotys</div>
+              <div class="stat__hint">Bibliotekoje</div>
+            </a>
+            <a href="#prompts-container" class="stat stat--clickable">
+              <div class="stat__number" id="hero-stat-sections">13</div>
+              <div class="stat__label">Skyriai</div>
+              <div class="stat__hint">Pagal temą</div>
+            </a>
+            <div class="stat">
+              <div class="stat__number">100%</div>
+              <div class="stat__label">Kopijuojama</div>
+              <div class="stat__hint">Vien paspaudimu</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefit-bar" aria-label="Privalumai">
+        <div class="container container--wide benefit-bar__grid">
+          <div class="benefit-bar__item">
+            <span class="benefit-bar__icon" aria-hidden="true">🔍</span>
+            <div class="benefit-bar__text">
+              <strong>Greita paieška</strong>
+              <span>Raskite užduotį pagal raktažodį</span>
+            </div>
+          </div>
+          <div class="benefit-bar__item">
+            <span class="benefit-bar__icon" aria-hidden="true">📋</span>
+            <div class="benefit-bar__text">
+              <strong>Vienas spustelėjimas</strong>
+              <span>Promptas į iškarpinę</span>
+            </div>
+          </div>
+          <div class="benefit-bar__item">
+            <span class="benefit-bar__icon" aria-hidden="true">🧩</span>
+            <div class="benefit-bar__text">
+              <strong>13 temų</strong>
+              <span>Nuo HR iki pažengusių šablonų</span>
+            </div>
+          </div>
+          <div class="benefit-bar__item">
+            <span class="benefit-bar__icon" aria-hidden="true">🆓</span>
+            <div class="benefit-bar__text">
+              <strong>Nemokamai</strong>
+              <span>Statiniam naudojimui naršyklėje</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--guide" id="guide">
+        <div class="container guide-steps">
+          <div class="guide-steps__item">
+            <span class="guide-steps__num">1</span><span>Pasirinkite užduotį</span>
+          </div>
+          <div class="guide-steps__item">
+            <span class="guide-steps__num">2</span><span>Spauskite Kopijuoti</span>
+          </div>
+          <div class="guide-steps__item">
+            <span class="guide-steps__num">3</span><span>Įklijuokite į DI įrankį</span>
+          </div>
+          <div class="guide-steps__item">
+            <span class="guide-steps__num">4</span><span>Pakeiskite [laukus]</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container container--wide">
+          <div class="section__header">
+            <h2 class="section__title">Visos užduotys</h2>
+            <p class="section__subtitle">Naršykite pagal skyrių arba naudokite paiešką viršuje.</p>
+          </div>
+          <div id="prompts-container"></div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="resources">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Papildomi resursai</h2>
+          </div>
+          <div class="resources-grid">
+            <article class="card">
+              <h3 class="card__title">Gidas pradedantiesiems</h3>
+              <p class="card__text">
+                Kaip formuluoti užduotis DI, kad gautumėte tikslesnius atsakymus.
+              </p>
+              <span class="card__muted">Netrukus</span>
+            </article>
+            <article class="card">
+              <h3 class="card__title">Šablonų idėjos</h3>
+              <p class="card__text">El. laiškai, pasiūlymai ir klientų komunikacija.</p>
+              <span class="card__muted">Čia — bibliotekoje</span>
+            </article>
+            <article class="card">
+              <h3 class="card__title">Spin-off serija</h3>
+              <p class="card__text">Kiti DITreneris projektai ir mokymai.</p>
+              <a
+                class="button"
+                href="https://github.com/DITreneris/biblioteka"
+                rel="noopener noreferrer"
+                >Biblioteka (Nr. 1)</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Grįžti į viršų">
+      ↑
+    </button>
+
+    <footer id="contact">
+      <div class="container">
+        <h2 class="footer__title" id="footer-contact-title">Susisiekite</h2>
+        <p class="helper" id="footer-contact-lead">
+          Turite pasiūlymų? Parašykite — forma tikrina duomenis, bet jų neišsiunčia.
+        </p>
+        <div
+          id="form-success"
+          class="form__success"
+          role="alert"
+          aria-live="polite"
+          tabindex="-1"
+        ></div>
+        <form id="contact-form" class="form" novalidate>
+          <div class="form__row">
+            <label class="form__label" for="name">Vardas</label>
+            <input
+              class="form__input"
+              id="name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              placeholder="Jūsų vardas"
+              required
+              aria-describedby="name-error"
+            />
+            <div class="form__error" id="name-error" aria-live="polite"></div>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="email">El. paštas</label>
+            <input
+              class="form__input"
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="jusu@example.com"
+              required
+              aria-describedby="email-error"
+            />
+            <div class="form__error" id="email-error" aria-live="polite"></div>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="message">Žinutė</label>
+            <textarea
+              class="form__textarea"
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Jūsų pasiūlymas"
+              required
+              minlength="10"
+              aria-describedby="message-error"
+            ></textarea>
+            <div class="form__error" id="message-error" aria-live="polite"></div>
+          </div>
+          <div class="form__actions">
+            <button class="button" type="submit">Siųsti</button>
+            <button class="button button--secondary" type="reset">Išvalyti</button>
+          </div>
+        </form>
+        <p class="footer__meta">
+          <a href="privatumas.html">Privatumo politika</a> · Spin-off Nr. 8 ·
+          <span id="footer-year"></span>
+        </p>
+      </div>
+    </footer>
+
+    <div class="mobile-bottom-bar">
+      <button type="button" id="mobile-search-btn" class="mobile-bottom-bar__btn">
+        <span aria-hidden="true">🔍</span>
+        <span class="mobile-nav-label">Ieškoti</span>
+      </button>
+      <button type="button" id="mobile-sections-btn" class="mobile-bottom-bar__btn">
+        <span aria-hidden="true">📂</span>
+        <span class="mobile-nav-label">Skyriai</span>
+      </button>
+    </div>
+
+    <div
+      id="mobile-search-modal"
+      class="mobile-search-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="mobile-search-title"
+      aria-hidden="true"
+      hidden
+    >
+      <div class="mobile-search-modal__content">
+        <h2 class="mobile-search-modal__title" id="mobile-search-title">Paieška</h2>
+        <input type="search" id="mobile-search-input" class="search-input" autocomplete="off" />
+        <div
+          id="mobile-search-results"
+          class="search-results"
+          style="display: none"
+          aria-live="polite"
+        ></div>
+        <button type="button" class="mobile-search-close" id="mobile-search-close">Uždaryti</button>
+      </div>
+    </div>
+
+    <div class="keyboard-hint" id="keyboard-hint"></div>
+
+    <script>
+      document.getElementById('footer-year').textContent = new Date().getFullYear();
+    </script>
+    <script src="../assets/js/app.js" defer></script>
+  </body>
+</html>

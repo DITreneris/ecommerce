@@ -1,0 +1,1554 @@
+{
+  "version": "2.0",
+  "totalPrompts": 107,
+  "categories": [
+    {
+      "id": "start",
+      "name": "Sākšana",
+      "icon": "🚀",
+      "count": 3,
+      "prompts": [
+        {
+          "id": 1,
+          "title": "e-pasta vēstule klientam",
+          "text": "Uzrakstiet skaidru, draudzīgu e-pasta ziņojumu klientam, kuru interesē [produkts]. ",
+          "copyText": "Uzrakstiet skaidru, draudzīgu e-pasta ziņojumu klientam, kuru interesē [produkts]. ",
+          "keywords": [
+            "e-pasts",
+            "vēstule",
+            "klientu",
+            "produkts",
+            "priekšrocības"
+          ],
+          "category": "start"
+        },
+        {
+          "id": 2,
+          "title": "SEO produkta apraksts",
+          "text": "Uzrakstiet 120 vārdu SEO optimizēta [produkta] aprakstu ar galvenajiem meklēšanas vienumiem.",
+          "copyText": "Uzrakstiet 120 vārdu SEO optimizēta [produkta] aprakstu ar galvenajiem meklēšanas vienumiem.",
+          "keywords": [
+            "SEO",
+            "apraksts",
+            "produkts",
+            "atslēgvārdi"
+          ],
+          "category": "start"
+        },
+        {
+          "id": 3,
+          "title": "Ikmēneša pārskats",
+          "text": "Izveidojiet īsu vadības pārskatu, kurā parādītas ikmēneša pārdošanas apjoma izmaiņas, izmantojot šādus datus: [paste CSV].",
+          "copyText": "Izveidojiet īsu vadības pārskatu, kurā parādītas ikmēneša pārdošanas apjoma izmaiņas, izmantojot šādus datus: [paste CSV].",
+          "keywords": [
+            "atskaite",
+            "pārdošanu",
+            "katru mēnesi",
+            "datus"
+          ],
+          "category": "start"
+        }
+      ]
+    },
+    {
+      "id": "sales",
+      "name": "Pārdošana",
+      "icon": "💼",
+      "count": 27,
+      "prompts": [
+        {
+          "id": 4,
+          "title": "Priekšlikuma pārrakstīšana",
+          "text": "Pārrakstiet šo priekšlikumu, lai tas būtu īsāks, profesionālāks un skaidrāks: [ielīmēt tekstu].",
+          "copyText": "Pārrakstiet šo priekšlikumu, lai tas būtu īsāks, profesionālāks un skaidrāks: [ielīmēt tekstu].",
+          "keywords": [
+            "piedāvājums",
+            "pārrakstīt",
+            "profesionāli"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 6,
+          "title": "FAQ izveide",
+          "text": "Izveidojiet sarakstu ar 5 bieži uzdotajiem jautājumiem (BUJ) un atbildēm par [produktu kategoriju].",
+          "copyText": "Izveidojiet sarakstu ar 5 bieži uzdotajiem jautājumiem (BUJ) un atbildēm par [produktu kategoriju].",
+          "keywords": [
+            "meita",
+            "jautājumiem",
+            "atbildes"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 7,
+          "title": "Ziņa tiem, kas pāriet no konkurenta",
+          "text": "Sagatavojiet īsu ziņojumu klientam, kurš apsver iespēju pāriet no konkurenta [X] uz mūsu risinājumu.",
+          "copyText": "Sagatavojiet īsu ziņojumu klientam, kurš apsver iespēju pāriet no konkurenta [X] uz mūsu risinājumu.",
+          "keywords": [
+            "konkurents",
+            "pāreja",
+            "ziņa"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 8,
+          "title": "Komerciālā piedāvājuma struktūra",
+          "text": "Izveidojiet struktūru profesionālam komerciālam piedāvājumam [klients/projekts]. ",
+          "copyText": "Izveidojiet struktūru profesionālam komerciālam piedāvājumam [klients/projekts]. ",
+          "keywords": [
+            "piedāvājums",
+            "komerciāls",
+            "piedāvājums"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 10,
+          "title": "Iebildumu atbilžu ceļvedis",
+          "text": "Izveidojiet [produkta/pakalpojuma] iebildumu atbildes rokasgrāmatu. ",
+          "copyText": "Izveidojiet [produkta/pakalpojuma] iebildumu atbildes rokasgrāmatu. ",
+          "keywords": [
+            "objektus",
+            "atbildes",
+            "iebildumus"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 14,
+          "title": "RFQ (Request for Proposal) veidne",
+          "text": "Izveidojiet piegādātājiem profesionālu piedāvājumu par [produktu/komponentu]. ",
+          "copyText": "Izveidojiet piegādātājiem profesionālu piedāvājumu par [produktu/komponentu]. ",
+          "keywords": [
+            "rfq",
+            "piedāvājums",
+            "pieprasījumu",
+            "veidni",
+            "konkurenci"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 23,
+          "title": "Atgriešanas (RMA) apstrādes rokasgrāmata",
+          "text": "Sagatavojiet atgriešanas apstrādes procedūru RMA #[number]. ",
+          "copyText": "Sagatavojiet atgriešanas apstrādes procedūru RMA #[number]. ",
+          "keywords": [
+            "atmaksas",
+            "rm",
+            "kvalitāti",
+            "process"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 28,
+          "title": "Preču salīdzināšanas tabula",
+          "text": "Izveidojiet [Produkts 1] un [Produkts 2] un [Produkts 3] salīdzināšanas tabulu. ",
+          "copyText": "Izveidojiet [Produkts 1] un [Produkts 2] un [Produkts 3] salīdzināšanas tabulu. ",
+          "keywords": [
+            "produktiem",
+            "salīdzinājums",
+            "galds",
+            "specifikācijas"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 31,
+          "title": "Pamesta groza e-pasta vēstuļu sērija",
+          "text": "Izveidojiet 3 e-pasta ziņojumu secību pamestam grozam. ",
+          "copyText": "Izveidojiet 3 e-pasta ziņojumu secību pamestam grozam. ",
+          "keywords": [
+            "e-pasts",
+            "vēstule",
+            "pamesti",
+            "grozs",
+            "konversiju"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 35,
+          "title": "Produkta lapas konversijas optimizācija",
+          "text": "Izveidojiet produkta lapas optimizācijas plānu [produkts]. ",
+          "copyText": "Izveidojiet produkta lapas optimizācijas plānu [produkts]. ",
+          "keywords": [
+            "reklāmguvumus",
+            "optimizācija",
+            "CRO",
+            "lapā"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 38,
+          "title": "Krāsu paletes ieteikums",
+          "text": "Iesakiet krāsu paleti [projekts/uzņēmums] tipam. ",
+          "copyText": "Iesakiet krāsu paleti [projekts/uzņēmums] tipam. ",
+          "keywords": [
+            "krāsas",
+            "palete",
+            "nobriedis",
+            "krāsas",
+            "psiholoģija"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 55,
+          "title": "Ievads katalogā",
+          "text": "Uzrakstiet profesionālu un skaidru produktu kataloga ievadu ar 120 vārdiem.",
+          "copyText": "Uzrakstiet profesionālu un skaidru produktu kataloga ievadu ar 120 vārdiem.",
+          "keywords": [
+            "direktoriju",
+            "ievads",
+            "profesionāli"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 56,
+          "title": "Preses relīzes projekts",
+          "text": "Sagatavojiet paziņojumu presei par [Uzņēmuma ziņas/Produkta izlaišana]. ",
+          "copyText": "Sagatavojiet paziņojumu presei par [Uzņēmuma ziņas/Produkta izlaišana]. ",
+          "keywords": [
+            "ziņa",
+            "presei",
+            "ziņa",
+            "medijiem"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 57,
+          "title": "LinkedIn ziņu sērija",
+          "text": "Izveidojiet 5 LinkedIn ziņas par tēmu [tēma/nozares tendence] B2B auditorijai. ",
+          "copyText": "Izveidojiet 5 LinkedIn ziņas par tēmu [tēma/nozares tendence] B2B auditorijai. ",
+          "keywords": [
+            "linkedin",
+            "ieraksts",
+            "b2b",
+            "profesionāli",
+            "vadība"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 58,
+          "title": "Produkta video skripts",
+          "text": "Uzrakstiet skriptu 90 sekunžu produkta videoklipam [produkts]. ",
+          "copyText": "Uzrakstiet skriptu 90 sekunžu produkta videoklipam [produkts]. ",
+          "keywords": [
+            "video",
+            "skripts",
+            "youtube",
+            "nodarbība",
+            "skaidrojums"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 64,
+          "title": "Dublēšanas un atkopšanas plāns",
+          "text": "Izstrādājiet [sistēmas/datu bāzes] dublēšanas un atkopšanas procedūru. ",
+          "copyText": "Izstrādājiet [sistēmas/datu bāzes] dublēšanas un atkopšanas procedūru. ",
+          "keywords": [
+            "rezerves",
+            "kopijas",
+            "atveseļošanās",
+            "plāns",
+            "datus",
+            "aizsardzību"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 65,
+          "title": "Lietotāja piekļuves matrica",
+          "text": "Izveidojiet lietotāja piekļuves kontroles matricu [sistēmai/lietojumprogrammai]. ",
+          "copyText": "Izveidojiet lietotāja piekļuves kontroles matricu [sistēmai/lietojumprogrammai]. ",
+          "keywords": [
+            "lietotājiem",
+            "piekļuvi",
+            "atļaujas",
+            "lomas",
+            "drošību"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 66,
+          "title": "Tehniskās dokumentācijas veidne",
+          "text": "Sagatavojiet [funkcijas/API/moduļa] tehnisko dokumentāciju. ",
+          "copyText": "Sagatavojiet [funkcijas/API/moduļa] tehnisko dokumentāciju. ",
+          "keywords": [
+            "programmatūra",
+            "dokumentāciju",
+            "apm",
+            "tehniskais",
+            "specifikācijas"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 67,
+          "title": "Datu dublēšanas stratēģija",
+          "text": "Izveidojiet datu dublēšanas stratēģiju [sistēma/dati]. ",
+          "copyText": "Izveidojiet datu dublēšanas stratēģiju [sistēma/dati]. ",
+          "keywords": [
+            "dublējums",
+            "stratēģija",
+            "rezerves",
+            "kopiju",
+            "datus"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 71,
+          "title": "Naudas plūsmas prognoze",
+          "text": "Izveidojiet 3 mēnešu naudas plūsmas prognozi, pamatojoties uz šādiem datiem: [ielīmēt numurus]. ",
+          "copyText": "Izveidojiet 3 mēnešu naudas plūsmas prognozi, pamatojoties uz šādiem datiem: [ielīmēt numurus]. ",
+          "keywords": [
+            "naudu",
+            "straumes",
+            "prognoze",
+            "likviditāte"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 79,
+          "title": "Darbības novērtējuma veidne",
+          "text": "Izveidojiet līdzsvarotu darbības novērtējuma veidni darbiniekam [darbinieka vārds], kas strādā [amata nosaukums]. ",
+          "copyText": "Izveidojiet līdzsvarotu darbības novērtējuma veidni darbiniekam [darbinieka vārds], kas strādā [amata nosaukums]. ",
+          "keywords": [
+            "aktivitātes",
+            "novērtējums",
+            "atgriezenisks",
+            "savienojums",
+            "mērķi"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 81,
+          "title": "Mācību programmas plāns",
+          "text": "Izveidojiet pusi dienas apmācību programmu par [tēmu] [departamentam/komandai]. ",
+          "copyText": "Izveidojiet pusi dienas apmācību programmu par [tēmu] [departamentam/komandai]. ",
+          "keywords": [
+            "apmācību",
+            "programma",
+            "prasmes",
+            "izglītība",
+            "darbnīca"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 82,
+          "title": "Darba piedāvājuma vēstule",
+          "text": "Uzrakstiet profesionāla darba piedāvājuma vēstuli kandidātam [kandidāta vārds] [amata nosaukums]. ",
+          "copyText": "Uzrakstiet profesionāla darba piedāvājuma vēstuli kandidātam [kandidāta vārds] [amata nosaukums]. ",
+          "keywords": [
+            "no darba",
+            "piedāvājums",
+            "vēstule",
+            "nodarbinātība",
+            "līgums"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 92,
+          "title": "GTD metode - uzdevumu organizēšana",
+          "text": "Organizējiet uzdevumus [ielīmējiet uzdevumus], izmantojot GTD (Getting Things Done) metodi. ",
+          "copyText": "Organizējiet uzdevumus [ielīmējiet uzdevumus], izmantojot GTD (Getting Things Done) metodi. ",
+          "keywords": [
+            "utt",
+            "metodi",
+            "organizācija",
+            "uzdevumus"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 98,
+          "title": "Kanban dēļa struktūra",
+          "text": "Izveidojiet Kanban valdes struktūru [projekts/komanda]. ",
+          "copyText": "Izveidojiet Kanban valdes struktūru [projekts/komanda]. ",
+          "keywords": [
+            "kanban",
+            "dēlis",
+            "projektu",
+            "uzdevumus"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 102,
+          "title": "🎯 Klienta ceļojuma optimizēšana",
+          "text": "Jūs esat UX pētnieks un klientu pieredzes stratēģis, kas specializējas B2B e-pastā. ",
+          "copyText": "Jūs esat UX pētnieks un klientu pieredzes stratēģis, kas specializējas B2B e-pastā. ",
+          "keywords": [
+            "no klienta",
+            "ceļojums",
+            "iekāpšana",
+            "pieredze",
+            "no sāpēm",
+            "punktus"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 104,
+          "title": "🎯 Vairākas pārdošanas e-pasta vēstuļu secības",
+          "text": "Jūs esat B2B pārdošanas tekstu autors, kas specializējas auksto vēstuļu un e-pasta ziņojumos. ",
+          "copyText": "Jūs esat B2B pārdošanas tekstu autors, kas specializējas auksto vēstuļu un e-pasta ziņojumos. ",
+          "keywords": [
+            "pārdošanu",
+            "e-pasts",
+            "vēstules",
+            "personalizācija",
+            "automatizācija",
+            "seko"
+          ],
+          "category": "sales"
+        }
+      ]
+    },
+    {
+      "id": "procurement",
+      "name": "Iepirkumi",
+      "icon": "📦",
+      "count": 2,
+      "prompts": [
+        {
+          "id": 12,
+          "title": "Paziņojums par kavēšanos",
+          "text": "Uzrakstiet oficiālu e-pastu, nosūtiet vēstuli piegādātājam par pasūtījuma kavēšanos un lūdziet atjauninātu piegādes datumu.",
+          "copyText": "Uzrakstiet oficiālu e-pastu, nosūtiet vēstuli piegādātājam par pasūtījuma kavēšanos un lūdziet atjauninātu piegādes datumu.",
+          "keywords": [
+            "kavēšanās",
+            "e-pasts",
+            "vēstule",
+            "piegādātājs"
+          ],
+          "category": "procurement"
+        },
+        {
+          "id": 15,
+          "title": "Piegādātāja līguma kopsavilkums",
+          "text": "Apkopojiet šo piegādātāja līgumu [ievietot tekstu], izceļot: galvenos noteikumus, cenas, piegādes saistības, kvalitātes garantijas, maksājuma noteikumus, sodus/stimulus un iespējamos riskus vai sarunu punktus.",
+          "copyText": "Apkopojiet šo piegādātāja līgumu [ievietot tekstu], izceļot: galvenos noteikumus, cenas, piegādes saistības, kvalitātes garantijas, maksājuma noteikumus, sodus/stimulus un iespējamos riskus vai sarunu punktus.",
+          "keywords": [
+            "līgums",
+            "piegādātājs",
+            "sarunas",
+            "nosacījumiem"
+          ],
+          "category": "procurement"
+        }
+      ]
+    },
+    {
+      "id": "logistics",
+      "name": "Loģistika",
+      "icon": "🚚",
+      "count": 5,
+      "prompts": [
+        {
+          "id": 11,
+          "title": "Piegādātāju salīdzinājums",
+          "text": "Izveidojiet piegādātāju salīdzināšanas tabulu, pamatojoties uz cenu, piegādes laiku un uzticamību, izmantojot šādus datus: [ielīmēt datus].",
+          "copyText": "Izveidojiet piegādātāju salīdzināšanas tabulu, pamatojoties uz cenu, piegādes laiku un uzticamību, izmantojot šādus datus: [ielīmēt datus].",
+          "keywords": [
+            "piegādātājs",
+            "salīdzinājums",
+            "cena",
+            "piegāde"
+          ],
+          "category": "logistics"
+        },
+        {
+          "id": 19,
+          "title": "Dienas uzdevumu plāns",
+          "text": "Sagatavojiet vienkāršu ikdienas uzdevumu plānu noliktavas komandai atbilstoši prioritātēm (pasūtījuma komplektēšana, saņemšana, inventarizācija).",
+          "copyText": "Sagatavojiet vienkāršu ikdienas uzdevumu plānu noliktavas komandai atbilstoši prioritātēm (pasūtījuma komplektēšana, saņemšana, inventarizācija).",
+          "keywords": [
+            "no darba",
+            "plāns",
+            "noliktava",
+            "prioritātes"
+          ],
+          "category": "logistics"
+        },
+        {
+          "id": 20,
+          "title": "Drošības kopsavilkums",
+          "text": "Apkopojiet pamata drošības instrukcijas jaunam noliktavas darbiniekam (īsā versija).",
+          "copyText": "Apkopojiet pamata drošības instrukcijas jaunam noliktavas darbiniekam (īsā versija).",
+          "keywords": [
+            "drošību",
+            "norādījumus",
+            "noliktava"
+          ],
+          "category": "logistics"
+        },
+        {
+          "id": 21,
+          "title": "Iepakošanas un nosūtīšanas instrukcijas",
+          "text": "Izveidojiet pasūtījuma [Pasūtījuma Nr.] iepakošanas un nosūtīšanas instrukcijas. ",
+          "copyText": "Izveidojiet pasūtījuma [Pasūtījuma Nr.] iepakošanas un nosūtīšanas instrukcijas. ",
+          "keywords": [
+            "iepakošana",
+            "nosūtīšana",
+            "norādījumus",
+            "piegāde"
+          ],
+          "category": "logistics"
+        },
+        {
+          "id": 25,
+          "title": "Piegādes maršrutu optimizācija",
+          "text": "Izveidojiet piegādes maršruta optimizācijas plānu [reģions]. ",
+          "copyText": "Izveidojiet piegādes maršruta optimizācijas plānu [reģions]. ",
+          "keywords": [
+            "piegāde",
+            "maršruts",
+            "optimizācija",
+            "transports"
+          ],
+          "category": "logistics"
+        }
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-komercija",
+      "icon": "🛒",
+      "count": 9,
+      "prompts": [
+        {
+          "id": 26,
+          "title": "Kategoriju nosaukumi",
+          "text": "Izveidojiet 10 produktu kategoriju nosaukumus ar skaidriem, cilvēkiem saprotamiem aprakstiem.",
+          "copyText": "Izveidojiet 10 produktu kategoriju nosaukumus ar skaidriem, cilvēkiem saprotamiem aprakstiem.",
+          "keywords": [
+            "kategorijām",
+            "vārdus",
+            "aprakstus"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 27,
+          "title": "E-veikala teksta pārrakstīšana",
+          "text": "Pārrakstiet šo produkta aprakstu, lai padarītu to pievilcīgāku e-pastā. ",
+          "copyText": "Pārrakstiet šo produkta aprakstu, lai padarītu to pievilcīgāku e-pastā. ",
+          "keywords": [
+            "pārrakstīt",
+            "apraksts",
+            "e-pasts",
+            "veikals"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 29,
+          "title": "Produkta lapas metatagi",
+          "text": "Ģenerējiet SEO metatagus lapai [produkta nosaukums]. ",
+          "copyText": "Ģenerējiet SEO metatagus lapai [produkta nosaukums]. ",
+          "keywords": [
+            "mešana",
+            "tagus",
+            "virsraksts",
+            "apraksts",
+            "shēma"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 33,
+          "title": "E-komercijas cenu stratēģija",
+          "text": "Izveidojiet cenu stratēģiju [produktu kategorijai]. ",
+          "copyText": "Izveidojiet cenu stratēģiju [produktu kategorijai]. ",
+          "keywords": [
+            "cenu noteikšana",
+            "stratēģija",
+            "konkurenci"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 34,
+          "title": "Produktu kategoriju hierarhijas plāns",
+          "text": "Izveidojiet preču kategoriju hierarhiju [e-veikalam]. ",
+          "copyText": "Izveidojiet preču kategoriju hierarhiju [e-veikalam]. ",
+          "keywords": [
+            "produkts",
+            "kategorijām",
+            "struktūra",
+            "navigācija"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 36,
+          "title": "Piegādes stratēģijas apraksts",
+          "text": "Izveidojiet skaidru piegādes stratēģijas aprakstu [e-veikalam]. ",
+          "copyText": "Izveidojiet skaidru piegādes stratēģijas aprakstu [e-veikalam]. ",
+          "keywords": [
+            "piegāde",
+            "stratēģija",
+            "nosūtīšana",
+            "apraksts"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 76,
+          "title": "Darba aprakstu ģenerators",
+          "text": "Uzrakstiet saistošu darba aprakstu [darba nosaukums]. ",
+          "copyText": "Uzrakstiet saistošu darba aprakstu [darba nosaukums]. ",
+          "keywords": [
+            "no darba",
+            "apraksts",
+            "reklāma",
+            "atlase"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 84,
+          "title": "Darba apraksta veidne",
+          "text": "Izveidojiet amata aprakstu [pozīcijas nosaukums]. ",
+          "copyText": "Izveidojiet amata aprakstu [pozīcijas nosaukums]. ",
+          "keywords": [
+            "no darba",
+            "apraksts",
+            "pienākumus",
+            "prasībām"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 103,
+          "title": "🎯 Satura stratēģija un redakcijas kalendārs",
+          "text": "Jūs esat satura mārketinga stratēģis un SEO speciālists, kas strādā ar tehnisko B2B saturu un domu vadību.\n\n",
+          "copyText": "Jūs esat satura mārketinga stratēģis un SEO speciālists, kas strādā ar tehnisko B2B saturu un domu vadību.\n\n",
+          "keywords": [
+            "saturu",
+            "stratēģija",
+            "SEO",
+            "emuārs",
+            "redakcija",
+            "kalendārs"
+          ],
+          "category": "ecommerce"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "name": "Dizains",
+      "icon": "🎨",
+      "count": 7,
+      "prompts": [
+        {
+          "id": 37,
+          "title": "Logo dizaina koncepcija",
+          "text": "Izveidojiet 5 logotipa dizaina koncepcijas [uzņēmuma/produkta nosaukums]. ",
+          "copyText": "Izveidojiet 5 logotipa dizaina koncepcijas [uzņēmuma/produkta nosaukums]. ",
+          "keywords": [
+            "logotips",
+            "dizains",
+            "preces",
+            "zīme",
+            "nobriedis",
+            "identitāte"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 39,
+          "title": "Sociālo mediju grafisko elementu apraksts",
+          "text": "Izveidojiet detalizētu aprakstu par 10 sociālajiem tīkliem [tēma/kampaņa]. ",
+          "copyText": "Izveidojiet detalizētu aprakstu par 10 sociālajiem tīkliem [tēma/kampaņa]. ",
+          "keywords": [
+            "sociālā",
+            "plašsaziņas līdzekļi",
+            "grafisks",
+            "dizains",
+            "pastu",
+            "instagram",
+            "facebook"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 40,
+          "title": "Prezentācijas veidnes struktūra",
+          "text": "Izveidojiet profesionālas [tēmas] prezentācijas veidnes struktūru. ",
+          "copyText": "Izveidojiet profesionālas [tēmas] prezentācijas veidnes struktūru. ",
+          "keywords": [
+            "prezentācijas",
+            "veidni",
+            "slaids",
+            "dizains",
+            "powerpoint"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 41,
+          "title": "Produkta iepakojuma dizaina specifikācija",
+          "text": "Izveidojiet detalizētu produkta iepakojuma dizaina specifikāciju [produkts]. ",
+          "copyText": "Izveidojiet detalizētu produkta iepakojuma dizaina specifikāciju [produkts]. ",
+          "keywords": [
+            "produkts",
+            "iepakojums",
+            "dizains",
+            "etiķete",
+            "apraksts"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 42,
+          "title": "Web lapas karkasa apraksts",
+          "text": "Izveidojiet detalizētu tīmekļa lapas karkasa aprakstu [lapas veids: piem. ",
+          "copyText": "Izveidojiet detalizētu tīmekļa lapas karkasa aprakstu [lapas veids: piem. ",
+          "keywords": [
+            "tīmeklī",
+            "dizains",
+            "UI",
+            "UX",
+            "stiepļu karkass"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 43,
+          "title": "Infografikas struktūras plāns",
+          "text": "Izveidojiet infografikas struktūras plānu [tēma/dati]. ",
+          "copyText": "Izveidojiet infografikas struktūras plānu [tēma/dati]. ",
+          "keywords": [
+            "infografikas",
+            "datus",
+            "vizualizācija",
+            "diagramma"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 44,
+          "title": "e-pasta vēstules dizaina veidnes specifikācija",
+          "text": "Izveidot e-pasta vēstules noformējuma veidnes specifikāciju [tips: piem. ",
+          "copyText": "Izveidot e-pasta vēstules noformējuma veidnes specifikāciju [tips: piem. ",
+          "keywords": [
+            "e-pasts",
+            "dizains",
+            "veidni",
+            "informatīvais izdevums"
+          ],
+          "category": "design"
+        }
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "Datu analītika",
+      "icon": "📊",
+      "count": 20,
+      "prompts": [
+        {
+          "id": 18,
+          "title": "Piegādes līguma riska analīze",
+          "text": "Analizēt piegādes līgumu riskus [līgumi]. ",
+          "copyText": "Analizēt piegādes līgumu riskus [līgumi]. ",
+          "keywords": [
+            "līgums",
+            "nosacījumiem",
+            "risku"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 22,
+          "title": "Inventāra audita ziņojums",
+          "text": "Izveidojiet krājumu audita ziņojumu [vieta/kategorija]. ",
+          "copyText": "Izveidojiet krājumu audita ziņojumu [vieta/kategorija]. ",
+          "keywords": [
+            "inventārs",
+            "audits",
+            "akcijas",
+            "kontrole"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 32,
+          "title": "Produktu apskatu analīze un atbildes",
+          "text": "Analizējiet [produktu] pārskatus [ielīmējiet atsauksmes] un: identificējiet galvenās tēmas (pozitīvas/negatīvas), izveidojiet profesionālas atbildes uz katru jautājumu vai sūdzību, iesakiet produktu uzlabojumus, izveidojiet FAQ sadaļu, pamatojoties uz bieži uzdotajiem jautājumiem.",
+          "copyText": "Analizējiet [produktu] pārskatus [ielīmējiet atsauksmes] un: identificējiet galvenās tēmas (pozitīvas/negatīvas), izveidojiet profesionālas atbildes uz katru jautājumu vai sūdzību, iesakiet produktu uzlabojumus, izveidojiet FAQ sadaļu, pamatojoties uz bieži uzdotajiem jautājumiem.",
+          "keywords": [
+            "produkts",
+            "pārskats",
+            "atsauksmes",
+            "SEO"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 45,
+          "title": "Pārdošanas datu analīze",
+          "text": "Analizējiet šādus pārdošanas datus [ielīmējiet CSV vai Excel datus] un sniedziet: mēneša/ceturkšņa salīdzinājumu, 10 populārākos produktus, ģeogrāfisko izplatību, klientu segmentāciju, tendences un prognozes. ",
+          "copyText": "Analizējiet šādus pārdošanas datus [ielīmējiet CSV vai Excel datus] un sniedziet: mēneša/ceturkšņa salīdzinājumu, 10 populārākos produktus, ģeogrāfisko izplatību, klientu segmentāciju, tendences un prognozes. ",
+          "keywords": [
+            "datus",
+            "analīze",
+            "Excel",
+            "atskaite",
+            "tendences"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 46,
+          "title": "KPI informācijas paneļa struktūra",
+          "text": "Izveidojiet KPI informācijas paneļa struktūru [nodaļa/projekts]. ",
+          "copyText": "Izveidojiet KPI informācijas paneļa struktūru [nodaļa/projekts]. ",
+          "keywords": [
+            "KPI",
+            "informācijas panelis",
+            "rādītājiem",
+            "metriku"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 47,
+          "title": "Tīmekļa analīzes pārskats",
+          "text": "Izveidojiet ikmēneša tīmekļa analīzes pārskatu [vietne]. ",
+          "copyText": "Izveidojiet ikmēneša tīmekļa analīzes pārskatu [vietne]. ",
+          "keywords": [
+            "tīmeklī",
+            "analītika",
+            "google",
+            "analītika",
+            "atskaite"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 48,
+          "title": "Klientu segmentācijas analīze",
+          "text": "Veiciet RFM (recency, Frequency, Monetary) klientu segmentācijas analīzi, izmantojot [dati]. ",
+          "copyText": "Veiciet RFM (recency, Frequency, Monetary) klientu segmentācijas analīzi, izmantojot [dati]. ",
+          "keywords": [
+            "klientiem",
+            "segmentācija",
+            "RFM",
+            "analīze"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 49,
+          "title": "Pārdošanas prognoze",
+          "text": "Izveidojiet [periods: piemēram, 3 mēneši, 6 mēneši] pārdošanas prognozi, pamatojoties uz vēsturiskajiem datiem [ielīmēt datus]. ",
+          "copyText": "Izveidojiet [periods: piemēram, 3 mēneši, 6 mēneši] pārdošanas prognozi, pamatojoties uz vēsturiskajiem datiem [ielīmēt datus]. ",
+          "keywords": [
+            "prognozēšana",
+            "tendence",
+            "analīze",
+            "prognoze"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 50,
+          "title": "A/B testu rezultātu analīze",
+          "text": "Analizējiet A/B testa rezultātus [ielīmējiet datus: opcija A pret opciju B]. ",
+          "copyText": "Analizējiet A/B testa rezultātus [ielīmējiet datus: opcija A pret opciju B]. ",
+          "keywords": [
+            "A/B",
+            "tests",
+            "eksperiments",
+            "rezultātus"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 52,
+          "title": "Datu atskaite vadībai",
+          "text": "Pārvaldībai izveidojiet [periods] datu pārskatu [tēma]. ",
+          "copyText": "Pārvaldībai izveidojiet [periods] datu pārskatu [tēma]. ",
+          "keywords": [
+            "atskaite",
+            "vadība",
+            "izpildvaras",
+            "kopsavilkums"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 59,
+          "title": "Klientu veiksmes stāsts",
+          "text": "Uzrakstiet pārliecinošu klienta veiksmes stāstu par [klienta vārds]. ",
+          "copyText": "Uzrakstiet pārliecinošu klienta veiksmes stāstu par [klienta vārds]. ",
+          "keywords": [
+            "no klienta",
+            "lai veicas",
+            "stāsts",
+            "lietu",
+            "analīze",
+            "atsauksmes"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 62,
+          "title": "Datu importēšanas instrukcija",
+          "text": "Izveidojiet detalizētus norādījumus par produktu datu importēšanu no CSV faila mūsu sistēmā.",
+          "copyText": "Izveidojiet detalizētus norādījumus par produktu datu importēšanu no CSV faila mūsu sistēmā.",
+          "keywords": [
+            "datus",
+            "imports",
+            "csv",
+            "instrukcija"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 70,
+          "title": "Budžeta novirzes analīze",
+          "text": "Analizējiet [nodaļas/projekta] budžeta novirzi, salīdzinot plānotās un faktiskās izmaksas. ",
+          "copyText": "Analizējiet [nodaļas/projekta] budžeta novirzi, salīdzinot plānotās un faktiskās izmaksas. ",
+          "keywords": [
+            "budžetu",
+            "novirze",
+            "analīze",
+            "izdevumiem"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 72,
+          "title": "Izdevumu pārskata kopsavilkums",
+          "text": "Apkopojiet darbinieku izdevumu pārskatus par [mēnesi/ceturksni]. ",
+          "copyText": "Apkopojiet darbinieku izdevumu pārskatus par [mēnesi/ceturksni]. ",
+          "keywords": [
+            "izdevumiem",
+            "atskaite",
+            "kompensāciju",
+            "politikā"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 73,
+          "title": "Finanšu KPI kopsavilkums",
+          "text": "Izveidojiet finanšu KPI kopsavilkumu par [periodu]. ",
+          "copyText": "Izveidojiet finanšu KPI kopsavilkumu par [periodu]. ",
+          "keywords": [
+            "finanšu",
+            "kpi",
+            "kopsavilkums",
+            "rādītājiem",
+            "sniegumu"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 74,
+          "title": "Cenu stratēģijas analīze",
+          "text": "Analizējiet [produkta/pakalpojuma] optimālās cenas, ņemot vērā: pašizmaksu ([X] €), konkurentu cenas ([ielīmēt datus]), mērķa rezervi ([Y]%) un tirgus pozīciju. ",
+          "copyText": "Analizējiet [produkta/pakalpojuma] optimālās cenas, ņemot vērā: pašizmaksu ([X] €), konkurentu cenas ([ielīmēt datus]), mērķa rezervi ([Y]%) un tirgus pozīciju. ",
+          "keywords": [
+            "cenu noteikšana",
+            "peļņas",
+            "starpība",
+            "izmaksas",
+            "analīze"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 85,
+          "title": "SVID analīze",
+          "text": "Veiciet detalizētu SVID analīzi [projektam/uzņēmumam/produktam]. ",
+          "copyText": "Veiciet detalizētu SVID analīzi [projektam/uzņēmumam/produktam]. ",
+          "keywords": [
+            "swt",
+            "analīze",
+            "stratēģija",
+            "stiprās puses",
+            "vājās puses"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 86,
+          "title": "PEST analīze",
+          "text": "Veiciet PEST analīzi [uzņēmumam/projektam/uzņēmumam] [valstij/reģionam]. ",
+          "copyText": "Veiciet PEST analīzi [uzņēmumam/projektam/uzņēmumam] [valstij/reģionam]. ",
+          "keywords": [
+            "mēris",
+            "analīze",
+            "politikā",
+            "ekonomika",
+            "sociālā",
+            "tehnoloģija"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 101,
+          "title": "🎯 Konkurentu stratēģiskā analīze",
+          "text": "Jūs esat vecākais tirgus izpētes analītiķis ar 15 gadu pieredzi B2B elektronikas izplatīšanā.\n\n",
+          "copyText": "Jūs esat vecākais tirgus izpētes analītiķis ar 15 gadu pieredzi B2B elektronikas izplatīšanā.\n\n",
+          "keywords": [
+            "konkurentiem",
+            "analīze",
+            "swt",
+            "stratēģiski",
+            "tirgus",
+            "pētījumiem"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 106,
+          "title": "🔬 Dziļās izpētes metodoloģija",
+          "text": "Jūs esat vecākais pētniecības analītiķis ar akadēmisku pieredzi un 10+ gadu pieredzi daudzslāņu tirgus, zinātniskajā un biznesa izpētē.\n\n",
+          "copyText": "Jūs esat vecākais pētniecības analītiķis ar akadēmisku pieredzi un 10+ gadu pieredzi daudzslāņu tirgus, zinātniskajā un biznesa izpētē.\n\n",
+          "keywords": [
+            "izmeklēšana",
+            "analīze",
+            "vairāku avotu",
+            "avoti",
+            "verifikācija",
+            "dziļi",
+            "pētījumiem",
+            "zinātne"
+          ],
+          "category": "analytics"
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "name": "Mārketings",
+      "icon": "📢",
+      "count": 4,
+      "prompts": [
+        {
+          "id": 30,
+          "title": "Reklāmkaroga teksts akcijām",
+          "text": "Uzrakstiet saistošu reklāmkaroga tekstu kampaņai [Reklāma/pārdošana]. ",
+          "copyText": "Uzrakstiet saistošu reklāmkaroga tekstu kampaņai [Reklāma/pārdošana]. ",
+          "keywords": [
+            "baneris",
+            "darbība",
+            "kampaņa",
+            "virsraksts"
+          ],
+          "category": "marketing"
+        },
+        {
+          "id": 53,
+          "title": "Biļetena teksts",
+          "text": "Uzraksti biļetena tekstu par akciju: -20% visām mērierīcēm līdz svētdienai.",
+          "copyText": "Uzraksti biļetena tekstu par akciju: -20% visām mērierīcēm līdz svētdienai.",
+          "keywords": [
+            "informatīvais izdevums",
+            "darbība",
+            "atlaide"
+          ],
+          "category": "marketing"
+        },
+        {
+          "id": 54,
+          "title": "Facebook ierakstu idejas",
+          "text": "Ģenerējiet 5 Facebook ziņu idejas par jauniem Arduino produktiem, katrā no kurām ir skaidrs aicinājums uz darbību.",
+          "copyText": "Ģenerējiet 5 Facebook ziņu idejas par jauniem Arduino produktiem, katrā no kurām ir skaidrs aicinājums uz darbību.",
+          "keywords": [
+            "facebook",
+            "ieraksts",
+            "sociālā",
+            "tīkliem",
+            "arduino"
+          ],
+          "category": "marketing"
+        },
+        {
+          "id": 60,
+          "title": "e-pasta mārketinga kampaņas plāns",
+          "text": "Izveidojiet [period] e-pasta mārketinga kampaņas plānu [tēma]. ",
+          "copyText": "Izveidojiet [period] e-pasta mārketinga kampaņas plānu [tēma]. ",
+          "keywords": [
+            "e-pasts",
+            "mārketings",
+            "kampaņa",
+            "segmentācija"
+          ],
+          "category": "marketing"
+        }
+      ]
+    },
+    {
+      "id": "it",
+      "name": "IT",
+      "icon": "💻",
+      "count": 9,
+      "prompts": [
+        {
+          "id": 13,
+          "title": "Importa cenu kalkulators",
+          "text": "Izveidojiet kalkulatoru importētajām precēm (prece + transports + PVN + muitas nodevas = gala cena).",
+          "copyText": "Izveidojiet kalkulatoru importētajām precēm (prece + transports + PVN + muitas nodevas = gala cena).",
+          "keywords": [
+            "imports",
+            "kalkulators",
+            "PVN",
+            "muitas nodoklis",
+            "transports"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 51,
+          "title": "Datu kvalitātes audits",
+          "text": "Veiciet datu kvalitātes auditu [datu kopa]. ",
+          "copyText": "Veiciet datu kvalitātes auditu [datu kopa]. ",
+          "keywords": [
+            "datus",
+            "tīrīšana",
+            "datums",
+            "tīrīšana",
+            "kvalitāti"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 61,
+          "title": "ERP kļūdu palīdzība",
+          "text": "Vienkārši izskaidrojiet, kā lietotājs var novērst šo ERP pieteikšanās kļūdu: [kļūdas ziņojums].",
+          "copyText": "Vienkārši izskaidrojiet, kā lietotājs var novērst šo ERP pieteikšanās kļūdu: [kļūdas ziņojums].",
+          "keywords": [
+            "erp",
+            "kļūda",
+            "remonts",
+            "darbības traucējumi",
+            "noņemšana"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 63,
+          "title": "IT atbalsta atbildes veidne",
+          "text": "Izveidojiet palīdzības dienesta atbildes veidni [Izplatīta IT problēma: paroles atiestatīšana/e-pasta piekļuve/VPN savienojums]. ",
+          "copyText": "Izveidojiet palīdzības dienesta atbildes veidni [Izplatīta IT problēma: paroles atiestatīšana/e-pasta piekļuve/VPN savienojums]. ",
+          "keywords": [
+            "parole",
+            "restaurācija",
+            "kontu",
+            "drošību",
+            "palīdzēt"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 69,
+          "title": "Maksājuma atgādinājuma e-pasta vēstule",
+          "text": "Uzrakstiet profesionālu, taču draudzīgu maksājuma atgādinājuma e-pastu. ",
+          "copyText": "Uzrakstiet profesionālu, taču draudzīgu maksājuma atgādinājuma e-pastu. ",
+          "keywords": [
+            "kontu",
+            "atgādinājums",
+            "maksājumu",
+            "ir vēlu"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 75,
+          "title": "Finanšu audita kontrolsaraksts",
+          "text": "Izveidojiet audita sagatavošanas kontrolsarakstu [audita veids: gada/iekšējais/nodoklis]. ",
+          "copyText": "Izveidojiet audita sagatavošanas kontrolsarakstu [audita veids: gada/iekšējais/nodoklis]. ",
+          "keywords": [
+            "audits",
+            "kontrole",
+            "sarakstu",
+            "atbilstība"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 80,
+          "title": "Personāla politikas projekts",
+          "text": "Izstrādājiet skaidru, darbiniekiem draudzīgu [politikas tēma: piemēram, attālināta darba, atvaļinājuma, izdevumu] politiku. ",
+          "copyText": "Izstrādājiet skaidru, darbiniekiem draudzīgu [politikas tēma: piemēram, attālināta darba, atvaļinājuma, izdevumu] politiku. ",
+          "keywords": [
+            "politikā",
+            "personāls",
+            "noteikumiem",
+            "vadītājs"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 88,
+          "title": "Eizenhauera matricas uzdevumu klasifikācija",
+          "text": "Klasificējiet šādus uzdevumus [ielīmējiet uzdevumu sarakstu], izmantojot Eizenhauera matricu. ",
+          "copyText": "Klasificējiet šādus uzdevumus [ielīmējiet uzdevumu sarakstu], izmantojot Eizenhauera matricu. ",
+          "keywords": [
+            "Eizenhauers",
+            "matrica",
+            "prioritātes",
+            "steidzamība",
+            "nozīmi"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 100,
+          "title": "Lēmumu matrica",
+          "text": "Izveidojiet lēmumu matricu [lēmums: piemēram, produkta izvēle, stratēģijas izvēle]. ",
+          "copyText": "Izveidojiet lēmumu matricu [lēmums: piemēram, produkta izvēle, stratēģijas izvēle]. ",
+          "keywords": [
+            "risinājumus",
+            "matrica",
+            "kritērijiem",
+            "novērtējums"
+          ],
+          "category": "it"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "Finanses",
+      "icon": "💰",
+      "count": 2,
+      "prompts": [
+        {
+          "id": 5,
+          "title": "Cenas aprēķins",
+          "text": "Aprēķiniet gala cenu, piemērojiet 15% uzcenojumu un 21% PVN, ja pirkuma cena ir [x EUR].",
+          "copyText": "Aprēķiniet gala cenu, piemērojiet 15% uzcenojumu un 21% PVN, ja pirkuma cena ir [x EUR].",
+          "keywords": [
+            "cena",
+            "aprēķins",
+            "uzcenojums",
+            "PVN"
+          ],
+          "category": "finance"
+        },
+        {
+          "id": 68,
+          "title": "PVN skaidrojums",
+          "text": "Uzrakstiet klientam skaidru skaidrojumu, kā tiek aprēķināts PVN un kādi noteikumi attiecas uz pircējiem no Latvijas.",
+          "copyText": "Uzrakstiet klientam skaidru skaidrojumu, kā tiek aprēķināts PVN un kādi noteikumi attiecas uz pircējiem no Latvijas.",
+          "keywords": [
+            "PVN",
+            "skaidrojums",
+            "maksa",
+            "Latvija"
+          ],
+          "category": "finance"
+        }
+      ]
+    },
+    {
+      "id": "hr",
+      "name": "HR",
+      "icon": "👥",
+      "count": 3,
+      "prompts": [
+        {
+          "id": 77,
+          "title": "Intervijas jautājumu kopums",
+          "text": "Izveidojiet 10 uzvedības intervijas jautājumus [pozīcijas nosaukums] kandidātam. ",
+          "copyText": "Izveidojiet 10 uzvedības intervijas jautājumus [pozīcijas nosaukums] kandidātam. ",
+          "keywords": [
+            "intervija",
+            "jautājumiem",
+            "kandidātiem",
+            "novērtējums"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 78,
+          "title": "Ieejas kontrolsaraksts",
+          "text": "Izveidojiet visaptverošu 30 dienu uzņemšanas kontrolsarakstu jaunam [pozīcijas nosaukums], sākot no [datums]. ",
+          "copyText": "Izveidojiet visaptverošu 30 dienu uzņemšanas kontrolsarakstu jaunam [pozīcijas nosaukums], sākot no [datums]. ",
+          "keywords": [
+            "ievads",
+            "kontrole",
+            "sarakstu",
+            "jauns",
+            "darbinieks"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 83,
+          "title": "Darbinieku iesaistīšanās aptauja",
+          "text": "Izveidojiet 15 jautājumu darbinieku iesaistes aptauju, kas aptver: apmierinātību ar darbu, vadītāju efektivitāti, darba un privātās dzīves līdzsvaru, izaugsmes iespējas un uzņēmuma kultūru. ",
+          "copyText": "Izveidojiet 15 jautājumu darbinieku iesaistes aptauju, kas aptver: apmierinātību ar darbu, vadītāju efektivitāti, darba un privātās dzīves līdzsvaru, izaugsmes iespējas un uzņēmuma kultūru. ",
+          "keywords": [
+            "darbiniekiem",
+            "saderināšanās",
+            "aptauja",
+            "atgriezenisks",
+            "savienojums"
+          ],
+          "category": "hr"
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "Produktivitāte",
+      "icon": "⚡",
+      "count": 13,
+      "prompts": [
+        {
+          "id": 9,
+          "title": "Klientu tikšanās darba kārtība",
+          "text": "Izveidojiet 30 minūšu klientu tikšanās darba kārtību [tēma]. ",
+          "copyText": "Izveidojiet 30 minūšu klientu tikšanās darba kārtību [tēma]. ",
+          "keywords": [
+            "no klienta",
+            "tikšanās",
+            "prezentācija"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 16,
+          "title": "Krājumu papildināšanas ieteikums",
+          "text": "Analizējiet [produktu kategorijas] krājumu līmeņus un iesakiet papildināšanas daudzumus. ",
+          "copyText": "Analizējiet [produktu kategorijas] krājumu līmeņus un iesakiet papildināšanas daudzumus. ",
+          "keywords": [
+            "akcijas",
+            "papildinājums",
+            "inventārs",
+            "plānošana"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 24,
+          "title": "Noliktavas telpu optimizācija",
+          "text": "Analizēt noliktavas telpu izmantošanu zonā [zona/koridors]. ",
+          "copyText": "Analizēt noliktavas telpu izmantošanu zonā [zona/koridors]. ",
+          "keywords": [
+            "noliktava",
+            "izkārtojumu",
+            "optimizācija",
+            "efektivitāti"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 87,
+          "title": "Pomodoro darba kārtības plāns",
+          "text": "Izveidojiet Pomodoro dienas kārtību [diena/nedēļa] [tēma/projekts]. ",
+          "copyText": "Izveidojiet Pomodoro dienas kārtību [diena/nedēļa] [tēma/projekts]. ",
+          "keywords": [
+            "pomodoro",
+            "darba kārtība",
+            "laiks",
+            "vadība",
+            "produktivitāte"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 89,
+          "title": "SMART mērķu formulēšana",
+          "text": "Izveidojiet 5 SMART mērķus [tēma/projekts]. ",
+          "copyText": "Izveidojiet 5 SMART mērķus [tēma/projekts]. ",
+          "keywords": [
+            "gudrs",
+            "mērķi",
+            "plānošana",
+            "mērķis"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 90,
+          "title": "Laika bloķēšanas darba kārtība",
+          "text": "Izveidojiet laika bloķēšanas darba kārtību [diena/nedēļa] [uzdevums/projekts]. ",
+          "copyText": "Izveidojiet laika bloķēšanas darba kārtību [diena/nedēļa] [uzdevums/projekts]. ",
+          "keywords": [
+            "laiks",
+            "bloķēšana",
+            "darba kārtība",
+            "plānošana"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 91,
+          "title": "2 minūšu kārtulas uzdevuma identifikācija",
+          "text": "Analizējiet uzdevumu sarakstu [ielīmējiet uzdevumus] un nosakiet, kurus var izpildīt 2 minūtēs vai mazāk. ",
+          "copyText": "Analizējiet uzdevumu sarakstu [ielīmējiet uzdevumus] un nosakiet, kurus var izpildīt 2 minūtēs vai mazāk. ",
+          "keywords": [
+            "2",
+            "minūtes",
+            "noteikums",
+            "ātri",
+            "uzdevumus",
+            "produktivitāte"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 93,
+          "title": "Padziļināts darba grafiks",
+          "text": "Izveidojiet dziļu darba grafiku [nedēļa/mēnesis] [projekts]. ",
+          "copyText": "Izveidojiet dziļu darba grafiku [nedēļa/mēnesis] [projekts]. ",
+          "keywords": [
+            "dziļi",
+            "strādāt",
+            "koncentrācija",
+            "produktivitāte"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 94,
+          "title": "Iknedēļas pārskata veidne",
+          "text": "Izveidojiet iknedēļas pārskata veidni [nedēļa]. ",
+          "copyText": "Izveidojiet iknedēļas pārskata veidni [nedēļa]. ",
+          "keywords": [
+            "nedēļas",
+            "pārskats",
+            "pārdomas",
+            "plānošana"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 95,
+          "title": "Energopārvaldības dienas plāns",
+          "text": "Izveidojiet enerģijas pārvaldības dienas plānu [diena] [uzdevums]. ",
+          "copyText": "Izveidojiet enerģijas pārvaldības dienas plānu [diena] [uzdevums]. ",
+          "keywords": [
+            "enerģiju",
+            "vadība",
+            "produktivitāte",
+            "dienas",
+            "plāns"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 96,
+          "title": "Ieradumu sakraušanas plāns",
+          "text": "Izveidojiet paradumu veidošanas plānu, izmantojot ieradumu sakraušanas metodi [Mērķa ieradums]. ",
+          "copyText": "Izveidojiet paradumu veidošanas plānu, izmantojot ieradumu sakraušanas metodi [Mērķa ieradums]. ",
+          "keywords": [
+            "ieradumus",
+            "radīšanu",
+            "rutīna",
+            "produktivitāte"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 97,
+          "title": "Partijas apstrādes stratēģija",
+          "text": "Izveidojiet pakešu apstrādes stratēģiju [uzdevuma veids: piem. ",
+          "copyText": "Izveidojiet pakešu apstrādes stratēģiju [uzdevuma veids: piem. ",
+          "keywords": [
+            "partija",
+            "apstrāde",
+            "efektivitāti",
+            "laiks",
+            "vadība"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 99,
+          "title": "Plāns produktīvai rīta rutīnai",
+          "text": "Izveidojiet plānu produktīvai rīta rutīnai [ilgums: 30-60 min]. ",
+          "copyText": "Izveidojiet plānu produktīvai rīta rutīnai [ilgums: 30-60 min]. ",
+          "keywords": [
+            "rīts",
+            "rutīna",
+            "produktivitāte",
+            "dienas",
+            "sākums"
+          ],
+          "category": "productivity"
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "name": "Padziļināti",
+      "icon": "🚀",
+      "count": 3,
+      "prompts": [
+        {
+          "id": 17,
+          "title": "Piegādātāju novērtēšanas sistēma",
+          "text": "Izveidojiet piegādātāju novērtēšanas sistēmu [piegādātājs]. ",
+          "copyText": "Izveidojiet piegādātāju novērtēšanas sistēmu [piegādātājs]. ",
+          "keywords": [
+            "piegādātājs",
+            "novērtējums",
+            "kvalitāti",
+            "uzticamība"
+          ],
+          "category": "advanced"
+        },
+        {
+          "id": 105,
+          "title": "🔧 Sistemātiska AI palīga uzvedne",
+          "text": "Jūs esat AI sistēmu arhitekts, kas specializējas pielāgotu palīgu izstrādē un optimizēšanā.\n\n",
+          "copyText": "Jūs esat AI sistēmu arhitekts, kas specializējas pielāgotu palīgu izstrādē un optimizēšanā.\n\n",
+          "keywords": [
+            "sistēma",
+            "norādījumus",
+            "AI",
+            "palīgs",
+            "konfigurācija",
+            "uzvedība",
+            "noteikumiem"
+          ],
+          "category": "advanced"
+        },
+        {
+          "id": 107,
+          "title": "🤖 Aģenta uzdevumu izpilde",
+          "text": "Jūs esat autonoms AI aģents ar plānošanas, sadalīšanas un iteratīvas izpildes iespējām.\n\n",
+          "copyText": "Jūs esat autonoms AI aģents ar plānošanas, sadalīšanas un iteratīvas izpildes iespējām.\n\n",
+          "keywords": [
+            "aģents",
+            "autonoma",
+            "darbplūsma",
+            "sadalīšanās",
+            "izpildi",
+            "plānošana",
+            "AI",
+            "ķēdes"
+          ],
+          "category": "advanced"
+        }
+      ]
+    }
+  ]
+}

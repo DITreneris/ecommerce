@@ -53,9 +53,9 @@
 - **Animacija**: CSS opacity + transform su staggered delays
 
 ### 8. GitHub Actions CI/CD
-- **Failas**: `.github/workflows/deploy.yml`
-- **Trigger**: Push to main/master
-- **Deployment**: GitHub Pages
+- **Failai**: `.github/workflows/ci.yml` (lint / format check, push ir PR į `main` / `master`), `.github/workflows/static.yml` (GitHub Pages deploy iš `main`)
+- **Trigger**: žr. workflow `on:` blokus repozitorijoje
+- **Deployment**: GitHub Pages (`static.yml`)
 
 ---
 
@@ -76,7 +76,8 @@
 ├── package.json            # npm konfigūracija
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml      # CI/CD workflow
+│       ├── ci.yml          # Kokybės patikros (lint, prettier)
+│       └── static.yml      # GitHub Pages deploy
 ├── .eslintrc.json          # ESLint config
 ├── .prettierrc             # Prettier config
 ├── .gitignore              # Git ignore

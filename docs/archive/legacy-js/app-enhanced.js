@@ -1,19 +1,19 @@
 /**
  * Praktinių Promptų Rinkinys - Enhanced JavaScript v3.0
- * 
+ *
  * P2 Features:
  * - Fuse.js Fuzzy Search with Autocomplete
  * - Search History (last 5 terms)
  * - Progress Tracking System
- * - Favorites System  
+ * - Favorites System
  * - Recently Used Section
  * - Lazy Loading with Intersection Observer
  * - Performance Optimizations
- * 
+ *
  * Note: Uses Fuse.js from CDN (window.Fuse)
  */
 
-(function() {
+(function () {
   'use strict';
 
   // ============================================
@@ -62,7 +62,7 @@
         console.warn('Storage.remove error:', e);
         return false;
       }
-    }
+    },
   };
 
   // ============================================
@@ -70,7 +70,7 @@
   // ============================================
   const UserProgress = {
     STORAGE_KEY: 'promptu_user_progress',
-    
+
     getDefaultData() {
       return {
         favoritePrompts: [],
@@ -80,7 +80,7 @@
         lastVisited: null,
         searchHistory: [],
         completedPrompts: [],
-        firstVisit: new Date().toISOString()
+        firstVisit: new Date().toISOString(),
       };
     },
 
@@ -95,10 +95,10 @@
 
     recordCopy(promptId, promptTitle) {
       const data = this.getData();
-      
+
       data.copyCount[promptId] = (data.copyCount[promptId] || 0) + 1;
       data.totalCopies++;
-      
+
       const existingIndex = data.recentlyUsed.findIndex(p => p.id === promptId);
       if (existingIndex > -1) {
         data.recentlyUsed.splice(existingIndex, 1);
@@ -106,10 +106,10 @@
       data.recentlyUsed.unshift({
         id: promptId,
         title: promptTitle,
-        usedAt: new Date().toISOString()
+        usedAt: new Date().toISOString(),
       });
       data.recentlyUsed = data.recentlyUsed.slice(0, 10);
-      
+
       this.saveData(data);
       this.updateUI();
     },
@@ -117,7 +117,7 @@
     toggleFavorite(promptId, promptTitle) {
       const data = this.getData();
       const existingIndex = data.favoritePrompts.findIndex(p => p.id === promptId);
-      
+
       if (existingIndex > -1) {
         data.favoritePrompts.splice(existingIndex, 1);
         this.saveData(data);
@@ -126,7 +126,7 @@
         data.favoritePrompts.push({
           id: promptId,
           title: promptTitle,
-          addedAt: new Date().toISOString()
+          addedAt: new Date().toISOString(),
         });
         this.saveData(data);
         return true;
@@ -140,17 +140,17 @@
 
     addSearchTerm(term) {
       if (!term || term.length < 2) return;
-      
+
       const data = this.getData();
       const existingIndex = data.searchHistory.indexOf(term);
-      
+
       if (existingIndex > -1) {
         data.searchHistory.splice(existingIndex, 1);
       }
-      
+
       data.searchHistory.unshift(term);
       data.searchHistory = data.searchHistory.slice(0, 5);
-      
+
       this.saveData(data);
     },
 
@@ -160,7 +160,7 @@
 
     updateUI() {
       const data = this.getData();
-      
+
       const statsEl = document.getElementById('user-stats');
       if (statsEl) {
         statsEl.innerHTML = `
@@ -176,41 +176,51 @@
     renderRecentlyUsed() {
       const container = document.getElementById('recently-used-container');
       if (!container) return;
-      
+
       const data = this.getData();
       if (data.recentlyUsed.length === 0) {
-        container.innerHTML = '<p class="empty-state">Dar nenaudojote jokių promptų. Pradėkite kopijuodami!</p>';
+        container.innerHTML =
+          '<p class="empty-state">Dar nenaudojote jokių promptų. Pradėkite kopijuodami!</p>';
         return;
       }
 
-      container.innerHTML = data.recentlyUsed.map(prompt => `
+      container.innerHTML = data.recentlyUsed
+        .map(
+          prompt => `
         <a href="#${prompt.id}" class="recent-item" data-prompt-id="${prompt.id}">
           <span class="recent-icon">🕐</span>
           <span class="recent-title">${this.escapeHtml(prompt.title)}</span>
         </a>
-      `).join('');
+      `
+        )
+        .join('');
     },
 
     renderFavorites() {
       const container = document.getElementById('favorites-container');
       if (!container) return;
-      
+
       const data = this.getData();
       if (data.favoritePrompts.length === 0) {
-        container.innerHTML = '<p class="empty-state">Dar neturite mėgstamų promptų. Spustelėkite ☆ norėdami pridėti!</p>';
+        container.innerHTML =
+          '<p class="empty-state">Dar neturite mėgstamų promptų. Spustelėkite ☆ norėdami pridėti!</p>';
         return;
       }
 
-      container.innerHTML = data.favoritePrompts.map(prompt => `
+      container.innerHTML = data.favoritePrompts
+        .map(
+          prompt => `
         <a href="#${prompt.id}" class="favorite-item" data-prompt-id="${prompt.id}">
           <span class="favorite-icon">⭐</span>
           <span class="favorite-title">${this.escapeHtml(prompt.title)}</span>
           <button class="remove-favorite" data-prompt-id="${prompt.id}" aria-label="Pašalinti iš mėgstamų">✕</button>
         </a>
-      `).join('');
+      `
+        )
+        .join('');
 
       container.querySelectorAll('.remove-favorite').forEach(btn => {
-        btn.addEventListener('click', (e) => {
+        btn.addEventListener('click', e => {
           e.preventDefault();
           e.stopPropagation();
           const id = btn.dataset.promptId;
@@ -231,7 +241,7 @@
       const data = this.getData();
       this.saveData(data);
       this.updateUI();
-    }
+    },
   };
 
   // ============================================
@@ -249,7 +259,7 @@
 
     show(message, type = 'success', duration = 2000) {
       if (!this.element) return;
-      
+
       if (this.timeout) {
         clearTimeout(this.timeout);
       }
@@ -268,7 +278,7 @@
 
     error(message, duration = 3000) {
       this.show(message, 'error', duration);
-    }
+    },
   };
 
   // ============================================
@@ -296,7 +306,7 @@
       textarea.style.cssText = 'position:fixed;opacity:0;left:-9999px;top:0';
       textarea.setAttribute('readonly', '');
       document.body.appendChild(textarea);
-      
+
       try {
         textarea.select();
         textarea.setSelectionRange(0, 99999);
@@ -311,10 +321,10 @@
 
     init() {
       // Single event delegation listener for all copy buttons
-      document.body.addEventListener('click', async (e) => {
+      document.body.addEventListener('click', async e => {
         const button = e.target.closest('.btn-copy');
         if (!button) return;
-        
+
         e.preventDefault();
         await this.handleCopy(button);
       });
@@ -322,7 +332,7 @@
 
     async handleCopy(button) {
       let textToCopy = button.getAttribute('data-copy') || button.getAttribute('data-prompt');
-      
+
       if (!textToCopy) {
         const card = button.closest('.prompt-card');
         if (card) {
@@ -334,7 +344,7 @@
       if (!textToCopy) return;
 
       const result = await this.copy(textToCopy);
-      
+
       if (result.success) {
         const card = button.closest('.prompt-card');
         const promptId = card?.id || `prompt-${Date.now()}`;
@@ -365,7 +375,7 @@
       } else {
         Toast.error('Nepavyko nukopijuoti. Bandykite pažymėti tekstą rankiniu būdu.');
       }
-    }
+    },
   };
 
   // ============================================
@@ -402,10 +412,10 @@
       this.createAutocomplete();
 
       if (this.input) {
-        this.input.addEventListener('input', (e) => this.handleInput(e.target.value));
+        this.input.addEventListener('input', e => this.handleInput(e.target.value));
         this.input.addEventListener('focus', () => this.showAutocomplete());
         this.input.addEventListener('blur', () => setTimeout(() => this.hideAutocomplete(), 200));
-        this.input.addEventListener('keydown', (e) => this.handleKeydown(e));
+        this.input.addEventListener('keydown', e => this.handleKeydown(e));
       }
 
       if (this.mobileInput) {
@@ -420,18 +430,18 @@
       this.cards.forEach((card, index) => {
         const id = card.id || `prompt-${index}`;
         card.id = id; // Ensure each card has an ID
-        
+
         const titleEl = card.querySelector('.prompt-card__title');
         const textEl = card.querySelector('.prompt-card__text');
         const keywords = card.getAttribute('data-keywords') || '';
-        
+
         this.prompts.push({
           id: id,
           element: card,
           title: titleEl?.textContent || '',
           text: textEl?.textContent || '',
           keywords: keywords,
-          dept: card.closest('.dept')
+          dept: card.closest('.dept'),
         });
       });
     },
@@ -441,14 +451,14 @@
         keys: [
           { name: 'title', weight: 0.4 },
           { name: 'text', weight: 0.3 },
-          { name: 'keywords', weight: 0.3 }
+          { name: 'keywords', weight: 0.3 },
         ],
         threshold: 0.35,
         distance: 100,
         minMatchCharLength: 2,
         includeScore: true,
         includeMatches: true,
-        ignoreLocation: true
+        ignoreLocation: true,
       };
 
       this.fuse = new Fuse(this.prompts, options);
@@ -470,7 +480,7 @@
 
     handleInput(value) {
       clearTimeout(this.debounceTimer);
-      
+
       this.debounceTimer = setTimeout(() => {
         this.performSearch(value);
         this.updateAutocomplete(value);
@@ -487,11 +497,11 @@
       }
 
       let results;
-      
+
       if (this.fuse) {
         // Use Fuse.js fuzzy search
         results = this.fuse.search(trimmed);
-        
+
         this.prompts.forEach(prompt => {
           prompt.element.style.display = 'none';
           this.removeHighlight(prompt.element.querySelector('.prompt-card__title'));
@@ -502,13 +512,19 @@
         results.forEach(result => {
           const prompt = result.item;
           prompt.element.style.display = '';
-          
+
           if (result.matches) {
             result.matches.forEach(match => {
               if (match.key === 'title') {
-                this.highlightMatches(prompt.element.querySelector('.prompt-card__title'), match.indices);
+                this.highlightMatches(
+                  prompt.element.querySelector('.prompt-card__title'),
+                  match.indices
+                );
               } else if (match.key === 'text') {
-                this.highlightMatches(prompt.element.querySelector('.prompt-card__text'), match.indices);
+                this.highlightMatches(
+                  prompt.element.querySelector('.prompt-card__text'),
+                  match.indices
+                );
               }
             });
           }
@@ -546,10 +562,13 @@
 
         const titleText = title ? title.textContent.toLowerCase() : '';
         const cardText = text ? text.textContent.toLowerCase() : '';
-        const matches = titleText.includes(query) || cardText.includes(query) || keywords.toLowerCase().includes(query);
+        const matches =
+          titleText.includes(query) ||
+          cardText.includes(query) ||
+          keywords.toLowerCase().includes(query);
 
         card.style.display = matches ? '' : 'none';
-        
+
         if (matches) {
           visibleCount++;
           this.highlightText(title, query);
@@ -589,7 +608,8 @@
 
       while (index !== -1) {
         result += this.escapeHtml(originalText.slice(lastIndex, index));
-        result += '<mark>' + this.escapeHtml(originalText.slice(index, index + query.length)) + '</mark>';
+        result +=
+          '<mark>' + this.escapeHtml(originalText.slice(index, index + query.length)) + '</mark>';
         lastIndex = index + query.length;
         index = lowerText.indexOf(lowerQuery, lastIndex);
       }
@@ -608,7 +628,7 @@
       let lastIndex = 0;
 
       const sortedIndices = [...indices].sort((a, b) => a[0] - b[0]);
-      
+
       sortedIndices.forEach(([start, end]) => {
         if (start >= lastIndex) {
           result += this.escapeHtml(originalText.slice(lastIndex, start));
@@ -616,18 +636,18 @@
           lastIndex = end + 1;
         }
       });
-      
+
       result += this.escapeHtml(originalText.slice(lastIndex));
       element.innerHTML = result;
     },
 
     updateAutocomplete(value) {
       if (!this.autocompleteEl) return;
-      
+
       const history = UserProgress.getSearchHistory();
       const trimmed = value.toLowerCase().trim();
-      
-      const filteredHistory = trimmed 
+
+      const filteredHistory = trimmed
         ? history.filter(h => h.toLowerCase().includes(trimmed))
         : history;
 
@@ -642,7 +662,7 @@
       }
 
       let html = '';
-      
+
       if (filteredHistory.length > 0) {
         html += '<div class="autocomplete-section">';
         html += '<div class="autocomplete-label">🕐 Istorija</div>';
@@ -663,7 +683,7 @@
 
       this.autocompleteEl.innerHTML = html;
       this.selectedIndex = -1;
-      
+
       this.autocompleteEl.querySelectorAll('.autocomplete-item').forEach(item => {
         item.addEventListener('click', () => {
           this.input.value = item.dataset.term;
@@ -693,7 +713,7 @@
 
     handleKeydown(e) {
       const items = this.autocompleteEl?.querySelectorAll('.autocomplete-item');
-      
+
       if (e.key === 'Escape') {
         this.hideAutocomplete();
         this.input.blur();
@@ -756,11 +776,11 @@
       }
 
       this.resultsEl.style.display = 'block';
-      
+
       if (count === 0) {
         this.resultsEl.textContent = 'Nerasta užduočių pagal šį raktažodį';
       } else {
-        const word = count === 1 ? 'užduotis' : (count >= 2 && count < 10) ? 'užduotys' : 'užduočių';
+        const word = count === 1 ? 'užduotis' : count >= 2 && count < 10 ? 'užduotys' : 'užduočių';
         this.resultsEl.textContent = `Rasta ${count} ${word}`;
       }
     },
@@ -770,7 +790,7 @@
         this.input.focus();
         this.input.select();
       }
-    }
+    },
   };
 
   // ============================================
@@ -787,22 +807,25 @@
         return;
       }
 
-      this.observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('dept--loaded');
-            this.observer.unobserve(entry.target);
-          }
-        });
-      }, {
-        rootMargin: '200px 0px',
-        threshold: 0.01
-      });
+      this.observer = new IntersectionObserver(
+        entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('dept--loaded');
+              this.observer.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          rootMargin: '200px 0px',
+          threshold: 0.01,
+        }
+      );
 
       document.querySelectorAll('.dept').forEach(dept => {
         this.observer.observe(dept);
       });
-    }
+    },
   };
 
   // ============================================
@@ -820,14 +843,17 @@
           const favBtn = document.createElement('button');
           favBtn.className = `btn-favorite ${isFav ? 'is-favorite' : ''}`;
           favBtn.innerHTML = isFav ? '⭐' : '☆';
-          favBtn.setAttribute('aria-label', isFav ? 'Pašalinti iš mėgstamų' : 'Pridėti prie mėgstamų');
+          favBtn.setAttribute(
+            'aria-label',
+            isFav ? 'Pašalinti iš mėgstamų' : 'Pridėti prie mėgstamų'
+          );
           favBtn.dataset.promptId = promptId;
-          
+
           actionsEl.appendChild(favBtn);
         }
       });
 
-      document.addEventListener('click', (e) => {
+      document.addEventListener('click', e => {
         const favBtn = e.target.closest('.btn-favorite');
         if (!favBtn) return;
 
@@ -838,16 +864,19 @@
         const promptTitle = titleEl?.textContent || 'Nežinomas promptas';
 
         const isNowFavorite = UserProgress.toggleFavorite(promptId, promptTitle);
-        
+
         favBtn.classList.toggle('is-favorite', isNowFavorite);
         favBtn.innerHTML = isNowFavorite ? '⭐' : '☆';
-        favBtn.setAttribute('aria-label', isNowFavorite ? 'Pašalinti iš mėgstamų' : 'Pridėti prie mėgstamų');
-        
+        favBtn.setAttribute(
+          'aria-label',
+          isNowFavorite ? 'Pašalinti iš mėgstamų' : 'Pridėti prie mėgstamų'
+        );
+
         Toast.success(isNowFavorite ? 'Pridėta prie mėgstamų ⭐' : 'Pašalinta iš mėgstamų');
-        
+
         UserProgress.updateUI();
       });
-    }
+    },
   };
 
   // ============================================
@@ -870,7 +899,7 @@
         this.setExpanded(!expanded);
       });
 
-      this.navList.addEventListener('click', (e) => {
+      this.navList.addEventListener('click', e => {
         if (e.target && e.target.closest('a')) {
           this.setExpanded(false);
         }
@@ -889,7 +918,7 @@
       if (this.overlay) {
         this.overlay.classList.toggle('active', expanded);
       }
-    }
+    },
   };
 
   // ============================================
@@ -903,28 +932,32 @@
       if (!this.bar) return;
 
       let ticking = false;
-      window.addEventListener('scroll', () => {
-        if (!ticking) {
-          requestAnimationFrame(() => {
-            this.update();
-            ticking = false;
-          });
-          ticking = true;
-        }
-      }, { passive: true });
-      
+      window.addEventListener(
+        'scroll',
+        () => {
+          if (!ticking) {
+            requestAnimationFrame(() => {
+              this.update();
+              ticking = false;
+            });
+            ticking = true;
+          }
+        },
+        { passive: true }
+      );
+
       this.update();
     },
 
     update() {
       if (!this.bar) return;
-      
+
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
       const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-      
+
       this.bar.style.width = progress + '%';
-    }
+    },
   };
 
   // ============================================
@@ -939,23 +972,27 @@
       if (!this.button) return;
 
       let ticking = false;
-      window.addEventListener('scroll', () => {
-        if (!ticking) {
-          requestAnimationFrame(() => {
-            this.toggle();
-            ticking = false;
-          });
-          ticking = true;
-        }
-      }, { passive: true });
-      
+      window.addEventListener(
+        'scroll',
+        () => {
+          if (!ticking) {
+            requestAnimationFrame(() => {
+              this.toggle();
+              ticking = false;
+            });
+            ticking = true;
+          }
+        },
+        { passive: true }
+      );
+
       this.button.addEventListener('click', () => this.scrollToTop());
       this.toggle();
     },
 
     toggle() {
       if (!this.button) return;
-      
+
       if (window.scrollY > this.threshold) {
         this.button.classList.add('visible');
       } else {
@@ -965,7 +1002,7 @@
 
     scrollToTop() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+    },
   };
 
   // ============================================
@@ -990,7 +1027,7 @@
       }
 
       if (this.searchModal) {
-        this.searchModal.addEventListener('click', (e) => {
+        this.searchModal.addEventListener('click', e => {
           if (e.target === this.searchModal) {
             this.closeSearchModal();
           }
@@ -1006,7 +1043,7 @@
     openSearchModal() {
       if (!this.searchModal) return;
       this.searchModal.classList.add('active');
-      
+
       const input = document.getElementById('mobile-search-input');
       if (input) {
         setTimeout(() => input.focus(), 100);
@@ -1023,10 +1060,10 @@
       if (toggle) {
         toggle.click();
       }
-    }
+    },
   };
 
-  window.closeMobileSearch = function() {
+  window.closeMobileSearch = function () {
     MobileUI.closeSearchModal();
   };
 
@@ -1035,7 +1072,7 @@
   // ============================================
   const Keyboard = {
     init() {
-      document.addEventListener('keydown', (e) => {
+      document.addEventListener('keydown', e => {
         const target = e.target;
         if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') {
           if (e.key === 'Escape') {
@@ -1056,7 +1093,7 @@
             break;
         }
       });
-    }
+    },
   };
 
   // ============================================
@@ -1071,16 +1108,28 @@
     init() {
       this.form = document.getElementById('contact-form');
       this.successMsg = document.getElementById('form-success');
-      
+
       if (!this.form || !this.successMsg) return;
 
       this.fields = [
-        { el: this.form.querySelector('#name'), errorEl: this.form.querySelector('#name-error'), label: 'Vardas' },
-        { el: this.form.querySelector('#email'), errorEl: this.form.querySelector('#email-error'), label: 'El. paštas' },
-        { el: this.form.querySelector('#message'), errorEl: this.form.querySelector('#message-error'), label: 'Pasiūlymas' }
+        {
+          el: this.form.querySelector('#name'),
+          errorEl: this.form.querySelector('#name-error'),
+          label: 'Vardas',
+        },
+        {
+          el: this.form.querySelector('#email'),
+          errorEl: this.form.querySelector('#email-error'),
+          label: 'El. paštas',
+        },
+        {
+          el: this.form.querySelector('#message'),
+          errorEl: this.form.querySelector('#message-error'),
+          label: 'Pasiūlymas',
+        },
       ].filter(f => f.el);
 
-      this.form.addEventListener('submit', (e) => this.handleSubmit(e));
+      this.form.addEventListener('submit', e => this.handleSubmit(e));
 
       this.fields.forEach(field => {
         field.el.addEventListener('input', () => {
@@ -1098,7 +1147,7 @@
       this.clearErrors();
 
       let firstInvalid = null;
-      
+
       for (const field of this.fields) {
         const invalid = this.validateField(field);
         if (invalid && !firstInvalid) {
@@ -1135,9 +1184,10 @@
       if (el.validity.valueMissing) {
         message = `Laukas „${label}" yra privalomas.`;
       } else if (el.validity.typeMismatch) {
-        message = label === 'El. paštas'
-          ? 'Įveskite galiojantį el. pašto adresą.'
-          : `Laukas „${label}" turi neteisingą formatą.`;
+        message =
+          label === 'El. paštas'
+            ? 'Įveskite galiojantį el. pašto adresą.'
+            : `Laukas „${label}" turi neteisingą formatą.`;
       } else if (el.validity.tooShort) {
         message = `Laukas „${label}" per trumpas.`;
       } else {
@@ -1154,7 +1204,7 @@
         el.removeAttribute('aria-invalid');
         if (errorEl) errorEl.textContent = '';
       }
-    }
+    },
   };
 
   // ============================================
@@ -1192,7 +1242,6 @@
     Progress,
     BackToTop,
     MobileUI,
-    Favorites
+    Favorites,
   };
-
 })();

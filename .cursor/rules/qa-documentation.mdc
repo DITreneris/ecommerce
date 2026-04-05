@@ -1,0 +1,14 @@
+---
+description: QA privalo tikrinti dokumentų ir CHANGELOG atnaujinimus
+alwaysApply: true
+---
+
+# QA ir dokumentai (privaloma)
+
+Prieš užbaigiant užduotį ar PR:
+
+1. Jei keitėte **elgseną, UI, turinį, CI, deploy ar viešą API** — atnaujinkite **[CHANGELOG.md](CHANGELOG.md)** (`[Unreleased]`: Added / Changed / Fixed / Removed).
+2. Patikrinkite pagal **[docs/DOCUMENTATION.md](docs/DOCUMENTATION.md)** lentelę: ar atnaujinti **README**, **AGENTS**, **CONTRIBUTING**, **TODO** ten, kur pakeitimas tai reikalauja.
+3. PR šablone pažymėkite dokumentų checklist (jei naudojate GitHub PR).
+
+Neužbaikite darbo tik su kodo pakeitimu, jei dokumentacija turi būti sinchronizuota pagal `docs/DOCUMENTATION.md` QA skyrių.

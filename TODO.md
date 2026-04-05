@@ -16,7 +16,8 @@ assets/
 ├── js/
 │   └── app.js          (21 KB - konsoliduotas JS su error handling)
 └── data/
-    └── prompts.json    (110 KB - 107 promptai JSON formatu)
+    ├── prompts.lt.json    (~107 promptai)
+    └── prompts.en.json
 
 index-refactored.html   (148 KB - 25% mažesnis nei originalas)
 ```
@@ -24,7 +25,7 @@ index-refactored.html   (148 KB - 25% mažesnis nei originalas)
 ### Atlikti Darbai:
 - ✅ Išskirtas CSS į `assets/css/styles.css`
 - ✅ Išskirtas JavaScript į `assets/js/app.js` (pašalinti dublikatai)
-- ✅ Sukurtas `assets/data/prompts.json` su visais 107 promptais
+- ✅ `assets/data/prompts.lt.json`, `prompts.en.json`, `prompts.et.json`, `prompts.lv.json` (keturios kalbos)
 - ✅ Sukurtas `index-refactored.html` naudojantis išoriniais failais
 - ✅ Pridėtas error handling localStorage operacijoms (Storage modulis)
 - ✅ Pridėtas Clipboard API fallback su geresniais pranešimais
@@ -68,7 +69,7 @@ index-refactored.html   (148 KB - 25% mažesnis nei originalas)
 #### 1.1 Kodo Refaktoringas - Failų Atskyrimas
 - [x] **Išskirti CSS į atskirą failą** `assets/css/styles.css` (29 KB)
 - [x] **Išskirti JavaScript į atskirą failą** `assets/js/app.js` (21 KB)
-- [x] **Sukurti `prompts.json` duomenų failą** `assets/data/prompts.json` (110 KB, 107 promptai)
+- [x] **Dvikalbiai duomenų failai** `assets/data/prompts.lt.json`, `prompts.en.json`
 
 #### 1.2 Dublikuoto Kodo Pašalinimas
 - [x] **Konsoliduoti Copy funkcionalumą** → Vienas `Clipboard` modulis su toast
@@ -83,7 +84,7 @@ index-refactored.html   (148 KB - 25% mažesnis nei originalas)
 ### ✅ P2: SVARBŪS - UŽBAIGTA (2026-02-01)
 
 > **Statusas**: Visi P2 darbai atlikti
-> **Failai**: `index-enhanced.html`, `assets/js/app-enhanced.js`, `assets/css/styles.css` (atnaujintas)
+> **Failai** (istorija): P2 HTML/JS perkelta į `docs/archive/legacy-html/` ir `docs/archive/legacy-js/`; aktyvus stilius — `assets/css/styles.css`.
 
 #### 2.1 Performance Optimizavimas ✅
 - [x] **Lazy Loading skyrių turiniui**
@@ -97,22 +98,18 @@ index-refactored.html   (148 KB - 25% mažesnis nei originalas)
   - `npm run lint` - ESLint tikrinimas
   
 - [x] **Sukurtas GitHub Actions CI/CD**
-  - `.github/workflows/deploy.yml` - automatinis deployment į GitHub Pages
+  - `.github/workflows/ci.yml` — lint ir format check (push/PR)
+  - `.github/workflows/static.yml` — automatinis deployment į GitHub Pages
 
-#### 2.3 Paieškos Patobulinimai ✅
-- [x] **Fuzzy Search su Fuse.js**
-  - Naudojama Fuse.js iš CDN
-  - Threshold: 0.35, weighted keys (title, text, keywords)
-  - Fallback į basic search jei CDN nepasiekiamas
+#### 2.3 Paieška (istorinis vs dabartinė Spin-off 8) ✅
 
-- [x] **Search Autocomplete**
-  - Dropdown su pasiūlymais rašant
-  - Klaviatūros navigacija (Arrow Up/Down, Enter, Escape)
-  - Highlight selected item
+> **Dabartinė produkcija** ([`assets/js/app.js`](assets/js/app.js)): paprasta raktažodžių paieška (`includes` pagal pavadinimą, tekstą, `data-keywords`), sinchronizacija su URL `?q=`, paryškinimas paieškoje.
 
-- [x] **Paieškos istorija**
-  - Paskutiniai 5 terminai localStorage
-  - Rodomi autocomplete dropdown
+- [x] **Fuzzy Search su Fuse.js** — įgyvendinta **P2 archyve**: [`docs/archive/legacy-js/app-enhanced.js`](docs/archive/legacy-js/app-enhanced.js) + CDN; dabartinėje bibliotekoje nenaudojama.
+
+- [x] **Search Autocomplete** — **archyve** (legacy enhanced); dabartinėje versijoje nėra dropdown istorijos.
+
+- [x] **Paieškos istorija** — **archyve** (legacy); dabartinėje versijoje nėra `localStorage` paieškos istorijos.
 
 #### 2.4 Vartotojo Patirties Gerinimas ✅
 - [x] **Progress Tracking sistema**

@@ -1,0 +1,1554 @@
+{
+  "version": "2.0",
+  "totalPrompts": 107,
+  "categories": [
+    {
+      "id": "start",
+      "name": "Alustamine",
+      "icon": "🚀",
+      "count": 3,
+      "prompts": [
+        {
+          "id": 1,
+          "title": "meilikiri kliendile",
+          "text": "Kirjutage [tootest] huvitatud kliendile selge ja sõbralik e-kiri. ",
+          "copyText": "Kirjutage [tootest] huvitatud kliendile selge ja sõbralik e-kiri. ",
+          "keywords": [
+            "email",
+            "kiri",
+            "klient",
+            "toode",
+            "eeliseid"
+          ],
+          "category": "start"
+        },
+        {
+          "id": 2,
+          "title": "SEO tootekirjeldus",
+          "text": "Kirjutage 120-sõnaline SEO optimeeritud [toote] kirjeldus koos peamiste otsinguterminitega.",
+          "copyText": "Kirjutage 120-sõnaline SEO optimeeritud [toote] kirjeldus koos peamiste otsinguterminitega.",
+          "keywords": [
+            "seo",
+            "kirjeldus",
+            "toode",
+            "märksõnad"
+          ],
+          "category": "start"
+        },
+        {
+          "id": 3,
+          "title": "Kuuaruanne",
+          "text": "Looge lühike juhtimisaruanne, mis näitab muutusi igakuises müügis, kasutades järgmisi andmeid: [kleebi CSV].",
+          "copyText": "Looge lühike juhtimisaruanne, mis näitab muutusi igakuises müügis, kasutades järgmisi andmeid: [kleebi CSV].",
+          "keywords": [
+            "aruanne",
+            "müük",
+            "igakuine",
+            "andmeid"
+          ],
+          "category": "start"
+        }
+      ]
+    },
+    {
+      "id": "sales",
+      "name": "Müük",
+      "icon": "💼",
+      "count": 27,
+      "prompts": [
+        {
+          "id": 4,
+          "title": "Ettepaneku ümberkirjutamine",
+          "text": "Kirjutage see ettepanek ümber, et muuta see lühemaks, professionaalsemaks ja selgemaks: [kleebi tekst].",
+          "copyText": "Kirjutage see ettepanek ümber, et muuta see lühemaks, professionaalsemaks ja selgemaks: [kleebi tekst].",
+          "keywords": [
+            "pakkuma",
+            "ümber kirjutama",
+            "professionaalne"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 6,
+          "title": "KKK loomine",
+          "text": "Looge [tootekategooria] kohta viie korduma kippuva küsimuse (KKK) ja vastuste loend.",
+          "copyText": "Looge [tootekategooria] kohta viie korduma kippuva küsimuse (KKK) ja vastuste loend.",
+          "keywords": [
+            "tütar",
+            "küsimusi",
+            "vastuseid"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 7,
+          "title": "Sõnum neile, kes konkurendilt üle lähevad",
+          "text": "Koostage lühisõnum kliendile, kes kaalub konkurendilt [X] meie lahendusele üleminekut.",
+          "copyText": "Koostage lühisõnum kliendile, kes kaalub konkurendilt [X] meie lahendusele üleminekut.",
+          "keywords": [
+            "konkurent",
+            "üleminek",
+            "sõnum"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 8,
+          "title": "Kaubanduspakkumise struktuur",
+          "text": "Looge professionaalse äripakkumise struktuur [klient/projekt]. ",
+          "copyText": "Looge professionaalse äripakkumise struktuur [klient/projekt]. ",
+          "keywords": [
+            "pakkuma",
+            "kaubanduslik",
+            "pakkuma"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 10,
+          "title": "Vastulause vastuse juhend",
+          "text": "Looge [toote/teenuse] vastuväidetele vastamise juhend. ",
+          "copyText": "Looge [toote/teenuse] vastuväidetele vastamise juhend. ",
+          "keywords": [
+            "objektid",
+            "vastuseid",
+            "vastuväiteid"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 14,
+          "title": "RFQ (Request for Proposal) mall",
+          "text": "Looge tarnijatele professionaalne pakkumine [toode/komponendi] jaoks. ",
+          "copyText": "Looge tarnijatele professionaalne pakkumine [toode/komponendi] jaoks. ",
+          "keywords": [
+            "rfq",
+            "pakkuma",
+            "nõuda",
+            "malli",
+            "konkurentsi"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 23,
+          "title": "Tagastamise (RMA) töötlemise juhend",
+          "text": "Valmistage ette RMA #[number] tagastamise töötlemise protseduur. ",
+          "copyText": "Valmistage ette RMA #[number] tagastamise töötlemise protseduur. ",
+          "keywords": [
+            "tagasimakseid",
+            "rm",
+            "kvaliteet",
+            "protsessi"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 28,
+          "title": "Toodete võrdlustabel",
+          "text": "Looge võrdlustabel [Toode 1] vs [Toode 2] vs [Toode 3]. ",
+          "copyText": "Looge võrdlustabel [Toode 1] vs [Toode 2] vs [Toode 3]. ",
+          "keywords": [
+            "tooteid",
+            "võrdlus",
+            "laud",
+            "spetsifikatsioonid"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 31,
+          "title": "Mahajäetud ostukorvi meilikirjade seeria",
+          "text": "Looge mahajäetud ostukorvi jaoks 3 meilisõnumi jada. ",
+          "copyText": "Looge mahajäetud ostukorvi jaoks 3 meilisõnumi jada. ",
+          "keywords": [
+            "email",
+            "kiri",
+            "mahajäetud",
+            "korv",
+            "teisendamine"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 35,
+          "title": "Tootelehe konversiooni optimeerimine",
+          "text": "Looge tootelehe optimeerimisplaan [toode]. ",
+          "copyText": "Looge tootelehe optimeerimisplaan [toode]. ",
+          "keywords": [
+            "konversioonid",
+            "optimeerimine",
+            "CRO",
+            "lehel"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 38,
+          "title": "Värvipaleti soovitus",
+          "text": "Soovitage värvipaletti tüübile [projekt/ettevõte]. ",
+          "copyText": "Soovitage värvipaletti tüübile [projekt/ettevõte]. ",
+          "keywords": [
+            "värvid",
+            "palett",
+            "küps",
+            "värvid",
+            "psühholoogia"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 55,
+          "title": "Sissejuhatus kataloogi",
+          "text": "Kirjutage professionaalne ja selge 120-sõnaline tootekataloogi tutvustus.",
+          "copyText": "Kirjutage professionaalne ja selge 120-sõnaline tootekataloogi tutvustus.",
+          "keywords": [
+            "kataloog",
+            "sissejuhatus",
+            "professionaalne"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 56,
+          "title": "Pressiteate mustand",
+          "text": "Koostage pressiteade teemal [Ettevõtte uudised/toote lansseerimine]. ",
+          "copyText": "Koostage pressiteade teemal [Ettevõtte uudised/toote lansseerimine]. ",
+          "keywords": [
+            "sõnum",
+            "ajakirjanduse jaoks",
+            "sõnum",
+            "meediale"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 57,
+          "title": "LinkedIn postitusseeria",
+          "text": "Looge B2B vaatajaskonna jaoks 5 LinkedIn postitust teemal [teema/valdkonna trend]. ",
+          "copyText": "Looge B2B vaatajaskonna jaoks 5 LinkedIn postitust teemal [teema/valdkonna trend]. ",
+          "keywords": [
+            "linkedin",
+            "rekord",
+            "b2b",
+            "professionaalne",
+            "juhtimine"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 58,
+          "title": "Toote video skript",
+          "text": "Kirjutage 90-sekundilise tootevideo [toode] stsenaarium. ",
+          "copyText": "Kirjutage 90-sekundilise tootevideo [toode] stsenaarium. ",
+          "keywords": [
+            "video",
+            "stsenaarium",
+            "youtube",
+            "õppetund",
+            "selgitus"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 64,
+          "title": "Varundus- ja taasteplaan",
+          "text": "Töötage välja [süsteemi/andmebaas] jaoks varundus- ja taasteprotseduur. ",
+          "copyText": "Töötage välja [süsteemi/andmebaas] jaoks varundus- ja taasteprotseduur. ",
+          "keywords": [
+            "tagavaraks",
+            "koopiaid",
+            "taastumine",
+            "plaan",
+            "andmeid",
+            "kaitse"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 65,
+          "title": "Kasutaja juurdepääsu maatriks",
+          "text": "Looge [süsteemi/rakenduse] jaoks kasutaja juurdepääsu juhtimise maatriks. ",
+          "copyText": "Looge [süsteemi/rakenduse] jaoks kasutaja juurdepääsu juhtimise maatriks. ",
+          "keywords": [
+            "kasutajad",
+            "juurdepääs",
+            "lubasid",
+            "rollid",
+            "turvalisus"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 66,
+          "title": "Tehnilise dokumentatsiooni mall",
+          "text": "Valmistage ette [funktsioon/API/moodul] tehniline dokumentatsioon. ",
+          "copyText": "Valmistage ette [funktsioon/API/moodul] tehniline dokumentatsioon. ",
+          "keywords": [
+            "tarkvara",
+            "dokumentatsiooni",
+            "u",
+            "tehniline",
+            "spetsifikatsioonid"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 67,
+          "title": "Andmete varundamise strateegia",
+          "text": "Looge andmete varundamise strateegia [süsteem/andmed]. ",
+          "copyText": "Looge andmete varundamise strateegia [süsteem/andmed]. ",
+          "keywords": [
+            "varukoopia",
+            "strateegia",
+            "tagavaraks",
+            "kopeerida",
+            "andmeid"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 71,
+          "title": "Rahavoogude prognoos",
+          "text": "Koostage 3 kuu rahavoogude prognoos järgmiste andmete põhjal: [kleebi numbrid]. ",
+          "copyText": "Koostage 3 kuu rahavoogude prognoos järgmiste andmete põhjal: [kleebi numbrid]. ",
+          "keywords": [
+            "raha",
+            "ojad",
+            "prognoos",
+            "likviidsus"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 79,
+          "title": "Tulemuslikkuse hindamise mall",
+          "text": "Looge [ametikoha pealkiri] töötavale töötajale [töötaja nimi] tasakaalustatud tulemuslikkuse hindamise mall. ",
+          "copyText": "Looge [ametikoha pealkiri] töötavale töötajale [töötaja nimi] tasakaalustatud tulemuslikkuse hindamise mall. ",
+          "keywords": [
+            "tegevused",
+            "hindamine",
+            "pööratav",
+            "ühendus",
+            "eesmärgid"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 81,
+          "title": "Õppekava plaan",
+          "text": "Koostage [osakonnale/meeskonnale] poolepäevane koolitusprogramm teemal [teema]. ",
+          "copyText": "Koostage [osakonnale/meeskonnale] poolepäevane koolitusprogramm teemal [teema]. ",
+          "keywords": [
+            "koolitust",
+            "programm",
+            "oskusi",
+            "haridust",
+            "töötuba"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 82,
+          "title": "Tööpakkumise kiri",
+          "text": "Kirjutage professionaalse tööpakkumise kiri kandidaadile [kandidaadi nimi] [ametikoha nimetus]. ",
+          "copyText": "Kirjutage professionaalse tööpakkumise kiri kandidaadile [kandidaadi nimi] [ametikoha nimetus]. ",
+          "keywords": [
+            "tööst",
+            "pakkuma",
+            "kiri",
+            "tööhõive",
+            "leping"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 92,
+          "title": "GTD meetod - ülesannete organiseerimine",
+          "text": "Korraldage ülesandeid [kleebi ülesanded] GTD (Getting Things Done) meetodil. ",
+          "copyText": "Korraldage ülesandeid [kleebi ülesanded] GTD (Getting Things Done) meetodil. ",
+          "keywords": [
+            "jne",
+            "meetod",
+            "organisatsioon",
+            "ülesandeid"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 98,
+          "title": "Kanbani tahvli struktuur",
+          "text": "Looge Kanbani tahvli struktuur [projekt/meeskond]. ",
+          "copyText": "Looge Kanbani tahvli struktuur [projekt/meeskond]. ",
+          "keywords": [
+            "kanban",
+            "juhatus",
+            "projekt",
+            "ülesandeid"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 102,
+          "title": "🎯 Kliendi teekonna optimeerimine",
+          "text": "Olete kasutajakogemuse uurija ja kliendikogemuse strateeg, kes on spetsialiseerunud B2B e-postile. ",
+          "copyText": "Olete kasutajakogemuse uurija ja kliendikogemuse strateeg, kes on spetsialiseerunud B2B e-postile. ",
+          "keywords": [
+            "kliendist",
+            "reis",
+            "pardaleminek",
+            "kogemusi",
+            "valust",
+            "punktid"
+          ],
+          "category": "sales"
+        },
+        {
+          "id": 104,
+          "title": "🎯 Mitu müügimeili kirjade jada",
+          "text": "Olete B2B müügitekstide kirjutaja, kes on spetsialiseerunud külmadele kirjadele ja meilidele. ",
+          "copyText": "Olete B2B müügitekstide kirjutaja, kes on spetsialiseerunud külmadele kirjadele ja meilidele. ",
+          "keywords": [
+            "müük",
+            "email",
+            "kirju",
+            "isikupärastamine",
+            "automatiseerimine",
+            "järgneb"
+          ],
+          "category": "sales"
+        }
+      ]
+    },
+    {
+      "id": "procurement",
+      "name": "Hanked",
+      "icon": "📦",
+      "count": 2,
+      "prompts": [
+        {
+          "id": 12,
+          "title": "Viivitusteade",
+          "text": "Kirjutage ametlik e-kiri, saatke tarnijale kiri tellimuse hilinemise kohta ja küsige uuendatud tarnekuupäeva.",
+          "copyText": "Kirjutage ametlik e-kiri, saatke tarnijale kiri tellimuse hilinemise kohta ja küsige uuendatud tarnekuupäeva.",
+          "keywords": [
+            "viivitus",
+            "email",
+            "kiri",
+            "tarnija"
+          ],
+          "category": "procurement"
+        },
+        {
+          "id": 15,
+          "title": "Tarnija lepingu kokkuvõte",
+          "text": "Tehke sellest tarnijalepingust kokkuvõte [sisesta tekst], tuues esile: põhitingimused, hinnakujundus, tarnekohustused, kvaliteedigarantiid, maksetingimused, trahvid/stiimulid ja võimalikud riskid või läbirääkimispunktid.",
+          "copyText": "Tehke sellest tarnijalepingust kokkuvõte [sisesta tekst], tuues esile: põhitingimused, hinnakujundus, tarnekohustused, kvaliteedigarantiid, maksetingimused, trahvid/stiimulid ja võimalikud riskid või läbirääkimispunktid.",
+          "keywords": [
+            "leping",
+            "tarnija",
+            "läbirääkimisi",
+            "tingimused"
+          ],
+          "category": "procurement"
+        }
+      ]
+    },
+    {
+      "id": "logistics",
+      "name": "Logistika",
+      "icon": "🚚",
+      "count": 5,
+      "prompts": [
+        {
+          "id": 11,
+          "title": "Tarnijate võrdlus",
+          "text": "Koostage tarnijate võrdlustabel hinna, tarneaja ja usaldusväärsuse alusel, kasutades järgmisi andmeid: [kleebi andmed].",
+          "copyText": "Koostage tarnijate võrdlustabel hinna, tarneaja ja usaldusväärsuse alusel, kasutades järgmisi andmeid: [kleebi andmed].",
+          "keywords": [
+            "tarnija",
+            "võrdlus",
+            "hind",
+            "kohaletoimetamine"
+          ],
+          "category": "logistics"
+        },
+        {
+          "id": 19,
+          "title": "Igapäevane ülesannete plaan",
+          "text": "Koostage laomeeskonnale lihtne igapäevaste ülesannete plaan vastavalt prioriteetidele (tellimuse komplekteerimine, vastuvõtmine, inventeerimine).",
+          "copyText": "Koostage laomeeskonnale lihtne igapäevaste ülesannete plaan vastavalt prioriteetidele (tellimuse komplekteerimine, vastuvõtmine, inventeerimine).",
+          "keywords": [
+            "tööst",
+            "plaan",
+            "ladu",
+            "prioriteedid"
+          ],
+          "category": "logistics"
+        },
+        {
+          "id": 20,
+          "title": "Ohutuse kokkuvõte",
+          "text": "Tehke kokkuvõte põhilistest ohutusjuhistest uuele laotöötajale (lühike versioon).",
+          "copyText": "Tehke kokkuvõte põhilistest ohutusjuhistest uuele laotöötajale (lühike versioon).",
+          "keywords": [
+            "ohutus",
+            "juhiseid",
+            "ladu"
+          ],
+          "category": "logistics"
+        },
+        {
+          "id": 21,
+          "title": "Pakkimis- ja saatmisjuhised",
+          "text": "Looge tellimuse [tellimuse nr] jaoks pakkimis- ja saatmisjuhised. ",
+          "copyText": "Looge tellimuse [tellimuse nr] jaoks pakkimis- ja saatmisjuhised. ",
+          "keywords": [
+            "pakkimine",
+            "saatmine",
+            "juhiseid",
+            "kohaletoimetamine"
+          ],
+          "category": "logistics"
+        },
+        {
+          "id": 25,
+          "title": "Tarneteede optimeerimine",
+          "text": "Loo tarnemarsruudi optimeerimise plaan [regioon]. ",
+          "copyText": "Loo tarnemarsruudi optimeerimise plaan [regioon]. ",
+          "keywords": [
+            "kohaletoimetamine",
+            "marsruut",
+            "optimeerimine",
+            "transport"
+          ],
+          "category": "logistics"
+        }
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-kaubandus",
+      "icon": "🛒",
+      "count": 9,
+      "prompts": [
+        {
+          "id": 26,
+          "title": "Kategooriate nimed",
+          "text": "Looge 10 tootekategooria nimetust selgete ja inimlikult arusaadava kirjeldusega.",
+          "copyText": "Looge 10 tootekategooria nimetust selgete ja inimlikult arusaadava kirjeldusega.",
+          "keywords": [
+            "kategooriad",
+            "nimed",
+            "kirjeldused"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 27,
+          "title": "E-poe teksti ümberkirjutamine",
+          "text": "Kirjutage see tootekirjeldus ümber, et muuta see meilis atraktiivsemaks. ",
+          "copyText": "Kirjutage see tootekirjeldus ümber, et muuta see meilis atraktiivsemaks. ",
+          "keywords": [
+            "ümber kirjutama",
+            "kirjeldus",
+            "email",
+            "pood"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 29,
+          "title": "Tootelehe metasildid",
+          "text": "Looge [toote nimi] lehele SEO metasildid. ",
+          "copyText": "Looge [toote nimi] lehele SEO metasildid. ",
+          "keywords": [
+            "viskamine",
+            "sildid",
+            "pealkiri",
+            "kirjeldus",
+            "skeem"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 33,
+          "title": "E-kaubanduse hinnastrateegia",
+          "text": "Looge [tootekategooria] jaoks hinnastrateegia. ",
+          "copyText": "Looge [tootekategooria] jaoks hinnastrateegia. ",
+          "keywords": [
+            "hinnakujundus",
+            "strateegia",
+            "konkurentsi"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 34,
+          "title": "Tootekategooriate hierarhia plaan",
+          "text": "Loo tootekategooriate hierarhia [e-poe jaoks]. ",
+          "copyText": "Loo tootekategooriate hierarhia [e-poe jaoks]. ",
+          "keywords": [
+            "toode",
+            "kategooriad",
+            "struktuur",
+            "navigeerimine"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 36,
+          "title": "Tarnestrateegia kirjeldus",
+          "text": "Loo selge tarnestrateegia kirjeldus [e-poe jaoks]. ",
+          "copyText": "Loo selge tarnestrateegia kirjeldus [e-poe jaoks]. ",
+          "keywords": [
+            "kohaletoimetamine",
+            "strateegia",
+            "saatmine",
+            "kirjeldus"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 76,
+          "title": "Töökirjelduse generaator",
+          "text": "Kirjutage [töönimetus] jaoks köitev töökirjeldus. ",
+          "copyText": "Kirjutage [töönimetus] jaoks köitev töökirjeldus. ",
+          "keywords": [
+            "tööst",
+            "kirjeldus",
+            "reklaam",
+            "valik"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 84,
+          "title": "Töökirjelduse mall",
+          "text": "Looge [positsiooni nimetus] ametijuhend. ",
+          "copyText": "Looge [positsiooni nimetus] ametijuhend. ",
+          "keywords": [
+            "tööst",
+            "kirjeldus",
+            "kohustusi",
+            "nõuded"
+          ],
+          "category": "ecommerce"
+        },
+        {
+          "id": 103,
+          "title": "🎯 Sisustrateegia ja toimetuse kalender",
+          "text": "Oled sisuturunduse strateeg ja SEO spetsialist, kes tegeleb tehnilise B2B sisu ja mõtte juhtimisega.\n\n",
+          "copyText": "Oled sisuturunduse strateeg ja SEO spetsialist, kes tegeleb tehnilise B2B sisu ja mõtte juhtimisega.\n\n",
+          "keywords": [
+            "sisu",
+            "strateegia",
+            "seo",
+            "ajaveebi",
+            "juhtkiri",
+            "kalender"
+          ],
+          "category": "ecommerce"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "name": "Disain",
+      "icon": "🎨",
+      "count": 7,
+      "prompts": [
+        {
+          "id": 37,
+          "title": "Logo disaini kontseptsioon",
+          "text": "Looge [ettevõtte/toote nimi] jaoks 5 logo kujunduskontseptsiooni. ",
+          "copyText": "Looge [ettevõtte/toote nimi] jaoks 5 logo kujunduskontseptsiooni. ",
+          "keywords": [
+            "logo",
+            "disain",
+            "kaubad",
+            "märk",
+            "küps",
+            "identiteet"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 39,
+          "title": "Sotsiaalmeedia graafiliste elementide kirjeldus",
+          "text": "Looge 10 sotsiaalmeedia graafika üksikasjalik kirjeldus [teema/kampaania]. ",
+          "copyText": "Looge 10 sotsiaalmeedia graafika üksikasjalik kirjeldus [teema/kampaania]. ",
+          "keywords": [
+            "sotsiaalne",
+            "meedia",
+            "graafiline",
+            "disain",
+            "postitus",
+            "instagram",
+            "facebook"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 40,
+          "title": "Esitlusmalli struktuur",
+          "text": "Looge professionaalse [teema] esitlusmalli struktuur. ",
+          "copyText": "Looge professionaalse [teema] esitlusmalli struktuur. ",
+          "keywords": [
+            "esitlusi",
+            "malli",
+            "slaidi",
+            "disain",
+            "powerpoint"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 41,
+          "title": "Toote pakendi disaini spetsifikatsioon",
+          "text": "Looge üksikasjalik tootepakendi disaini spetsifikatsioon [toode]. ",
+          "copyText": "Looge üksikasjalik tootepakendi disaini spetsifikatsioon [toode]. ",
+          "keywords": [
+            "toode",
+            "pakendamine",
+            "disain",
+            "silt",
+            "kirjeldus"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 42,
+          "title": "Veebilehe traatraami kirjeldus",
+          "text": "Looge veebilehe üksikasjalik raami kirjeldus [lehe tüüp: nt. ",
+          "copyText": "Looge veebilehe üksikasjalik raami kirjeldus [lehe tüüp: nt. ",
+          "keywords": [
+            "veebis",
+            "disain",
+            "UI",
+            "UX",
+            "traatkarkass"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 43,
+          "title": "Infograafiline struktuuriplaan",
+          "text": "Looge infograafiline struktuuriplaan [teema/andmed]. ",
+          "copyText": "Looge infograafiline struktuuriplaan [teema/andmed]. ",
+          "keywords": [
+            "infograafika",
+            "andmeid",
+            "visualiseerimine",
+            "diagramm"
+          ],
+          "category": "design"
+        },
+        {
+          "id": 44,
+          "title": "meilikirja kujundusmalli spetsifikatsioon",
+          "text": "Loo meilikirja kujundusmalli spetsifikatsioon [tüüp: nt. ",
+          "copyText": "Loo meilikirja kujundusmalli spetsifikatsioon [tüüp: nt. ",
+          "keywords": [
+            "email",
+            "disain",
+            "malli",
+            "uudiskiri"
+          ],
+          "category": "design"
+        }
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "Andmeanalüüs",
+      "icon": "📊",
+      "count": 20,
+      "prompts": [
+        {
+          "id": 18,
+          "title": "Tarnelepingu riskianalüüs",
+          "text": "Analüüsige tarnelepingu riske [lepinguid]. ",
+          "copyText": "Analüüsige tarnelepingu riske [lepinguid]. ",
+          "keywords": [
+            "leping",
+            "tingimused",
+            "risk"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 22,
+          "title": "Laoseisu auditi aruanne",
+          "text": "Koostage varude auditi aruanne [asukoht/kategooria]. ",
+          "copyText": "Koostage varude auditi aruanne [asukoht/kategooria]. ",
+          "keywords": [
+            "inventar",
+            "audit",
+            "aktsiad",
+            "kontrolli"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 32,
+          "title": "Tooteülevaate analüüs ja vastused",
+          "text": "Analüüsige [toote] arvustusi [kleepige arvustusi] ja: tuvastage peamised teemad (positiivsed/negatiivsed), looge igale küsimusele või kaebusele professionaalsed vastused, soovitage toote parendusi, looge korduma kippuvate küsimuste põhjal KKK jaotis.",
+          "copyText": "Analüüsige [toote] arvustusi [kleepige arvustusi] ja: tuvastage peamised teemad (positiivsed/negatiivsed), looge igale küsimusele või kaebusele professionaalsed vastused, soovitage toote parendusi, looge korduma kippuvate küsimuste põhjal KKK jaotis.",
+          "keywords": [
+            "toode",
+            "arvustus",
+            "tagasisidet",
+            "SEO"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 45,
+          "title": "Müügiandmete analüüs",
+          "text": "Analüüsige järgmisi müügiandmeid [kleepige CSV või Exceli andmed] ja esitage: kuu/kvartali võrdlus, 10 parimat toodet, geograafiline jaotus, klientide segmenteerimine, trendid ja prognoosid. ",
+          "copyText": "Analüüsige järgmisi müügiandmeid [kleepige CSV või Exceli andmed] ja esitage: kuu/kvartali võrdlus, 10 parimat toodet, geograafiline jaotus, klientide segmenteerimine, trendid ja prognoosid. ",
+          "keywords": [
+            "andmeid",
+            "analüüs",
+            "excel",
+            "aruanne",
+            "suundumusi"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 46,
+          "title": "KPI armatuurlaua struktuur",
+          "text": "Looge KPI armatuurlaua struktuur [osakond/projekt]. ",
+          "copyText": "Looge KPI armatuurlaua struktuur [osakond/projekt]. ",
+          "keywords": [
+            "KPI-d",
+            "armatuurlaud",
+            "näitajad",
+            "mõõdikud"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 47,
+          "title": "Veebianalüütika aruanne",
+          "text": "Looge igakuine veebianalüütika aruanne [veebisait]. ",
+          "copyText": "Looge igakuine veebianalüütika aruanne [veebisait]. ",
+          "keywords": [
+            "veebis",
+            "analüütika",
+            "google",
+            "analüütika",
+            "aruanne"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 48,
+          "title": "Klientide segmenteerimise analüüs",
+          "text": "Tehke RFM-i (recency, Frequency, Monetary) klientide segmenteerimise analüüs, kasutades [andmeid]. ",
+          "copyText": "Tehke RFM-i (recency, Frequency, Monetary) klientide segmenteerimise analüüs, kasutades [andmeid]. ",
+          "keywords": [
+            "klientidele",
+            "segmenteerimine",
+            "RFM",
+            "analüüs"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 49,
+          "title": "Müügiprognoos",
+          "text": "Loo [periood: nt 3 kuud, 6 kuud] müügiprognoos, mis põhineb ajaloolistel andmetel [kleebi andmed]. ",
+          "copyText": "Loo [periood: nt 3 kuud, 6 kuud] müügiprognoos, mis põhineb ajaloolistel andmetel [kleebi andmed]. ",
+          "keywords": [
+            "prognoosimine",
+            "trend",
+            "analüüs",
+            "prognoos"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 50,
+          "title": "A/B testi tulemuste analüüs",
+          "text": "Analüüsige A/B testi tulemusi [kleepige andmed: valik A vs valik B]. ",
+          "copyText": "Analüüsige A/B testi tulemusi [kleepige andmed: valik A vs valik B]. ",
+          "keywords": [
+            "A/B",
+            "test",
+            "eksperiment",
+            "tulemusi"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 52,
+          "title": "Andmearuanne juhtkonnale",
+          "text": "Looge haldamiseks [periood] andmearuanne [teema]. ",
+          "copyText": "Looge haldamiseks [periood] andmearuanne [teema]. ",
+          "keywords": [
+            "aruanne",
+            "juhtimine",
+            "tegevjuht",
+            "kokkuvõte"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 59,
+          "title": "Kliendi edulugu",
+          "text": "Kirjutage kliendist [kliendi nimi] kaasahaarav edulugu. ",
+          "copyText": "Kirjutage kliendist [kliendi nimi] kaasahaarav edulugu. ",
+          "keywords": [
+            "kliendist",
+            "palju õnne",
+            "lugu",
+            "juhtum",
+            "analüüs",
+            "tagasisidet"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 62,
+          "title": "Andmete importimise juhend",
+          "text": "Looge samm-sammult juhised tooteandmete importimiseks CSV-failist meie süsteemi.",
+          "copyText": "Looge samm-sammult juhised tooteandmete importimiseks CSV-failist meie süsteemi.",
+          "keywords": [
+            "andmeid",
+            "importida",
+            "csv",
+            "juhendamine"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 70,
+          "title": "Eelarve dispersiooni analüüs",
+          "text": "Analüüsige [osakonna/projekti] eelarve dispersiooni, võrreldes planeeritud ja tegelikke kulusid. ",
+          "copyText": "Analüüsige [osakonna/projekti] eelarve dispersiooni, võrreldes planeeritud ja tegelikke kulusid. ",
+          "keywords": [
+            "eelarve",
+            "kõrvalekalle",
+            "analüüs",
+            "kulud"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 72,
+          "title": "Kuluaruande kokkuvõte",
+          "text": "Tehke kokkuvõte [kuu/kvartal] töötajate kuluaruannetest. ",
+          "copyText": "Tehke kokkuvõte [kuu/kvartal] töötajate kuluaruannetest. ",
+          "keywords": [
+            "kulud",
+            "aruanne",
+            "hüvitis",
+            "poliitika"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 73,
+          "title": "Finants-KPI-de kokkuvõte",
+          "text": "Looge kokkuvõte finants-KPI-de kohta [periood]. ",
+          "copyText": "Looge kokkuvõte finants-KPI-de kohta [periood]. ",
+          "keywords": [
+            "rahaline",
+            "kpi",
+            "kokkuvõte",
+            "näitajad",
+            "esitus"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 74,
+          "title": "Hinnastrateegia analüüs",
+          "text": "Analüüsige [toote/teenuse] optimaalseid hindu, võttes arvesse: omahinda ([X] eurot), konkurentide hindu ([kleebi andmed]), sihtmarginaali ([Y]%) ja turupositsiooni. ",
+          "copyText": "Analüüsige [toote/teenuse] optimaalseid hindu, võttes arvesse: omahinda ([X] eurot), konkurentide hindu ([kleebi andmed]), sihtmarginaali ([Y]%) ja turupositsiooni. ",
+          "keywords": [
+            "hinnakujundus",
+            "kasumist",
+            "marginaal",
+            "kulud",
+            "analüüs"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 85,
+          "title": "SWOT analüüs",
+          "text": "Tehke [projekt/ettevõte/toode] jaoks üksikasjalik SWOT-analüüs. ",
+          "copyText": "Tehke [projekt/ettevõte/toode] jaoks üksikasjalik SWOT-analüüs. ",
+          "keywords": [
+            "swt",
+            "analüüs",
+            "strateegia",
+            "tugevused",
+            "nõrkused"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 86,
+          "title": "PEST analüüs",
+          "text": "Viige läbi [ettevõte/projekt/ettevõte] [riik/regioon] PEST-analüüs. ",
+          "copyText": "Viige läbi [ettevõte/projekt/ettevõte] [riik/regioon] PEST-analüüs. ",
+          "keywords": [
+            "katk",
+            "analüüs",
+            "poliitika",
+            "majandust",
+            "sotsiaalne",
+            "tehnoloogia"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 101,
+          "title": "🎯 Konkurentide strateegiline analüüs",
+          "text": "Olete turu-uuringute vanemanalüütik, kellel on 15-aastane kogemus B2B elektroonika turustamisel.\n\n",
+          "copyText": "Olete turu-uuringute vanemanalüütik, kellel on 15-aastane kogemus B2B elektroonika turustamisel.\n\n",
+          "keywords": [
+            "konkurendid",
+            "analüüs",
+            "swt",
+            "strateegiline",
+            "turul",
+            "uurimine"
+          ],
+          "category": "analytics"
+        },
+        {
+          "id": 106,
+          "title": "🔬 Süvauuringu metoodika",
+          "text": "Olete vanemteaduranalüütik, kellel on akadeemiline taust ja 10+ aastat kogemusi mitmetasandiliste turu-, teadus- ja äriuuringute alal.\n\n",
+          "copyText": "Olete vanemteaduranalüütik, kellel on akadeemiline taust ja 10+ aastat kogemusi mitmetasandiliste turu-, teadus- ja äriuuringute alal.\n\n",
+          "keywords": [
+            "uurimine",
+            "analüüs",
+            "mitme allikaga",
+            "allikatest",
+            "kontrollimine",
+            "sügav",
+            "uurimine",
+            "teadus"
+          ],
+          "category": "analytics"
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "name": "Turundus",
+      "icon": "📢",
+      "count": 4,
+      "prompts": [
+        {
+          "id": 30,
+          "title": "Reklaamibänneri tekst",
+          "text": "Kirjutage kampaania [Reklaam/müük] jaoks köitev bännertekst. ",
+          "copyText": "Kirjutage kampaania [Reklaam/müük] jaoks köitev bännertekst. ",
+          "keywords": [
+            "bänner",
+            "tegevust",
+            "kampaania",
+            "pealkiri"
+          ],
+          "category": "marketing"
+        },
+        {
+          "id": 53,
+          "title": "Uudiskirja tekst",
+          "text": "Kirjuta kampaania kohta uudiskirja tekst: kuni pühapäevani kõikidele mõõteseadmetele -20%.",
+          "copyText": "Kirjuta kampaania kohta uudiskirja tekst: kuni pühapäevani kõikidele mõõteseadmetele -20%.",
+          "keywords": [
+            "uudiskiri",
+            "tegevust",
+            "allahindlust"
+          ],
+          "category": "marketing"
+        },
+        {
+          "id": 54,
+          "title": "Facebooki postituste ideed",
+          "text": "Looge 5 Facebooki postituse ideed uute Arduino toodete kohta, millest igaühel on selge üleskutse tegevusele.",
+          "copyText": "Looge 5 Facebooki postituse ideed uute Arduino toodete kohta, millest igaühel on selge üleskutse tegevusele.",
+          "keywords": [
+            "facebook",
+            "rekord",
+            "sotsiaalne",
+            "võrgud",
+            "arduino"
+          ],
+          "category": "marketing"
+        },
+        {
+          "id": 60,
+          "title": "e-posti turunduskampaania plaan",
+          "text": "Loo [periood] meiliturunduse kampaaniaplaan [teema]. ",
+          "copyText": "Loo [periood] meiliturunduse kampaaniaplaan [teema]. ",
+          "keywords": [
+            "email",
+            "turundus",
+            "kampaania",
+            "segmenteerimine"
+          ],
+          "category": "marketing"
+        }
+      ]
+    },
+    {
+      "id": "it",
+      "name": "IT",
+      "icon": "💻",
+      "count": 9,
+      "prompts": [
+        {
+          "id": 13,
+          "title": "Impordihinna kalkulaator",
+          "text": "Koosta importkaupade kalkulaator (kaup + transport + KM + tollimaksud = lõpphind).",
+          "copyText": "Koosta importkaupade kalkulaator (kaup + transport + KM + tollimaksud = lõpphind).",
+          "keywords": [
+            "importida",
+            "kalkulaator",
+            "käibemaks",
+            "tollimaks",
+            "transport"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 51,
+          "title": "Andmekvaliteedi audit",
+          "text": "Tehke andmete kvaliteedi audit [andmestik]. ",
+          "copyText": "Tehke andmete kvaliteedi audit [andmestik]. ",
+          "keywords": [
+            "andmeid",
+            "puhastamine",
+            "kuupäeva",
+            "puhastamine",
+            "kvaliteet"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 61,
+          "title": "ERP veaabi",
+          "text": "Selgitage lihtsalt, kuidas kasutaja saab selle ERP-i sisselogimise vea parandada: [veateade].",
+          "copyText": "Selgitage lihtsalt, kuidas kasutaja saab selle ERP-i sisselogimise vea parandada: [veateade].",
+          "keywords": [
+            "erp",
+            "viga",
+            "remont",
+            "talitlushäired",
+            "eemaldamine"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 63,
+          "title": "IT-toe vastuse mall",
+          "text": "Looge kasutajatoe vastuse mall [Tavaline IT-probleem: parooli lähtestamine / e-posti juurdepääs / VPN-ühendus]. ",
+          "copyText": "Looge kasutajatoe vastuse mall [Tavaline IT-probleem: parooli lähtestamine / e-posti juurdepääs / VPN-ühendus]. ",
+          "keywords": [
+            "parool",
+            "taastamine",
+            "konto",
+            "turvalisus",
+            "abi"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 69,
+          "title": "Makse meeldetuletuse kiri",
+          "text": "Kirjutage professionaalne, kuid sõbralik maksemeeldetuletusmeil. ",
+          "copyText": "Kirjutage professionaalne, kuid sõbralik maksemeeldetuletusmeil. ",
+          "keywords": [
+            "konto",
+            "meeldetuletus",
+            "makse",
+            "on hiljaks jäänud"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 75,
+          "title": "Finantsauditi kontrollnimekiri",
+          "text": "Koostage auditi ettevalmistamise kontrollnimekiri [auditi tüüp: aastane/sisemine/maks]. ",
+          "copyText": "Koostage auditi ettevalmistamise kontrollnimekiri [auditi tüüp: aastane/sisemine/maks]. ",
+          "keywords": [
+            "audit",
+            "kontrolli",
+            "nimekirja",
+            "vastavust"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 80,
+          "title": "Personalipoliitika projekt",
+          "text": "Koostage selge töötajasõbralik [poliitikateema: nt kaugtöö, puhkused, kulud] poliitika. ",
+          "copyText": "Koostage selge töötajasõbralik [poliitikateema: nt kaugtöö, puhkused, kulud] poliitika. ",
+          "keywords": [
+            "poliitika",
+            "personali",
+            "reeglid",
+            "juht"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 88,
+          "title": "Eisenhoweri maatriksülesannete klassifikatsioon",
+          "text": "Liigitage järgmised ülesanded [kleebi ülesannete loend] Eisenhoweri maatriksi abil. ",
+          "copyText": "Liigitage järgmised ülesanded [kleebi ülesannete loend] Eisenhoweri maatriksi abil. ",
+          "keywords": [
+            "Eisenhower",
+            "maatriks",
+            "prioriteedid",
+            "kiireloomulisus",
+            "tähtsust"
+          ],
+          "category": "it"
+        },
+        {
+          "id": 100,
+          "title": "Otsustusmaatriks",
+          "text": "Loo otsustusmaatriks [otsus: nt tootevalik, strateegia valik]. ",
+          "copyText": "Loo otsustusmaatriks [otsus: nt tootevalik, strateegia valik]. ",
+          "keywords": [
+            "lahendusi",
+            "maatriks",
+            "kriteeriumid",
+            "hindamine"
+          ],
+          "category": "it"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "Rahandus",
+      "icon": "💰",
+      "count": 2,
+      "prompts": [
+        {
+          "id": 5,
+          "title": "Hinna arvutamine",
+          "text": "Arvutage lõpphind, rakendage 15% juurdehindlust ja 21% käibemaksu, kui ostuhind on [x EUR].",
+          "copyText": "Arvutage lõpphind, rakendage 15% juurdehindlust ja 21% käibemaksu, kui ostuhind on [x EUR].",
+          "keywords": [
+            "hind",
+            "arvutus",
+            "märgistus",
+            "käibemaks"
+          ],
+          "category": "finance"
+        },
+        {
+          "id": 68,
+          "title": "Käibemaksu selgitus",
+          "text": "Kirjutage kliendile selge selgitus, kuidas käibemaksu arvestatakse ja millised reeglid kehtivad Lätist ostjatele.",
+          "copyText": "Kirjutage kliendile selge selgitus, kuidas käibemaksu arvestatakse ja millised reeglid kehtivad Lätist ostjatele.",
+          "keywords": [
+            "käibemaks",
+            "selgitus",
+            "tasu",
+            "Läti"
+          ],
+          "category": "finance"
+        }
+      ]
+    },
+    {
+      "id": "hr",
+      "name": "HR",
+      "icon": "👥",
+      "count": 3,
+      "prompts": [
+        {
+          "id": 77,
+          "title": "Intervjuu küsimuste komplekt",
+          "text": "Looge [positsiooni pealkiri] kandidaadile 10 käitumisintervjuu küsimust. ",
+          "copyText": "Looge [positsiooni pealkiri] kandidaadile 10 käitumisintervjuu küsimust. ",
+          "keywords": [
+            "intervjuu",
+            "küsimusi",
+            "kandidaadid",
+            "hindamine"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 78,
+          "title": "Sisenemise kontrollnimekiri",
+          "text": "Looge uue [positsiooni pealkiri] jaoks põhjalik 30-päevane sisseastumise kontrollnimekiri alates [kuupäev]. ",
+          "copyText": "Looge uue [positsiooni pealkiri] jaoks põhjalik 30-päevane sisseastumise kontrollnimekiri alates [kuupäev]. ",
+          "keywords": [
+            "sissejuhatus",
+            "kontrolli",
+            "nimekirja",
+            "uus",
+            "töötaja"
+          ],
+          "category": "hr"
+        },
+        {
+          "id": 83,
+          "title": "Töötajate kaasamise uuring",
+          "text": "Koostage 15 küsimusest koosnev töötajate kaasamise uuring, mis hõlmab tööga rahulolu, juhi tõhusust, töö- ja eraelu tasakaalu, kasvuvõimalusi ja ettevõtte kultuuri. ",
+          "copyText": "Koostage 15 küsimusest koosnev töötajate kaasamise uuring, mis hõlmab tööga rahulolu, juhi tõhusust, töö- ja eraelu tasakaalu, kasvuvõimalusi ja ettevõtte kultuuri. ",
+          "keywords": [
+            "töötajad",
+            "kaasamine",
+            "uuring",
+            "pööratav",
+            "ühendus"
+          ],
+          "category": "hr"
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "Tootlikkus",
+      "icon": "⚡",
+      "count": 13,
+      "prompts": [
+        {
+          "id": 9,
+          "title": "Kliendikohtumise päevakord",
+          "text": "Looge 30-minutiline kliendikohtumise päevakava [teema]. ",
+          "copyText": "Looge 30-minutiline kliendikohtumise päevakava [teema]. ",
+          "keywords": [
+            "kliendist",
+            "koosolek",
+            "esitlus"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 16,
+          "title": "Varude täiendamise soovitus",
+          "text": "Analüüsige [tootekategooria] laoseisu ja tehke ettepanekuid täiendamise kogused. ",
+          "copyText": "Analüüsige [tootekategooria] laoseisu ja tehke ettepanekuid täiendamise kogused. ",
+          "keywords": [
+            "aktsiad",
+            "lisamine",
+            "inventar",
+            "planeerimine"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 24,
+          "title": "Laopinna optimeerimine",
+          "text": "Analüüsige laopindade kasutamist tsoonis [tsoon/koridor]. ",
+          "copyText": "Analüüsige laopindade kasutamist tsoonis [tsoon/koridor]. ",
+          "keywords": [
+            "ladu",
+            "paigutus",
+            "optimeerimine",
+            "tõhusust"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 87,
+          "title": "Pomodoro päevakava",
+          "text": "Looge Pomodoro päevakava [päev/nädal] [teema/projekt]. ",
+          "copyText": "Looge Pomodoro päevakava [päev/nädal] [teema/projekt]. ",
+          "keywords": [
+            "pomodoro",
+            "päevakorda",
+            "aega",
+            "juhtimine",
+            "tootlikkus"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 89,
+          "title": "SMART-eesmärkide sõnastamine",
+          "text": "Loo 5 SMART-eesmärki [teema/projekt]. ",
+          "copyText": "Loo 5 SMART-eesmärki [teema/projekt]. ",
+          "keywords": [
+            "tark",
+            "eesmärgid",
+            "planeerimine",
+            "eesmärk"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 90,
+          "title": "Aja blokeerimise päevakord",
+          "text": "Looge [päev/nädal] [ülesanne/projekt] ajablokeeriv päevakava. ",
+          "copyText": "Looge [päev/nädal] [ülesanne/projekt] ajablokeeriv päevakava. ",
+          "keywords": [
+            "aega",
+            "blokeerimine",
+            "päevakorda",
+            "planeerimine"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 91,
+          "title": "2-minutilise reegli ülesande tuvastamine",
+          "text": "Analüüsige ülesannete loendit [kleebi ülesanded] ja tehke kindlaks, millised saab täita 2 minutiga või vähem. ",
+          "copyText": "Analüüsige ülesannete loendit [kleebi ülesanded] ja tehke kindlaks, millised saab täita 2 minutiga või vähem. ",
+          "keywords": [
+            "2",
+            "minutit",
+            "reegel",
+            "kiire",
+            "ülesandeid",
+            "tootlikkus"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 93,
+          "title": "Sügav töögraafik",
+          "text": "Looge põhjalik töögraafik [nädal/kuu] [projekt]. ",
+          "copyText": "Looge põhjalik töögraafik [nädal/kuu] [projekt]. ",
+          "keywords": [
+            "sügav",
+            "tööd",
+            "kontsentratsioon",
+            "tootlikkus"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 94,
+          "title": "Iganädalase ülevaate mall",
+          "text": "Looge iganädalane ülevaatemall [nädal]. ",
+          "copyText": "Looge iganädalane ülevaatemall [nädal]. ",
+          "keywords": [
+            "nädalaid",
+            "ülevaadet",
+            "peegeldus",
+            "planeerimine"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 95,
+          "title": "Energiamajanduse päevakava",
+          "text": "Koostage energiajuhtimise päevaplaan [päev] [ülesanne]. ",
+          "copyText": "Koostage energiajuhtimise päevaplaan [päev] [ülesanne]. ",
+          "keywords": [
+            "energiat",
+            "juhtimine",
+            "tootlikkus",
+            "päevadel",
+            "plaan"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 96,
+          "title": "Harjumuste virnastamise plaan",
+          "text": "Looge harjumuste kujundamise plaan, kasutades harjumuste virnastamise meetodit [Target Habit]. ",
+          "copyText": "Looge harjumuste kujundamise plaan, kasutades harjumuste virnastamise meetodit [Target Habit]. ",
+          "keywords": [
+            "harjumusi",
+            "looming",
+            "rutiin",
+            "tootlikkus"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 97,
+          "title": "Partii töötlemise strateegia",
+          "text": "Looge paketttöötlusstrateegia [ülesande tüüp: nt. ",
+          "copyText": "Looge paketttöötlusstrateegia [ülesande tüüp: nt. ",
+          "keywords": [
+            "partii",
+            "töötlemine",
+            "tõhusust",
+            "aega",
+            "juhtimine"
+          ],
+          "category": "productivity"
+        },
+        {
+          "id": 99,
+          "title": "Plaan produktiivseks hommikurutiiniks",
+          "text": "Looge produktiivse hommikurutiini plaan [kestvus: 30-60 min]. ",
+          "copyText": "Looge produktiivse hommikurutiini plaan [kestvus: 30-60 min]. ",
+          "keywords": [
+            "hommikul",
+            "rutiin",
+            "tootlikkus",
+            "päevadel",
+            "algust"
+          ],
+          "category": "productivity"
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "name": "Täpsemad mallid",
+      "icon": "🚀",
+      "count": 3,
+      "prompts": [
+        {
+          "id": 17,
+          "title": "Tarnijate hindamissüsteem",
+          "text": "Loo tarnijate hindamissüsteem [tarnija]. ",
+          "copyText": "Loo tarnijate hindamissüsteem [tarnija]. ",
+          "keywords": [
+            "tarnija",
+            "hindamine",
+            "kvaliteet",
+            "usaldusväärsus"
+          ],
+          "category": "advanced"
+        },
+        {
+          "id": 105,
+          "title": "🔧 Süstemaatiline AI assistendi viip",
+          "text": "Olete tehisintellekti süsteemiarhitekt, kes on spetsialiseerunud kohandatud assistentide arendamisele ja optimeerimisele.\n\n",
+          "copyText": "Olete tehisintellekti süsteemiarhitekt, kes on spetsialiseerunud kohandatud assistentide arendamisele ja optimeerimisele.\n\n",
+          "keywords": [
+            "süsteem",
+            "juhiseid",
+            "AI",
+            "assistent",
+            "konfiguratsiooni",
+            "käitumine",
+            "reeglid"
+          ],
+          "category": "advanced"
+        },
+        {
+          "id": 107,
+          "title": "🤖 Agendi ülesannete täitmine",
+          "text": "Olete autonoomne AI-agent, kellel on planeerimise, dekomponeerimise ja iteratiivse täitmise võimalused.\n\n",
+          "copyText": "Olete autonoomne AI-agent, kellel on planeerimise, dekomponeerimise ja iteratiivse täitmise võimalused.\n\n",
+          "keywords": [
+            "agent",
+            "autonoomne",
+            "töövoog",
+            "lagunemine",
+            "hukkamine",
+            "planeerimine",
+            "AI",
+            "ketid"
+          ],
+          "category": "advanced"
+        }
+      ]
+    }
+  ]
+}

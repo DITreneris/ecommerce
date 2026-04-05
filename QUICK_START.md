@@ -3,11 +3,13 @@
 ## Naudojimas
 
 ### 1. Atidarykite svetainę
-Atidarykite `index.html` naršyklėje arba per GitHub Pages.
+- Lokaliai: `npm run dev`, tada naršyklėje **`/lt/`**, **`/en/`**, **`/et/`** arba **`/lv/`** (šaknies `index.html` irgi nukreips pagal kalbą / įsiminimą).
+- GitHub Pages: atidarykite repozitorijos URL; būsite nukreipti pagal `localStorage` / naršyklės kalbą (įskaitant ET ir LV).
 
 ### 2. Raskite užduotį
 - Naršykite pagal skyrių
-- Naudokite paiešką: įveskite raktažodį (pvz., "el. laiškas", "kaina", "PVM")
+- Naudokite paiešką: įveskite raktažodį (pvz., "el. laiškas", "kaina", "PVM"); galite naudoti nuorodą su **`?q=raktažodis`**
+- Temą (šviesi / tamsi / pagal sistemą) perjunkite mygtuku antraštėje šalia kalbų jungiklio
 
 ### 3. Kopijuokite užduotį
 1. Spustelėkite "Kopijuoti" mygtuką

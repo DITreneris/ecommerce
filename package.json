@@ -1,13 +1,18 @@
 {
-  "name": "praktiniu-promptu-rinkinys",
-  "version": "3.0.0",
-  "description": "110 praktinių užduočių kasdieniam darbui su DI - P2 Enhanced",
+  "name": "di-promptu-biblioteka-e-komercijai",
+  "version": "4.0.0",
+  "description": "DI Promptų biblioteka e-komercijai (Spin-off Nr. 8) — LT/EN/ET/LV statinė promptų biblioteka",
   "type": "module",
   "scripts": {
     "dev": "npx serve . -l 3000 --cors",
     "start": "npx serve . -l 3000 --cors",
     "lint": "eslint assets/js/*.js",
-    "format": "prettier --write assets/**/*.{js,css}"
+    "lint:scripts": "eslint scripts/**/*.mjs",
+    "format": "prettier --write assets/**/*.{js,css}",
+    "verify": "npm run lint && npm run lint:scripts && prettier --check assets/js assets/css && node scripts/validate-prompts-json.mjs",
+    "generate:en": "node scripts/generate-prompts-en.mjs",
+    "generate:et": "node scripts/generate-prompts-from-en.mjs --target et",
+    "generate:lv": "node scripts/generate-prompts-from-en.mjs --target lv"
   },
   "keywords": [
     "prompts",
@@ -17,12 +22,11 @@
     "fuzzy-search",
     "favorites"
   ],
-  "author": "Praktinių Promptų Komanda",
+  "author": "DITreneris / Spin-off serija",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.56.0",
     "prettier": "^3.2.4",
     "serve": "^14.2.1"
-  },
-  "dependencies": {}
+  }
 }

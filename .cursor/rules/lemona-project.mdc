@@ -1,0 +1,30 @@
+---
+description: DI Promptų biblioteka e-komercijai (Spin-off 8) — statinė svetainė, LT/EN/ET/LV, JSON
+globs:
+  - assets/**/*.js
+  - assets/**/*.css
+  - assets/data/*.json
+  - lt/**/*.html
+  - en/**/*.html
+  - et/**/*.html
+  - lv/**/*.html
+  - "*.html"
+alwaysApply: false
+---
+
+# Projektas
+
+Vanilla JS statinė aplikacija: **`assets/js/app.js`**, stiliai **`assets/css/styles.css`**, duomenys **`assets/data/prompts.{lt,en,et,lv}.json`**. Įėjimas: šaknies **`index.html`** (nukreipia į **`lt/`**, **`en/`**, **`et/`** arba **`lv/`**). Turinio puslapiai: **`lt/index.html`**, **`en/index.html`**, **`et/index.html`**, **`lv/index.html`**. Seni monolitiniai HTML: **`docs/archive/`**.
+
+# Agentų elgsena
+
+- Maži, tikslūs diffai; neplėsti scope be užklausos.
+- Po JS/CSS pakeitimų: `npm run lint` ir Prettier ant paliestų failų.
+- Nepridedami slaptų raktų; laikytis ESLint taisyklių iš `.eslintrc.json`.
+- Prieinamumas: nepašalinti be reikalo ARIA ir keyboard flow.
+
+# QA
+
+Prieš užbaigiant: validūs JSON, jei liesti `prompts.*.json`; greitas rankinis patikrinimas naršyklėje (`npm run dev` → `lt/`, `en/`, `et/`, `lv/`). **Dokumentai:** žr. visada taikomą taisyklę *QA ir dokumentai* ir `docs/DOCUMENTATION.md` (CHANGELOG, README, AGENTS, CONTRIBUTING, TODO pagal poreikį).
+
+Vertimų regeneravimas (nebūtina kiekvienam PR): `npm run generate:en` (Lingva); `npm run generate:et` / `generate:lv` iš EN (reikia tinklo).

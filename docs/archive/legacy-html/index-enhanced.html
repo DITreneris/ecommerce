@@ -1,0 +1,2306 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b5bd3">
+  
+  <title>Praktinių promptų rinkinys — 110 užduočių kasdieniam darbui su DI</title>
+  <meta name="description" content="Išsami 110 praktinių užduočių kasdieniam darbui su DI rinktinė pardavimų, pirkimų, logistikos, e. komercijos, dizaino, duomenų analizės, rinkodaros, IT, finansų, personalo, asmeninio efektyvumo skyriuose ir išplėstiniai promptų šablonai.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Praktinių promptų rinkinys — 110 užduočių kasdieniam darbui su DI">
+  <meta property="og:description" content="Išsami 110 praktinių užduočių kasdieniam darbui su DI rinktinė.">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter -->
+  <meta name="twitter:title" content="Praktinių promptų rinkinys — 110 užduočių kasdieniam darbui su DI">
+  <meta name="twitter:card" content="summary">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../../assets/css/styles.css">
+  
+  <!-- Fuse.js for Fuzzy Search (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+</head>
+<body>
+  <!-- Progress bar -->
+  <div class="progress-bar" id="progress-bar"></div>
+  
+  <!-- Toast container -->
+  <div class="toast-container">
+    <div class="toast" id="toast"></div>
+  </div>
+
+  <!-- Skip link to main content (visible on focus) -->
+  <a class="skip-link" href="#main">Pereiti prie turinio</a>
+
+  <!-- Overlay for mobile menu click-outside detection -->
+  <div id="nav-overlay" class="nav__overlay" aria-hidden="true"></div>
+
+  <header>
+    <div class="container container--wide header__inner">
+      <div class="brand">
+        <!-- replace: {{PAGE_TITLE}} -->
+        <span>💡 Praktinių promptų rinkinys</span>
+      </div>
+
+      <nav class="nav" aria-label="Pagrindinis meniu">
+        <button id="nav-toggle" class="nav__toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span class="nav__icon" aria-hidden="true"><span></span></span>
+          <span>Meniu</span>
+        </button>
+        <ul id="primary-nav" class="nav__list">
+          <li><a class="nav__link" href="#start">Pradėti</a></li>
+          <li><a class="nav__link" href="#business">Verslas</a></li>
+          <li><a class="nav__link" href="#ecommerce">E-komercija</a></li>
+          <li><a class="nav__link" href="#marketing">Rinkodara</a></li>
+          <li><a class="nav__link" href="#analytics">Duomenų analizė</a></li>
+          <li><a class="nav__link" href="#design">Dizainas</a></li>
+          <li><a class="nav__link" href="#productivity">Produktyvumas</a></li>
+          <li><a class="nav__link" href="#hr">Personalo skyrius</a></li>
+          <li><a class="nav__link" href="#advanced">Pažengusiems ⚡</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-label="Įžanga">
+      <div class="container hero__inner">
+        <!-- Antraštė: aiški nauda -->
+        <h1 class="hero__title">Ne teorija. 100 realių DI užduočių kasdieniam darbui</h1>
+        
+        <!-- Sub-antraštė: kaip / kuo skiriasi -->
+        <p class="hero__subtitle">Kopijuojami promptai, kuriuos gali pritaikyti šiandien</p>
+        
+        <!-- 3 bullet pointai -->
+        <ul class="hero__features">
+          <li>✔ Realios darbo situacijos (pardavimai, HR, analizė)</li>
+          <li>✔ Kopijuojami promptai + aiški struktūra</li>
+          <li>✔ Tinka non-tech ir pažengusiems</li>
+        </ul>
+        
+        <!-- CTA mygtukai -->
+        <div class="hero__cta">
+          <a href="#start" class="btn btn--primary">Peržiūrėti užduotis</a>
+          <a href="#guide" class="btn btn--secondary">Kaip tai veikia? (2 min)</a>
+        </div>
+        
+        <!-- Skaičių blokai su papildoma info -->
+        <div class="hero__stats">
+          <a href="#prompts-container" class="stat stat--clickable">
+            <div class="stat__number">110</div>
+            <div class="stat__label">Praktinės užduotys</div>
+            <div class="stat__hint">~15–30 min vienai užduočiai</div>
+          </a>
+          <a href="#prompts-container" class="stat stat--clickable">
+            <div class="stat__number">9</div>
+            <div class="stat__label">Skyriai</div>
+            <div class="stat__hint">Rodyti temas</div>
+          </a>
+          <div class="stat">
+            <div class="stat__number">100%</div>
+            <div class="stat__label">Paruošta kopijuoti</div>
+            <div class="stat__hint">Nereikia redaguoti</div>
+          </div>
+        </div>
+        
+        <!-- "Kam tai skirta" sekcija -->
+        <div class="hero__audience">
+          <p class="hero__audience-label">Skirta:</p>
+          <div class="hero__audience-icons">
+            <span class="audience-icon" title="Specialistams">💼</span>
+            <span class="audience-icon" title="Vadovams">📊</span>
+            <span class="audience-icon" title="Freelanceriams">🧠</span>
+            <span class="audience-icon" title="Studentams">🛒</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Naudojimo gidas - kompaktiška versija -->
+    <section class="section section--guide" id="guide" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: var(--space-6) var(--space-4);">
+      <div class="container" style="max-width: 800px;">
+        <div style="display: flex; align-items: center; justify-content: center; gap: var(--space-4); flex-wrap: wrap; text-align: center;">
+          <div style="flex: 1; min-width: 120px;">
+            <div style="font-size: 2rem; margin-bottom: var(--space-2);">1️⃣</div>
+            <div style="font-weight: 600; font-size: var(--font-size-sm);">Pasirinkite</div>
+          </div>
+          <div style="width: 2px; height: 2rem; background: rgba(255,255,255,0.3);"></div>
+          <div style="flex: 1; min-width: 120px;">
+            <div style="font-size: 2rem; margin-bottom: var(--space-2);">2️⃣</div>
+            <div style="font-weight: 600; font-size: var(--font-size-sm);">Kopijuokite</div>
+          </div>
+          <div style="width: 2px; height: 2rem; background: rgba(255,255,255,0.3);"></div>
+          <div style="flex: 1; min-width: 120px;">
+            <div style="font-size: 2rem; margin-bottom: var(--space-2);">3️⃣</div>
+            <div style="font-weight: 600; font-size: var(--font-size-sm);">Įklijuokite į AI</div>
+          </div>
+          <div style="width: 2px; height: 2rem; background: rgba(255,255,255,0.3);"></div>
+          <div style="flex: 1; min-width: 120px;">
+            <div style="font-size: 2rem; margin-bottom: var(--space-2);">4️⃣</div>
+            <div style="font-weight: 600; font-size: var(--font-size-sm);">Gaukite rezultatą</div>
+          </div>
+        </div>
+        <p style="margin: var(--space-4) 0 0 0; text-align: center; color: rgba(255,255,255,0.9); font-size: var(--font-size-sm); max-width: 50ch; margin-inline: auto;">
+          💡 <strong>Patarimas:</strong> Pakeiskite [laukus] savo duomenimis prieš siųsdami AI įrankiui
+        </p>
+      </div>
+    </section>
+
+    <!-- Pradėti sekcija -->
+    <section class="section" id="start">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">🚀 Pradėti</h2>
+          <p class="section__subtitle">Greitas startas su populiariausiomis praktinėmis užduotimis</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-4); margin-top: var(--space-6);">
+          <article class="prompt-card" data-keywords="el. laiškas klientas produktas privalumai">
+            <h3 class="prompt-card__title">El. laiškas klientui</h3>
+            <p class="prompt-card__text">Parašyk aiškų, draugišką el. laišką klientui, besidominčiam [produktas]. Paaiškink pagrindinius privalumus ir pasiūlyk tinkamų alternatyvų.</p>
+            <div class="prompt-card__actions">
+              <button class="btn-copy" data-copy="Parašyk aiškų, draugišką el. laišką klientui, besidominčiam [produktas]. Paaiškink pagrindinius privalumus ir pasiūlyk tinkamų alternatyvų.">
+                <span>📋</span> Kopijuoti
+              </button>
+            </div>
+          </article>
+          <article class="prompt-card" data-keywords="seo aprašymas produktas raktažodžiai">
+            <h3 class="prompt-card__title">SEO produkto aprašymas</h3>
+            <p class="prompt-card__text">Parašyk 120 žodžių SEO optimizuotą [produktas] aprašymą su pagrindiniais paieškos terminais.</p>
+            <div class="prompt-card__actions">
+              <button class="btn-copy" data-copy="Parašyk 120 žodžių SEO optimizuotą [produktas] aprašymą su pagrindiniais paieškos terminais.">
+                <span>📋</span> Kopijuoti
+              </button>
+            </div>
+          </article>
+          <article class="prompt-card" data-keywords="ataskaita pardavimai mėnesinis duomenys">
+            <h3 class="prompt-card__title">Mėnesinė ataskaita</h3>
+            <p class="prompt-card__text">Sugeneruok trumpą vadovybės ataskaitą, parodančią mėnesinių pardavimų pokyčius, naudojant šiuos duomenis: [įklijuokite CSV].</p>
+            <div class="prompt-card__actions">
+              <button class="btn-copy" data-copy="Sugeneruok trumpą vadovybės ataskaitą, parodančią mėnesinių pardavimų pokyčius, naudojant šiuos duomenis: [įklijuokite CSV].">
+                <span>📋</span> Kopijuoti
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container container--wide">
+        <div class="section__header">
+          <h2 class="section__title">Peržiūrėkite visas praktines užduotis</h2>
+          <p class="section__subtitle">Ieškokite pagal raktažodį arba naršykite pagal skyrių. Spustelėkite „Kopijuoti", kad užduotis būtų nukopijuota į iškarpinę.</p>
+        </div>
+
+        <!-- User Stats Bar -->
+        <div class="user-stats-bar" id="user-stats-bar">
+          <span id="user-stats">📋 0 kopijos | ⭐ 0 mėgstami</span>
+        </div>
+
+        <div class="search-box">
+          <input 
+            type="search" 
+            id="search-prompts" 
+            class="search-input" 
+            placeholder="🔍 Ieškokite praktinių užduočių pagal raktažodį (pvz., el. laiškas, kaina, PVM)..."
+            aria-label="Ieškoti praktinių užduočių">
+          <div id="search-results" class="search-results" style="display: none;"></div>
+        </div>
+
+        <!-- Quick Access Panel -->
+        <div class="quick-access-panel">
+          <h2>⚡ Greita prieiga</h2>
+          <div class="quick-access-grid">
+            <!-- Recently Used -->
+            <div class="recently-used-section">
+              <h3>🕐 Neseniai naudoti</h3>
+              <div id="recently-used-container">
+                <p class="empty-state">Dar nenaudojote jokių promptų. Pradėkite kopijuodami!</p>
+              </div>
+            </div>
+            
+            <!-- Favorites -->
+            <div class="favorites-section">
+              <h3>⭐ Mėgstami</h3>
+              <div id="favorites-container">
+                <p class="empty-state">Dar neturite mėgstamų promptų. Spustelėkite ☆ norėdami pridėti!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="prompts-container">
+          <!-- Verslas -->
+          <div class="dept dept--sales" id="business" data-dept="business">
+            <div class="dept__header">
+              <div class="dept__icon" aria-hidden="true">💼</div>
+              <h2 class="dept__title">Verslas</h2>
+              <span class="dept__badge">38 užduočių</span>
+            </div>
+            <div style="margin-bottom: var(--space-6); padding: var(--space-4); background: var(--color-bg-alt); border-radius: var(--radius);">
+              <h3 style="font-size: var(--font-size-2); margin: 0 0 var(--space-3) 0; color: var(--color-text);">Pardavimai ir klientų aptarnavimas</h3>
+            </div>
+            <div class="prompts">
+              <!-- Prompt 1 -->
+              <!-- replace: {{PROMPT1_TITLE}} -->
+              <article class="prompt-card" data-keywords="el. laiškas klientas produktas privalumai">
+                <h3 class="prompt-card__title">El. laiškas klientui</h3>
+                <!-- replace: {{PROMPT1_TEXT}} -->
+                <p class="prompt-card__text">Parašyk aiškų, draugišką el. laišką klientui, besidominčiam [produktas]. Paaiškink pagrindinius privalumus ir pasiūlyk tinkamų alternatyvų.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk aiškų, draugišką el. laišką klientui, besidominčiam [produktas]. Paaiškink pagrindinius privalumus ir pasiūlyk tinkamų alternatyvų.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 2 -->
+              <!-- replace: {{PROMPT2_TITLE}} -->
+              <article class="prompt-card" data-keywords="pasiūlymas perrašyti profesionalu">
+                <h3 class="prompt-card__title">Pasiūlymo perrašymas</h3>
+                <!-- replace: {{PROMPT2_TEXT}} -->
+                <p class="prompt-card__text">Perrašyk šį pasiūlymą, kad jis būtų trumpesnis, profesionalesnis ir aiškesnis: [įklijuokite tekstą].</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Perrašyk šį pasiūlymą, kad jis būtų trumpesnis, profesionalesnis ir aiškesnis: [įklijuokite tekstą].">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 3 -->
+              <!-- replace: {{PROMPT3_TITLE}} -->
+              <article class="prompt-card" data-keywords="kaina skaičiavimas antkainis pvm">
+                <h3 class="prompt-card__title">Kainos skaičiavimas</h3>
+                <!-- replace: {{PROMPT3_TEXT}} -->
+                <p class="prompt-card__text">Apskaičiuok galutinę kainą, pritaikyk 15 % antkainį ir 21 % PVM, jei pirkimo kaina yra [x EUR].</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Apskaičiuok galutinę kainą, pritaikyk 15 % antkainį ir 21 % PVM, jei pirkimo kaina yra [x EUR].">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 4 -->
+              <!-- replace: {{PROMPT4_TITLE}} -->
+              <article class="prompt-card" data-keywords="duk klausimai atsakymai">
+                <h3 class="prompt-card__title">DUK kūrimas</h3>
+                <!-- replace: {{PROMPT4_TEXT}} -->
+                <p class="prompt-card__text">Sukurk 5 dažniausiai užduodamų klausimų (DUK) ir atsakymų sąrašą apie [produkto kategorija].</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk 5 dažniausiai užduodamų klausimų (DUK) ir atsakymų sąrašą apie [produkto kategorija].">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 5 -->
+              <!-- replace: {{PROMPT5_TITLE}} -->
+              <article class="prompt-card" data-keywords="konkurentas perėjimas žinutė">
+                <h3 class="prompt-card__title">Žinutė pereinantiems nuo konkurento</h3>
+                <!-- replace: {{PROMPT5_TEXT}} -->
+                <p class="prompt-card__text">Paruošk trumpą žinutę klientui, svarstančiam pereiti nuo konkurento [X] prie mūsų sprendimo.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Paruošk trumpą žinutę klientui, svarstančiam pereiti nuo konkurento [X] prie mūsų sprendimo.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Sales Task 6 -->
+              <article class="prompt-card" data-keywords="pasiūlymas komercinis offer">
+                <div class="prompt-card__badges">
+                  <span class="badge badge--popular">⭐ Populiariausias</span>
+                </div>
+                <h3 class="prompt-card__title">Komercinio pasiūlymo struktūra</h3>
+                <p class="prompt-card__text">Sukurk profesionalaus komercinio pasiūlymo struktūrą [klientas/projektas]. Įtrauk: vykdomoji santrauka, problemos aprašymą, sprendimą, privalumus, kainodarą, įgyvendinimo planą, garantijas, CTA. Optimizuok persvadymui ir greitam sprendimui.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk profesionalaus komercinio pasiūlymo struktūrą [klientas/projektas]. Įtrauk: vykdomoji santrauka, problemos aprašymą, sprendimą, privalumus, kainodarą, įgyvendinimo planą, garantijas, CTA. Optimizuok persvadymui ir greitam sprendimui.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Sales Task 7 -->
+              <article class="prompt-card" data-keywords="kliento susitikimas prezentacija">
+                <h3 class="prompt-card__title">Kliento susitikimo agenda</h3>
+                <p class="prompt-card__text">Sukurk 30 minučių kliento susitikimo agendą [tema]. Įtrauk: įvadinę dalį (5 min), kliento poreikių identifikavimą (10 min), sprendimo pristatymą (10 min), klausimų ir atsakymų (5 min). Pateik klausimų sąrašą ir diskusijos gaires.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk 30 minučių kliento susitikimo agendą [tema]. Įtrauk: įvadinę dalį (5 min), kliento poreikių identifikavimą (10 min), sprendimo pristatymą (10 min), klausimų ir atsakymų (5 min). Pateik klausimų sąrašą ir diskusijos gaires.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Sales Task 8 -->
+              <article class="prompt-card" data-keywords="objekcijos atsakymai prieštaravimai">
+                <h3 class="prompt-card__title">Objekcijų atsakymų gidas</h3>
+                <p class="prompt-card__text">Sukurk objekcijų atsakymų gidą [produktas/paslauga]. Kiekvienai objekcijai (kaina, laikas, patikimumas, konkurentai) pateik: objekcijos supratimą, empatišką atsakymą, sprendimą/alternatyvą, socialinį įrodymą. Naudok natūralią, neagresyvią kalbą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk objekcijų atsakymų gidą [produktas/paslauga]. Kiekvienai objekcijai (kaina, laikas, patikimumas, konkurentai) pateik: objekcijos supratimą, empatišką atsakymą, sprendimą/alternatyvą, socialinį įrodymą. Naudok natūralią, neagresyvią kalbą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+            <div style="margin-top: var(--space-8); margin-bottom: var(--space-6); padding: var(--space-4); background: var(--color-bg-alt); border-radius: var(--radius);">
+              <h3 style="font-size: var(--font-size-2); margin: 0 0 var(--space-3) 0; color: var(--color-text);">Pirkimai ir tiekimas</h3>
+            </div>
+            <div class="prompts">
+              <!-- Prompt 6 -->
+              <!-- replace: {{PROMPT6_TITLE}} -->
+              <article class="prompt-card" data-keywords="tiekėjas palyginimas kaina pristatymas">
+                <h3 class="prompt-card__title">Tiekėjų palyginimas</h3>
+                <!-- replace: {{PROMPT6_TEXT}} -->
+                <p class="prompt-card__text">Sudaryk tiekėjų palyginimo lentelę pagal kainą, pristatymo laiką ir patikimumą, naudodamas šiuos duomenis: [įklijuokite duomenis].</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sudaryk tiekėjų palyginimo lentelę pagal kainą, pristatymo laiką ir patikimumą, naudodamas šiuos duomenis: [įklijuokite duomenis].">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 7 -->
+              <!-- replace: {{PROMPT7_TITLE}} -->
+              <article class="prompt-card" data-keywords="vėlavimas el. laiškas tiekėjas">
+                <h3 class="prompt-card__title">Pranešimas apie vėlavimą</h3>
+                <!-- replace: {{PROMPT7_TEXT}} -->
+                <p class="prompt-card__text">Parašyk formalų el. laišką tiekėjui dėl užsakymo vėlavimo ir paprašyk atnaujinto pristatymo termino.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk formalų el. laišką tiekėjui dėl užsakymo vėlavimo ir paprašyk atnaujinto pristatymo termino.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 8 -->
+              <!-- replace: {{PROMPT8_TITLE}} -->
+              <article class="prompt-card" data-keywords="importas skaičiuoklė pvm muito transportas">
+                <h3 class="prompt-card__title">Importo kainos skaičiuoklė</h3>
+                <!-- replace: {{PROMPT8_TEXT}} -->
+                <p class="prompt-card__text">Sukurk importuojamų prekių skaičiuoklę (prekė + transportas + PVM + muito mokesčiai = galutinė kaina).</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk importuojamų prekių skaičiuoklę (prekė + transportas + PVM + muito mokesčiai = galutinė kaina).">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 8a -->
+              <!-- replace: {{PROMPT8A_TITLE}} -->
+              <article class="prompt-card" data-keywords="rfq pasiūlymo užklausa šablonas konkursas">
+                <h3 class="prompt-card__title">RFQ (pasiūlymo užklausos) šablonas</h3>
+                <!-- replace: {{PROMPT8A_TEXT}} -->
+                <p class="prompt-card__text">Sukurk profesionalią RFQ dėl [Produktas/Komponentas] tiekėjams. Įtrauk: produkto specifikacijas, reikalingą kiekį, pristatymo terminą, kokybės reikalavimus, apmokėjimo sąlygas ir vertinimo kriterijus. Suformatuok kaip verslo el. laišką.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk profesionalią RFQ dėl [Produktas/Komponentas] tiekėjams. Įtrauk: produkto specifikacijas, reikalingą kiekį, pristatymo terminą, kokybės reikalavimus, apmokėjimo sąlygas ir vertinimo kriterijus. Suformatuok kaip verslo el. laišką.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 8b -->
+              <!-- replace: {{PROMPT8B_TITLE}} -->
+              <article class="prompt-card" data-keywords="sutartis tiekėjas derybos sąlygos">
+                <h3 class="prompt-card__title">Tiekėjo sutarties santrauka</h3>
+                <!-- replace: {{PROMPT8B_TEXT}} -->
+                <p class="prompt-card__text">Apibendrink šią tiekėjo sutartį [įklijuokite tekstą], pabrėždamas: pagrindines sąlygas, kainodarą, pristatymo įsipareigojimus, kokybės garantijas, apmokėjimo sąlygas, baudas/paskatinimus ir galimas rizikas ar derybinius punktus.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Apibendrink šią tiekėjo sutartį [įklijuokite tekstą], pabrėždamas: pagrindines sąlygas, kainodarą, pristatymo įsipareigojimus, kokybės garantijas, apmokėjimo sąlygas, baudas/paskatinimus ir galimas rizikas ar derybinius punktus.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 8c -->
+              <!-- replace: {{PROMPT8C_TITLE}} -->
+              <article class="prompt-card" data-keywords="atsargos papildymas inventorius planavimas">
+                <h3 class="prompt-card__title">Atsargų papildymo rekomendacija</h3>
+                <!-- replace: {{PROMPT8C_TEXT}} -->
+                <p class="prompt-card__text">Išanalizuok [produkto kategorija] atsargų lygį ir pasiūlyk papildymo kiekius. Įvertink: esamas atsargas, vidutinį mėnesio pardavimą, pristatymo terminą ([X dienos]), saugos atsargų poreikį ir sezoniškumą. Pateik pirkimų veiksmų sąrašą su prioritetais.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Išanalizuok [produkto kategorija] atsargų lygį ir pasiūlyk papildymo kiekius. Įvertink: esamas atsargas, vidutinį mėnesio pardavimą, pristatymo terminą ([X dienos]), saugos atsargų poreikį ir sezoniškumą. Pateik pirkimų veiksmų sąrašą su prioritetais.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Procurement Task 7 -->
+              <article class="prompt-card" data-keywords="tiekėjo vertinimas kokybė patikimumas">
+                <h3 class="prompt-card__title">Tiekėjo vertinimo sistema</h3>
+                <p class="prompt-card__text">Sukurk tiekėjo vertinimo sistemą [tiekėjas]. Įtrauk: kokybės rodiklius, pristatymo laiką, kainos konkurencingumą, komunikacijos efektyvumą, problemų sprendimą. Kiekvienam rodikliui nurodyk: svorį, vertinimo skalę (1-10), minimalius reikalavimus. Pateik bendrą vertinimą ir rekomendacijas.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk tiekėjo vertinimo sistemą [tiekėjas]. Įtrauk: kokybės rodiklius, pristatymo laiką, kainos konkurencingumą, komunikacijos efektyvumą, problemų sprendimą. Kiekvienam rodikliui nurodyk: svorį, vertinimo skalę (1-10), minimalius reikalavimus. Pateik bendrą vertinimą ir rekomendacijas.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Procurement Task 8 -->
+              <article class="prompt-card" data-keywords="sutartis sąlygos rizika">
+                <h3 class="prompt-card__title">Tiekimo sutarties rizikos analizė</h3>
+                <p class="prompt-card__text">Išanalizuok tiekimo sutarties rizikas [sutartis]. Identifikuok: kainų svyravimo riziką, pristatymo vėlavimų riziką, kokybės riziką, tiekėjo finansinę riziką, jėgos majėjimo riziką. Kiekvienai rizikai pateik: tikimybę, poveikį, mitigaacijos strategijas.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Išanalizuok tiekimo sutarties rizikas [sutartis]. Identifikuok: kainų svyravimo riziką, pristatymo vėlavimų riziką, kokybės riziką, tiekėjo finansinę riziką, jėgos majėjimo riziką. Kiekvienai rizikai pateik: tikimybę, poveikį, mitigaacijos strategijas.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+            <div style="margin-top: var(--space-8); margin-bottom: var(--space-6); padding: var(--space-4); background: var(--color-bg-alt); border-radius: var(--radius);">
+              <h3 style="font-size: var(--font-size-2); margin: 0 0 var(--space-3) 0; color: var(--color-text);">Logistika ir sandėlis</h3>
+            </div>
+            <div class="prompts">
+              <!-- Prompt 9 -->
+              <!-- replace: {{PROMPT9_TITLE}} -->
+              <article class="prompt-card" data-keywords="darbo planas sandėlis prioritetai">
+                <h3 class="prompt-card__title">Dienos užduočių planas</h3>
+                <!-- replace: {{PROMPT9_TEXT}} -->
+                <p class="prompt-card__text">Paruošk paprastą sandėlio komandos dienos užduočių planą pagal prioritetus (užsakymų komplektavimas, priėmimas, inventorius).</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Paruošk paprastą sandėlio komandos dienos užduočių planą pagal prioritetus (užsakymų komplektavimas, priėmimas, inventorius).">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 10 -->
+              <!-- replace: {{PROMPT10_TITLE}} -->
+              <article class="prompt-card" data-keywords="sauga instrukcijos sandėlis">
+                <h3 class="prompt-card__title">Saugos santrauka</h3>
+                <!-- replace: {{PROMPT10_TEXT}} -->
+                <p class="prompt-card__text">Apibendrink pagrindines saugos instrukcijas naujam sandėlio darbuotojui (trumpa versija).</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Apibendrink pagrindines saugos instrukcijas naujam sandėlio darbuotojui (trumpa versija).">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 10a -->
+              <!-- replace: {{PROMPT10A_TITLE}} -->
+              <article class="prompt-card" data-keywords="pakavimas siuntimas instrukcijos pristatymas">
+                <h3 class="prompt-card__title">Pakavimo ir siuntimo instrukcijos</h3>
+                <!-- replace: {{PROMPT10A_TEXT}} -->
+                <p class="prompt-card__text">Sukurk pakavimo ir siuntimo instrukcijas užsakymui [Užsakymo nr.]. Įtrauk: pakuotinas prekes, specialius tvarkymo reikalavimus (trapi, ESD jautri), reikalingas pakavimo medžiagas, vežėjo pasirinkimą ir pristatymo pastabas. Suformatuok kaip sandėlio kontrolinį sąrašą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk pakavimo ir siuntimo instrukcijas užsakymui [Užsakymo nr.]. Įtrauk: pakuotinas prekes, specialius tvarkymo reikalavimus (trapi, ESD jautri), reikalingas pakavimo medžiagas, vežėjo pasirinkimą ir pristatymo pastabas. Suformatuok kaip sandėlio kontrolinį sąrašą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 10b -->
+              <!-- replace: {{PROMPT10B_TITLE}} -->
+              <article class="prompt-card" data-keywords="inventorius auditas atsargos kontrolė">
+                <h3 class="prompt-card__title">Inventoriaus audito ataskaita</h3>
+                <!-- replace: {{PROMPT10B_TEXT}} -->
+                <p class="prompt-card__text">Sugeneruok inventoriaus audito ataskaitą [vieta/kategorija]. Palygink: sistemos kiekius su fiziniu skaičiavimu, nustatyk >5 % neatitikimus, apskaičiuok nuostolių procentą, pasiūlyk galimas priežastis (pažeidimai, vagystės, klaidos) ir rekomenduok koreguojamuosius veiksmus.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sugeneruok inventoriaus audito ataskaitą [vieta/kategorija]. Palygink: sistemos kiekius su fiziniu skaičiavimu, nustatyk >5 % neatitikimus, apskaičiuok nuostolių procentą, pasiūlyk galimas priežastis (pažeidimai, vagystės, klaidos) ir rekomenduok koreguojamuosius veiksmus.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 10c -->
+              <!-- replace: {{PROMPT10C_TITLE}} -->
+              <article class="prompt-card" data-keywords="grąžinimai rma kokybė procesas">
+                <h3 class="prompt-card__title">Grąžinimų (RMA) apdorojimo vadovas</h3>
+                <!-- replace: {{PROMPT10C_TEXT}} -->
+                <p class="prompt-card__text">Parengk grąžinimo apdorojimo procedūrą RMA #[numeris]. Užfiksuok: grąžinimo priežastį, produkto būklės įvertinimą, kokybės kontrolės žingsnius, grąžinimo/keitimo sprendimo kriterijus ir grąžinimo į sandėlį instrukcijas. Įtrauk kliento komunikacijos šabloną.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parengk grąžinimo apdorojimo procedūrą RMA #[numeris]. Užfiksuok: grąžinimo priežastį, produkto būklės įvertinimą, kokybės kontrolės žingsnius, grąžinimo/keitimo sprendimo kriterijus ir grąžinimo į sandėlį instrukcijas. Įtrauk kliento komunikacijos šabloną.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 10d -->
+              <!-- replace: {{PROMPT10D_TITLE}} -->
+              <article class="prompt-card" data-keywords="sandėlis išplanavimas optimizavimas efektyvumas">
+                <h3 class="prompt-card__title">Sandėlio erdvės optimizavimas</h3>
+                <!-- replace: {{PROMPT10D_TEXT}} -->
+                <p class="prompt-card__text">Išanalizuok sandėlio erdvės panaudojimą zonoje [zona/koridorius]. Nustatyk: lėtai judančias prekes, užimančias geriausias vietas, dažnai komplektuojamas prekes toli nuo pakavimo stoties ir švaistomą erdvę. Pateik 5 reorganizacijos rekomendacijas, kad komplektavimo efektyvumas pagerėtų [X] %.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Išanalizuok sandėlio erdvės panaudojimą zonoje [zona/koridorius]. Nustatyk: lėtai judančias prekes, užimančias geriausias vietas, dažnai komplektuojamas prekes toli nuo pakavimo stoties ir švaistomą erdvę. Pateik 5 reorganizacijos rekomendacijas, kad komplektavimo efektyvumas pagerėtų [X] %.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Logistics Task 8 -->
+              <article class="prompt-card" data-keywords="pristatymo maršrutas optimizavimas transportas">
+                <h3 class="prompt-card__title">Pristatymo maršrutų optimizavimas</h3>
+                <p class="prompt-card__text">Sukurk pristatymo maršrutų optimizacijos planą [regionas]. Įvertink: pristatymo adresus, atstumus, laiką, krovinio svorį/tūrį, pristatymo terminus. Pateik: optimalius maršrutus, laiko planą, degalų sąnaudas, pristatymo seką. Optimizuok laikui ir kaštams.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk pristatymo maršrutų optimizacijos planą [regionas]. Įvertink: pristatymo adresus, atstumus, laiką, krovinio svorį/tūrį, pristatymo terminus. Pateik: optimalius maršrutus, laiko planą, degalų sąnaudas, pristatymo seką. Optimizuok laikui ir kaštams.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- E-Commerce / Content Management -->
+          <div class="dept dept--ecommerce" id="ecommerce" data-dept="ecommerce">
+            <div class="dept__header">
+              <div class="dept__icon" aria-hidden="true">🛒</div>
+              <h2 class="dept__title">E-komercija</h2>
+              <span class="dept__badge">13 užduočių</span>
+            </div>
+            <div class="prompts">
+              <!-- Prompt 11 -->
+              <!-- replace: {{PROMPT11_TITLE}} -->
+              <article class="prompt-card" data-keywords="seo aprašymas produktas raktažodžiai">
+                <h3 class="prompt-card__title">SEO produkto aprašymas</h3>
+                <!-- replace: {{PROMPT11_TEXT}} -->
+                <p class="prompt-card__text">Parašyk 120 žodžių SEO optimizuotą [produktas] aprašymą su pagrindiniais paieškos terminais.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk 120 žodžių SEO optimizuotą [produktas] aprašymą su pagrindiniais paieškos terminais.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 12 -->
+              <!-- replace: {{PROMPT12_TITLE}} -->
+              <article class="prompt-card" data-keywords="kategorijos pavadinimai aprašymai">
+                <h3 class="prompt-card__title">Kategorijų pavadinimai</h3>
+                <!-- replace: {{PROMPT12_TEXT}} -->
+                <p class="prompt-card__text">Sugeneruok 10 produktų kategorijų pavadinimų su aiškiais, žmogui suprantamais aprašymais.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sugeneruok 10 produktų kategorijų pavadinimų su aiškiais, žmogui suprantamais aprašymais.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 13 -->
+              <!-- replace: {{PROMPT13_TITLE}} -->
+              <article class="prompt-card" data-keywords="perrašyti aprašymas el parduotuvė">
+                <h3 class="prompt-card__title">E. parduotuvės teksto perrašymas</h3>
+                <!-- replace: {{PROMPT13_TEXT}} -->
+                <p class="prompt-card__text">Perrašyk šį produkto aprašymą, kad jis būtų patrauklesnis el. parduotuvei: [įklijuokite tekstą].</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Perrašyk šį produkto aprašymą, kad jis būtų patrauklesnis el. parduotuvei: [įklijuokite tekstą].">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 13a -->
+              <!-- replace: {{PROMPT13A_TITLE}} -->
+              <article class="prompt-card" data-keywords="produktų palyginimas lentelė specifikacijos">
+                <h3 class="prompt-card__title">Produktų palyginimo lentelė</h3>
+                <!-- replace: {{PROMPT13A_TEXT}} -->
+                <p class="prompt-card__text">Sukurk [Produktas 1] vs [Produktas 2] vs [Produktas 3] palyginimo lentelę. Palygink: pagrindines specifikacijas, kainą, funkcijas, tinkamiausius naudojimo atvejus, privalumus ir trūkumus. Suformatuok kaip HTML lentelę su aiškia vizualine hierarchija. Padėk klientams priimti informuotą sprendimą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk [Produktas 1] vs [Produktas 2] vs [Produktas 3] palyginimo lentelę. Palygink: pagrindines specifikacijas, kainą, funkcijas, tinkamiausius naudojimo atvejus, privalumus ir trūkumus. Suformatuok kaip HTML lentelę su aiškia vizualine hierarchija. Padėk klientams priimti informuotą sprendimą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 13b -->
+              <!-- replace: {{PROMPT13B_TITLE}} -->
+              <article class="prompt-card" data-keywords="meta žymos pavadinimas aprašymas schema">
+                <h3 class="prompt-card__title">Produktų puslapio meta žymos</h3>
+                <!-- replace: {{PROMPT13B_TEXT}} -->
+                <p class="prompt-card__text">Sugeneruok SEO meta žymas [produkto pavadinimas] puslapiui. Pateik: meta pavadinimą (iki 60 simbolių), meta aprašymą (iki 155 simbolių), Open Graph žymas ir JSON-LD produkto schemą su kaina, prieinamumu, įvertinimais. Įtrauk tikslinius raktažodžius: [raktažodžių sąrašas].</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sugeneruok SEO meta žymas [produkto pavadinimas] puslapiui. Pateik: meta pavadinimą (iki 60 simbolių), meta aprašymą (iki 155 simbolių), Open Graph žymas ir JSON-LD produkto schemą su kaina, prieinamumu, įvertinimais. Įtrauk tikslinius raktažodžius: [raktažodžių sąrašas].">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 13c -->
+              <!-- replace: {{PROMPT13C_TITLE}} -->
+              <article class="prompt-card" data-keywords="baneris akcija kampanija titulinis">
+                <h3 class="prompt-card__title">Banerio tekstas akcijoms</h3>
+                <!-- replace: {{PROMPT13C_TEXT}} -->
+                <p class="prompt-card__text">Parašyk įtaigų banerio tekstą kampanijai [Akcija/Pardavimas]. Sukurk 3 versijas: 1) Trumpa antraštė + CTA mygtukas (5–7 žodžiai), 2) Vidutinio ilgio tekstas su nauda (15–20 žodžių), 3) Skubos jausmą kuriantis tekstas su terminu. Pateik A/B testų rekomendacijas.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk įtaigų banerio tekstą kampanijai [Akcija/Pardavimas]. Sukurk 3 versijas: 1) Trumpa antraštė + CTA mygtukas (5–7 žodžiai), 2) Vidutinio ilgio tekstas su nauda (15–20 žodžių), 3) Skubos jausmą kuriantis tekstas su terminu. Pateik A/B testų rekomendacijas.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 13d -->
+              <!-- replace: {{PROMPT13D_TITLE}} -->
+              <article class="prompt-card" data-keywords="el. laiškas apleistas krepšelis konversija">
+                <h3 class="prompt-card__title">Apleisto krepšelio el. laiškų serija</h3>
+                <!-- replace: {{PROMPT13D_TEXT}} -->
+                <p class="prompt-card__text">Sukurk 3 el. laiškų seką apleistam krepšeliui. 1 el. laiškas (po 1 val.): draugiškas priminimas + produktų nuotraukos. 2 el. laiškas (po 24 val.): pridėk socialinį įrodymą ir skubos elementą. 3 el. laiškas (po 48 val.): paskutinė galimybė su nedidele nuolaida. Išlaikyk draugišką, neįkyrų toną.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk 3 el. laiškų seką apleistam krepšeliui. 1 el. laiškas (po 1 val.): draugiškas priminimas + produktų nuotraukos. 2 el. laiškas (po 24 val.): pridėk socialinį įrodymą ir skubos elementą. 3 el. laiškas (po 48 val.): paskutinė galimybė su nedidele nuolaida. Išlaikyk draugišką, neįkyrų toną.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- E-commerce Task 9 -->
+              <article class="prompt-card" data-keywords="produkto recenzija atsiliepimas SEO">
+                <h3 class="prompt-card__title">Produkto recenzijų analizė ir atsakymai</h3>
+                <p class="prompt-card__text">Išanalizuok [produkto] recenzijas [įklijuokite recenzijas] ir: identifikuok pagrindines temas (teigiamas/neigiamas), sukurk profesionalius atsakymus kiekvienam klausimui ar nusiskundimui, pasiūlyk produkto patobulinimus, sukurk DUK sekciją pagal dažniausius klausimus.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Išanalizuok [produkto] recenzijas [įklijuokite recenzijas] ir: identifikuok pagrindines temas (teigiamas/neigiamas), sukurk profesionalius atsakymus kiekvienam klausimui ar nusiskundimui, pasiūlyk produkto patobulinimus, sukurk DUK sekciją pagal dažniausius klausimus.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- E-commerce Task 10 -->
+              <article class="prompt-card" data-keywords="kainodara strategija konkurencija">
+                <h3 class="prompt-card__title">E-komercijos kainodaros strategija</h3>
+                <p class="prompt-card__text">Sukurk [produkto kategorijos] kainodaros strategiją. Įvertink: konkurentų kainas, produkto vertę, tikslinę auditoriją, pelno maržas. Pasiūlyk: pagrindinę kainą, nuolaidų strategiją, bundle kainas, sezonines kainas. Pateik rekomendacijas su pagrindimu.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk [produkto kategorijos] kainodaros strategiją. Įvertink: konkurentų kainas, produkto vertę, tikslinę auditoriją, pelno maržas. Pasiūlyk: pagrindinę kainą, nuolaidų strategiją, bundle kainas, sezonines kainas. Pateik rekomendacijas su pagrindimu.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- E-commerce Task 11 -->
+              <article class="prompt-card" data-keywords="produkto kategorijos struktūra navigacija">
+                <h3 class="prompt-card__title">Produkto kategorijų hierarchijos planas</h3>
+                <p class="prompt-card__text">Sukurk produkto kategorijų hierarchiją [e-parduotuvei]. Struktūra: 3-4 pagrindinės kategorijos, po 3-5 subkategorijas kiekvienoje, produkto filtravimo kriterijus (kaina, brand, specifikacijos). Optimizuok naudotojo patirčiai ir SEO.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk produkto kategorijų hierarchiją [e-parduotuvei]. Struktūra: 3-4 pagrindinės kategorijos, po 3-5 subkategorijas kiekvienoje, produkto filtravimo kriterijus (kaina, brand, specifikacijos). Optimizuok naudotojo patirčiai ir SEO.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- E-commerce Task 12 -->
+              <article class="prompt-card" data-keywords="konversijos optimizacija CRO puslapis">
+                <h3 class="prompt-card__title">Produkto puslapio konversijos optimizacija</h3>
+                <p class="prompt-card__text">Sukurk produkto puslapio optimizacijos planą [produktas]. Įtrauk: hero sekcijos patobulinimus, produkto aprašymo struktūrą, vaizdų strategiją, socialinio įrodymo elementus, CTA optimizaciją, trust signals, mobile optimizaciją. Pateik prioritetus ir tikėtiną poveikį.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk produkto puslapio optimizacijos planą [produktas]. Įtrauk: hero sekcijos patobulinimus, produkto aprašymo struktūrą, vaizdų strategiją, socialinio įrodymo elementus, CTA optimizaciją, trust signals, mobile optimizaciją. Pateik prioritetus ir tikėtiną poveikį.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- E-commerce Task 13 -->
+              <article class="prompt-card" data-keywords="pristatymo strategija shipping aprašymas">
+                <h3 class="prompt-card__title">Pristatymo strategijos aprašymas</h3>
+                <p class="prompt-card__text">Sukurk aiškų pristatymo strategijos aprašymą [e-parduotuvei]. Įtrauk: pristatymo būdus ir kainas, pristatymo terminus, tarptautinio pristatymo galimybes, nemokamo pristatymo sąlygas, grąžinimo politiką. Suformatuok kaip puslapį, kurį klientai lengvai supras.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk aiškų pristatymo strategijos aprašymą [e-parduotuvei]. Įtrauk: pristatymo būdus ir kainas, pristatymo terminus, tarptautinio pristatymo galimybes, nemokamo pristatymo sąlygas, grąžinimo politiką. Suformatuok kaip puslapį, kurį klientai lengvai supras.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Design / Visual Content -->
+          <div class="dept dept--design" id="design" data-dept="design">
+            <div class="dept__header">
+              <div class="dept__icon" aria-hidden="true">🎨</div>
+              <h2 class="dept__title">Dizainas</h2>
+              <span class="dept__badge">8 užduočių</span>
+            </div>
+            <div class="prompts">
+              <!-- Design Task 1 -->
+              <article class="prompt-card" data-keywords="logo dizainas prekės ženklas brand identitetas">
+                <h3 class="prompt-card__title">Logo dizaino koncepcija</h3>
+                <p class="prompt-card__text">Sukurk 5 logo dizaino koncepcijas [įmonės/produkto pavadinimas]. Aprašyk kiekvieną variantą: spalvų paletę, tipografiją, simboliką, pritaikymą skirtingoms medijoms (spausdintinė, skaitmeninė, socialinė). Pateik aiškų aprašymą, kurį dizaineris galėtų naudoti kaip pagrindą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk 5 logo dizaino koncepcijas [įmonės/produkto pavadinimas]. Aprašyk kiekvieną variantą: spalvų paletę, tipografiją, simboliką, pritaikymą skirtingoms medijoms (spausdintinė, skaitmeninė, socialinė). Pateik aiškų aprašymą, kurį dizaineris galėtų naudoti kaip pagrindą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Design Task 2 -->
+              <article class="prompt-card" data-keywords="spalvų paletė brand spalvos psichologija">
+                <h3 class="prompt-card__title">Spalvų paletės rekomendacija</h3>
+                <p class="prompt-card__text">Pasiūlyk spalvų paletę [projekto/įmonės] tipui. Įtrauk: pagrindinę spalvą (hex kodas), antrines spalvas, akcentines spalvas, neutralias spalvas. Paaiškink psichologinį poveikį kiekvienos spalvos ir kaip jos veikia kartu. Pateik pavyzdžius, kur naudoti kiekvieną spalvą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Pasiūlyk spalvų paletę [projekto/įmonės] tipui. Įtrauk: pagrindinę spalvą (hex kodas), antrines spalvas, akcentines spalvas, neutralias spalvas. Paaiškink psichologinį poveikį kiekvienos spalvos ir kaip jos veikia kartu. Pateik pavyzdžius, kur naudoti kiekvieną spalvą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Design Task 3 -->
+              <article class="prompt-card" data-keywords="socialinės medijos grafinis dizainas postas instagram facebook">
+                <h3 class="prompt-card__title">Socialinės medijos grafinių elementų aprašymas</h3>
+                <p class="prompt-card__text">Sukurk detalių aprašymą 10 socialinės medijos grafinių elementų [tema/kampanija]. Kiekvienam elementui nurodyk: dydį, kompoziciją, spalvas, tipografiją, vaizdus/ikonas, tekstą ir CTA. Optimizuok Instagram, Facebook, LinkedIn formatams.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk detalių aprašymą 10 socialinės medijos grafinių elementų [tema/kampanija]. Kiekvienam elementui nurodyk: dydį, kompoziciją, spalvas, tipografiją, vaizdus/ikonas, tekstą ir CTA. Optimizuok Instagram, Facebook, LinkedIn formatams.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Design Task 4 -->
+              <article class="prompt-card" data-keywords="prezentacijos šablonas slide dizainas powerpoint">
+                <h3 class="prompt-card__title">Prezentacijos šablono struktūra</h3>
+                <p class="prompt-card__text">Sukurk profesionalaus [tema] prezentacijos šablono struktūrą. Aprašyk: titulinį skaidrės dizainą, turinio skaidres (3-4 tipai), duomenų vizualizacijos skaidres, užbaigimo skaidrę. Kiekvienai skaidrei nurodyk: layout'ą, spalvas, tipografiją, vietas vaizdams/grafikoms.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk profesionalaus [tema] prezentacijos šablono struktūrą. Aprašyk: titulinį skaidrės dizainą, turinio skaidres (3-4 tipai), duomenų vizualizacijos skaidres, užbaigimo skaidrę. Kiekvienai skaidrei nurodyk: layout'ą, spalvas, tipografiją, vietas vaizdams/grafikoms.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Design Task 5 -->
+              <article class="prompt-card" data-keywords="produkto pakuotės dizainas etiketė aprašymas">
+                <h3 class="prompt-card__title">Produkto pakuotės dizaino specifikacija</h3>
+                <p class="prompt-card__text">Sukurk detalų produkto pakuotės dizaino specifikaciją [produktas]. Įtrauk: pakuotės dydį ir formą, spalvų schemą, logo ir prekės ženklo išdėstymą, produkto informacijos struktūrą, būtinus tekstus ir simbolius, medžiagų rekomendacijas. Optimizuok atpažinimui prekybos vietoje.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk detalų produkto pakuotės dizaino specifikaciją [produktas]. Įtrauk: pakuotės dydį ir formą, spalvų schemą, logo ir prekės ženklo išdėstymą, produkto informacijos struktūrą, būtinus tekstus ir simbolius, medžiagų rekomendacijas. Optimizuok atpažinimui prekybos vietoje.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Design Task 6 -->
+              <article class="prompt-card" data-keywords="web dizainas UI UX wireframe">
+                <h3 class="prompt-card__title">Web puslapio wireframe aprašymas</h3>
+                <p class="prompt-card__text">Sukurk detalų web puslapio wireframe aprašymą [puslapio tipas: pvz., pagrindinis, produkto, kontaktų]. Aprašyk: header'io struktūrą, navigaciją, hero sekciją, turinio blokus, footer'į. Kiekvienam elementui nurodyk: dydį, poziciją, funkcionalumą, prioritetą. Optimizuok mobile-first prieigai.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk detalų web puslapio wireframe aprašymą [puslapio tipas: pvz., pagrindinis, produkto, kontaktų]. Aprašyk: header'io struktūrą, navigaciją, hero sekciją, turinio blokus, footer'į. Kiekvienam elementui nurodyk: dydį, poziciją, funkcionalumą, prioritetą. Optimizuok mobile-first prieigai.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Design Task 7 -->
+              <article class="prompt-card" data-keywords="infografika duomenų vizualizacija diagrama">
+                <h3 class="prompt-card__title">Infografikos struktūros planas</h3>
+                <p class="prompt-card__text">Sukurk infografikos struktūros planą [tema/duomenys]. Aprašyk: layout'ą, duomenų vizualizacijos tipus (grafikai, diagramos, ikonos), spalvų kodavimą, teksto hierarchiją, srautą (nuo viršaus į apačią). Pateik aiškų aprašymą, kurį dizaineris galėtų naudoti kaip pagrindą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk infografikos struktūros planą [tema/duomenys]. Aprašyk: layout'ą, duomenų vizualizacijos tipus (grafikai, diagramos, ikonos), spalvų kodavimą, teksto hierarchiją, srautą (nuo viršaus į apačią). Pateik aiškų aprašymą, kurį dizaineris galėtų naudoti kaip pagrindą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Design Task 8 -->
+              <article class="prompt-card" data-keywords="email dizainas šablonas newsletter">
+                <h3 class="prompt-card__title">El. laiško dizaino šablono specifikacija</h3>
+                <p class="prompt-card__text">Sukurk el. laiško dizaino šablono specifikaciją [tipo: pvz., naujienlaiškis, kampanija, transakcinis]. Aprašyk: header'io dizainą, turinio blokus, CTA mygtukus, footer'į. Nurodyk: spalvas, tipografiją, tarpus, responsive breakpoints, email klientų suderinamumą. Optimizuok skaitomumui ir veiksmų skatinimui.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk el. laiško dizaino šablono specifikaciją [tipo: pvz., naujienlaiškis, kampanija, transakcinis]. Aprašyk: header'io dizainą, turinio blokus, CTA mygtukus, footer'į. Nurodyk: spalvas, tipografiją, tarpus, responsive breakpoints, email klientų suderinamumą. Optimizuok skaitomumui ir veiksmų skatinimui.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Data Analytics -->
+          <div class="dept dept--analytics" id="analytics" data-dept="analytics">
+            <div class="dept__header">
+              <div class="dept__icon" aria-hidden="true">📊</div>
+              <h2 class="dept__title">Duomenų analizė</h2>
+              <span class="dept__badge">8 užduočių</span>
+            </div>
+            <div class="prompts">
+              <!-- Analytics Task 1 -->
+              <article class="prompt-card" data-keywords="duomenų analizė excel ataskaita tendencijos">
+                <h3 class="prompt-card__title">Pardavimų duomenų analizė</h3>
+                <p class="prompt-card__text">Išanalizuok šiuos pardavimų duomenis [įklijuokite CSV arba Excel duomenis] ir pateik: mėnesio/ketvirčio palyginimą, top 10 produktų, geografinį pasiskirstymą, klientų segmentaciją, tendencijas ir prognozes. Pateik rekomendacijas, kaip pagerinti rezultatus.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Išanalizuok šiuos pardavimų duomenis [įklijuokite CSV arba Excel duomenis] ir pateik: mėnesio/ketvirčio palyginimą, top 10 produktų, geografinį pasiskirstymą, klientų segmentaciją, tendencijas ir prognozes. Pateik rekomendacijas, kaip pagerinti rezultatus.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Analytics Task 2 -->
+              <article class="prompt-card" data-keywords="KPI dashboard rodikliai metrika">
+                <h3 class="prompt-card__title">KPI dashboard struktūra</h3>
+                <p class="prompt-card__text">Sukurk KPI dashboard struktūrą [skyrius/projektas]. Apibrėžk: 8-10 pagrindinių rodiklių, kiekvieno rodiklio skaičiavimo formulę, duomenų šaltinius, atnaujinimo dažnį, vizualizacijos tipą (grafikas, skaičius, indikatorius). Pateik aiškų aprašymą, kurį galima naudoti Excel, Power BI ar Tableau.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk KPI dashboard struktūrą [skyrius/projektas]. Apibrėžk: 8-10 pagrindinių rodiklių, kiekvieno rodiklio skaičiavimo formulę, duomenų šaltinius, atnaujinimo dažnį, vizualizacijos tipą (grafikas, skaičius, indikatorius). Pateik aiškų aprašymą, kurį galima naudoti Excel, Power BI ar Tableau.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Analytics Task 3 -->
+              <article class="prompt-card" data-keywords="web analitika google analytics ataskaita">
+                <h3 class="prompt-card__title">Web analitikos ataskaita</h3>
+                <p class="prompt-card__text">Sukurk mėnesio web analitikos ataskaitą [svetainė]. Įtrauk: lankytojų skaičių ir unikalius lankytojus, sesijų trukmę, atspirties rodiklį, top puslapius, šaltinius, įrenginius, geografiją. Pateik įžvalgas ir rekomendacijas, kaip pagerinti veiksmus.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk mėnesio web analitikos ataskaitą [svetainė]. Įtrauk: lankytojų skaičių ir unikalius lankytojus, sesijų trukmę, atspirties rodiklį, top puslapius, šaltinius, įrenginius, geografiją. Pateik įžvalgas ir rekomendacijas, kaip pagerinti veiksmus.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Analytics Task 4 -->
+              <article class="prompt-card" data-keywords="klientų segmentacija RFM analizė">
+                <h3 class="prompt-card__title">Klientų segmentacijos analizė</h3>
+                <p class="prompt-card__text">Atlik RFM (Recency, Frequency, Monetary) klientų segmentacijos analizę naudojant [duomenys]. Identifikuok: VIP klientus, lojalius klientus, potencialius klientus, rizikuojančius klientus. Kiekvienam segmentui pateik: charakteristikas, dydį, rekomenduojamas rinkodaros strategijas.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Atlik RFM (Recency, Frequency, Monetary) klientų segmentacijos analizę naudojant [duomenys]. Identifikuok: VIP klientus, lojalius klientus, potencialius klientus, rizikuojančius klientus. Kiekvienam segmentui pateik: charakteristikas, dydį, rekomenduojamas rinkodaros strategijas.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Analytics Task 5 -->
+              <article class="prompt-card" data-keywords="prognozavimas trend analizė forecast">
+                <h3 class="prompt-card__title">Pardavimų prognozė</h3>
+                <p class="prompt-card__text">Sukurk [laikotarpis: pvz., 3 mėnesių, 6 mėnesių] pardavimų prognozę remiantis istoriniais duomenimis [įklijuokite duomenis]. Įtrauk: sezoniškumo analizę, tendencijų identifikavimą, optimistinį/pesimistinį/realistinį scenarijų, rizikos veiksnius ir rekomendacijas.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk [laikotarpis: pvz., 3 mėnesių, 6 mėnesių] pardavimų prognozę remiantis istoriniais duomenimis [įklijuokite duomenis]. Įtrauk: sezoniškumo analizę, tendencijų identifikavimą, optimistinį/pesimistinį/realistinį scenarijų, rizikos veiksnius ir rekomendacijas.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Analytics Task 6 -->
+              <article class="prompt-card" data-keywords="A/B testas eksperimentas rezultatai">
+                <h3 class="prompt-card__title">A/B testo rezultatų analizė</h3>
+                <p class="prompt-card__text">Išanalizuok A/B testo rezultatus [įklijuokite duomenis: variantas A vs variantas B]. Įtrauk: konversijos rodiklius, statistinį reikšmingumą, pasitikėjimo intervalus, įžvalgas apie priežastis ir rekomendacijas, kurį variantą naudoti ir kodėl.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Išanalizuok A/B testo rezultatus [įklijuokite duomenis: variantas A vs variantas B]. Įtrauk: konversijos rodiklius, statistinį reikšmingumą, pasitikėjimo intervalus, įžvalgas apie priežastis ir rekomendacijas, kurį variantą naudoti ir kodėl.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Analytics Task 7 -->
+              <article class="prompt-card" data-keywords="duomenų valymas data cleaning kokybė">
+                <h3 class="prompt-card__title">Duomenų kokybės auditas</h3>
+                <p class="prompt-card__text">Atlik duomenų kokybės auditą [duomenų rinkinys]. Identifikuok: trūkstamus duomenis, dublikatus, neteisingus formatus, išskirtis (outliers), neatitikimus. Pateik: problemų apžvalgą, poveikio įvertinimą, prioritetus ir rekomendacijas, kaip išvalyti duomenis.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Atlik duomenų kokybės auditą [duomenų rinkinys]. Identifikuok: trūkstamus duomenis, dublikatus, neteisingus formatus, išskirtis (outliers), neatitikimus. Pateik: problemų apžvalgą, poveikio įvertinimą, prioritetus ir rekomendacijas, kaip išvalyti duomenis.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Analytics Task 8 -->
+              <article class="prompt-card" data-keywords="ataskaita vadovybei executive summary">
+                <h3 class="prompt-card__title">Vadovybei skirta duomenų ataskaita</h3>
+                <p class="prompt-card__text">Sukurk vadovybei skirtą [laikotarpis] duomenų ataskaitą [tema]. Struktūra: vykdomoji santrauka (3-5 punktai), pagrindiniai rodikliai su palyginimais, įžvalgos, rizikos ir galimybės, rekomenduojami veiksmai. Naudok aiškią kalbą, vizualizacijas ir konkrečius skaičius.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk vadovybei skirtą [laikotarpis] duomenų ataskaitą [tema]. Struktūra: vykdomoji santrauka (3-5 punktai), pagrindiniai rodikliai su palyginimais, įžvalgos, rizikos ir galimybės, rekomenduojami veiksmai. Naudok aiškią kalbą, vizualizacijas ir konkrečius skaičius.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Marketing / Communication -->
+          <div class="dept dept--marketing" id="marketing" data-dept="marketing">
+            <div class="dept__header">
+              <div class="dept__icon" aria-hidden="true">📢</div>
+              <h2 class="dept__title">Rinkodara</h2>
+              <span class="dept__badge">7 užduočių</span>
+            </div>
+            <div class="prompts">
+              <!-- Prompt 14 -->
+              <!-- replace: {{PROMPT14_TITLE}} -->
+              <article class="prompt-card" data-keywords="naujienlaiškis akcija nuolaida">
+                <h3 class="prompt-card__title">Naujienlaiškio tekstas</h3>
+                <!-- replace: {{PROMPT14_TEXT}} -->
+                <p class="prompt-card__text">Parašyk naujienlaiškio tekstą apie akciją: -20 % visiems matavimo prietaisams iki sekmadienio.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk naujienlaiškio tekstą apie akciją: -20 % visiems matavimo prietaisams iki sekmadienio.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 15 -->
+              <!-- replace: {{PROMPT15_TITLE}} -->
+              <article class="prompt-card" data-keywords="facebook įrašas socialiniai tinklai arduino">
+                <h3 class="prompt-card__title">Facebook įrašų idėjos</h3>
+                <!-- replace: {{PROMPT15_TEXT}} -->
+                <p class="prompt-card__text">Sugeneruok 5 Facebook įrašų idėjas apie naujus Arduino produktus, kiekvieną su aiškiu kvietimu veikti.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sugeneruok 5 Facebook įrašų idėjas apie naujus Arduino produktus, kiekvieną su aiškiu kvietimu veikti.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 16 -->
+              <!-- replace: {{PROMPT16_TITLE}} -->
+              <article class="prompt-card" data-keywords="katalogas įžanga profesionalu">
+                <h3 class="prompt-card__title">Katalogo įžanga</h3>
+                <!-- replace: {{PROMPT16_TEXT}} -->
+                <p class="prompt-card__text">Parašyk 120 žodžių profesionalią ir aiškią produkto katalogo įžangą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk 120 žodžių profesionalią ir aiškią produkto katalogo įžangą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 16a -->
+              <!-- replace: {{PROMPT16A_TITLE}} -->
+              <article class="prompt-card" data-keywords="pranešimas spaudai pranešimas žiniasklaidai">
+                <h3 class="prompt-card__title">Pranešimo spaudai juodraštis</h3>
+                <!-- replace: {{PROMPT16A_TEXT}} -->
+                <p class="prompt-card__text">Parašyk pranešimo spaudai juodraštį apie [Įmonės naujiena/Produkto pristatymas]. Struktūra: antraštė, data ir vieta, įvadinis paragrafas (kas/ką/kada/kur/kodėl), pagrindinė dalis su citatomis, įmonės aprašas ir kontaktinė informacija. Tona: naujieninė, faktinė, profesionali. Tikslas: pramonės žiniasklaida.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk pranešimo spaudai juodraštį apie [Įmonės naujiena/Produkto pristatymas]. Struktūra: antraštė, data ir vieta, įvadinis paragrafas (kas/ką/kada/kur/kodėl), pagrindinė dalis su citatomis, įmonės aprašas ir kontaktinė informacija. Tona: naujieninė, faktinė, profesionali. Tikslas: pramonės žiniasklaida.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 16b -->
+              <!-- replace: {{PROMPT16B_TITLE}} -->
+              <article class="prompt-card" data-keywords="linkedin įrašas b2b profesionalu lyderystė">
+                <h3 class="prompt-card__title">LinkedIn įrašų serija</h3>
+                <!-- replace: {{PROMPT16B_TEXT}} -->
+                <p class="prompt-card__text">Sukurk 5 LinkedIn įrašus apie [tema/pramonės tendencija] B2B auditorijai. Sumaišyk formatus: 1) klausimas/apklausa, 2) trumpas patarimas karuselės struktūrai, 3) asmeninė istorija ar atvejo analizė, 4) pramonės įžvalga ar duomenys, 5) instrukcija „kaip tai padaryti“. Įtrauk grotažymių strategiją ir publikavimo grafiką.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk 5 LinkedIn įrašus apie [tema/pramonės tendencija] B2B auditorijai. Sumaišyk formatus: 1) klausimas/apklausa, 2) trumpas patarimas karuselės struktūrai, 3) asmeninė istorija ar atvejo analizė, 4) pramonės įžvalga ar duomenys, 5) instrukcija „kaip tai padaryti“. Įtrauk grotažymių strategiją ir publikavimo grafiką.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 16c -->
+              <!-- replace: {{PROMPT16C_TITLE}} -->
+              <article class="prompt-card" data-keywords="video scenarijus youtube pamoka paaiškinimas">
+                <h3 class="prompt-card__title">Produkto vaizdo įrašo scenarijus</h3>
+                <!-- replace: {{PROMPT16C_TEXT}} -->
+                <p class="prompt-card__text">Parašyk 90 sekundžių produkto vaizdo įrašo scenarijų [produktas]. Įtrauk: kablį (pirmos 5 sek.), problemos pristatymą, sprendimo demonstraciją, pagrindines funkcijas (iki 3), naudą, socialinį įrodymą ir CTA. Suformatuok su laiko žymomis, įgarsinimo tekstu ir vaizdinėmis pastabomis. Tikslas: YouTube ir socialiniai tinklai.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk 90 sekundžių produkto vaizdo įrašo scenarijų [produktas]. Įtrauk: kablį (pirmos 5 sek.), problemos pristatymą, sprendimo demonstraciją, pagrindines funkcijas (iki 3), naudą, socialinį įrodymą ir CTA. Suformatuok su laiko žymomis, įgarsinimo tekstu ir vaizdinėmis pastabomis. Tikslas: YouTube ir socialiniai tinklai.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 16d -->
+              <!-- replace: {{PROMPT16D_TITLE}} -->
+              <article class="prompt-card" data-keywords="kliento sėkmės istorija atvejo analizė atsiliepimas">
+                <h3 class="prompt-card__title">Kliento sėkmės istorija</h3>
+                <!-- replace: {{PROMPT16D_TEXT}} -->
+                <p class="prompt-card__text">Parašyk įtaigią kliento sėkmės istoriją apie [kliento vardas]. Struktūra: kliento veiklos aprašymas, su kokiu iššūkiu susidūrė, įdiegtas sprendimas, pasiekti rezultatai (su rodikliais), kliento citata ir išmoktos pamokos. Apimtis: 500–700 žodžių. Tonas: įkvepiantis, bet faktinis, dėmesys išmatuojamiems rezultatams.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk įtaigią kliento sėkmės istoriją apie [kliento vardas]. Struktūra: kliento veiklos aprašymas, su kokiu iššūkiu susidūrė, įdiegtas sprendimas, pasiekti rezultatai (su rodikliais), kliento citata ir išmoktos pamokos. Apimtis: 500–700 žodžių. Tonas: įkvepiantis, bet faktinis, dėmesys išmatuojamiems rezultatams.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Marketing Task 7 -->
+              <article class="prompt-card" data-keywords="email marketing kampanija segmentacija">
+                <h3 class="prompt-card__title">El. pašto rinkodaros kampanijos planas</h3>
+                <p class="prompt-card__text">Sukurk [laikotarpis] el. pašto rinkodaros kampanijos planą [tema]. Įtrauk: kampanijos tikslus, auditorijos segmentaciją, el. laiškų temas ir grafiką, personalizacijos strategiją, A/B testus, sėkmės rodiklius. Optimizuok atidarymo ir konversijos rodikliams.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk [laikotarpis] el. pašto rinkodaros kampanijos planą [tema]. Įtrauk: kampanijos tikslus, auditorijos segmentaciją, el. laiškų temas ir grafiką, personalizacijos strategiją, A/B testus, sėkmės rodiklius. Optimizuok atidarymo ir konversijos rodikliams.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+            <div style="margin-top: var(--space-8); margin-bottom: var(--space-6); padding: var(--space-4); background: var(--color-bg-alt); border-radius: var(--radius);">
+              <h3 style="font-size: var(--font-size-2); margin: 0 0 var(--space-3) 0; color: var(--color-text);">IT ir sistemos</h3>
+            </div>
+            <div class="prompts">
+              <!-- Prompt 17 -->
+              <!-- replace: {{PROMPT17_TITLE}} -->
+              <article class="prompt-card" data-keywords="erp klaida taisymas trikčių šalinimas">
+                <h3 class="prompt-card__title">ERP klaidos pagalba</h3>
+                <!-- replace: {{PROMPT17_TEXT}} -->
+                <p class="prompt-card__text">Paaiškink paprastai, kaip vartotojas gali ištaisyti šią ERP prisijungimo klaidą: [klaidos pranešimas].</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Paaiškink paprastai, kaip vartotojas gali ištaisyti šią ERP prisijungimo klaidą: [klaidos pranešimas].">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 18 -->
+              <!-- replace: {{PROMPT18_TITLE}} -->
+              <article class="prompt-card" data-keywords="duomenų importas csv instrukcija">
+                <h3 class="prompt-card__title">Duomenų importo instrukcija</h3>
+                <!-- replace: {{PROMPT18_TEXT}} -->
+                <p class="prompt-card__text">Sukurk žingsnis po žingsnio instrukciją, kaip importuoti produktų duomenis iš CSV į mūsų sistemą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk žingsnis po žingsnio instrukciją, kaip importuoti produktų duomenis iš CSV į mūsų sistemą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 18a -->
+              <!-- replace: {{PROMPT18A_TITLE}} -->
+              <article class="prompt-card" data-keywords="slaptažodžio atstatymas paskyra saugumas pagalba">
+                <h3 class="prompt-card__title">IT pagalbos atsakymo šablonas</h3>
+                <!-- replace: {{PROMPT18A_TEXT}} -->
+                <p class="prompt-card__text">Sukurk pagalbos skyriaus atsakymo šabloną [dažna IT problema: slaptažodžio atstatymas/el. pašto prieiga/VPN prisijungimas]. Įtrauk: pasisveikinimą, problemos patvirtinimą, numeruotus trikčių šalinimo veiksmus, numatomą sprendimo laiką, eskalavimo kelią, jei neišspręsta, ir pabaigą su bilieto numeriu.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk pagalbos skyriaus atsakymo šabloną [dažna IT problema: slaptažodžio atstatymas/el. pašto prieiga/VPN prisijungimas]. Įtrauk: pasisveikinimą, problemos patvirtinimą, numeruotus trikčių šalinimo veiksmus, numatomą sprendimo laiką, eskalavimo kelią, jei neišspręsta, ir pabaigą su bilieto numeriu.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 18b -->
+              <!-- replace: {{PROMPT18B_TITLE}} -->
+              <article class="prompt-card" data-keywords="atsarginės kopijos atkūrimas planas duomenų apsauga">
+                <h3 class="prompt-card__title">Atsarginių kopijų ir atkūrimo planas</h3>
+                <!-- replace: {{PROMPT18B_TEXT}} -->
+                <p class="prompt-card__text">Parengk atsarginių kopijų ir atkūrimo procedūrą [sistemai/duomenų bazei]. Nustatyk: kopijų darymo dažnumą (kasdien/ kas savaitę), tipą (pilna/inkrementinė), saugojimo vietą (vietoje/debesis), saugojimo politiką, atkūrimo laiką (RTO), atkūrimo taško tikslą (RPO) ir testavimo grafiką.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parengk atsarginių kopijų ir atkūrimo procedūrą [sistemai/duomenų bazei]. Nustatyk: kopijų darymo dažnumą (kasdien/kas savaitę), tipą (pilna/inkrementinė), saugojimo vietą (vietoje/debesis), saugojimo politiką, atkūrimo laiką (RTO), atkūrimo taško tikslą (RPO) ir testavimo grafiką.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 18c -->
+              <!-- replace: {{PROMPT18C_TITLE}} -->
+              <article class="prompt-card" data-keywords="vartotojų prieiga leidimai rolės saugumas">
+                <h3 class="prompt-card__title">Vartotojų prieigos matrica</h3>
+                <!-- replace: {{PROMPT18C_TEXT}} -->
+                <p class="prompt-card__text">Sukurk vartotojų prieigos kontrolės matricą [sistemai/programai]. Apibrėžk roles (administratorius, vadovas, vartotojas, tik skaitymas), kiekvienos rolės leidimus, duomenų prieigos lygius, prieigos prašymų tvirtinimo procesą ir periodinio peržiūrėjimo grafiką. Suformatuok kaip aiškią lentelę su RBAC logika.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk vartotojų prieigos kontrolės matricą [sistemai/programai]. Apibrėžk roles (administratorius, vadovas, vartotojas, tik skaitymas), kiekvienos rolės leidimus, duomenų prieigos lygius, prieigos prašymų tvirtinimo procesą ir periodinio peržiūrėjimo grafiką. Suformatuok kaip aiškią lentelę su RBAC logika.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 18d -->
+              <!-- replace: {{PROMPT18D_TITLE}} -->
+              <article class="prompt-card" data-keywords="programinė dokumentacija api techninės specifikacijos">
+                <h3 class="prompt-card__title">Techninės dokumentacijos šablonas</h3>
+                <!-- replace: {{PROMPT18D_TEXT}} -->
+                <p class="prompt-card__text">Parengk techninę dokumentaciją [funkcijai/API/moduliui]. Įtrauk: apžvalgą ir paskirtį, reikalavimus, žingsnis po žingsnio instrukcijas su vietomis ekrano vaizdams, kodų pavyzdžius (jei taikoma), dažniausias klaidas ir sprendimus, DUK ir versijų istoriją. Tikslinė auditorija: [kūrėjai/galutiniai vartotojai/administratoriai].</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parengk techninę dokumentaciją [funkcijai/API/moduliui]. Įtrauk: apžvalgą ir paskirtį, reikalavimus, žingsnis po žingsnio instrukcijas su vietomis ekrano vaizdams, kodų pavyzdžius (jei taikoma), dažniausias klaidas ir sprendimus, DUK ir versijų istoriją. Tikslinė auditorija: [kūrėjai/galutiniai vartotojai/administratoriai].">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- IT Task 6 -->
+              <article class="prompt-card" data-keywords="backup strategija atsarginė kopija duomenys">
+                <h3 class="prompt-card__title">Duomenų atsarginės kopijos strategija</h3>
+                <p class="prompt-card__text">Sukurk duomenų atsarginės kopijos strategiją [sistema/duomenys]. Įtrauk: kas kopijuojama, dažnumą (kasdien/kaip savaitę), saugojimo vietas (cloud/local), saugojimo laikotarpį, atkūrimo procedūras, testavimo grafiką. Optimizuok saugumui ir greitam atkūrimui.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk duomenų atsarginės kopijos strategiją [sistema/duomenys]. Įtrauk: kas kopijuojama, dažnumą (kasdien/kaip savaitę), saugojimo vietas (cloud/local), saugojimo laikotarpį, atkūrimo procedūras, testavimo grafiką. Optimizuok saugumui ir greitam atkūrimui.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+            <div style="margin-top: var(--space-8); margin-bottom: var(--space-6); padding: var(--space-4); background: var(--color-bg-alt); border-radius: var(--radius);">
+              <h3 style="font-size: var(--font-size-2); margin: 0 0 var(--space-3) 0; color: var(--color-text);">Finansai ir administravimas</h3>
+            </div>
+            <div class="prompts">
+              <!-- Prompt 19 -->
+              <!-- replace: {{PROMPT19_TITLE}} -->
+              <article class="prompt-card" data-keywords="pvm paaiškinimas mokestis latvija">
+                <h3 class="prompt-card__title">PVM paaiškinimas</h3>
+                <!-- replace: {{PROMPT19_TEXT}} -->
+                <p class="prompt-card__text">Parašyk aiškų paaiškinimą klientui, kaip skaičiuojamas PVM ir kokios taisyklės galioja pirkėjams iš Latvijos.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk aiškų paaiškinimą klientui, kaip skaičiuojamas PVM ir kokios taisyklės galioja pirkėjams iš Latvijos.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 20 -->
+              <!-- replace: {{PROMPT20_TITLE}} -->
+              <article class="prompt-card" data-keywords="ataskaita pardavimai mėnesinis duomenys">
+                <h3 class="prompt-card__title">Mėnesinė ataskaita</h3>
+                <!-- replace: {{PROMPT20_TEXT}} -->
+                <p class="prompt-card__text">Sugeneruok trumpą vadovybės ataskaitą, parodančią mėnesinių pardavimų pokyčius, naudojant šiuos duomenis: [įklijuokite CSV].</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sugeneruok trumpą vadovybės ataskaitą, parodančią mėnesinių pardavimų pokyčius, naudojant šiuos duomenis: [įklijuokite CSV].">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 20a -->
+              <!-- replace: {{PROMPT20A_TITLE}} -->
+              <article class="prompt-card" data-keywords="sąskaita priminimas mokėjimas vėluoja">
+                <h3 class="prompt-card__title">Mokėjimo priminimo el. laiškas</h3>
+                <!-- replace: {{PROMPT20A_TEXT}} -->
+                <p class="prompt-card__text">Parašyk profesionalų, bet draugišką mokėjimo priminimo el. laišką dėl sąskaitos #[numeris], kuri vėluoja [X dienos]. Įtrauk: sąskaitos detales, mokėjimo būdus ir kontaktinę informaciją. Tonas: mandagus, bet tvirtas, išlaikant ryšį su klientu.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk profesionalų, bet draugišką mokėjimo priminimo el. laišką dėl sąskaitos #[numeris], kuri vėluoja [X dienos]. Įtrauk: sąskaitos detales, mokėjimo būdus ir kontaktinę informaciją. Tonas: mandagus, bet tvirtas, išlaikant ryšį su klientu.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 20b -->
+              <!-- replace: {{PROMPT20B_TITLE}} -->
+              <article class="prompt-card" data-keywords="biudžetas nuokrypis analizė išlaidos">
+                <h3 class="prompt-card__title">Biudžeto nuokrypio analizė</h3>
+                <!-- replace: {{PROMPT20B_TEXT}} -->
+                <p class="prompt-card__text">Išanalizuok [skyrius/projektas] biudžeto nuokrypį, lygindamas planuotas ir faktines išlaidas. Nustatyk: 3 didžiausias viršplanines kategorijas, 3 didžiausius sutaupymus, nuokrypio priežastis ir rekomendacijas kitam ketvirčiui. Suformatuok kaip vadovų santrauką su pagrindinėmis įžvalgomis.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Išanalizuok [skyrius/projektas] biudžeto nuokrypį, lygindamas planuotas ir faktines išlaidas. Nustatyk: 3 didžiausias viršplanines kategorijas, 3 didžiausius sutaupymus, nuokrypio priežastis ir rekomendacijas kitam ketvirčiui. Suformatuok kaip vadovų santrauką su pagrindinėmis įžvalgomis.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 20c -->
+              <!-- replace: {{PROMPT20C_TITLE}} -->
+              <article class="prompt-card" data-keywords="pinigų srautai prognozė likvidumas">
+                <h3 class="prompt-card__title">Pinigų srautų prognozė</h3>
+                <!-- replace: {{PROMPT20C_TEXT}} -->
+                <p class="prompt-card__text">Sukurk 3 mėnesių pinigų srautų prognozę remdamasis šiais duomenimis: [įklijuokite skaičius]. Įtrauk: pradinį likutį, planuojamas įplaukas (su mokėjimo terminais), planuojamas išlaidas ir prognozuojamą likutinę sumą. Paryškink galimas likvidumo rizikas ir pasiūlyk mažinimo priemones.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk 3 mėnesių pinigų srautų prognozę remdamasis šiais duomenimis: [įklijuokite skaičius]. Įtrauk: pradinį likutį, planuojamas įplaukas (su mokėjimo terminais), planuojamas išlaidas ir prognozuojamą likutinę sumą. Paryškink galimas likvidumo rizikas ir pasiūlyk mažinimo priemones.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 20d -->
+              <!-- replace: {{PROMPT20D_TITLE}} -->
+              <article class="prompt-card" data-keywords="išlaidų ataskaita kompensacija politika">
+                <h3 class="prompt-card__title">Išlaidų ataskaitos santrauka</h3>
+                <!-- replace: {{PROMPT20D_TEXT}} -->
+                <p class="prompt-card__text">Apibendrink darbuotojų išlaidų ataskaitas už [mėnuo/ketvirtis]. Sugrupuok pagal: keliones, maitinimą, biuro reikmenis ir kitą. Pažymėk išlaidas, viršijančias politikos limitus ar reikalaujančias paaiškinimo. Pateik bendrą patvirtintą sumą ir atmestus prašymus su priežastimis.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Apibendrink darbuotojų išlaidų ataskaitas už [mėnuo/ketvirtis]. Sugrupuok pagal: keliones, maitinimą, biuro reikmenis ir kitą. Pažymėk išlaidas, viršijančias politikos limitus ar reikalaujančias paaiškinimo. Pateik bendrą patvirtintą sumą ir atmestus prašymus su priežastimis.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 20e -->
+              <!-- replace: {{PROMPT20E_TITLE}} -->
+              <article class="prompt-card" data-keywords="finansiniai kpi suvestinė rodikliai našumas">
+                <h3 class="prompt-card__title">Finansinių KPI suvestinė</h3>
+                <!-- replace: {{PROMPT20E_TEXT}} -->
+                <p class="prompt-card__text">Sukurk finansinių KPI suvestinės santrauką už [laikotarpis]. Įtrauk: pajamų augimą %, bendrojo pelningumo %, veiklos sąnaudų santykį, pirkėjų įsiskolinimo dienas, atsargų apyvartumą ir pinigų konversijos ciklą. Pridėk metinių pokyčių (YoY) palyginimą ir trumpą komentarą apie kiekvieno rodiklio tendenciją.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk finansinių KPI suvestinės santrauką už [laikotarpis]. Įtrauk: pajamų augimą %, bendrojo pelningumo %, veiklos sąnaudų santykį, pirkėjų įsiskolinimo dienas, atsargų apyvartumą ir pinigų konversijos ciklą. Pridėk metinių pokyčių (YoY) palyginimą ir trumpą komentarą apie kiekvieno rodiklio tendenciją.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 20f -->
+              <!-- replace: {{PROMPT20F_TITLE}} -->
+              <article class="prompt-card" data-keywords="kainodara pelno marža kaštų analizė">
+                <h3 class="prompt-card__title">Kainodaros strategijos analizė</h3>
+                <!-- replace: {{PROMPT20F_TEXT}} -->
+                <p class="prompt-card__text">Išanalizuok optimalias [produktas/paslauga] kainas, atsižvelgdamas į: savikainą (€[X]), konkurentų kainas ([įklijuokite duomenis]), tikslinę maržą ([Y]%) ir rinkos pozicionavimą. Pateik 3 kainodaros scenarijus (ekonomiškas, standartinis, premium) su pelno prognozėmis ir rekomendacijomis.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Išanalizuok optimalias [produktas/paslauga] kainas, atsižvelgdamas į: savikainą (€[X]), konkurentų kainas ([įklijuokite duomenis]), tikslinę maržą ([Y]%) ir rinkos pozicionavimą. Pateik 3 kainodaros scenarijus (ekonomiškas, standartinis, premium) su pelno prognozėmis ir rekomendacijomis.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 20g -->
+              <!-- replace: {{PROMPT20G_TITLE}} -->
+              <article class="prompt-card" data-keywords="auditas kontrolinis sąrašas atitiktis">
+                <h3 class="prompt-card__title">Finansinio audito kontrolinis sąrašas</h3>
+                <!-- replace: {{PROMPT20G_TEXT}} -->
+                <p class="prompt-card__text">Sukurk pasirengimo auditui kontrolinį sąrašą [audito tipas: metinis/vidinis/mokesčių]. Įtrauk: paruoštinus dokumentus, reikalingas suderinimo procedūras, atitikties punktus ir atlikimo grafiką. Sudėliok pagal prioritetus (kritiška, svarbu, galima turėti).</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk pasirengimo auditui kontrolinį sąrašą [audito tipas: metinis/vidinis/mokesčių]. Įtrauk: paruoštinus dokumentus, reikalingas suderinimo procedūras, atitikties punktus ir atlikimo grafiką. Sudėliok pagal prioritetus (kritiška, svarbu, galima turėti).">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+          <!-- Verslas skyrius baigiasi -->
+
+          <!-- HR / People & Culture -->
+          <div class="dept dept--marketing" id="hr" data-dept="hr">
+            <div class="dept__header">
+              <div class="dept__icon" aria-hidden="true" style="background: #06b6d4;">👥</div>
+              <h2 class="dept__title">Personalo skyrius</h2>
+              <span class="dept__badge">8 užduočių</span>
+            </div>
+            <div class="prompts">
+              <!-- Prompt 21 -->
+              <!-- replace: {{PROMPT21_TITLE}} -->
+              <article class="prompt-card" data-keywords="darbo aprašymas skelbimas atranka">
+                <h3 class="prompt-card__title">Pareigybės aprašymo generatorius</h3>
+                <!-- replace: {{PROMPT21_TEXT}} -->
+                <p class="prompt-card__text">Parašyk įtaigų [pareigybės pavadinimas] darbo aprašą. Įtrauk: vaidmens santrauką, 5–7 pagrindines atsakomybes, būtinas kvalifikacijas, pageidaujamas kompetencijas ir kodėl verta dirbti mūsų įmonėje. Tonas: profesionalus, bet svetingas.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk įtaigų [pareigybės pavadinimas] darbo aprašą. Įtrauk: vaidmens santrauką, 5–7 pagrindines atsakomybes, būtinas kvalifikacijas, pageidaujamas kompetencijas ir kodėl verta dirbti mūsų įmonėje. Tonas: profesionalus, bet svetingas.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 22 -->
+              <!-- replace: {{PROMPT22_TITLE}} -->
+              <article class="prompt-card" data-keywords="interviu klausimai kandidatų vertinimas">
+                <h3 class="prompt-card__title">Interviu klausimų rinkinys</h3>
+                <!-- replace: {{PROMPT22_TEXT}} -->
+                <p class="prompt-card__text">Sukurk 10 elgsenos interviu klausimų [pareigybės pavadinimas] kandidatui. Įtrauk 3 klausimus apie problemų sprendimą, 3 apie komandinius įgūdžius, 2 apie darbą įtampoje ir 2 techninius, susijusius su vaidmeniu. Pateik, į ką atkreipti dėmesį, kai kandidatas atsako gerai.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk 10 elgsenos interviu klausimų [pareigybės pavadinimas] kandidatui. Įtrauk 3 klausimus apie problemų sprendimą, 3 apie komandinius įgūdžius, 2 apie darbą įtampoje ir 2 techninius, susijusius su vaidmeniu. Pateik, į ką atkreipti dėmesį, kai kandidatas atsako gerai.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 23 -->
+              <!-- replace: {{PROMPT23_TITLE}} -->
+              <article class="prompt-card" data-keywords="įvedimas kontrolinis sąrašas naujas darbuotojas">
+                <h3 class="prompt-card__title">Įvedimo kontrolinis sąrašas</h3>
+                <!-- replace: {{PROMPT23_TEXT}} -->
+                <p class="prompt-card__text">Sukurk išsamų 30 dienų įvedimo kontrolinį sąrašą naujam [pareigybės pavadinimas], kuris pradeda dirbti [data]. Suskirstyk pagal: 1 dieną, 1 savaitę, 2–4 savaites ir 1 mėnesį. Įtrauk užduotis personalui, vadovui ir naujam darbuotojui.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk išsamų 30 dienų įvedimo kontrolinį sąrašą naujam [pareigybės pavadinimas], kuris pradeda dirbti [data]. Suskirstyk pagal: 1 dieną, 1 savaitę, 2–4 savaites ir 1 mėnesį. Įtrauk užduotis personalui, vadovui ir naujam darbuotojui.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 24 -->
+              <!-- replace: {{PROMPT24_TITLE}} -->
+              <article class="prompt-card" data-keywords="veiklos vertinimas grįžtamasis ryšys tikslai">
+                <h3 class="prompt-card__title">Veiklos vertinimo šablonas</h3>
+                <!-- replace: {{PROMPT24_TEXT}} -->
+                <p class="prompt-card__text">Sukurk subalansuotą veiklos vertinimo šabloną darbuotojui [darbuotojo vardas], dirbančiam [pareigybės pavadinimas]. Įtrauk skiltis: pasiekimai, tobulintinos sritys, tikslų pažanga, įgūdžių vystymas ir kito ketvirčio tikslai. Naudok konstruktyvią, augimui skirtą kalbą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk subalansuotą veiklos vertinimo šabloną darbuotojui [darbuotojo vardas], dirbančiam [pareigybės pavadinimas]. Įtrauk skiltis: pasiekimai, tobulintinos sritys, tikslų pažanga, įgūdžių vystymas ir kito ketvirčio tikslai. Naudok konstruktyvią, augimui skirtą kalbą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 25 -->
+              <!-- replace: {{PROMPT25_TITLE}} -->
+              <article class="prompt-card" data-keywords="politika personalas taisyklės vadovas">
+                <h3 class="prompt-card__title">Personalo politikos projektas</h3>
+                <!-- replace: {{PROMPT25_TEXT}} -->
+                <p class="prompt-card__text">Parenk aiškų, darbuotojams draugišką [politikos tema: pvz., nuotolinis darbas, atostogos, išlaidos] politikos projektą. Struktūra: paskirtis, taikymo sritis, politikos detalės, procedūros ir DUK. Naudok paprastą kalbą ir pateik 3–5 dažniausias situacijas su pavyzdžiais.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parenk aiškų, darbuotojams draugišką [politikos tema: pvz., nuotolinis darbas, atostogos, išlaidos] politikos projektą. Struktūra: paskirtis, taikymo sritis, politikos detalės, procedūros ir DUK. Naudok paprastą kalbą ir pateik 3–5 dažniausias situacijas su pavyzdžiais.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 26 -->
+              <!-- replace: {{PROMPT26_TITLE}} -->
+              <article class="prompt-card" data-keywords="mokymai programa įgūdžių ugdymas dirbtuvės">
+                <h3 class="prompt-card__title">Mokymo programos planas</h3>
+                <!-- replace: {{PROMPT26_TEXT}} -->
+                <p class="prompt-card__text">Sukurk pusės dienos mokymo programą tema [tema] [skyriui/komandai]. Įtrauk: mokymosi tikslus, darbotvarkę su laiko planu, veiklas/praktinius pratimus, reikalingas medžiagas ir kaip matuoti mokymo efektyvumą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk pusės dienos mokymo programą tema [tema] [skyriui/komandai]. Įtrauk: mokymosi tikslus, darbotvarkę su laiko planu, veiklas/praktinius pratimus, reikalingas medžiagas ir kaip matuoti mokymo efektyvumą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 27 -->
+              <!-- replace: {{PROMPT27_TITLE}} -->
+              <article class="prompt-card" data-keywords="darbo pasiūlymas laiškas įdarbinimas sutartis">
+                <h3 class="prompt-card__title">Darbo pasiūlymo laiškas</h3>
+                <!-- replace: {{PROMPT27_TEXT}} -->
+                <p class="prompt-card__text">Parašyk profesionalų darbo pasiūlymo laišką kandidatui [kandidato vardas] į [pareigybės pavadinimas]. Įtrauk: atlyginimą, pradžios datą, naudų santrauką, atskaitomybę ir tolesnius žingsnius. Tonas: šiltas ir svetingas, išlaikant oficialumą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Parašyk profesionalų darbo pasiūlymo laišką kandidatui [kandidato vardas] į [pareigybės pavadinimas]. Įtrauk: atlyginimą, pradžios datą, naudų santrauką, atskaitomybę ir tolesnius žingsnius. Tonas: šiltas ir svetingas, išlaikant oficialumą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Prompt 28 -->
+              <!-- replace: {{PROMPT28_TITLE}} -->
+              <article class="prompt-card" data-keywords="darbuotojų įsitraukimas apklausa grįžtamasis ryšys">
+                <h3 class="prompt-card__title">Darbuotojų įsitraukimo apklausa</h3>
+                <!-- replace: {{PROMPT28_TEXT}} -->
+                <p class="prompt-card__text">Sukurk 15 klausimų darbuotojų įsitraukimo apklausą, apimančią: pasitenkinimą darbu, vadovų veiksmingumą, darbo ir asmeninio gyvenimo balansą, augimo galimybes ir įmonės kultūrą. Naudok mišrią formą iš vertinimo skalės (1–5) ir atvirų klausimų. Užtikrink, kad apklausa būtų palanki anonimiškumui.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk 15 klausimų darbuotojų įsitraukimo apklausą, apimančią: pasitenkinimą darbu, vadovų veiksmingumą, darbo ir asmeninio gyvenimo balansą, augimo galimybes ir įmonės kultūrą. Naudok mišrią formą iš vertinimo skalės (1–5) ir atvirų klausimų. Užtikrink, kad apklausa būtų palanki anonimiškumui.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- HR Task 8 -->
+              <article class="prompt-card" data-keywords="darbo aprašymas pareigybės reikalavimai">
+                <h3 class="prompt-card__title">Darbo aprašymo šablonas</h3>
+                <p class="prompt-card__text">Sukurk darbo aprašymą [pareigybės pavadinimas]. Įtrauk: pareigų apžvalgą, pagrindines atsakomybes, reikalingus įgūdžius ir patirtį, išsilavinimo reikalavimus, darbo sąlygas, atlyginimo diapazoną, naudas ir kaip kreiptis. Optimizuok pritraukti tinkamus kandidatus.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk darbo aprašymą [pareigybės pavadinimas]. Įtrauk: pareigų apžvalgą, pagrindines atsakomybes, reikalingus įgūdžius ir patirtį, išsilavinimo reikalavimus, darbo sąlygas, atlyginimo diapazoną, naudas ir kaip kreiptis. Optimizuok pritraukti tinkamus kandidatus.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Personal Productivity & Efficiency -->
+          <div class="dept dept--productivity" id="productivity" data-dept="productivity">
+            <div class="dept__header">
+              <div class="dept__icon" aria-hidden="true">⚡</div>
+              <h2 class="dept__title">Asmeninis efektyvumas ir metodai</h2>
+              <span class="dept__badge">16 užduočių</span>
+            </div>
+            <div class="prompts">
+              <!-- Productivity Task 1 - SWOT -->
+              <article class="prompt-card" data-keywords="swot analizė strategija stiprybės silpnybės">
+                <div class="prompt-card__badges">
+                  <span class="badge badge--popular">⭐ Populiariausias</span>
+                </div>
+                <h3 class="prompt-card__title">SWOT analizė</h3>
+                <p class="prompt-card__text">Atlik išsamią SWOT analizę [projektui/įmonei/produktui]. Įtrauk: Stiprybes (4-6 punktai), Silpnybes (4-6 punktai), Galimybes (4-6 punktai), Rizikas (4-6 punktai). Kiekvienam punktui pateik: aprašymą, įrodymus/duomenis, poveikį ir rekomendacijas. Suformatuok kaip struktūruotą ataskaitą su prioritetais.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Atlik išsamią SWOT analizę [projektui/įmonei/produktui]. Įtrauk: Stiprybes (4-6 punktai), Silpnybes (4-6 punktai), Galimybes (4-6 punktai), Rizikas (4-6 punktai). Kiekvienam punktui pateik: aprašymą, įrodymus/duomenis, poveikį ir rekomendacijas. Suformatuok kaip struktūruotą ataskaitą su prioritetais.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 2 - PEST -->
+              <article class="prompt-card" data-keywords="pest analizė politika ekonomika socialinė technologija">
+                <div class="prompt-card__badges">
+                  <span class="badge badge--popular">⭐ Populiariausias</span>
+                </div>
+                <h3 class="prompt-card__title">PEST analizė</h3>
+                <p class="prompt-card__text">Atlik PEST analizę [įmonei/projektui/verslui] [šalis/regionas]. Įtrauk: Politinius veiksnius (4-5 punktai), Ekonominius veiksnius (4-5 punktai), Socialinius veiksnius (4-5 punktai), Technologinius veiksnius (4-5 punktai). Kiekvienam veiksniui nurodyk: aprašymą, poveikį, tendencijas ir rekomendacijas. Pateik kaip strateginę ataskaitą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Atlik PEST analizę [įmonei/projektui/verslui] [šalis/regionas]. Įtrauk: Politinius veiksnius (4-5 punktai), Ekonominius veiksnius (4-5 punktai), Socialinius veiksnius (4-5 punktai), Technologinius veiksnius (4-5 punktai). Kiekvienam veiksniui nurodyk: aprašymą, poveikį, tendencijas ir rekomendacijas. Pateik kaip strateginę ataskaitą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 3 - Pomodoro -->
+              <article class="prompt-card" data-keywords="pomodoro darbotvarkė laiko valdymas produktyvumas">
+                <div class="prompt-card__badges">
+                  <span class="badge badge--quick">⚡ Greitas</span>
+                </div>
+                <h3 class="prompt-card__title">Pomodoro darbotvarkės planas</h3>
+                <p class="prompt-card__text">Sukurk Pomodoro darbotvarkę [dienai/savaitei] [tema/projektas]. Įtrauk: užduočių sąrašą su prioritetais, kiekvienos užduoties Pomodoro skaičių (1 Pomodoro = 25 min), trumpas pertraukas (5 min) ir ilgas pertraukas (15-30 min po 4 Pomodoro). Optimizuok užduočių seką pagal energijos lygį ir prioritetus. Pateik kaip valandų planą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk Pomodoro darbotvarkę [dienai/savaitei] [tema/projektas]. Įtrauk: užduočių sąrašą su prioritetais, kiekvienos užduoties Pomodoro skaičių (1 Pomodoro = 25 min), trumpas pertraukas (5 min) ir ilgas pertraukas (15-30 min po 4 Pomodoro). Optimizuok užduočių seką pagal energijos lygį ir prioritetus. Pateik kaip valandų planą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 4 - Eisenhower Matrix -->
+              <article class="prompt-card" data-keywords="eisenhower matrica prioritetai skubumas svarba">
+                <h3 class="prompt-card__title">Eisenhower matricos užduočių klasifikacija</h3>
+                <p class="prompt-card__text">Klasifikuok šias užduotis [įklijuokite užduočių sąrašą] naudojant Eisenhower matricą. Kategorijos: 1) Skubus ir svarbus (daryk dabar), 2) Svarbus, bet neskubus (planuok), 3) Skubus, bet nesvarbus (deleguok), 4) Neskubus ir nesvarbus (pašalink). Kiekvienai kategorijai pateik: užduotis, veiksmų planą ir laiko įvertinimą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Klasifikuok šias užduotis [įklijuokite užduočių sąrašą] naudojant Eisenhower matricą. Kategorijos: 1) Skubus ir svarbus (daryk dabar), 2) Svarbus, bet neskubus (planuok), 3) Skubus, bet nesvarbus (deleguok), 4) Neskubus ir nesvarbus (pašalink). Kiekvienai kategorijai pateik: užduotis, veiksmų planą ir laiko įvertinimą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 5 - SMART Goals -->
+              <article class="prompt-card" data-keywords="smart tikslai planavimas tikslas">
+                <h3 class="prompt-card__title">SMART tikslų formulavimas</h3>
+                <p class="prompt-card__text">Sukurk 5 SMART tikslus [tema/projektas]. Kiekvienas tikslas turi būti: Specific (konkretus), Measurable (išmatuojamas), Achievable (pasiekiamas), Relevant (aktualus), Time-bound (laiko apribotas). Kiekvienam tikslui pateik: aprašymą, rodiklius, veiksmų planą, laiko rėmus ir sėkmės kriterijus.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk 5 SMART tikslus [tema/projektas]. Kiekvienas tikslas turi būti: Specific (konkretus), Measurable (išmatuojamas), Achievable (pasiekiamas), Relevant (aktualus), Time-bound (laiko apribotas). Kiekvienam tikslui pateik: aprašymą, rodiklius, veiksmų planą, laiko rėmus ir sėkmės kriterijus.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 6 - Time Blocking -->
+              <article class="prompt-card" data-keywords="laiko blokavimas darbotvarkė planavimas">
+                <h3 class="prompt-card__title">Laiko blokavimo darbotvarkė</h3>
+                <p class="prompt-card__text">Sukurk laiko blokavimo darbotvarkę [dienai/savaitei] [pareigos/projektas]. Įtrauk: fiksuotus laikus (susitikimai, skambučiai), gilios darbotvarkės blokus (2-3 val. be pertraukų), trumpus užduočių blokus (30-60 min), pertraukas ir laisvalaikį. Optimizuok pagal energijos lygį ir prioritetus. Pateik kaip valandų kalendorių.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk laiko blokavimo darbotvarkę [dienai/savaitei] [pareigos/projektas]. Įtrauk: fiksuotus laikus (susitikimai, skambučiai), gilios darbotvarkės blokus (2-3 val. be pertraukų), trumpus užduočių blokus (30-60 min), pertraukas ir laisvalaikį. Optimizuok pagal energijos lygį ir prioritetus. Pateik kaip valandų kalendorių.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 7 - 2-Minute Rule -->
+              <article class="prompt-card" data-keywords="2 minučių taisyklė greitos užduotys produktyvumas">
+                <h3 class="prompt-card__title">2 minučių taisyklės užduočių identifikavimas</h3>
+                <p class="prompt-card__text">Išanalizuok užduočių sąrašą [įklijuokite užduotis] ir identifikuok, kurias galima atlikti per 2 minutes arba mažiau. Sukurk: 1) Greitų užduočių sąrašą (daryk dabar), 2) Užduočių, kurias galima suskaidyti į 2 min. dalis, 3) Veiksmų planą, kaip greitai jas atlikti. Optimizuok produktyvumui ir laiko taupymui.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Išanalizuok užduočių sąrašą [įklijuokite užduotis] ir identifikuok, kurias galima atlikti per 2 minutes arba mažiau. Sukurk: 1) Greitų užduočių sąrašą (daryk dabar), 2) Užduočių, kurias galima suskaidyti į 2 min. dalis, 3) Veiksmų planą, kaip greitai jas atlikti. Optimizuok produktyvumui ir laiko taupymui.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 8 - Getting Things Done (GTD) -->
+              <article class="prompt-card" data-keywords="gtd metodas organizavimas užduotys">
+                <h3 class="prompt-card__title">GTD metodas - užduočių organizavimas</h3>
+                <p class="prompt-card__text">Organizuok užduotis [įklijuokite užduotis] naudojant GTD (Getting Things Done) metodą. Kategorijos: 1) Daryk dabar (2 min arba mažiau), 2) Deleguok (kam ir kada), 3) Atidėk (kada ir kaip priminti), 4) Archyvas (informacija be veiksmų). Kiekvienai kategorijai sukurk veiksmų planą ir sekimo sistemą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Organizuok užduotis [įklijuokite užduotis] naudojant GTD (Getting Things Done) metodą. Kategorijos: 1) Daryk dabar (2 min arba mažiau), 2) Deleguok (kam ir kada), 3) Atidėk (kada ir kaip priminti), 4) Archyvas (informacija be veiksmų). Kiekvienai kategorijai sukurk veiksmų planą ir sekimo sistemą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 9 - Deep Work Schedule -->
+              <article class="prompt-card" data-keywords="gilus darbas koncentracija produktyvumas">
+                <h3 class="prompt-card__title">Gilio darbo grafikas</h3>
+                <p class="prompt-card__text">Sukurk gilio darbo grafiką [savaitė/mėnuo] [projektas]. Įtrauk: 2-4 val. gilaus darbo blokus be pertraukų, optimalius laikus pagal energijos lygį, paruošimą prieš gilų darbą (užduočių sąrašas, medžiagos), po gilio darbo veiklas (lengvesnės užduotys). Optimizuok koncentracijai ir produktyvumui.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk gilio darbo grafiką [savaitė/mėnuo] [projektas]. Įtrauk: 2-4 val. gilaus darbo blokus be pertraukų, optimalius laikus pagal energijos lygį, paruošimą prieš gilų darbą (užduočių sąrašas, medžiagos), po gilio darbo veiklas (lengvesnės užduotys). Optimizuok koncentracijai ir produktyvumui.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 10 - Weekly Review -->
+              <article class="prompt-card" data-keywords="savaitės apžvalga refleksija planavimas">
+                <h3 class="prompt-card__title">Savaitės apžvalgos šablonas</h3>
+                <p class="prompt-card__text">Sukurk savaitės apžvalgos šabloną [savaitė]. Įtrauk: 1) Pasiektus tikslus ir sėkmes, 2) Neatliktas užduotis ir priežastis, 3) Išmoktas pamokas, 4) Kitą savaitę prioritetus, 5) Veiksmų planą. Optimizuok refleksijai, mokymuisi ir tolesniam planavimui.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk savaitės apžvalgos šabloną [savaitė]. Įtrauk: 1) Pasiektus tikslus ir sėkmes, 2) Neatliktas užduotis ir priežastis, 3) Išmoktas pamokas, 4) Kitą savaitę prioritetus, 5) Veiksmų planą. Optimizuok refleksijai, mokymuisi ir tolesniam planavimui.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 11 - Energy Management -->
+              <article class="prompt-card" data-keywords="energijos valdymas produktyvumas dienos planas">
+                <h3 class="prompt-card__title">Energijos valdymo dienos planas</h3>
+                <p class="prompt-card__text">Sukurk energijos valdymo dienos planą [diena] [pareigos]. Identifikuok: aukšto energijos laikus (sunkios užduotys), vidutinio energijos laikus (vidutinės užduotys), žemo energijos laikus (lengvos užduotys). Optimizuok užduočių seką pagal energijos lygį. Pateik kaip valandų planą su užduočių paskirstymu.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk energijos valdymo dienos planą [diena] [pareigos]. Identifikuok: aukšto energijos laikus (sunkios užduotys), vidutinio energijos laikus (vidutinės užduotys), žemo energijos laikus (lengvos užduotys). Optimizuok užduočių seką pagal energijos lygį. Pateik kaip valandų planą su užduočių paskirstymu.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 12 - Habit Stacking -->
+              <article class="prompt-card" data-keywords="įpročių sukūrimas rutina produktyvumas">
+                <h3 class="prompt-card__title">Įpročių sukūrimo planas (Habit Stacking)</h3>
+                <p class="prompt-card__text">Sukurk įpročių sukūrimo planą naudojant Habit Stacking metodą [tikslinis įprotis]. Įtrauk: esamą įprotį (ankeris), naują įprotį (pridėk prieš/po ankerio), konkrečius veiksmus, laiką, vietą, sėkmės kriterijus. Pateik 30 dienų planą su progreso sekimu ir motyvacijos strategijomis.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk įpročių sukūrimo planą naudojant Habit Stacking metodą [tikslinis įprotis]. Įtrauk: esamą įprotį (ankeris), naują įprotį (pridėk prieš/po ankerio), konkrečius veiksmus, laiką, vietą, sėkmės kriterijus. Pateik 30 dienų planą su progreso sekimu ir motyvacijos strategijomis.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 13 - Batch Processing -->
+              <article class="prompt-card" data-keywords="paketinis apdorojimas efektyvumas laiko valdymas">
+                <h3 class="prompt-card__title">Paketinio apdorojimo strategija</h3>
+                <p class="prompt-card__text">Sukurk paketinio apdorojimo strategiją [užduočių tipas: pvz., el. laiškai, skambučiai, dokumentai]. Įtrauk: panašių užduočių grupavimą, optimalų laiką paketiniam apdorojimui, paruošimą (šablonai, medžiagos), apdorojimo seką ir laiko taupymo įvertinimą. Optimizuok efektyvumui ir koncentracijai.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk paketinio apdorojimo strategiją [užduočių tipas: pvz., el. laiškai, skambučiai, dokumentai]. Įtrauk: panašių užduočių grupavimą, optimalų laiką paketiniam apdorojimui, paruošimą (šablonai, medžiagos), apdorojimo seką ir laiko taupymo įvertinimą. Optimizuok efektyvumui ir koncentracijai.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 14 - Kanban Board -->
+              <article class="prompt-card" data-keywords="kanban lenta projektas užduotys">
+                <h3 class="prompt-card__title">Kanban lentos struktūra</h3>
+                <p class="prompt-card__text">Sukurk Kanban lentos struktūrą [projektas/komanda]. Įtrauk: stulpelius (Parengta, Daroma, Peržiūrima, Atlikta), užduotis su prioritetais, atsakingus asmenis, terminus, blokavimo veiksnius. Optimizuok vizualizacijai ir srautui. Pateik kaip struktūruotą planą, kurį galima naudoti Trello, Asana ar kitose platformose.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk Kanban lentos struktūrą [projektas/komanda]. Įtrauk: stulpelius (Parengta, Daroma, Peržiūrima, Atlikta), užduotis su prioritetais, atsakingus asmenis, terminus, blokavimo veiksnius. Optimizuok vizualizacijai ir srautui. Pateik kaip struktūruotą planą, kurį galima naudoti Trello, Asana ar kitose platformose.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 15 - Morning Routine -->
+              <article class="prompt-card" data-keywords="ryto rutina produktyvumas dienos pradžia">
+                <h3 class="prompt-card__title">Produktyvios ryto rutinos planas</h3>
+                <p class="prompt-card__text">Sukurk produktyvios ryto rutinos planą [laikotarpis: 30-60 min]. Įtrauk: pabudimo veiklas (hidratacija, judėjimas), planavimo veiklas (tikslai, prioritetai), motyvacijos veiklas (skaitymas, meditacija), paruošimą dienai (užduočių sąrašas). Optimizuok energijai, fokusui ir produktyvumui visą dieną.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk produktyvios ryto rutinos planą [laikotarpis: 30-60 min]. Įtrauk: pabudimo veiklas (hidratacija, judėjimas), planavimo veiklas (tikslai, prioritetai), motyvacijos veiklas (skaitymas, meditacija), paruošimą dienai (užduočių sąrašas). Optimizuok energijai, fokusui ir produktyvumui visą dieną.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Productivity Task 16 - Decision Matrix -->
+              <article class="prompt-card" data-keywords="sprendimų matrica kriterijai vertinimas">
+                <h3 class="prompt-card__title">Sprendimų matrica</h3>
+                <p class="prompt-card__text">Sukurk sprendimų matricą [sprendimas: pvz., produkto pasirinkimas, strategijos pasirinkimas]. Įtrauk: alternatyvas (3-5 variantai), vertinimo kriterijus (5-7 kriterijai), kiekvieno kriterijaus svorį (1-10), kiekvienos alternatyvos vertinimą (1-10). Apskaičiuok bendrą balą ir pateik rekomendaciją su pagrindimu.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Sukurk sprendimų matricą [sprendimas: pvz., produkto pasirinkimas, strategijos pasirinkimas]. Įtrauk: alternatyvas (3-5 variantai), vertinimo kriterijus (5-7 kriterijai), kiekvieno kriterijaus svorį (1-10), kiekvienos alternatyvos vertinimą (1-10). Apskaičiuok bendrą balą ir pateik rekomendaciją su pagrindimu.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Advanced Prompts (Prompt Engineering Best Practices) -->
+          <div class="dept dept--it" id="advanced" data-dept="advanced" style="border-top: 3px solid var(--color-accent); padding-top: var(--space-8); margin-top: var(--space-12);">
+            <div class="dept__header">
+              <div class="dept__icon" aria-hidden="true" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">⚡</div>
+              <div>
+                <h2 class="dept__title">Pažengusiems ⚡</h2>
+                <span class="dept__badge">18 užduočių</span>
+                <p style="color: var(--color-muted); margin: var(--space-2) 0 0 0; font-size: var(--font-size-sm);">Kompleksiškos, struktūruotos užklausos su Role + Task + Format + Tone + Style metodika</p>
+              </div>
+            </div>
+            <div class="prompts">
+              <!-- Advanced Prompt 1 -->
+              <!-- replace: {{PROMPT21_TITLE}} -->
+              <article class="prompt-card" data-keywords="konkurentų analizė swot strateginis rinkos tyrimai">
+                <h3 class="prompt-card__title">🎯 Strateginė konkurentų analizė</h3>
+                <!-- replace: {{PROMPT21_TEXT}} -->
+                <p class="prompt-card__text">Tu esi vyresnysis rinkos tyrimų analitikas, turintis 15 metų patirties B2B elektronikos distribucijoje.
+
+UŽDUOTIS: Atlik išsamų konkurento [konkurento pavadinimas] analizę [produkto kategorija] rinkoje.
+
+FORMATAS: Pateik analizę tokia struktūra:
+1. Vykdomoji santrauka (2–3 sakiniai)
+2. SWOT analizė (po 4–6 punktus kiekviename kvadrante)
+3. Kainodaros strategijos įvertinimas
+4. Rinkos pozicionavimo žemėlapis (aprašyk vizualiai)
+5. Trys įgyvendinamos rekomendacijos su tikėtinu poveikiu
+
+TONAS: Profesionalus, duomenimis pagrįstas, strateginis
+
+STILIUS: Naudok verslo terminologiją, kur įmanoma įtrauk konkrečius rodiklius, remkis pramonės etalonais ir venk spėlionių—koncentruokis į matomus faktus ir logines išvadas.
+
+KONTEKSTAS: Esame vidutinio dydžio platintojas, siekiantis išskirti savo pasiūlymą konkurencingoje rinkoje. Mūsų stiprybės – klientų aptarnavimas ir techninė kompetencija.
+
+RIBOJIMAI: Bendras rezultatas turi būti iki 500 žodžių. Prioritetą teik įžvalgoms, kurios suteikia greitų konkurencinių pranašumų.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Tu esi vyresnysis rinkos tyrimų analitikas, turintis 15 metų patirties B2B elektronikos distribucijoje.
+
+UŽDUOTIS: Atlik išsamų konkurento [konkurento pavadinimas] analizę [produkto kategorija] rinkoje.
+
+FORMATAS: Pateik analizę tokia struktūra:
+1. Vykdomoji santrauka (2–3 sakiniai)
+2. SWOT analizė (po 4–6 punktus kiekviename kvadrante)
+3. Kainodaros strategijos įvertinimas
+4. Rinkos pozicionavimo žemėlapis (aprašyk vizualiai)
+5. Trys įgyvendinamos rekomendacijos su tikėtinu poveikiu
+
+TONAS: Profesionalus, duomenimis pagrįstas, strateginis
+
+STILIUS: Naudok verslo terminologiją, kur įmanoma įtrauk konkrečius rodiklius, remkis pramonės etalonais ir venk spėlionių—koncentruokis į matomus faktus ir logines išvadas.
+
+KONTEKSTAS: Esame vidutinio dydžio platintojas, siekiantis išskirti savo pasiūlymą konkurencingoje rinkoje. Mūsų stiprybės – klientų aptarnavimas ir techninė kompetencija.
+
+RIBOJIMAI: Bendras rezultatas turi būti iki 500 žodžių. Prioritetą teik įžvalgoms, kurios suteikia greitų konkurencinių pranašumų.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Advanced Prompt 2 -->
+              <!-- replace: {{PROMPT22_TITLE}} -->
+              <article class="prompt-card" data-keywords="kliento kelionė onboarding patirtis skausmo taškai">
+                <h3 class="prompt-card__title">🎯 Kliento kelionės optimizavimas</h3>
+                <!-- replace: {{PROMPT22_TEXT}} -->
+                <p class="prompt-card__text">Tu esi UX tyrėjas ir klientų patirties strategas, besispecializuojantis B2B el. komercijos platformose.
+
+ROLĖS KONTEKSTAS: Esi padėjęs daugiau nei 50 įmonių optimizuoti klientų įsitraukimo procesus, sumažindamas atkritimą vidutiniškai 32 %.
+
+UŽDUOTIS: Išanalizuok mūsų dabartinę klientų kelionę [klientų segmentas] ir nustatyk trinties taškus šiuose etapuose:
+- Paieška ir tyrimas
+- Paskyros sukūrimas ir pirmasis pirkimas
+- Po pirkimo ir pagalba
+- Pakartotinis pirkimas ir lojalumas
+
+FORMATAS: Sukurk išsamų kelionės žemėlapį su:
+1. Laiko juosta (kiekvieno etapo vizualus aprašymas)
+2. Kliento veiksmai kiekviename sąlyčio taške
+3. Emocijos ir skausmo taškai (3–5 kiekviename etape)
+4. Tobulinimo galimybės (reitinguotos pagal poveikį/pastangas)
+5. Greitos pergalės (įgyvendinamos per 2 savaites)
+
+TONAS: Empatiškas klientams, konstruktyvus vidinėms komandoms, skatinantis veikti
+
+STILIUS: Pasitelk pasakojimą kliento perspektyvai iliustruoti. Įtrauk:
+- tikras klientų citatas arba realistiškus pavyzdžius
+- emocinę kalbą aprašant skausmo taškus
+- duomenimis paremtas rekomendacijas (net jei procentai hipotetiniai)
+- vizualines metaforas, padedančias konkretizuoti abstrakčias idėjas
+
+REZULTATO REIKALAVIMAI:
+- Klientų citatos pateikiamos „“ kabutėse
+- Skausmo taškai pažymėti ⚠️
+- Galimybės pažymėtos 💡
+- Greitos pergalės pažymėtos ⚡
+
+TIKSLAS: Sudaryk sąlygas komandai kitame sprinte įgyvendinti bent 3 patobulinimus, kurie matomai pagerins klientų pasitenkinimo rodiklius.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Tu esi UX tyrėjas ir klientų patirties strategas, besispecializuojantis B2B el. komercijos platformose.
+
+ROLĖS KONTEKSTAS: Esi padėjęs daugiau nei 50 įmonių optimizuoti klientų įsitraukimo procesus, sumažindamas atkritimą vidutiniškai 32 %.
+
+UŽDUOTIS: Išanalizuok mūsų dabartinę klientų kelionę [klientų segmentas] ir nustatyk trinties taškus šiuose etapuose:
+- Paieška ir tyrimas
+- Paskyros sukūrimas ir pirmasis pirkimas
+- Po pirkimo ir pagalba
+- Pakartotinis pirkimas ir lojalumas
+
+FORMATAS: Sukurk išsamų kelionės žemėlapį su:
+1. Laiko juosta (kiekvieno etapo vizualus aprašymas)
+2. Kliento veiksmai kiekviename sąlyčio taške
+3. Emocijos ir skausmo taškai (3–5 kiekviename etape)
+4. Tobulinimo galimybės (reitinguotos pagal poveikį/pastangas)
+5. Greitos pergalės (įgyvendinamos per 2 savaites)
+
+TONAS: Empatiškas klientams, konstruktyvus vidinėms komandoms, skatinantis veikti
+
+STILIUS: Pasitelk pasakojimą kliento perspektyvai iliustruoti. Įtrauk:
+- tikras klientų citatas arba realistiškus pavyzdžius
+- emocinę kalbą aprašant skausmo taškus
+- duomenimis paremtas rekomendacijas (net jei procentai hipotetiniai)
+- vizualines metaforas, padedančias konkretizuoti abstrakčias idėjas
+
+REZULTATO REIKALAVIMAI:
+- Klientų citatos pateikiamos „“ kabutėse
+- Skausmo taškai pažymėti ⚠️
+- Galimybės pažymėtos 💡
+- Greitos pergalės pažymėtos ⚡
+
+TIKSLAS: Sudaryk sąlygas komandai kitame sprinte įgyvendinti bent 3 patobulinimus, kurie matomai pagerins klientų pasitenkinimo rodiklius.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Advanced Prompt 3 -->
+              <!-- replace: {{PROMPT23_TITLE}} -->
+              <article class="prompt-card" data-keywords="turinio strategija seo tinklaraštis redakcinis kalendorius">
+                <h3 class="prompt-card__title">🎯 Turinio strategija ir redakcinis kalendorius</h3>
+                <!-- replace: {{PROMPT23_TEXT}} -->
+                <p class="prompt-card__text">Tu esi turinio rinkodaros strategas ir SEO specialistas, dirbantis su techniniu B2B turiniu ir thought leadership.
+
+KONTEKSTAS: Esi sukūręs turinio programas, kurios pramonės ir elektronikos įmonėms padidino organinį srautą daugiau nei 200 %.
+
+UŽDUOTIS: Sudaryk 3 mėnesių redakcinį kalendorių mūsų įmonės tinklaraščiui, orientuotam į [tikslinė auditorija] [pramonė] sektoriuje.
+
+FORMATAS: Kiekvienam turinio elementui pateik:
+1. Pavadinimą (SEO optimizuotą, iki 60 simbolių)
+2. Pagrindinį raktažodį + 3 antrinius raktažodžius
+3. Paieškos ketinimą (informacinis/komercinis/sandorinis)
+4. Turinio kampą (unikali perspektyva arba kabliukas)
+5. Struktūrą (H2 ir H3 planą)
+6. Tikslinį žodžių skaičių
+7. Vidinių nuorodų galimybes
+8. CTA strategiją
+9. Prognozuojamą organinio srauto potencialą (žemas/vidutinis/aukštas)
+
+TURINIO BALANSAS:
+- 40 % edukacinių „How-to“ gidų
+- 30 % pramonės įžvalgų ir tendencijų
+- 20 % produkto/sprendimo paaiškinimų
+- 10 % klientų sėkmės istorijų
+
+TONAS: Autoritetingas, bet prieinamas; techniškas, bet be perteklinio žargono; edukacinis su subtilia pardavimų pagalba
+
+STILIUS:
+- Naudok stiprius žodžius pavadinimuose („Ultimate“, „Complete“, „Essential“)
+- Struktūruok skaitomumui (trumpi paragrafai, punktai)
+- Kai reikia, pateik duomenų ir statistikų
+- Rašyk techniniam pirkėjui (inžinieriui ar pirkimų vadovui)
+
+SEO REIKALAVIMAI:
+- Rinkis raktažodžius, kurių mėnesinė paieška 500–5000
+- Fokusą skirk žemos–vidutinės konkurencijos raktažodžiams
+- Prioritetą teik „featured snippet“ galimybėms
+- Įtrauk ilgų uodegų variacijas
+
+PRISTATYMAS: Pateik 12 tinklaraščio įrašų (po 4 per mėnesį) lentelę, kuri sudaro vientisą naratyvą, didina autoritetą mūsų nišoje ir apima skirtingus pirkėjo kelionės etapus.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Tu esi turinio rinkodaros strategas ir SEO specialistas, dirbantis su techniniu B2B turiniu ir thought leadership.
+
+KONTEKSTAS: Esi sukūręs turinio programas, kurios pramonės ir elektronikos įmonėms padidino organinį srautą daugiau nei 200 %.
+
+UŽDUOTIS: Sudaryk 3 mėnesių redakcinį kalendorių mūsų įmonės tinklaraščiui, orientuotam į [tikslinė auditorija] [pramonė] sektoriuje.
+
+FORMATAS: Kiekvienam turinio elementui pateik:
+1. Pavadinimą (SEO optimizuotą, iki 60 simbolių)
+2. Pagrindinį raktažodį + 3 antrinius raktažodžius
+3. Paieškos ketinimą (informacinis/komercinis/sandorinis)
+4. Turinio kampą (unikali perspektyva arba kabliukas)
+5. Struktūrą (H2 ir H3 planą)
+6. Tikslinį žodžių skaičių
+7. Vidinių nuorodų galimybes
+8. CTA strategiją
+9. Prognozuojamą organinio srauto potencialą (žemas/vidutinis/aukštas)
+
+TURINIO BALANSAS:
+- 40 % edukacinių „How-to“ gidų
+- 30 % pramonės įžvalgų ir tendencijų
+- 20 % produkto/sprendimo paaiškinimų
+- 10 % klientų sėkmės istorijų
+
+TONAS: Autoritetingas, bet prieinamas; techniškas, bet be perteklinio žargono; edukacinis su subtilia pardavimų pagalba
+
+STILIUS:
+- Naudok stiprius žodžius pavadinimuose („Ultimate“, „Complete“, „Essential“)
+- Struktūruok skaitomumui (trumpi paragrafai, punktai)
+- Kai reikia, pateik duomenų ir statistikų
+- Rašyk techniniam pirkėjui (inžinieriui ar pirkimų vadovui)
+
+SEO REIKALAVIMAI:
+- Rinkis raktažodžius, kurių mėnesinė paieška 500–5000
+- Fokusą skirk žemos–vidutinės konkurencijos raktažodžiams
+- Prioritetą teik „featured snippet“ galimybėms
+- Įtrauk ilgų uodegų variacijas
+
+PRISTATYMAS: Pateik 12 tinklaraščio įrašų (po 4 per mėnesį) lentelę, kuri sudaro vientisą naratyvą, didina autoritetą mūsų nišoje ir apima skirtingus pirkėjo kelionės etapus.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Advanced Prompt 4 -->
+              <!-- replace: {{PROMPT24_TITLE}} -->
+              <article class="prompt-card" data-keywords="pardavimų el. laiškai personalizacija automatizavimas seka">
+                <h3 class="prompt-card__title">🎯 Daugkartinė pardavimų el. laiškų seka</h3>
+                <!-- replace: {{PROMPT24_TEXT}} -->
+                <p class="prompt-card__text">Tu esi B2B pardavimų tekstų kūrėjas, specializuojantis šaltuose laiškuose ir el. pašto automatizavimo sekose, pasiekiantis 25 %+ atidarymo ir 8 %+ atsakymų rodiklius.
+
+ROLĖS EKSPERTIZĖ: Supranti pirkėjų psichologiją, sprendimų priėmimo procesus techniniuose pirkimuose ir nuoseklaus, bet pagarbaus priminimo meną.
+
+UŽDUOTIS: Parašyk 5 el. laiškų seką, skirtą [pareigybės pavadinimas] [įmonės tipas], pristatant [produktas/paslauga].
+
+SEKOS STRUKTŪRA:
+
+1 el. laiškas (0 diena): „Pattern Interrupt“
+- Tema, kuri išsiskiria triukšme
+- Personalizuota pirmoji eilutė pagal [tyrimų signalą]
+- Viena aiški vertės pasiūla
+- Švelnus CTA (klausimas, o ne susitikimo prašymas)
+
+2 el. laiškas (3 diena): „Value Add“
+- Tema: nuoroda į 1 laišką
+- Pasidalyk aktualiu ištekliu (atvejo analize/gidu/duomenimis)
+- Jokio prašymo—vien vertė
+- P. S. su socialiniu įrodymu
+
+3 el. laiškas (7 diena): Konkretus panaudojimo atvejis
+- Tema: Kaip [panaši įmonė] pasiekė [rezultatas]
+- Papasakok mikro istoriją (problema → sprendimas → rezultatas)
+- Įtrauk konkrečius rodiklius
+- CTA: „Ar tai būtų aktualu jūsų įmonei?“
+
+4 el. laiškas (14 diena): Sąžiningas „atsisveikinimas“
+- Tema: „Ar man uždaryti jūsų bylą?“
+- Pripažink, kad jie užsiėmę
+- Pasiūlyk lengvą atsisakymą arba konkretų laiką susisiekti
+- Sukurk FOMO be spaudimo
+
+5 el. laiškas (21 diena): Vertingas alternatyvus pasiūlymas
+- Tema: „Paskutinis išteklius prieš išeinant“
+- Pasidalyk geriausiu turiniu (galutinis gidas/įrankis/šablonas)
+- Jokio pardavimo—tik finalinė vertė
+- Palik atviras duris: „Jei planai pasikeis, žinote, kur mane rasti“
+
+TONAS: Profesionalus, pokalbiškas, žmogiškas. Ne pardaviškas ir ne korporatyvus. Pasitikintis, bet kuklus.
+
+STILIUS:
+- Rašyk 8 klasės skaitymo lygiu aiškumui
+- Naudok „tu“ 3 kartus dažniau nei „aš“ ar „mes“
+- Sakiniai trumpesni nei 20 žodžių
+- Vienas CTA kiekviename laiške
+- Įtrauk [PERSONALIZACIJOS ŽYMES] skliaustuose
+- Formatuok mobiliajam patogiai
+
+RIBOJIMAI:
+- Kiekvienas laiškas: 75–125 žodžių (be parašo)
+- Temų eilutės: iki 50 simbolių
+- Venk frazių „just checking in“, „following up“, „circle back“, „touch base“
+- Pirmam laiškui pateik A/B testuojamą alternatyvią temą
+
+TIKSLAS: Pradėk pokalbius, o ne uždaryk sandorius. Koncentruokis į smalsumo ir pasitikėjimo kūrimą.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Tu esi B2B pardavimų tekstų kūrėjas, specializuojantis šaltuose laiškuose ir el. pašto automatizavimo sekose, pasiekiantis 25 %+ atidarymo ir 8 %+ atsakymų rodiklius.
+
+ROLĖS EKSPERTIZĖ: Supranti pirkėjų psichologiją, sprendimų priėmimo procesus techniniuose pirkimuose ir nuoseklaus, bet pagarbaus priminimo meną.
+
+UŽDUOTIS: Parašyk 5 el. laiškų seką, skirtą [pareigybės pavadinimas] [įmonės tipas], pristatant [produktas/paslauga].
+
+SEKOS STRUKTŪRA:
+
+1 el. laiškas (0 diena): „Pattern Interrupt“
+- Tema, kuri išsiskiria triukšme
+- Personalizuota pirmoji eilutė pagal [tyrimų signalą]
+- Viena aiški vertės pasiūla
+- Švelnus CTA (klausimas, o ne susitikimo prašymas)
+
+2 el. laiškas (3 diena): „Value Add“
+- Tema: nuoroda į 1 laišką
+- Pasidalyk aktualiu ištekliu (atvejo analize/gidu/duomenimis)
+- Jokio prašymo—vien vertė
+- P. S. su socialiniu įrodymu
+
+3 el. laiškas (7 diena): Konkretus panaudojimo atvejis
+- Tema: Kaip [panaši įmonė] pasiekė [rezultatas]
+- Papasakok mikro istoriją (problema → sprendimas → rezultatas)
+- Įtrauk konkrečius rodiklius
+- CTA: „Ar tai būtų aktualu jūsų įmonei?“
+
+4 el. laiškas (14 diena): Sąžiningas „atsisveikinimas“
+- Tema: „Ar man uždaryti jūsų bylą?“
+- Pripažink, kad jie užsiėmę
+- Pasiūlyk lengvą atsisakymą arba konkretų laiką susisiekti
+- Sukurk FOMO be spaudimo
+
+5 el. laiškas (21 diena): Vertingas alternatyvus pasiūlymas
+- Tema: „Paskutinis išteklius prieš išeinant“
+- Pasidalyk geriausiu turiniu (galutinis gidas/įrankis/šablonas)
+- Jokio pardavimo—tik finalinė vertė
+- Palik atviras duris: „Jei planai pasikeis, žinote, kur mane rasti“
+
+TONAS: Profesionalus, pokalbiškas, žmogiškas. Ne pardaviškas ir ne korporatyvus. Pasitikintis, bet kuklus.
+
+STILIUS:
+- Rašyk 8 klasės skaitymo lygiu aiškumui
+- Naudok „tu“ 3 kartus dažniau nei „aš“ ar „mes“
+- Sakiniai trumpesni nei 20 žodžių
+- Vienas CTA kiekviename laiške
+- Įtrauk [PERSONALIZACIJOS ŽYMES] skliaustuose
+- Formatuok mobiliajam patogiai
+
+RIBOJIMAI:
+- Kiekvienas laiškas: 75–125 žodžių (be parašo)
+- Temų eilutės: iki 50 simbolių
+- Venk frazių „just checking in“, „following up“, „circle back“, „touch base“
+- Pirmam laiškui pateik A/B testuojamą alternatyvią temą
+
+TIKSLAS: Pradėk pokalbius, o ne uždaryk sandorius. Koncentruokis į smalsumo ir pasitikėjimo kūrimą.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Advanced Prompt 16: Sisteminis promptas -->
+              <article class="prompt-card" data-keywords="sistema instrukcijos AI asistentas konfigūracija elgsena taisyklės">
+                <h3 class="prompt-card__title">🔧 Sisteminis AI asistento promptas</h3>
+                <p class="prompt-card__text">Tu esi AI sistemos architektas, specializuojantis custom asistentų kūrime ir optimizavime.
+
+UŽDUOTIS: Sukurk detalų sisteminį promptą AI asistentui, kuris veiks kaip [asistento tipas] [organizacijos/srities] kontekste.
+
+SISTEMINIO PROMPTO STRUKTŪRA:
+
+## TAPATYBĖ IR VAIDMUO
+- Apibrėžk: Kas esi? Koks tavo ekspertizės lygis?
+- Specializacija: [3-5 pagrindinės kompetencijos]
+- Ribos: Ko NEDARAI ir į ką nukreipi vartotoją
+
+## ELGSENOS TAISYKLĖS
+1. Atsakymų formatas: [struktūra, ilgis, stilius]
+2. Tonas: [formalus/draugiškas/techninis]
+3. Kalbos pasirinkimas: [pagal vartotojo kalbą/visada LT]
+4. Neaiškumų valdymas: [klausk patikslinimų/daryk prielaidas]
+
+## ŽINIŲ BAZĖ
+- Pirminiai šaltiniai: [dokumentai, DB, API]
+- Atnaujinimo dažnis: [real-time/kasdien/savaitę]
+- Patikimumas: Kai nežinai → [prisipažink/nukreipk]
+
+## SAUGUMO PROTOKOLAI
+- Draudžiami veiksmai: [sąrašas]
+- Konfidencialumas: [ką galima/negalima atskleisti]
+- Eskalavimas: Kada ir kaip perduoti žmogui
+
+## INTERAKCIJOS PAVYZDŽIAI
+✅ Geras atsakymas: [pavyzdys]
+❌ Blogas atsakymas: [pavyzdys]
+🔄 Kaip reaguoti į [specifinė situacija]
+
+## METRIKA IR OPTIMIZAVIMAS
+- Sėkmės kriterijai: [KPI]
+- Feedback mechanizmas: [kaip gauti atsiliepimus]
+
+IŠVESTIS: Pateik pilną, copy-paste paruoštą sisteminį promptą, kurį galima tiesiogiai naudoti ChatGPT Custom Instructions, Claude Projects arba API system message.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Tu esi AI sistemos architektas, specializuojantis custom asistentų kūrime ir optimizavime.
+
+UŽDUOTIS: Sukurk detalų sisteminį promptą AI asistentui, kuris veiks kaip [asistento tipas] [organizacijos/srities] kontekste.
+
+SISTEMINIO PROMPTO STRUKTŪRA:
+
+## TAPATYBĖ IR VAIDMUO
+- Apibrėžk: Kas esi? Koks tavo ekspertizės lygis?
+- Specializacija: [3-5 pagrindinės kompetencijos]
+- Ribos: Ko NEDARAI ir į ką nukreipi vartotoją
+
+## ELGSENOS TAISYKLĖS
+1. Atsakymų formatas: [struktūra, ilgis, stilius]
+2. Tonas: [formalus/draugiškas/techninis]
+3. Kalbos pasirinkimas: [pagal vartotojo kalbą/visada LT]
+4. Neaiškumų valdymas: [klausk patikslinimų/daryk prielaidas]
+
+## ŽINIŲ BAZĖ
+- Pirminiai šaltiniai: [dokumentai, DB, API]
+- Atnaujinimo dažnis: [real-time/kasdien/savaitę]
+- Patikimumas: Kai nežinai → [prisipažink/nukreipk]
+
+## SAUGUMO PROTOKOLAI
+- Draudžiami veiksmai: [sąrašas]
+- Konfidencialumas: [ką galima/negalima atskleisti]
+- Eskalavimas: Kada ir kaip perduoti žmogui
+
+## INTERAKCIJOS PAVYZDŽIAI
+✅ Geras atsakymas: [pavyzdys]
+❌ Blogas atsakymas: [pavyzdys]
+🔄 Kaip reaguoti į [specifinė situacija]
+
+## METRIKA IR OPTIMIZAVIMAS
+- Sėkmės kriterijai: [KPI]
+- Feedback mechanizmas: [kaip gauti atsiliepimus]
+
+IŠVESTIS: Pateik pilną, copy-paste paruoštą sisteminį promptą, kurį galima tiesiogiai naudoti ChatGPT Custom Instructions, Claude Projects arba API system message.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Advanced Prompt 17: Giliojo tyrimo promptas -->
+              <article class="prompt-card" data-keywords="tyrimas analizė multi-source šaltiniai verifikacija deep research mokslas">
+                <h3 class="prompt-card__title">🔬 Giliojo tyrimo metodologija</h3>
+                <p class="prompt-card__text">Tu esi vyresnysis tyrimų analitikas, turintis akademinį pagrindą ir 10+ metų patirties atliekant daugiasluoksnius rinkos, mokslo ir verslo tyrimus.
+
+UŽDUOTIS: Atlik išsamų gilųjį tyrimą tema: [tyrimo tema/klausimas].
+
+TYRIMO METODOLOGIJA (5 FAZĖS):
+
+## FAZĖ 1: APIMTIES APIBRĖŽIMAS
+- Pagrindinis tyrimo klausimas: [suformuluok aiškiai]
+- Hipotezės (2-3): [ką tikimasi rasti]
+- Ribos: [kas NEPATENKA į tyrimą]
+- Sėkmės kriterijai: [kaip žinosime, kad tyrimas sėkmingas]
+
+## FAZĖ 2: ŠALTINIŲ KARTOGRAFAVIMAS
+Surink informaciją iš skirtingų lygių:
+🏛️ Pirminiai šaltiniai: [oficiali statistika, įmonių ataskaitos, patentai]
+📊 Antriniai šaltiniai: [moksliniai straipsniai, analizės, apžvalgos]
+💬 Tretiniai šaltiniai: [ekspertų nuomonės, forumai, podcastai]
+⚡ Real-time signalai: [naujienos, socialiniai tinklai, tendencijos]
+
+## FAZĖ 3: KRYŽMINĖ VERIFIKACIJA
+Kiekvienam raktiniam teiginiui:
+- Šaltinis A tvirtina: [X]
+- Šaltinis B patvirtina/prieštarauja: [Y]
+- Patikimumo įvertis: [Aukštas/Vidutinis/Žemas]
+- Neaiškumai: [kas lieka nepatvirtinta]
+
+## FAZĖ 4: SINTEZĖ IR ĮŽVALGOS
+Struktūruota analizė:
+1. Vykdomoji santrauka (5 sakiniai)
+2. Raktiniai atradimai (5-7 punktai su įrodymais)
+3. Netikėti atradimai (kas nustebino)
+4. Prieštaravimai tarp šaltinių
+5. Žinių spragos (ko nepavyko rasti)
+
+## FAZĖ 5: REKOMENDACIJOS IR TOLIMESNI ŽINGSNIAI
+- Praktinės išvados: [3-5 veiksmų rekomendacijos]
+- Tolesni tyrimai: [kokius klausimus reikia gilinti]
+- Patikimumo deklaracija: [tyrimo limitacijos]
+
+FORMATAS: Pateik tyrimą su aiškia vizualia struktūra, numeracija ir šaltinių nuorodomis.
+
+RIBOJIMAS: Aiškiai atskirk FAKTUS nuo INTERPRETACIJŲ nuo SPĖJIMŲ.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Tu esi vyresnysis tyrimų analitikas, turintis akademinį pagrindą ir 10+ metų patirties atliekant daugiasluoksnius rinkos, mokslo ir verslo tyrimus.
+
+UŽDUOTIS: Atlik išsamų gilųjį tyrimą tema: [tyrimo tema/klausimas].
+
+TYRIMO METODOLOGIJA (5 FAZĖS):
+
+## FAZĖ 1: APIMTIES APIBRĖŽIMAS
+- Pagrindinis tyrimo klausimas: [suformuluok aiškiai]
+- Hipotezės (2-3): [ką tikimasi rasti]
+- Ribos: [kas NEPATENKA į tyrimą]
+- Sėkmės kriterijai: [kaip žinosime, kad tyrimas sėkmingas]
+
+## FAZĖ 2: ŠALTINIŲ KARTOGRAFAVIMAS
+Surink informaciją iš skirtingų lygių:
+🏛️ Pirminiai šaltiniai: [oficiali statistika, įmonių ataskaitos, patentai]
+📊 Antriniai šaltiniai: [moksliniai straipsniai, analizės, apžvalgos]
+💬 Tretiniai šaltiniai: [ekspertų nuomonės, forumai, podcastai]
+⚡ Real-time signalai: [naujienos, socialiniai tinklai, tendencijos]
+
+## FAZĖ 3: KRYŽMINĖ VERIFIKACIJA
+Kiekvienam raktiniam teiginiui:
+- Šaltinis A tvirtina: [X]
+- Šaltinis B patvirtina/prieštarauja: [Y]
+- Patikimumo įvertis: [Aukštas/Vidutinis/Žemas]
+- Neaiškumai: [kas lieka nepatvirtinta]
+
+## FAZĖ 4: SINTEZĖ IR ĮŽVALGOS
+Struktūruota analizė:
+1. Vykdomoji santrauka (5 sakiniai)
+2. Raktiniai atradimai (5-7 punktai su įrodymais)
+3. Netikėti atradimai (kas nustebino)
+4. Prieštaravimai tarp šaltinių
+5. Žinių spragos (ko nepavyko rasti)
+
+## FAZĖ 5: REKOMENDACIJOS IR TOLIMESNI ŽINGSNIAI
+- Praktinės išvados: [3-5 veiksmų rekomendacijos]
+- Tolesni tyrimai: [kokius klausimus reikia gilinti]
+- Patikimumo deklaracija: [tyrimo limitacijos]
+
+FORMATAS: Pateik tyrimą su aiškia vizualia struktūra, numeracija ir šaltinių nuorodomis.
+
+RIBOJIMAS: Aiškiai atskirk FAKTUS nuo INTERPRETACIJŲ nuo SPĖJIMŲ.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+
+              <!-- Advanced Prompt 18: Agentinis promptas -->
+              <article class="prompt-card" data-keywords="agentas autonominis workflow dekompozicija vykdymas planavimas AI chain">
+                <h3 class="prompt-card__title">🤖 Agentinis užduočių vykdymas</h3>
+                <p class="prompt-card__text">Tu esi autonominis AI agentas su planavimo, dekompozicijos ir iteratyvinio vykdymo gebėjimais.
+
+PAGRINDINĖ UŽDUOTIS: [Aprašyk kompleksinę užduotį, pvz.: „Sukurti pilną rinkodaros kampaniją naujo produkto paleidimui"]
+
+AGENTINIO VYKDYMO PROTOKOLAS:
+
+## 1. UŽDUOTIES DEKOMPOZICIJA
+Išskaidyk pagrindinę užduotį į mažesnes, vykdomas dalis:
+
+```
+MAIN_TASK: [Pagrindinis tikslas]
+├── SUBTASK_1: [Pirmas žingsnis]
+│   ├── action_1.1: [Konkretus veiksmas]
+│   ├── action_1.2: [Konkretus veiksmas]
+│   └── checkpoint_1: [Kaip patikrinti, ar atlikta]
+├── SUBTASK_2: [Antras žingsnis]
+│   └── ...
+└── SUBTASK_N: [Paskutinis žingsnis]
+```
+
+## 2. PRIKLAUSOMYBIŲ ŽEMĖLAPIS
+Apibrėžk tvarką ir ryšius:
+- [SUBTASK_1] → blokuoja → [SUBTASK_3]
+- [SUBTASK_2] → lygiagretizuojama su → [SUBTASK_1]
+- Kritinis kelias: [kurie žingsniai būtini]
+
+## 3. ĮRANKIŲ IR RESURSŲ INVENTORIUS
+Kiekvienai užduočiai:
+| Užduotis | Reikalingas įrankis | Duomenų šaltinis | Žmogaus įvestis? |
+|----------|--------------------|--------------------|------------------|
+| 1.1      | [įrankis]          | [šaltinis]         | Taip/Ne          |
+
+## 4. VYKDYMO CIKLAS (kiekvienam žingsniui)
+```
+WHILE užduotis_nebaigta:
+    1. PLANUOK: Ką darysiu šiame žingsnyje?
+    2. VYKDYK: Atlieku veiksmą
+    3. STEBĖK: Ar rezultatas atitinka lūkesčius?
+    4. REFLEKTUOK: Kas pavyko? Kas ne? Kodėl?
+    5. ADAPTUOK: Ar reikia koreguoti planą?
+    6. TĘSK arba ESKALAUK žmogui
+```
+
+## 5. KLAIDŲ VALDYMO PROTOKOLAS
+- Jei nepavyksta žingsnis X → [atsarginis planas]
+- Jei trūksta informacijos → [kaip gauti]
+- Jei pasiektas ribojimas → [eskalavik su kontekstu]
+
+## 6. PROGRESO ATASKAITŲ FORMATAS
+Po kiekvieno etapo pateik:
+✅ Atlikta: [kas padaryta]
+⏳ Vykdoma: [kas daroma dabar]
+📋 Laukia: [kas liko]
+🚧 Blokatoriai: [kas trukdo]
+💡 Įžvalgos: [ką išmokau]
+
+IŠVESTIES REIKALAVIMAS: Pradėk nuo pilno plano, tada vykdyk žingsnis po žingsnio, po kiekvieno etapo laukdamas patvirtinimo arba korekcijų. Elkis proaktyviai, bet prašyk žmogaus input ties kritiniais sprendimo taškais.</p>
+                <div class="prompt-card__actions">
+                  <button class="btn-copy" data-copy="Tu esi autonominis AI agentas su planavimo, dekompozicijos ir iteratyvinio vykdymo gebėjimais.
+
+PAGRINDINĖ UŽDUOTIS: [Aprašyk kompleksinę užduotį, pvz.: „Sukurti pilną rinkodaros kampaniją naujo produkto paleidimui"]
+
+AGENTINIO VYKDYMO PROTOKOLAS:
+
+## 1. UŽDUOTIES DEKOMPOZICIJA
+Išskaidyk pagrindinę užduotį į mažesnes, vykdomas dalis:
+
+```
+MAIN_TASK: [Pagrindinis tikslas]
+├── SUBTASK_1: [Pirmas žingsnis]
+│   ├── action_1.1: [Konkretus veiksmas]
+│   ├── action_1.2: [Konkretus veiksmas]
+│   └── checkpoint_1: [Kaip patikrinti, ar atlikta]
+├── SUBTASK_2: [Antras žingsnis]
+│   └── ...
+└── SUBTASK_N: [Paskutinis žingsnis]
+```
+
+## 2. PRIKLAUSOMYBIŲ ŽEMĖLAPIS
+Apibrėžk tvarką ir ryšius:
+- [SUBTASK_1] → blokuoja → [SUBTASK_3]
+- [SUBTASK_2] → lygiagretizuojama su → [SUBTASK_1]
+- Kritinis kelias: [kurie žingsniai būtini]
+
+## 3. ĮRANKIŲ IR RESURSŲ INVENTORIUS
+Kiekvienai užduočiai:
+| Užduotis | Reikalingas įrankis | Duomenų šaltinis | Žmogaus įvestis? |
+|----------|--------------------|--------------------|------------------|
+| 1.1      | [įrankis]          | [šaltinis]         | Taip/Ne          |
+
+## 4. VYKDYMO CIKLAS (kiekvienam žingsniui)
+```
+WHILE užduotis_nebaigta:
+    1. PLANUOK: Ką darysiu šiame žingsnyje?
+    2. VYKDYK: Atlieku veiksmą
+    3. STEBĖK: Ar rezultatas atitinka lūkesčius?
+    4. REFLEKTUOK: Kas pavyko? Kas ne? Kodėl?
+    5. ADAPTUOK: Ar reikia koreguoti planą?
+    6. TĘSK arba ESKALAUK žmogui
+```
+
+## 5. KLAIDŲ VALDYMO PROTOKOLAS
+- Jei nepavyksta žingsnis X → [atsarginis planas]
+- Jei trūksta informacijos → [kaip gauti]
+- Jei pasiektas ribojimas → [eskalavik su kontekstu]
+
+## 6. PROGRESO ATASKAITŲ FORMATAS
+Po kiekvieno etapo pateik:
+✅ Atlikta: [kas padaryta]
+⏳ Vykdoma: [kas daroma dabar]
+📋 Laukia: [kas liko]
+🚧 Blokatoriai: [kas trukdo]
+💡 Įžvalgos: [ką išmokau]
+
+IŠVESTIES REIKALAVIMAS: Pradėk nuo pilno plano, tada vykdyk žingsnis po žingsnio, po kiekvieno etapo laukdamas patvirtinimo arba korekcijų. Elkis proaktyviai, bet prašyk žmogaus input ties kritiniais sprendimo taškais.">
+                    <span>📋</span> Kopijuoti
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resources">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Papildomi ištekliai</h2>
+          <p class="section__subtitle">Įrankiai ir gidai, padedantys maksimaliai išnaudoti DI jūsų kasdieniuose procesuose.</p>
+        </div>
+        <div class="resources__grid">
+          <article class="card">
+            <!-- replace: {{RESOURCE1_TITLE}} -->
+            <h3 class="card__title">Geriausia praktinių užduočių praktika</h3>
+            <!-- replace: {{RESOURCE1_TEXT}} -->
+            <p class="card__text">Sužinokite, kaip kurti efektyvias praktines užduotis ir gauti geresnių rezultatų iš tokių DI įrankių kaip ChatGPT.</p>
+            <a class="button" href="#">Sužinoti daugiau</a>
+          </article>
+
+          <article class="card">
+            <!-- replace: {{RESOURCE2_TITLE}} -->
+            <h3 class="card__title">Šablonų biblioteka</h3>
+            <!-- replace: {{RESOURCE2_TEXT}} -->
+            <p class="card__text">Atsisiųskite parengtus el. laiškų ir dokumentų šablonus dažniausioms verslo situacijoms.</p>
+            <a class="button" href="#">Atsisiųsti</a>
+          </article>
+
+          <article class="card">
+            <!-- replace: {{RESOURCE3_TITLE}} -->
+            <h3 class="card__title">Vaizdo pamokos</h3>
+            <!-- replace: {{RESOURCE3_TEXT}} -->
+            <p class="card__text">Peržiūrėkite žingsnis po žingsnio vaizdo gidus, kaip efektyviai naudoti DI įrankius jūsų skyriuje.</p>
+            <a class="button" href="#">Žiūrėti dabar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Grįžti į viršų">
+    ↑
+  </button>
+
+  <footer id="contact">
+    <div class="container">
+      <h2 class="footer__title">Susisiekite</h2>
+      <p class="helper">Turite pasiūlymų naujiems praktiniams uždaviniams? Parašykite! (Forma tikrina duomenis, bet jų neišsiunčia.)</p>
+      
+      <div id="form-success" class="form__success" role="alert" aria-live="polite" tabindex="-1">
+        ✓ Ačiū! Jūsų žinutė sėkmingai patikrinta. (Duomenys nebuvo išsiųsti—tai demonstracija.)
+      </div>
+
+      <form id="contact-form" class="form" novalidate>
+        <div class="form__row">
+          <label class="form__label" for="name">Vardas</label>
+          <input class="form__input" id="name" name="name" type="text" autocomplete="name" placeholder="Jūsų vardas" required aria-describedby="name-error">
+          <div class="form__error" id="name-error" aria-live="polite"></div>
+        </div>
+
+        <div class="form__row">
+          <label class="form__label" for="email">El. paštas</label>
+          <input class="form__input" id="email" name="email" type="email" autocomplete="email" placeholder="jūsų.el.paštas@example.com" required aria-describedby="email-error">
+          <div class="form__error" id="email-error" aria-live="polite"></div>
+        </div>
+
+        <div class="form__row">
+          <label class="form__label" for="message">Pasiūlymas</label>
+          <textarea class="form__textarea" id="message" name="message" rows="5" placeholder="Kokias praktines užduotis norėtumėte?" required minlength="10" aria-describedby="message-error"></textarea>
+          <div class="form__error" id="message-error" aria-live="polite"></div>
+        </div>
+
+        <div class="form__actions">
+          <button class="button" type="submit">Siųsti pasiūlymą</button>
+          <button class="button button--secondary" type="reset">Išvalyti</button>
+        </div>
+      </form>
+    </div>
+  </footer>
+
+  <!-- Mobile bottom bar -->
+  <div class="mobile-bottom-bar">
+    <button id="mobile-search-btn" class="mobile-bottom-bar__btn">
+      <span>🔍</span> Ieškoti
+    </button>
+    <button id="mobile-sections-btn" class="mobile-bottom-bar__btn">
+      <span>📂</span> Skyriai
+    </button>
+  </div>
+
+  <!-- Mobile search modal -->
+  <div id="mobile-search-modal" class="mobile-search-modal">
+    <div class="mobile-search-modal__content">
+      <input 
+        type="search" 
+        id="mobile-search-input" 
+        class="search-input" 
+        placeholder="🔍 Ieškokite..."
+        aria-label="Mobili paieška">
+      <button class="mobile-search-close" onclick="closeMobileSearch()">Uždaryti</button>
+    </div>
+  </div>
+
+  <!-- Keyboard hint -->
+  <div class="keyboard-hint">
+    Spauskite <kbd>/</kbd> paieškai
+  </div>
+  
+  <!-- External JavaScript (Enhanced P2 version) -->
+  <script src="../legacy-js/app-enhanced.js" defer></script>
+</body>
+</html>

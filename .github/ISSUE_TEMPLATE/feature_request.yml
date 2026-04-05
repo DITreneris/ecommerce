@@ -1,0 +1,25 @@
+name: Pasiūlymas (feature)
+description: Idėja naujai funkcijai ar patobulinimui
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema ar poreikis
+      description: Ką vartotojas nori pasiekti? Kokia šiandien skausmo taškas?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Siūlomas sprendimas
+      description: Kaip galėtų atrodyti elgsena ar UI?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Apimtis / pastabos
+      description: LT ir EN versija? Tik mobile? Nuorodos į panašius projektus?
+    validations:
+      required: false
