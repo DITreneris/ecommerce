@@ -2,7 +2,7 @@
 
 ## Produkto esmė
 
-**DI Promptų biblioteka e-komercijai (Spin-off Nr. 8)** — statinė svetainė su kopijuojamais DI promptais (~107 užduotys). Įėjimas: šaknies **`index.html`** nukreipia į **`lt/`**, **`en/`**, **`et/`** arba **`lv/`** (`localStorage` **`prompt-library-lang`**, tada naršyklės kalba; numatytoji — **`en/`**). Logika: **`assets/js/app.js`** (fetch + render), stiliai **`assets/css/styles.css`**, duomenys **`assets/data/prompts.{lt,en,et,lv}.json`**.
+**DI Promptų biblioteka e-komercijai (Spin-off Nr. 8)** — statinė svetainė su kopijuojamais DI promptais (~107 užduotys). Pagrindinis UX tikslas: kad lankytojas **greitai rastų tinkamą užduotį** (paieška / skyriai) ir **suprastų naudojimą** (hero + `#guide` + `#library` antraštė). Gili nuoroda: **`?prompt=<id>`** / **`#prompt-<id>`**; paieška su keliais žodžiais — AND; įkėlimo klaida — pakartotinis bandymas. Įėjimas: šaknies **`index.html`** nukreipia į **`lt/`**, **`en/`**, **`et/`** arba **`lv/`** (`localStorage` **`prompt-library-lang`**, tada naršyklės kalba; numatytoji — **`en/`**). Logika: **`assets/js/app.js`** (fetch + render), stiliai **`assets/css/styles.css`**, duomenys **`assets/data/prompts.{lt,en,et,lv}.json`**.
 
 ## Tech stack
 
@@ -16,7 +16,7 @@
 | ------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | UI, paieška, kopijavimas, modalai, i18n eilutės   | `assets/js/app.js`, `assets/css/styles.css`                                            |
 | Promptų tekstai / struktūra                       | `assets/data/prompts.lt.json`, `prompts.en.json`, `prompts.et.json`, `prompts.lv.json` |
-| LT / EN / ET / LV puslapiai (hero, footer, forma) | `lt/index.html`, `en/index.html`, `et/index.html`, `lv/index.html`                     |
+| LT / EN / ET / LV puslapiai (hero, `#library`, footer, forma) | `lt/index.html`, `en/index.html`, `et/index.html`, `lv/index.html`                     |
 | Kalbų keliai                                      | `docs/MULTILINGUAL_STRUCTURE.md`                                                       |
 | Dokumentacija, užduotys                           | `README.md`, `TODO.md`, `CHANGELOG.md`, `docs/DOCUMENTATION.md`                        |
 | UI/UX auditas prieš release                       | `docs/UI_UX_AUDIT_CHECKLIST.md`                                                        |

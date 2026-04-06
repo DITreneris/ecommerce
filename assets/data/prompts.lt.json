@@ -13,13 +13,7 @@
           "title": "El. laiškas klientui",
           "text": "Parašyk aiškų, draugišką el. laišką klientui, besidominčiam [produktas]. Paaiškink pagrindinius privalumus ir pasiūlyk tinkamų alternatyvų.",
           "copyText": "Parašyk aiškų, draugišką el. laišką klientui, besidominčiam [produktas]. Paaiškink pagrindinius privalumus ir pasiūlyk tinkamų alternatyvų.",
-          "keywords": [
-            "el.",
-            "laiškas",
-            "klientas",
-            "produktas",
-            "privalumai"
-          ],
+          "keywords": ["el.", "laiškas", "klientas", "produktas", "privalumai"],
           "category": "start"
         },
         {
@@ -27,12 +21,7 @@
           "title": "SEO produkto aprašymas",
           "text": "Parašyk 120 žodžių SEO optimizuotą [produktas] aprašymą su pagrindiniais paieškos terminais.",
           "copyText": "Parašyk 120 žodžių SEO optimizuotą [produktas] aprašymą su pagrindiniais paieškos terminais.",
-          "keywords": [
-            "seo",
-            "aprašymas",
-            "produktas",
-            "raktažodžiai"
-          ],
+          "keywords": ["seo", "aprašymas", "produktas", "raktažodžiai"],
           "category": "start"
         },
         {
@@ -40,12 +29,7 @@
           "title": "Mėnesinė ataskaita",
           "text": "Sugeneruok trumpą vadovybės ataskaitą, parodančią mėnesinių pardavimų pokyčius, naudojant šiuos duomenis: [įklijuokite CSV].",
           "copyText": "Sugeneruok trumpą vadovybės ataskaitą, parodančią mėnesinių pardavimų pokyčius, naudojant šiuos duomenis: [įklijuokite CSV].",
-          "keywords": [
-            "ataskaita",
-            "pardavimai",
-            "mėnesinis",
-            "duomenys"
-          ],
+          "keywords": ["ataskaita", "pardavimai", "mėnesinis", "duomenys"],
           "category": "start"
         }
       ]
@@ -54,18 +38,14 @@
       "id": "sales",
       "name": "Pardavimai",
       "icon": "💼",
-      "count": 19,
+      "count": 18,
       "prompts": [
         {
           "id": 4,
           "title": "Pasiūlymo perrašymas",
           "text": "Perrašyk šį pasiūlymą, kad jis būtų trumpesnis, profesionalesnis ir aiškesnis: [įklijuokite tekstą].",
           "copyText": "Perrašyk šį pasiūlymą, kad jis būtų trumpesnis, profesionalesnis ir aiškesnis: [įklijuokite tekstą].",
-          "keywords": [
-            "pasiūlymas",
-            "perrašyti",
-            "profesionalu"
-          ],
+          "keywords": ["pasiūlymas", "perrašyti", "profesionalu"],
           "category": "sales"
         },
         {
@@ -73,11 +53,7 @@
           "title": "DUK kūrimas",
           "text": "Sukurk 5 dažniausiai užduodamų klausimų (DUK) ir atsakymų sąrašą apie [produkto kategorija].",
           "copyText": "Sukurk 5 dažniausiai užduodamų klausimų (DUK) ir atsakymų sąrašą apie [produkto kategorija].",
-          "keywords": [
-            "duk",
-            "klausimai",
-            "atsakymai"
-          ],
+          "keywords": ["duk", "faq", "klausimai", "atsakymai"],
           "category": "sales"
         },
         {
@@ -85,11 +61,7 @@
           "title": "Žinutė pereinantiems nuo konkurento",
           "text": "Paruošk trumpą žinutę klientui, svarstančiam pereiti nuo konkurento [X] prie mūsų sprendimo.",
           "copyText": "Paruošk trumpą žinutę klientui, svarstančiam pereiti nuo konkurento [X] prie mūsų sprendimo.",
-          "keywords": [
-            "konkurentas",
-            "perėjimas",
-            "žinutė"
-          ],
+          "keywords": ["konkurentas", "perėjimas", "žinutė"],
           "category": "sales"
         },
         {
@@ -97,11 +69,7 @@
           "title": "Komercinio pasiūlymo struktūra",
           "text": "Sukurk profesionalaus komercinio pasiūlymo struktūrą [klientas/projektas]. Įtrauk: vykdomoji santrauka, problemos aprašymą, sprendimą, privalumus, kainodarą, įgyvendinimo planą, garantijas, CTA. Optimizuok persvadymui ir greitam sprendimui.",
           "copyText": "Sukurk profesionalaus komercinio pasiūlymo struktūrą [klientas/projektas]. Įtrauk: vykdomoji santrauka, problemos aprašymą, sprendimą, privalumus, kainodarą, įgyvendinimo planą, garantijas, CTA. Optimizuok persvadymui ir greitam sprendimui.",
-          "keywords": [
-            "pasiūlymas",
-            "komercinis",
-            "offer"
-          ],
+          "keywords": ["pasiūlymas", "komercinis", "offer"],
           "category": "sales"
         },
         {
@@ -109,11 +77,7 @@
           "title": "Objekcijų atsakymų gidas",
           "text": "Sukurk objekcijų atsakymų gidą [produktas/paslauga]. Kiekvienai objekcijai (kaina, laikas, patikimumas, konkurentai) pateik: objekcijos supratimą, empatišką atsakymą, sprendimą/alternatyvą, socialinį įrodymą. Naudok natūralią, neagresyvią kalbą.",
           "copyText": "Sukurk objekcijų atsakymų gidą [produktas/paslauga]. Kiekvienai objekcijai (kaina, laikas, patikimumas, konkurentai) pateik: objekcijos supratimą, empatišką atsakymą, sprendimą/alternatyvą, socialinį įrodymą. Naudok natūralią, neagresyvią kalbą.",
-          "keywords": [
-            "objekcijos",
-            "atsakymai",
-            "prieštaravimai"
-          ],
+          "keywords": ["objekcijos", "atsakymai", "prieštaravimai", "pardavimai"],
           "category": "sales"
         },
         {
@@ -121,13 +85,7 @@
           "title": "RFQ (pasiūlymo užklausos) šablonas",
           "text": "Sukurk profesionalią RFQ dėl [Produktas/Komponentas] tiekėjams. Įtrauk: produkto specifikacijas, reikalingą kiekį, pristatymo terminą, kokybės reikalavimus, apmokėjimo sąlygas ir vertinimo kriterijus. Suformatuok kaip verslo el. laišką.",
           "copyText": "Sukurk profesionalią RFQ dėl [Produktas/Komponentas] tiekėjams. Įtrauk: produkto specifikacijas, reikalingą kiekį, pristatymo terminą, kokybės reikalavimus, apmokėjimo sąlygas ir vertinimo kriterijus. Suformatuok kaip verslo el. laišką.",
-          "keywords": [
-            "rfq",
-            "pasiūlymo",
-            "užklausa",
-            "šablonas",
-            "konkursas"
-          ],
+          "keywords": ["rfq", "pasiūlymo", "užklausa", "šablonas", "konkursas"],
           "category": "sales"
         },
         {
@@ -135,12 +93,7 @@
           "title": "Grąžinimų (RMA) apdorojimo vadovas",
           "text": "Parengk grąžinimo apdorojimo procedūrą RMA #[numeris]. Užfiksuok: grąžinimo priežastį, produkto būklės įvertinimą, kokybės kontrolės žingsnius, grąžinimo/keitimo sprendimo kriterijus ir grąžinimo į sandėlį instrukcijas. Įtrauk kliento komunikacijos šabloną.",
           "copyText": "Parengk grąžinimo apdorojimo procedūrą RMA #[numeris]. Užfiksuok: grąžinimo priežastį, produkto būklės įvertinimą, kokybės kontrolės žingsnius, grąžinimo/keitimo sprendimo kriterijus ir grąžinimo į sandėlį instrukcijas. Įtrauk kliento komunikacijos šabloną.",
-          "keywords": [
-            "grąžinimai",
-            "rma",
-            "kokybė",
-            "procesas"
-          ],
+          "keywords": ["grąžinimai", "rma", "kokybė", "procesas"],
           "category": "sales"
         },
         {
@@ -148,12 +101,7 @@
           "title": "Produktų palyginimo lentelė",
           "text": "Sukurk [Produktas 1] vs [Produktas 2] vs [Produktas 3] palyginimo lentelę. Palygink: pagrindines specifikacijas, kainą, funkcijas, tinkamiausius naudojimo atvejus, privalumus ir trūkumus. Suformatuok kaip HTML lentelę su aiškia vizualine hierarchija. Padėk klientams priimti informuotą sprendimą.",
           "copyText": "Sukurk [Produktas 1] vs [Produktas 2] vs [Produktas 3] palyginimo lentelę. Palygink: pagrindines specifikacijas, kainą, funkcijas, tinkamiausius naudojimo atvejus, privalumus ir trūkumus. Suformatuok kaip HTML lentelę su aiškia vizualine hierarchija. Padėk klientams priimti informuotą sprendimą.",
-          "keywords": [
-            "produktų",
-            "palyginimas",
-            "lentelė",
-            "specifikacijos"
-          ],
+          "keywords": ["produktų", "palyginimas", "lentelė", "specifikacijos"],
           "category": "sales"
         },
         {
@@ -161,13 +109,7 @@
           "title": "Apleisto krepšelio el. laiškų serija",
           "text": "Sukurk 3 el. laiškų seką apleistam krepšeliui. 1 el. laiškas (po 1 val.): draugiškas priminimas + produktų nuotraukos. 2 el. laiškas (po 24 val.): pridėk socialinį įrodymą ir skubos elementą. 3 el. laiškas (po 48 val.): paskutinė galimybė su nedidele nuolaida. Išlaikyk draugišką, neįkyrų toną.",
           "copyText": "Sukurk 3 el. laiškų seką apleistam krepšeliui. 1 el. laiškas (po 1 val.): draugiškas priminimas + produktų nuotraukos. 2 el. laiškas (po 24 val.): pridėk socialinį įrodymą ir skubos elementą. 3 el. laiškas (po 48 val.): paskutinė galimybė su nedidele nuolaida. Išlaikyk draugišką, neįkyrų toną.",
-          "keywords": [
-            "el.",
-            "laiškas",
-            "apleistas",
-            "krepšelis",
-            "konversija"
-          ],
+          "keywords": ["el.", "laiškas", "apleistas", "krepšelis", "konversija"],
           "category": "sales"
         },
         {
@@ -175,26 +117,7 @@
           "title": "Produkto puslapio konversijos optimizacija",
           "text": "Sukurk produkto puslapio optimizacijos planą [produktas]. Įtrauk: hero sekcijos patobulinimus, produkto aprašymo struktūrą, vaizdų strategiją, socialinio įrodymo elementus, CTA optimizaciją, trust signals, mobile optimizaciją. Pateik prioritetus ir tikėtiną poveikį.",
           "copyText": "Sukurk produkto puslapio optimizacijos planą [produktas]. Įtrauk: hero sekcijos patobulinimus, produkto aprašymo struktūrą, vaizdų strategiją, socialinio įrodymo elementus, CTA optimizaciją, trust signals, mobile optimizaciją. Pateik prioritetus ir tikėtiną poveikį.",
-          "keywords": [
-            "konversijos",
-            "optimizacija",
-            "CRO",
-            "puslapis"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 38,
-          "title": "Spalvų paletės rekomendacija",
-          "text": "Pasiūlyk spalvų paletę [projekto/įmonės] tipui. Įtrauk: pagrindinę spalvą (hex kodas), antrines spalvas, akcentines spalvas, neutralias spalvas. Paaiškink psichologinį poveikį kiekvienos spalvos ir kaip jos veikia kartu. Pateik pavyzdžius, kur naudoti kiekvieną spalvą.",
-          "copyText": "Pasiūlyk spalvų paletę [projekto/įmonės] tipui. Įtrauk: pagrindinę spalvą (hex kodas), antrines spalvas, akcentines spalvas, neutralias spalvas. Paaiškink psichologinį poveikį kiekvienos spalvos ir kaip jos veikia kartu. Pateik pavyzdžius, kur naudoti kiekvieną spalvą.",
-          "keywords": [
-            "spalvų",
-            "paletė",
-            "brand",
-            "spalvos",
-            "psichologija"
-          ],
+          "keywords": ["konversijos", "optimizacija", "CRO", "puslapis"],
           "category": "sales"
         },
         {
@@ -202,11 +125,7 @@
           "title": "Katalogo įžanga",
           "text": "Parašyk 120 žodžių profesionalią ir aiškią produkto katalogo įžangą.",
           "copyText": "Parašyk 120 žodžių profesionalią ir aiškią produkto katalogo įžangą.",
-          "keywords": [
-            "katalogas",
-            "įžanga",
-            "profesionalu"
-          ],
+          "keywords": ["katalogas", "įžanga", "profesionalu"],
           "category": "sales"
         },
         {
@@ -214,12 +133,7 @@
           "title": "Pranešimo spaudai juodraštis",
           "text": "Parašyk pranešimo spaudai juodraštį apie [Įmonės naujiena/Produkto pristatymas]. Struktūra: antraštė, data ir vieta, įvadinis paragrafas (kas/ką/kada/kur/kodėl), pagrindinė dalis su citatomis, įmonės aprašas ir kontaktinė informacija. Tona: naujieninė, faktinė, profesionali. Tikslas: pramonės žiniasklaida.",
           "copyText": "Parašyk pranešimo spaudai juodraštį apie [Įmonės naujiena/Produkto pristatymas]. Struktūra: antraštė, data ir vieta, įvadinis paragrafas (kas/ką/kada/kur/kodėl), pagrindinė dalis su citatomis, įmonės aprašas ir kontaktinė informacija. Tona: naujieninė, faktinė, profesionali. Tikslas: pramonės žiniasklaida.",
-          "keywords": [
-            "pranešimas",
-            "spaudai",
-            "pranešimas",
-            "žiniasklaidai"
-          ],
+          "keywords": ["pranešimas", "spaudai", "pranešimas", "žiniasklaidai"],
           "category": "sales"
         },
         {
@@ -227,13 +141,7 @@
           "title": "LinkedIn įrašų serija",
           "text": "Sukurk 5 LinkedIn įrašus apie [tema/pramonės tendencija] B2B auditorijai. Sumaišyk formatus: 1) klausimas/apklausa, 2) trumpas patarimas karuselės struktūrai, 3) asmeninė istorija ar atvejo analizė, 4) pramonės įžvalga ar duomenys, 5) instrukcija „kaip tai padaryti“. Įtrauk grotažymių strategiją ir publikavimo grafiką.",
           "copyText": "Sukurk 5 LinkedIn įrašus apie [tema/pramonės tendencija] B2B auditorijai. Sumaišyk formatus: 1) klausimas/apklausa, 2) trumpas patarimas karuselės struktūrai, 3) asmeninė istorija ar atvejo analizė, 4) pramonės įžvalga ar duomenys, 5) instrukcija „kaip tai padaryti“. Įtrauk grotažymių strategiją ir publikavimo grafiką.",
-          "keywords": [
-            "linkedin",
-            "įrašas",
-            "b2b",
-            "profesionalu",
-            "lyderystė"
-          ],
+          "keywords": ["linkedin", "įrašas", "b2b", "profesionalu", "lyderystė"],
           "category": "sales"
         },
         {
@@ -241,13 +149,7 @@
           "title": "Produkto vaizdo įrašo scenarijus",
           "text": "Parašyk 90 sekundžių produkto vaizdo įrašo scenarijų [produktas]. Įtrauk: kablį (pirmos 5 sek.), problemos pristatymą, sprendimo demonstraciją, pagrindines funkcijas (iki 3), naudą, socialinį įrodymą ir CTA. Suformatuok su laiko žymomis, įgarsinimo tekstu ir vaizdinėmis pastabomis. Tikslas: YouTube ir socialiniai tinklai.",
           "copyText": "Parašyk 90 sekundžių produkto vaizdo įrašo scenarijų [produktas]. Įtrauk: kablį (pirmos 5 sek.), problemos pristatymą, sprendimo demonstraciją, pagrindines funkcijas (iki 3), naudą, socialinį įrodymą ir CTA. Suformatuok su laiko žymomis, įgarsinimo tekstu ir vaizdinėmis pastabomis. Tikslas: YouTube ir socialiniai tinklai.",
-          "keywords": [
-            "video",
-            "scenarijus",
-            "youtube",
-            "pamoka",
-            "paaiškinimas"
-          ],
+          "keywords": ["video", "scenarijus", "youtube", "demo", "paaiškinimas"],
           "category": "sales"
         },
         {
@@ -255,12 +157,7 @@
           "title": "GTD metodas - užduočių organizavimas",
           "text": "Organizuok užduotis [įklijuokite užduotis] naudojant GTD (Getting Things Done) metodą. Kategorijos: 1) Daryk dabar (2 min arba mažiau), 2) Deleguok (kam ir kada), 3) Atidėk (kada ir kaip priminti), 4) Archyvas (informacija be veiksmų). Kiekvienai kategorijai sukurk veiksmų planą ir sekimo sistemą.",
           "copyText": "Organizuok užduotis [įklijuokite užduotis] naudojant GTD (Getting Things Done) metodą. Kategorijos: 1) Daryk dabar (2 min arba mažiau), 2) Deleguok (kam ir kada), 3) Atidėk (kada ir kaip priminti), 4) Archyvas (informacija be veiksmų). Kiekvienai kategorijai sukurk veiksmų planą ir sekimo sistemą.",
-          "keywords": [
-            "gtd",
-            "metodas",
-            "organizavimas",
-            "užduotys"
-          ],
+          "keywords": ["gtd", "metodas", "organizavimas", "užduotys"],
           "category": "sales"
         },
         {
@@ -268,12 +165,7 @@
           "title": "Kanban lentos struktūra",
           "text": "Sukurk Kanban lentos struktūrą [projektas/komanda]. Įtrauk: stulpelius (Parengta, Daroma, Peržiūrima, Atlikta), užduotis su prioritetais, atsakingus asmenis, terminus, blokavimo veiksnius. Optimizuok vizualizacijai ir srautui. Pateik kaip struktūruotą planą, kurį galima naudoti Trello, Asana ar kitose platformose.",
           "copyText": "Sukurk Kanban lentos struktūrą [projektas/komanda]. Įtrauk: stulpelius (Parengta, Daroma, Peržiūrima, Atlikta), užduotis su prioritetais, atsakingus asmenis, terminus, blokavimo veiksnius. Optimizuok vizualizacijai ir srautui. Pateik kaip struktūruotą planą, kurį galima naudoti Trello, Asana ar kitose platformose.",
-          "keywords": [
-            "kanban",
-            "lenta",
-            "projektas",
-            "užduotys"
-          ],
+          "keywords": ["kanban", "lenta", "projektas", "užduotys"],
           "category": "sales"
         },
         {
@@ -281,14 +173,7 @@
           "title": "🎯 Kliento kelionės optimizavimas",
           "text": "Tu esi UX tyrėjas ir klientų patirties strategas, besispecializuojantis B2B el. komercijos platformose.\n\nROLĖS KONTEKSTAS: Esi padėjęs daugiau nei 50 įmonių optimizuoti klientų įsitraukimo procesus, sumažindamas atkritimą vidutiniškai 32 %.\n\nUŽDUOTIS: Išanalizuok mūsų dabartinę klientų kelionę [klientų segmentas] ir nustatyk trinties taškus šiuose etapuose:\n- Paieška ir tyrimas\n- Paskyros sukūrimas ir pirmasis pirkimas\n- Po pirkimo ir pagalba\n- Pakartotinis pirkimas ir lojalumas\n\nFORMATAS: Sukurk išsamų kelionės žemėlapį su:\n1. Laiko juosta (kiekvieno etapo vizualus aprašymas)\n2. Kliento veiksmai kiekviename sąlyčio taške\n3. Emocijos ir skausmo taškai (3–5 kiekviename etape)\n4. Tobulinimo galimybės (reitinguotos pagal poveikį/pastangas)\n5. Greitos pergalės (įgyvendinamos per 2 savaites)\n\nTONAS: Empatiškas klientams, konstruktyvus vidinėms komandoms, skatinantis veikti\n\nSTILIUS: Pasitelk pasakojimą kliento perspektyvai iliustruoti. Įtrauk:\n- tikras klientų citatas arba realistiškus pavyzdžius\n- emocinę kalbą aprašant skausmo taškus\n- duomenimis paremtas rekomendacijas (net jei procentai hipotetiniai)\n- vizualines metaforas, padedančias konkretizuoti abstrakčias idėjas\n\nREZULTATO REIKALAVIMAI:\n- Klientų citatos pateikiamos „“ kabutėse\n- Skausmo taškai pažymėti ⚠️\n- Galimybės pažymėtos 💡\n- Greitos pergalės pažymėtos ⚡\n\nTIKSLAS: Sudaryk sąlygas komandai kitame sprinte įgyvendinti bent 3 patobulinimus, kurie matomai pagerins klientų pasitenkinimo rodiklius.",
           "copyText": "Tu esi UX tyrėjas ir klientų patirties strategas, besispecializuojantis B2B el. komercijos platformose.\n\nROLĖS KONTEKSTAS: Esi padėjęs daugiau nei 50 įmonių optimizuoti klientų įsitraukimo procesus, sumažindamas atkritimą vidutiniškai 32 %.\n\nUŽDUOTIS: Išanalizuok mūsų dabartinę klientų kelionę [klientų segmentas] ir nustatyk trinties taškus šiuose etapuose:\n- Paieška ir tyrimas\n- Paskyros sukūrimas ir pirmasis pirkimas\n- Po pirkimo ir pagalba\n- Pakartotinis pirkimas ir lojalumas\n\nFORMATAS: Sukurk išsamų kelionės žemėlapį su:\n1. Laiko juosta (kiekvieno etapo vizualus aprašymas)\n2. Kliento veiksmai kiekviename sąlyčio taške\n3. Emocijos ir skausmo taškai (3–5 kiekviename etape)\n4. Tobulinimo galimybės (reitinguotos pagal poveikį/pastangas)\n5. Greitos pergalės (įgyvendinamos per 2 savaites)\n\nTONAS: Empatiškas klientams, konstruktyvus vidinėms komandoms, skatinantis veikti\n\nSTILIUS: Pasitelk pasakojimą kliento perspektyvai iliustruoti. Įtrauk:\n- tikras klientų citatas arba realistiškus pavyzdžius\n- emocinę kalbą aprašant skausmo taškus\n- duomenimis paremtas rekomendacijas (net jei procentai hipotetiniai)\n- vizualines metaforas, padedančias konkretizuoti abstrakčias idėjas\n\nREZULTATO REIKALAVIMAI:\n- Klientų citatos pateikiamos „“ kabutėse\n- Skausmo taškai pažymėti ⚠️\n- Galimybės pažymėtos 💡\n- Greitos pergalės pažymėtos ⚡\n\nTIKSLAS: Sudaryk sąlygas komandai kitame sprinte įgyvendinti bent 3 patobulinimus, kurie matomai pagerins klientų pasitenkinimo rodiklius.",
-          "keywords": [
-            "kliento",
-            "kelionė",
-            "onboarding",
-            "patirtis",
-            "skausmo",
-            "taškai"
-          ],
+          "keywords": ["kliento", "kelionė", "onboarding", "patirtis", "skausmo", "taškai"],
           "category": "sales"
         },
         {
@@ -296,14 +181,7 @@
           "title": "🎯 Daugkartinė pardavimų el. laiškų seka",
           "text": "Tu esi B2B pardavimų tekstų kūrėjas, specializuojantis šaltuose laiškuose ir el. pašto automatizavimo sekose, pasiekiantis 25 %+ atidarymo ir 8 %+ atsakymų rodiklius.\n\nROLĖS EKSPERTIZĖ: Supranti pirkėjų psichologiją, sprendimų priėmimo procesus techniniuose pirkimuose ir nuoseklaus, bet pagarbaus priminimo meną.\n\nUŽDUOTIS: Parašyk 5 el. laiškų seką, skirtą [pareigybės pavadinimas] [įmonės tipas], pristatant [produktas/paslauga].\n\nSEKOS STRUKTŪRA:\n\n1 el. laiškas (0 diena): „Pattern Interrupt“\n- Tema, kuri išsiskiria triukšme\n- Personalizuota pirmoji eilutė pagal [tyrimų signalą]\n- Viena aiški vertės pasiūla\n- Švelnus CTA (klausimas, o ne susitikimo prašymas)\n\n2 el. laiškas (3 diena): „Value Add“\n- Tema: nuoroda į 1 laišką\n- Pasidalyk aktualiu ištekliu (atvejo analize/gidu/duomenimis)\n- Jokio prašymo—vien vertė\n- P. S. su socialiniu įrodymu\n\n3 el. laiškas (7 diena): Konkretus panaudojimo atvejis\n- Tema: Kaip [panaši įmonė] pasiekė [rezultatas]\n- Papasakok mikro istoriją (problema → sprendimas → rezultatas)\n- Įtrauk konkrečius rodiklius\n- CTA: „Ar tai būtų aktualu jūsų įmonei?“\n\n4 el. laiškas (14 diena): Sąžiningas „atsisveikinimas“\n- Tema: „Ar man uždaryti jūsų bylą?“\n- Pripažink, kad jie užsiėmę\n- Pasiūlyk lengvą atsisakymą arba konkretų laiką susisiekti\n- Sukurk FOMO be spaudimo\n\n5 el. laiškas (21 diena): Vertingas alternatyvus pasiūlymas\n- Tema: „Paskutinis išteklius prieš išeinant“\n- Pasidalyk geriausiu turiniu (galutinis gidas/įrankis/šablonas)\n- Jokio pardavimo—tik finalinė vertė\n- Palik atviras duris: „Jei planai pasikeis, žinote, kur mane rasti“\n\nTONAS: Profesionalus, pokalbiškas, žmogiškas. Ne pardaviškas ir ne korporatyvus. Pasitikintis, bet kuklus.\n\nSTILIUS:\n- Rašyk 8 klasės skaitymo lygiu aiškumui\n- Naudok „tu“ 3 kartus dažniau nei „aš“ ar „mes“\n- Sakiniai trumpesni nei 20 žodžių\n- Vienas CTA kiekviename laiške\n- Įtrauk [PERSONALIZACIJOS ŽYMES] skliaustuose\n- Formatuok mobiliajam patogiai\n\nRIBOJIMAI:\n- Kiekvienas laiškas: 75–125 žodžių (be parašo)\n- Temų eilutės: iki 50 simbolių\n- Venk frazių „just checking in“, „following up“, „circle back“, „touch base“\n- Pirmam laiškui pateik A/B testuojamą alternatyvią temą\n\nTIKSLAS: Pradėk pokalbius, o ne uždaryk sandorius. Koncentruokis į smalsumo ir pasitikėjimo kūrimą.",
           "copyText": "Tu esi B2B pardavimų tekstų kūrėjas, specializuojantis šaltuose laiškuose ir el. pašto automatizavimo sekose, pasiekiantis 25 %+ atidarymo ir 8 %+ atsakymų rodiklius.\n\nROLĖS EKSPERTIZĖ: Supranti pirkėjų psichologiją, sprendimų priėmimo procesus techniniuose pirkimuose ir nuoseklaus, bet pagarbaus priminimo meną.\n\nUŽDUOTIS: Parašyk 5 el. laiškų seką, skirtą [pareigybės pavadinimas] [įmonės tipas], pristatant [produktas/paslauga].\n\nSEKOS STRUKTŪRA:\n\n1 el. laiškas (0 diena): „Pattern Interrupt“\n- Tema, kuri išsiskiria triukšme\n- Personalizuota pirmoji eilutė pagal [tyrimų signalą]\n- Viena aiški vertės pasiūla\n- Švelnus CTA (klausimas, o ne susitikimo prašymas)\n\n2 el. laiškas (3 diena): „Value Add“\n- Tema: nuoroda į 1 laišką\n- Pasidalyk aktualiu ištekliu (atvejo analize/gidu/duomenimis)\n- Jokio prašymo—vien vertė\n- P. S. su socialiniu įrodymu\n\n3 el. laiškas (7 diena): Konkretus panaudojimo atvejis\n- Tema: Kaip [panaši įmonė] pasiekė [rezultatas]\n- Papasakok mikro istoriją (problema → sprendimas → rezultatas)\n- Įtrauk konkrečius rodiklius\n- CTA: „Ar tai būtų aktualu jūsų įmonei?“\n\n4 el. laiškas (14 diena): Sąžiningas „atsisveikinimas“\n- Tema: „Ar man uždaryti jūsų bylą?“\n- Pripažink, kad jie užsiėmę\n- Pasiūlyk lengvą atsisakymą arba konkretų laiką susisiekti\n- Sukurk FOMO be spaudimo\n\n5 el. laiškas (21 diena): Vertingas alternatyvus pasiūlymas\n- Tema: „Paskutinis išteklius prieš išeinant“\n- Pasidalyk geriausiu turiniu (galutinis gidas/įrankis/šablonas)\n- Jokio pardavimo—tik finalinė vertė\n- Palik atviras duris: „Jei planai pasikeis, žinote, kur mane rasti“\n\nTONAS: Profesionalus, pokalbiškas, žmogiškas. Ne pardaviškas ir ne korporatyvus. Pasitikintis, bet kuklus.\n\nSTILIUS:\n- Rašyk 8 klasės skaitymo lygiu aiškumui\n- Naudok „tu“ 3 kartus dažniau nei „aš“ ar „mes“\n- Sakiniai trumpesni nei 20 žodžių\n- Vienas CTA kiekviename laiške\n- Įtrauk [PERSONALIZACIJOS ŽYMES] skliaustuose\n- Formatuok mobiliajam patogiai\n\nRIBOJIMAI:\n- Kiekvienas laiškas: 75–125 žodžių (be parašo)\n- Temų eilutės: iki 50 simbolių\n- Venk frazių „just checking in“, „following up“, „circle back“, „touch base“\n- Pirmam laiškui pateik A/B testuojamą alternatyvią temą\n\nTIKSLAS: Pradėk pokalbius, o ne uždaryk sandorius. Koncentruokis į smalsumo ir pasitikėjimo kūrimą.",
-          "keywords": [
-            "pardavimų",
-            "el.",
-            "laiškai",
-            "personalizacija",
-            "automatizavimas",
-            "seka"
-          ],
+          "keywords": ["pardavimų", "el.", "laiškai", "personalizacija", "automatizavimas", "seka"],
           "category": "sales"
         }
       ]
@@ -319,12 +197,7 @@
           "title": "Pranešimas apie vėlavimą",
           "text": "Parašyk formalų el. laišką tiekėjui dėl užsakymo vėlavimo ir paprašyk atnaujinto pristatymo termino.",
           "copyText": "Parašyk formalų el. laišką tiekėjui dėl užsakymo vėlavimo ir paprašyk atnaujinto pristatymo termino.",
-          "keywords": [
-            "vėlavimas",
-            "el.",
-            "laiškas",
-            "tiekėjas"
-          ],
+          "keywords": ["vėlavimas", "el.", "laiškas", "tiekėjas"],
           "category": "procurement"
         },
         {
@@ -332,12 +205,7 @@
           "title": "Tiekėjo sutarties santrauka",
           "text": "Apibendrink šią tiekėjo sutartį [įklijuokite tekstą], pabrėždamas: pagrindines sąlygas, kainodarą, pristatymo įsipareigojimus, kokybės garantijas, apmokėjimo sąlygas, baudas/paskatinimus ir galimas rizikas ar derybinius punktus.",
           "copyText": "Apibendrink šią tiekėjo sutartį [įklijuokite tekstą], pabrėždamas: pagrindines sąlygas, kainodarą, pristatymo įsipareigojimus, kokybės garantijas, apmokėjimo sąlygas, baudas/paskatinimus ir galimas rizikas ar derybinius punktus.",
-          "keywords": [
-            "sutartis",
-            "tiekėjas",
-            "derybos",
-            "sąlygos"
-          ],
+          "keywords": ["sutartis", "tiekėjas", "derybos", "sąlygos"],
           "category": "procurement"
         }
       ]
@@ -353,12 +221,7 @@
           "title": "Tiekėjų palyginimas",
           "text": "Sudaryk tiekėjų palyginimo lentelę pagal kainą, pristatymo laiką ir patikimumą, naudodamas šiuos duomenis: [įklijuokite duomenis].",
           "copyText": "Sudaryk tiekėjų palyginimo lentelę pagal kainą, pristatymo laiką ir patikimumą, naudodamas šiuos duomenis: [įklijuokite duomenis].",
-          "keywords": [
-            "tiekėjas",
-            "palyginimas",
-            "kaina",
-            "pristatymas"
-          ],
+          "keywords": ["tiekėjas", "palyginimas", "kaina", "pristatymas"],
           "category": "logistics"
         },
         {
@@ -366,12 +229,7 @@
           "title": "Dienos užduočių planas",
           "text": "Paruošk paprastą sandėlio komandos dienos užduočių planą pagal prioritetus (užsakymų komplektavimas, priėmimas, inventorius).",
           "copyText": "Paruošk paprastą sandėlio komandos dienos užduočių planą pagal prioritetus (užsakymų komplektavimas, priėmimas, inventorius).",
-          "keywords": [
-            "darbo",
-            "planas",
-            "sandėlis",
-            "prioritetai"
-          ],
+          "keywords": ["darbo", "planas", "sandėlis", "prioritetai"],
           "category": "logistics"
         },
         {
@@ -379,11 +237,7 @@
           "title": "Saugos santrauka",
           "text": "Apibendrink pagrindines saugos instrukcijas naujam sandėlio darbuotojui (trumpa versija).",
           "copyText": "Apibendrink pagrindines saugos instrukcijas naujam sandėlio darbuotojui (trumpa versija).",
-          "keywords": [
-            "sauga",
-            "instrukcijos",
-            "sandėlis"
-          ],
+          "keywords": ["sauga", "instrukcijos", "sandėlis"],
           "category": "logistics"
         },
         {
@@ -391,12 +245,7 @@
           "title": "Pakavimo ir siuntimo instrukcijos",
           "text": "Sukurk pakavimo ir siuntimo instrukcijas užsakymui [Užsakymo nr.]. Įtrauk: pakuotinas prekes, specialius tvarkymo reikalavimus (trapi, ESD jautri), reikalingas pakavimo medžiagas, vežėjo pasirinkimą ir pristatymo pastabas. Suformatuok kaip sandėlio kontrolinį sąrašą.",
           "copyText": "Sukurk pakavimo ir siuntimo instrukcijas užsakymui [Užsakymo nr.]. Įtrauk: pakuotinas prekes, specialius tvarkymo reikalavimus (trapi, ESD jautri), reikalingas pakavimo medžiagas, vežėjo pasirinkimą ir pristatymo pastabas. Suformatuok kaip sandėlio kontrolinį sąrašą.",
-          "keywords": [
-            "pakavimas",
-            "siuntimas",
-            "instrukcijos",
-            "pristatymas"
-          ],
+          "keywords": ["pakavimas", "siuntimas", "instrukcijos", "pristatymas"],
           "category": "logistics"
         },
         {
@@ -404,12 +253,7 @@
           "title": "Pristatymo maršrutų optimizavimas",
           "text": "Sukurk pristatymo maršrutų optimizacijos planą [regionas]. Įvertink: pristatymo adresus, atstumus, laiką, krovinio svorį/tūrį, pristatymo terminus. Pateik: optimalius maršrutus, laiko planą, degalų sąnaudas, pristatymo seką. Optimizuok laikui ir kaštams.",
           "copyText": "Sukurk pristatymo maršrutų optimizacijos planą [regionas]. Įvertink: pristatymo adresus, atstumus, laiką, krovinio svorį/tūrį, pristatymo terminus. Pateik: optimalius maršrutus, laiko planą, degalų sąnaudas, pristatymo seką. Optimizuok laikui ir kaštams.",
-          "keywords": [
-            "pristatymo",
-            "maršrutas",
-            "optimizavimas",
-            "transportas"
-          ],
+          "keywords": ["pristatymo", "maršrutas", "optimizavimas", "transportas"],
           "category": "logistics"
         }
       ]
@@ -425,11 +269,7 @@
           "title": "Kategorijų pavadinimai",
           "text": "Sugeneruok 10 produktų kategorijų pavadinimų su aiškiais, žmogui suprantamais aprašymais.",
           "copyText": "Sugeneruok 10 produktų kategorijų pavadinimų su aiškiais, žmogui suprantamais aprašymais.",
-          "keywords": [
-            "kategorijos",
-            "pavadinimai",
-            "aprašymai"
-          ],
+          "keywords": ["kategorijos", "pavadinimai", "aprašymai"],
           "category": "ecommerce"
         },
         {
@@ -437,12 +277,7 @@
           "title": "E. parduotuvės teksto perrašymas",
           "text": "Perrašyk šį produkto aprašymą, kad jis būtų patrauklesnis el. parduotuvei: [įklijuokite tekstą].",
           "copyText": "Perrašyk šį produkto aprašymą, kad jis būtų patrauklesnis el. parduotuvei: [įklijuokite tekstą].",
-          "keywords": [
-            "perrašyti",
-            "aprašymas",
-            "el",
-            "parduotuvė"
-          ],
+          "keywords": ["perrašyti", "aprašymas", "el", "parduotuvė"],
           "category": "ecommerce"
         },
         {
@@ -450,13 +285,7 @@
           "title": "Produktų puslapio meta žymos",
           "text": "Sugeneruok SEO meta žymas [produkto pavadinimas] puslapiui. Pateik: meta pavadinimą (iki 60 simbolių), meta aprašymą (iki 155 simbolių), Open Graph žymas ir JSON-LD produkto schemą su kaina, prieinamumu, įvertinimais. Įtrauk tikslinius raktažodžius: [raktažodžių sąrašas].",
           "copyText": "Sugeneruok SEO meta žymas [produkto pavadinimas] puslapiui. Pateik: meta pavadinimą (iki 60 simbolių), meta aprašymą (iki 155 simbolių), Open Graph žymas ir JSON-LD produkto schemą su kaina, prieinamumu, įvertinimais. Įtrauk tikslinius raktažodžius: [raktažodžių sąrašas].",
-          "keywords": [
-            "meta",
-            "žymos",
-            "pavadinimas",
-            "aprašymas",
-            "schema"
-          ],
+          "keywords": ["seo", "meta", "žymos", "pavadinimas", "aprašymas", "schema"],
           "category": "ecommerce"
         },
         {
@@ -464,11 +293,7 @@
           "title": "E-komercijos kainodaros strategija",
           "text": "Sukurk [produkto kategorijos] kainodaros strategiją. Įvertink: konkurentų kainas, produkto vertę, tikslinę auditoriją, pelno maržas. Pasiūlyk: pagrindinę kainą, nuolaidų strategiją, bundle kainas, sezonines kainas. Pateik rekomendacijas su pagrindimu.",
           "copyText": "Sukurk [produkto kategorijos] kainodaros strategiją. Įvertink: konkurentų kainas, produkto vertę, tikslinę auditoriją, pelno maržas. Pasiūlyk: pagrindinę kainą, nuolaidų strategiją, bundle kainas, sezonines kainas. Pateik rekomendacijas su pagrindimu.",
-          "keywords": [
-            "kainodara",
-            "strategija",
-            "konkurencija"
-          ],
+          "keywords": ["kainodara", "strategija", "konkurencija"],
           "category": "ecommerce"
         },
         {
@@ -476,12 +301,7 @@
           "title": "Produkto kategorijų hierarchijos planas",
           "text": "Sukurk produkto kategorijų hierarchiją [e-parduotuvei]. Struktūra: 3-4 pagrindinės kategorijos, po 3-5 subkategorijas kiekvienoje, produkto filtravimo kriterijus (kaina, brand, specifikacijos). Optimizuok naudotojo patirčiai ir SEO.",
           "copyText": "Sukurk produkto kategorijų hierarchiją [e-parduotuvei]. Struktūra: 3-4 pagrindinės kategorijos, po 3-5 subkategorijas kiekvienoje, produkto filtravimo kriterijus (kaina, brand, specifikacijos). Optimizuok naudotojo patirčiai ir SEO.",
-          "keywords": [
-            "produkto",
-            "kategorijos",
-            "struktūra",
-            "navigacija"
-          ],
+          "keywords": ["produkto", "kategorijos", "struktūra", "navigacija"],
           "category": "ecommerce"
         },
         {
@@ -489,12 +309,7 @@
           "title": "Pristatymo strategijos aprašymas",
           "text": "Sukurk aiškų pristatymo strategijos aprašymą [e-parduotuvei]. Įtrauk: pristatymo būdus ir kainas, pristatymo terminus, tarptautinio pristatymo galimybes, nemokamo pristatymo sąlygas, grąžinimo politiką. Suformatuok kaip puslapį, kurį klientai lengvai supras.",
           "copyText": "Sukurk aiškų pristatymo strategijos aprašymą [e-parduotuvei]. Įtrauk: pristatymo būdus ir kainas, pristatymo terminus, tarptautinio pristatymo galimybes, nemokamo pristatymo sąlygas, grąžinimo politiką. Suformatuok kaip puslapį, kurį klientai lengvai supras.",
-          "keywords": [
-            "pristatymo",
-            "strategija",
-            "shipping",
-            "aprašymas"
-          ],
+          "keywords": ["pristatymo", "strategija", "shipping", "aprašymas"],
           "category": "ecommerce"
         },
         {
@@ -502,12 +317,7 @@
           "title": "Pareigybės aprašymo generatorius",
           "text": "Parašyk įtaigų [pareigybės pavadinimas] darbo aprašą. Įtrauk: vaidmens santrauką, 5–7 pagrindines atsakomybes, būtinas kvalifikacijas, pageidaujamas kompetencijas ir kodėl verta dirbti mūsų įmonėje. Tonas: profesionalus, bet svetingas.",
           "copyText": "Parašyk įtaigų [pareigybės pavadinimas] darbo aprašą. Įtrauk: vaidmens santrauką, 5–7 pagrindines atsakomybes, būtinas kvalifikacijas, pageidaujamas kompetencijas ir kodėl verta dirbti mūsų įmonėje. Tonas: profesionalus, bet svetingas.",
-          "keywords": [
-            "darbo",
-            "aprašymas",
-            "skelbimas",
-            "atranka"
-          ],
+          "keywords": ["darbo", "aprašymas", "skelbimas", "atranka"],
           "category": "ecommerce"
         },
         {
@@ -515,12 +325,7 @@
           "title": "Darbo aprašymo šablonas",
           "text": "Sukurk darbo aprašymą [pareigybės pavadinimas]. Įtrauk: pareigų apžvalgą, pagrindines atsakomybes, reikalingus įgūdžius ir patirtį, išsilavinimo reikalavimus, darbo sąlygas, atlyginimo diapazoną, naudas ir kaip kreiptis. Optimizuok pritraukti tinkamus kandidatus.",
           "copyText": "Sukurk darbo aprašymą [pareigybės pavadinimas]. Įtrauk: pareigų apžvalgą, pagrindines atsakomybes, reikalingus įgūdžius ir patirtį, išsilavinimo reikalavimus, darbo sąlygas, atlyginimo diapazoną, naudas ir kaip kreiptis. Optimizuok pritraukti tinkamus kandidatus.",
-          "keywords": [
-            "darbo",
-            "aprašymas",
-            "pareigybės",
-            "reikalavimai"
-          ],
+          "keywords": ["darbo", "aprašymas", "pareigybės", "reikalavimai"],
           "category": "ecommerce"
         },
         {
@@ -528,14 +333,7 @@
           "title": "🎯 Turinio strategija ir redakcinis kalendorius",
           "text": "Tu esi turinio rinkodaros strategas ir SEO specialistas, dirbantis su techniniu B2B turiniu ir thought leadership.\n\nKONTEKSTAS: Esi sukūręs turinio programas, kurios pramonės ir elektronikos įmonėms padidino organinį srautą daugiau nei 200 %.\n\nUŽDUOTIS: Sudaryk 3 mėnesių redakcinį kalendorių mūsų įmonės tinklaraščiui, orientuotam į [tikslinė auditorija] [pramonė] sektoriuje.\n\nFORMATAS: Kiekvienam turinio elementui pateik:\n1. Pavadinimą (SEO optimizuotą, iki 60 simbolių)\n2. Pagrindinį raktažodį + 3 antrinius raktažodžius\n3. Paieškos ketinimą (informacinis/komercinis/sandorinis)\n4. Turinio kampą (unikali perspektyva arba kabliukas)\n5. Struktūrą (H2 ir H3 planą)\n6. Tikslinį žodžių skaičių\n7. Vidinių nuorodų galimybes\n8. CTA strategiją\n9. Prognozuojamą organinio srauto potencialą (žemas/vidutinis/aukštas)\n\nTURINIO BALANSAS:\n- 40 % edukacinių „How-to“ gidų\n- 30 % pramonės įžvalgų ir tendencijų\n- 20 % produkto/sprendimo paaiškinimų\n- 10 % klientų sėkmės istorijų\n\nTONAS: Autoritetingas, bet prieinamas; techniškas, bet be perteklinio žargono; edukacinis su subtilia pardavimų pagalba\n\nSTILIUS:\n- Naudok stiprius žodžius pavadinimuose („Ultimate“, „Complete“, „Essential“)\n- Struktūruok skaitomumui (trumpi paragrafai, punktai)\n- Kai reikia, pateik duomenų ir statistikų\n- Rašyk techniniam pirkėjui (inžinieriui ar pirkimų vadovui)\n\nSEO REIKALAVIMAI:\n- Rinkis raktažodžius, kurių mėnesinė paieška 500–5000\n- Fokusą skirk žemos–vidutinės konkurencijos raktažodžiams\n- Prioritetą teik „featured snippet“ galimybėms\n- Įtrauk ilgų uodegų variacijas\n\nPRISTATYMAS: Pateik 12 tinklaraščio įrašų (po 4 per mėnesį) lentelę, kuri sudaro vientisą naratyvą, didina autoritetą mūsų nišoje ir apima skirtingus pirkėjo kelionės etapus.",
           "copyText": "Tu esi turinio rinkodaros strategas ir SEO specialistas, dirbantis su techniniu B2B turiniu ir thought leadership.\n\nKONTEKSTAS: Esi sukūręs turinio programas, kurios pramonės ir elektronikos įmonėms padidino organinį srautą daugiau nei 200 %.\n\nUŽDUOTIS: Sudaryk 3 mėnesių redakcinį kalendorių mūsų įmonės tinklaraščiui, orientuotam į [tikslinė auditorija] [pramonė] sektoriuje.\n\nFORMATAS: Kiekvienam turinio elementui pateik:\n1. Pavadinimą (SEO optimizuotą, iki 60 simbolių)\n2. Pagrindinį raktažodį + 3 antrinius raktažodžius\n3. Paieškos ketinimą (informacinis/komercinis/sandorinis)\n4. Turinio kampą (unikali perspektyva arba kabliukas)\n5. Struktūrą (H2 ir H3 planą)\n6. Tikslinį žodžių skaičių\n7. Vidinių nuorodų galimybes\n8. CTA strategiją\n9. Prognozuojamą organinio srauto potencialą (žemas/vidutinis/aukštas)\n\nTURINIO BALANSAS:\n- 40 % edukacinių „How-to“ gidų\n- 30 % pramonės įžvalgų ir tendencijų\n- 20 % produkto/sprendimo paaiškinimų\n- 10 % klientų sėkmės istorijų\n\nTONAS: Autoritetingas, bet prieinamas; techniškas, bet be perteklinio žargono; edukacinis su subtilia pardavimų pagalba\n\nSTILIUS:\n- Naudok stiprius žodžius pavadinimuose („Ultimate“, „Complete“, „Essential“)\n- Struktūruok skaitomumui (trumpi paragrafai, punktai)\n- Kai reikia, pateik duomenų ir statistikų\n- Rašyk techniniam pirkėjui (inžinieriui ar pirkimų vadovui)\n\nSEO REIKALAVIMAI:\n- Rinkis raktažodžius, kurių mėnesinė paieška 500–5000\n- Fokusą skirk žemos–vidutinės konkurencijos raktažodžiams\n- Prioritetą teik „featured snippet“ galimybėms\n- Įtrauk ilgų uodegų variacijas\n\nPRISTATYMAS: Pateik 12 tinklaraščio įrašų (po 4 per mėnesį) lentelę, kuri sudaro vientisą naratyvą, didina autoritetą mūsų nišoje ir apima skirtingus pirkėjo kelionės etapus.",
-          "keywords": [
-            "turinio",
-            "strategija",
-            "seo",
-            "tinklaraštis",
-            "redakcinis",
-            "kalendorius"
-          ],
+          "keywords": ["turinio", "strategija", "seo", "tinklaraštis", "redakcinis", "kalendorius"],
           "category": "ecommerce"
         }
       ]
@@ -544,21 +342,22 @@
       "id": "design",
       "name": "Dizainas",
       "icon": "🎨",
-      "count": 7,
+      "count": 8,
       "prompts": [
         {
           "id": 37,
           "title": "Logo dizaino koncepcija",
           "text": "Sukurk 5 logo dizaino koncepcijas [įmonės/produkto pavadinimas]. Aprašyk kiekvieną variantą: spalvų paletę, tipografiją, simboliką, pritaikymą skirtingoms medijoms (spausdintinė, skaitmeninė, socialinė). Pateik aiškų aprašymą, kurį dizaineris galėtų naudoti kaip pagrindą.",
           "copyText": "Sukurk 5 logo dizaino koncepcijas [įmonės/produkto pavadinimas]. Aprašyk kiekvieną variantą: spalvų paletę, tipografiją, simboliką, pritaikymą skirtingoms medijoms (spausdintinė, skaitmeninė, socialinė). Pateik aiškų aprašymą, kurį dizaineris galėtų naudoti kaip pagrindą.",
-          "keywords": [
-            "logo",
-            "dizainas",
-            "prekės",
-            "ženklas",
-            "brand",
-            "identitetas"
-          ],
+          "keywords": ["logo", "dizainas", "prekės", "ženklas", "brand", "identitetas"],
+          "category": "design"
+        },
+        {
+          "id": 38,
+          "title": "Spalvų paletės rekomendacija",
+          "text": "Pasiūlyk spalvų paletę [projekto/įmonės] tipui. Įtrauk: pagrindinę spalvą (hex kodas), antrines spalvas, akcentines spalvas, neutralias spalvas. Paaiškink psichologinį poveikį kiekvienos spalvos ir kaip jos veikia kartu. Pateik pavyzdžius, kur naudoti kiekvieną spalvą.",
+          "copyText": "Pasiūlyk spalvų paletę [projekto/įmonės] tipui. Įtrauk: pagrindinę spalvą (hex kodas), antrines spalvas, akcentines spalvas, neutralias spalvas. Paaiškink psichologinį poveikį kiekvienos spalvos ir kaip jos veikia kartu. Pateik pavyzdžius, kur naudoti kiekvieną spalvą.",
+          "keywords": ["spalvų", "paletė", "brand", "spalvos", "psichologija"],
           "category": "design"
         },
         {
@@ -582,13 +381,7 @@
           "title": "Prezentacijos šablono struktūra",
           "text": "Sukurk profesionalaus [tema] prezentacijos šablono struktūrą. Aprašyk: titulinį skaidrės dizainą, turinio skaidres (3-4 tipai), duomenų vizualizacijos skaidres, užbaigimo skaidrę. Kiekvienai skaidrei nurodyk: layout'ą, spalvas, tipografiją, vietas vaizdams/grafikoms.",
           "copyText": "Sukurk profesionalaus [tema] prezentacijos šablono struktūrą. Aprašyk: titulinį skaidrės dizainą, turinio skaidres (3-4 tipai), duomenų vizualizacijos skaidres, užbaigimo skaidrę. Kiekvienai skaidrei nurodyk: layout'ą, spalvas, tipografiją, vietas vaizdams/grafikoms.",
-          "keywords": [
-            "prezentacijos",
-            "šablonas",
-            "slide",
-            "dizainas",
-            "powerpoint"
-          ],
+          "keywords": ["prezentacijos", "šablonas", "slide", "dizainas", "powerpoint"],
           "category": "design"
         },
         {
@@ -596,13 +389,7 @@
           "title": "Produkto pakuotės dizaino specifikacija",
           "text": "Sukurk detalų produkto pakuotės dizaino specifikaciją [produktas]. Įtrauk: pakuotės dydį ir formą, spalvų schemą, logo ir prekės ženklo išdėstymą, produkto informacijos struktūrą, būtinus tekstus ir simbolius, medžiagų rekomendacijas. Optimizuok atpažinimui prekybos vietoje.",
           "copyText": "Sukurk detalų produkto pakuotės dizaino specifikaciją [produktas]. Įtrauk: pakuotės dydį ir formą, spalvų schemą, logo ir prekės ženklo išdėstymą, produkto informacijos struktūrą, būtinus tekstus ir simbolius, medžiagų rekomendacijas. Optimizuok atpažinimui prekybos vietoje.",
-          "keywords": [
-            "produkto",
-            "pakuotės",
-            "dizainas",
-            "etiketė",
-            "aprašymas"
-          ],
+          "keywords": ["produkto", "pakuotės", "dizainas", "etiketė", "aprašymas"],
           "category": "design"
         },
         {
@@ -610,13 +397,7 @@
           "title": "Web puslapio wireframe aprašymas",
           "text": "Sukurk detalų web puslapio wireframe aprašymą [puslapio tipas: pvz., pagrindinis, produkto, kontaktų]. Aprašyk: header'io struktūrą, navigaciją, hero sekciją, turinio blokus, footer'į. Kiekvienam elementui nurodyk: dydį, poziciją, funkcionalumą, prioritetą. Optimizuok mobile-first prieigai.",
           "copyText": "Sukurk detalų web puslapio wireframe aprašymą [puslapio tipas: pvz., pagrindinis, produkto, kontaktų]. Aprašyk: header'io struktūrą, navigaciją, hero sekciją, turinio blokus, footer'į. Kiekvienam elementui nurodyk: dydį, poziciją, funkcionalumą, prioritetą. Optimizuok mobile-first prieigai.",
-          "keywords": [
-            "web",
-            "dizainas",
-            "UI",
-            "UX",
-            "wireframe"
-          ],
+          "keywords": ["web", "dizainas", "UI", "UX", "wireframe"],
           "category": "design"
         },
         {
@@ -624,12 +405,7 @@
           "title": "Infografikos struktūros planas",
           "text": "Sukurk infografikos struktūros planą [tema/duomenys]. Aprašyk: layout'ą, duomenų vizualizacijos tipus (grafikai, diagramos, ikonos), spalvų kodavimą, teksto hierarchiją, srautą (nuo viršaus į apačią). Pateik aiškų aprašymą, kurį dizaineris galėtų naudoti kaip pagrindą.",
           "copyText": "Sukurk infografikos struktūros planą [tema/duomenys]. Aprašyk: layout'ą, duomenų vizualizacijos tipus (grafikai, diagramos, ikonos), spalvų kodavimą, teksto hierarchiją, srautą (nuo viršaus į apačią). Pateik aiškų aprašymą, kurį dizaineris galėtų naudoti kaip pagrindą.",
-          "keywords": [
-            "infografika",
-            "duomenų",
-            "vizualizacija",
-            "diagrama"
-          ],
+          "keywords": ["infografika", "duomenų", "vizualizacija", "diagrama"],
           "category": "design"
         },
         {
@@ -637,12 +413,7 @@
           "title": "El. laiško dizaino šablono specifikacija",
           "text": "Sukurk el. laiško dizaino šablono specifikaciją [tipo: pvz., naujienlaiškis, kampanija, transakcinis]. Aprašyk: header'io dizainą, turinio blokus, CTA mygtukus, footer'į. Nurodyk: spalvas, tipografiją, tarpus, responsive breakpoints, email klientų suderinamumą. Optimizuok skaitomumui ir veiksmų skatinimui.",
           "copyText": "Sukurk el. laiško dizaino šablono specifikaciją [tipo: pvz., naujienlaiškis, kampanija, transakcinis]. Aprašyk: header'io dizainą, turinio blokus, CTA mygtukus, footer'į. Nurodyk: spalvas, tipografiją, tarpus, responsive breakpoints, email klientų suderinamumą. Optimizuok skaitomumui ir veiksmų skatinimui.",
-          "keywords": [
-            "email",
-            "dizainas",
-            "šablonas",
-            "newsletter"
-          ],
+          "keywords": ["email", "dizainas", "šablonas", "newsletter"],
           "category": "design"
         }
       ]
@@ -658,11 +429,7 @@
           "title": "Tiekimo sutarties rizikos analizė",
           "text": "Išanalizuok tiekimo sutarties rizikas [sutartis]. Identifikuok: kainų svyravimo riziką, pristatymo vėlavimų riziką, kokybės riziką, tiekėjo finansinę riziką, derybų galios riziką. Kiekvienai rizikai pateik: tikimybę, poveikį, mitigacijos strategijas.",
           "copyText": "Išanalizuok tiekimo sutarties rizikas [sutartis]. Identifikuok: kainų svyravimo riziką, pristatymo vėlavimų riziką, kokybės riziką, tiekėjo finansinę riziką, derybų galios riziką. Kiekvienai rizikai pateik: tikimybę, poveikį, mitigacijos strategijas.",
-          "keywords": [
-            "sutartis",
-            "sąlygos",
-            "rizika"
-          ],
+          "keywords": ["sutartis", "sąlygos", "rizika"],
           "category": "analytics"
         },
         {
@@ -670,12 +437,7 @@
           "title": "Inventoriaus audito ataskaita",
           "text": "Sugeneruok inventoriaus audito ataskaitą [vieta/kategorija]. Palygink: sistemos kiekius su fiziniu skaičiavimu, nustatyk >5 % neatitikimus, apskaičiuok nuostolių procentą, pasiūlyk galimas priežastis (pažeidimai, vagystės, klaidos) ir rekomenduok koreguojamuosius veiksmus.",
           "copyText": "Sugeneruok inventoriaus audito ataskaitą [vieta/kategorija]. Palygink: sistemos kiekius su fiziniu skaičiavimu, nustatyk >5 % neatitikimus, apskaičiuok nuostolių procentą, pasiūlyk galimas priežastis (pažeidimai, vagystės, klaidos) ir rekomenduok koreguojamuosius veiksmus.",
-          "keywords": [
-            "inventorius",
-            "auditas",
-            "atsargos",
-            "kontrolė"
-          ],
+          "keywords": ["inventorius", "auditas", "atsargos", "kontrolė"],
           "category": "analytics"
         },
         {
@@ -683,12 +445,7 @@
           "title": "Produkto recenzijų analizė ir atsakymai",
           "text": "Išanalizuok [produkto] recenzijas [įklijuokite recenzijas] ir: identifikuok pagrindines temas (teigiamas/neigiamas), sukurk profesionalius atsakymus kiekvienam klausimui ar nusiskundimui, pasiūlyk produkto patobulinimus, sukurk DUK sekciją pagal dažniausius klausimus.",
           "copyText": "Išanalizuok [produkto] recenzijas [įklijuokite recenzijas] ir: identifikuok pagrindines temas (teigiamas/neigiamas), sukurk profesionalius atsakymus kiekvienam klausimui ar nusiskundimui, pasiūlyk produkto patobulinimus, sukurk DUK sekciją pagal dažniausius klausimus.",
-          "keywords": [
-            "produkto",
-            "recenzija",
-            "atsiliepimas",
-            "SEO"
-          ],
+          "keywords": ["produkto", "recenzija", "atsiliepimas", "SEO"],
           "category": "analytics"
         },
         {
@@ -696,13 +453,7 @@
           "title": "Pardavimų duomenų analizė",
           "text": "Išanalizuok šiuos pardavimų duomenis [įklijuokite CSV arba Excel duomenis] ir pateik: mėnesio/ketvirčio palyginimą, top 10 produktų, geografinį pasiskirstymą, klientų segmentaciją, tendencijas ir prognozes. Pateik rekomendacijas, kaip pagerinti rezultatus.",
           "copyText": "Išanalizuok šiuos pardavimų duomenis [įklijuokite CSV arba Excel duomenis] ir pateik: mėnesio/ketvirčio palyginimą, top 10 produktų, geografinį pasiskirstymą, klientų segmentaciją, tendencijas ir prognozes. Pateik rekomendacijas, kaip pagerinti rezultatus.",
-          "keywords": [
-            "duomenų",
-            "analizė",
-            "excel",
-            "ataskaita",
-            "tendencijos"
-          ],
+          "keywords": ["duomenų", "analizė", "excel", "ataskaita", "tendencijos"],
           "category": "analytics"
         },
         {
@@ -710,12 +461,7 @@
           "title": "KPI dashboard struktūra",
           "text": "Sukurk KPI dashboard struktūrą [skyrius/projektas]. Apibrėžk: 8-10 pagrindinių rodiklių, kiekvieno rodiklio skaičiavimo formulę, duomenų šaltinius, atnaujinimo dažnį, vizualizacijos tipą (grafikas, skaičius, indikatorius). Pateik aiškų aprašymą, kurį galima naudoti Excel, Power BI ar Tableau.",
           "copyText": "Sukurk KPI dashboard struktūrą [skyrius/projektas]. Apibrėžk: 8-10 pagrindinių rodiklių, kiekvieno rodiklio skaičiavimo formulę, duomenų šaltinius, atnaujinimo dažnį, vizualizacijos tipą (grafikas, skaičius, indikatorius). Pateik aiškų aprašymą, kurį galima naudoti Excel, Power BI ar Tableau.",
-          "keywords": [
-            "KPI",
-            "dashboard",
-            "rodikliai",
-            "metrika"
-          ],
+          "keywords": ["KPI", "dashboard", "rodikliai", "metrika"],
           "category": "analytics"
         },
         {
@@ -723,13 +469,7 @@
           "title": "Web analitikos ataskaita",
           "text": "Sukurk mėnesio web analitikos ataskaitą [svetainė]. Įtrauk: lankytojų skaičių ir unikalius lankytojus, sesijų trukmę, atspirties rodiklį, top puslapius, šaltinius, įrenginius, geografiją. Pateik įžvalgas ir rekomendacijas, kaip pagerinti veiksmus.",
           "copyText": "Sukurk mėnesio web analitikos ataskaitą [svetainė]. Įtrauk: lankytojų skaičių ir unikalius lankytojus, sesijų trukmę, atspirties rodiklį, top puslapius, šaltinius, įrenginius, geografiją. Pateik įžvalgas ir rekomendacijas, kaip pagerinti veiksmus.",
-          "keywords": [
-            "web",
-            "analitika",
-            "google",
-            "analytics",
-            "ataskaita"
-          ],
+          "keywords": ["web", "analitika", "google", "analytics", "ataskaita"],
           "category": "analytics"
         },
         {
@@ -737,12 +477,7 @@
           "title": "Klientų segmentacijos analizė",
           "text": "Atlik RFM (Recency, Frequency, Monetary) klientų segmentacijos analizę naudojant [duomenys]. Identifikuok: VIP klientus, lojalius klientus, potencialius klientus, rizikuojančius klientus. Kiekvienam segmentui pateik: charakteristikas, dydį, rekomenduojamas rinkodaros strategijas.",
           "copyText": "Atlik RFM (Recency, Frequency, Monetary) klientų segmentacijos analizę naudojant [duomenys]. Identifikuok: VIP klientus, lojalius klientus, potencialius klientus, rizikuojančius klientus. Kiekvienam segmentui pateik: charakteristikas, dydį, rekomenduojamas rinkodaros strategijas.",
-          "keywords": [
-            "klientų",
-            "segmentacija",
-            "RFM",
-            "analizė"
-          ],
+          "keywords": ["klientų", "segmentacija", "RFM", "analizė"],
           "category": "analytics"
         },
         {
@@ -750,12 +485,7 @@
           "title": "Pardavimų prognozė",
           "text": "Sukurk [laikotarpis: pvz., 3 mėnesių, 6 mėnesių] pardavimų prognozę remiantis istoriniais duomenimis [įklijuokite duomenis]. Įtrauk: sezoniškumo analizę, tendencijų identifikavimą, optimistinį/pesimistinį/realistinį scenarijų, rizikos veiksnius ir rekomendacijas.",
           "copyText": "Sukurk [laikotarpis: pvz., 3 mėnesių, 6 mėnesių] pardavimų prognozę remiantis istoriniais duomenimis [įklijuokite duomenis]. Įtrauk: sezoniškumo analizę, tendencijų identifikavimą, optimistinį/pesimistinį/realistinį scenarijų, rizikos veiksnius ir rekomendacijas.",
-          "keywords": [
-            "prognozavimas",
-            "trend",
-            "analizė",
-            "forecast"
-          ],
+          "keywords": ["prognozavimas", "trend", "analizė", "forecast"],
           "category": "analytics"
         },
         {
@@ -763,12 +493,7 @@
           "title": "A/B testo rezultatų analizė",
           "text": "Išanalizuok A/B testo rezultatus [įklijuokite duomenis: variantas A vs variantas B]. Įtrauk: konversijos rodiklius, statistinį reikšmingumą, pasitikėjimo intervalus, įžvalgas apie priežastis ir rekomendacijas, kurį variantą naudoti ir kodėl.",
           "copyText": "Išanalizuok A/B testo rezultatus [įklijuokite duomenis: variantas A vs variantas B]. Įtrauk: konversijos rodiklius, statistinį reikšmingumą, pasitikėjimo intervalus, įžvalgas apie priežastis ir rekomendacijas, kurį variantą naudoti ir kodėl.",
-          "keywords": [
-            "A/B",
-            "testas",
-            "eksperimentas",
-            "rezultatai"
-          ],
+          "keywords": ["A/B", "testas", "eksperimentas", "rezultatai"],
           "category": "analytics"
         },
         {
@@ -776,12 +501,7 @@
           "title": "Vadovybei skirta duomenų ataskaita",
           "text": "Sukurk vadovybei skirtą [laikotarpis] duomenų ataskaitą [tema]. Struktūra: vykdomoji santrauka (3-5 punktai), pagrindiniai rodikliai su palyginimais, įžvalgos, rizikos ir galimybės, rekomenduojami veiksmai. Naudok aiškią kalbą, vizualizacijas ir konkrečius skaičius.",
           "copyText": "Sukurk vadovybei skirtą [laikotarpis] duomenų ataskaitą [tema]. Struktūra: vykdomoji santrauka (3-5 punktai), pagrindiniai rodikliai su palyginimais, įžvalgos, rizikos ir galimybės, rekomenduojami veiksmai. Naudok aiškią kalbą, vizualizacijas ir konkrečius skaičius.",
-          "keywords": [
-            "ataskaita",
-            "vadovybei",
-            "executive",
-            "summary"
-          ],
+          "keywords": ["ataskaita", "vadovybei", "executive", "summary"],
           "category": "analytics"
         },
         {
@@ -789,14 +509,7 @@
           "title": "Kliento sėkmės istorija",
           "text": "Parašyk įtaigią kliento sėkmės istoriją apie [kliento vardas]. Struktūra: kliento veiklos aprašymas, su kokiu iššūkiu susidūrė, įdiegtas sprendimas, pasiekti rezultatai (su rodikliais), kliento citata ir išmoktos pamokos. Apimtis: 500–700 žodžių. Tonas: įkvepiantis, bet faktinis, dėmesys išmatuojamiems rezultatams.",
           "copyText": "Parašyk įtaigią kliento sėkmės istoriją apie [kliento vardas]. Struktūra: kliento veiklos aprašymas, su kokiu iššūkiu susidūrė, įdiegtas sprendimas, pasiekti rezultatai (su rodikliais), kliento citata ir išmoktos pamokos. Apimtis: 500–700 žodžių. Tonas: įkvepiantis, bet faktinis, dėmesys išmatuojamiems rezultatams.",
-          "keywords": [
-            "kliento",
-            "sėkmės",
-            "istorija",
-            "atvejo",
-            "analizė",
-            "atsiliepimas"
-          ],
+          "keywords": ["kliento", "sėkmės", "istorija", "atvejo", "analizė", "atsiliepimas"],
           "category": "analytics"
         },
         {
@@ -804,12 +517,7 @@
           "title": "Duomenų importo instrukcija",
           "text": "Sukurk žingsnis po žingsnio instrukciją, kaip importuoti produktų duomenis iš CSV į mūsų sistemą.",
           "copyText": "Sukurk žingsnis po žingsnio instrukciją, kaip importuoti produktų duomenis iš CSV į mūsų sistemą.",
-          "keywords": [
-            "duomenų",
-            "importas",
-            "csv",
-            "instrukcija"
-          ],
+          "keywords": ["duomenų", "importas", "csv", "instrukcija"],
           "category": "analytics"
         },
         {
@@ -817,12 +525,7 @@
           "title": "Biudžeto nuokrypio analizė",
           "text": "Išanalizuok [skyrius/projektas] biudžeto nuokrypį, lygindamas planuotas ir faktines išlaidas. Nustatyk: 3 didžiausias viršplanines kategorijas, 3 didžiausius sutaupymus, nuokrypio priežastis ir rekomendacijas kitam ketvirčiui. Suformatuok kaip vadovų santrauką su pagrindinėmis įžvalgomis.",
           "copyText": "Išanalizuok [skyrius/projektas] biudžeto nuokrypį, lygindamas planuotas ir faktines išlaidas. Nustatyk: 3 didžiausias viršplanines kategorijas, 3 didžiausius sutaupymus, nuokrypio priežastis ir rekomendacijas kitam ketvirčiui. Suformatuok kaip vadovų santrauką su pagrindinėmis įžvalgomis.",
-          "keywords": [
-            "biudžetas",
-            "nuokrypis",
-            "analizė",
-            "išlaidos"
-          ],
+          "keywords": ["biudžetas", "nuokrypis", "analizė", "išlaidos"],
           "category": "analytics"
         },
         {
@@ -830,12 +533,7 @@
           "title": "Išlaidų ataskaitos santrauka",
           "text": "Apibendrink darbuotojų išlaidų ataskaitas už [mėnuo/ketvirtis]. Sugrupuok pagal: keliones, maitinimą, biuro reikmenis ir kitą. Pažymėk išlaidas, viršijančias politikos limitus ar reikalaujančias paaiškinimo. Pateik bendrą patvirtintą sumą ir atmestus prašymus su priežastimis.",
           "copyText": "Apibendrink darbuotojų išlaidų ataskaitas už [mėnuo/ketvirtis]. Sugrupuok pagal: keliones, maitinimą, biuro reikmenis ir kitą. Pažymėk išlaidas, viršijančias politikos limitus ar reikalaujančias paaiškinimo. Pateik bendrą patvirtintą sumą ir atmestus prašymus su priežastimis.",
-          "keywords": [
-            "išlaidų",
-            "ataskaita",
-            "kompensacija",
-            "politika"
-          ],
+          "keywords": ["išlaidų", "ataskaita", "kompensacija", "politika"],
           "category": "analytics"
         },
         {
@@ -843,13 +541,7 @@
           "title": "Finansinių KPI suvestinė",
           "text": "Sukurk finansinių KPI suvestinės santrauką už [laikotarpis]. Įtrauk: pajamų augimą %, bendrojo pelningumo %, veiklos sąnaudų santykį, pirkėjų įsiskolinimo dienas, atsargų apyvartumą ir pinigų konversijos ciklą. Pridėk metinių pokyčių (YoY) palyginimą ir trumpą komentarą apie kiekvieno rodiklio tendenciją.",
           "copyText": "Sukurk finansinių KPI suvestinės santrauką už [laikotarpis]. Įtrauk: pajamų augimą %, bendrojo pelningumo %, veiklos sąnaudų santykį, pirkėjų įsiskolinimo dienas, atsargų apyvartumą ir pinigų konversijos ciklą. Pridėk metinių pokyčių (YoY) palyginimą ir trumpą komentarą apie kiekvieno rodiklio tendenciją.",
-          "keywords": [
-            "finansiniai",
-            "kpi",
-            "suvestinė",
-            "rodikliai",
-            "našumas"
-          ],
+          "keywords": ["finansiniai", "kpi", "suvestinė", "rodikliai", "našumas"],
           "category": "analytics"
         },
         {
@@ -857,13 +549,7 @@
           "title": "Kainodaros strategijos analizė",
           "text": "Išanalizuok optimalias [produktas/paslauga] kainas, atsižvelgdamas į: savikainą (€[X]), konkurentų kainas ([įklijuokite duomenis]), tikslinę maržą ([Y]%) ir rinkos pozicionavimą. Pateik 3 kainodaros scenarijus (ekonomiškas, standartinis, premium) su pelno prognozėmis ir rekomendacijomis.",
           "copyText": "Išanalizuok optimalias [produktas/paslauga] kainas, atsižvelgdamas į: savikainą (€[X]), konkurentų kainas ([įklijuokite duomenis]), tikslinę maržą ([Y]%) ir rinkos pozicionavimą. Pateik 3 kainodaros scenarijus (ekonomiškas, standartinis, premium) su pelno prognozėmis ir rekomendacijomis.",
-          "keywords": [
-            "kainodara",
-            "pelno",
-            "marža",
-            "kaštų",
-            "analizė"
-          ],
+          "keywords": ["kainodara", "pelno", "marža", "kaštų", "analizė"],
           "category": "analytics"
         },
         {
@@ -871,13 +557,7 @@
           "title": "SWOT analizė",
           "text": "Atlik išsamią SWOT analizę [projektui/įmonei/produktui]. Įtrauk: Stiprybes (4-6 punktai), Silpnybes (4-6 punktai), Galimybes (4-6 punktai), Rizikas (4-6 punktai). Kiekvienam punktui pateik: aprašymą, įrodymus/duomenis, poveikį ir rekomendacijas. Suformatuok kaip struktūruotą ataskaitą su prioritetais.",
           "copyText": "Atlik išsamią SWOT analizę [projektui/įmonei/produktui]. Įtrauk: Stiprybes (4-6 punktai), Silpnybes (4-6 punktai), Galimybes (4-6 punktai), Rizikas (4-6 punktai). Kiekvienam punktui pateik: aprašymą, įrodymus/duomenis, poveikį ir rekomendacijas. Suformatuok kaip struktūruotą ataskaitą su prioritetais.",
-          "keywords": [
-            "swot",
-            "analizė",
-            "strategija",
-            "stiprybės",
-            "silpnybės"
-          ],
+          "keywords": ["swot", "analizė", "strategija", "stiprybės", "silpnybės"],
           "category": "analytics"
         },
         {
@@ -885,14 +565,7 @@
           "title": "PEST analizė",
           "text": "Atlik PEST analizę [įmonei/projektui/verslui] [šalis/regionas]. Įtrauk: Politinius veiksnius (4-5 punktai), Ekonominius veiksnius (4-5 punktai), Socialinius veiksnius (4-5 punktai), Technologinius veiksnius (4-5 punktai). Kiekvienam veiksniui nurodyk: aprašymą, poveikį, tendencijas ir rekomendacijas. Pateik kaip strateginę ataskaitą.",
           "copyText": "Atlik PEST analizę [įmonei/projektui/verslui] [šalis/regionas]. Įtrauk: Politinius veiksnius (4-5 punktai), Ekonominius veiksnius (4-5 punktai), Socialinius veiksnius (4-5 punktai), Technologinius veiksnius (4-5 punktai). Kiekvienam veiksniui nurodyk: aprašymą, poveikį, tendencijas ir rekomendacijas. Pateik kaip strateginę ataskaitą.",
-          "keywords": [
-            "pest",
-            "analizė",
-            "politika",
-            "ekonomika",
-            "socialinė",
-            "technologija"
-          ],
+          "keywords": ["pest", "analizė", "politika", "ekonomika", "socialinė", "technologija"],
           "category": "analytics"
         },
         {
@@ -900,14 +573,7 @@
           "title": "🎯 Strateginė konkurentų analizė",
           "text": "Tu esi vyresnysis rinkos tyrimų analitikas, turintis 15 metų patirties B2B elektronikos distribucijoje.\n\nUŽDUOTIS: Atlik išsamų konkurento [konkurento pavadinimas] analizę [produkto kategorija] rinkoje.\n\nFORMATAS: Pateik analizę tokia struktūra:\n1. Vykdomoji santrauka (2–3 sakiniai)\n2. SWOT analizė (po 4–6 punktus kiekviename kvadrante)\n3. Kainodaros strategijos įvertinimas\n4. Rinkos pozicionavimo žemėlapis (aprašyk vizualiai)\n5. Trys įgyvendinamos rekomendacijos su tikėtinu poveikiu\n\nTONAS: Profesionalus, duomenimis pagrįstas, strateginis\n\nSTILIUS: Naudok verslo terminologiją, kur įmanoma įtrauk konkrečius rodiklius, remkis pramonės etalonais ir venk spėlionių—koncentruokis į matomus faktus ir logines išvadas.\n\nKONTEKSTAS: Esame vidutinio dydžio platintojas, siekiantis išskirti savo pasiūlymą konkurencingoje rinkoje. Mūsų stiprybės – klientų aptarnavimas ir techninė kompetencija.\n\nRIBOJIMAI: Bendras rezultatas turi būti iki 500 žodžių. Prioritetą teik įžvalgoms, kurios suteikia greitų konkurencinių pranašumų.",
           "copyText": "Tu esi vyresnysis rinkos tyrimų analitikas, turintis 15 metų patirties B2B elektronikos distribucijoje.\n\nUŽDUOTIS: Atlik išsamų konkurento [konkurento pavadinimas] analizę [produkto kategorija] rinkoje.\n\nFORMATAS: Pateik analizę tokia struktūra:\n1. Vykdomoji santrauka (2–3 sakiniai)\n2. SWOT analizė (po 4–6 punktus kiekviename kvadrante)\n3. Kainodaros strategijos įvertinimas\n4. Rinkos pozicionavimo žemėlapis (aprašyk vizualiai)\n5. Trys įgyvendinamos rekomendacijos su tikėtinu poveikiu\n\nTONAS: Profesionalus, duomenimis pagrįstas, strateginis\n\nSTILIUS: Naudok verslo terminologiją, kur įmanoma įtrauk konkrečius rodiklius, remkis pramonės etalonais ir venk spėlionių—koncentruokis į matomus faktus ir logines išvadas.\n\nKONTEKSTAS: Esame vidutinio dydžio platintojas, siekiantis išskirti savo pasiūlymą konkurencingoje rinkoje. Mūsų stiprybės – klientų aptarnavimas ir techninė kompetencija.\n\nRIBOJIMAI: Bendras rezultatas turi būti iki 500 žodžių. Prioritetą teik įžvalgoms, kurios suteikia greitų konkurencinių pranašumų.",
-          "keywords": [
-            "konkurentų",
-            "analizė",
-            "swot",
-            "strateginis",
-            "rinkos",
-            "tyrimai"
-          ],
+          "keywords": ["konkurentų", "analizė", "swot", "strateginis", "rinkos", "tyrimai"],
           "category": "analytics"
         },
         {
@@ -940,12 +606,7 @@
           "title": "Banerio tekstas akcijoms",
           "text": "Parašyk įtaigų banerio tekstą kampanijai [Akcija/Pardavimas]. Sukurk 3 versijas: 1) Trumpa antraštė + CTA mygtukas (5–7 žodžiai), 2) Vidutinio ilgio tekstas su nauda (15–20 žodžių), 3) Skubos jausmą kuriantis tekstas su terminu. Pateik A/B testų rekomendacijas.",
           "copyText": "Parašyk įtaigų banerio tekstą kampanijai [Akcija/Pardavimas]. Sukurk 3 versijas: 1) Trumpa antraštė + CTA mygtukas (5–7 žodžiai), 2) Vidutinio ilgio tekstas su nauda (15–20 žodžių), 3) Skubos jausmą kuriantis tekstas su terminu. Pateik A/B testų rekomendacijas.",
-          "keywords": [
-            "baneris",
-            "akcija",
-            "kampanija",
-            "titulinis"
-          ],
+          "keywords": ["baneris", "akcija", "kampanija", "titulinis"],
           "category": "marketing"
         },
         {
@@ -953,11 +614,7 @@
           "title": "Naujienlaiškio tekstas",
           "text": "Parašyk naujienlaiškio tekstą apie akciją: -20 % visiems matavimo prietaisams iki sekmadienio.",
           "copyText": "Parašyk naujienlaiškio tekstą apie akciją: -20 % visiems matavimo prietaisams iki sekmadienio.",
-          "keywords": [
-            "naujienlaiškis",
-            "akcija",
-            "nuolaida"
-          ],
+          "keywords": ["naujienlaiškis", "akcija", "nuolaida"],
           "category": "marketing"
         },
         {
@@ -965,13 +622,7 @@
           "title": "Facebook įrašų idėjos",
           "text": "Sugeneruok 5 Facebook įrašų idėjas apie naujus Arduino produktus, kiekvieną su aiškiu kvietimu veikti.",
           "copyText": "Sugeneruok 5 Facebook įrašų idėjas apie naujus Arduino produktus, kiekvieną su aiškiu kvietimu veikti.",
-          "keywords": [
-            "facebook",
-            "įrašas",
-            "socialiniai",
-            "tinklai",
-            "arduino"
-          ],
+          "keywords": ["facebook", "įrašas", "socialiniai", "tinklai", "arduino"],
           "category": "marketing"
         },
         {
@@ -979,12 +630,7 @@
           "title": "El. pašto rinkodaros kampanijos planas",
           "text": "Sukurk [laikotarpis] el. pašto rinkodaros kampanijos planą [tema]. Įtrauk: kampanijos tikslus, auditorijos segmentaciją, el. laiškų temas ir grafiką, personalizacijos strategiją, A/B testus, sėkmės rodiklius. Optimizuok atidarymo ir konversijos rodikliams.",
           "copyText": "Sukurk [laikotarpis] el. pašto rinkodaros kampanijos planą [tema]. Įtrauk: kampanijos tikslus, auditorijos segmentaciją, el. laiškų temas ir grafiką, personalizacijos strategiją, A/B testus, sėkmės rodiklius. Optimizuok atidarymo ir konversijos rodikliams.",
-          "keywords": [
-            "email",
-            "marketing",
-            "kampanija",
-            "segmentacija"
-          ],
+          "keywords": ["email", "marketing", "kampanija", "segmentacija"],
           "category": "marketing"
         }
       ]
@@ -1000,13 +646,7 @@
           "title": "Importo kainos skaičiuoklė",
           "text": "Sukurk importuojamų prekių skaičiuoklę (prekė + transportas + PVM + muito mokesčiai = galutinė kaina).",
           "copyText": "Sukurk importuojamų prekių skaičiuoklę (prekė + transportas + PVM + muito mokesčiai = galutinė kaina).",
-          "keywords": [
-            "importas",
-            "skaičiuoklė",
-            "pvm",
-            "muito",
-            "transportas"
-          ],
+          "keywords": ["importas", "skaičiuoklė", "pvm", "muito", "transportas"],
           "category": "it"
         },
         {
@@ -1014,13 +654,7 @@
           "title": "Duomenų kokybės auditas",
           "text": "Atlik duomenų kokybės auditą [duomenų rinkinys]. Identifikuok: trūkstamus duomenis, dublikatus, neteisingus formatus, išskirtis (outliers), neatitikimus. Pateik: problemų apžvalgą, poveikio įvertinimą, prioritetus ir rekomendacijas, kaip išvalyti duomenis.",
           "copyText": "Atlik duomenų kokybės auditą [duomenų rinkinys]. Identifikuok: trūkstamus duomenis, dublikatus, neteisingus formatus, išskirtis (outliers), neatitikimus. Pateik: problemų apžvalgą, poveikio įvertinimą, prioritetus ir rekomendacijas, kaip išvalyti duomenis.",
-          "keywords": [
-            "duomenų",
-            "valymas",
-            "data",
-            "cleaning",
-            "kokybė"
-          ],
+          "keywords": ["duomenų", "valymas", "data", "cleaning", "kokybė"],
           "category": "it"
         },
         {
@@ -1028,13 +662,7 @@
           "title": "ERP klaidos pagalba",
           "text": "Paaiškink paprastai, kaip vartotojas gali ištaisyti šią ERP prisijungimo klaidą: [klaidos pranešimas].",
           "copyText": "Paaiškink paprastai, kaip vartotojas gali ištaisyti šią ERP prisijungimo klaidą: [klaidos pranešimas].",
-          "keywords": [
-            "erp",
-            "klaida",
-            "taisymas",
-            "trikčių",
-            "šalinimas"
-          ],
+          "keywords": ["erp", "klaida", "taisymas", "trikčių", "šalinimas"],
           "category": "it"
         },
         {
@@ -1042,13 +670,7 @@
           "title": "IT pagalbos atsakymo šablonas",
           "text": "Sukurk pagalbos skyriaus atsakymo šabloną [dažna IT problema: slaptažodžio atstatymas/el. pašto prieiga/VPN prisijungimas]. Įtrauk: pasisveikinimą, problemos patvirtinimą, numeruotus trikčių šalinimo veiksmus, numatomą sprendimo laiką, eskalavimo kelią, jei neišspręsta, ir pabaigą su bilieto numeriu.",
           "copyText": "Sukurk pagalbos skyriaus atsakymo šabloną [dažna IT problema: slaptažodžio atstatymas/el. pašto prieiga/VPN prisijungimas]. Įtrauk: pasisveikinimą, problemos patvirtinimą, numeruotus trikčių šalinimo veiksmus, numatomą sprendimo laiką, eskalavimo kelią, jei neišspręsta, ir pabaigą su bilieto numeriu.",
-          "keywords": [
-            "slaptažodžio",
-            "atstatymas",
-            "paskyra",
-            "saugumas",
-            "pagalba"
-          ],
+          "keywords": ["slaptažodžio", "atstatymas", "paskyra", "saugumas", "pagalba"],
           "category": "it"
         },
         {
@@ -1056,14 +678,7 @@
           "title": "Atsarginių kopijų ir atkūrimo planas",
           "text": "Parengk atsarginių kopijų ir atkūrimo procedūrą [sistemai/duomenų bazei]. Nustatyk: kopijų darymo dažnumą (kasdien/ kas savaitę), tipą (pilna/inkrementinė), saugojimo vietą (vietoje/debesis), saugojimo politiką, atkūrimo laiką (RTO), atkūrimo taško tikslą (RPO) ir testavimo grafiką.",
           "copyText": "Parengk atsarginių kopijų ir atkūrimo procedūrą [sistemai/duomenų bazei]. Nustatyk: kopijų darymo dažnumą (kasdien/kas savaitę), tipą (pilna/inkrementinė), saugojimo vietą (vietoje/debesis), saugojimo politiką, atkūrimo laiką (RTO), atkūrimo taško tikslą (RPO) ir testavimo grafiką.",
-          "keywords": [
-            "atsarginės",
-            "kopijos",
-            "atkūrimas",
-            "planas",
-            "duomenų",
-            "apsauga"
-          ],
+          "keywords": ["atsarginės", "kopijos", "atkūrimas", "planas", "duomenų", "apsauga"],
           "category": "it"
         },
         {
@@ -1071,13 +686,7 @@
           "title": "Vartotojų prieigos matrica",
           "text": "Sukurk vartotojų prieigos kontrolės matricą [sistemai/programai]. Apibrėžk roles (administratorius, vadovas, vartotojas, tik skaitymas), kiekvienos rolės leidimus, duomenų prieigos lygius, prieigos prašymų tvirtinimo procesą ir periodinio peržiūrėjimo grafiką. Suformatuok kaip aiškią lentelę su RBAC logika.",
           "copyText": "Sukurk vartotojų prieigos kontrolės matricą [sistemai/programai]. Apibrėžk roles (administratorius, vadovas, vartotojas, tik skaitymas), kiekvienos rolės leidimus, duomenų prieigos lygius, prieigos prašymų tvirtinimo procesą ir periodinio peržiūrėjimo grafiką. Suformatuok kaip aiškią lentelę su RBAC logika.",
-          "keywords": [
-            "vartotojų",
-            "prieiga",
-            "leidimai",
-            "rolės",
-            "saugumas"
-          ],
+          "keywords": ["vartotojų", "prieiga", "leidimai", "rolės", "saugumas"],
           "category": "it"
         },
         {
@@ -1085,13 +694,7 @@
           "title": "Techninės dokumentacijos šablonas",
           "text": "Parengk techninę dokumentaciją [funkcijai/API/moduliui]. Įtrauk: apžvalgą ir paskirtį, reikalavimus, žingsnis po žingsnio instrukcijas su vietomis ekrano vaizdams, kodų pavyzdžius (jei taikoma), dažniausias klaidas ir sprendimus, DUK ir versijų istoriją. Tikslinė auditorija: [kūrėjai/galutiniai vartotojai/administratoriai].",
           "copyText": "Parengk techninę dokumentaciją [funkcijai/API/moduliui]. Įtrauk: apžvalgą ir paskirtį, reikalavimus, žingsnis po žingsnio instrukcijas su vietomis ekrano vaizdams, kodų pavyzdžius (jei taikoma), dažniausias klaidas ir sprendimus, DUK ir versijų istoriją. Tikslinė auditorija: [kūrėjai/galutiniai vartotojai/administratoriai].",
-          "keywords": [
-            "programinė",
-            "dokumentacija",
-            "api",
-            "techninės",
-            "specifikacijos"
-          ],
+          "keywords": ["programinė", "dokumentacija", "api", "techninės", "specifikacijos"],
           "category": "it"
         },
         {
@@ -1099,13 +702,7 @@
           "title": "Duomenų atsarginės kopijos strategija",
           "text": "Sukurk duomenų atsarginės kopijos strategiją [sistema/duomenys]. Įtrauk: kas kopijuojama, dažnumą (kasdien/kas savaitę), saugojimo vietas (cloud/local), saugojimo laikotarpį, atkūrimo procedūras, testavimo grafiką. Optimizuok saugumui ir greitam atkūrimui.",
           "copyText": "Sukurk duomenų atsarginės kopijos strategiją [sistema/duomenys]. Įtrauk: kas kopijuojama, dažnumą (kasdien/kas savaitę), saugojimo vietas (cloud/local), saugojimo laikotarpį, atkūrimo procedūras, testavimo grafiką. Optimizuok saugumui ir greitam atkūrimui.",
-          "keywords": [
-            "backup",
-            "strategija",
-            "atsarginė",
-            "kopija",
-            "duomenys"
-          ],
+          "keywords": ["backup", "strategija", "atsarginė", "kopija", "duomenys"],
           "category": "it"
         },
         {
@@ -1113,12 +710,7 @@
           "title": "Mokėjimo priminimo el. laiškas",
           "text": "Parašyk profesionalų, bet draugišką mokėjimo priminimo el. laišką dėl sąskaitos #[numeris], kuri vėluoja [X dienos]. Įtrauk: sąskaitos detales, mokėjimo būdus ir kontaktinę informaciją. Tonas: mandagus, bet tvirtas, išlaikant ryšį su klientu.",
           "copyText": "Parašyk profesionalų, bet draugišką mokėjimo priminimo el. laišką dėl sąskaitos #[numeris], kuri vėluoja [X dienos]. Įtrauk: sąskaitos detales, mokėjimo būdus ir kontaktinę informaciją. Tonas: mandagus, bet tvirtas, išlaikant ryšį su klientu.",
-          "keywords": [
-            "sąskaita",
-            "priminimas",
-            "mokėjimas",
-            "vėluoja"
-          ],
+          "keywords": ["sąskaita", "priminimas", "mokėjimas", "vėluoja"],
           "category": "it"
         },
         {
@@ -1126,12 +718,7 @@
           "title": "Finansinio audito kontrolinis sąrašas",
           "text": "Sukurk pasirengimo auditui kontrolinį sąrašą [audito tipas: metinis/vidinis/mokesčių]. Įtrauk: paruoštinus dokumentus, reikalingas suderinimo procedūras, atitikties punktus ir atlikimo grafiką. Sudėliok pagal prioritetus (kritiška, svarbu, galima turėti).",
           "copyText": "Sukurk pasirengimo auditui kontrolinį sąrašą [audito tipas: metinis/vidinis/mokesčių]. Įtrauk: paruoštinus dokumentus, reikalingas suderinimo procedūras, atitikties punktus ir atlikimo grafiką. Sudėliok pagal prioritetus (kritiška, svarbu, galima turėti).",
-          "keywords": [
-            "auditas",
-            "kontrolinis",
-            "sąrašas",
-            "atitiktis"
-          ],
+          "keywords": ["auditas", "kontrolinis", "sąrašas", "atitiktis"],
           "category": "it"
         },
         {
@@ -1139,13 +726,7 @@
           "title": "Eisenhower matricos užduočių klasifikacija",
           "text": "Klasifikuok šias užduotis [įklijuokite užduočių sąrašą] naudojant Eisenhower matricą. Kategorijos: 1) Skubus ir svarbus (daryk dabar), 2) Svarbus, bet neskubus (planuok), 3) Skubus, bet nesvarbus (deleguok), 4) Neskubus ir nesvarbus (pašalink). Kiekvienai kategorijai pateik: užduotis, veiksmų planą ir laiko įvertinimą.",
           "copyText": "Klasifikuok šias užduotis [įklijuokite užduočių sąrašą] naudojant Eisenhower matricą. Kategorijos: 1) Skubus ir svarbus (daryk dabar), 2) Svarbus, bet neskubus (planuok), 3) Skubus, bet nesvarbus (deleguok), 4) Neskubus ir nesvarbus (pašalink). Kiekvienai kategorijai pateik: užduotis, veiksmų planą ir laiko įvertinimą.",
-          "keywords": [
-            "eisenhower",
-            "matrica",
-            "prioritetai",
-            "skubumas",
-            "svarba"
-          ],
+          "keywords": ["eisenhower", "matrica", "prioritetai", "skubumas", "svarba"],
           "category": "it"
         },
         {
@@ -1153,12 +734,7 @@
           "title": "Sprendimų matrica",
           "text": "Sukurk sprendimų matricą [sprendimas: pvz., produkto pasirinkimas, strategijos pasirinkimas]. Įtrauk: alternatyvas (3-5 variantai), vertinimo kriterijus (5-7 kriterijai), kiekvieno kriterijaus svorį (1-10), kiekvienos alternatyvos vertinimą (1-10). Apskaičiuok bendrą balą ir pateik rekomendaciją su pagrindimu.",
           "copyText": "Sukurk sprendimų matricą [sprendimas: pvz., produkto pasirinkimas, strategijos pasirinkimas]. Įtrauk: alternatyvas (3-5 variantai), vertinimo kriterijus (5-7 kriterijai), kiekvieno kriterijaus svorį (1-10), kiekvienos alternatyvos vertinimą (1-10). Apskaičiuok bendrą balą ir pateik rekomendaciją su pagrindimu.",
-          "keywords": [
-            "sprendimų",
-            "matrica",
-            "kriterijai",
-            "vertinimas"
-          ],
+          "keywords": ["sprendimų", "matrica", "kriterijai", "vertinimas"],
           "category": "it"
         }
       ]
@@ -1174,12 +750,7 @@
           "title": "Kainos skaičiavimas",
           "text": "Apskaičiuok galutinę kainą, pritaikyk 15 % antkainį ir 21 % PVM, jei pirkimo kaina yra [x EUR].",
           "copyText": "Apskaičiuok galutinę kainą, pritaikyk 15 % antkainį ir 21 % PVM, jei pirkimo kaina yra [x EUR].",
-          "keywords": [
-            "kaina",
-            "skaičiavimas",
-            "antkainis",
-            "pvm"
-          ],
+          "keywords": ["kaina", "skaičiavimas", "antkainis", "pvm"],
           "category": "finance"
         },
         {
@@ -1187,12 +758,7 @@
           "title": "PVM paaiškinimas",
           "text": "Parašyk aiškų paaiškinimą klientui, kaip skaičiuojamas PVM ir kokios taisyklės galioja pirkėjams iš Lietuvos.",
           "copyText": "Parašyk aiškų paaiškinimą klientui, kaip skaičiuojamas PVM ir kokios taisyklės galioja pirkėjams iš Lietuvos.",
-          "keywords": [
-            "pvm",
-            "paaiškinimas",
-            "mokestis",
-            "lietuva"
-          ],
+          "keywords": ["pvm", "paaiškinimas", "mokestis", "lietuva"],
           "category": "finance"
         },
         {
@@ -1200,12 +766,7 @@
           "title": "Pinigų srautų prognozė",
           "text": "Sukurk 3 mėnesių pinigų srautų prognozę remdamasis šiais duomenimis: [įklijuokite skaičius]. Įtrauk: pradinį likutį, planuojamas įplaukas (su mokėjimo terminais), planuojamas išlaidas ir prognozuojamą likutinę sumą. Paryškink galimas likvidumo rizikas ir pasiūlyk mažinimo priemones.",
           "copyText": "Sukurk 3 mėnesių pinigų srautų prognozę remdamasis šiais duomenimis: [įklijuokite skaičius]. Įtrauk: pradinį likutį, planuojamas įplaukas (su mokėjimo terminais), planuojamas išlaidas ir prognozuojamą likutinę sumą. Paryškink galimas likvidumo rizikas ir pasiūlyk mažinimo priemones.",
-          "keywords": [
-            "pinigų",
-            "srautai",
-            "prognozė",
-            "likvidumas"
-          ],
+          "keywords": ["pinigų", "srautai", "prognozė", "likvidumas"],
           "category": "finance"
         }
       ]
@@ -1221,12 +782,7 @@
           "title": "Interviu klausimų rinkinys",
           "text": "Sukurk 10 elgsenos interviu klausimų [pareigybės pavadinimas] kandidatui. Įtrauk 3 klausimus apie problemų sprendimą, 3 apie komandinius įgūdžius, 2 apie darbą įtampoje ir 2 techninius, susijusius su vaidmeniu. Pateik, į ką atkreipti dėmesį, kai kandidatas atsako gerai.",
           "copyText": "Sukurk 10 elgsenos interviu klausimų [pareigybės pavadinimas] kandidatui. Įtrauk 3 klausimus apie problemų sprendimą, 3 apie komandinius įgūdžius, 2 apie darbą įtampoje ir 2 techninius, susijusius su vaidmeniu. Pateik, į ką atkreipti dėmesį, kai kandidatas atsako gerai.",
-          "keywords": [
-            "interviu",
-            "klausimai",
-            "kandidatų",
-            "vertinimas"
-          ],
+          "keywords": ["interviu", "klausimai", "kandidatų", "vertinimas"],
           "category": "hr"
         },
         {
@@ -1234,13 +790,7 @@
           "title": "Įvedimo kontrolinis sąrašas",
           "text": "Sukurk išsamų 30 dienų įvedimo kontrolinį sąrašą naujam [pareigybės pavadinimas], kuris pradeda dirbti [data]. Suskirstyk pagal: 1 dieną, 1 savaitę, 2–4 savaites ir 1 mėnesį. Įtrauk užduotis personalui, vadovui ir naujam darbuotojui.",
           "copyText": "Sukurk išsamų 30 dienų įvedimo kontrolinį sąrašą naujam [pareigybės pavadinimas], kuris pradeda dirbti [data]. Suskirstyk pagal: 1 dieną, 1 savaitę, 2–4 savaites ir 1 mėnesį. Įtrauk užduotis personalui, vadovui ir naujam darbuotojui.",
-          "keywords": [
-            "įvedimas",
-            "kontrolinis",
-            "sąrašas",
-            "naujas",
-            "darbuotojas"
-          ],
+          "keywords": ["įvedimas", "kontrolinis", "sąrašas", "naujas", "darbuotojas"],
           "category": "hr"
         },
         {
@@ -1248,13 +798,7 @@
           "title": "Veiklos vertinimo šablonas",
           "text": "Sukurk subalansuotą veiklos vertinimo šabloną darbuotojui [darbuotojo vardas], dirbančiam [pareigybės pavadinimas]. Įtrauk skiltis: pasiekimai, tobulintinos sritys, tikslų pažanga, įgūdžių vystymas ir kito ketvirčio tikslai. Naudok konstruktyvią, augimui skirtą kalbą.",
           "copyText": "Sukurk subalansuotą veiklos vertinimo šabloną darbuotojui [darbuotojo vardas], dirbančiam [pareigybės pavadinimas]. Įtrauk skiltis: pasiekimai, tobulintinos sritys, tikslų pažanga, įgūdžių vystymas ir kito ketvirčio tikslai. Naudok konstruktyvią, augimui skirtą kalbą.",
-          "keywords": [
-            "veiklos",
-            "vertinimas",
-            "grįžtamasis",
-            "ryšys",
-            "tikslai"
-          ],
+          "keywords": ["veiklos", "vertinimas", "grįžtamasis", "ryšys", "tikslai"],
           "category": "hr"
         },
         {
@@ -1262,12 +806,7 @@
           "title": "Personalo politikos projektas",
           "text": "Paruošk aiškų, darbuotojams draugišką [politikos tema: pvz., nuotolinis darbas, atostogos, išlaidos] politikos projektą. Struktūra: paskirtis, taikymo sritis, politikos detalės, procedūros ir DUK. Naudok paprastą kalbą ir pateik 3–5 dažniausias situacijas su pavyzdžiais.",
           "copyText": "Paruošk aiškų, darbuotojams draugišką [politikos tema: pvz., nuotolinis darbas, atostogos, išlaidos] politikos projektą. Struktūra: paskirtis, taikymo sritis, politikos detalės, procedūros ir DUK. Naudok paprastą kalbą ir pateik 3–5 dažniausias situacijas su pavyzdžiais.",
-          "keywords": [
-            "politika",
-            "personalas",
-            "taisyklės",
-            "vadovas"
-          ],
+          "keywords": ["politika", "personalas", "taisyklės", "vadovas"],
           "category": "hr"
         },
         {
@@ -1275,13 +814,7 @@
           "title": "Mokymo programos planas",
           "text": "Sukurk pusės dienos mokymo programą tema [tema] [skyriui/komandai]. Įtrauk: mokymosi tikslus, darbotvarkę su laiko planu, veiklas/praktinius pratimus, reikalingas medžiagas ir kaip matuoti mokymo efektyvumą.",
           "copyText": "Sukurk pusės dienos mokymo programą tema [tema] [skyriui/komandai]. Įtrauk: mokymosi tikslus, darbotvarkę su laiko planu, veiklas/praktinius pratimus, reikalingas medžiagas ir kaip matuoti mokymo efektyvumą.",
-          "keywords": [
-            "mokymai",
-            "programa",
-            "įgūdžių",
-            "ugdymas",
-            "dirbtuvės"
-          ],
+          "keywords": ["mokymai", "programa", "įgūdžių", "ugdymas", "dirbtuvės"],
           "category": "hr"
         },
         {
@@ -1289,13 +822,7 @@
           "title": "Darbo pasiūlymo laiškas",
           "text": "Parašyk profesionalų darbo pasiūlymo laišką kandidatui [kandidato vardas] į [pareigybės pavadinimas]. Įtrauk: atlyginimą, pradžios datą, naudų santrauką, atskaitomybę ir tolesnius žingsnius. Tonas: šiltas ir svetingas, išlaikant oficialumą.",
           "copyText": "Parašyk profesionalų darbo pasiūlymo laišką kandidatui [kandidato vardas] į [pareigybės pavadinimas]. Įtrauk: atlyginimą, pradžios datą, naudų santrauką, atskaitomybę ir tolesnius žingsnius. Tonas: šiltas ir svetingas, išlaikant oficialumą.",
-          "keywords": [
-            "darbo",
-            "pasiūlymas",
-            "laiškas",
-            "įdarbinimas",
-            "sutartis"
-          ],
+          "keywords": ["darbo", "pasiūlymas", "laiškas", "įdarbinimas", "sutartis"],
           "category": "hr"
         },
         {
@@ -1303,13 +830,7 @@
           "title": "Darbuotojų įsitraukimo apklausa",
           "text": "Sukurk 15 klausimų darbuotojų įsitraukimo apklausą, apimančią: pasitenkinimą darbu, vadovų veiksmingumą, darbo ir asmeninio gyvenimo balansą, augimo galimybes ir įmonės kultūrą. Naudok mišrią formą iš vertinimo skalės (1–5) ir atvirų klausimų. Užtikrink, kad apklausa būtų palanki anonimiškumui.",
           "copyText": "Sukurk 15 klausimų darbuotojų įsitraukimo apklausą, apimančią: pasitenkinimą darbu, vadovų veiksmingumą, darbo ir asmeninio gyvenimo balansą, augimo galimybes ir įmonės kultūrą. Naudok mišrią formą iš vertinimo skalės (1–5) ir atvirų klausimų. Užtikrink, kad apklausa būtų palanki anonimiškumui.",
-          "keywords": [
-            "darbuotojų",
-            "įsitraukimas",
-            "apklausa",
-            "grįžtamasis",
-            "ryšys"
-          ],
+          "keywords": ["darbuotojų", "įsitraukimas", "apklausa", "grįžtamasis", "ryšys"],
           "category": "hr"
         }
       ]
@@ -1325,11 +846,7 @@
           "title": "Kliento susitikimo agenda",
           "text": "Sukurk 30 minučių kliento susitikimo agendą [tema]. Įtrauk: įvadinę dalį (5 min), kliento poreikių identifikavimą (10 min), sprendimo pristatymą (10 min), klausimų ir atsakymų (5 min). Pateik klausimų sąrašą ir diskusijos gaires.",
           "copyText": "Sukurk 30 minučių kliento susitikimo agendą [tema]. Įtrauk: įvadinę dalį (5 min), kliento poreikių identifikavimą (10 min), sprendimo pristatymą (10 min), klausimų ir atsakymų (5 min). Pateik klausimų sąrašą ir diskusijos gaires.",
-          "keywords": [
-            "kliento",
-            "susitikimas",
-            "prezentacija"
-          ],
+          "keywords": ["kliento", "susitikimas", "prezentacija"],
           "category": "productivity"
         },
         {
@@ -1337,12 +854,7 @@
           "title": "Atsargų papildymo rekomendacija",
           "text": "Išanalizuok [produkto kategorija] atsargų lygį ir pasiūlyk papildymo kiekius. Įvertink: esamas atsargas, vidutinį mėnesio pardavimą, pristatymo terminą ([X dienos]), saugos atsargų poreikį ir sezoniškumą. Pateik pirkimų veiksmų sąrašą su prioritetais.",
           "copyText": "Išanalizuok [produkto kategorija] atsargų lygį ir pasiūlyk papildymo kiekius. Įvertink: esamas atsargas, vidutinį mėnesio pardavimą, pristatymo terminą ([X dienos]), saugos atsargų poreikį ir sezoniškumą. Pateik pirkimų veiksmų sąrašą su prioritetais.",
-          "keywords": [
-            "atsargos",
-            "papildymas",
-            "inventorius",
-            "planavimas"
-          ],
+          "keywords": ["atsargos", "papildymas", "inventorius", "planavimas"],
           "category": "productivity"
         },
         {
@@ -1350,12 +862,7 @@
           "title": "Sandėlio erdvės optimizavimas",
           "text": "Išanalizuok sandėlio erdvės panaudojimą zonoje [zona/koridorius]. Nustatyk: lėtai judančias prekes, užimančias geriausias vietas, dažnai komplektuojamas prekes toli nuo pakavimo stoties ir švaistomą erdvę. Pateik 5 reorganizacijos rekomendacijas, kad komplektavimo efektyvumas pagerėtų [X] %.",
           "copyText": "Išanalizuok sandėlio erdvės panaudojimą zonoje [zona/koridorius]. Nustatyk: lėtai judančias prekes, užimančias geriausias vietas, dažnai komplektuojamas prekes toli nuo pakavimo stoties ir švaistomą erdvę. Pateik 5 reorganizacijos rekomendacijas, kad komplektavimo efektyvumas pagerėtų [X] %.",
-          "keywords": [
-            "sandėlis",
-            "išplanavimas",
-            "optimizavimas",
-            "efektyvumas"
-          ],
+          "keywords": ["sandėlis", "išplanavimas", "optimizavimas", "efektyvumas"],
           "category": "productivity"
         },
         {
@@ -1363,13 +870,7 @@
           "title": "Pomodoro darbotvarkės planas",
           "text": "Sukurk Pomodoro darbotvarkę [dienai/savaitei] [tema/projektas]. Įtrauk: užduočių sąrašą su prioritetais, kiekvienos užduoties Pomodoro skaičių (1 Pomodoro = 25 min), trumpas pertraukas (5 min) ir ilgas pertraukas (15-30 min po 4 Pomodoro). Optimizuok užduočių seką pagal energijos lygį ir prioritetus. Pateik kaip valandų planą.",
           "copyText": "Sukurk Pomodoro darbotvarkę [dienai/savaitei] [tema/projektas]. Įtrauk: užduočių sąrašą su prioritetais, kiekvienos užduoties Pomodoro skaičių (1 Pomodoro = 25 min), trumpas pertraukas (5 min) ir ilgas pertraukas (15-30 min po 4 Pomodoro). Optimizuok užduočių seką pagal energijos lygį ir prioritetus. Pateik kaip valandų planą.",
-          "keywords": [
-            "pomodoro",
-            "darbotvarkė",
-            "laiko",
-            "valdymas",
-            "produktyvumas"
-          ],
+          "keywords": ["pomodoro", "darbotvarkė", "laiko", "valdymas", "produktyvumas"],
           "category": "productivity"
         },
         {
@@ -1377,12 +878,7 @@
           "title": "SMART tikslų formulavimas",
           "text": "Sukurk 5 SMART tikslus [tema/projektas]. Kiekvienas tikslas turi būti: Specific (konkretus), Measurable (išmatuojamas), Achievable (pasiekiamas), Relevant (aktualus), Time-bound (laiko apribotas). Kiekvienam tikslui pateik: aprašymą, rodiklius, veiksmų planą, laiko rėmus ir sėkmės kriterijus.",
           "copyText": "Sukurk 5 SMART tikslus [tema/projektas]. Kiekvienas tikslas turi būti: Specific (konkretus), Measurable (išmatuojamas), Achievable (pasiekiamas), Relevant (aktualus), Time-bound (laiko apribotas). Kiekvienam tikslui pateik: aprašymą, rodiklius, veiksmų planą, laiko rėmus ir sėkmės kriterijus.",
-          "keywords": [
-            "smart",
-            "tikslai",
-            "planavimas",
-            "tikslas"
-          ],
+          "keywords": ["smart", "tikslai", "planavimas", "tikslas"],
           "category": "productivity"
         },
         {
@@ -1390,12 +886,7 @@
           "title": "Laiko blokavimo darbotvarkė",
           "text": "Sukurk laiko blokavimo darbotvarkę [dienai/savaitei] [pareigos/projektas]. Įtrauk: fiksuotus laikus (susitikimai, skambučiai), gilios darbotvarkės blokus (2-3 val. be pertraukų), trumpus užduočių blokus (30-60 min), pertraukas ir laisvalaikį. Optimizuok pagal energijos lygį ir prioritetus. Pateik kaip valandų kalendorių.",
           "copyText": "Sukurk laiko blokavimo darbotvarkę [dienai/savaitei] [pareigos/projektas]. Įtrauk: fiksuotus laikus (susitikimai, skambučiai), gilios darbotvarkės blokus (2-3 val. be pertraukų), trumpus užduočių blokus (30-60 min), pertraukas ir laisvalaikį. Optimizuok pagal energijos lygį ir prioritetus. Pateik kaip valandų kalendorių.",
-          "keywords": [
-            "laiko",
-            "blokavimas",
-            "darbotvarkė",
-            "planavimas"
-          ],
+          "keywords": ["laiko", "blokavimas", "darbotvarkė", "planavimas"],
           "category": "productivity"
         },
         {
@@ -1403,14 +894,7 @@
           "title": "2 minučių taisyklės užduočių identifikavimas",
           "text": "Išanalizuok užduočių sąrašą [įklijuokite užduotis] ir identifikuok, kurias galima atlikti per 2 minutes arba mažiau. Sukurk: 1) Greitų užduočių sąrašą (daryk dabar), 2) Užduočių, kurias galima suskaidyti į 2 min. dalis, 3) Veiksmų planą, kaip greitai jas atlikti. Optimizuok produktyvumui ir laiko taupymui.",
           "copyText": "Išanalizuok užduočių sąrašą [įklijuokite užduotis] ir identifikuok, kurias galima atlikti per 2 minutes arba mažiau. Sukurk: 1) Greitų užduočių sąrašą (daryk dabar), 2) Užduočių, kurias galima suskaidyti į 2 min. dalis, 3) Veiksmų planą, kaip greitai jas atlikti. Optimizuok produktyvumui ir laiko taupymui.",
-          "keywords": [
-            "2",
-            "minučių",
-            "taisyklė",
-            "greitos",
-            "užduotys",
-            "produktyvumas"
-          ],
+          "keywords": ["2", "minučių", "taisyklė", "greitos", "užduotys", "produktyvumas"],
           "category": "productivity"
         },
         {
@@ -1418,12 +902,7 @@
           "title": "Gilio darbo grafikas",
           "text": "Sukurk gilio darbo grafiką [savaitė/mėnuo] [projektas]. Įtrauk: 2-4 val. gilaus darbo blokus be pertraukų, optimalius laikus pagal energijos lygį, paruošimą prieš gilų darbą (užduočių sąrašas, medžiagos), po gilio darbo veiklas (lengvesnės užduotys). Optimizuok koncentracijai ir produktyvumui.",
           "copyText": "Sukurk gilio darbo grafiką [savaitė/mėnuo] [projektas]. Įtrauk: 2-4 val. gilaus darbo blokus be pertraukų, optimalius laikus pagal energijos lygį, paruošimą prieš gilų darbą (užduočių sąrašas, medžiagos), po gilio darbo veiklas (lengvesnės užduotys). Optimizuok koncentracijai ir produktyvumui.",
-          "keywords": [
-            "gilus",
-            "darbas",
-            "koncentracija",
-            "produktyvumas"
-          ],
+          "keywords": ["gilus", "darbas", "koncentracija", "produktyvumas"],
           "category": "productivity"
         },
         {
@@ -1431,12 +910,7 @@
           "title": "Savaitės apžvalgos šablonas",
           "text": "Sukurk savaitės apžvalgos šabloną [savaitė]. Įtrauk: 1) Pasiektus tikslus ir sėkmes, 2) Neatliktas užduotis ir priežastis, 3) Išmoktas pamokas, 4) Kitą savaitę prioritetus, 5) Veiksmų planą. Optimizuok refleksijai, mokymuisi ir tolesniam planavimui.",
           "copyText": "Sukurk savaitės apžvalgos šabloną [savaitė]. Įtrauk: 1) Pasiektus tikslus ir sėkmes, 2) Neatliktas užduotis ir priežastis, 3) Išmoktas pamokas, 4) Kitą savaitę prioritetus, 5) Veiksmų planą. Optimizuok refleksijai, mokymuisi ir tolesniam planavimui.",
-          "keywords": [
-            "savaitės",
-            "apžvalga",
-            "refleksija",
-            "planavimas"
-          ],
+          "keywords": ["savaitės", "apžvalga", "refleksija", "planavimas"],
           "category": "productivity"
         },
         {
@@ -1444,13 +918,7 @@
           "title": "Energijos valdymo dienos planas",
           "text": "Sukurk energijos valdymo dienos planą [diena] [pareigos]. Identifikuok: aukšto energijos laikus (sunkios užduotys), vidutinio energijos laikus (vidutinės užduotys), žemo energijos laikus (lengvos užduotys). Optimizuok užduočių seką pagal energijos lygį. Pateik kaip valandų planą su užduočių paskirstymu.",
           "copyText": "Sukurk energijos valdymo dienos planą [diena] [pareigos]. Identifikuok: aukšto energijos laikus (sunkios užduotys), vidutinio energijos laikus (vidutinės užduotys), žemo energijos laikus (lengvos užduotys). Optimizuok užduočių seką pagal energijos lygį. Pateik kaip valandų planą su užduočių paskirstymu.",
-          "keywords": [
-            "energijos",
-            "valdymas",
-            "produktyvumas",
-            "dienos",
-            "planas"
-          ],
+          "keywords": ["energijos", "valdymas", "produktyvumas", "dienos", "planas"],
           "category": "productivity"
         },
         {
@@ -1458,12 +926,7 @@
           "title": "Įpročių sukūrimo planas (Habit Stacking)",
           "text": "Sukurk įpročių sukūrimo planą naudojant Habit Stacking metodą [tikslinis įprotis]. Įtrauk: esamą įprotį (ankeris), naują įprotį (pridėk prieš/po ankerio), konkrečius veiksmus, laiką, vietą, sėkmės kriterijus. Pateik 30 dienų planą su progreso sekimu ir motyvacijos strategijomis.",
           "copyText": "Sukurk įpročių sukūrimo planą naudojant Habit Stacking metodą [tikslinis įprotis]. Įtrauk: esamą įprotį (ankeris), naują įprotį (pridėk prieš/po ankerio), konkrečius veiksmus, laiką, vietą, sėkmės kriterijus. Pateik 30 dienų planą su progreso sekimu ir motyvacijos strategijomis.",
-          "keywords": [
-            "įpročių",
-            "sukūrimas",
-            "rutina",
-            "produktyvumas"
-          ],
+          "keywords": ["įpročių", "sukūrimas", "rutina", "produktyvumas"],
           "category": "productivity"
         },
         {
@@ -1471,13 +934,7 @@
           "title": "Paketinio apdorojimo strategija",
           "text": "Sukurk paketinio apdorojimo strategiją [užduočių tipas: pvz., el. laiškai, skambučiai, dokumentai]. Įtrauk: panašių užduočių grupavimą, optimalų laiką paketiniam apdorojimui, paruošimą (šablonai, medžiagos), apdorojimo seką ir laiko taupymo įvertinimą. Optimizuok efektyvumui ir koncentracijai.",
           "copyText": "Sukurk paketinio apdorojimo strategiją [užduočių tipas: pvz., el. laiškai, skambučiai, dokumentai]. Įtrauk: panašių užduočių grupavimą, optimalų laiką paketiniam apdorojimui, paruošimą (šablonai, medžiagos), apdorojimo seką ir laiko taupymo įvertinimą. Optimizuok efektyvumui ir koncentracijai.",
-          "keywords": [
-            "paketinis",
-            "apdorojimas",
-            "efektyvumas",
-            "laiko",
-            "valdymas"
-          ],
+          "keywords": ["paketinis", "apdorojimas", "efektyvumas", "laiko", "valdymas"],
           "category": "productivity"
         },
         {
@@ -1485,13 +942,7 @@
           "title": "Produktyvios ryto rutinos planas",
           "text": "Sukurk produktyvios ryto rutinos planą [laikotarpis: 30-60 min]. Įtrauk: pabudimo veiklas (hidratacija, judėjimas), planavimo veiklas (tikslai, prioritetai), motyvacijos veiklas (skaitymas, meditacija), paruošimą dienai (užduočių sąrašas). Optimizuok energijai, fokusui ir produktyvumui visą dieną.",
           "copyText": "Sukurk produktyvios ryto rutinos planą [laikotarpis: 30-60 min]. Įtrauk: pabudimo veiklas (hidratacija, judėjimas), planavimo veiklas (tikslai, prioritetai), motyvacijos veiklas (skaitymas, meditacija), paruošimą dienai (užduočių sąrašas). Optimizuok energijai, fokusui ir produktyvumui visą dieną.",
-          "keywords": [
-            "ryto",
-            "rutina",
-            "produktyvumas",
-            "dienos",
-            "pradžia"
-          ],
+          "keywords": ["ryto", "rutina", "produktyvumas", "dienos", "pradžia"],
           "category": "productivity"
         }
       ]
@@ -1507,12 +958,7 @@
           "title": "Tiekėjo vertinimo sistema",
           "text": "Sukurk tiekėjo vertinimo sistemą [tiekėjas]. Įtrauk: kokybės rodiklius, pristatymo laiką, kainos konkurencingumą, komunikacijos efektyvumą, problemų sprendimą. Kiekvienam rodikliui nurodyk: svorį, vertinimo skalę (1-10), minimalius reikalavimus. Pateik bendrą vertinimą ir rekomendacijas.",
           "copyText": "Sukurk tiekėjo vertinimo sistemą [tiekėjas]. Įtrauk: kokybės rodiklius, pristatymo laiką, kainos konkurencingumą, komunikacijos efektyvumą, problemų sprendimą. Kiekvienam rodikliui nurodyk: svorį, vertinimo skalę (1-10), minimalius reikalavimus. Pateik bendrą vertinimą ir rekomendacijas.",
-          "keywords": [
-            "tiekėjo",
-            "vertinimas",
-            "kokybė",
-            "patikimumas"
-          ],
+          "keywords": ["tiekėjo", "vertinimas", "kokybė", "patikimumas"],
           "category": "advanced"
         },
         {

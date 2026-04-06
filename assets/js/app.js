@@ -44,7 +44,10 @@
     });
   }
 
+  let langLinkPreferenceBound = false;
   function initLangLinkPreference() {
+    if (langLinkPreferenceBound) return;
+    langLinkPreferenceBound = true;
     document.querySelectorAll('a.lang-link[data-lang]').forEach(anchor => {
       anchor.addEventListener('click', () => {
         const lang = anchor.getAttribute('data-lang');
@@ -58,6 +61,10 @@
     });
   }
 
+  function prefersReducedMotion() {
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
+
   const STRINGS = {
     lt: {
       copyBtn: 'Kopijuoti',
@@ -68,6 +75,12 @@
       searchAria: 'Ieškoti praktinių užduočių',
       searchResultsNone: 'Nerasta užduočių pagal šį raktažodį',
       searchResultsOne: 'Rasta 1 užduotis',
+      searchEmptyHint:
+        'Pabandykite trumpesnį žodį, kitą frazę arba naršykite skyrius meniu. Keli žodžiai — visi turi sutapti (IR logika).',
+      searchClearSearch: 'Išvalyti paiešką',
+      loadRetry: 'Bandyti dar kartą',
+      libraryKeyboardHint:
+        'Greita paieška: klavišas / perjungia fokusą į paiešką viršuje (nevedant teksto į lauką).',
       tasksBadge: n => `${n} ${ltTaskForm(n)}`,
       skipLink: 'Pereiti prie turinio',
       navToggle: 'Meniu',
@@ -86,6 +99,7 @@
       footerLead:
         'Turite pasiūlymų naujiems praktiniams uždaviniams? Parašykite! (Forma tikrina duomenis, bet jų neišsiunčia.)',
       loadError: 'Nepavyko įkelti bibliotekos duomenų. Patikrinkite tinklą ir bandykite dar kartą.',
+      loadingLabel: 'Įkeliama užduočių biblioteka…',
       keyboardHint: 'Spauskite <kbd>/</kbd> paieškai',
       themeCyclePrefix: 'Spalvinė schema',
       themeCycleAction: 'Spauskite perjungti ciklu.',
@@ -102,6 +116,12 @@
       searchAria: 'Search prompts and tasks',
       searchResultsNone: 'No tasks found for this keyword',
       searchResultsOne: '1 task found',
+      searchEmptyHint:
+        'Try a shorter word, different keywords, or browse sections in the menu. Multiple words must all match (AND).',
+      searchClearSearch: 'Clear search',
+      loadRetry: 'Try again',
+      libraryKeyboardHint:
+        'Quick search: press / to focus the search field in the header (when not typing in an input).',
       tasksBadge: n => (n === 1 ? '1 task' : `${n} tasks`),
       skipLink: 'Skip to content',
       navToggle: 'Menu',
@@ -119,6 +139,7 @@
       footerLead:
         'Have ideas for new practical tasks? Write to us! (The form validates input but does not send data.)',
       loadError: 'Could not load library data. Check your connection and try again.',
+      loadingLabel: 'Loading the task library…',
       keyboardHint: 'Press <kbd>/</kbd> to search',
       themeCyclePrefix: 'Color scheme',
       themeCycleAction: 'Press to cycle options.',
@@ -154,6 +175,7 @@
         'Kas teil on ideid uute praktiliste ülesannete kohta? Kirjutage! (Vorm kontrollib andmeid, kuid ei saada neid.)',
       loadError:
         'Biblioteki andmeid ei õnnestunud laadida. Kontrollige ühendust ja proovige uuesti.',
+      loadingLabel: 'Ülesannete raamatukogu laadimine…',
       keyboardHint: 'Otsimiseks vajutage <kbd>/</kbd>',
       themeCyclePrefix: 'Värviskeem',
       themeCycleAction: 'Vajutage valiku vahetamiseks.',
@@ -170,6 +192,12 @@
       searchAria: 'Meklēt uzdevumus',
       searchResultsNone: 'Nav atrasts neviens uzdevums ar šo atslēgvārdu',
       searchResultsOne: 'Atrasts 1 uzdevums',
+      searchEmptyHint:
+        'Izmēģiniet īsāku vārdu, citus atslēgvārdus vai pārlūkojiet sadaļas izvēlnē. Vairāki vārdi — jāsakrīt visiem (UN).',
+      searchClearSearch: 'Notīrīt meklēšanu',
+      loadRetry: 'Mēģināt vēlreiz',
+      libraryKeyboardHint:
+        'Ātra meklēšana: nospiediet /, lai fokuss pāriet uz meklēšanu augšā (kad nerakstāt ievades laukā).',
       tasksBadge: n => (n === 1 ? '1 uzdevums' : `${n} uzdevumi`),
       skipLink: 'Pāriet uz saturu',
       navToggle: 'Izvēlne',
@@ -188,6 +216,7 @@
       footerLead:
         'Ir idejas jauniem praktiskiem uzdevumiem? Rakstiet! (Veidlapa pārbauda datus, bet tos nesūta.)',
       loadError: 'Neizdevās ielādēt bibliotēkas datus. Pārbaudiet savienojumu un mēģiniet vēlreiz.',
+      loadingLabel: 'Ielādē uzdevumu bibliotēku…',
       keyboardHint: 'Meklēšanai nospiediet <kbd>/</kbd>',
       themeCyclePrefix: 'Krāsu shēma',
       themeCycleAction: 'Nospiediet, lai pārslēgtu.',
@@ -329,7 +358,7 @@
       const meta = document.querySelector('meta[name="theme-color"]');
       if (!meta) return;
       const dark = '#0b1221';
-      const light = '#0d6efd';
+      const light = '#4338ca';
       const mode = this.getMode();
       if (mode === 'dark') meta.setAttribute('content', dark);
       else if (mode === 'light') meta.setAttribute('content', light);
@@ -494,6 +523,10 @@
     },
   };
 
+  function tokenizeSearchQuery(value) {
+    return value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  }
+
   // ============================================
   // SEARCH
   // ============================================
@@ -503,38 +536,59 @@
     cards: null,
     depts: null,
     resultsEl: null,
+    mobileResultsEl: null,
+    hintsEl: null,
+    mobileHintsEl: null,
     _suppressUrlSync: false,
+    _handlersBound: false,
     init() {
       const strings = t();
       this.input = document.getElementById('search-prompts');
       this.mobileInput = document.getElementById('mobile-search-input');
-      this.cards = document.querySelectorAll('.prompt-card');
-      this.depts = document.querySelectorAll('.dept');
       this.resultsEl = document.getElementById('search-results');
       this.mobileResultsEl = document.getElementById('mobile-search-results');
+      this.hintsEl = document.getElementById('search-results-hint');
+      this.mobileHintsEl = document.getElementById('mobile-search-results-hint');
       if (this.input) {
         this.input.placeholder = strings.searchPlaceholder;
         this.input.setAttribute('aria-label', strings.searchAria);
-        this.input.addEventListener('input', () => this.handleSearch(this.input.value));
+        if (!this._handlersBound) {
+          this.input.addEventListener('input', () => this.handleSearch(this.input.value));
+        }
       }
       if (this.mobileInput && this.input) {
         this.mobileInput.placeholder = strings.searchPlaceholder;
         this.mobileInput.setAttribute('aria-label', strings.searchAria);
-        this.mobileInput.addEventListener('input', () => {
-          this.input.value = this.mobileInput.value;
-          this.handleSearch(this.mobileInput.value);
-        });
+        if (!this._handlersBound) {
+          this.mobileInput.addEventListener('input', () => {
+            this.input.value = this.mobileInput.value;
+            this.handleSearch(this.mobileInput.value);
+          });
+        }
       }
+      this._handlersBound = true;
       const params = new URLSearchParams(window.location.search);
       const qParam = params.get('q');
       if (qParam !== null && this.input) {
         this._suppressUrlSync = true;
         this.input.value = qParam;
         if (this.mobileInput) this.mobileInput.value = qParam;
-        this.handleSearch(qParam);
         this._suppressUrlSync = false;
       }
+      this.refreshDom();
       syncLangLinksQuery();
+    },
+    refreshDom() {
+      this.cards = document.querySelectorAll('.prompt-card');
+      this.depts = document.querySelectorAll('.dept');
+      const strings = t();
+      const q = this.input ? this.input.value.trim() : '';
+      if (q) {
+        this.handleSearch(this.input.value);
+      } else {
+        this.showAll();
+        this.updateResults(null, strings);
+      }
     },
     syncQueryToUrl() {
       if (this._suppressUrlSync) return;
@@ -553,11 +607,12 @@
       syncLangLinksQuery();
     },
     handleSearch(value) {
-      const query = value.toLowerCase().trim();
+      const tokens = tokenizeSearchQuery(value);
       const strings = t();
-      if (query === '') {
+      if (tokens.length === 0) {
         this.showAll();
         this.updateResults(null, strings);
+        this.setEmptyHints(false, strings);
         this.syncQueryToUrl();
         return;
       }
@@ -569,15 +624,12 @@
         const keywords = card.getAttribute('data-keywords') || '';
         const titleText = title ? title.textContent.toLowerCase() : '';
         const cardText = text ? text.textContent.toLowerCase() : '';
-        const matches =
-          titleText.includes(query) ||
-          cardText.includes(query) ||
-          keywords.toLowerCase().includes(query);
+        const haystack = `${titleText} ${cardText} ${keywords.toLowerCase()}`;
+        const matches = tokens.every(tok => haystack.includes(tok));
         card.style.display = matches ? '' : 'none';
         if (matches) {
           visibleCount++;
-          this.highlightText(title, query);
-          this.highlightText(text, query);
+          this.applyHighlights(title, text, tokens);
         } else {
           this.removeHighlight(title);
           this.removeHighlight(text);
@@ -594,7 +646,17 @@
         dept.style.display = visibleByDept[deptId] > 0 ? '' : 'none';
       });
       this.updateResults(visibleCount, strings);
+      this.setEmptyHints(visibleCount === 0, strings);
       this.syncQueryToUrl();
+    },
+    applyHighlights(title, text, tokens) {
+      if (tokens.length === 1) {
+        this.highlightText(title, tokens[0]);
+        this.highlightText(text, tokens[0]);
+      } else {
+        this.highlightMultiple(title, tokens);
+        this.highlightMultiple(text, tokens);
+      }
     },
     showAll() {
       this.cards.forEach(card => {
@@ -627,6 +689,21 @@
       result += this.escapeHtml(originalText.slice(lastIndex));
       element.innerHTML = result;
     },
+    highlightMultiple(element, tokens) {
+      if (!element || !tokens.length) return;
+      const original = element.getAttribute('data-original') || element.textContent;
+      element.setAttribute('data-original', original);
+      const uniq = [...new Set(tokens.map(t => t.toLowerCase()))].sort(
+        (a, b) => b.length - a.length
+      );
+      const parts = uniq.map(tok => tok.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).filter(Boolean);
+      if (!parts.length) {
+        element.textContent = original;
+        return;
+      }
+      const re = new RegExp(`(${parts.join('|')})`, 'gi');
+      element.innerHTML = original.replace(re, m => `<mark>${this.escapeHtml(m)}</mark>`);
+    },
     removeHighlight(element) {
       if (!element) return;
       const original = element.getAttribute('data-original');
@@ -639,6 +716,39 @@
       const div = document.createElement('div');
       div.textContent = text;
       return div.innerHTML;
+    },
+    setEmptyHints(show, strings) {
+      const fill = el => {
+        if (!el) return;
+        if (!show) {
+          el.hidden = true;
+          el.innerHTML = '';
+          return;
+        }
+        el.hidden = false;
+        el.innerHTML = '';
+        const p = document.createElement('p');
+        p.className = 'search-results-hint__text';
+        p.textContent = strings.searchEmptyHint;
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'search-results-hint__clear';
+        btn.textContent = strings.searchClearSearch;
+        btn.addEventListener('click', () => this.clearSearch());
+        el.append(p, btn);
+      };
+      fill(this.hintsEl);
+      fill(this.mobileHintsEl);
+    },
+    clearSearch() {
+      if (this.input) this.input.value = '';
+      if (this.mobileInput) this.mobileInput.value = '';
+      const strings = t();
+      this.showAll();
+      this.updateResults(null, strings);
+      this.setEmptyHints(false, strings);
+      this.syncQueryToUrl();
+      if (this.input) this.input.focus();
     },
     updateResults(count, strings) {
       const set = (el, text, show) => {
@@ -653,6 +763,7 @@
       if (count === null) {
         set(this.resultsEl, '', false);
         set(this.mobileResultsEl, '', false);
+        this.setEmptyHints(false, strings);
         return;
       }
       let msg = '';
@@ -708,7 +819,7 @@
       this.button.classList.toggle('visible', window.scrollY > this.threshold);
     },
     scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: prefersReducedMotion() ? 'auto' : 'smooth' });
     },
   };
 
@@ -910,6 +1021,7 @@
       const { el, errorEl, label } = field;
       if (el.validity.valid) {
         el.setAttribute('aria-invalid', 'false');
+        el.removeAttribute('aria-errormessage');
         if (errorEl) errorEl.textContent = '';
         return false;
       }
@@ -927,16 +1039,51 @@
         message = el.validationMessage;
       }
       el.setAttribute('aria-invalid', 'true');
-      if (errorEl) errorEl.textContent = message;
+      if (errorEl) {
+        errorEl.textContent = message;
+        if (errorEl.id) el.setAttribute('aria-errormessage', errorEl.id);
+      }
       return true;
     },
     clearErrors() {
       for (const { el, errorEl } of this.fields) {
         el.removeAttribute('aria-invalid');
+        el.removeAttribute('aria-errormessage');
         if (errorEl) errorEl.textContent = '';
       }
     },
   };
+
+  /** Skeleton placeholders in #prompts-container until prompts JSON loads. */
+  function showPromptsLoading(container) {
+    if (!container) return;
+    const strings = t();
+    container.innerHTML = '';
+    const wrap = document.createElement('div');
+    wrap.className = 'prompts-loading';
+    wrap.setAttribute('role', 'status');
+    wrap.setAttribute('aria-live', 'polite');
+    wrap.setAttribute('aria-busy', 'true');
+    const sr = document.createElement('span');
+    sr.className = 'visually-hidden';
+    sr.textContent = strings.loadingLabel;
+    const grid = document.createElement('div');
+    grid.className = 'prompts-skeleton';
+    for (let i = 0; i < 6; i += 1) {
+      const card = document.createElement('div');
+      card.className = 'prompt-skeleton';
+      const tEl = document.createElement('div');
+      tEl.className = 'prompt-skeleton__title';
+      const bEl = document.createElement('div');
+      bEl.className = 'prompt-skeleton__body';
+      const btn = document.createElement('div');
+      btn.className = 'prompt-skeleton__btn';
+      card.append(tEl, bEl, btn);
+      grid.appendChild(card);
+    }
+    wrap.append(sr, grid);
+    container.appendChild(wrap);
+  }
 
   function buildNav(categories) {
     const ul = document.getElementById('primary-nav');
@@ -991,6 +1138,8 @@
         const kw = (p.keywords || []).join(' ').toLowerCase();
         const article = document.createElement('article');
         article.className = 'prompt-card';
+        article.id = `prompt-${p.id}`;
+        article.setAttribute('data-prompt-id', String(p.id));
         article.setAttribute('data-keywords', kw);
         const h3 = document.createElement('h3');
         h3.className = 'prompt-card__title';
@@ -1006,7 +1155,10 @@
         btn.setAttribute('aria-label', `${strings.copyBtn}: ${p.title}`);
         btn.setAttribute('data-copy', p.copyText || p.text);
         const ic = document.createElement('span');
-        ic.textContent = '📋';
+        ic.className = 'btn-copy__icon';
+        ic.setAttribute('aria-hidden', 'true');
+        ic.innerHTML =
+          '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg>';
         btn.appendChild(ic);
         btn.appendChild(document.createTextNode(` ${strings.copyBtn}`));
         actions.appendChild(btn);
@@ -1041,16 +1193,76 @@
     if (fl) fl.textContent = strings.footerLead;
     const kh = document.getElementById('keyboard-hint');
     if (kh) kh.innerHTML = strings.keyboardHint;
+    const libKh = document.getElementById('library-keyboard-hint');
+    if (libKh) libKh.textContent = strings.libraryKeyboardHint;
   }
 
-  async function bootstrap() {
-    const loc = getLocale();
-    const dataLocale = SUPPORTED_DATA_LOCALES.includes(loc) ? loc : 'en';
-    const base = assetsBase();
-    const url = `${base}/data/prompts.${dataLocale}.json`;
-    applyChromeStrings();
-    initLangLinkPreference();
+  function applyPromptDeepLink() {
+    const url = new URL(window.location.href);
+    let raw = url.searchParams.get('prompt');
+    const hashMatch = window.location.hash.match(/^#prompt-(\d+)$/);
+    if (!raw && hashMatch) raw = hashMatch[1];
+    if (!raw) return;
+    const pid = parseInt(raw, 10);
+    if (!Number.isFinite(pid)) return;
+    const card = document.querySelector(`[data-prompt-id="${pid}"]`);
+    if (!card) return;
+
+    Search.showAll();
+    if (Search.input) {
+      Search.input.value = '';
+      if (Search.mobileInput) Search.mobileInput.value = '';
+    }
+    const strings = t();
+    Search.updateResults(null, strings);
+    Search.setEmptyHints(false, strings);
+    const u = new URL(window.location.href);
+    u.searchParams.delete('q');
+    u.hash = `prompt-${pid}`;
+    Search._suppressUrlSync = true;
+    history.replaceState(null, '', `${u.pathname}${u.search}${u.hash}`);
+    Search._suppressUrlSync = false;
     syncLangLinksQuery();
+
+    const dept = card.closest('.dept');
+    if (dept) dept.style.display = '';
+    card.classList.add('prompt-card--target');
+    requestAnimationFrame(() => {
+      card.scrollIntoView({
+        behavior: prefersReducedMotion() ? 'auto' : 'smooth',
+        block: 'nearest',
+      });
+    });
+    window.setTimeout(() => card.classList.remove('prompt-card--target'), 2200);
+  }
+
+  function renderLoadError(container) {
+    if (!container) return;
+    const strings = t();
+    container.innerHTML = '';
+    const wrap = document.createElement('div');
+    wrap.className = 'load-error-wrap';
+    const p = document.createElement('p');
+    p.className = 'load-error';
+    p.setAttribute('role', 'alert');
+    p.textContent = strings.loadError;
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'button load-error-retry';
+    btn.textContent = strings.loadRetry;
+    btn.addEventListener('click', () => {
+      loadPromptsLibrary();
+    });
+    wrap.append(p, btn);
+    container.appendChild(wrap);
+  }
+
+  let chromeModulesInitialized = false;
+  let promptsSearchInitialized = false;
+
+  function initChromeModules() {
+    if (chromeModulesInitialized) return;
+    chromeModulesInitialized = true;
     Theme.init();
     Toast.init();
     Progress.init();
@@ -1059,6 +1271,21 @@
     Keyboard.init();
     Navigation.init();
     Form.init();
+  }
+
+  async function loadPromptsLibrary() {
+    const loc = getLocale();
+    const dataLocale = SUPPORTED_DATA_LOCALES.includes(loc) ? loc : 'en';
+    const base = assetsBase();
+    const url = `${base}/data/prompts.${dataLocale}.json`;
+    const promptsContainer = document.getElementById('prompts-container');
+
+    applyChromeStrings();
+    initLangLinkPreference();
+    syncLangLinksQuery();
+    initChromeModules();
+
+    showPromptsLoading(promptsContainer);
 
     let data;
     try {
@@ -1067,15 +1294,7 @@
       data = await res.json();
     } catch (err) {
       console.error('Failed to load prompts', err);
-      const container = document.getElementById('prompts-container');
-      if (container) {
-        const p = document.createElement('p');
-        p.className = 'load-error';
-        p.setAttribute('role', 'alert');
-        p.textContent = t().loadError;
-        container.innerHTML = '';
-        container.appendChild(p);
-      }
+      renderLoadError(promptsContainer);
       return;
     }
 
@@ -1088,7 +1307,17 @@
     if (sections) sections.textContent = String(data.categories.length);
 
     Clipboard.init();
-    Search.init();
+    if (!promptsSearchInitialized) {
+      Search.init();
+      promptsSearchInitialized = true;
+    } else {
+      Search.refreshDom();
+    }
+    applyPromptDeepLink();
+  }
+
+  async function bootstrap() {
+    await loadPromptsLibrary();
   }
 
   if (document.readyState === 'loading') {
@@ -1108,5 +1337,6 @@
     Progress,
     BackToTop,
     MobileUI,
+    loadPromptsLibrary,
   };
 })();

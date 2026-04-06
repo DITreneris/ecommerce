@@ -11,17 +11,20 @@ Daugiau: [docs/MULTILINGUAL_STRUCTURE.md](docs/MULTILINGUAL_STRUCTURE.md).
 
 ## Funkcijos
 
+- Kol kraunasi bibliotekos JSON, rodomas **skeleton** `#prompts-container`; hero pagrindinis CTA (**„Rasti užduotį“** / EN **„Find your prompt“**) ir statistikos žymės veda į **`#library`**; šalia — **„Kaip naudoti“** (`#guide`) ir bibliotekos antraštėje nuoroda į trumpą instrukciją
+- Šriftas **DM Sans** (Google Fonts, LT/EN/ET/LV); indigo akcentas, SVG ikonos naudos juostoje ir „Kopijuoti“ mygtuke
 - Progress bar, toast po kopijavimo, back-to-top
-- Paieška antraštėje su paryškinimu; URL parametras **`?q=`** sinchronizuojamas su paieška (galima dalintis nuoroda)
+- Paieška antraštėje su paryškinimu; URL parametras **`?q=`** sinchronizuojamas su paieška (galima dalintis nuoroda); keli žodžiai — **AND** logika; tuščiai paieškai — užuomina ir **išvalyti**
+- Nuoroda į konkrečią užduotį: **`?prompt=<id>`** arba **`#prompt-<id>`** (skaitinis `id` iš JSON)
 - Mobilus apatinis baras (ieškoti / skyriai); paieškos sluoksnis su dialogo prieinamumu ir fokuso ciklu
 - `/` — fokusas į paiešką, `Esc` — uždaryti modalą
 - Spalvinė schema: **pagal OS**, arba **šviesi** / **tamsi** (mygtukas antraštėje šalia kalbų jungiklio, išsaugoma naršyklėje)
 
 ## Naudojimas
 
-1. Naršykite skyrius arba ieškokite viršuje.
+1. **Raskite užduotį** — paieška antraštėje arba skyrių meniu (`#library`).
 2. Spauskite **Kopijuoti** — tekstas nukopijuojamas į iškarpinę.
-3. Įklijuokite į DI įrankį ir pakeiskite `[laukus]` savo duomenimis.
+3. Įklijuokite į DI įrankį ir pakeiskite `[laukus]` savo duomenimis. Trumpas kelias aprašytas hero, skiltyje **Kaip naudoti** ir po antrašte „Visos užduotys“.
 
 ## Turinio šaltinis
 

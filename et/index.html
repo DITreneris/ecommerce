@@ -16,16 +16,25 @@
         }
       })();
     </script>
-    <meta name="theme-color" content="#0d6efd" />
+    <meta name="theme-color" content="#4338ca" />
     <title>DI ülesannete raamatukogu e-kaubandusele — Spin-off nr 8</title>
     <meta
       name="description"
       content="Kopeeritavad DI ülesanded e-kaubandusele ja operatsioonidele: müük, logistika, turundus, analüütika ja muu. Tasuta statiline raamatukogu."
     />
     <meta property="og:title" content="DI ülesannete raamatukogu e-kaubandusele" />
-    <meta property="og:description" content="Praktilised ülesanded igapäevaseks tööks DI tööriistadega." />
+    <meta
+      property="og:description"
+      content="Praktilised ülesanded igapäevaseks tööks DI tööriistadega."
+    />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../assets/css/styles.css" />
     <link rel="alternate" hreflang="lt" href="../lt/" />
     <link rel="alternate" hreflang="en" href="../en/" />
@@ -72,6 +81,12 @@
                 style="display: none"
                 aria-live="polite"
               ></div>
+              <div
+                id="search-results-hint"
+                class="search-results-hint"
+                hidden
+                aria-live="polite"
+              ></div>
             </div>
             <div class="site-header__lang">
               <a class="lang-link" href="../lt/" hreflang="lt" data-lang="lt">LT</a>
@@ -111,24 +126,29 @@
     <main id="main">
       <section class="hero hero--spinoff" aria-label="Sissejuhatus">
         <div class="container hero__inner">
-          <h1 class="hero__title">Pole teooria — valmis AI ülesanded müügi ja operatsioonide jaoks</h1>
-          <p class="hero__subtitle">Kopeeri ülesanded ChatGPT-sse, Claudesse või teistesse tööriistadesse</p>
+          <h1 class="hero__title">
+            Pole teooria — valmis AI ülesanded müügi ja operatsioonide jaoks
+          </h1>
+          <p class="hero__subtitle">
+            Otsi ülalt või ava jaotis menüüst. Kopeeri → kleebi AI tööriista → asenda
+            <span class="hero__placeholder-hint">[kohatäited]</span>.
+          </p>
           <ul class="hero__features">
             <li>Tiimidele ja üksikutele spetsialistidele</li>
             <li>Jaotised müügist analüütikani</li>
-            <li>Otsing ja ühe klõpsuga kopeerimine</li>
+            <li>Kiire otsing ja üks klõps kopeerimiseks</li>
           </ul>
           <div class="hero__cta">
-            <a href="#start" class="btn btn--primary">Alusta</a>
+            <a href="#library" class="btn btn--primary">Leia ülesanne</a>
             <a href="#guide" class="btn btn--secondary">Kuidas kasutada</a>
           </div>
           <div class="hero__stats">
-            <a href="#prompts-container" class="stat stat--clickable">
+            <a href="#library" class="stat stat--clickable">
               <div class="stat__number" id="hero-stat-tasks">107</div>
               <div class="stat__label">Ülesanded</div>
               <div class="stat__hint">Raamatukogus</div>
             </a>
-            <a href="#prompts-container" class="stat stat--clickable">
+            <a href="#library" class="stat stat--clickable">
               <div class="stat__number" id="hero-stat-sections">13</div>
               <div class="stat__label">Jaotised</div>
               <div class="stat__hint">Teema järgi</div>
@@ -145,28 +165,95 @@
       <section class="benefit-bar" aria-label="Eelised">
         <div class="container container--wide benefit-bar__grid">
           <div class="benefit-bar__item">
-            <span class="benefit-bar__icon" aria-hidden="true">🔍</span>
+            <span class="benefit-bar__icon benefit-bar__icon--svg" aria-hidden="true"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                focusable="false"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <path d="m21 21-4.3-4.3" /></svg
+            ></span>
             <div class="benefit-bar__text">
               <strong>Kiire otsing</strong>
-              <span>Leia ülesanne märksõna järgi</span>
+              <span>Leia sulle sobiv ülesanne</span>
             </div>
           </div>
           <div class="benefit-bar__item">
-            <span class="benefit-bar__icon" aria-hidden="true">📋</span>
+            <span class="benefit-bar__icon benefit-bar__icon--svg" aria-hidden="true"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                focusable="false"
+              >
+                <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+                <path
+                  d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"
+                />
+                <path d="M9 14h6" />
+                <path d="M9 10h6" /></svg
+            ></span>
             <div class="benefit-bar__text">
               <strong>Üks puudutus</strong>
               <span>Ülesanne lõikelauale</span>
             </div>
           </div>
           <div class="benefit-bar__item">
-            <span class="benefit-bar__icon" aria-hidden="true">🧩</span>
+            <span class="benefit-bar__icon benefit-bar__icon--svg" aria-hidden="true"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                focusable="false"
+              >
+                <rect width="7" height="7" x="3" y="3" rx="1" />
+                <rect width="7" height="7" x="14" y="3" rx="1" />
+                <rect width="7" height="7" x="14" y="14" rx="1" />
+                <rect width="7" height="7" x="3" y="14" rx="1" /></svg
+            ></span>
             <div class="benefit-bar__text">
               <strong>13 teemat</strong>
               <span>HR-ist täpsema mallini</span>
             </div>
           </div>
           <div class="benefit-bar__item">
-            <span class="benefit-bar__icon" aria-hidden="true">🆓</span>
+            <span class="benefit-bar__icon benefit-bar__icon--svg" aria-hidden="true"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                focusable="false"
+              >
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                <path d="M19 3v4" />
+                <path d="M21 5h-4" /></svg
+            ></span>
             <div class="benefit-bar__text">
               <strong>Tasuta</strong>
               <span>Staatiline kasutamine brauseris</span>
@@ -175,28 +262,40 @@
         </div>
       </section>
 
-      <section class="section section--guide" id="guide">
-        <div class="container guide-steps">
-          <div class="guide-steps__item">
-            <span class="guide-steps__num">1</span><span>Vali ülesanne</span>
+      <section class="section section--guide" id="guide" aria-labelledby="guide-heading-et">
+        <div class="container">
+          <h2 id="guide-heading-et" class="guide-steps__heading">Kuidas kasutada — 4 sammu</h2>
+          <div class="guide-steps">
+            <div class="guide-steps__item">
+              <span class="guide-steps__num">1</span
+              ><span>Leia ülesanne otsingust või jaotisest</span>
+            </div>
+            <div class="guide-steps__item">
+              <span class="guide-steps__num">2</span><span>Klõpsa Kopeeri</span>
+            </div>
+            <div class="guide-steps__item">
+              <span class="guide-steps__num">3</span><span>Kleebi AI tööriista</span>
+            </div>
+            <div class="guide-steps__item">
+              <span class="guide-steps__num">4</span><span>Asenda [kohatäited] oma andmetega</span>
+            </div>
           </div>
-          <div class="guide-steps__item">
-            <span class="guide-steps__num">2</span><span>Kopieeri</span>
-          </div>
-          <div class="guide-steps__item">
-            <span class="guide-steps__num">3</span><span>Kleebi AI tööriista</span>
-          </div>
-          <div class="guide-steps__item">
-            <span class="guide-steps__num">4</span><span>Asenda [kohatäited]</span>
-          </div>
+          <p class="guide-steps__after">
+            <a href="#library" class="guide-steps__library-link">Ava ülesannete raamatukogu</a>
+          </p>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="library" aria-label="Ülesannete raamatukogu">
         <div class="container container--wide">
           <div class="section__header">
             <h2 class="section__title">Kõik ülesanded</h2>
-            <p class="section__subtitle">Sirvi jaotise kaudu või kasuta ülaosa otsingut.</p>
+            <p class="section__subtitle">
+              Otsi ülalt või ava jaotis menüüst. Seejärel kopeeri, kleebi AI tööriista ja asenda
+              <span class="hero__placeholder-hint">[kohatäited]</span>.
+              <a href="#guide" class="section__subtitle-link">Lühijuhend</a>
+            </p>
+            <p class="library-keyboard-hint" id="library-keyboard-hint"></p>
           </div>
           <div id="prompts-container"></div>
         </div>
@@ -210,8 +309,10 @@
           <div class="resources-grid">
             <article class="card">
               <h3 class="card__title">Algaja juhend</h3>
-              <p class="card__text">Kuidas sõnastada ülesandeid, et AI annaks täpsemaid vastuseid.</p>
-              <span class="card__muted">Varsti</span>
+              <p class="card__text">
+                Eraldi juhendit valmistame. Seniks kasutage selle raamatukogu ülesandeid ja jaotiste
+                menüüd.
+              </p>
             </article>
             <article class="card">
               <h3 class="card__title">Mallide ideid</h3>
@@ -305,11 +406,42 @@
 
     <div class="mobile-bottom-bar">
       <button type="button" id="mobile-search-btn" class="mobile-bottom-bar__btn">
-        <span aria-hidden="true">🔍</span>
+        <span class="mobile-bottom-bar__icon" aria-hidden="true"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            focusable="false"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" /></svg
+        ></span>
         <span class="mobile-nav-label">Otsi</span>
       </button>
       <button type="button" id="mobile-sections-btn" class="mobile-bottom-bar__btn">
-        <span aria-hidden="true">📂</span>
+        <span class="mobile-bottom-bar__icon" aria-hidden="true"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            focusable="false"
+          >
+            <path
+              d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"
+            /></svg
+        ></span>
         <span class="mobile-nav-label">Jaotised</span>
       </button>
     </div>
@@ -330,6 +462,12 @@
           id="mobile-search-results"
           class="search-results"
           style="display: none"
+          aria-live="polite"
+        ></div>
+        <div
+          id="mobile-search-results-hint"
+          class="search-results-hint search-results-hint--mobile"
+          hidden
           aria-live="polite"
         ></div>
         <button type="button" class="mobile-search-close" id="mobile-search-close">Sulge</button>

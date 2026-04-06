@@ -33,13 +33,18 @@ Naudokite prieš release ar po didesnių sąsajos pakeitimų. Atlikus patikrą u
 
 | #   | Patikrinimas                                                                                   | Patikrinta |
 | --- | ---------------------------------------------------------------------------------------------- | ---------- |
-| F1  | Įkelta biblioteka, skaičiai herojuje sutampa su JSON                                           |            |
+| F1  | Įkelta biblioteka, skaičiai herojuje sutampa su JSON                                           | 2026-04-06 `npm run verify` + `validate-prompts-json` (totalPrompts / count); hero rankinis paleidimas neprivalomas šiai copy iteracijai |
 | F2  | Kopijuoti → iškarpinėje teisingas `copyText`                                                   |            |
 | F3  | Paieška filtruoja ir paryškina; tuščia paieška atstato viską                                   |            |
 | F4  | URL `?q=` įkrovus puslapį pritaiko paiešką; keičiant paiešką URL atnaujinamas (`replaceState`); kalbų nuorodos išsaugo `?q=` |            |
 | F5  | Tema: ciklas sistema → šviesi → tamsi; išsaugoma `localStorage`; sinchronas su `theme-color`   |            |
+| F6  | Gili nuoroda: `?prompt=<id>` arba `#prompt-<id>` — atveria užduotį, išvalo `q`, slenka į kortelę | 2026-04-06 kodas |
+| F7  | Tuščia paieška: antrinė užuomina + mygtukas „Išvalyti paiešką“; keli žodžiai = AND logika      | 2026-04-06 kodas |
 
 ## Pastabos (2026-03-26 įgyvendinimas)
 
 - Automatinis patikrinimas: `npm run verify` (lint ir kt.).
 - K1, K5, S3, F4, F5 įgyvendinta kode šiame PR; **W1 ir regos patikros** lieka rankinės naršyklėje (`npm run dev` → `lt/`, `en/`, `et/`, `lv/`).
+- 2026-04-05: `#library` sekcija ir skeleton įkėlimui iki `fetch`; hero CTA nebe `#start` (buvo regresija).
+- 2026-04-06: hero pagrindinis CTA orientuotas į **rasti užduotį**; `#guide` su antrašte `aria-labelledby`; `#library` antraštėje nuoroda į `#guide` (patikrinti F1 + klaviatūros eilę po pakeitimo).
+- 2026-04-06 (iteracija): tuščios paieškos UX, įkėlimo klaida su **Bandyti dar kartą**, `#library-keyboard-hint`, `?prompt=` / `#prompt-`, paieškos AND žodžiai, forma `aria-errormessage`, pašalinta klaidinga `.dept` „lazy“ animacija (`opacity: 0` be `--loaded`). W1–W3 lieka rankiniam patvirtinimui naršyklėje.

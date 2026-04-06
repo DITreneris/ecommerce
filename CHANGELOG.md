@@ -6,8 +6,28 @@ Formatas remiasi [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versi
 
 ## [Unreleased]
 
+### Fixed
+
+- **`assets/data/prompts.et.json`**, **`prompts.lv.json`:** copy QA ilgiems ID **102–107** (churn, külm müük / aukstā apzināšanās, e-kirja pikkus, LV dependency „bloķē“, izvades prasība, 106. faasi pealkiri ET); **105** süsteemiviiba päis ja **ET** keele valik **alati ET**; **106** ET faas 4 „tähelepanekud“, **107** tsükli/refleksiooni sõnastus; **68** ET: „ostjatele Eestis“ (mitte „Eestist ostjatele“).
+- **`assets/data/prompts.{lt,en,et,lv}.json`:** keywords retušas (audit P1: **23**, **29** + seo, **58** demo/explainer, **57** LV, **85** LV swot/svid, **59** ET testimonial, **6/10** LT); EN **58** „tutorial“ → „demo“ / „explainer“.
+
+### Added
+
+- Įkėlimo būsena: kol kraunasi `prompts.*.json`, `#prompts-container` rodo skeleton (`showPromptsLoading` + `loadingLabel` visoms kalboms).
+- Puslapiuose LT/EN/ET/LV: `preconnect` + **DM Sans** (Google Fonts).
+- Gili nuoroda į užduotį: URL parametras **`?prompt=<id>`** ir/ar fragmentas **`#prompt-<id>`** (po įkėlimo išvalomas `q`, slenkama prie kortelės; kortelėje `id` / `data-prompt-id`).
+- Tuščios paieškos būsenai: antrinė užuomina ir mygtukas **išvalyti paiešką** (antraštė ir mobilus modalas); bibliotekos skiltyje **`#library-keyboard-hint`** (klavišas `/`).
+- Įkėlimo klaidai: mygtukas **„Bandyti dar kartą“** (pakartotinis `fetch` be dvigubo kalbų/`Theme` init).
+- Kontaktinė forma: neteisingi laukai — **`aria-errormessage`** susietas su klaidos bloko `id` (papildomai prie `aria-describedby`).
+
 ### Changed
 
+- Paieška: keli žodžiai per tarpą — **AND** logika (visi turi atsirasti pavadinime, tekste arba `keywords`); paryškinimas keliems atitikmenims.
+- **`assets/css/styles.css`:** pašalinta dubliuota „lazy“ `.dept` taisyklė, kuri nustatė `opacity: 0` be `dept--loaded` (skyriai buvo nematomi be sumažinto judesio).
+- Hero, `#guide` ir `#library` antraštės: aiškesnis kelias **rasti užduotį → kopijuoti → užpildyti laukus**; pagrindinis mygtukas LT **„Rasti užduotį“** (EN **„Find your prompt“**, ET/LV atitikmenys); gido sekcija su matoma antrašte ir nuoroda atgal į biblioteką.
+- Hero CTA ir statistikos nuorodos veda į **`#library`** (bibliotekos sekcija); pridėtas `id="library"` (be konflikto su JSON skyriumi `id="start"`).
+- Vizualas: indigo akcentas (`#4f46e5` / tamsioje `#6366f1`), `theme-color` ir `Theme.updateMetaThemeColor` suderinti; nauda juosta ir mobilus apatinis baras naudoja **SVG** vietoje emoji; mygtukas **Kopijuoti** — SVG ikona.
+- **`assets/data/prompts.{lt,en,et,lv}.json`:** užduotis **ID 38** (spalvų paletė) perkelta iš **Pardavimai** į **Dizainas**; atnaujinti `count` ir `category`; EN/LV/ET logo užduoties (ID 37) keywords sutvarkyti; ET/LV **ID 86** (PEST) keywords — ne „kenkėjas/kaitēklis“, o `pest` + makrookolės terminai.
 - GitHub Actions (`.github/workflows/ci.yml`, `static.yml`): `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true` (JS veiksmai ant Node 24, žr. [GitHub deprecation](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/)); `setup-node` versija **24** `npm run verify` jobuose.
 
 ## [4.2.0] — 2026-04-05

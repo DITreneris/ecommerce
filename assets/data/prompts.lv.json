@@ -13,13 +13,7 @@
           "title": "e-pasta vēstule klientam",
           "text": "Uzrakstiet skaidru, draudzīgu e-pasta ziņojumu klientam, kuru interesē [produkts]. Izskaidrojiet galvenās priekšrocības un iesakiet piemērotas alternatīvas.",
           "copyText": "Uzrakstiet skaidru, draudzīgu e-pasta ziņojumu klientam, kuru interesē [produkts]. Izskaidrojiet galvenās priekšrocības un iesakiet piemērotas alternatīvas.",
-          "keywords": [
-            "e-pasts",
-            "vēstule",
-            "klientu",
-            "produkts",
-            "priekšrocības"
-          ],
+          "keywords": ["e-pasts", "vēstule", "klientu", "produkts", "priekšrocības"],
           "category": "start"
         },
         {
@@ -27,12 +21,7 @@
           "title": "SEO produkta apraksts",
           "text": "Uzrakstiet 120 vārdu SEO optimizēta [produkta] aprakstu ar galvenajiem meklēšanas vienumiem.",
           "copyText": "Uzrakstiet 120 vārdu SEO optimizēta [produkta] aprakstu ar galvenajiem meklēšanas vienumiem.",
-          "keywords": [
-            "SEO",
-            "apraksts",
-            "produkts",
-            "atslēgvārdi"
-          ],
+          "keywords": ["SEO", "apraksts", "produkts", "atslēgvārdi"],
           "category": "start"
         },
         {
@@ -40,12 +29,7 @@
           "title": "Ikmēneša pārskats",
           "text": "Izveidojiet īsu vadības pārskatu, kurā parādītas ikmēneša pārdošanas apjoma izmaiņas, izmantojot šādus datus: [paste CSV].",
           "copyText": "Izveidojiet īsu vadības pārskatu, kurā parādītas ikmēneša pārdošanas apjoma izmaiņas, izmantojot šādus datus: [paste CSV].",
-          "keywords": [
-            "atskaite",
-            "pārdošanu",
-            "katru mēnesi",
-            "datus"
-          ],
+          "keywords": ["atskaite", "pārdošanu", "katru mēnesi", "datus"],
           "category": "start"
         }
       ]
@@ -54,18 +38,14 @@
       "id": "sales",
       "name": "Pārdošana",
       "icon": "💼",
-      "count": 19,
+      "count": 18,
       "prompts": [
         {
           "id": 4,
           "title": "Priekšlikuma pārrakstīšana",
           "text": "Pārrakstiet šo priekšlikumu, lai tas būtu īsāks, profesionālāks un skaidrāks: [ielīmēt tekstu].",
           "copyText": "Pārrakstiet šo priekšlikumu, lai tas būtu īsāks, profesionālāks un skaidrāks: [ielīmēt tekstu].",
-          "keywords": [
-            "piedāvājums",
-            "pārrakstīt",
-            "profesionāli"
-          ],
+          "keywords": ["piedāvājums", "pārrakstīt", "profesionāli"],
           "category": "sales"
         },
         {
@@ -73,11 +53,7 @@
           "title": "FAQ izveide",
           "text": "Izveidojiet sarakstu ar 5 bieži uzdotajiem jautājumiem (BUJ) un atbildēm par [produktu kategoriju].",
           "copyText": "Izveidojiet sarakstu ar 5 bieži uzdotajiem jautājumiem (BUJ) un atbildēm par [produktu kategoriju].",
-          "keywords": [
-            "faq",
-            "jautājumiem",
-            "atbildes"
-          ],
+          "keywords": ["faq", "jautājumiem", "atbildes"],
           "category": "sales"
         },
         {
@@ -85,11 +61,7 @@
           "title": "Ziņa tiem, kas pāriet no konkurenta",
           "text": "Sagatavojiet īsu ziņojumu klientam, kurš apsver iespēju pāriet no konkurenta [X] uz mūsu risinājumu.",
           "copyText": "Sagatavojiet īsu ziņojumu klientam, kurš apsver iespēju pāriet no konkurenta [X] uz mūsu risinājumu.",
-          "keywords": [
-            "konkurents",
-            "pāreja",
-            "ziņa"
-          ],
+          "keywords": ["konkurents", "pāreja", "ziņa"],
           "category": "sales"
         },
         {
@@ -97,11 +69,7 @@
           "title": "Komerciālā piedāvājuma struktūra",
           "text": "Izveidojiet struktūru profesionālam komerciālam piedāvājumam [klients/projekts]. Iekļauts: kopsavilkums, problēmas apraksts, risinājums, priekšrocības, cenas, ieviešanas plāns, garantijas, CTA. Optimizējiet atkārtotai lasīšanai un ātrai izšķirtspējai.",
           "copyText": "Izveidojiet struktūru profesionālam komerciālam piedāvājumam [klients/projekts]. Iekļauts: kopsavilkums, problēmas apraksts, risinājums, priekšrocības, cenas, ieviešanas plāns, garantijas, CTA. Optimizējiet atkārtotai lasīšanai un ātrai izšķirtspējai.",
-          "keywords": [
-            "piedāvājums",
-            "komerciāls",
-            "piedāvājums"
-          ],
+          "keywords": ["piedāvājums", "komerciāls", "piedāvājums"],
           "category": "sales"
         },
         {
@@ -109,11 +77,7 @@
           "title": "Iebildumu atbilžu ceļvedis",
           "text": "Izveidojiet [produkta/pakalpojuma] iebildumu atbildes rokasgrāmatu. Katram iebildumam (cena, laiks, uzticamība, konkurenti) sniedziet: iebilduma izpratni, empātisku atbildi, risinājumu/alternatīvu, sociālo pierādījumu. Izmantojiet dabisku, neagresīvu valodu.",
           "copyText": "Izveidojiet [produkta/pakalpojuma] iebildumu atbildes rokasgrāmatu. Katram iebildumam (cena, laiks, uzticamība, konkurenti) sniedziet: iebilduma izpratni, empātisku atbildi, risinājumu/alternatīvu, sociālo pierādījumu. Izmantojiet dabisku, neagresīvu valodu.",
-          "keywords": [
-            "iebildumus",
-            "atbildes",
-            "pārdošanu"
-          ],
+          "keywords": ["iebildumus", "atbildes", "pārdošanu"],
           "category": "sales"
         },
         {
@@ -121,13 +85,7 @@
           "title": "RFQ (Request for Proposal) veidne",
           "text": "Izveidojiet piegādātājiem profesionālu piedāvājumu par [produktu/komponentu]. Iekļauts: produkta specifikācijas, nepieciešamais daudzums, piegādes laiks, kvalitātes prasības, apmaksas nosacījumi un vērtēšanas kritēriji. Formatējiet kā profesionālu biznesa e-pastu.",
           "copyText": "Izveidojiet piegādātājiem profesionālu piedāvājumu par [produktu/komponentu]. Iekļauts: produkta specifikācijas, nepieciešamais daudzums, piegādes laiks, kvalitātes prasības, apmaksas nosacījumi un vērtēšanas kritēriji. Formatējiet kā profesionālu biznesa e-pastu.",
-          "keywords": [
-            "rfq",
-            "piedāvājums",
-            "pieprasījumu",
-            "veidni",
-            "konkurenci"
-          ],
+          "keywords": ["rfq", "piedāvājums", "pieprasījumu", "veidni", "konkurenci"],
           "category": "sales"
         },
         {
@@ -135,12 +93,7 @@
           "title": "Atgriešanas (RMA) apstrādes rokasgrāmata",
           "text": "Sagatavojiet atgriešanas apstrādes procedūru RMA #[number]. Ieraksts: atgriešanas iemesls, produkta stāvokļa novērtējums, kvalitātes kontroles soļi, atgriešanas/apmaiņas lēmuma kritēriji un atgriešanas noliktavā instrukcijas. Iekļaujiet klienta saziņas veidni.",
           "copyText": "Sagatavojiet atgriešanas apstrādes procedūru RMA #[number]. Ieraksts: atgriešanas iemesls, produkta stāvokļa novērtējums, kvalitātes kontroles soļi, atgriešanas/apmaiņas lēmuma kritēriji un atgriešanas noliktavā instrukcijas. Iekļaujiet klienta saziņas veidni.",
-          "keywords": [
-            "atgriežas",
-            "rma",
-            "kvalitāti",
-            "process"
-          ],
+          "keywords": ["atgriešana", "rma", "kvalitāte", "process"],
           "category": "sales"
         },
         {
@@ -148,12 +101,7 @@
           "title": "Preču salīdzināšanas tabula",
           "text": "Izveidojiet [Produkts 1] un [Produkts 2] un [Produkts 3] salīdzināšanas tabulu. Salīdziniet: galvenās specifikācijas, cena, funkcijas, labākie lietošanas gadījumi, plusi un mīnusi. Formatējiet kā HTML tabulu ar skaidru vizuālo hierarhiju. Palīdziet klientiem pieņemt pārdomātu lēmumu.",
           "copyText": "Izveidojiet [Produkts 1] un [Produkts 2] un [Produkts 3] salīdzināšanas tabulu. Salīdziniet: galvenās specifikācijas, cena, funkcijas, labākie lietošanas gadījumi, plusi un mīnusi. Formatējiet kā HTML tabulu ar skaidru vizuālo hierarhiju. Palīdziet klientiem pieņemt pārdomātu lēmumu.",
-          "keywords": [
-            "produktiem",
-            "salīdzinājums",
-            "galds",
-            "specifikācijas"
-          ],
+          "keywords": ["produktiem", "salīdzinājums", "galds", "specifikācijas"],
           "category": "sales"
         },
         {
@@ -161,13 +109,7 @@
           "title": "Pamesta groza e-pasta sērija",
           "text": "Izveidojiet trīs e-pasta ziņojumu secību pamestam grozam. 1. e-pasts (pēc 1 stundas): draudzīgs atgādinājums + produktu fotogrāfijas. 2. e-pasts (pēc 24 stundām): pievienojiet sociālo pierādījumu un steidzamības elementu. 3. e-pasts (pēc 48 stundām): pēdējā iespēja ar nelielu atlaidi. Saglabā draudzīgu, neuzbāzīgu toni.",
           "copyText": "Izveidojiet trīs e-pasta ziņojumu secību pamestam grozam. 1. e-pasts (pēc 1 stundas): draudzīgs atgādinājums + produktu fotogrāfijas. 2. e-pasts (pēc 24 stundām): pievienojiet sociālo pierādījumu un steidzamības elementu. 3. e-pasts (pēc 48 stundām): pēdējā iespēja ar nelielu atlaidi. Saglabā draudzīgu, neuzbāzīgu toni.",
-          "keywords": [
-            "e-pasts",
-            "vēstule",
-            "pamesti",
-            "grozs",
-            "konversiju"
-          ],
+          "keywords": ["e-pasts", "vēstule", "pamesti", "grozs", "konversiju"],
           "category": "sales"
         },
         {
@@ -175,25 +117,7 @@
           "title": "Produkta lapas konversijas optimizācija",
           "text": "Izveidojiet produkta lapas optimizācijas plānu [produkts]. Iekļauti: varoņa sadaļas uzlabojumi, produkta apraksta struktūra, attēla stratēģija, sociālā pierādījuma elementi, CTA optimizācija, uzticības signāli, mobilā optimizācija. Norādiet prioritātes un paredzamo ietekmi.",
           "copyText": "Izveidojiet produkta lapas optimizācijas plānu [produkts]. Iekļauti: varoņa sadaļas uzlabojumi, produkta apraksta struktūra, attēla stratēģija, sociālā pierādījuma elementi, CTA optimizācija, uzticības signāli, mobilā optimizācija. Norādiet prioritātes un paredzamo ietekmi.",
-          "keywords": [
-            "reklāmguvumus",
-            "optimizācija",
-            "CRO",
-            "lapā"
-          ],
-          "category": "sales"
-        },
-        {
-          "id": 38,
-          "title": "Krāsu paletes ieteikums",
-          "text": "Iesakiet krāsu paleti [projekts/uzņēmums] tipam. Iekļauts: primārā krāsa (heksadecimālais kods), sekundārās krāsas, akcentu krāsas, neitrālas krāsas. Izskaidrojiet katras krāsas psiholoģisko ietekmi un to, kā tās darbojas kopā. Sniedziet piemērus, kur izmantot katru krāsu.",
-          "copyText": "Iesakiet krāsu paleti [projekts/uzņēmums] tipam. Iekļauts: primārā krāsa (heksadecimālais kods), sekundārās krāsas, akcentu krāsas, neitrālas krāsas. Izskaidrojiet katras krāsas psiholoģisko ietekmi un to, kā tās darbojas kopā. Sniedziet piemērus, kur izmantot katru krāsu.",
-          "keywords": [
-            "krāsas",
-            "palete",
-            "zīmolu",
-            "psiholoģija"
-          ],
+          "keywords": ["reklāmguvumus", "optimizācija", "CRO", "lapā"],
           "category": "sales"
         },
         {
@@ -201,11 +125,7 @@
           "title": "Ievads katalogā",
           "text": "Uzrakstiet profesionālu un skaidru produktu kataloga ievadu ar 120 vārdiem.",
           "copyText": "Uzrakstiet profesionālu un skaidru produktu kataloga ievadu ar 120 vārdiem.",
-          "keywords": [
-            "direktoriju",
-            "ievads",
-            "profesionāli"
-          ],
+          "keywords": ["direktoriju", "ievads", "profesionāli"],
           "category": "sales"
         },
         {
@@ -213,12 +133,7 @@
           "title": "Preses relīzes projekts",
           "text": "Sagatavojiet paziņojumu presei par [Uzņēmuma ziņas/Produkta izlaišana]. Struktūra: virsraksts, datums un vieta, ievada rindkopa (kas/kas/kad/kur/kāpēc), pamatteksts ar citātiem, uzņēmuma apraksts un kontaktinformācija. Tonis: jauns, faktisks, profesionāls. Mērķis: nozares mediji.",
           "copyText": "Sagatavojiet paziņojumu presei par [Uzņēmuma ziņas/Produkta izlaišana]. Struktūra: virsraksts, datums un vieta, ievada rindkopa (kas/kas/kad/kur/kāpēc), pamatteksts ar citātiem, uzņēmuma apraksts un kontaktinformācija. Tonis: jauns, faktisks, profesionāls. Mērķis: nozares mediji.",
-          "keywords": [
-            "ziņa",
-            "presei",
-            "ziņa",
-            "medijiem"
-          ],
+          "keywords": ["ziņa", "presei", "ziņa", "medijiem"],
           "category": "sales"
         },
         {
@@ -226,13 +141,7 @@
           "title": "LinkedIn ziņu sērija",
           "text": "Izveidojiet 5 LinkedIn ziņas par tēmu [tēma/nozares tendence] B2B auditorijai. Sajauciet formātus: 1) jautājums/aptauja, 2) ātrs karuseļa struktūras padoms, 3) personisks stāsts vai gadījuma izpēte, 4) nozares ieskats vai dati, 5) pamācība. Iekļaujiet hashtag stratēģiju un publicēšanas grafiku.",
           "copyText": "Izveidojiet 5 LinkedIn ziņas par tēmu [tēma/nozares tendence] B2B auditorijai. Sajauciet formātus: 1) jautājums/aptauja, 2) ātrs karuseļa struktūras padoms, 3) personisks stāsts vai gadījuma izpēte, 4) nozares ieskats vai dati, 5) pamācība. Iekļaujiet hashtag stratēģiju un publicēšanas grafiku.",
-          "keywords": [
-            "linkedin",
-            "pastu",
-            "b2b",
-            "profesionāli",
-            "vadība"
-          ],
+          "keywords": ["linkedin", "ieraksts", "b2b", "profesionāli", "vadība"],
           "category": "sales"
         },
         {
@@ -240,13 +149,7 @@
           "title": "Produkta video skripts",
           "text": "Uzrakstiet skriptu 90 sekunžu produkta videoklipam [produkts]. Iekļauts: āķis (pirmās 5 sekundes), problēmas prezentācija, risinājuma demonstrācija, galvenās funkcijas (līdz 3), priekšrocības, sociālais pierādījums un CTA. Formatējiet ar laika zīmogiem, balss tekstu un vizuālām piezīmēm. Mērķis: YouTube un sociālie tīkli.",
           "copyText": "Uzrakstiet skriptu 90 sekunžu produkta videoklipam [produkts]. Iekļauts: āķis (pirmās 5 sekundes), problēmas prezentācija, risinājuma demonstrācija, galvenās funkcijas (līdz 3), priekšrocības, sociālais pierādījums un CTA. Formatējiet ar laika zīmogiem, balss tekstu un vizuālām piezīmēm. Mērķis: YouTube un sociālie tīkli.",
-          "keywords": [
-            "video",
-            "skripts",
-            "youtube",
-            "pamācība",
-            "skaidrojums"
-          ],
+          "keywords": ["video", "skripts", "youtube", "demo", "skaidrojums"],
           "category": "sales"
         },
         {
@@ -254,12 +157,7 @@
           "title": "GTD metode - uzdevumu organizēšana",
           "text": "Organizējiet uzdevumus [ielīmējiet uzdevumus], izmantojot GTD (Getting Things Done) metodi. Kategorijas: 1) Darīt tūlīt (2 min vai mazāk), 2) Deleģēt (kam un kad), 3) Atlikt (kad un kā atgādināt), 4) Arhivēt (informācija bez darbības). Katrai kategorijai izveidojiet rīcības plānu un izsekošanas sistēmu.",
           "copyText": "Organizējiet uzdevumus [ielīmējiet uzdevumus], izmantojot GTD (Getting Things Done) metodi. Kategorijas: 1) Darīt tūlīt (2 min vai mazāk), 2) Deleģēt (kam un kad), 3) Atlikt (kad un kā atgādināt), 4) Arhivēt (informācija bez darbības). Katrai kategorijai izveidojiet rīcības plānu un izsekošanas sistēmu.",
-          "keywords": [
-            "gtd",
-            "metodi",
-            "organizācija",
-            "uzdevumus"
-          ],
+          "keywords": ["gtd", "metodi", "organizācija", "uzdevumus"],
           "category": "sales"
         },
         {
@@ -267,33 +165,22 @@
           "title": "Kanban dēļa struktūra",
           "text": "Izveidojiet Kanban valdes struktūru [projekts/komanda]. Iekļauts: kolonnas (To Do, In Progress, Review, Done), uzdevumi ar prioritātēm, atbildīgās personas, termiņi, bloķējošie faktori. Optimizēt vizualizācijai un plūsmai. Prezentēt kā strukturētu plānu, ko var izmantot Trello, Asana vai citās platformās.",
           "copyText": "Izveidojiet Kanban valdes struktūru [projekts/komanda]. Iekļauts: kolonnas (To Do, In Progress, Review, Done), uzdevumi ar prioritātēm, atbildīgās personas, termiņi, bloķējošie faktori. Optimizēt vizualizācijai un plūsmai. Prezentēt kā strukturētu plānu, ko var izmantot Trello, Asana vai citās platformās.",
-          "keywords": [
-            "kanban",
-            "dēlis",
-            "projektu",
-            "uzdevumus"
-          ],
+          "keywords": ["kanban", "dēlis", "projektu", "uzdevumus"],
           "category": "sales"
         },
         {
           "id": 102,
           "title": "🎯 Klienta ceļojuma optimizēšana",
-          "text": "Jūs esat UX pētnieks un klientu pieredzes stratēģis, kas specializējas B2B e-komercijas platformās.\n\nLOMAS KONTEKSTS: jūs esat palīdzējis vairāk nekā 50 uzņēmumiem optimizēt klientu piesaistes procesus, samazinot klientu piesaisti vidēji par 32%.\n\nUZDEVUMS: analizējiet mūsu pašreizējo klientu ceļu [klientu segments] un identificējiet berzes punktus šādos posmos:\n- Meklēšana un izmeklēšana\n- Konta izveide un pirmais pirkums\n- Pēc iegādes un atbalsta\n- Atkārtots pirkums un lojalitāte\n\nFORMĀTS: izveidojiet detalizētu ceļojuma karti, izmantojot:\n1. Laika skala (katra posma vizuāls apraksts)\n2. Klienta darbības katrā saskares punktā\n3. Emociju un sāpju punkti (3–5 katrā posmā)\n4. Uzlabošanas iespējas (sakārtotas pēc ietekmes/pūles)\n5. Ātrās uzvaras (īstenotas 2 nedēļu laikā)\n\nTONIS: Empātisks pret klientiem, konstruktīvs pret iekšējām komandām, uz rīcību vērsts\n\nSTILS: izmantojiet stāstu, lai ilustrētu klienta skatījumu. Iekļauts:\n- reāli klientu citāti vai reāli piemēri\n- emocionāla valoda, aprakstot sāpju punktus\n- ieteikumi, kas balstīti uz datiem (pat ja procenti ir hipotētiski)\n- vizuālas metaforas, kas palīdz konkretizēt abstraktas idejas\n\nPRASĪBAS REZULTĀTAM:\n- Klientu citāti ir ievietoti pēdiņās\n- Atzīmējiet sāpju punktus ar ⚠️\n- Iespējas ir atzīmētas ar 💡\n- Ātrās uzvaras ir atzīmētas ar ⚡\n\nMĒRĶIS: Dot komandai iespēju nākamajā sprintā ieviest vismaz 3 uzlabojumus, kas manāmi uzlabos klientu apmierinātības rādītājus.",
-          "copyText": "Jūs esat UX pētnieks un klientu pieredzes stratēģis, kas specializējas B2B e-komercijas platformās.\n\nLOMAS KONTEKSTS: jūs esat palīdzējis vairāk nekā 50 uzņēmumiem optimizēt klientu piesaistes procesus, samazinot klientu piesaisti vidēji par 32%.\n\nUZDEVUMS: analizējiet mūsu pašreizējo klientu ceļu [klientu segments] un identificējiet berzes punktus šādos posmos:\n- Meklēšana un izmeklēšana\n- Konta izveide un pirmais pirkums\n- Pēc iegādes un atbalsta\n- Atkārtots pirkums un lojalitāte\n\nFORMĀTS: izveidojiet detalizētu ceļojuma karti, izmantojot:\n1. Laika skala (katra posma vizuāls apraksts)\n2. Klienta darbības katrā saskares punktā\n3. Emociju un sāpju punkti (3–5 katrā posmā)\n4. Uzlabošanas iespējas (sakārtotas pēc ietekmes/pūles)\n5. Ātrās uzvaras (īstenotas 2 nedēļu laikā)\n\nTONIS: Empātisks pret klientiem, konstruktīvs pret iekšējām komandām, uz rīcību vērsts\n\nSTILS: izmantojiet stāstu, lai ilustrētu klienta skatījumu. Iekļauts:\n- reāli klientu citāti vai reāli piemēri\n- emocionāla valoda, aprakstot sāpju punktus\n- ieteikumi, kas balstīti uz datiem (pat ja procenti ir hipotētiski)\n- vizuālas metaforas, kas palīdz konkretizēt abstraktas idejas\n\nPRASĪBAS REZULTĀTAM:\n- Klientu citāti ir ievietoti pēdiņās\n- Atzīmējiet sāpju punktus ar ⚠️\n- Iespējas ir atzīmētas ar 💡\n- Ātrās uzvaras ir atzīmētas ar ⚡\n\nMĒRĶIS: Dot komandai iespēju nākamajā sprintā ieviest vismaz 3 uzlabojumus, kas manāmi uzlabos klientu apmierinātības rādītājus.",
-          "keywords": [
-            "klientu",
-            "ceļojums",
-            "iekāpšana",
-            "pieredze",
-            "sāpju punkti"
-          ],
+          "text": "Jūs esat UX pētnieks un klientu pieredzes stratēģis, kas specializējas B2B e-komercijas platformās.\n\nLOMAS KONTEKSTS: jūs esat palīdzējis vairāk nekā 50 uzņēmumiem optimizēt klientu piesaistes procesus, samazinot klientu aizplūšanu (churn) vidēji par 32%.\n\nUZDEVUMS: analizējiet mūsu pašreizējo klientu ceļu [klientu segments] un identificējiet berzes punktus šādos posmos:\n- Meklēšana un izmeklēšana\n- Konta izveide un pirmais pirkums\n- Pēc iegādes un atbalsta\n- Atkārtots pirkums un lojalitāte\n\nFORMĀTS: izveidojiet detalizētu ceļojuma karti, izmantojot:\n1. Laika skala (katra posma vizuāls apraksts)\n2. Klienta darbības katrā saskares punktā\n3. Emociju un sāpju punkti (3–5 katrā posmā)\n4. Uzlabošanas iespējas (sakārtotas pēc ietekmes/pūles)\n5. Ātrās uzvaras (īstenotas 2 nedēļu laikā)\n\nTONIS: Empātisks pret klientiem, konstruktīvs pret iekšējām komandām, uz rīcību vērsts\n\nSTILS: izmantojiet stāstu, lai ilustrētu klienta skatījumu. Iekļauts:\n- reāli klientu citāti vai reāli piemēri\n- emocionāla valoda, aprakstot sāpju punktus\n- ieteikumi, kas balstīti uz datiem (pat ja procenti ir hipotētiski)\n- vizuālas metaforas, kas palīdz konkretizēt abstraktas idejas\n\nPRASĪBAS REZULTĀTAM:\n- Klientu citāti ir ievietoti pēdiņās\n- Atzīmējiet sāpju punktus ar ⚠️\n- Iespējas ir atzīmētas ar 💡\n- Ātrās uzvaras ir atzīmētas ar ⚡\n\nMĒRĶIS: Dot komandai iespēju nākamajā sprintā ieviest vismaz 3 uzlabojumus, kas manāmi uzlabos klientu apmierinātības rādītājus.",
+          "copyText": "Jūs esat UX pētnieks un klientu pieredzes stratēģis, kas specializējas B2B e-komercijas platformās.\n\nLOMAS KONTEKSTS: jūs esat palīdzējis vairāk nekā 50 uzņēmumiem optimizēt klientu piesaistes procesus, samazinot klientu aizplūšanu (churn) vidēji par 32%.\n\nUZDEVUMS: analizējiet mūsu pašreizējo klientu ceļu [klientu segments] un identificējiet berzes punktus šādos posmos:\n- Meklēšana un izmeklēšana\n- Konta izveide un pirmais pirkums\n- Pēc iegādes un atbalsta\n- Atkārtots pirkums un lojalitāte\n\nFORMĀTS: izveidojiet detalizētu ceļojuma karti, izmantojot:\n1. Laika skala (katra posma vizuāls apraksts)\n2. Klienta darbības katrā saskares punktā\n3. Emociju un sāpju punkti (3–5 katrā posmā)\n4. Uzlabošanas iespējas (sakārtotas pēc ietekmes/pūles)\n5. Ātrās uzvaras (īstenotas 2 nedēļu laikā)\n\nTONIS: Empātisks pret klientiem, konstruktīvs pret iekšējām komandām, uz rīcību vērsts\n\nSTILS: izmantojiet stāstu, lai ilustrētu klienta skatījumu. Iekļauts:\n- reāli klientu citāti vai reāli piemēri\n- emocionāla valoda, aprakstot sāpju punktus\n- ieteikumi, kas balstīti uz datiem (pat ja procenti ir hipotētiski)\n- vizuālas metaforas, kas palīdz konkretizēt abstraktas idejas\n\nPRASĪBAS REZULTĀTAM:\n- Klientu citāti ir ievietoti pēdiņās\n- Atzīmējiet sāpju punktus ar ⚠️\n- Iespējas ir atzīmētas ar 💡\n- Ātrās uzvaras ir atzīmētas ar ⚡\n\nMĒRĶIS: Dot komandai iespēju nākamajā sprintā ieviest vismaz 3 uzlabojumus, kas manāmi uzlabos klientu apmierinātības rādītājus.",
+          "keywords": ["klientu", "ceļojums", "iekāpšana", "pieredze", "sāpju punkti"],
           "category": "sales"
         },
         {
           "id": 104,
           "title": "🎯 Vairāku pieskārienu pārdošanas e-pasta secība",
-          "text": "Jūs esat B2B pārdošanas tekstu autors, kas specializējas aukstās palīdzības un e-pasta automatizācijas secībās, sasniedzot vairāk nekā 25% atvēršanas gadījumu un 8%+ atbilžu līmeni.\n\nLOMAS EKSPERTĪZE: izprast pircēja psiholoģiju, lēmumu pieņemšanas procesus tehniskajos iepirkumos un konsekventu, bet cieņpilnu atgādinājumu mākslu.\n\nUzdevums: uzrakstiet 5 e-pasta ziņojumu secību [pozīcijas nosaukums] [uzņēmuma veids], iepazīstinot ar [produktu/pakalpojumu].\n\nSECĪBAS STRUKTŪRA:\n\n1 e-pasta vēstule (0. diena): Pattern Interrupt\n- Tēma, kas izceļas troksnī\n- Personalizēta pirmā rinda, pamatojoties uz [pētījuma signālu]\n- Viens skaidrs vērtības piedāvājums\n- Soft CTA (jautājums, nevis sapulces pieprasījums)\n\n2 e-pasta ziņojumi Vēstule (3. diena): pievienotā vērtība\n- Temats: saite uz 1.  vēstuli\n- Kopīgojiet attiecīgo resursu (gadījuma izpēti/ceļvedi/datus)\n- Nav pieprasījuma — tikai vērtība\n- P.S. ar sociālo pierādījumu\n\n3 e-pasta vēstule (7. diena): īpašs lietošanas gadījums\n- Tēma: kā [līdzīgs uzņēmums] sasniedza [rezultātu]\n- Pastāstiet mikrostāstu (problēma → risinājums → rezultāts)\n- Iekļaut īpašus rādītājus\n- CTA: \"Vai tas attiektos uz jūsu uzņēmumu?\"\n\n4 e-pasta vēstule (14. diena): godīgs \"uz redzēšanos\"\n- Temats: \"Vai man vajadzētu slēgt jūsu lietu?\"\n– Atzīstiet, ka viņi ir aizņemti\n- Piedāvājiet vienkāršu atteikšanos vai konkrētu saziņas laiku\n- Izveidojiet FOMO bez spiediena\n\n5 e-pasti Vēstule (21. diena): vērtīgs alternatīvs piedāvājums\n- Tēma: \"Pēdējais resurss pirms aizbraukšanas\"\n- Kopīgojiet savu labāko saturu (galīgais ceļvedis/rīks/veidne)\n- Nav pārdošanas — tikai galīgā vērtība\n- Atstājiet durvis vaļā: \"Ja plāni mainās, jūs zināt, kur mani atrast\"\n\nTONIS: Profesionāls, sarunvalodas, cilvēcisks. Ar pārdošanu nesaistīts un nekorporatīvs. Pārliecināts, bet pieticīgs.\n\nSTILS:\n- Skaidrības labad rakstiet 8. klases lasīšanas līmenī\n- Lietojiet \"tu\" 3 reizes vairāk nekā \"es\" vai \"mēs\"\n- Teikumi, kas īsāki par 20 vārdiem\n- Viens CTA katrā e-pastā\n- Iekavās iekļaujiet [PIELĀGOŠANAS TAGUS]\n- Formāts mobilajam tālrunim\n\nIEROBEŽOJUMI:\n- Katrs burts: 75-125 vārdi (bez paraksta)\n- Tēmas rindiņas: līdz 50 rakstzīmēm\n- Izvairieties no frāzēm \"tikai reģistrēties\", \"sekot\", \"apgriezt atpakaļ\", \"pieskāriena bāze\"\n- Pirmajam e-pastam norādiet A/B pārbaudītu alternatīvu temata rindiņu\n\nMĒRĶIS: Sāciet sarunas, nevis slēdziet darījumus. Koncentrējieties uz zinātkāres un uzticības veidošanu.",
-          "copyText": "Jūs esat B2B pārdošanas tekstu autors, kas specializējas aukstās palīdzības un e-pasta automatizācijas secībās, sasniedzot vairāk nekā 25% atvēršanas gadījumu un 8%+ atbilžu līmeni.\n\nLOMAS EKSPERTĪZE: izprast pircēja psiholoģiju, lēmumu pieņemšanas procesus tehniskajos iepirkumos un konsekventu, bet cieņpilnu atgādinājumu mākslu.\n\nUzdevums: uzrakstiet 5 e-pasta ziņojumu secību [pozīcijas nosaukums] [uzņēmuma veids], iepazīstinot ar [produktu/pakalpojumu].\n\nSECĪBAS STRUKTŪRA:\n\n1 e-pasta vēstule (0. diena): Pattern Interrupt\n- Tēma, kas izceļas troksnī\n- Personalizēta pirmā rinda, pamatojoties uz [pētījuma signālu]\n- Viens skaidrs vērtības piedāvājums\n- Soft CTA (jautājums, nevis sapulces pieprasījums)\n\n2 e-pasta ziņojumi Vēstule (3. diena): pievienotā vērtība\n- Temats: saite uz 1.  vēstuli\n- Kopīgojiet attiecīgo resursu (gadījuma izpēti/ceļvedi/datus)\n- Nav pieprasījuma — tikai vērtība\n- P.S. ar sociālo pierādījumu\n\n3 e-pasta vēstule (7. diena): īpašs lietošanas gadījums\n- Tēma: kā [līdzīgs uzņēmums] sasniedza [rezultātu]\n- Pastāstiet mikrostāstu (problēma → risinājums → rezultāts)\n- Iekļaut īpašus rādītājus\n- CTA: \"Vai tas attiektos uz jūsu uzņēmumu?\"\n\n4 e-pasta vēstule (14. diena): godīgs \"uz redzēšanos\"\n- Temats: \"Vai man vajadzētu slēgt jūsu lietu?\"\n– Atzīstiet, ka viņi ir aizņemti\n- Piedāvājiet vienkāršu atteikšanos vai konkrētu saziņas laiku\n- Izveidojiet FOMO bez spiediena\n\n5 e-pasti Vēstule (21. diena): vērtīgs alternatīvs piedāvājums\n- Tēma: \"Pēdējais resurss pirms aizbraukšanas\"\n- Kopīgojiet savu labāko saturu (galīgais ceļvedis/rīks/veidne)\n- Nav pārdošanas — tikai galīgā vērtība\n- Atstājiet durvis vaļā: \"Ja plāni mainās, jūs zināt, kur mani atrast\"\n\nTONIS: Profesionāls, sarunvalodas, cilvēcisks. Ar pārdošanu nesaistīts un nekorporatīvs. Pārliecināts, bet pieticīgs.\n\nSTILS:\n- Skaidrības labad rakstiet 8. klases lasīšanas līmenī\n- Lietojiet \"tu\" 3 reizes vairāk nekā \"es\" vai \"mēs\"\n- Teikumi, kas īsāki par 20 vārdiem\n- Viens CTA katrā e-pastā\n- Iekavās iekļaujiet [PIELĀGOŠANAS TAGUS]\n- Formāts mobilajam tālrunim\n\nIEROBEŽOJUMI:\n- Katrs burts: 75-125 vārdi (bez paraksta)\n- Tēmas rindiņas: līdz 50 rakstzīmēm\n- Izvairieties no frāzēm \"tikai reģistrēties\", \"sekot\", \"apgriezt atpakaļ\", \"pieskāriena bāze\"\n- Pirmajam e-pastam norādiet A/B pārbaudītu alternatīvu temata rindiņu\n\nMĒRĶIS: Sāciet sarunas, nevis slēdziet darījumus. Koncentrējieties uz zinātkāres un uzticības veidošanu.",
+          "text": "Jūs esat B2B pārdošanas tekstu autors, kas specializējas aukstajā apzināšanā un e-pasta automatizētu secību veidošanā, sasniedzot vairāk nekā 25% atvēršanas gadījumu un 8%+ atbilžu līmeni.\n\nLOMAS EKSPERTĪZE: izprotiet pircēja psiholoģiju, lēmumu pieņemšanas procesus tehniskajos iepirkumos un konsekventu, bet cieņpilnu atgādinājumu mākslu.\n\nUzdevums: uzrakstiet 5 e-pasta ziņojumu secību [pozīcijas nosaukums] [uzņēmuma veids], iepazīstinot ar [produktu/pakalpojumu].\n\nSECĪBAS STRUKTŪRA:\n\n1 e-pasta vēstule (0. diena): Pattern Interrupt\n- Tēma, kas izceļas troksnī\n- Personalizēta pirmā rinda, pamatojoties uz [pētījuma signālu]\n- Viens skaidrs vērtības piedāvājums\n- Soft CTA (jautājums, nevis sapulces pieprasījums)\n\n2 e-pasta ziņojumi Vēstule (3. diena): pievienotā vērtība\n- Temats: saite uz 1.  vēstuli\n- Kopīgojiet attiecīgo resursu (gadījuma izpēti/ceļvedi/datus)\n- Nav pieprasījuma — tikai vērtība\n- P.S. ar sociālo pierādījumu\n\n3 e-pasta vēstule (7. diena): īpašs lietošanas gadījums\n- Tēma: kā [līdzīgs uzņēmums] sasniedza [rezultātu]\n- Pastāstiet mikrostāstu (problēma → risinājums → rezultāts)\n- Iekļaut īpašus rādītājus\n- CTA: \"Vai tas attiektos uz jūsu uzņēmumu?\"\n\n4 e-pasta vēstule (14. diena): godīgs \"uz redzēšanos\"\n- Temats: \"Vai man vajadzētu slēgt jūsu lietu?\"\n– Atzīstiet, ka viņi ir aizņemti\n- Piedāvājiet vienkāršu atteikšanos vai konkrētu saziņas laiku\n- Izveidojiet FOMO bez spiediena\n\n5 e-pasti Vēstule (21. diena): vērtīgs alternatīvs piedāvājums\n- Tēma: \"Pēdējais resurss pirms aizbraukšanas\"\n- Kopīgojiet savu labāko saturu (galīgais ceļvedis/rīks/veidne)\n- Nav pārdošanas — tikai galīgā vērtība\n- Atstājiet durvis vaļā: \"Ja plāni mainās, jūs zināt, kur mani atrast\"\n\nTONIS: Profesionāls, sarunvalodas, cilvēcisks. Ar pārdošanu nesaistīts un nekorporatīvs. Pārliecināts, bet pieticīgs.\n\nSTILS:\n- Skaidrības labad rakstiet 8. klases lasīšanas līmenī\n- Lietojiet \"tu\" 3 reizes vairāk nekā \"es\" vai \"mēs\"\n- Teikumi, kas īsāki par 20 vārdiem\n- Viens CTA katrā e-pastā\n- Iekavās iekļaujiet [PIELĀGOŠANAS TAGUS]\n- Formāts mobilajam tālrunim\n\nIEROBEŽOJUMI:\n- Katrs e-pasts: 75–125 vārdi (bez paraksta)\n- Tēmas rindiņas: līdz 50 rakstzīmēm\n- Izvairieties no frāzēm \"vien tikai pārbaudu\", \"atkārtoju\", \"atgriežamies pie tā\", \"sazināsimies\"\n- Pirmajam e-pastam norādiet A/B pārbaudītu alternatīvu temata rindiņu\n\nMĒRĶIS: Sāciet sarunas, nevis slēdziet darījumus. Koncentrējieties uz zinātkāres un uzticības veidošanu.",
+          "copyText": "Jūs esat B2B pārdošanas tekstu autors, kas specializējas aukstajā apzināšanā un e-pasta automatizētu secību veidošanā, sasniedzot vairāk nekā 25% atvēršanas gadījumu un 8%+ atbilžu līmeni.\n\nLOMAS EKSPERTĪZE: izprotiet pircēja psiholoģiju, lēmumu pieņemšanas procesus tehniskajos iepirkumos un konsekventu, bet cieņpilnu atgādinājumu mākslu.\n\nUzdevums: uzrakstiet 5 e-pasta ziņojumu secību [pozīcijas nosaukums] [uzņēmuma veids], iepazīstinot ar [produktu/pakalpojumu].\n\nSECĪBAS STRUKTŪRA:\n\n1 e-pasta vēstule (0. diena): Pattern Interrupt\n- Tēma, kas izceļas troksnī\n- Personalizēta pirmā rinda, pamatojoties uz [pētījuma signālu]\n- Viens skaidrs vērtības piedāvājums\n- Soft CTA (jautājums, nevis sapulces pieprasījums)\n\n2 e-pasta ziņojumi Vēstule (3. diena): pievienotā vērtība\n- Temats: saite uz 1.  vēstuli\n- Kopīgojiet attiecīgo resursu (gadījuma izpēti/ceļvedi/datus)\n- Nav pieprasījuma — tikai vērtība\n- P.S. ar sociālo pierādījumu\n\n3 e-pasta vēstule (7. diena): īpašs lietošanas gadījums\n- Tēma: kā [līdzīgs uzņēmums] sasniedza [rezultātu]\n- Pastāstiet mikrostāstu (problēma → risinājums → rezultāts)\n- Iekļaut īpašus rādītājus\n- CTA: \"Vai tas attiektos uz jūsu uzņēmumu?\"\n\n4 e-pasta vēstule (14. diena): godīgs \"uz redzēšanos\"\n- Temats: \"Vai man vajadzētu slēgt jūsu lietu?\"\n– Atzīstiet, ka viņi ir aizņemti\n- Piedāvājiet vienkāršu atteikšanos vai konkrētu saziņas laiku\n- Izveidojiet FOMO bez spiediena\n\n5 e-pasti Vēstule (21. diena): vērtīgs alternatīvs piedāvājums\n- Tēma: \"Pēdējais resurss pirms aizbraukšanas\"\n- Kopīgojiet savu labāko saturu (galīgais ceļvedis/rīks/veidne)\n- Nav pārdošanas — tikai galīgā vērtība\n- Atstājiet durvis vaļā: \"Ja plāni mainās, jūs zināt, kur mani atrast\"\n\nTONIS: Profesionāls, sarunvalodas, cilvēcisks. Ar pārdošanu nesaistīts un nekorporatīvs. Pārliecināts, bet pieticīgs.\n\nSTILS:\n- Skaidrības labad rakstiet 8. klases lasīšanas līmenī\n- Lietojiet \"tu\" 3 reizes vairāk nekā \"es\" vai \"mēs\"\n- Teikumi, kas īsāki par 20 vārdiem\n- Viens CTA katrā e-pastā\n- Iekavās iekļaujiet [PIELĀGOŠANAS TAGUS]\n- Formāts mobilajam tālrunim\n\nIEROBEŽOJUMI:\n- Katrs e-pasts: 75–125 vārdi (bez paraksta)\n- Tēmas rindiņas: līdz 50 rakstzīmēm\n- Izvairieties no frāzēm \"vien tikai pārbaudu\", \"atkārtoju\", \"atgriežamies pie tā\", \"sazināsimies\"\n- Pirmajam e-pastam norādiet A/B pārbaudītu alternatīvu temata rindiņu\n\nMĒRĶIS: Sāciet sarunas, nevis slēdziet darījumus. Koncentrējieties uz zinātkāres un uzticības veidošanu.",
           "keywords": [
             "pārdošanu",
             "e-pasts",
@@ -317,12 +204,7 @@
           "title": "Paziņojums par kavēšanos",
           "text": "Uzrakstiet piegādātājam oficiālu e-pastu par pasūtījuma aizkavēšanos un pieprasiet atjauninātu piegādes datumu.",
           "copyText": "Uzrakstiet piegādātājam oficiālu e-pastu par pasūtījuma aizkavēšanos un pieprasiet atjauninātu piegādes datumu.",
-          "keywords": [
-            "kavēšanās",
-            "e-pasts",
-            "vēstule",
-            "piegādātājs"
-          ],
+          "keywords": ["kavēšanās", "e-pasts", "vēstule", "piegādātājs"],
           "category": "procurement"
         },
         {
@@ -330,12 +212,7 @@
           "title": "Piegādātāja līguma kopsavilkums",
           "text": "Apkopojiet šo piegādātāja līgumu [ievietot tekstu], izceļot: galvenos noteikumus, cenas, piegādes saistības, kvalitātes garantijas, maksājuma noteikumus, sodus/stimulus un iespējamos riskus vai sarunu punktus.",
           "copyText": "Apkopojiet šo piegādātāja līgumu [ievietot tekstu], izceļot: galvenos noteikumus, cenas, piegādes saistības, kvalitātes garantijas, maksājuma noteikumus, sodus/stimulus un iespējamos riskus vai sarunu punktus.",
-          "keywords": [
-            "līgums",
-            "piegādātājs",
-            "sarunas",
-            "nosacījumiem"
-          ],
+          "keywords": ["līgums", "piegādātājs", "sarunas", "nosacījumiem"],
           "category": "procurement"
         }
       ]
@@ -351,12 +228,7 @@
           "title": "Piegādātāju salīdzinājums",
           "text": "Izveidojiet piegādātāju salīdzināšanas tabulu, pamatojoties uz cenu, piegādes laiku un uzticamību, izmantojot šādus datus: [ielīmēt datus].",
           "copyText": "Izveidojiet piegādātāju salīdzināšanas tabulu, pamatojoties uz cenu, piegādes laiku un uzticamību, izmantojot šādus datus: [ielīmēt datus].",
-          "keywords": [
-            "piegādātājs",
-            "salīdzinājums",
-            "cena",
-            "piegāde"
-          ],
+          "keywords": ["piegādātājs", "salīdzinājums", "cena", "piegāde"],
           "category": "logistics"
         },
         {
@@ -364,12 +236,7 @@
           "title": "Dienas uzdevumu plāns",
           "text": "Sagatavojiet vienkāršu ikdienas uzdevumu plānu noliktavas komandai atbilstoši prioritātēm (pasūtījuma komplektēšana, saņemšana, inventarizācija).",
           "copyText": "Sagatavojiet vienkāršu ikdienas uzdevumu plānu noliktavas komandai atbilstoši prioritātēm (pasūtījuma komplektēšana, saņemšana, inventarizācija).",
-          "keywords": [
-            "no darba",
-            "plāns",
-            "noliktava",
-            "prioritātes"
-          ],
+          "keywords": ["no darba", "plāns", "noliktava", "prioritātes"],
           "category": "logistics"
         },
         {
@@ -377,11 +244,7 @@
           "title": "Drošības kopsavilkums",
           "text": "Apkopojiet pamata drošības instrukcijas jaunam noliktavas darbiniekam (īsā versija).",
           "copyText": "Apkopojiet pamata drošības instrukcijas jaunam noliktavas darbiniekam (īsā versija).",
-          "keywords": [
-            "drošību",
-            "norādījumus",
-            "noliktava"
-          ],
+          "keywords": ["drošību", "norādījumus", "noliktava"],
           "category": "logistics"
         },
         {
@@ -389,12 +252,7 @@
           "title": "Iepakošanas un nosūtīšanas instrukcijas",
           "text": "Izveidojiet pasūtījuma [Pasūtījuma Nr.] iepakošanas un nosūtīšanas instrukcijas. Iekļaujiet: iesaiņojamās preces, īpašas apstrādes prasības (trauslas, ESD jutīgas), nepieciešamos iepakojuma materiālus, pārvadātāja izvēli un piegādes pavadzīmes. Formatēt kā noliktavas kontrolsarakstu.",
           "copyText": "Izveidojiet pasūtījuma [Pasūtījuma Nr.] iepakošanas un nosūtīšanas instrukcijas. Iekļaujiet: iesaiņojamās preces, īpašas apstrādes prasības (trauslas, ESD jutīgas), nepieciešamos iepakojuma materiālus, pārvadātāja izvēli un piegādes pavadzīmes. Formatēt kā noliktavas kontrolsarakstu.",
-          "keywords": [
-            "iepakošana",
-            "nosūtīšana",
-            "norādījumus",
-            "piegāde"
-          ],
+          "keywords": ["iepakošana", "nosūtīšana", "norādījumus", "piegāde"],
           "category": "logistics"
         },
         {
@@ -402,12 +260,7 @@
           "title": "Piegādes maršrutu optimizācija",
           "text": "Izveidojiet piegādes maršruta optimizācijas plānu [reģions]. Novērtēt: piegādes adreses, attālumus, laiku, kravas svaru/tilpumu, piegādes termiņus. Nodrošiniet: optimālos maršrutus, laika plānu, degvielas patēriņu, piegādes secību. Optimizējiet laiku un izmaksas.",
           "copyText": "Izveidojiet piegādes maršruta optimizācijas plānu [reģions]. Novērtēt: piegādes adreses, attālumus, laiku, kravas svaru/tilpumu, piegādes termiņus. Nodrošiniet: optimālos maršrutus, laika plānu, degvielas patēriņu, piegādes secību. Optimizējiet laiku un izmaksas.",
-          "keywords": [
-            "piegāde",
-            "maršruts",
-            "optimizācija",
-            "transports"
-          ],
+          "keywords": ["piegāde", "maršruts", "optimizācija", "transports"],
           "category": "logistics"
         }
       ]
@@ -423,11 +276,7 @@
           "title": "Kategoriju nosaukumi",
           "text": "Izveidojiet 10 produktu kategoriju nosaukumus ar skaidriem, cilvēkiem saprotamiem aprakstiem.",
           "copyText": "Izveidojiet 10 produktu kategoriju nosaukumus ar skaidriem, cilvēkiem saprotamiem aprakstiem.",
-          "keywords": [
-            "kategorijām",
-            "vārdus",
-            "aprakstus"
-          ],
+          "keywords": ["kategorijām", "vārdus", "aprakstus"],
           "category": "ecommerce"
         },
         {
@@ -435,12 +284,7 @@
           "title": "E-veikala teksta pārrakstīšana",
           "text": "Pārrakstiet šo produkta aprakstu, lai tas būtu pievilcīgāks tiešsaistes veikalam: [ielīmēt tekstu].",
           "copyText": "Pārrakstiet šo produkta aprakstu, lai tas būtu pievilcīgāks tiešsaistes veikalam: [ielīmēt tekstu].",
-          "keywords": [
-            "pārrakstīt",
-            "apraksts",
-            "e-komercija",
-            "veikals"
-          ],
+          "keywords": ["pārrakstīt", "apraksts", "e-komercija", "veikals"],
           "category": "ecommerce"
         },
         {
@@ -448,13 +292,7 @@
           "title": "Produkta lapas metatagi",
           "text": "Ģenerējiet SEO metatagus lapai [produkta nosaukums]. Norādiet: meta nosaukumu (līdz 60 rakstzīmēm), meta aprakstu (līdz 155 rakstzīmēm), Open Graph tagus un JSON-LD produktu shēmu ar cenu, pieejamību, vērtējumiem. Iekļaujiet mērķa atslēgvārdus: [atslēgvārdu saraksts].",
           "copyText": "Ģenerējiet SEO metatagus lapai [produkta nosaukums]. Norādiet: meta nosaukumu (līdz 60 rakstzīmēm), meta aprakstu (līdz 155 rakstzīmēm), Open Graph tagus un JSON-LD produktu shēmu ar cenu, pieejamību, vērtējumiem. Iekļaujiet mērķa atslēgvārdus: [atslēgvārdu saraksts].",
-          "keywords": [
-            "meta",
-            "tagus",
-            "virsraksts",
-            "apraksts",
-            "shēma"
-          ],
+          "keywords": ["seo", "meta", "tagi", "virsraksts", "apraksts", "shēma"],
           "category": "ecommerce"
         },
         {
@@ -462,11 +300,7 @@
           "title": "E-komercijas cenu stratēģija",
           "text": "Izveidojiet cenu stratēģiju [produktu kategorijai]. Novērtēt: konkurentu cenas, produkta vērtību, mērķauditoriju, peļņas normu. Piedāvājums: pamatcena, atlaižu stratēģija, komplektu cenas, sezonas cenas. Sniedziet ieteikumus ar pamatojumu.",
           "copyText": "Izveidojiet cenu stratēģiju [produktu kategorijai]. Novērtēt: konkurentu cenas, produkta vērtību, mērķauditoriju, peļņas normu. Piedāvājums: pamatcena, atlaižu stratēģija, komplektu cenas, sezonas cenas. Sniedziet ieteikumus ar pamatojumu.",
-          "keywords": [
-            "cenu noteikšana",
-            "stratēģija",
-            "konkurenci"
-          ],
+          "keywords": ["cenu noteikšana", "stratēģija", "konkurenci"],
           "category": "ecommerce"
         },
         {
@@ -474,12 +308,7 @@
           "title": "Produktu kategoriju hierarhijas plāns",
           "text": "Izveidojiet preču kategoriju hierarhiju [e-veikalam]. Struktūra: 3-4 galvenās kategorijas, 3-5 apakškategorijas katrā, preču filtrēšanas kritēriji (cena, zīmols, specifikācijas). Optimizējiet lietotāju pieredzi un SEO.",
           "copyText": "Izveidojiet preču kategoriju hierarhiju [e-veikalam]. Struktūra: 3-4 galvenās kategorijas, 3-5 apakškategorijas katrā, preču filtrēšanas kritēriji (cena, zīmols, specifikācijas). Optimizējiet lietotāju pieredzi un SEO.",
-          "keywords": [
-            "produkts",
-            "kategorijām",
-            "struktūra",
-            "navigācija"
-          ],
+          "keywords": ["produkts", "kategorijām", "struktūra", "navigācija"],
           "category": "ecommerce"
         },
         {
@@ -487,12 +316,7 @@
           "title": "Piegādes stratēģijas apraksts",
           "text": "Izveidojiet skaidru piegādes stratēģijas aprakstu [e-veikalam]. Iekļauts: piegādes metodes un cenas, piegādes laiks, starptautiskās piegādes iespējas, bezmaksas piegādes noteikumi, atgriešanas politika. Formatējiet to kā lapu, ko klienti var viegli saprast.",
           "copyText": "Izveidojiet skaidru piegādes stratēģijas aprakstu [e-veikalam]. Iekļauts: piegādes metodes un cenas, piegādes laiks, starptautiskās piegādes iespējas, bezmaksas piegādes noteikumi, atgriešanas politika. Formatējiet to kā lapu, ko klienti var viegli saprast.",
-          "keywords": [
-            "piegāde",
-            "stratēģija",
-            "nosūtīšana",
-            "apraksts"
-          ],
+          "keywords": ["piegāde", "stratēģija", "nosūtīšana", "apraksts"],
           "category": "ecommerce"
         },
         {
@@ -500,12 +324,7 @@
           "title": "Darba aprakstu ģenerators",
           "text": "Uzrakstiet saistošu darba aprakstu [darba nosaukums]. Iekļauts: lomas kopsavilkums, 5–7 galvenie pienākumi, nepieciešamās kvalifikācijas, vēlamās kompetences un kāpēc jums vajadzētu strādāt pie mums. Tonis: Profesionāls, bet pretimnākošs.",
           "copyText": "Uzrakstiet saistošu darba aprakstu [darba nosaukums]. Iekļauts: lomas kopsavilkums, 5–7 galvenie pienākumi, nepieciešamās kvalifikācijas, vēlamās kompetences un kāpēc jums vajadzētu strādāt pie mums. Tonis: Profesionāls, bet pretimnākošs.",
-          "keywords": [
-            "no darba",
-            "apraksts",
-            "reklāma",
-            "atlase"
-          ],
+          "keywords": ["no darba", "apraksts", "reklāma", "atlase"],
           "category": "ecommerce"
         },
         {
@@ -513,27 +332,15 @@
           "title": "Darba apraksta veidne",
           "text": "Izveidojiet amata aprakstu [pozīcijas nosaukums]. Iekļauts: darba pārskats, galvenie pienākumi, nepieciešamās prasmes un pieredze, izglītības prasības, darba apstākļi, algu diapazons, pabalsti un pieteikšanās. Optimizējiet, lai piesaistītu pareizos kandidātus.",
           "copyText": "Izveidojiet amata aprakstu [pozīcijas nosaukums]. Iekļauts: darba pārskats, galvenie pienākumi, nepieciešamās prasmes un pieredze, izglītības prasības, darba apstākļi, algu diapazons, pabalsti un pieteikšanās. Optimizējiet, lai piesaistītu pareizos kandidātus.",
-          "keywords": [
-            "no darba",
-            "apraksts",
-            "pienākumus",
-            "prasībām"
-          ],
+          "keywords": ["no darba", "apraksts", "pienākumus", "prasībām"],
           "category": "ecommerce"
         },
         {
           "id": 103,
           "title": "🎯 Satura stratēģija un redakcijas kalendārs",
-          "text": "Jūs esat satura mārketinga stratēģis un SEO speciālists, kas strādā ar tehnisko B2B saturu un domu vadību.\n\nKONTEKSTS: jūs esat izveidojis satura programmas, kas rūpniecības un elektronikas uzņēmumiem ir palielinājušas dabisko datplūsmu par vairāk nekā 200%.\n\nUZDEVUMS: izveidojiet 3 mēnešu redakcijas kalendāru mūsu uzņēmuma emuāram, kura mērķauditorija ir [mērķauditorija] [nozares] sektorā.\n\nFORMĀTS: katram satura vienumam norādiet:\n1. Nosaukums (optimizēts SEO, līdz 60 rakstzīmēm)\n2. Galvenais atslēgvārds + 3 sekundārie atslēgvārdi\n3. Meklēšanas nolūks (informatīvs/komerciāls/darījumu)\n4. Satura leņķis (unikāla perspektīva vai āķis)\n5. Struktūra (H2 un H3 plāns)\n6. Mērķa vārdu skaits\n7. Iekšējo saišu iespējas\n8. CTA stratēģija\n9. Paredzamais dabiskās satiksmes potenciāls (zems/vidējs/augsts)\n\nSATURA BILANCE:\n- 40% izglītojošu pamācību\n- 30% nozares ieskatu un tendences\n- 20% produkta/risinājuma skaidrojumi\n- 10% klientu veiksmes stāsti\n\nTONIS: autoritatīvs, taču sasniedzams; tehnisks, bet bez pārmērīga žargona; izglītojoša ar smalku pārdošanas atbalstu\n\nSTILS:\n- Nosaukumos izmantojiet spēcīgus vārdus (\"Galīgais\", \"Pilnīgs\", \"Essential\")\n- Struktūra lasāmībai (īsas rindkopas, punkti)\n- Ja nepieciešams, sniedziet datus un statistiku\n- Rakstiet tehniskajam pircējam (inženierim vai iepirkumu menedžerim)\n\nSEO PRASĪBAS:\n- Izvēlieties atslēgvārdus ar 500–5000 ikmēneša meklējumiem\n- Koncentrējieties uz zemas un vidējas konkurences atslēgvārdiem\n- Piešķiriet prioritāti piedāvāto fragmentu iespējām\n- Iekļaujiet garu astes variantus\n\nPIEGĀDE: nodrošiniet grafiku ar 12 emuāra ierakstiem (4 mēnesī), kas veido vienotu stāstījumu, veido autoritāti mūsu nišā un aptver dažādus pircēja ceļojuma posmus.",
-          "copyText": "Jūs esat satura mārketinga stratēģis un SEO speciālists, kas strādā ar tehnisko B2B saturu un domu vadību.\n\nKONTEKSTS: jūs esat izveidojis satura programmas, kas rūpniecības un elektronikas uzņēmumiem ir palielinājušas dabisko datplūsmu par vairāk nekā 200%.\n\nUZDEVUMS: izveidojiet 3 mēnešu redakcijas kalendāru mūsu uzņēmuma emuāram, kura mērķauditorija ir [mērķauditorija] [nozares] sektorā.\n\nFORMĀTS: katram satura vienumam norādiet:\n1. Nosaukums (optimizēts SEO, līdz 60 rakstzīmēm)\n2. Galvenais atslēgvārds + 3 sekundārie atslēgvārdi\n3. Meklēšanas nolūks (informatīvs/komerciāls/darījumu)\n4. Satura leņķis (unikāla perspektīva vai āķis)\n5. Struktūra (H2 un H3 plāns)\n6. Mērķa vārdu skaits\n7. Iekšējo saišu iespējas\n8. CTA stratēģija\n9. Paredzamais dabiskās satiksmes potenciāls (zems/vidējs/augsts)\n\nSATURA BILANCE:\n- 40% izglītojošu pamācību\n- 30% nozares ieskatu un tendences\n- 20% produkta/risinājuma skaidrojumi\n- 10% klientu veiksmes stāsti\n\nTONIS: autoritatīvs, taču sasniedzams; tehnisks, bet bez pārmērīga žargona; izglītojoša ar smalku pārdošanas atbalstu\n\nSTILS:\n- Nosaukumos izmantojiet spēcīgus vārdus (\"Galīgais\", \"Pilnīgs\", \"Essential\")\n- Struktūra lasāmībai (īsas rindkopas, punkti)\n- Ja nepieciešams, sniedziet datus un statistiku\n- Rakstiet tehniskajam pircējam (inženierim vai iepirkumu menedžerim)\n\nSEO PRASĪBAS:\n- Izvēlieties atslēgvārdus ar 500–5000 ikmēneša meklējumiem\n- Koncentrējieties uz zemas un vidējas konkurences atslēgvārdiem\n- Piešķiriet prioritāti piedāvāto fragmentu iespējām\n- Iekļaujiet garu astes variantus\n\nPIEGĀDE: nodrošiniet grafiku ar 12 emuāra ierakstiem (4 mēnesī), kas veido vienotu stāstījumu, veido autoritāti mūsu nišā un aptver dažādus pircēja ceļojuma posmus.",
-          "keywords": [
-            "saturu",
-            "stratēģija",
-            "SEO",
-            "emuārs",
-            "redakcija",
-            "kalendārs"
-          ],
+          "text": "Jūs esat satura mārketinga stratēģis un SEO speciālists, kas strādā ar tehnisko B2B saturu un domu vadību.\n\nKONTEKSTS: jūs esat izveidojis satura programmas, kas rūpniecības un elektronikas uzņēmumiem ir palielinājušas dabisko datplūsmu par vairāk nekā 200%.\n\nUZDEVUMS: izveidojiet 3 mēnešu redakcijas kalendāru mūsu uzņēmuma emuāram, kura mērķauditorija ir [mērķauditorija] [nozares] sektorā.\n\nFORMĀTS: katram satura vienumam norādiet:\n1. Nosaukums (optimizēts SEO, līdz 60 rakstzīmēm)\n2. Galvenais atslēgvārds + 3 sekundārie atslēgvārdi\n3. Meklēšanas nolūks (informatīvs/komerciāls/darījumu)\n4. Satura leņķis (unikāla perspektīva vai āķis)\n5. Struktūra (H2 un H3 plāns)\n6. Mērķa vārdu skaits\n7. Iekšējo saišu iespējas\n8. CTA stratēģija\n9. Paredzamais dabiskās satiksmes potenciāls (zems/vidējs/augsts)\n\nSATURA BILANCE:\n- 40% izglītojošu pamācību\n- 30% nozares ieskatu un tendences\n- 20% produkta/risinājuma skaidrojumi\n- 10% klientu veiksmes stāsti\n\nTONIS: autoritatīvs, taču sasniedzams; tehnisks, bet bez pārmērīga žargona; izglītojoša ar smalku pārdošanas atbalstu\n\nSTILS:\n- Nosaukumos izmantojiet spēcīgus vārdus (\"Galīgais\", \"Pilnīgs\", \"Essential\")\n- Struktūra lasāmībai (īsas rindkopas, punkti)\n- Ja nepieciešams, sniedziet datus un statistiku\n- Rakstiet tehniskajam pircējam (inženierim vai iepirkumu menedžerim)\n\nSEO PRASĪBAS:\n- Izvēlieties atslēgvārdus ar 500–5000 ikmēneša meklējumiem\n- Koncentrējieties uz zemas un vidējas konkurences atslēgvārdiem\n- Piešķiriet prioritāti piedāvāto fragmentu iespējām\n- Iekļaujiet garu astes variantus\n\nREZULTĀTS: nodrošiniet grafiku ar 12 emuāra ierakstiem (4 mēnesī), kas veido vienotu stāstījumu, veido autoritāti mūsu nišā un aptver dažādus pircēja ceļojuma posmus.",
+          "copyText": "Jūs esat satura mārketinga stratēģis un SEO speciālists, kas strādā ar tehnisko B2B saturu un domu vadību.\n\nKONTEKSTS: jūs esat izveidojis satura programmas, kas rūpniecības un elektronikas uzņēmumiem ir palielinājušas dabisko datplūsmu par vairāk nekā 200%.\n\nUZDEVUMS: izveidojiet 3 mēnešu redakcijas kalendāru mūsu uzņēmuma emuāram, kura mērķauditorija ir [mērķauditorija] [nozares] sektorā.\n\nFORMĀTS: katram satura vienumam norādiet:\n1. Nosaukums (optimizēts SEO, līdz 60 rakstzīmēm)\n2. Galvenais atslēgvārds + 3 sekundārie atslēgvārdi\n3. Meklēšanas nolūks (informatīvs/komerciāls/darījumu)\n4. Satura leņķis (unikāla perspektīva vai āķis)\n5. Struktūra (H2 un H3 plāns)\n6. Mērķa vārdu skaits\n7. Iekšējo saišu iespējas\n8. CTA stratēģija\n9. Paredzamais dabiskās satiksmes potenciāls (zems/vidējs/augsts)\n\nSATURA BILANCE:\n- 40% izglītojošu pamācību\n- 30% nozares ieskatu un tendences\n- 20% produkta/risinājuma skaidrojumi\n- 10% klientu veiksmes stāsti\n\nTONIS: autoritatīvs, taču sasniedzams; tehnisks, bet bez pārmērīga žargona; izglītojoša ar smalku pārdošanas atbalstu\n\nSTILS:\n- Nosaukumos izmantojiet spēcīgus vārdus (\"Galīgais\", \"Pilnīgs\", \"Essential\")\n- Struktūra lasāmībai (īsas rindkopas, punkti)\n- Ja nepieciešams, sniedziet datus un statistiku\n- Rakstiet tehniskajam pircējam (inženierim vai iepirkumu menedžerim)\n\nSEO PRASĪBAS:\n- Izvēlieties atslēgvārdus ar 500–5000 ikmēneša meklējumiem\n- Koncentrējieties uz zemas un vidējas konkurences atslēgvārdiem\n- Piešķiriet prioritāti piedāvāto fragmentu iespējām\n- Iekļaujiet garu astes variantus\n\nREZULTĀTS: nodrošiniet grafiku ar 12 emuāra ierakstiem (4 mēnesī), kas veido vienotu stāstījumu, veido autoritāti mūsu nišā un aptver dažādus pircēja ceļojuma posmus.",
+          "keywords": ["saturu", "stratēģija", "SEO", "emuārs", "redakcija", "kalendārs"],
           "category": "ecommerce"
         }
       ]
@@ -542,21 +349,22 @@
       "id": "design",
       "name": "Dizains",
       "icon": "🎨",
-      "count": 7,
+      "count": 8,
       "prompts": [
         {
           "id": 37,
           "title": "Logo dizaina koncepcija",
           "text": "Izveidojiet 5 logotipa dizaina koncepcijas [uzņēmuma/produkta nosaukums]. Aprakstiet katru iespēju: krāsu palete, tipogrāfija, simbolika, pielāgošanās dažādiem medijiem (drukātiem, digitāliem, sociālajiem). Sniedziet skaidru aprakstu, ko dizainers var izmantot kā atsauci.",
           "copyText": "Izveidojiet 5 logotipa dizaina koncepcijas [uzņēmuma/produkta nosaukums]. Aprakstiet katru iespēju: krāsu palete, tipogrāfija, simbolika, pielāgošanās dažādiem medijiem (drukātiem, digitāliem, sociālajiem). Sniedziet skaidru aprakstu, ko dizainers var izmantot kā atsauci.",
-          "keywords": [
-            "logotips",
-            "dizains",
-            "preces",
-            "zīme",
-            "nobriedis",
-            "identitāte"
-          ],
+          "keywords": ["logotips", "dizains", "zīmols", "identitāte", "tipogrāfija"],
+          "category": "design"
+        },
+        {
+          "id": 38,
+          "title": "Krāsu paletes ieteikums",
+          "text": "Iesakiet krāsu paleti [projekts/uzņēmums] tipam. Iekļauts: primārā krāsa (heksadecimālais kods), sekundārās krāsas, akcentu krāsas, neitrālas krāsas. Izskaidrojiet katras krāsas psiholoģisko ietekmi un to, kā tās darbojas kopā. Sniedziet piemērus, kur izmantot katru krāsu.",
+          "copyText": "Iesakiet krāsu paleti [projekts/uzņēmums] tipam. Iekļauts: primārā krāsa (heksadecimālais kods), sekundārās krāsas, akcentu krāsas, neitrālas krāsas. Izskaidrojiet katras krāsas psiholoģisko ietekmi un to, kā tās darbojas kopā. Sniedziet piemērus, kur izmantot katru krāsu.",
+          "keywords": ["krāsas", "palete", "zīmols", "psiholoģija"],
           "category": "design"
         },
         {
@@ -580,13 +388,7 @@
           "title": "Prezentācijas veidnes struktūra",
           "text": "Izveidojiet profesionālas [tēmas] prezentācijas veidnes struktūru. Aprakstiet: virsraksta slaidu dizains, satura slaidi (3-4 veidi), datu vizualizācijas slaidi, noslēguma slaidi. Katram slaidam norādiet: izkārtojumu, krāsas, tipogrāfiju, attēlu/grafikas vietas.",
           "copyText": "Izveidojiet profesionālas [tēmas] prezentācijas veidnes struktūru. Aprakstiet: virsraksta slaidu dizains, satura slaidi (3-4 veidi), datu vizualizācijas slaidi, noslēguma slaidi. Katram slaidam norādiet: izkārtojumu, krāsas, tipogrāfiju, attēlu/grafikas vietas.",
-          "keywords": [
-            "prezentācijas",
-            "veidni",
-            "slaids",
-            "dizains",
-            "powerpoint"
-          ],
+          "keywords": ["prezentācijas", "veidni", "slaids", "dizains", "powerpoint"],
           "category": "design"
         },
         {
@@ -594,13 +396,7 @@
           "title": "Produkta iepakojuma dizaina specifikācija",
           "text": "Izveidojiet detalizētu produkta iepakojuma dizaina specifikāciju [produkts]. Iekļauts: iepakojuma izmērs un forma, krāsu shēma, logotipa un zīmola izvietojums, produkta informācijas struktūra, nepieciešamie teksti un simboli, materiālu ieteikumi. Optimizējiet atpazīšanai tirdzniecības vietā.",
           "copyText": "Izveidojiet detalizētu produkta iepakojuma dizaina specifikāciju [produkts]. Iekļauts: iepakojuma izmērs un forma, krāsu shēma, logotipa un zīmola izvietojums, produkta informācijas struktūra, nepieciešamie teksti un simboli, materiālu ieteikumi. Optimizējiet atpazīšanai tirdzniecības vietā.",
-          "keywords": [
-            "produkts",
-            "iepakojums",
-            "dizains",
-            "etiķete",
-            "apraksts"
-          ],
+          "keywords": ["produkts", "iepakojums", "dizains", "etiķete", "apraksts"],
           "category": "design"
         },
         {
@@ -608,13 +404,7 @@
           "title": "Web lapas karkasa apraksts",
           "text": "Izveidojiet detalizētu tīmekļa lapas karkasa aprakstu [lapas veids: piem. galvenais, produkts, kontaktpersona]. Aprakstiet: galvenes struktūru, navigāciju, varoņu sadaļu, satura blokus, kājeni. Katram elementam norādiet: izmēru, pozīciju, funkcionalitāti, prioritāti. Optimizējiet, lai vispirms piekļūtu mobilajām ierīcēm.",
           "copyText": "Izveidojiet detalizētu tīmekļa lapas karkasa aprakstu [lapas veids: piem. galvenais, produkts, kontaktpersona]. Aprakstiet: galvenes struktūru, navigāciju, varoņu sadaļu, satura blokus, kājeni. Katram elementam norādiet: izmēru, pozīciju, funkcionalitāti, prioritāti. Optimizējiet, lai vispirms piekļūtu mobilajām ierīcēm.",
-          "keywords": [
-            "tīmeklī",
-            "dizains",
-            "UI",
-            "UX",
-            "stiepļu karkass"
-          ],
+          "keywords": ["tīmeklī", "dizains", "UI", "UX", "stiepļu karkass"],
           "category": "design"
         },
         {
@@ -622,12 +412,7 @@
           "title": "Infografikas struktūras plāns",
           "text": "Izveidojiet infografikas struktūras plānu [tēma/dati]. Aprakstiet: izkārtojumu, datu vizualizācijas veidus (grafikas, diagrammas, ikonas), krāsu kodējumu, teksta hierarhiju, plūsmu (no augšas uz leju). Sniedziet skaidru aprakstu, ko dizainers var izmantot kā atsauci.",
           "copyText": "Izveidojiet infografikas struktūras plānu [tēma/dati]. Aprakstiet: izkārtojumu, datu vizualizācijas veidus (grafikas, diagrammas, ikonas), krāsu kodējumu, teksta hierarhiju, plūsmu (no augšas uz leju). Sniedziet skaidru aprakstu, ko dizainers var izmantot kā atsauci.",
-          "keywords": [
-            "infografikas",
-            "datus",
-            "vizualizācija",
-            "diagramma"
-          ],
+          "keywords": ["infografikas", "datus", "vizualizācija", "diagramma"],
           "category": "design"
         },
         {
@@ -635,12 +420,7 @@
           "title": "e-pasta vēstules dizaina veidnes specifikācija",
           "text": "Izveidot e-pasta vēstules noformējuma veidnes specifikāciju [tips: piem. informatīvais izdevums, kampaņa, darījums]. Aprakstiet: galvenes dizainu, satura blokus, CTA pogas, kājeni. Norādiet: krāsas, tipogrāfiju, atstarpes, atsaucīgus pārtraukumpunktus, e-pasta klientu saderību. Optimizējiet lasāmību un rosiniet rīkoties.",
           "copyText": "Izveidot e-pasta vēstules noformējuma veidnes specifikāciju [tips: piem. informatīvais izdevums, kampaņa, darījums]. Aprakstiet: galvenes dizainu, satura blokus, CTA pogas, kājeni. Norādiet: krāsas, tipogrāfiju, atstarpes, atsaucīgus pārtraukumpunktus, e-pasta klientu saderību. Optimizējiet lasāmību un rosiniet rīkoties.",
-          "keywords": [
-            "e-pasts",
-            "dizains",
-            "veidni",
-            "informatīvais izdevums"
-          ],
+          "keywords": ["e-pasts", "dizains", "veidni", "informatīvais izdevums"],
           "category": "design"
         }
       ]
@@ -656,11 +436,7 @@
           "title": "Piegādes līguma riska analīze",
           "text": "Analizēt piegādes līgumu riskus [līgumi]. Identificējiet: cenu svārstību risku, piegādes aizkavēšanās risku, kvalitātes risku, piegādātāja finanšu risku, jaudas svārstību risku. Katram riskam norādiet: varbūtību, ietekmi, mazināšanas stratēģijas.",
           "copyText": "Analizēt piegādes līgumu riskus [līgumi]. Identificējiet: cenu svārstību risku, piegādes aizkavēšanās risku, kvalitātes risku, piegādātāja finanšu risku, jaudas svārstību risku. Katram riskam norādiet: varbūtību, ietekmi, mazināšanas stratēģijas.",
-          "keywords": [
-            "līgums",
-            "nosacījumiem",
-            "risku"
-          ],
+          "keywords": ["līgums", "nosacījumiem", "risku"],
           "category": "analytics"
         },
         {
@@ -668,12 +444,7 @@
           "title": "Inventāra audita ziņojums",
           "text": "Izveidojiet krājumu audita ziņojumu [vieta/kategorija]. Salīdziniet: sistēmas daudzumus ar fizisko skaitu, identificējiet neatbilstības >5%, aprēķiniet zaudējumu procentus, iesakiet iespējamos cēloņus (bojājumi, zādzības, kļūdas) un iesakiet koriģējošas darbības.",
           "copyText": "Izveidojiet krājumu audita ziņojumu [vieta/kategorija]. Salīdziniet: sistēmas daudzumus ar fizisko skaitu, identificējiet neatbilstības >5%, aprēķiniet zaudējumu procentus, iesakiet iespējamos cēloņus (bojājumi, zādzības, kļūdas) un iesakiet koriģējošas darbības.",
-          "keywords": [
-            "inventārs",
-            "audits",
-            "akcijas",
-            "kontrole"
-          ],
+          "keywords": ["inventārs", "audits", "akcijas", "kontrole"],
           "category": "analytics"
         },
         {
@@ -681,12 +452,7 @@
           "title": "Produktu apskatu analīze un atbildes",
           "text": "Analizējiet [produktu] pārskatus [ielīmējiet atsauksmes] un: identificējiet galvenās tēmas (pozitīvas/negatīvas), izveidojiet profesionālas atbildes uz katru jautājumu vai sūdzību, iesakiet produktu uzlabojumus, izveidojiet FAQ sadaļu, pamatojoties uz bieži uzdotajiem jautājumiem.",
           "copyText": "Analizējiet [produktu] pārskatus [ielīmējiet atsauksmes] un: identificējiet galvenās tēmas (pozitīvas/negatīvas), izveidojiet profesionālas atbildes uz katru jautājumu vai sūdzību, iesakiet produktu uzlabojumus, izveidojiet FAQ sadaļu, pamatojoties uz bieži uzdotajiem jautājumiem.",
-          "keywords": [
-            "produkts",
-            "pārskats",
-            "atsauksmes",
-            "SEO"
-          ],
+          "keywords": ["produkts", "pārskats", "atsauksmes", "SEO"],
           "category": "analytics"
         },
         {
@@ -694,13 +460,7 @@
           "title": "Pārdošanas datu analīze",
           "text": "Analizējiet šādus pārdošanas datus [ielīmējiet CSV vai Excel datus] un sniedziet: mēneša/ceturkšņa salīdzinājumu, 10 populārākos produktus, ģeogrāfisko izplatību, klientu segmentāciju, tendences un prognozes. Sniedziet ieteikumus rezultātu uzlabošanai.",
           "copyText": "Analizējiet šādus pārdošanas datus [ielīmējiet CSV vai Excel datus] un sniedziet: mēneša/ceturkšņa salīdzinājumu, 10 populārākos produktus, ģeogrāfisko izplatību, klientu segmentāciju, tendences un prognozes. Sniedziet ieteikumus rezultātu uzlabošanai.",
-          "keywords": [
-            "datus",
-            "analīze",
-            "Excel",
-            "atskaite",
-            "tendences"
-          ],
+          "keywords": ["datus", "analīze", "Excel", "atskaite", "tendences"],
           "category": "analytics"
         },
         {
@@ -708,12 +468,7 @@
           "title": "KPI informācijas paneļa struktūra",
           "text": "Izveidojiet KPI informācijas paneļa struktūru [nodaļa/projekts]. Definējiet: 8-10 galvenos rādītājus, aprēķina formulu katram rādītājam, datu avotus, atjaunināšanas biežumu, vizualizācijas veidu (grafiku, skaitli, indikatoru). Sniedziet skaidru aprakstu, ko var izmantot programmā Excel, Power BI vai Tableau.",
           "copyText": "Izveidojiet KPI informācijas paneļa struktūru [nodaļa/projekts]. Definējiet: 8-10 galvenos rādītājus, aprēķina formulu katram rādītājam, datu avotus, atjaunināšanas biežumu, vizualizācijas veidu (grafiku, skaitli, indikatoru). Sniedziet skaidru aprakstu, ko var izmantot programmā Excel, Power BI vai Tableau.",
-          "keywords": [
-            "KPI",
-            "informācijas panelis",
-            "rādītājiem",
-            "metriku"
-          ],
+          "keywords": ["KPI", "informācijas panelis", "rādītājiem", "metriku"],
           "category": "analytics"
         },
         {
@@ -721,13 +476,7 @@
           "title": "Tīmekļa analīzes pārskats",
           "text": "Izveidojiet ikmēneša tīmekļa analīzes pārskatu [vietne]. Iekļauts: apmeklētāju un unikālo apmeklētāju skaits, sesijas ilgums, atlēcienu līmenis, populārākās lapas, avoti, ierīces, ģeogrāfiskā atrašanās vieta. Sniedziet ieskatus un ieteikumus darbību uzlabošanai.",
           "copyText": "Izveidojiet ikmēneša tīmekļa analīzes pārskatu [vietne]. Iekļauts: apmeklētāju un unikālo apmeklētāju skaits, sesijas ilgums, atlēcienu līmenis, populārākās lapas, avoti, ierīces, ģeogrāfiskā atrašanās vieta. Sniedziet ieskatus un ieteikumus darbību uzlabošanai.",
-          "keywords": [
-            "tīmeklī",
-            "analītika",
-            "google",
-            "analītika",
-            "atskaite"
-          ],
+          "keywords": ["tīmeklī", "analītika", "google", "analītika", "atskaite"],
           "category": "analytics"
         },
         {
@@ -735,12 +484,7 @@
           "title": "Klientu segmentācijas analīze",
           "text": "Veiciet RFM (recency, Frequency, Monetary) klientu segmentācijas analīzi, izmantojot [dati]. Identificējiet: VIP klientus, lojālos klientus, potenciālos klientus, riska klientus. Katram segmentam norādiet: raksturlielumus, lielumu, ieteicamās mārketinga stratēģijas.",
           "copyText": "Veiciet RFM (recency, Frequency, Monetary) klientu segmentācijas analīzi, izmantojot [dati]. Identificējiet: VIP klientus, lojālos klientus, potenciālos klientus, riska klientus. Katram segmentam norādiet: raksturlielumus, lielumu, ieteicamās mārketinga stratēģijas.",
-          "keywords": [
-            "klientiem",
-            "segmentācija",
-            "RFM",
-            "analīze"
-          ],
+          "keywords": ["klientiem", "segmentācija", "RFM", "analīze"],
           "category": "analytics"
         },
         {
@@ -748,12 +492,7 @@
           "title": "Pārdošanas prognoze",
           "text": "Izveidojiet [periods: piemēram, 3 mēneši, 6 mēneši] pārdošanas prognozi, pamatojoties uz vēsturiskajiem datiem [ielīmēt datus]. Iekļaujiet: sezonalitātes analīzi, tendenču identificēšanu, optimistisko/pesimistisko/reālistisko scenāriju, riska faktorus un ieteikumus.",
           "copyText": "Izveidojiet [periods: piemēram, 3 mēneši, 6 mēneši] pārdošanas prognozi, pamatojoties uz vēsturiskajiem datiem [ielīmēt datus]. Iekļaujiet: sezonalitātes analīzi, tendenču identificēšanu, optimistisko/pesimistisko/reālistisko scenāriju, riska faktorus un ieteikumus.",
-          "keywords": [
-            "prognozēšana",
-            "tendence",
-            "analīze",
-            "prognoze"
-          ],
+          "keywords": ["prognozēšana", "tendence", "analīze", "prognoze"],
           "category": "analytics"
         },
         {
@@ -761,12 +500,7 @@
           "title": "A/B testu rezultātu analīze",
           "text": "Analizējiet A/B testa rezultātus [ielīmējiet datus: opcija A pret opciju B]. Iekļaujiet: reklāmguvumu līmeņus, statistisko nozīmīgumu, ticamības intervālus, ieskatu cēloņos un ieteikumus par to, kuru iespēju izmantot un kāpēc.",
           "copyText": "Analizējiet A/B testa rezultātus [ielīmējiet datus: opcija A pret opciju B]. Iekļaujiet: reklāmguvumu līmeņus, statistisko nozīmīgumu, ticamības intervālus, ieskatu cēloņos un ieteikumus par to, kuru iespēju izmantot un kāpēc.",
-          "keywords": [
-            "A/B",
-            "tests",
-            "eksperiments",
-            "rezultātus"
-          ],
+          "keywords": ["A/B", "tests", "eksperiments", "rezultātus"],
           "category": "analytics"
         },
         {
@@ -774,12 +508,7 @@
           "title": "Datu atskaite vadībai",
           "text": "Pārvaldībai izveidojiet [periods] datu pārskatu [tēma]. Struktūra: kopsavilkums (3-5 punkti), galvenie rādītāji ar salīdzinājumiem, atziņas, riski un iespējas, ieteicamās darbības. Izmantojiet skaidru valodu, vizualizācijas un konkrētus skaitļus.",
           "copyText": "Pārvaldībai izveidojiet [periods] datu pārskatu [tēma]. Struktūra: kopsavilkums (3-5 punkti), galvenie rādītāji ar salīdzinājumiem, atziņas, riski un iespējas, ieteicamās darbības. Izmantojiet skaidru valodu, vizualizācijas un konkrētus skaitļus.",
-          "keywords": [
-            "atskaite",
-            "vadība",
-            "izpildvaras",
-            "kopsavilkums"
-          ],
+          "keywords": ["atskaite", "vadība", "izpildvaras", "kopsavilkums"],
           "category": "analytics"
         },
         {
@@ -787,13 +516,7 @@
           "title": "Klientu veiksmes stāsts",
           "text": "Uzrakstiet pārliecinošu klienta veiksmes stāstu par [klienta vārds]. Struktūra: klienta darbības apraksts, ar kādu izaicinājumu nācies saskarties, ieviestais risinājums, sasniegtie rezultāti (ar rādītājiem), klienta citāts un gūtās atziņas. Apjoms: 500-700 vārdi. Tonis: iedvesmojošs, bet faktisks, koncentrējoties uz izmērāmiem rezultātiem.",
           "copyText": "Uzrakstiet pārliecinošu klienta veiksmes stāstu par [klienta vārds]. Struktūra: klienta darbības apraksts, ar kādu izaicinājumu nācies saskarties, ieviestais risinājums, sasniegtie rezultāti (ar rādītājiem), klienta citāts un gūtās atziņas. Apjoms: 500-700 vārdi. Tonis: iedvesmojošs, bet faktisks, koncentrējoties uz izmērāmiem rezultātiem.",
-          "keywords": [
-            "klientu",
-            "panākumus",
-            "stāsts",
-            "gadījuma izpēte",
-            "atsauksme"
-          ],
+          "keywords": ["klientu", "panākumus", "stāsts", "gadījuma izpēte", "atsauksme"],
           "category": "analytics"
         },
         {
@@ -801,12 +524,7 @@
           "title": "Datu importēšanas instrukcija",
           "text": "Izveidojiet detalizētus norādījumus par produktu datu importēšanu no CSV faila mūsu sistēmā.",
           "copyText": "Izveidojiet detalizētus norādījumus par produktu datu importēšanu no CSV faila mūsu sistēmā.",
-          "keywords": [
-            "datus",
-            "imports",
-            "csv",
-            "instrukcija"
-          ],
+          "keywords": ["datus", "imports", "csv", "instrukcija"],
           "category": "analytics"
         },
         {
@@ -814,12 +532,7 @@
           "title": "Budžeta novirzes analīze",
           "text": "Analizējiet [nodaļas/projekta] budžeta novirzi, salīdzinot plānotās un faktiskās izmaksas. Identificējiet: 3 lielākās pārplānotās kategorijas, 3 lielākos ietaupījumus, novirzes iemeslus un ieteikumus nākamajam ceturksnim. Formatējiet kā kopsavilkumu ar galvenajiem ieskatiem.",
           "copyText": "Analizējiet [nodaļas/projekta] budžeta novirzi, salīdzinot plānotās un faktiskās izmaksas. Identificējiet: 3 lielākās pārplānotās kategorijas, 3 lielākos ietaupījumus, novirzes iemeslus un ieteikumus nākamajam ceturksnim. Formatējiet kā kopsavilkumu ar galvenajiem ieskatiem.",
-          "keywords": [
-            "budžetu",
-            "novirze",
-            "analīze",
-            "izdevumiem"
-          ],
+          "keywords": ["budžetu", "novirze", "analīze", "izdevumiem"],
           "category": "analytics"
         },
         {
@@ -827,12 +540,7 @@
           "title": "Izdevumu pārskata kopsavilkums",
           "text": "Apkopojiet darbinieku izdevumu pārskatus par [mēnesi/ceturksni]. Grupējiet pēc: ceļojumi, ēdināšana, biroja piederumi un citi. Atzīmējiet izdevumus, kas pārsniedz polises ierobežojumus vai kuriem ir nepieciešams paskaidrojums. Lūdzu, norādiet kopējo apstiprināto summu un noraidītos pieprasījumus, norādot iemeslus.",
           "copyText": "Apkopojiet darbinieku izdevumu pārskatus par [mēnesi/ceturksni]. Grupējiet pēc: ceļojumi, ēdināšana, biroja piederumi un citi. Atzīmējiet izdevumus, kas pārsniedz polises ierobežojumus vai kuriem ir nepieciešams paskaidrojums. Lūdzu, norādiet kopējo apstiprināto summu un noraidītos pieprasījumus, norādot iemeslus.",
-          "keywords": [
-            "izdevumiem",
-            "atskaite",
-            "kompensāciju",
-            "politikā"
-          ],
+          "keywords": ["izdevumiem", "atskaite", "kompensāciju", "politikā"],
           "category": "analytics"
         },
         {
@@ -840,13 +548,7 @@
           "title": "Finanšu KPI kopsavilkums",
           "text": "Izveidojiet finanšu KPI kopsavilkumu par [periodu]. Iekļauts: ieņēmumu pieaugums %, bruto peļņas procenti, darbības izdevumu attiecība, klientu parādsaistības, krājumu apgrozījums un skaidras naudas konversijas cikls. Pievienojiet katra rādītāja gada salīdzinājumu (YoY) un īsu komentāru par tendenci.",
           "copyText": "Izveidojiet finanšu KPI kopsavilkumu par [periodu]. Iekļauts: ieņēmumu pieaugums %, bruto peļņas procenti, darbības izdevumu attiecība, klientu parādsaistības, krājumu apgrozījums un skaidras naudas konversijas cikls. Pievienojiet katra rādītāja gada salīdzinājumu (YoY) un īsu komentāru par tendenci.",
-          "keywords": [
-            "finanšu",
-            "kpi",
-            "kopsavilkums",
-            "rādītājiem",
-            "sniegumu"
-          ],
+          "keywords": ["finanšu", "kpi", "kopsavilkums", "rādītājiem", "sniegumu"],
           "category": "analytics"
         },
         {
@@ -854,13 +556,7 @@
           "title": "Cenu stratēģijas analīze",
           "text": "Analizējiet [produkta/pakalpojuma] optimālās cenas, ņemot vērā: pašizmaksu ([X] €), konkurentu cenas ([ielīmēt datus]), mērķa rezervi ([Y]%) un tirgus pozīciju. Nodrošiniet 3 cenu noteikšanas scenārijus (ekonomisks, standarta, premium) ar peļņas prognozēm un ieteikumiem.",
           "copyText": "Analizējiet [produkta/pakalpojuma] optimālās cenas, ņemot vērā: pašizmaksu ([X] €), konkurentu cenas ([ielīmēt datus]), mērķa rezervi ([Y]%) un tirgus pozīciju. Nodrošiniet 3 cenu noteikšanas scenārijus (ekonomisks, standarta, premium) ar peļņas prognozēm un ieteikumiem.",
-          "keywords": [
-            "cenu noteikšana",
-            "peļņas",
-            "starpība",
-            "izmaksas",
-            "analīze"
-          ],
+          "keywords": ["cenu noteikšana", "peļņas", "starpība", "izmaksas", "analīze"],
           "category": "analytics"
         },
         {
@@ -868,13 +564,7 @@
           "title": "SVID analīze",
           "text": "Veiciet detalizētu SVID analīzi [projektam/uzņēmumam/produktam]. Iekļauts: stiprās puses (4-6 punkti), vājās puses (4-6 punkti), iespējas (4-6 punkti), riski (4-6 punkti). Par katru punktu sniedziet: aprakstu, pierādījumus/datus, ietekmi un ieteikumus. Formatējiet kā strukturētu pārskatu ar prioritātēm.",
           "copyText": "Veiciet detalizētu SVID analīzi [projektam/uzņēmumam/produktam]. Iekļauts: stiprās puses (4-6 punkti), vājās puses (4-6 punkti), iespējas (4-6 punkti), riski (4-6 punkti). Par katru punktu sniedziet: aprakstu, pierādījumus/datus, ietekmi un ieteikumus. Formatējiet kā strukturētu pārskatu ar prioritātēm.",
-          "keywords": [
-            "svots",
-            "analīze",
-            "stratēģija",
-            "stiprās puses",
-            "vājās puses"
-          ],
+          "keywords": ["swot", "svid", "analīze", "stratēģija", "stiprās puses", "vājās puses"],
           "category": "analytics"
         },
         {
@@ -883,9 +573,10 @@
           "text": "Veiciet PEST analīzi [uzņēmumam/projektam/uzņēmumam] [valstij/reģionam]. Iekļauti: politiskie faktori (4-5 punkti), ekonomiskie faktori (4-5 punkti), sociālie faktori (4-5 punkti), tehnoloģiskie faktori (4-5 punkti). Katram faktoram norādiet: aprakstu, ietekmi, tendences un ieteikumus. Iesniedziet kā stratēģisku ziņojumu.",
           "copyText": "Veiciet PEST analīzi [uzņēmumam/projektam/uzņēmumam] [valstij/reģionam]. Iekļauti: politiskie faktori (4-5 punkti), ekonomiskie faktori (4-5 punkti), sociālie faktori (4-5 punkti), tehnoloģiskie faktori (4-5 punkti). Katram faktoram norādiet: aprakstu, ietekmi, tendences un ieteikumus. Iesniedziet kā stratēģisku ziņojumu.",
           "keywords": [
-            "kaitēklis",
+            "pest",
             "analīze",
-            "politikā",
+            "makrovide",
+            "politika",
             "ekonomika",
             "sociālā",
             "tehnoloģija"
@@ -897,21 +588,14 @@
           "title": "🎯 Konkurentu stratēģiskā analīze",
           "text": "Jūs esat vecākais tirgus izpētes analītiķis ar 15 gadu pieredzi B2B elektronikas izplatīšanā.\n\nUZDEVUMS: veiciet detalizētu konkurenta [konkurenta nosaukums] analīzi [produktu kategorijas] tirgū.\n\nFORMĀTS: prezentējiet analīzi šādā struktūrā:\n1. Kopsavilkums (2–3 teikumi)\n2. SVID analīze (4-6 punkti katrā kvadrantā)\n3. Cenu stratēģijas izvērtēšana\n4. Tirgus pozicionēšanas karte (aprakstiet vizuāli)\n5. Trīs īstenojami ieteikumi ar paredzamo ietekmi\n\nTONIS: Profesionāls, uz datiem balstīts, stratēģisks\n\nSTILS: izmantojiet biznesa terminoloģiju, iekļaujiet konkrētus rādītājus, ja iespējams, atsaucieties uz nozares etaloniem un izvairieties no minējumiem — koncentrējieties uz redzamiem faktiem un loģiskiem secinājumiem.\n\nKONTEKSTS: Mēs esam vidēja lieluma izplatītājs, kas vēlas atšķirt savu piedāvājumu konkurētspējīgā tirgū. Mūsu stiprās puses ir klientu apkalpošana un tehniskās zināšanas.\n\nIEROBEŽOJUMI: Kopējai izvadei jābūt līdz 500 vārdiem. Dodiet priekšroku ieskatiem, kas sniedz ātras konkurences priekšrocības.",
           "copyText": "Jūs esat vecākais tirgus izpētes analītiķis ar 15 gadu pieredzi B2B elektronikas izplatīšanā.\n\nUZDEVUMS: veiciet detalizētu konkurenta [konkurenta nosaukums] analīzi [produktu kategorijas] tirgū.\n\nFORMĀTS: prezentējiet analīzi šādā struktūrā:\n1. Kopsavilkums (2–3 teikumi)\n2. SVID analīze (4-6 punkti katrā kvadrantā)\n3. Cenu stratēģijas izvērtēšana\n4. Tirgus pozicionēšanas karte (aprakstiet vizuāli)\n5. Trīs īstenojami ieteikumi ar paredzamo ietekmi\n\nTONIS: Profesionāls, uz datiem balstīts, stratēģisks\n\nSTILS: izmantojiet biznesa terminoloģiju, iekļaujiet konkrētus rādītājus, ja iespējams, atsaucieties uz nozares etaloniem un izvairieties no minējumiem — koncentrējieties uz redzamiem faktiem un loģiskiem secinājumiem.\n\nKONTEKSTS: Mēs esam vidēja lieluma izplatītājs, kas vēlas atšķirt savu piedāvājumu konkurētspējīgā tirgū. Mūsu stiprās puses ir klientu apkalpošana un tehniskās zināšanas.\n\nIEROBEŽOJUMI: Kopējai izvadei jābūt līdz 500 vārdiem. Dodiet priekšroku ieskatiem, kas sniedz ātras konkurences priekšrocības.",
-          "keywords": [
-            "konkurentiem",
-            "analīze",
-            "svots",
-            "stratēģiski",
-            "tirgus",
-            "pētījumiem"
-          ],
+          "keywords": ["konkurentiem", "analīze", "svots", "stratēģiski", "tirgus", "pētījumiem"],
           "category": "analytics"
         },
         {
           "id": 106,
           "title": "🔬 Dziļās izpētes metodoloģija",
-          "text": "Jūs esat vecākais pētniecības analītiķis ar akadēmisku pieredzi un 10+ gadu pieredzi daudzslāņu tirgus, zinātniskajā un biznesa izpētē.\n\nUZDEVUMS: veiciet detalizētu padziļinātu izpēti par: [pētījuma tēma/jautājums].\n\nPĒTĪJUMA METODIKA (5 FĀZES):\n\n## 1. FĀZE: DARBĪBAS DEFINĪCIJA\n- Galvenais pētījuma jautājums: [skaidri formulēt]\n- Hipotēzes (2-3): [kas ir paredzēts atrast]\n- Ierobežojumi: [kas NAV iekļauts pētījumā]\n- Veiksmes kritēriji: [kā mēs zināsim, ka pētījums ir veiksmīgs]\n\n## 2. FĀZE: AVOTU KARTĒŠANA\nApkopojiet informāciju no dažādiem līmeņiem:\n🏛️ Primārie avoti: [oficiālā statistika, uzņēmumu pārskati, patenti]\n📊 Sekundārie avoti: [zinātniskie raksti, analīzes, apskati]\n💬 Trešo pušu avoti: [ekspertu viedokļi, forumi, aplādes]\n⚡ Reāllaika signāli: [ziņas, sociālie tīkli, tendences]\n\n## 3. FĀZE: SAVSTARPĒJĀ VERIFIKĀCIJA\nKatram galvenajam apgalvojumam:\n- A avots apgalvo: [X]\n- Avots B apstiprina/nepiekrīt: [J]\n- Pārliecības rādītājs: [augsts/vidējs/zems]\n- Neskaidrības: [kas paliek neapstiprināts]\n\n## 4. POSMS: SINTĒZE UN IESKATS\nStrukturētā analīze:\n1. Kopsavilkums (5 teikumi)\n2. Galvenie konstatējumi (5.–7. punkts ar pierādījumiem)\n3. Negaidīti atklājumi (kas pārsteidza)\n4. Pretrunas starp avotiem\n5. Zināšanu nepilnības (to, ko nevarēja atrast)\n\n## 5. POSMS: IETEIKUMI UN NĀKAMĀS DARBĪBAS\n- Praktiski secinājumi: [3-5 rīcības ieteikumi]\n- Turpmāka izpēte: [kādi jautājumi ir jāizpēta]\n- Uzticamības deklarācija: [pētījuma ierobežojumi]\n\nFORMĀTS: norādiet savu pētījumu ar skaidru vizuālo struktūru, numerāciju un citātiem.\n\nIEROBEŽOJUMI: skaidri nodaliet FAKTI no INTERPRETĀCIJAS no PIEŅĒMUMIEM.",
-          "copyText": "Jūs esat vecākais pētniecības analītiķis ar akadēmisku pieredzi un 10+ gadu pieredzi daudzslāņu tirgus, zinātniskajā un biznesa izpētē.\n\nUZDEVUMS: veiciet detalizētu padziļinātu izpēti par: [pētījuma tēma/jautājums].\n\nPĒTĪJUMA METODIKA (5 FĀZES):\n\n## 1. FĀZE: DARBĪBAS DEFINĪCIJA\n- Galvenais pētījuma jautājums: [skaidri formulēt]\n- Hipotēzes (2-3): [kas ir paredzēts atrast]\n- Ierobežojumi: [kas NAV iekļauts pētījumā]\n- Veiksmes kritēriji: [kā mēs zināsim, ka pētījums ir veiksmīgs]\n\n## 2. FĀZE: AVOTU KARTĒŠANA\nApkopojiet informāciju no dažādiem līmeņiem:\n🏛️ Primārie avoti: [oficiālā statistika, uzņēmumu pārskati, patenti]\n📊 Sekundārie avoti: [zinātniskie raksti, analīzes, apskati]\n💬 Trešo pušu avoti: [ekspertu viedokļi, forumi, aplādes]\n⚡ Reāllaika signāli: [ziņas, sociālie tīkli, tendences]\n\n## 3. FĀZE: SAVSTARPĒJĀ VERIFIKĀCIJA\nKatram galvenajam apgalvojumam:\n- A avots apgalvo: [X]\n- Avots B apstiprina/nepiekrīt: [J]\n- Pārliecības rādītājs: [augsts/vidējs/zems]\n- Neskaidrības: [kas paliek neapstiprināts]\n\n## 4. POSMS: SINTĒZE UN IESKATS\nStrukturētā analīze:\n1. Kopsavilkums (5 teikumi)\n2. Galvenie konstatējumi (5.–7. punkts ar pierādījumiem)\n3. Negaidīti atklājumi (kas pārsteidza)\n4. Pretrunas starp avotiem\n5. Zināšanu nepilnības (to, ko nevarēja atrast)\n\n## 5. POSMS: IETEIKUMI UN NĀKAMĀS DARBĪBAS\n- Praktiski secinājumi: [3-5 rīcības ieteikumi]\n- Turpmāka izpēte: [kādi jautājumi ir jāizpēta]\n- Uzticamības deklarācija: [pētījuma ierobežojumi]\n\nFORMĀTS: norādiet savu pētījumu ar skaidru vizuālo struktūru, numerāciju un citātiem.\n\nIEROBEŽOJUMI: skaidri nodaliet FAKTI no INTERPRETĀCIJAS no PIEŅĒMUMIEM.",
+          "text": "Jūs esat vecākais pētniecības analītiķis ar akadēmisku pieredzi un 10+ gadu pieredzi daudzslāņu tirgus, zinātniskajā un biznesa izpētē.\n\nUZDEVUMS: veiciet detalizētu padziļinātu izpēti par: [pētījuma tēma/jautājums].\n\nPĒTĪJUMA METODIKA (5 FĀZES):\n\n## 1. FĀZE: DARBĪBAS DEFINĪCIJA\n- Galvenais pētījuma jautājums: [skaidri formulēt]\n- Hipotēzes (2-3): [kas ir paredzēts atrast]\n- Ierobežojumi: [kas NAV iekļauts pētījumā]\n- Veiksmes kritēriji: [kā mēs zināsim, ka pētījums ir veiksmīgs]\n\n## 2. FĀZE: AVOTU KARTĒŠANA\nApkopojiet informāciju no dažādiem līmeņiem:\n🏛️ Primārie avoti: [oficiālā statistika, uzņēmumu pārskati, patenti]\n📊 Sekundārie avoti: [zinātniskie raksti, analīzes, apskati]\n💬 Trešo pušu avoti: [ekspertu viedokļi, forumi, aplādes]\n⚡ Reāllaika signāli: [ziņas, sociālie tīkli, tendences]\n\n## 3. FĀZE: SAVSTARPĒJĀ VERIFIKĀCIJA\nKatram galvenajam apgalvojumam:\n- A avots apgalvo: [X]\n- Avots B apstiprina/nepiekrīt: [Y]\n- Pārliecības rādītājs: [augsts/vidējs/zems]\n- Neskaidrības: [kas paliek neapstiprināts]\n\n## 4. FĀZE: SINTĒZE UN IESKATI\nStrukturētā analīze:\n1. Kopsavilkums (5 teikumi)\n2. Galvenie konstatējumi (5.–7. punkts ar pierādījumiem)\n3. Negaidīti atklājumi (kas pārsteidza)\n4. Pretrunas starp avotiem\n5. Zināšanu nepilnības (to, ko nevarēja atrast)\n\n## 5. FĀZE: IETEIKUMI UN NĀKAMĀS DARBĪBAS\n- Praktiski secinājumi: [3-5 rīcības ieteikumi]\n- Turpmāka izpēte: [kādi jautājumi ir jāizpēta]\n- Uzticamības deklarācija: [pētījuma ierobežojumi]\n\nFORMĀTS: norādiet savu pētījumu ar skaidru vizuālo struktūru, numerāciju un citātiem.\n\nIEROBEŽOJUMI: skaidri nodaliet FAKTI no INTERPRETĀCIJAS no PIEŅĒMUMIEM.",
+          "copyText": "Jūs esat vecākais pētniecības analītiķis ar akadēmisku pieredzi un 10+ gadu pieredzi daudzslāņu tirgus, zinātniskajā un biznesa izpētē.\n\nUZDEVUMS: veiciet detalizētu padziļinātu izpēti par: [pētījuma tēma/jautājums].\n\nPĒTĪJUMA METODIKA (5 FĀZES):\n\n## 1. FĀZE: DARBĪBAS DEFINĪCIJA\n- Galvenais pētījuma jautājums: [skaidri formulēt]\n- Hipotēzes (2-3): [kas ir paredzēts atrast]\n- Ierobežojumi: [kas NAV iekļauts pētījumā]\n- Veiksmes kritēriji: [kā mēs zināsim, ka pētījums ir veiksmīgs]\n\n## 2. FĀZE: AVOTU KARTĒŠANA\nApkopojiet informāciju no dažādiem līmeņiem:\n🏛️ Primārie avoti: [oficiālā statistika, uzņēmumu pārskati, patenti]\n📊 Sekundārie avoti: [zinātniskie raksti, analīzes, apskati]\n💬 Trešo pušu avoti: [ekspertu viedokļi, forumi, aplādes]\n⚡ Reāllaika signāli: [ziņas, sociālie tīkli, tendences]\n\n## 3. FĀZE: SAVSTARPĒJĀ VERIFIKĀCIJA\nKatram galvenajam apgalvojumam:\n- A avots apgalvo: [X]\n- Avots B apstiprina/nepiekrīt: [Y]\n- Pārliecības rādītājs: [augsts/vidējs/zems]\n- Neskaidrības: [kas paliek neapstiprināts]\n\n## 4. FĀZE: SINTĒZE UN IESKATI\nStrukturētā analīze:\n1. Kopsavilkums (5 teikumi)\n2. Galvenie konstatējumi (5.–7. punkts ar pierādījumiem)\n3. Negaidīti atklājumi (kas pārsteidza)\n4. Pretrunas starp avotiem\n5. Zināšanu nepilnības (to, ko nevarēja atrast)\n\n## 5. FĀZE: IETEIKUMI UN NĀKAMĀS DARBĪBAS\n- Praktiski secinājumi: [3-5 rīcības ieteikumi]\n- Turpmāka izpēte: [kādi jautājumi ir jāizpēta]\n- Uzticamības deklarācija: [pētījuma ierobežojumi]\n\nFORMĀTS: norādiet savu pētījumu ar skaidru vizuālo struktūru, numerāciju un citātiem.\n\nIEROBEŽOJUMI: skaidri nodaliet FAKTI no INTERPRETĀCIJAS no PIEŅĒMUMIEM.",
           "keywords": [
             "izmeklēšana",
             "analīze",
@@ -937,12 +621,7 @@
           "title": "Reklāmkaroga teksts akcijām",
           "text": "Uzrakstiet saistošu reklāmkaroga tekstu kampaņai [Reklāma/pārdošana]. Izveidojiet 3 versijas: 1) Īss virsraksts + CTA poga (5-7 vārdi), 2) Vidēja garuma teksts ar priekšrocībām (15-20 vārdi), 3) Steidzams teksts ar termiņu. Sniedziet ieteikumus A/B testēšanai.",
           "copyText": "Uzrakstiet saistošu reklāmkaroga tekstu kampaņai [Reklāma/pārdošana]. Izveidojiet 3 versijas: 1) Īss virsraksts + CTA poga (5-7 vārdi), 2) Vidēja garuma teksts ar priekšrocībām (15-20 vārdi), 3) Steidzams teksts ar termiņu. Sniedziet ieteikumus A/B testēšanai.",
-          "keywords": [
-            "baneris",
-            "darbība",
-            "kampaņa",
-            "virsraksts"
-          ],
+          "keywords": ["baneris", "darbība", "kampaņa", "virsraksts"],
           "category": "marketing"
         },
         {
@@ -950,11 +629,7 @@
           "title": "Biļetena teksts",
           "text": "Uzraksti biļetena tekstu par akciju: -20% visām mērierīcēm līdz svētdienai.",
           "copyText": "Uzraksti biļetena tekstu par akciju: -20% visām mērierīcēm līdz svētdienai.",
-          "keywords": [
-            "informatīvais izdevums",
-            "darbība",
-            "atlaide"
-          ],
+          "keywords": ["informatīvais izdevums", "darbība", "atlaide"],
           "category": "marketing"
         },
         {
@@ -962,13 +637,7 @@
           "title": "Facebook ierakstu idejas",
           "text": "Ģenerējiet 5 Facebook ziņu idejas par jauniem Arduino produktiem, katrā no kurām ir skaidrs aicinājums uz darbību.",
           "copyText": "Ģenerējiet 5 Facebook ziņu idejas par jauniem Arduino produktiem, katrā no kurām ir skaidrs aicinājums uz darbību.",
-          "keywords": [
-            "facebook",
-            "pastu",
-            "sociālā",
-            "tīkliem",
-            "arduino"
-          ],
+          "keywords": ["facebook", "pastu", "sociālā", "tīkliem", "arduino"],
           "category": "marketing"
         },
         {
@@ -976,12 +645,7 @@
           "title": "E-pasta mārketinga kampaņas plāns",
           "text": "Izveidojiet e-pasta mārketinga kampaņas plānu [period] par [subject]. Ietveriet: kampaņas mērķus, auditorijas segmentāciju, e-pasta tēmas un reklāmas materiālus, personalizācijas stratēģiju, A/B testus un veiksmes rādītājus. Optimizējiet atvēršanas un reklāmguvumu līmeņiem.",
           "copyText": "Izveidojiet e-pasta mārketinga kampaņas plānu [period] par [subject]. Ietveriet: kampaņas mērķus, auditorijas segmentāciju, e-pasta tēmas un reklāmas materiālus, personalizācijas stratēģiju, A/B testus un veiksmes rādītājus. Optimizējiet atvēršanas un reklāmguvumu līmeņiem.",
-          "keywords": [
-            "e-pasts",
-            "mārketings",
-            "kampaņa",
-            "segmentācija"
-          ],
+          "keywords": ["e-pasts", "mārketings", "kampaņa", "segmentācija"],
           "category": "marketing"
         }
       ]
@@ -997,13 +661,7 @@
           "title": "Importa cenu kalkulators",
           "text": "Izveidojiet kalkulatoru importētajām precēm (prece + transports + PVN + muitas nodevas = gala cena).",
           "copyText": "Izveidojiet kalkulatoru importētajām precēm (prece + transports + PVN + muitas nodevas = gala cena).",
-          "keywords": [
-            "imports",
-            "kalkulators",
-            "PVN",
-            "muitas nodoklis",
-            "transports"
-          ],
+          "keywords": ["imports", "kalkulators", "PVN", "muitas nodoklis", "transports"],
           "category": "it"
         },
         {
@@ -1011,13 +669,7 @@
           "title": "Datu kvalitātes audits",
           "text": "Veiciet datu kvalitātes auditu [datu kopa]. Identificējiet: trūkstošos datus, dublikātus, nepareizus formātus, novirzes, neatbilstības. Sniedziet: problēmu pārskatu, ietekmes novērtējumu, prioritātes un ieteikumus datu tīrīšanai.",
           "copyText": "Veiciet datu kvalitātes auditu [datu kopa]. Identificējiet: trūkstošos datus, dublikātus, nepareizus formātus, novirzes, neatbilstības. Sniedziet: problēmu pārskatu, ietekmes novērtējumu, prioritātes un ieteikumus datu tīrīšanai.",
-          "keywords": [
-            "datus",
-            "tīrīšana",
-            "datums",
-            "tīrīšana",
-            "kvalitāti"
-          ],
+          "keywords": ["datus", "tīrīšana", "datums", "tīrīšana", "kvalitāti"],
           "category": "it"
         },
         {
@@ -1025,13 +677,7 @@
           "title": "ERP kļūdu palīdzība",
           "text": "Vienkārši izskaidrojiet, kā lietotājs var novērst šo ERP pieteikšanās kļūdu: [kļūdas ziņojums].",
           "copyText": "Vienkārši izskaidrojiet, kā lietotājs var novērst šo ERP pieteikšanās kļūdu: [kļūdas ziņojums].",
-          "keywords": [
-            "erp",
-            "kļūda",
-            "remonts",
-            "darbības traucējumi",
-            "noņemšana"
-          ],
+          "keywords": ["erp", "kļūda", "remonts", "darbības traucējumi", "noņemšana"],
           "category": "it"
         },
         {
@@ -1039,13 +685,7 @@
           "title": "IT atbalsta atbildes veidne",
           "text": "Izveidojiet palīdzības dienesta atbildes veidni [Izplatīta IT problēma: paroles atiestatīšana/e-pasta piekļuve/VPN savienojums]. Iekļauts: sveiciens, problēmas apstiprinājums, numurētas problēmu novēršanas darbības, paredzamais atrisināšanas laiks, eskalācijas ceļš, ja tas nav atrisināts, un slēgšana ar biļetes numuru.",
           "copyText": "Izveidojiet palīdzības dienesta atbildes veidni [Izplatīta IT problēma: paroles atiestatīšana/e-pasta piekļuve/VPN savienojums]. Iekļauts: sveiciens, problēmas apstiprinājums, numurētas problēmu novēršanas darbības, paredzamais atrisināšanas laiks, eskalācijas ceļš, ja tas nav atrisināts, un slēgšana ar biļetes numuru.",
-          "keywords": [
-            "parole",
-            "restaurācija",
-            "kontu",
-            "drošību",
-            "palīdzēt"
-          ],
+          "keywords": ["parole", "restaurācija", "kontu", "drošību", "palīdzēt"],
           "category": "it"
         },
         {
@@ -1053,14 +693,7 @@
           "title": "Dublēšanas un atkopšanas plāns",
           "text": "Izstrādājiet [sistēmas/datu bāzes] dublēšanas un atkopšanas procedūru. Iestatījums: dublēšanas biežums (katru dienu/nedēļu), veids (pilns/inkrementāls), uzglabāšanas vieta (lokālais/mākonis), uzglabāšanas politika, atkopšanas laiks (RTO), atkopšanas punkta mērķis (RPO) un testēšanas grafiks.",
           "copyText": "Izstrādājiet [sistēmas/datu bāzes] dublēšanas un atkopšanas procedūru. Iestatījums: dublēšanas biežums (katru dienu/nedēļu), veids (pilns/inkrementāls), uzglabāšanas vieta (lokālais/mākonis), krātuves politika, atkopšanas laiks (RTO), atkopšanas punkta mērķis (RPO) un testēšanas grafiks.",
-          "keywords": [
-            "rezerves",
-            "kopijas",
-            "atveseļošanās",
-            "plāns",
-            "datus",
-            "aizsardzību"
-          ],
+          "keywords": ["rezerves", "kopijas", "atveseļošanās", "plāns", "datus", "aizsardzību"],
           "category": "it"
         },
         {
@@ -1068,13 +701,7 @@
           "title": "Lietotāja piekļuves matrica",
           "text": "Izveidojiet lietotāja piekļuves kontroles matricu [sistēmai/lietojumprogrammai]. Definējiet lomas (administrators, vadītājs, lietotājs, tikai lasāms), katras lomas atļaujas, datu piekļuves līmeņus, piekļuves pieprasījumu apstiprināšanas procesu un periodiskas pārskatīšanas grafiku. Formatējiet kā skaidru tabulu ar RBAC loģiku.",
           "copyText": "Izveidojiet lietotāja piekļuves kontroles matricu [sistēmai/lietojumprogrammai]. Definējiet lomas (administrators, vadītājs, lietotājs, tikai lasāms), katras lomas atļaujas, datu piekļuves līmeņus, piekļuves pieprasījumu apstiprināšanas procesu un periodiskas pārskatīšanas grafiku. Formatējiet kā skaidru tabulu ar RBAC loģiku.",
-          "keywords": [
-            "lietotājiem",
-            "piekļuvi",
-            "atļaujas",
-            "lomas",
-            "drošību"
-          ],
+          "keywords": ["lietotājiem", "piekļuvi", "atļaujas", "lomas", "drošību"],
           "category": "it"
         },
         {
@@ -1082,13 +709,7 @@
           "title": "Tehniskās dokumentācijas veidne",
           "text": "Sagatavojiet [funkcijas/API/moduļa] tehnisko dokumentāciju. Iekļauts: pārskats un mērķis, prasības, soli pa solim sniegti norādījumi ar ekrānuzņēmumiem, koda paraugi (ja piemērojams), bieži sastopamās kļūdas un risinājumi, FAQ un versiju vēsture. Mērķauditorija: [izstrādātāji/gala lietotāji/administratori].",
           "copyText": "Sagatavojiet [funkcijas/API/moduļa] tehnisko dokumentāciju. Iekļauts: pārskats un mērķis, prasības, soli pa solim sniegti norādījumi ar ekrānuzņēmumiem, koda paraugi (ja piemērojams), bieži sastopamās kļūdas un risinājumi, FAQ un versiju vēsture. Mērķauditorija: [izstrādātāji/gala lietotāji/administratori].",
-          "keywords": [
-            "programmatūra",
-            "dokumentāciju",
-            "api",
-            "tehniskais",
-            "specifikācijas"
-          ],
+          "keywords": ["programmatūra", "dokumentāciju", "api", "tehniskais", "specifikācijas"],
           "category": "it"
         },
         {
@@ -1096,13 +717,7 @@
           "title": "Datu dublēšanas stratēģija",
           "text": "Izveidojiet datu dublēšanas stratēģiju [sistēma/dati]. Iekļauts: kas tiek dublēts, biežums (katru dienu/nedēļu), uzglabāšanas vietas (mākonis/lokāls), uzglabāšanas periods, atkopšanas procedūras, testēšanas grafiks. Optimizējiet drošībai un ātrai atkopšanai.",
           "copyText": "Izveidojiet datu dublēšanas stratēģiju [sistēma/dati]. Iekļauts: kas tiek dublēts, biežums (katru dienu/nedēļu), uzglabāšanas vietas (mākonis/lokāls), uzglabāšanas periods, atkopšanas procedūras, testēšanas grafiks. Optimizējiet drošībai un ātrai atkopšanai.",
-          "keywords": [
-            "dublējums",
-            "stratēģija",
-            "rezerves",
-            "kopiju",
-            "datus"
-          ],
+          "keywords": ["dublējums", "stratēģija", "rezerves", "kopiju", "datus"],
           "category": "it"
         },
         {
@@ -1110,12 +725,7 @@
           "title": "Maksājuma atgādinājuma e-pasts",
           "text": "Uzrakstiet profesionālu, taču draudzīgu maksājuma atgādinājuma e-pasta ziņojumu par rēķinu #[number], kura termiņš ir [X dienas]. Iekļauts: rēķina informācija, maksājuma metodes un kontaktinformācija. Tonis: pieklājīgs, bet stingrs, vienlaikus saglabājot labas attiecības ar klientiem.",
           "copyText": "Uzrakstiet profesionālu, taču draudzīgu maksājuma atgādinājuma e-pasta ziņojumu par rēķinu #[number], kura termiņš ir [X dienas]. Iekļauts: rēķina informācija, maksājuma metodes un kontaktinformācija. Tonis: pieklājīgs, bet stingrs, vienlaikus saglabājot labas attiecības ar klientiem.",
-          "keywords": [
-            "kontu",
-            "atgādinājums",
-            "maksājumu",
-            "ir vēlu"
-          ],
+          "keywords": ["kontu", "atgādinājums", "maksājumu", "ir vēlu"],
           "category": "it"
         },
         {
@@ -1123,12 +733,7 @@
           "title": "Finanšu audita kontrolsaraksts",
           "text": "Izveidojiet audita sagatavošanas kontrolsarakstu [audita veids: gada/iekšējais/nodoklis]. Iekļaujiet: sagatavojamos dokumentus, nepieciešamās atbilstības procedūras, atbilstības punktus un izpildes grafiku. Sakārtojiet atbilstoši prioritātēm (kritiska, svarīga, pieejama).",
           "copyText": "Izveidojiet audita sagatavošanas kontrolsarakstu [audita veids: gada/iekšējais/nodoklis]. Iekļaujiet: sagatavojamos dokumentus, nepieciešamās atbilstības procedūras, atbilstības punktus un izpildes grafiku. Sakārtojiet atbilstoši prioritātēm (kritiska, svarīga, pieejama).",
-          "keywords": [
-            "audits",
-            "kontrole",
-            "sarakstu",
-            "atbilstība"
-          ],
+          "keywords": ["audits", "kontrole", "sarakstu", "atbilstība"],
           "category": "it"
         },
         {
@@ -1136,13 +741,7 @@
           "title": "Eizenhauera matricas uzdevumu klasifikācija",
           "text": "Klasificējiet šādus uzdevumus [ielīmējiet uzdevumu sarakstu], izmantojot Eizenhauera matricu. Kategorijas: 1) steidzami un svarīgi (darīt tagad), 2) svarīgi, bet ne steidzami (plāns), 3) steidzami, bet nav svarīgi (deleģēt), 4) nav steidzami un nav svarīgi (nolikt malā). Katrai kategorijai norādiet: uzdevumus, rīcības plānu un laika tāmi.",
           "copyText": "Klasificējiet šādus uzdevumus [ielīmējiet uzdevumu sarakstu], izmantojot Eizenhauera matricu. Kategorijas: 1) steidzami un svarīgi (darīt tagad), 2) svarīgi, bet ne steidzami (plāns), 3) steidzami, bet nav svarīgi (deleģēt), 4) nav steidzami un nav svarīgi (nolikt malā). Katrai kategorijai norādiet: uzdevumus, rīcības plānu un laika tāmi.",
-          "keywords": [
-            "Eizenhauers",
-            "matrica",
-            "prioritātes",
-            "steidzamība",
-            "nozīmi"
-          ],
+          "keywords": ["Eizenhauers", "matrica", "prioritātes", "steidzamība", "nozīmi"],
           "category": "it"
         },
         {
@@ -1150,12 +749,7 @@
           "title": "Lēmumu matrica",
           "text": "Izveidojiet lēmumu matricu [lēmums: piemēram, produkta izvēle, stratēģijas izvēle]. Iekļauts: alternatīvas (3-5 varianti), vērtēšanas kritēriji (5-7 kritēriji), katra kritērija svars (1-10), katras alternatīvas vērtējums (1-10). Aprēķiniet kopējo punktu skaitu un sniedziet ieteikumu ar pamatojumu.",
           "copyText": "Izveidojiet lēmumu matricu [lēmums: piemēram, produkta izvēle, stratēģijas izvēle]. Iekļauts: alternatīvas (3-5 varianti), vērtēšanas kritēriji (5-7 kritēriji), katra kritērija svars (1-10), katras alternatīvas vērtējums (1-10). Aprēķiniet kopējo punktu skaitu un sniedziet ieteikumu ar pamatojumu.",
-          "keywords": [
-            "risinājumus",
-            "matrica",
-            "kritērijiem",
-            "novērtējums"
-          ],
+          "keywords": ["risinājumus", "matrica", "kritērijiem", "novērtējums"],
           "category": "it"
         }
       ]
@@ -1171,12 +765,7 @@
           "title": "Cenas aprēķins",
           "text": "Aprēķiniet gala cenu, piemērojiet 15% uzcenojumu un 21% PVN, ja pirkuma cena ir [x EUR].",
           "copyText": "Aprēķiniet gala cenu, piemērojiet 15% uzcenojumu un 21% PVN, ja pirkuma cena ir [x EUR].",
-          "keywords": [
-            "cena",
-            "aprēķins",
-            "uzcenojums",
-            "PVN"
-          ],
+          "keywords": ["cena", "aprēķins", "uzcenojums", "PVN"],
           "category": "finance"
         },
         {
@@ -1184,12 +773,7 @@
           "title": "PVN skaidrojums",
           "text": "Uzrakstiet klientam skaidru skaidrojumu, kā tiek aprēķināts PVN un kādi noteikumi attiecas uz pircējiem no Latvijas.",
           "copyText": "Uzrakstiet klientam skaidru skaidrojumu, kā tiek aprēķināts PVN un kādi noteikumi attiecas uz pircējiem no Latvijas.",
-          "keywords": [
-            "PVN",
-            "skaidrojums",
-            "nodoklis",
-            "Latvija"
-          ],
+          "keywords": ["PVN", "skaidrojums", "nodoklis", "Latvija"],
           "category": "finance"
         },
         {
@@ -1197,12 +781,7 @@
           "title": "Naudas plūsmas prognoze",
           "text": "Izveidojiet 3 mēnešu naudas plūsmas prognozi, pamatojoties uz šādiem datiem: [ielīmēt numurus]. Iekļauts: sākuma atlikums, paredzamās ienākošās naudas plūsmas (ar maksājuma noteikumiem), paredzamās izejošās naudas plūsmas un plānotais beigu atlikums. Izceliet iespējamos likviditātes riskus un ierosiniet to mazināšanas pasākumus.",
           "copyText": "Izveidojiet 3 mēnešu naudas plūsmas prognozi, pamatojoties uz šādiem datiem: [ielīmēt numurus]. Iekļauts: sākuma atlikums, paredzamās ienākošās naudas plūsmas (ar maksājuma noteikumiem), paredzamās izejošās naudas plūsmas un plānotais beigu atlikums. Izceliet iespējamos likviditātes riskus un ierosiniet to mazināšanas pasākumus.",
-          "keywords": [
-            "naudu",
-            "straumes",
-            "prognoze",
-            "likviditāte"
-          ],
+          "keywords": ["naudu", "straumes", "prognoze", "likviditāte"],
           "category": "finance"
         }
       ]
@@ -1218,12 +797,7 @@
           "title": "Intervijas jautājumu kopums",
           "text": "Izveidojiet 10 uzvedības intervijas jautājumus [pozīcijas nosaukums] kandidātam. Iekļaujiet 3 jautājumus par problēmu risināšanu, 3 par komandas darba prasmēm, 2 par darbu zem spiediena un 2 tehniskus jautājumus, kas saistīti ar lomu. Norādiet, ko meklēt, ja kandidāts atbild labi.",
           "copyText": "Izveidojiet 10 uzvedības intervijas jautājumus [pozīcijas nosaukums] kandidātam. Iekļaujiet 3 jautājumus par problēmu risināšanu, 3 par komandas darba prasmēm, 2 par darbu zem spiediena un 2 tehniskus jautājumus, kas saistīti ar lomu. Norādiet, ko meklēt, ja kandidāts atbild labi.",
-          "keywords": [
-            "intervija",
-            "jautājumiem",
-            "kandidātiem",
-            "novērtējums"
-          ],
+          "keywords": ["intervija", "jautājumiem", "kandidātiem", "novērtējums"],
           "category": "hr"
         },
         {
@@ -1231,13 +805,7 @@
           "title": "Ieejas kontrolsaraksts",
           "text": "Izveidojiet visaptverošu 30 dienu uzņemšanas kontrolsarakstu jaunam [pozīcijas nosaukums], sākot no [datums]. Kārtot pēc: 1 diena, 1 nedēļa, 2-4 nedēļas un 1 mēnesis. Iekļaujiet uzdevumus personālam, vadītājam un jaunajam darbiniekam.",
           "copyText": "Izveidojiet visaptverošu 30 dienu uzņemšanas kontrolsarakstu jaunam [pozīcijas nosaukums], sākot no [datums]. Kārtot pēc: 1 diena, 1 nedēļa, 2-4 nedēļas un 1 mēnesis. Iekļaujiet uzdevumus personālam, vadītājam un jaunajam darbiniekam.",
-          "keywords": [
-            "ievads",
-            "kontrole",
-            "sarakstu",
-            "jauns",
-            "darbinieks"
-          ],
+          "keywords": ["ievads", "kontrole", "sarakstu", "jauns", "darbinieks"],
           "category": "hr"
         },
         {
@@ -1245,13 +813,7 @@
           "title": "Darbības novērtējuma veidne",
           "text": "Izveidojiet līdzsvarotu darbības novērtējuma veidni darbiniekam [darbinieka vārds], kas strādā [amata nosaukums]. Iekļaujiet sadaļas: sasniegumi, uzlabošanas jomas, mērķu sasniegšana, prasmju attīstība un nākamā ceturkšņa mērķi. Izmantojiet konstruktīvu, uz izaugsmi vērstu valodu.",
           "copyText": "Izveidojiet līdzsvarotu darbības novērtējuma veidni darbiniekam [darbinieka vārds], kas strādā [amata nosaukums]. Iekļaujiet sadaļas: sasniegumi, uzlabošanas jomas, mērķu sasniegšana, prasmju attīstība un nākamā ceturkšņa mērķi. Izmantojiet konstruktīvu, uz izaugsmi vērstu valodu.",
-          "keywords": [
-            "aktivitātes",
-            "novērtējums",
-            "atgriezenisks",
-            "savienojums",
-            "mērķi"
-          ],
+          "keywords": ["aktivitātes", "novērtējums", "atgriezenisks", "savienojums", "mērķi"],
           "category": "hr"
         },
         {
@@ -1259,12 +821,7 @@
           "title": "Personāla politikas projekts",
           "text": "Izstrādājiet skaidru, darbiniekiem draudzīgu [politikas tēma: piemēram, attālināta darba, atvaļinājuma, izdevumu] politiku. Struktūra: mērķis, darbības joma, informācija par politiku, procedūras un bieži uzdotie jautājumi. Izmantojiet vienkāršu valodu un sniedziet 3–5 visbiežāk sastopamās situācijas ar piemēriem.",
           "copyText": "Izstrādājiet skaidru, darbiniekiem draudzīgu [politikas tēma: piemēram, attālināta darba, atvaļinājuma, izdevumu] politiku. Struktūra: mērķis, darbības joma, informācija par politiku, procedūras un bieži uzdotie jautājumi. Izmantojiet vienkāršu valodu un sniedziet 3–5 visbiežāk sastopamās situācijas ar piemēriem.",
-          "keywords": [
-            "politikā",
-            "personāls",
-            "noteikumiem",
-            "vadītājs"
-          ],
+          "keywords": ["politikā", "personāls", "noteikumiem", "vadītājs"],
           "category": "hr"
         },
         {
@@ -1272,13 +829,7 @@
           "title": "Mācību programmas plāns",
           "text": "Izveidojiet pusi dienas apmācību programmu par [tēmu] [departamentam/komandai]. Iekļauti: mācību mērķi, darba kārtība ar laika plānu, aktivitātes/prakse, nepieciešamie materiāli un mācīšanas efektivitātes mērīšanas veids.",
           "copyText": "Izveidojiet pusi dienas apmācību programmu par [tēmu] [departamentam/komandai]. Iekļauti: mācību mērķi, darba kārtība ar laika plānu, aktivitātes/prakse, nepieciešamie materiāli un mācīšanas efektivitātes mērīšanas veids.",
-          "keywords": [
-            "apmācību",
-            "programma",
-            "prasmes",
-            "izglītība",
-            "darbnīca"
-          ],
+          "keywords": ["apmācību", "programma", "prasmes", "izglītība", "darbnīca"],
           "category": "hr"
         },
         {
@@ -1286,13 +837,7 @@
           "title": "Darba piedāvājuma vēstule",
           "text": "Uzrakstiet profesionāla darba piedāvājuma vēstuli kandidātam [kandidāta vārds] [amata nosaukums]. Iekļauts: alga, sākuma datums, pabalstu kopsavilkums, atbildība un nākamās darbības. Tonis: silts un pretimnākošs, vienlaikus saglabājot formalitāti.",
           "copyText": "Uzrakstiet profesionāla darba piedāvājuma vēstuli kandidātam [kandidāta vārds] [amata nosaukums]. Iekļauts: alga, sākuma datums, pabalstu kopsavilkums, atbildība un nākamās darbības. Tonis: silts un pretimnākošs, vienlaikus saglabājot formalitāti.",
-          "keywords": [
-            "no darba",
-            "piedāvājums",
-            "vēstule",
-            "nodarbinātība",
-            "līgums"
-          ],
+          "keywords": ["no darba", "piedāvājums", "vēstule", "nodarbinātība", "līgums"],
           "category": "hr"
         },
         {
@@ -1300,13 +845,7 @@
           "title": "Darbinieku iesaistīšanās aptauja",
           "text": "Izveidojiet 15 jautājumu darbinieku iesaistes aptauju, kas aptver: apmierinātību ar darbu, vadītāju efektivitāti, darba un privātās dzīves līdzsvaru, izaugsmes iespējas un uzņēmuma kultūru. Izmantojiet jauktu vērtēšanas skalu (1–5) un atvērtos jautājumus. Pārliecinieties, ka aptauja ir anonīma.",
           "copyText": "Izveidojiet 15 jautājumu darbinieku iesaistes aptauju, kas aptver: apmierinātību ar darbu, vadītāju efektivitāti, darba un privātās dzīves līdzsvaru, izaugsmes iespējas un uzņēmuma kultūru. Izmantojiet jauktu vērtēšanas skalu (1–5) un atvērtos jautājumus. Pārliecinieties, ka aptauja ir anonīma.",
-          "keywords": [
-            "darbiniekiem",
-            "saderināšanās",
-            "aptauja",
-            "atsauksmes",
-            "kultūra"
-          ],
+          "keywords": ["darbiniekiem", "saderināšanās", "aptauja", "atsauksmes", "kultūra"],
           "category": "hr"
         }
       ]
@@ -1322,11 +861,7 @@
           "title": "Klientu tikšanās darba kārtība",
           "text": "Izveidojiet 30 minūšu klientu tikšanās darba kārtību [tēma]. Iekļauts: ievaddaļa (5 min), klienta vajadzību apzināšana (10 min), risinājuma prezentācija (10 min), jautājumi un atbildes (5 min). Sniedziet jautājumu sarakstu un vadlīnijas diskusijai.",
           "copyText": "Izveidojiet 30 minūšu klientu tikšanās darba kārtību [tēma]. Iekļauts: ievaddaļa (5 min), klienta vajadzību apzināšana (10 min), risinājuma prezentācija (10 min), jautājumi un atbildes (5 min). Sniedziet jautājumu sarakstu un vadlīnijas diskusijai.",
-          "keywords": [
-            "no klienta",
-            "tikšanās",
-            "prezentācija"
-          ],
+          "keywords": ["no klienta", "tikšanās", "prezentācija"],
           "category": "productivity"
         },
         {
@@ -1334,12 +869,7 @@
           "title": "Krājumu papildināšanas ieteikums",
           "text": "Analizējiet [produktu kategorijas] krājumu līmeņus un iesakiet papildināšanas daudzumus. Novērtējiet: pašreizējos krājumus, vidējos mēneša pārdošanas apjomus, izpildes laiku ([X dienas]), drošības krājumu prasības un sezonalitāti. Sniedziet prioritāru iepirkuma darbību sarakstu.",
           "copyText": "Analizējiet [produktu kategorijas] krājumu līmeņus un iesakiet papildināšanas daudzumus. Novērtējiet: pašreizējos krājumus, vidējos mēneša pārdošanas apjomus, izpildes laiku ([X dienas]), drošības krājumu prasības un sezonalitāti. Sniedziet prioritāru iepirkuma darbību sarakstu.",
-          "keywords": [
-            "akcijas",
-            "papildinājums",
-            "inventārs",
-            "plānošana"
-          ],
+          "keywords": ["akcijas", "papildinājums", "inventārs", "plānošana"],
           "category": "productivity"
         },
         {
@@ -1347,12 +877,7 @@
           "title": "Noliktavas telpu optimizācija",
           "text": "Analizēt noliktavas telpu izmantošanu zonā [zona/koridors]. Identificējiet: lēni kustīgus priekšmetus, kas atrodas izcilās vietās, bieži saliekamus priekšmetus tālu no iepakošanas stacijas un izšķērdētu vietu. Sniedziet 5 reorganizācijas ieteikumus, lai uzlabotu montāžas efektivitāti par [X]%.",
           "copyText": "Analizēt noliktavas telpu izmantošanu zonā [zona/koridors]. Identificējiet: lēni kustīgus priekšmetus, kas atrodas izcilās vietās, bieži saliekamus priekšmetus tālu no iepakošanas stacijas un izšķērdētu vietu. Sniedziet 5 reorganizācijas ieteikumus, lai uzlabotu montāžas efektivitāti par [X]%.",
-          "keywords": [
-            "noliktava",
-            "izkārtojumu",
-            "optimizācija",
-            "efektivitāti"
-          ],
+          "keywords": ["noliktava", "izkārtojumu", "optimizācija", "efektivitāti"],
           "category": "productivity"
         },
         {
@@ -1360,13 +885,7 @@
           "title": "Pomodoro darba kārtības plāns",
           "text": "Izveidojiet Pomodoro dienas kārtību [diena/nedēļa] [tēma/projekts]. Iekļaujiet: uzdevumu sarakstu ar prioritātēm, Pomodoro skaitu katram uzdevumam (1 Pomodoro = 25 min), īsus pārtraukumus (5 min) un garus pārtraukumus (15-30 minūtes pēc 4 Pomodoro). Optimizējiet uzdevumu secību, pamatojoties uz enerģijas līmeni un prioritātēm. Iesniedziet kā stundu plānu.",
           "copyText": "Izveidojiet Pomodoro dienas kārtību [diena/nedēļa] [tēma/projekts]. Iekļaujiet: uzdevumu sarakstu ar prioritātēm, Pomodoro skaitu katram uzdevumam (1 Pomodoro = 25 min), īsus pārtraukumus (5 min) un garus pārtraukumus (15-30 minūtes pēc 4 Pomodoro). Optimizējiet uzdevumu secību, pamatojoties uz enerģijas līmeni un prioritātēm. Iesniedziet kā stundu plānu.",
-          "keywords": [
-            "pomodoro",
-            "darba kārtība",
-            "laiks",
-            "vadība",
-            "produktivitāte"
-          ],
+          "keywords": ["pomodoro", "darba kārtība", "laiks", "vadība", "produktivitāte"],
           "category": "productivity"
         },
         {
@@ -1374,12 +893,7 @@
           "title": "SMART mērķu formulēšana",
           "text": "Izveidojiet 5 SMART mērķus [tēma/projekts]. Katram mērķim jābūt: specifiskam, izmērāmam, sasniedzamam, atbilstošam, noteiktam laikam. Katram mērķim norādiet: aprakstu, metriku, rīcības plānu, laika grafikus un veiksmes kritērijus.",
           "copyText": "Izveidojiet 5 SMART mērķus [tēma/projekts]. Katram mērķim jābūt: specifiskam, izmērāmam, sasniedzamam, atbilstošam, noteiktam laikam. Katram mērķim norādiet: aprakstu, metriku, rīcības plānu, laika grafikus un veiksmes kritērijus.",
-          "keywords": [
-            "gudrs",
-            "mērķi",
-            "plānošana",
-            "mērķis"
-          ],
+          "keywords": ["gudrs", "mērķi", "plānošana", "mērķis"],
           "category": "productivity"
         },
         {
@@ -1387,12 +901,7 @@
           "title": "Laika bloķēšanas darba kārtība",
           "text": "Izveidojiet laika bloķēšanas darba kārtību [diena/nedēļa] [uzdevums/projekts]. Iekļauti: fiksēti laiki (sapulces, zvani), dziļi darba kārtības bloki (2-3 stundas bez pārtraukumiem), īsi uzdevumu bloki (30-60 min), pārtraukumi un brīvais laiks. Optimizējiet atbilstoši enerģijas līmenim un prioritātēm. Iesniedziet kā laika kalendāru.",
           "copyText": "Izveidojiet laika bloķēšanas darba kārtību [diena/nedēļa] [uzdevums/projekts]. Iekļauti: fiksēti laiki (sapulces, zvani), dziļi darba kārtības bloki (2-3 stundas bez pārtraukumiem), īsi uzdevumu bloki (30-60 min), pārtraukumi un brīvais laiks. Optimizējiet atbilstoši enerģijas līmenim un prioritātēm. Iesniedziet kā laika kalendāru.",
-          "keywords": [
-            "laiks",
-            "bloķēšana",
-            "darba kārtība",
-            "plānošana"
-          ],
+          "keywords": ["laiks", "bloķēšana", "darba kārtība", "plānošana"],
           "category": "productivity"
         },
         {
@@ -1400,14 +909,7 @@
           "title": "2 minūšu kārtulas uzdevuma identifikācija",
           "text": "Analizējiet uzdevumu sarakstu [ielīmējiet uzdevumus] un nosakiet, kurus var izpildīt 2 minūtēs vai mazāk. Izveidojiet: 1) ātro uzdevumu sarakstu (izdariet to tūlīt), 2) uzdevumus, kurus var sadalīt 2 min. daļa, 3) Rīcības plāns, kā tos ātri veikt. Optimizējiet produktivitāti un laika ietaupījumu.",
           "copyText": "Analizējiet uzdevumu sarakstu [ielīmējiet uzdevumus] un nosakiet, kurus var izpildīt 2 minūtēs vai mazāk. Izveidojiet: 1) ātro uzdevumu sarakstu (izdariet to tūlīt), 2) uzdevumus, kurus var sadalīt 2 min. daļa, 3) Rīcības plāns, kā tos ātri veikt. Optimizējiet produktivitāti un laika ietaupījumu.",
-          "keywords": [
-            "2",
-            "minūtes",
-            "noteikums",
-            "ātri",
-            "uzdevumus",
-            "produktivitāte"
-          ],
+          "keywords": ["2", "minūtes", "noteikums", "ātri", "uzdevumus", "produktivitāte"],
           "category": "productivity"
         },
         {
@@ -1415,12 +917,7 @@
           "title": "Padziļināts darba grafiks",
           "text": "Izveidojiet dziļu darba grafiku [nedēļa/mēnesis] [projekts]. Iekļauts: 2-4 stundas. dziļā darba bloki bez pārtraukumiem, optimāli laiki atbilstoši enerģijas līmenim, sagatavošanās pirms dziļā darba (uzdevumu saraksts, materiāli), aktivitātes pēc dziļā darba (vieglāki uzdevumi). Optimizējiet koncentrēšanos un produktivitāti.",
           "copyText": "Izveidojiet dziļu darba grafiku [nedēļa/mēnesis] [projekts]. Iekļauts: 2-4 stundas. dziļā darba bloki bez pārtraukumiem, optimāli laiki atbilstoši enerģijas līmenim, sagatavošanās pirms dziļā darba (uzdevumu saraksts, materiāli), aktivitātes pēc dziļā darba (vieglāki uzdevumi). Optimizējiet koncentrēšanos un produktivitāti.",
-          "keywords": [
-            "dziļi",
-            "strādāt",
-            "koncentrācija",
-            "produktivitāte"
-          ],
+          "keywords": ["dziļi", "strādāt", "koncentrācija", "produktivitāte"],
           "category": "productivity"
         },
         {
@@ -1428,12 +925,7 @@
           "title": "Iknedēļas pārskata veidne",
           "text": "Izveidojiet iknedēļas pārskata veidni [nedēļa]. Iekļaujiet: 1) sasniegtos mērķus un panākumus, 2) nepaveiktos uzdevumus un iemeslus, 3) gūtās atziņas, 4) nākamās nedēļas prioritātes, 5) rīcības plānu. Optimizējiet pārdomām, mācībām un nākotnes plānošanai.",
           "copyText": "Izveidojiet iknedēļas pārskata veidni [nedēļa]. Iekļaujiet: 1) sasniegtos mērķus un panākumus, 2) nepaveiktos uzdevumus un iemeslus, 3) gūtās atziņas, 4) nākamās nedēļas prioritātes, 5) rīcības plānu. Optimizējiet pārdomām, mācībām un nākotnes plānošanai.",
-          "keywords": [
-            "nedēļas",
-            "pārskats",
-            "pārdomas",
-            "plānošana"
-          ],
+          "keywords": ["nedēļas", "pārskats", "pārdomas", "plānošana"],
           "category": "productivity"
         },
         {
@@ -1441,13 +933,7 @@
           "title": "Energopārvaldības dienas plāns",
           "text": "Izveidojiet enerģijas pārvaldības dienas plānu [diena] [uzdevums]. Identificējiet: daudz enerģijas laiku (sarežģīti uzdevumi), vidēji enerģijas laiku (mēreni uzdevumi), zemu enerģijas patēriņu (viegli uzdevumi). Optimizējiet uzdevumu secību, pamatojoties uz enerģijas līmeni. Iesniedziet kā stundu plānu ar uzdevumu sadalījumu.",
           "copyText": "Izveidojiet enerģijas pārvaldības dienas plānu [diena] [uzdevums]. Identificējiet: daudz enerģijas laiku (sarežģīti uzdevumi), vidēji enerģijas laiku (mēreni uzdevumi), zemu enerģijas patēriņu (viegli uzdevumi). Optimizējiet uzdevumu secību, pamatojoties uz enerģijas līmeni. Iesniedziet kā stundu plānu ar uzdevumu sadalījumu.",
-          "keywords": [
-            "enerģiju",
-            "vadība",
-            "produktivitāte",
-            "dienas",
-            "plāns"
-          ],
+          "keywords": ["enerģiju", "vadība", "produktivitāte", "dienas", "plāns"],
           "category": "productivity"
         },
         {
@@ -1455,12 +941,7 @@
           "title": "Ieradumu sakraušanas plāns",
           "text": "Izveidojiet paradumu veidošanas plānu, izmantojot ieradumu sakraušanas metodi [Mērķa ieradums]. Iekļauts: esošais ieradums (enkurs), jauns ieradums (pievienot pirms/pēc enkura), konkrētas darbības, laiks, vieta, veiksmes kritēriji. Nodrošiniet 30 dienu plānu ar progresa izsekošanas un motivācijas stratēģijām.",
           "copyText": "Izveidojiet paradumu veidošanas plānu, izmantojot ieradumu sakraušanas metodi [Mērķa ieradums]. Iekļauts: esošais ieradums (enkurs), jauns ieradums (pievienot pirms/pēc enkura), konkrētas darbības, laiks, vieta, veiksmes kritēriji. Nodrošiniet 30 dienu plānu ar progresa izsekošanas un motivācijas stratēģijām.",
-          "keywords": [
-            "ieradumus",
-            "radīšanu",
-            "rutīna",
-            "produktivitāte"
-          ],
+          "keywords": ["ieradumus", "radīšanu", "rutīna", "produktivitāte"],
           "category": "productivity"
         },
         {
@@ -1468,13 +949,7 @@
           "title": "Partijas apstrādes stratēģija",
           "text": "Izveidojiet pakešu apstrādes stratēģiju [uzdevuma veids: piem. vēstules, zvani, dokumenti]. Iekļauts: līdzīgu uzdevumu grupēšana, optimālais laiks partijas apstrādei, sagatavošana (veidnes, materiāli), apstrādes secība un laika ietaupījuma aplēse. Optimizējiet efektivitāti un koncentrēšanos.",
           "copyText": "Izveidojiet pakešu apstrādes stratēģiju [uzdevuma veids: piem. vēstules, zvani, dokumenti]. Iekļauts: līdzīgu uzdevumu grupēšana, optimālais laiks partijas apstrādei, sagatavošana (veidnes, materiāli), apstrādes secība un laika ietaupījuma aplēse. Optimizējiet efektivitāti un koncentrēšanos.",
-          "keywords": [
-            "partija",
-            "apstrāde",
-            "efektivitāti",
-            "laiks",
-            "vadība"
-          ],
+          "keywords": ["partija", "apstrāde", "efektivitāti", "laiks", "vadība"],
           "category": "productivity"
         },
         {
@@ -1482,13 +957,7 @@
           "title": "Plāns produktīvai rīta rutīnai",
           "text": "Izveidojiet plānu produktīvai rīta rutīnai [ilgums: 30-60 min]. Iekļaujiet: modināšanas aktivitātes (hidratācija, kustības), aktivitāšu plānošana (mērķi, prioritātes), motivācijas aktivitātes (lasīšana, meditācija), gatavošanās dienai (uzdevumu saraksts). Optimizējiet enerģiju, fokusu un produktivitāti visas dienas garumā.",
           "copyText": "Izveidojiet plānu produktīvai rīta rutīnai [ilgums: 30-60 min]. Iekļaujiet: modināšanas aktivitātes (hidratācija, kustības), aktivitāšu plānošana (mērķi, prioritātes), motivācijas aktivitātes (lasīšana, meditācija), gatavošanās dienai (uzdevumu saraksts). Optimizējiet enerģiju, fokusu un produktivitāti visas dienas garumā.",
-          "keywords": [
-            "rīts",
-            "rutīna",
-            "produktivitāte",
-            "dienas",
-            "sākums"
-          ],
+          "keywords": ["rīts", "rutīna", "produktivitāte", "dienas", "sākums"],
           "category": "productivity"
         }
       ]
@@ -1504,19 +973,14 @@
           "title": "Piegādātāju novērtēšanas sistēma",
           "text": "Izveidojiet piegādātāju novērtēšanas sistēmu [piegādātājs]. Iekļauti: kvalitātes rādītāji, piegādes laiks, cenu konkurētspēja, komunikācijas efektivitāte, problēmu risināšana. Katram rādītājam norādiet: svaru, vērtēšanas skalu (1-10), minimālās prasības. Sniedziet vispārēju novērtējumu un ieteikumus.",
           "copyText": "Izveidojiet piegādātāju novērtēšanas sistēmu [piegādātājs]. Iekļauti: kvalitātes rādītāji, piegādes laiks, cenu konkurētspēja, komunikācijas efektivitāte, problēmu risināšana. Katram rādītājam norādiet: svaru, vērtēšanas skalu (1-10), minimālās prasības. Sniedziet vispārēju novērtējumu un ieteikumus.",
-          "keywords": [
-            "piegādātājs",
-            "novērtējums",
-            "kvalitāti",
-            "uzticamība"
-          ],
+          "keywords": ["piegādātājs", "novērtējums", "kvalitāti", "uzticamība"],
           "category": "advanced"
         },
         {
           "id": 105,
           "title": "🔧 Sistemātiska AI palīga uzvedne",
-          "text": "Jūs esat AI sistēmu arhitekts, kas specializējas pielāgotu palīgu izstrādē un optimizēšanā.\n\nUZDEVUMS: izveidojiet detalizētu sistēmas uzvedni AI palīgam, kas darbosies kā [asistenta veids] [organizācijas/apgabala] kontekstā.\n\nSISTĒMAS PROMPT STRUKTŪRA:\n\n## IDENTITĀTE UN LOMA\n- Definējiet: Kas jūs esat? Kāds ir jūsu zināšanu līmenis?\n- Specializācija: [3–5 pamatkompetences]\n- Ierobežojumi: ko jūs NEDRĪKST darīt un uz ko jūs novirzāt lietotāju\n\n## RĪCĪBAS NOTEIKUMI\n1. Atbildes formāts: [struktūra, garums, stils]\n2. Tonis: [formāls/draudzīgs/tehnisks]\n3. Valodas izvēle: [pēc lietotāja valodas/vienmēr LT]\n4. Nenoteiktības pārvaldība: [prasiet paskaidrojumus/izdariet pieņēmumus]\n\n## ZINĀŠU BĀZE\n- Primārie avoti: [dokumenti, DB, API]\n- Atjaunināšanas biežums: [reāllaika/dienas/nedēļas]\n- Uzticamība: kad nezināt → [atzīt/tiešs]\n\n## DROŠĪBAS PROTOKOLI\n- Aizliegtās darbības: [saraksts]\n- Konfidencialitāte: [ko var/nedrīkst izpaust]\n- Eskalācija: kad un kā nodot personai\n\n## MIJIEDARBĪBAS PIEMĒRI\n✅ Laba atbilde: [piemērs]\n❌ Slikta atbilde: [piemērs]\n🔄 Kā reaģēt uz [konkrētu situāciju]\n\n## METRIKAS UN OPTIMIZĀCIJA\n- Veiksmes kritēriji: [KPI]\n- Atsauksmju sniegšanas mehānisms: [kā iegūt atsauksmes]\n\nIZRĀDE: nodrošiniet pilnīgu, kopēšanai un ielīmēšanai gatavu sistēmas uzvedni, ko var izmantot tieši ChatGPT pielāgotajās instrukcijās, Claude Projects vai API sistēmas ziņojumos.",
-          "copyText": "Jūs esat AI sistēmu arhitekts, kas specializējas pielāgotu palīgu izstrādē un optimizēšanā.\n\nUZDEVUMS: izveidojiet detalizētu sistēmas uzvedni AI palīgam, kas darbosies kā [asistenta veids] [organizācijas/apgabala] kontekstā.\n\nSISTĒMAS PROMPT STRUKTŪRA:\n\n## IDENTITĀTE UN LOMA\n- Definējiet: Kas jūs esat? Kāds ir jūsu zināšanu līmenis?\n- Specializācija: [3–5 pamatkompetences]\n- Ierobežojumi: ko jūs NEDRĪKST darīt un uz ko jūs novirzāt lietotāju\n\n## RĪCĪBAS NOTEIKUMI\n1. Atbildes formāts: [struktūra, garums, stils]\n2. Tonis: [formāls/draudzīgs/tehnisks]\n3. Valodas izvēle: [pēc lietotāja valodas/vienmēr LT]\n4. Nenoteiktības pārvaldība: [prasiet paskaidrojumus/izdariet pieņēmumus]\n\n## ZINĀŠU BĀZE\n- Primārie avoti: [dokumenti, DB, API]\n- Atjaunināšanas biežums: [reāllaika/dienas/nedēļas]\n- Uzticamība: kad nezināt → [atzīt/tiešs]\n\n## DROŠĪBAS PROTOKOLI\n- Aizliegtās darbības: [saraksts]\n- Konfidencialitāte: [ko var/nedrīkst izpaust]\n- Eskalācija: kad un kā nodot personai\n\n## MIJIEDARBĪBAS PIEMĒRI\n✅ Laba atbilde: [piemērs]\n❌ Slikta atbilde: [piemērs]\n🔄 Kā reaģēt uz [konkrētu situāciju]\n\n## METRIKAS UN OPTIMIZĀCIJA\n- Veiksmes kritēriji: [KPI]\n- Atsauksmju sniegšanas mehānisms: [kā iegūt atsauksmes]\n\nIZRĀDE: nodrošiniet pilnīgu, kopēšanai un ielīmēšanai gatavu sistēmas uzvedni, ko var izmantot tieši ChatGPT pielāgotajās instrukcijās, Claude Projects vai API sistēmas ziņojumos.",
+          "text": "Jūs esat AI sistēmu arhitekts, kas specializējas pielāgotu palīgu izstrādē un optimizēšanā.\n\nUZDEVUMS: izveidojiet detalizētu sistēmas uzvedni AI palīgam, kas darbosies kā [asistenta veids] [organizācijas/apgabala] kontekstā.\n\nSISTĒMAS PROMPT STRUKTŪRA:\n\n## IDENTITĀTE UN LOMA\n- Definējiet: Kas jūs esat? Kāds ir jūsu zināšanu līmenis?\n- Specializācija: [3–5 pamatkompetences]\n- Ierobežojumi: ko jūs NEDRĪKST darīt un uz ko jūs novirzāt lietotāju\n\n## RĪCĪBAS NOTEIKUMI\n1. Atbildes formāts: [struktūra, garums, stils]\n2. Tonis: [formāls/draudzīgs/tehnisks]\n3. Valodas izvēle: [pēc lietotāja valodas/vienmēr LV]\n4. Nenoteiktības pārvaldība: [prasiet paskaidrojumus/izdariet pieņēmumus]\n\n## ZINĀŠU BĀZE\n- Primārie avoti: [dokumenti, DB, API]\n- Atjaunināšanas biežums: [reāllaika/dienas/nedēļas]\n- Uzticamība: kad nezināt → [atzīt/tiešs]\n\n## DROŠĪBAS PROTOKOLI\n- Aizliegtās darbības: [saraksts]\n- Konfidencialitāte: [ko var/nedrīkst izpaust]\n- Eskalācija: kad un kā nodot personai\n\n## MIJIEDARBĪBAS PIEMĒRI\n✅ Laba atbilde: [piemērs]\n❌ Slikta atbilde: [piemērs]\n🔄 Kā reaģēt uz [konkrētu situāciju]\n\n## METRIKAS UN OPTIMIZĀCIJA\n- Veiksmes kritēriji: [KPI]\n- Atsauksmju sniegšanas mehānisms: [kā iegūt atsauksmes]\n\nIZRĀDE: nodrošiniet pilnīgu, kopēšanai un ielīmēšanai gatavu sistēmas uzvedni, ko var izmantot tieši ChatGPT pielāgotajās instrukcijās, Claude Projects vai API sistēmas ziņojumos.",
+          "copyText": "Jūs esat AI sistēmu arhitekts, kas specializējas pielāgotu palīgu izstrādē un optimizēšanā.\n\nUZDEVUMS: izveidojiet detalizētu sistēmas uzvedni AI palīgam, kas darbosies kā [asistenta veids] [organizācijas/apgabala] kontekstā.\n\nSISTĒMAS PROMPT STRUKTŪRA:\n\n## IDENTITĀTE UN LOMA\n- Definējiet: Kas jūs esat? Kāds ir jūsu zināšanu līmenis?\n- Specializācija: [3–5 pamatkompetences]\n- Ierobežojumi: ko jūs NEDRĪKST darīt un uz ko jūs novirzāt lietotāju\n\n## RĪCĪBAS NOTEIKUMI\n1. Atbildes formāts: [struktūra, garums, stils]\n2. Tonis: [formāls/draudzīgs/tehnisks]\n3. Valodas izvēle: [pēc lietotāja valodas/vienmēr LV]\n4. Nenoteiktības pārvaldība: [prasiet paskaidrojumus/izdariet pieņēmumus]\n\n## ZINĀŠU BĀZE\n- Primārie avoti: [dokumenti, DB, API]\n- Atjaunināšanas biežums: [reāllaika/dienas/nedēļas]\n- Uzticamība: kad nezināt → [atzīt/tiešs]\n\n## DROŠĪBAS PROTOKOLI\n- Aizliegtās darbības: [saraksts]\n- Konfidencialitāte: [ko var/nedrīkst izpaust]\n- Eskalācija: kad un kā nodot personai\n\n## MIJIEDARBĪBAS PIEMĒRI\n✅ Laba atbilde: [piemērs]\n❌ Slikta atbilde: [piemērs]\n🔄 Kā reaģēt uz [konkrētu situāciju]\n\n## METRIKAS UN OPTIMIZĀCIJA\n- Veiksmes kritēriji: [KPI]\n- Atsauksmju sniegšanas mehānisms: [kā iegūt atsauksmes]\n\nIZRĀDE: nodrošiniet pilnīgu, kopēšanai un ielīmēšanai gatavu sistēmas uzvedni, ko var izmantot tieši ChatGPT pielāgotajās instrukcijās, Claude Projects vai API sistēmas ziņojumos.",
           "keywords": [
             "sistēma",
             "norādījumus",
@@ -1531,8 +995,8 @@
         {
           "id": 107,
           "title": "🤖 Aģenta uzdevumu izpilde",
-          "text": "Jūs esat autonoms AI aģents ar plānošanas, sadalīšanas un iteratīvas izpildes iespējām.\n\nGALVENAIS UZDEVUMS: [Aprakstiet sarežģītu uzdevumu, piemēram: \"Izstrādāt pilnīgu mārketinga kampaņu jauna produkta ieviešanai\"]\n\nAĢENTŪRAS IZPILDES PROTOKOLS:\n\n## 1. UZDEVUMA SADALĪŠANA\nSadaliet galveno uzdevumu mazākās izpildāmās daļās:\n\n```\nMAIN_TASK: [Galvenais mērķis]\n├── SUBTASK_1: [Pirmais solis]\n│ ├── action_1.1: [konkrēta darbība]\n│ ├── action_1.2: [konkrēta darbība]\n│ └── kontrolpunkts_1: [Kā pārbaudīt, vai tas ir izdarīts]\n├── SUBTASK_2: [Otrais solis]\n│ └── ...\n└── SUBTASK_N: [Pēdējais solis]\n```\n\n## 2. ATKARĪBAS KARTE\nDefinējiet kārtību un attiecības:\n- [SUBTASK_1] → bloki → [SUBTASK_3]\n- [SUBTASK_2] → paralēli ar → [SUBTASK_1]\n- Kritiskais ceļš: [kuras darbības ir nepieciešamas]\n\n## 3. RĪKI UN RESURSU KRĀJUMS\nKatram uzdevumam:\n| Uzdevums | Nepieciešamais rīks | Datu avots | Cilvēka ieguldījums? |\n|----------|--------------------|--------------------|-------------------|\n| 1,1 | [rīks] | [avots] | Jā/nē |\n\n## 4. IZPILDES CIKLS (katram solim)\n```\nWHILE task_incomplete:\n    1. PLĀNS: ko es darīšu šajā darbībā?\n    2. IZPILDĪT: es veicu darbību\n    3. MONITORS: vai rezultāts atbilst cerībām?\n    4. REFLEX: Kas strādāja? Kas nebija? Kāpēc?\n    5. ADAPT: Vai jums ir jāpielāgo plāns?\n    6. TURPINĀT vai JAUTĀT cilvēkam\n```\n\n## 5. KĻŪDU PĀRVALDĪBAS PROTOKOLS\n- Ja darbība X neizdodas → [rezerves plāns]\n- Ja trūkst informācijas → [kā iegūt]\n- Ja tiek sasniegts ierobežojums → [eskalēt ar kontekstu]\n\n## 6. PROGRESA ZIŅOJUMU FORMĀTS\nPēc katra posma nodrošiniet:\n✅ Gatavs: [kas ir izdarīts]\n⏳ Notiek: [kas pašlaik tiek darīts]\n📋 Atlikušais: [kas palicis]\n🚧 Bloķētāji: [kas bloķē]\n💡 Ieskats: [ko es uzzināju]\n\nIZDEVUMU PRASĪBA: Sāciet ar pilnīgu plānu, pēc tam turpiniet soli pa solim, gaidot apstiprinājumu vai labojumus pēc katras darbības. Esiet proaktīvs, bet kritiskos lēmumu pieņemšanas punktos lūdziet cilvēka ieguldījumu.",
-          "copyText": "Jūs esat autonoms AI aģents ar plānošanas, sadalīšanas un iteratīvas izpildes iespējām.\n\nGALVENAIS UZDEVUMS: [Aprakstiet sarežģītu uzdevumu, piemēram: \"Izstrādāt pilnīgu mārketinga kampaņu jauna produkta ieviešanai\"]\n\nAĢENTŪRAS IZPILDES PROTOKOLS:\n\n## 1. UZDEVUMA SADALĪŠANA\nSadaliet galveno uzdevumu mazākās izpildāmās daļās:\n\n```\nMAIN_TASK: [Galvenais mērķis]\n├── SUBTASK_1: [Pirmais solis]\n│ ├── action_1.1: [konkrēta darbība]\n│ ├── action_1.2: [konkrēta darbība]\n│ └── kontrolpunkts_1: [Kā pārbaudīt, vai tas ir izdarīts]\n├── SUBTASK_2: [Otrais solis]\n│ └── ...\n└── SUBTASK_N: [Pēdējais solis]\n```\n\n## 2. ATKARĪBAS KARTE\nDefinējiet kārtību un attiecības:\n- [SUBTASK_1] → bloki → [SUBTASK_3]\n- [SUBTASK_2] → paralēli ar → [SUBTASK_1]\n- Kritiskais ceļš: [kuras darbības ir nepieciešamas]\n\n## 3. RĪKI UN RESURSU KRĀJUMS\nKatram uzdevumam:\n| Uzdevums | Nepieciešamais rīks | Datu avots | Cilvēka ieguldījums? |\n|----------|--------------------|--------------------|-------------------|\n| 1,1 | [rīks] | [avots] | Jā/nē |\n\n## 4. IZPILDES CIKLS (katram solim)\n```\nWHILE task_incomplete:\n    1. PLĀNS: ko es darīšu šajā darbībā?\n    2. IZPILDĪT: es veicu darbību\n    3. MONITORS: vai rezultāts atbilst cerībām?\n    4. REFLEX: Kas strādāja? Kas nebija? Kāpēc?\n    5. ADAPT: Vai jums ir jāpielāgo plāns?\n    6. TURPINĀT vai JAUTĀT cilvēkam\n```\n\n## 5. KĻŪDU PĀRVALDĪBAS PROTOKOLS\n- Ja darbība X neizdodas → [rezerves plāns]\n- Ja trūkst informācijas → [kā iegūt]\n- Ja tiek sasniegts ierobežojums → [eskalēt ar kontekstu]\n\n## 6. PROGRESA ZIŅOJUMU FORMĀTS\nPēc katra posma nodrošiniet:\n✅ Gatavs: [kas ir izdarīts]\n⏳ Notiek: [kas pašlaik tiek darīts]\n📋 Atlikušais: [kas palicis]\n🚧 Bloķētāji: [kas bloķē]\n💡 Ieskats: [ko es uzzināju]\n\nIZDEVUMU PRASĪBA: Sāciet ar pilnīgu plānu, pēc tam turpiniet soli pa solim, gaidot apstiprinājumu vai labojumus pēc katras darbības. Esiet proaktīvs, bet kritiskos lēmumu pieņemšanas punktos lūdziet cilvēka ieguldījumu.",
+          "text": "Jūs esat autonoms AI aģents ar plānošanas, sadalīšanas un iteratīvas izpildes iespējām.\n\nGALVENAIS UZDEVUMS: [Aprakstiet sarežģītu uzdevumu, piemēram: \"Izstrādāt pilnīgu mārketinga kampaņu jauna produkta ieviešanai\"]\n\nAĢENTŪRAS IZPILDES PROTOKOLS:\n\n## 1. UZDEVUMA SADALĪŠANA\nSadaliet galveno uzdevumu mazākās izpildāmās daļās:\n\n```\nMAIN_TASK: [Galvenais mērķis]\n├── SUBTASK_1: [Pirmais solis]\n│ ├── action_1.1: [konkrēta darbība]\n│ ├── action_1.2: [konkrēta darbība]\n│ └── kontrolpunkts_1: [Kā pārbaudīt, vai tas ir izdarīts]\n├── SUBTASK_2: [Otrais solis]\n│ └── ...\n└── SUBTASK_N: [Pēdējais solis]\n```\n\n## 2. ATKARĪBAS KARTE\nDefinējiet kārtību un attiecības:\n- [SUBTASK_1] → bloķē → [SUBTASK_3]\n- [SUBTASK_2] → paralēli ar → [SUBTASK_1]\n- Kritiskais ceļš: [kuras darbības ir nepieciešamas]\n\n## 3. RĪKI UN RESURSU KRĀJUMS\nKatram uzdevumam:\n| Uzdevums | Nepieciešamais rīks | Datu avots | Cilvēka ieguldījums? |\n|----------|--------------------|--------------------|-------------------|\n| 1,1 | [rīks] | [avots] | Jā/nē |\n\n## 4. IZPILDES CIKLS (katram solim)\n```\nWHILE task_incomplete:\n    1. PLĀNS: ko es darīšu šajā darbībā?\n    2. IZPILDĪT: es veicu darbību\n    3. MONITORS: vai rezultāts atbilst cerībām?\n    4. REFLEKSIJA: kas strādāja? kas nesanāca? kāpēc?\n    5. ADAPTĀCIJA: vai plāns ir jāpielāgo?\n    6. Turpināt vai jautāt cilvēkam\n```\n\n## 5. KĻŪDU PĀRVALDĪBAS PROTOKOLS\n- Ja darbība X neizdodas → [rezerves plāns]\n- Ja trūkst informācijas → [kā iegūt]\n- Ja tiek sasniegts ierobežojums → [eskalēt ar kontekstu]\n\n## 6. PROGRESA ZIŅOJUMU FORMĀTS\nPēc katra posma nodrošiniet:\n✅ Gatavs: [kas ir izdarīts]\n⏳ Notiek: [kas pašlaik tiek darīts]\n📋 Atlikušais: [kas palicis]\n🚧 Bloķētāji: [kas bloķē]\n💡 Ieskats: [ko es uzzināju]\n\nIZVADES PRASĪBA: sāciet ar pilnīgu plānu, pēc tam turpiniet soli pa solim, gaidot apstiprinājumu vai labojumus pēc katras darbības. Esiet proaktīvs, bet kritiskos lēmumu pieņemšanas punktos lūdziet cilvēka ieguldījumu.",
+          "copyText": "Jūs esat autonoms AI aģents ar plānošanas, sadalīšanas un iteratīvas izpildes iespējām.\n\nGALVENAIS UZDEVUMS: [Aprakstiet sarežģītu uzdevumu, piemēram: \"Izstrādāt pilnīgu mārketinga kampaņu jauna produkta ieviešanai\"]\n\nAĢENTŪRAS IZPILDES PROTOKOLS:\n\n## 1. UZDEVUMA SADALĪŠANA\nSadaliet galveno uzdevumu mazākās izpildāmās daļās:\n\n```\nMAIN_TASK: [Galvenais mērķis]\n├── SUBTASK_1: [Pirmais solis]\n│ ├── action_1.1: [konkrēta darbība]\n│ ├── action_1.2: [konkrēta darbība]\n│ └── kontrolpunkts_1: [Kā pārbaudīt, vai tas ir izdarīts]\n├── SUBTASK_2: [Otrais solis]\n│ └── ...\n└── SUBTASK_N: [Pēdējais solis]\n```\n\n## 2. ATKARĪBAS KARTE\nDefinējiet kārtību un attiecības:\n- [SUBTASK_1] → bloķē → [SUBTASK_3]\n- [SUBTASK_2] → paralēli ar → [SUBTASK_1]\n- Kritiskais ceļš: [kuras darbības ir nepieciešamas]\n\n## 3. RĪKI UN RESURSU KRĀJUMS\nKatram uzdevumam:\n| Uzdevums | Nepieciešamais rīks | Datu avots | Cilvēka ieguldījums? |\n|----------|--------------------|--------------------|-------------------|\n| 1,1 | [rīks] | [avots] | Jā/nē |\n\n## 4. IZPILDES CIKLS (katram solim)\n```\nWHILE task_incomplete:\n    1. PLĀNS: ko es darīšu šajā darbībā?\n    2. IZPILDĪT: es veicu darbību\n    3. MONITORS: vai rezultāts atbilst cerībām?\n    4. REFLEKSIJA: kas strādāja? kas nesanāca? kāpēc?\n    5. ADAPTĀCIJA: vai plāns ir jāpielāgo?\n    6. Turpināt vai jautāt cilvēkam\n```\n\n## 5. KĻŪDU PĀRVALDĪBAS PROTOKOLS\n- Ja darbība X neizdodas → [rezerves plāns]\n- Ja trūkst informācijas → [kā iegūt]\n- Ja tiek sasniegts ierobežojums → [eskalēt ar kontekstu]\n\n## 6. PROGRESA ZIŅOJUMU FORMĀTS\nPēc katra posma nodrošiniet:\n✅ Gatavs: [kas ir izdarīts]\n⏳ Notiek: [kas pašlaik tiek darīts]\n📋 Atlikušais: [kas palicis]\n🚧 Bloķētāji: [kas bloķē]\n💡 Ieskats: [ko es uzzināju]\n\nIZVADES PRASĪBA: sāciet ar pilnīgu plānu, pēc tam turpiniet soli pa solim, gaidot apstiprinājumu vai labojumus pēc katras darbības. Esiet proaktīvs, bet kritiskos lēmumu pieņemšanas punktos lūdziet cilvēka ieguldījumu.",
           "keywords": [
             "aģents",
             "autonoma",
