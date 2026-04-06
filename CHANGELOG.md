@@ -6,6 +6,10 @@ Formatas remiasi [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versi
 
 ## [Unreleased]
 
+### Changed
+
+- **`docs/archive/notes/memo_ee_lv.md`:** perkelta iš repo šaknies į `docs/archive/notes/` (suderinta su dokumentų politika); atnaujintos santykinės nuorodos. **`docs/DOCUMENTATION.md`:** įrašas registre.
+
 ### Fixed
 
 - **`assets/data/prompts.et.json`**, **`prompts.lv.json`:** copy QA ilgiems ID **102–107** (churn, külm müük / aukstā apzināšanās, e-kirja pikkus, LV dependency „bloķē“, izvades prasība, 106. faasi pealkiri ET); **105** süsteemiviiba päis ja **ET** keele valik **alati ET**; **106** ET faas 4 „tähelepanekud“, **107** tsükli/refleksiooni sõnastus; **68** ET: „ostjatele Eestis“ (mitte „Eestist ostjatele“).

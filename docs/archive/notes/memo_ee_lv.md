@@ -1,10 +1,10 @@
 # Memo: Estonian & Latvian locale — golden standard and migration workflow
 
-> **Šis repo (Spin-off Nr. 8)** naudoja **`assets/data/prompts.{lt,en,et,lv}.json` + `assets/js/app.js`**, ne žemiau minimą `generate-et-lv-pages.cjs` / `library.js` porų pipeline. Memo lieka gairėms (UX, hreflang, `localStorage`), techninis įgyvendinimas — žr. [`docs/MULTILINGUAL_STRUCTURE.md`](docs/MULTILINGUAL_STRUCTURE.md).
+> **Šis repo (Spin-off Nr. 8)** naudoja **`assets/data/prompts.{lt,en,et,lv}.json` + `assets/js/app.js`**, ne žemiau minimą `generate-et-lv-pages.cjs` / `library.js` porų pipeline. Memo lieka gairėms (UX, hreflang, `localStorage`), techninis įgyvendinimas — žr. [`MULTILINGUAL_STRUCTURE.md`](../../MULTILINGUAL_STRUCTURE.md).
 
 **Project:** DI Promptų Biblioteka (static library)  
 **Scope:** Multilingual UI/UX, ET (`ee` / `et` in code) and LV, alignment with EN canonical source.  
-**Related:** [MULTILINGUAL_STRUCTURE.md](MULTILINGUAL_STRUCTURE.md), [CHANGELOG.md](../CHANGELOG.md) (release **1.1.0**), [AGENTS.md](../AGENTS.md).
+**Related:** [MULTILINGUAL_STRUCTURE.md](../../MULTILINGUAL_STRUCTURE.md), [CHANGELOG.md](../../../CHANGELOG.md) (release **1.1.0**), [AGENTS.md](../../../AGENTS.md).
 
 ---
 
@@ -61,7 +61,7 @@ Implemented in `scripts/generate-et-lv-pages.cjs` with bodies in `scripts/prompt
 | ET | `[ETTEVÕTE]` | `[MINU ROLL]` | `[KÜSITIS]` \| `[MILLAL KASUTAN]` \| `[MILLISE PROBLEEMI LAHENDAB]` |
 | LV | `[UZŅĒMUMS]` | `[MANA LOMA]` | `[PROMPTTEKSTS]` \| `[KAD LIETOJU]` \| `[KĀDU PROBLĒMU RISINA]` |
 
-See [MULTILINGUAL_STRUCTURE.md](MULTILINGUAL_STRUCTURE.md) §3b.
+See [MULTILINGUAL_STRUCTURE.md](../../MULTILINGUAL_STRUCTURE.md) §3b.
 
 ---
 
