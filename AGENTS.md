@@ -12,14 +12,16 @@
 
 ## Kur ką keisti
 
-| Tema                                              | Vieta                                                                                  |
-| ------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| UI, paieška, kopijavimas, modalai, i18n eilutės   | `assets/js/app.js`, `assets/css/styles.css`                                            |
-| Promptų tekstai / struktūra                       | `assets/data/prompts.lt.json`, `prompts.en.json`, `prompts.et.json`, `prompts.lv.json` |
-| LT / EN / ET / LV puslapiai (hero, `#library`, footer, forma) | `lt/index.html`, `en/index.html`, `et/index.html`, `lv/index.html`                     |
-| Kalbų keliai                                      | `docs/MULTILINGUAL_STRUCTURE.md`                                                       |
-| Dokumentacija, užduotys                           | `README.md`, `TODO.md`, `CHANGELOG.md`, `docs/DOCUMENTATION.md`                        |
-| UI/UX auditas prieš release                       | `docs/UI_UX_AUDIT_CHECKLIST.md`                                                        |
+| Tema                                                          | Vieta                                                                                                          |
+| ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| UI, paieška, kopijavimas, modalai, i18n eilutės               | `assets/js/app.js`, `assets/css/styles.css`                                                                    |
+| Skyrių ikonos (nav + biblioteka)                              | `assets/js/app.js` — `CATEGORY_ICON_SVG` pagal `categories[].id` (ne JSON `icon`)                               |
+| Promptų tekstai / struktūra                                   | `assets/data/prompts.lt.json`, `prompts.en.json`, `prompts.et.json`, `prompts.lv.json`                         |
+| LT / EN / ET / LV puslapiai (hero, `#library`, footer, forma) | `lt/index.html`, `en/index.html`, `et/index.html`, `lv/index.html`                                             |
+| Kalbų keliai                                                  | `docs/MULTILINGUAL_STRUCTURE.md`                                                                               |
+| Dokumentacija, užduotys                                       | `README.md`, `TODO.md`, `CHANGELOG.md`, `docs/DOCUMENTATION.md`                                                |
+| UI/UX auditas prieš release                                   | `docs/UI_UX_AUDIT_CHECKLIST.md`                                                                                |
+| UI/UX ciklas ir backlog (iteracijos)                          | `docs/UI_UX_ITERATION_PLAN.md`, `docs/UI_UX_ITERATION_BACKLOG.md`; Cursor: `.cursor/rules/ui-ux-iteration.mdc` |
 
 ## Konvencijos
 
@@ -48,3 +50,4 @@
 - Daugiakalbystė: [docs/MULTILINGUAL_STRUCTURE.md](docs/MULTILINGUAL_STRUCTURE.md)
 - Pakeitimų žurnalas: [CHANGELOG.md](CHANGELOG.md)
 - GitHub Pages: [GITHUB_SETUP.md](GITHUB_SETUP.md)
+- UI/UX iteracijos: [docs/UI_UX_ITERATION_PLAN.md](docs/UI_UX_ITERATION_PLAN.md), [docs/UI_UX_ITERATION_BACKLOG.md](docs/UI_UX_ITERATION_BACKLOG.md)

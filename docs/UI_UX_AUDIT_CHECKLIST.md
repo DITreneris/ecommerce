@@ -4,42 +4,42 @@ Naudokite prieš release ar po didesnių sąsajos pakeitimų. Atlikus patikrą u
 
 ## Klaviatūra
 
-| #   | Patikrinimas                                                      | Patikrinta                                  |
-| --- | ----------------------------------------------------------------- | ------------------------------------------- |
-| K1  | Tab eilė logiška (skip link → antraštė → turinys → forma)         | `npm run verify` + kodas: focus trap modale |
-| K2  | `/` fokusuoja antraštės paiešką (neįvedant į lauką)               |                                             |
-| K3  | `Esc` uždaro mobilų paieškos modalą ir grąžina fokusą į trigerį   |                                             |
-| K4  | `Esc` uždaro iškleidžiamą navigaciją (mobilus)                    |                                             |
-| K5  | Modale Tab ciklas tarp fokusuojamų elementų (be „išėjimo“ į foną) |                                             |
+| #   | Patikrinimas                                                      | Patikrinta                                                                                  |
+| --- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| K1  | Tab eilė logiška (skip link → antraštė → turinys → forma)         | 2026-04-07 Po premium UI: eilė nepakeista; nav ikonos dekoratyvios (`aria-hidden`)            |
+| K2  | `/` fokusuoja antraštės paiešką (neįvedant į lauką)               | 2026-04-06 `Keyboard.init` kode nekeista (`assets/js/app.js`)                               |
+| K3  | `Esc` uždaro mobilų paieškos modalą ir grąžina fokusą į trigerį   | 2026-04-06 `MobileUI` + `Esc` šaknyje — kodas nekeistas                                     |
+| K4  | `Esc` uždaro iškleidžiamą navigaciją (mobilus)                    | 2026-04-06 `Keyboard.init`: `Escape` → `Navigation.setExpanded(false)` (ne įvedant į lauką) |
+| K5  | Modale Tab ciklas tarp fokusuojamų elementų (be „išėjimo“ į foną) | 2026-04-06 `trapKeydown` modale — kodas nekeistas                                           |
 
 ## Ekrano skaitytuvai ir ARIA
 
-| #   | Patikrinimas                                                                        | Patikrinta |
-| --- | ----------------------------------------------------------------------------------- | ---------- |
-| S1  | Yra `main`, `nav` landmarkai                                                        |            |
-| S2  | Paieškos rezultatų santrauka su `aria-live="polite"`                                |            |
-| S3  | Mobilus paieškos sluoksnis: `role="dialog"`, `aria-modal="true"`, `aria-labelledby` |            |
-| S4  | Formos klaidos susietos su `aria-describedby` / `aria-invalid`                      |            |
+| #   | Patikrinimas                                                                        | Patikrinta                                                              |
+| --- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| S1  | Yra `main`, `nav` landmarkai                                                        | 2026-04-06 LT/EN/ET/LV `index.html`: `main`, `nav` — struktūra nekeista |
+| S2  | Paieškos rezultatų santrauka su `aria-live="polite"`                                | 2026-04-06 `#search-results` — atributas vietoje                        |
+| S3  | Mobilus paieškos sluoksnis: `role="dialog"`, `aria-modal="true"`, `aria-labelledby` | 2026-04-06 modalas HTML — nekeistas                                     |
+| S4  | Formos klaidos susietos su `aria-describedby` / `aria-invalid`                      | 2026-04-06 `Form` modulis — nekeistas                                   |
 
 ## WCAG 2.2 / fokusas
 
-| #   | Patikrinimas                                                                                         | Patikrinta |
-| --- | ---------------------------------------------------------------------------------------------------- | ---------- |
-| W1  | Fokusuojami elementai matomi (sticky antraštė / apatinė juosta neuždengia visiškai) — rankinis LT/EN/ET/LV |            |
-| W2  | `prefers-reduced-motion`: sumažintos animacijos                                                      |            |
-| W3  | Kontrastas mygtukuose ir nuorodose — regėjimo patikra naršyklėje                                     |            |
+| #   | Patikrinimas                                                                                               | Patikrinta                                                                                      |
+| --- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| W1  | Fokusuojami elementai matomi (sticky antraštė / apatinė juosta neuždengia visiškai) — rankinis LT/EN/ET/LV | 2026-04-06 Rekomenduojama rankiniu naršyklėje po paskutinių CSS pakeitimų (sticky + mobile bar) |
+| W2  | `prefers-reduced-motion`: sumažintos animacijos                                                            | 2026-04-06 `styles.css` `@media (prefers-reduced-motion: reduce)` — globaliai                   |
+| W3  | Kontrastas mygtukuose ir nuorodose — regėjimo patikra naršyklėje                                           | 2026-04-07 Rekomenduojama rankiniu po neutralios paletės ir tamsios antraštės (#18181b)          |
 
 ## Funkciniai (LT / EN / ET / LV)
 
-| #   | Patikrinimas                                                                                   | Patikrinta |
-| --- | ---------------------------------------------------------------------------------------------- | ---------- |
-| F1  | Įkelta biblioteka, skaičiai herojuje sutampa su JSON                                           | 2026-04-06 `npm run verify` + `validate-prompts-json` (totalPrompts / count); hero rankinis paleidimas neprivalomas šiai copy iteracijai |
-| F2  | Kopijuoti → iškarpinėje teisingas `copyText`                                                   |            |
-| F3  | Paieška filtruoja ir paryškina; tuščia paieška atstato viską                                   |            |
-| F4  | URL `?q=` įkrovus puslapį pritaiko paiešką; keičiant paiešką URL atnaujinamas (`replaceState`); kalbų nuorodos išsaugo `?q=` |            |
-| F5  | Tema: ciklas sistema → šviesi → tamsi; išsaugoma `localStorage`; sinchronas su `theme-color`   |            |
-| F6  | Gili nuoroda: `?prompt=<id>` arba `#prompt-<id>` — atveria užduotį, išvalo `q`, slenka į kortelę | 2026-04-06 kodas |
-| F7  | Tuščia paieška: antrinė užuomina + mygtukas „Išvalyti paiešką“; keli žodžiai = AND logika      | 2026-04-06 kodas |
+| #   | Patikrinimas                                                                                                                 | Patikrinta                                                                                   |
+| --- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| F1  | Įkelta biblioteka, skaičiai herojuje sutampa su JSON                                                                         | 2026-04-06 `npm run verify` + `validate-prompts-json`; hero skaičiai iš `loadPromptsLibrary` |
+| F2  | Kopijuoti → iškarpinėje teisingas `copyText`                                                                                 | 2026-04-06 `data-copy` renderyje; regresijai — rankinis 1 užduotis / kalba                   |
+| F3  | Paieška filtruoja ir paryškina; tuščia paieška atstato viską                                                                 | 2026-04-06 `Search` modulis; chips kviečia `handleSearch` — patikrinta tokenais prieš JSON   |
+| F4  | URL `?q=` įkrovus puslapį pritaiko paiešką; keičiant paiešką URL atnaujinamas (`replaceState`); kalbų nuorodos išsaugo `?q=` | 2026-04-06 `syncLangLinksQuery` + `Search.init` — kodas nekeistas                            |
+| F5  | Tema: ciklas sistema → šviesi → tamsi; išsaugoma `localStorage`; sinchronas su `theme-color`                                 | 2026-04-07 `Theme` + SVG ikonos; `theme-color` #2563eb / #09090b                                |
+| F6  | Gili nuoroda: `?prompt=<id>` arba `#prompt-<id>` — atveria užduotį, išvalo `q`, slenka į kortelę                             | 2026-04-06 `applyPromptDeepLink` — nekeistas                                                 |
+| F7  | Tuščia paieška: antrinė užuomina + mygtukas „Išvalyti paiešką“; keli žodžiai = AND logika                                    | 2026-04-06 kodas                                                                             |
 
 ## Pastabos (2026-03-26 įgyvendinimas)
 
@@ -48,3 +48,4 @@ Naudokite prieš release ar po didesnių sąsajos pakeitimų. Atlikus patikrą u
 - 2026-04-05: `#library` sekcija ir skeleton įkėlimui iki `fetch`; hero CTA nebe `#start` (buvo regresija).
 - 2026-04-06: hero pagrindinis CTA orientuotas į **rasti užduotį**; `#guide` su antrašte `aria-labelledby`; `#library` antraštėje nuoroda į `#guide` (patikrinti F1 + klaviatūros eilę po pakeitimo).
 - 2026-04-06 (iteracija): tuščios paieškos UX, įkėlimo klaida su **Bandyti dar kartą**, `#library-keyboard-hint`, `?prompt=` / `#prompt-`, paieškos AND žodžiai, forma `aria-errormessage`, pašalinta klaidinga `.dept` „lazy“ animacija (`opacity: 0` be `--loaded`). W1–W3 lieka rankiniam patvirtinimui naršyklėje.
+- 2026-04-06 (po UI plano 1–8): navigacija **6 + Daugiau** (`<details>`), hero **chips**; **chips** žetonai sutikrinti su `prompts.*.json` (visi 5 × 4 kalbos = atitinka bent vieną užduotį).

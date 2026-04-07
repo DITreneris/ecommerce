@@ -16,7 +16,7 @@
         }
       })();
     </script>
-    <meta name="theme-color" content="#4338ca" />
+    <meta name="theme-color" content="#2563eb" />
     <title>DI Promptų biblioteka e-komercijai — Spin-off Nr. 8</title>
     <meta
       name="description"
@@ -52,12 +52,6 @@
     <div id="nav-overlay" class="nav__overlay" aria-hidden="true"></div>
 
     <div class="sticky-head">
-      <div class="top-announcement" role="region" aria-label="Pranešimas">
-        <div class="container container--wide top-announcement__inner">
-          <span>DI užduotys e-komercijai ir operacijoms — kurk greičiau su AI</span>
-        </div>
-      </div>
-
       <header class="site-header">
         <div class="site-header__brand-row">
           <div class="container container--wide site-header__brand-inner">
@@ -115,9 +109,6 @@
               </button>
               <ul id="primary-nav" class="nav__list"></ul>
             </nav>
-            <div class="site-header__cta-row">
-              <a class="btn-cta-red" href="#ecommerce">E-komercija</a>
-            </div>
           </div>
         </div>
       </header>
@@ -126,35 +117,43 @@
     <main id="main">
       <section class="hero hero--spinoff" aria-label="Įžanga">
         <div class="container hero__inner">
-          <h1 class="hero__title">Ne teorija — paruoštos DI užduotys pardavimams ir operacijoms</h1>
+          <h1 class="hero__title">
+            Greičiau e-komercijos ir operacijų rezultatai su paruoštomis DI užduotomis
+          </h1>
           <p class="hero__subtitle">
-            Paieška viršuje arba skyriai meniu. Kopijuokite → įklijuokite į DI įrankį → užpildykite
+            Struktūruoti promptai vienoje vietoje — mažiau tuščio bandymo, daugiau aiškaus išėjimo.
+            Kopijuokite, įklijuokite į ChatGPT, Claude arba Gemini ir užpildykite
             <span class="hero__placeholder-hint">[laukus]</span>.
           </p>
           <ul class="hero__features">
-            <li>Tinka komandoms ir solo specialistams</li>
-            <li>Skyriai nuo pardavimų iki analitikos</li>
-            <li>Greita paieška ir vienas spustelėjimas iki kopijos</li>
+            <li>Rinkodarai, pardavimams, ops ir analitikai — pagal temą</li>
+            <li>Paieška viršuje arba skyriai meniu — per kelias minutes</li>
+            <li>Veikia naršyklėje, be paskyros</li>
           </ul>
           <div class="hero__cta">
-            <a href="#library" class="btn btn--primary">Rasti užduotį</a>
-            <a href="#guide" class="btn btn--secondary">Kaip naudoti</a>
+            <a href="#library" class="btn btn--primary">Atverti biblioteką</a>
+            <a href="#guide" class="btn btn--secondary btn--ghost">Trumpa instrukcija</a>
           </div>
+          <p class="hero__start">
+            <span class="hero__start-label">Pradėkite čia:</span>
+            <a href="#library" class="hero__start-link">biblioteka ir paieška viršuje</a>
+          </p>
+          <div class="search-chips" id="search-chips" hidden></div>
           <div class="hero__stats">
             <a href="#library" class="stat stat--clickable">
               <div class="stat__number" id="hero-stat-tasks">107</div>
               <div class="stat__label">Užduotys</div>
-              <div class="stat__hint">Bibliotekoje</div>
+              <div class="stat__hint">Paruoštų scenarijų</div>
             </a>
             <a href="#library" class="stat stat--clickable">
               <div class="stat__number" id="hero-stat-sections">13</div>
               <div class="stat__label">Skyriai</div>
-              <div class="stat__hint">Pagal temą</div>
+              <div class="stat__hint">Nuo pardavimų iki IT ir HR</div>
             </a>
             <div class="stat">
               <div class="stat__number">100%</div>
               <div class="stat__label">Kopijuojama</div>
-              <div class="stat__hint">Vien paspaudimu</div>
+              <div class="stat__hint">Į bet kurį DI įrankį</div>
             </div>
           </div>
         </div>
@@ -260,10 +259,49 @@
         </div>
       </section>
 
-      <section class="section section--guide" id="guide" aria-labelledby="guide-heading-lt">
+      <section class="trust-strip" aria-labelledby="trust-heading-lt">
+        <div class="container">
+          <h2 id="trust-heading-lt" class="trust-strip__title">Kam skirta</h2>
+          <ul class="trust-strip__list">
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">E-komercijos ir operacijų komandoms</strong>
+              <span class="trust-strip__detail">nuo kasdienių užduočių iki analitikos</span>
+            </li>
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">ChatGPT, Claude, Gemini</strong>
+              <span class="trust-strip__detail">tas pats promptas — jūsų pasirinktas įrankis</span>
+            </li>
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">Mažiau spėliojimo</strong>
+              <span class="trust-strip__detail">aiškus kelias nuo užduoties iki išėjimo</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="library" aria-label="Užduočių biblioteka">
+        <div class="container container--wide">
+          <div class="section__header">
+            <h2 class="section__title">Visos užduotys</h2>
+            <p class="section__subtitle">
+              Ieškokite viršuje arba atverkite skyrių meniu. Tada kopijuokite, įklijuokite į DI
+              įrankį ir pakeiskite <span class="hero__placeholder-hint">[laukus]</span>.
+              <a href="#guide" class="section__subtitle-link">Trumpa instrukcija</a>
+            </p>
+            <p class="library-keyboard-hint" id="library-keyboard-hint"></p>
+          </div>
+          <div id="prompts-container"></div>
+        </div>
+      </section>
+
+      <section
+        class="section section--guide section--guide-compact"
+        id="guide"
+        aria-labelledby="guide-heading-lt"
+      >
         <div class="container">
           <h2 id="guide-heading-lt" class="guide-steps__heading">Kaip naudotis — 4 žingsniai</h2>
-          <div class="guide-steps">
+          <div class="guide-steps guide-steps--compact">
             <div class="guide-steps__item">
               <span class="guide-steps__num">1</span
               ><span>Raskite užduotį paieškoje arba skyriuje</span>
@@ -282,21 +320,6 @@
           <p class="guide-steps__after">
             <a href="#library" class="guide-steps__library-link">Į užduočių biblioteką</a>
           </p>
-        </div>
-      </section>
-
-      <section class="section" id="library" aria-label="Užduočių biblioteka">
-        <div class="container container--wide">
-          <div class="section__header">
-            <h2 class="section__title">Visos užduotys</h2>
-            <p class="section__subtitle">
-              Ieškokite viršuje arba atverkite skyrių meniu. Tada kopijuokite, įklijuokite į DI
-              įrankį ir pakeiskite <span class="hero__placeholder-hint">[laukus]</span>.
-              <a href="#guide" class="section__subtitle-link">Trumpa instrukcija</a>
-            </p>
-            <p class="library-keyboard-hint" id="library-keyboard-hint"></p>
-          </div>
-          <div id="prompts-container"></div>
         </div>
       </section>
 
@@ -398,6 +421,11 @@
             <button class="button button--secondary" type="reset">Išvalyti</button>
           </div>
         </form>
+        <p class="footer__deep-link-hint" id="footer-deep-link-hint">
+          Vienos užduoties nuoroda: pridėkite prie adreso
+          <code>?prompt=&lt;id&gt;</code> arba <code>#prompt-&lt;id&gt;</code> (numerį rasite
+          bibliotekoje).
+        </p>
         <p class="footer__meta">
           <a href="privatumas.html">Privatumo politika</a> · Spin-off Nr. 8 ·
           <span id="footer-year"></span>

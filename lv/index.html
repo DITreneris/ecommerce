@@ -16,7 +16,7 @@
         }
       })();
     </script>
-    <meta name="theme-color" content="#4338ca" />
+    <meta name="theme-color" content="#2563eb" />
     <title>AI uzvedņu bibliotēka e-komercijai — Spin-off Nr. 8</title>
     <meta
       name="description"
@@ -49,12 +49,6 @@
     <div id="nav-overlay" class="nav__overlay" aria-hidden="true"></div>
 
     <div class="sticky-head">
-      <div class="top-announcement" role="region" aria-label="Paziņojums">
-        <div class="container container--wide top-announcement__inner">
-          <span>E-komercijas un operāciju uzvednes — strādājiet ātrāk ar AI</span>
-        </div>
-      </div>
-
       <header class="site-header">
         <div class="site-header__brand-row">
           <div class="container container--wide site-header__brand-inner">
@@ -112,9 +106,6 @@
               </button>
               <ul id="primary-nav" class="nav__list"></ul>
             </nav>
-            <div class="site-header__cta-row">
-              <a class="btn-cta-red" href="#ecommerce">E-komercija</a>
-            </div>
           </div>
         </div>
       </header>
@@ -123,36 +114,43 @@
     <main id="main">
       <section class="hero hero--spinoff" aria-label="Ievads">
         <div class="container hero__inner">
-          <h1 class="hero__title">Ne teorija — gatavi AI uzdevumi pārdošanai un operācijām</h1>
+          <h1 class="hero__title">
+            Ātrāki e-komercijas un operāciju rezultāti ar gataviem AI uzdevumiem
+          </h1>
           <p class="hero__subtitle">
-            Meklējiet augšā vai atveriet sadaļu izvēlnē. Kopējiet → ielīmējiet AI rīkā →
-            aizvietojiet
+            Strukturētas uzvednes vienuviet — mazāk tukšas mēģināšanas, skaidrāks iznākums.
+            Kopējiet, ielīmējiet ChatGPT, Claude vai Gemini un aizvietojiet
             <span class="hero__placeholder-hint">[vietturus]</span>.
           </p>
           <ul class="hero__features">
-            <li>Komandām un individuāliem speciālistiem</li>
-            <li>Sadaļas no pārdošanas līdz analītikai</li>
-            <li>Ātra meklēšana un viens klikšķis līdz kopijai</li>
+            <li>Mārketings, pārdošana, operācijas un analītika — pēc tēmas</li>
+            <li>Meklēšana augšā vai sadaļas izvēlnē — dažu minūšu laikā</li>
+            <li>Darbojas pārlūkā — bez konta</li>
           </ul>
           <div class="hero__cta">
-            <a href="#library" class="btn btn--primary">Atrast uzdevumu</a>
-            <a href="#guide" class="btn btn--secondary">Kā lietot</a>
+            <a href="#library" class="btn btn--primary">Atvērt bibliotēku</a>
+            <a href="#guide" class="btn btn--secondary btn--ghost">Īsa instrukcija</a>
           </div>
+          <p class="hero__start">
+            <span class="hero__start-label">Sāciet šeit:</span>
+            <a href="#library" class="hero__start-link">bibliotēka un meklēšana augšā</a>
+          </p>
+          <div class="search-chips" id="search-chips" hidden></div>
           <div class="hero__stats">
             <a href="#library" class="stat stat--clickable">
               <div class="stat__number" id="hero-stat-tasks">107</div>
               <div class="stat__label">Uzdevumi</div>
-              <div class="stat__hint">Bibliotēkā</div>
+              <div class="stat__hint">Gatavi scenāriji</div>
             </a>
             <a href="#library" class="stat stat--clickable">
               <div class="stat__number" id="hero-stat-sections">13</div>
               <div class="stat__label">Sadaļas</div>
-              <div class="stat__hint">Pēc tēmas</div>
+              <div class="stat__hint">No pārdošanas līdz IT un HR</div>
             </a>
             <div class="stat">
               <div class="stat__number">100%</div>
               <div class="stat__label">Gatavs kopēšanai</div>
-              <div class="stat__hint">Viens klikšķis</div>
+              <div class="stat__hint">Jebkurā AI rīkā</div>
             </div>
           </div>
         </div>
@@ -258,10 +256,49 @@
         </div>
       </section>
 
-      <section class="section section--guide" id="guide" aria-labelledby="guide-heading-lv">
+      <section class="trust-strip" aria-labelledby="trust-heading-lv">
+        <div class="container">
+          <h2 id="trust-heading-lv" class="trust-strip__title">Kam paredzēts</h2>
+          <ul class="trust-strip__list">
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">E-komercijas un operāciju komandām</strong>
+              <span class="trust-strip__detail">no ikdienas uzdevumiem līdz analītikai</span>
+            </li>
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">ChatGPT, Claude, Gemini</strong>
+              <span class="trust-strip__detail">tā pati uzvedne — jūsu izvēlētais rīks</span>
+            </li>
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">Mazāk minēšanas</strong>
+              <span class="trust-strip__detail">skaidrs ceļš no uzdevuma līdz rezultātam</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="library" aria-label="Uzdevumu bibliotēka">
+        <div class="container container--wide">
+          <div class="section__header">
+            <h2 class="section__title">Visi uzdevumi</h2>
+            <p class="section__subtitle">
+              Meklējiet augšā vai atveriet sadaļu izvēlnē. Pēc tam kopējiet, ielīmējiet AI rīkā un
+              aizvietojiet <span class="hero__placeholder-hint">[vietturus]</span>.
+              <a href="#guide" class="section__subtitle-link">Īsa instrukcija</a>
+            </p>
+            <p class="library-keyboard-hint" id="library-keyboard-hint"></p>
+          </div>
+          <div id="prompts-container"></div>
+        </div>
+      </section>
+
+      <section
+        class="section section--guide section--guide-compact"
+        id="guide"
+        aria-labelledby="guide-heading-lv"
+      >
         <div class="container">
           <h2 id="guide-heading-lv" class="guide-steps__heading">Kā lietot — 4 soļi</h2>
-          <div class="guide-steps">
+          <div class="guide-steps guide-steps--compact">
             <div class="guide-steps__item">
               <span class="guide-steps__num">1</span
               ><span>Atrodiet uzdevumu meklēšanā vai sadaļā</span>
@@ -280,21 +317,6 @@
           <p class="guide-steps__after">
             <a href="#library" class="guide-steps__library-link">Atvērt uzdevumu bibliotēku</a>
           </p>
-        </div>
-      </section>
-
-      <section class="section" id="library" aria-label="Uzdevumu bibliotēka">
-        <div class="container container--wide">
-          <div class="section__header">
-            <h2 class="section__title">Visi uzdevumi</h2>
-            <p class="section__subtitle">
-              Meklējiet augšā vai atveriet sadaļu izvēlnē. Pēc tam kopējiet, ielīmējiet AI rīkā un
-              aizvietojiet <span class="hero__placeholder-hint">[vietturus]</span>.
-              <a href="#guide" class="section__subtitle-link">Īsa instrukcija</a>
-            </p>
-            <p class="library-keyboard-hint" id="library-keyboard-hint"></p>
-          </div>
-          <div id="prompts-container"></div>
         </div>
       </section>
 
@@ -396,6 +418,10 @@
             <button class="button button--secondary" type="reset">Notīrīt</button>
           </div>
         </form>
+        <p class="footer__deep-link-hint" id="footer-deep-link-hint">
+          Saite uz vienu uzdevumu: pievienojiet adresei <code>?prompt=&lt;id&gt;</code> vai
+          <code>#prompt-&lt;id&gt;</code> (numurs no bibliotēkas).
+        </p>
         <p class="footer__meta">
           <a href="privacy.html">Privātuma politika</a> · Spin-off Nr. 8 ·
           <span id="footer-year"></span>

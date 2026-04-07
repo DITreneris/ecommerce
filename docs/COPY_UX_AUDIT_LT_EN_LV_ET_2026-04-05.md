@@ -211,6 +211,7 @@ ID **42**, **44**, **97** (ir dalinai kiti): `text` baigiasi „[… piem.“ be
 ### Liko / tolimesnė QA
 
 - **2026-04-06 iteracija:** ET/LV ilgi **102–107** ir **keywords** (audit P1 ID 6, 10, 23, 29, 38, 57–59, 85–86) retušuoti; **68** EE/LV kontekstas patvirtintas, ET formulė „ostjatele Eestis“. Tolimesnėms versijoms — tik pavienės kalbos ar tono pastabos.
+- **2026-04-06 (automatinė santrauka):** `text` ilgio santykis ET/LV vs LT užduotims **101–107**, **68**, **64–67** — visi kriterijai ~0,88–1,08; masinio JSON taisymo neprireikė (tolimesnė rankinė QA — §5.2 sąrašas).
 - **Sąsaja (2026-04-06):** gili nuoroda į užduotį — `?prompt=<skaitinis_id>` arba `#prompt-<id>` (sinchronizuojama su URL); paieška su keliais žodžiais — **AND** logika (visi tokenai turi būti pavadinime, tekste arba raktažodžiuose).
 - Jei reikia **masinio LT → EN** sinchrono: `npm run generate:en` su atsargiu diff ir rankiniu kritinių EN vietų atkūrimu.
 

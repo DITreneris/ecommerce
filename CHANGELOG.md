@@ -8,24 +8,27 @@ Formatas remiasi [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versi
 
 ### Changed
 
-- **`docs/archive/notes/memo_ee_lv.md`:** perkelta iš repo šaknies į `docs/archive/notes/` (suderinta su dokumentų politika); atnaujintos santykinės nuorodos. **`docs/DOCUMENTATION.md`:** įrašas registre.
+- **Premium SaaS vizualas:** neutrali zinc/mėlyna paletė (`assets/css/styles.css`), vienas akcentas; antraštės juosta **#18181b** vietoj violetinės; skyrių kairė juosta ir **dept** ikonų fonai suvienodinti (be vaivorykštės); pirminiai mygtukai ir statistikos kortelės be gradientų.
+- **Ikonografija:** skyrių ir navigacijos ikonos — **stroke SVG** pagal `category.id` ir temų jungiklis (**sistema / šviesi / tamsi**) vietoj emoji (`assets/js/app.js`); `theme-color` meta (LT/EN/ET/LV) ir `Theme.updateMetaThemeColor` suderinti su akcentu **#2563eb** / tamsiai **#09090b**.
+- **`assets/data/prompts.{lt,en,et,lv}.json`:** pašalintas laukas **`categories[].icon`** (ikonos tik iš JS žemėlapio); iš antraščių ir užduočių tekstų pašalinti **emoji** (kopijuojamas turinys švaresnis).
 
-### Fixed
-
-- **`assets/data/prompts.et.json`**, **`prompts.lv.json`:** copy QA ilgiems ID **102–107** (churn, külm müük / aukstā apzināšanās, e-kirja pikkus, LV dependency „bloķē“, izvades prasība, 106. faasi pealkiri ET); **105** süsteemiviiba päis ja **ET** keele valik **alati ET**; **106** ET faas 4 „tähelepanekud“, **107** tsükli/refleksiooni sõnastus; **68** ET: „ostjatele Eestis“ (mitte „Eestist ostjatele“).
-- **`assets/data/prompts.{lt,en,et,lv}.json`:** keywords retušas (audit P1: **23**, **29** + seo, **58** demo/explainer, **57** LV, **85** LV swot/svid, **59** ET testimonial, **6/10** LT); EN **58** „tutorial“ → „demo“ / „explainer“.
+## [4.3.0] — 2026-04-06
 
 ### Added
 
+- **UI/UX iteracijos:** `docs/UI_UX_ITERATION_PLAN.md` (ciklas ir kanoninė vykdymo eilė), `docs/UI_UX_ITERATION_BACKLOG.md` (kritika ir 8 iteracijos; perkelta iš `ui_ux_itteration.txt`); Cursor taisyklė `.cursor/rules/ui-ux-iteration.mdc`. Atnaujinta: `AGENTS.md`, `TODO.md`, `docs/DOCUMENTATION.md`.
 - Įkėlimo būsena: kol kraunasi `prompts.*.json`, `#prompts-container` rodo skeleton (`showPromptsLoading` + `loadingLabel` visoms kalboms).
 - Puslapiuose LT/EN/ET/LV: `preconnect` + **DM Sans** (Google Fonts).
 - Gili nuoroda į užduotį: URL parametras **`?prompt=<id>`** ir/ar fragmentas **`#prompt-<id>`** (po įkėlimo išvalomas `q`, slenkama prie kortelės; kortelėje `id` / `data-prompt-id`).
 - Tuščios paieškos būsenai: antrinė užuomina ir mygtukas **išvalyti paiešką** (antraštė ir mobilus modalas); bibliotekos skiltyje **`#library-keyboard-hint`** (klavišas `/`).
 - Įkėlimo klaidai: mygtukas **„Bandyti dar kartą“** (pakartotinis `fetch` be dvigubo kalbų/`Theme` init).
 - Kontaktinė forma: neteisingi laukai — **`aria-errormessage`** susietas su klaidos bloko `id` (papildomai prie `aria-describedby`).
+- **Footer:** pastaba apie gilią nuorodą (`?prompt=` / `#prompt-`) visose kalbose (`footer__deep-link-hint`).
 
 ### Changed
 
+- **UI/UX iteracija (planas 1–8, viename leidime):** pašalinta viršutinė „lime“ juosta ir antraštės **E-komercija** CTA; sekcijų tvarka **hero → privalumai → pasitikėjimo juosta → biblioteka → gidas** (LT/EN/ET/LV). Hero: aiškesnis outcome-first tekstas, antrinis CTA **btn--ghost**, „Pradėkite čia“, statistikos hint’ai. **Trust** juosta „Kam skirta“. Navigacija: pirmi **6** skyriai + **Daugiau** (`<details>` su likusiais). Paieškos **chips** heroje; sėkmės toaste — trumpas **kitas žingsnis** po kopijavimo. Kortelės: didesnis paddingas, **line-clamp** antraštei ir ištraukai; skyriai — šviesesnis konteineris. Antraštės mėlynė **#4338ca**. **ET** `loadRetry` ir trūkstamos paieškos eilutės. Žr. `docs/UI_UX_ITERATION_PLAN.md` §4.
+- **`docs/archive/notes/memo_ee_lv.md`:** perkelta iš repo šaknies į `docs/archive/notes/` (suderinta su dokumentų politika); atnaujintos santykinės nuorodos. **`docs/DOCUMENTATION.md`:** įrašas registre.
 - Paieška: keli žodžiai per tarpą — **AND** logika (visi turi atsirasti pavadinime, tekste arba `keywords`); paryškinimas keliems atitikmenims.
 - **`assets/css/styles.css`:** pašalinta dubliuota „lazy“ `.dept` taisyklė, kuri nustatė `opacity: 0` be `dept--loaded` (skyriai buvo nematomi be sumažinto judesio).
 - Hero, `#guide` ir `#library` antraštės: aiškesnis kelias **rasti užduotį → kopijuoti → užpildyti laukus**; pagrindinis mygtukas LT **„Rasti užduotį“** (EN **„Find your prompt“**, ET/LV atitikmenys); gido sekcija su matoma antrašte ir nuoroda atgal į biblioteką.
@@ -33,6 +36,12 @@ Formatas remiasi [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versi
 - Vizualas: indigo akcentas (`#4f46e5` / tamsioje `#6366f1`), `theme-color` ir `Theme.updateMetaThemeColor` suderinti; nauda juosta ir mobilus apatinis baras naudoja **SVG** vietoje emoji; mygtukas **Kopijuoti** — SVG ikona.
 - **`assets/data/prompts.{lt,en,et,lv}.json`:** užduotis **ID 38** (spalvų paletė) perkelta iš **Pardavimai** į **Dizainas**; atnaujinti `count` ir `category`; EN/LV/ET logo užduoties (ID 37) keywords sutvarkyti; ET/LV **ID 86** (PEST) keywords — ne „kenkėjas/kaitēklis“, o `pest` + makrookolės terminai.
 - GitHub Actions (`.github/workflows/ci.yml`, `static.yml`): `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true` (JS veiksmai ant Node 24, žr. [GitHub deprecation](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/)); `setup-node` versija **24** `npm run verify` jobuose.
+- **`assets/js/app.js` — chips:** `searchQuickTags` sutapatinti su `prompts.*.json` (LT **grąžinim**, visos kalbos **kanban** vietoj **CRM**); dokumentacija: **`README.md`** (gili nuoroda), **`TODO.md`** (P1 uždarytas), **`docs/UI_UX_AUDIT_CHECKLIST.md`** (2026-04-06 įrašai), **`docs/COPY_UX_AUDIT_LT_EN_LV_ET_2026-04-05.md`** (automatinė ET/LV ilgių santrauka).
+
+### Fixed
+
+- **`assets/data/prompts.et.json`**, **`prompts.lv.json`:** copy QA ilgiems ID **102–107** (churn, külm müük / aukstā apzināšanās, e-kirja pikkus, LV dependency „bloķē“, izvades prasība, 106. faasi pealkiri ET); **105** süsteemiviiba päis ja **ET** keele valik **alati ET**; **106** ET faas 4 „tähelepanekud“, **107** tsükli/refleksiooni sõnastus; **68** ET: „ostjatele Eestis“ (mitte „Eestist ostjatele“).
+- **`assets/data/prompts.{lt,en,et,lv}.json`:** keywords retušas (audit P1: **23**, **29** + seo, **58** demo/explainer, **57** LV, **85** LV swot/svid, **59** ET testimonial, **6/10** LT); EN **58** „tutorial“ → „demo“ / „explainer“.
 
 ## [4.2.0] — 2026-04-05
 

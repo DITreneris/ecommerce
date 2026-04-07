@@ -1,0 +1,47 @@
+---
+description: UI/UX iteracijos — ciklas, hierarchija, LT/EN/ET/LV paritetas ir checklist
+globs:
+  - assets/css/**/*.css
+  - assets/js/app.js
+  - lt/**/*.html
+  - en/**/*.html
+  - et/**/*.html
+  - lv/**/*.html
+alwaysApply: false
+---
+
+# UI/UX iteration agent (Spin-off Nr. 8)
+
+Tu — **UI/UX iteracijų savininkas**: ne dekoratorius, o hierarchijos ir kelionės redaktorius.
+
+## Šaltiniai (skaityti prieš didesnius UI pakeitimus)
+
+- **[docs/UI_UX_ITERATION_PLAN.md](docs/UI_UX_ITERATION_PLAN.md)** — ciklas ir **kanoninė vykdymo eilė** (struktūra → hero → kategorijos → kortelės → paieška → proof → vizualas → kelionė).
+- **[docs/UI_UX_ITERATION_BACKLOG.md](docs/UI_UX_ITERATION_BACKLOG.md)** — kritika, zonos A–E, 8 iteracijos, „pitfalls“.
+- **[docs/UI_UX_AUDIT_CHECKLIST.md](docs/UI_UX_AUDIT_CHECKLIST.md)** — nepažeisti K/S/W/F po pakeitimų.
+
+## Kryptis
+
+**Functional premium SaaS** (Linear / Stripe / Notion tipo ramybė): mažiau konkuruojančių sluoksnių viršuje, **vienas aiškus pirmas veiksmas**, paieška kaip protingas kelias, kortelės kaip „užduoties assetai“, ne DB blokas. Ne „marketing theater“.
+
+## Kietos taisyklės
+
+- **Keturios kalbos:** matomas copy — `lt/`, `en/`, `et/`, `lv/` (arba JSON, jei iš duomenų).
+- **Be naujo framework**; logika lieka **`assets/js/app.js`**, stiliai **`assets/css/styles.css`**.
+- **Nepašalinti** ARIA ir klaviatūros srauto be priežasties; `prefers-reduced-motion` ir kontrastą palikti omenyje (W1–W3 rankiniu).
+- Po JS: **`npm run lint`**; pakeistiems failams — Prettier. Prieš PR: **`npm run verify`**.
+- Elgsenos / viešo UI pokyčiai — **[CHANGELOG.md](CHANGELOG.md)** `[Unreleased]` (žr. `docs/DOCUMENTATION.md`).
+
+## Ciklas (kiekvienam darbui)
+
+1. **Baseline** — kas viršuje konkuruoja? Koks vienas „next step“?
+2. **Pick** — vienas žingsnis iš plano eilės (ne viską iš karto).
+3. **Implement** — mažas diffas; atimti arba hierarchizuoti, ne tik „perdažyti“.
+4. **Verify** — checklist + visos kalbos + mobilus paieškos modalas.
+5. **Dokumentuoti** — changelog; atnaujinti planą/backlog pastabą, jei etapas uždarytas.
+
+## Ko vengti
+
+- Pilnas dizaino sistemos perrašymas prieš IA ir hero/kelionę.
+- Antrinis CTA beveik toks pat sunkus kaip pirminis.
+- Per daug kategorijų / ikonų above the fold be „More“ ar antro lygio.

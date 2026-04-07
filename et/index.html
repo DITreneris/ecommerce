@@ -16,7 +16,7 @@
         }
       })();
     </script>
-    <meta name="theme-color" content="#4338ca" />
+    <meta name="theme-color" content="#2563eb" />
     <title>DI ülesannete raamatukogu e-kaubandusele — Spin-off nr 8</title>
     <meta
       name="description"
@@ -52,12 +52,6 @@
     <div id="nav-overlay" class="nav__overlay" aria-hidden="true"></div>
 
     <div class="sticky-head">
-      <div class="top-announcement" role="region" aria-label="Teadaanne">
-        <div class="container container--wide top-announcement__inner">
-          <span>E-kaubanduse ja operatsioonide ülesanded — kiiremini tehisintellektiga</span>
-        </div>
-      </div>
-
       <header class="site-header">
         <div class="site-header__brand-row">
           <div class="container container--wide site-header__brand-inner">
@@ -115,9 +109,6 @@
               </button>
               <ul id="primary-nav" class="nav__list"></ul>
             </nav>
-            <div class="site-header__cta-row">
-              <a class="btn-cta-red" href="#ecommerce">E-kaubandus</a>
-            </div>
           </div>
         </div>
       </header>
@@ -127,36 +118,42 @@
       <section class="hero hero--spinoff" aria-label="Sissejuhatus">
         <div class="container hero__inner">
           <h1 class="hero__title">
-            Pole teooria — valmis AI ülesanded müügi ja operatsioonide jaoks
+            Kiiremad tulemused e-kaubanduses ja operatsioonides valmis AI ülesannetega
           </h1>
           <p class="hero__subtitle">
-            Otsi ülalt või ava jaotis menüüst. Kopeeri → kleebi AI tööriista → asenda
+            Struktureeritud promptid ühes kohas — vähem tühja katsetamist, selgem väljund. Kopeeri,
+            kleebi ChatGPT-sse, Claude’i või Gemini’sse ja asenda
             <span class="hero__placeholder-hint">[kohatäited]</span>.
           </p>
           <ul class="hero__features">
-            <li>Tiimidele ja üksikutele spetsialistidele</li>
-            <li>Jaotised müügist analüütikani</li>
-            <li>Kiire otsing ja üks klõps kopeerimiseks</li>
+            <li>Turundus, müük, operatsioonid ja analüütika — teemade kaupa</li>
+            <li>Otsing ülalt või jaotised menüüs — minutitega</li>
+            <li>Töötab brauseris, kontot pole vaja</li>
           </ul>
           <div class="hero__cta">
-            <a href="#library" class="btn btn--primary">Leia ülesanne</a>
-            <a href="#guide" class="btn btn--secondary">Kuidas kasutada</a>
+            <a href="#library" class="btn btn--primary">Ava raamatukogu</a>
+            <a href="#guide" class="btn btn--secondary btn--ghost">Lühijuhend</a>
           </div>
+          <p class="hero__start">
+            <span class="hero__start-label">Alusta siit:</span>
+            <a href="#library" class="hero__start-link">raamatukogu ja otsing ülal</a>
+          </p>
+          <div class="search-chips" id="search-chips" hidden></div>
           <div class="hero__stats">
             <a href="#library" class="stat stat--clickable">
               <div class="stat__number" id="hero-stat-tasks">107</div>
               <div class="stat__label">Ülesanded</div>
-              <div class="stat__hint">Raamatukogus</div>
+              <div class="stat__hint">Valmis stsenaariumid</div>
             </a>
             <a href="#library" class="stat stat--clickable">
               <div class="stat__number" id="hero-stat-sections">13</div>
               <div class="stat__label">Jaotised</div>
-              <div class="stat__hint">Teema järgi</div>
+              <div class="stat__hint">Müügist IT ja HR-ni</div>
             </a>
             <div class="stat">
               <div class="stat__number">100%</div>
               <div class="stat__label">Kopeeritav</div>
-              <div class="stat__hint">Üks klõps</div>
+              <div class="stat__hint">Suvalisse AI tööriista</div>
             </div>
           </div>
         </div>
@@ -262,10 +259,49 @@
         </div>
       </section>
 
-      <section class="section section--guide" id="guide" aria-labelledby="guide-heading-et">
+      <section class="trust-strip" aria-labelledby="trust-heading-et">
+        <div class="container">
+          <h2 id="trust-heading-et" class="trust-strip__title">Kellele see sobib</h2>
+          <ul class="trust-strip__list">
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">E-kaubanduse ja operatsioonide tiimidele</strong>
+              <span class="trust-strip__detail">igapäevatööst analüütikani</span>
+            </li>
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">ChatGPT, Claude, Gemini</strong>
+              <span class="trust-strip__detail">sama prompt — sinu valitud tööriist</span>
+            </li>
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">Vähem oletamist</strong>
+              <span class="trust-strip__detail">selge tee ülesandest tulemuseni</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="library" aria-label="Ülesannete raamatukogu">
+        <div class="container container--wide">
+          <div class="section__header">
+            <h2 class="section__title">Kõik ülesanded</h2>
+            <p class="section__subtitle">
+              Otsi ülalt või ava jaotis menüüst. Seejärel kopeeri, kleebi AI tööriista ja asenda
+              <span class="hero__placeholder-hint">[kohatäited]</span>.
+              <a href="#guide" class="section__subtitle-link">Lühijuhend</a>
+            </p>
+            <p class="library-keyboard-hint" id="library-keyboard-hint"></p>
+          </div>
+          <div id="prompts-container"></div>
+        </div>
+      </section>
+
+      <section
+        class="section section--guide section--guide-compact"
+        id="guide"
+        aria-labelledby="guide-heading-et"
+      >
         <div class="container">
           <h2 id="guide-heading-et" class="guide-steps__heading">Kuidas kasutada — 4 sammu</h2>
-          <div class="guide-steps">
+          <div class="guide-steps guide-steps--compact">
             <div class="guide-steps__item">
               <span class="guide-steps__num">1</span
               ><span>Leia ülesanne otsingust või jaotisest</span>
@@ -283,21 +319,6 @@
           <p class="guide-steps__after">
             <a href="#library" class="guide-steps__library-link">Ava ülesannete raamatukogu</a>
           </p>
-        </div>
-      </section>
-
-      <section class="section" id="library" aria-label="Ülesannete raamatukogu">
-        <div class="container container--wide">
-          <div class="section__header">
-            <h2 class="section__title">Kõik ülesanded</h2>
-            <p class="section__subtitle">
-              Otsi ülalt või ava jaotis menüüst. Seejärel kopeeri, kleebi AI tööriista ja asenda
-              <span class="hero__placeholder-hint">[kohatäited]</span>.
-              <a href="#guide" class="section__subtitle-link">Lühijuhend</a>
-            </p>
-            <p class="library-keyboard-hint" id="library-keyboard-hint"></p>
-          </div>
-          <div id="prompts-container"></div>
         </div>
       </section>
 
@@ -397,6 +418,10 @@
             <button class="button button--secondary" type="reset">Tühjenda</button>
           </div>
         </form>
+        <p class="footer__deep-link-hint" id="footer-deep-link-hint">
+          Ühe ülesande link: lisage aadressile <code>?prompt=&lt;id&gt;</code> või kasutage
+          <code>#prompt-&lt;id&gt;</code> (number raamatukogust).
+        </p>
         <p class="footer__meta">
           <a href="privacy.html">Privaatsuspoliitika</a> · Spin-off nr 8 ·
           <span id="footer-year"></span>

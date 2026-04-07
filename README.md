@@ -11,11 +11,11 @@ Daugiau: [docs/MULTILINGUAL_STRUCTURE.md](docs/MULTILINGUAL_STRUCTURE.md).
 
 ## Funkcijos
 
-- Kol kraunasi bibliotekos JSON, rodomas **skeleton** `#prompts-container`; hero pagrindinis CTA (**„Rasti užduotį“** / EN **„Find your prompt“**) ir statistikos žymės veda į **`#library`**; šalia — **„Kaip naudoti“** (`#guide`) ir bibliotekos antraštėje nuoroda į trumpą instrukciją
-- Šriftas **DM Sans** (Google Fonts, LT/EN/ET/LV); indigo akcentas, SVG ikonos naudos juostoje ir „Kopijuoti“ mygtuke
-- Progress bar, toast po kopijavimo, back-to-top
+- Kol kraunasi bibliotekos JSON, rodomas **skeleton** `#prompts-container`; hero pagrindinis CTA (**„Atverti biblioteką“** / EN **„Open the library“**) ir statistikos žymės veda į **`#library`**; antrinė nuoroda į **„Trumpa instrukcija“** (`#guide`); po herojaus — **greitos paieškos** mygtukai (chips); viršutiniame meniu pirmi **6** skyriai + **„Daugiau“** su likusiais; pasitikėjimo juosta **„Kam skirta“** prieš biblioteką
+- Šriftas **DM Sans** (Google Fonts, LT/EN/ET/LV); neutrali paletė su mėlynu akcentu, **SVG** skyrių ikonos (nav + biblioteka), temų jungiklis ir naudos juosta / „Kopijuoti“ — stroke ikonos
+- Progress bar, toast po kopijavimo (su trumpu **kito žingsnio** tekstu), back-to-top
 - Paieška antraštėje su paryškinimu; URL parametras **`?q=`** sinchronizuojamas su paieška (galima dalintis nuoroda); keli žodžiai — **AND** logika; tuščiai paieškai — užuomina ir **išvalyti**
-- Nuoroda į konkrečią užduotį: **`?prompt=<id>`** arba **`#prompt-<id>`** (skaitinis `id` iš JSON)
+- **Dalijimosi nuoroda į vieną užduotį:** į puslapio URL galite įrašyti **`?prompt=<id>`** (pvz. `.../lt/?prompt=42`) arba fragmentą **`#prompt-<id>`** po to, kai puslapis jau atidarytas tame kataloge (`.../lt/#prompt-42`). `<id>` — skaitinis užduoties numeris iš JSON (`id` laukas). Po atidarymo paieška išvaloma (`q`), sąrašas slenkamas prie kortelės. Trumpa pastaba ir footeryje LT/EN/ET/LV puslapiuose.
 - Mobilus apatinis baras (ieškoti / skyriai); paieškos sluoksnis su dialogo prieinamumu ir fokuso ciklu
 - `/` — fokusas į paiešką, `Esc` — uždaryti modalą
 - Spalvinė schema: **pagal OS**, arba **šviesi** / **tamsi** (mygtukas antraštėje šalia kalbų jungiklio, išsaugoma naršyklėje)

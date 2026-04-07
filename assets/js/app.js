@@ -106,6 +106,16 @@
       themeSystem: 'pagal sistemą',
       themeLight: 'šviesi',
       themeDark: 'tamsi',
+      navMore: 'Daugiau skyrių',
+      toastNextHint: 'Kitas žingsnis: įklijuokite į DI įrankį ir užpildykite laukelius.',
+      searchChipsLabel: 'Greita paieška:',
+      searchQuickTags: [
+        { q: 'SEO', label: 'SEO' },
+        { q: 'PVM', label: 'PVM' },
+        { q: 'email', label: 'El. paštas' },
+        { q: 'grąžinim', label: 'Grąžinimai' },
+        { q: 'kanban', label: 'Kanban' },
+      ],
     },
     en: {
       copyBtn: 'Copy',
@@ -146,6 +156,16 @@
       themeSystem: 'match system',
       themeLight: 'light',
       themeDark: 'dark',
+      navMore: 'More sections',
+      toastNextHint: 'Next: paste into your AI tool and fill in the placeholders.',
+      searchChipsLabel: 'Try searching:',
+      searchQuickTags: [
+        { q: 'SEO', label: 'SEO' },
+        { q: 'VAT', label: 'VAT' },
+        { q: 'email', label: 'Email' },
+        { q: 'returns', label: 'Returns' },
+        { q: 'kanban', label: 'Kanban' },
+      ],
     },
     et: {
       copyBtn: 'Kopeeri',
@@ -156,6 +176,11 @@
       searchAria: 'Otsi ülesandeid',
       searchResultsNone: 'Selle märksõna järgi ülesandeid ei leitud',
       searchResultsOne: 'Leitud 1 ülesanne',
+      searchEmptyHint:
+        'Proovige lühemat sõna, teisi märksõnu või sirvige jaotisi menüüs. Mitu sõna peavad kõik kattuma (JA).',
+      searchClearSearch: 'Tühjenda otsing',
+      libraryKeyboardHint:
+        'Kiire otsing: vajutage /, et fookus liiguks ülemisele otsinguväljale (kui te ei kirjuta sisestusse).',
       tasksBadge: n => (n === 1 ? '1 ülesanne' : `${n} ülesannet`),
       skipLink: 'Liigu sisu juurde',
       navToggle: 'Menüü',
@@ -174,7 +199,8 @@
       footerLead:
         'Kas teil on ideid uute praktiliste ülesannete kohta? Kirjutage! (Vorm kontrollib andmeid, kuid ei saada neid.)',
       loadError:
-        'Biblioteki andmeid ei õnnestunud laadida. Kontrollige ühendust ja proovige uuesti.',
+        'Ülesannete andmeid ei õnnestunud laadida. Kontrollige ühendust ja proovige uuesti.',
+      loadRetry: 'Proovi uuesti',
       loadingLabel: 'Ülesannete raamatukogu laadimine…',
       keyboardHint: 'Otsimiseks vajutage <kbd>/</kbd>',
       themeCyclePrefix: 'Värviskeem',
@@ -182,6 +208,16 @@
       themeSystem: 'süsteemi järgi',
       themeLight: 'hele',
       themeDark: 'tume',
+      navMore: 'Rohkem jaotisi',
+      toastNextHint: 'Järgmine samm: kleepige AI tööriista ja täitke kohatäited.',
+      searchChipsLabel: 'Proovige otsingut:',
+      searchQuickTags: [
+        { q: 'SEO', label: 'SEO' },
+        { q: 'käibemaks', label: 'Käibemaks' },
+        { q: 'e-kiri', label: 'E-kiri' },
+        { q: 'tagastus', label: 'Tagastused' },
+        { q: 'kanban', label: 'Kanban' },
+      ],
     },
     lv: {
       copyBtn: 'Kopēt',
@@ -223,7 +259,64 @@
       themeSystem: 'kā sistēmai',
       themeLight: 'gaiša',
       themeDark: 'tumša',
+      navMore: 'Citas sadaļas',
+      toastNextHint: 'Nākamais solis: ielīmējiet AI rīkā un aizpildiet vietturus.',
+      searchChipsLabel: 'Ātras meklēšanas piemēri:',
+      searchQuickTags: [
+        { q: 'SEO', label: 'SEO' },
+        { q: 'PVN', label: 'PVN' },
+        { q: 'e-pasts', label: 'E-pasts' },
+        { q: 'atgriešana', label: 'Atgriešana' },
+        { q: 'kanban', label: 'Kanban' },
+      ],
     },
+  };
+
+  /**
+   * Stroke SVGs (24x24) by category id — nav + library headers; replaces JSON emoji icons.
+   * Paths follow a single visual language (Lucide-style).
+   */
+  const CATEGORY_ICON_SVG = {
+    start:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>',
+    sales:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>',
+    procurement:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/></svg>',
+    logistics:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18a2 2 0 0 0 2-2v-3.28a1 1 0 0 0-.684-.948l-6.493-2.193A2 2 0 0 0 12 8.5V18"/><path d="M2 8h8"/></svg>',
+    ecommerce:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/><path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"/></svg>',
+    design:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>',
+    analytics:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>',
+    marketing:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>',
+    it: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg>',
+    finance:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>',
+    hr: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>',
+    productivity:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>',
+    advanced:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.18a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.18a2 2 0 0 1-1.66 0L2 12.65"/></svg>',
+  };
+
+  const CATEGORY_ICON_FALLBACK =
+    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"/></svg>';
+
+  function categoryIconSvg(categoryId) {
+    const id = typeof categoryId === 'string' ? categoryId : '';
+    return CATEGORY_ICON_SVG[id] || CATEGORY_ICON_FALLBACK;
+  }
+
+  const THEME_TOGGLE_SVG = {
+    system:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>',
+    light:
+      '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>',
+    dark: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>',
   };
 
   function getLocale() {
@@ -351,14 +444,13 @@
         iconEl.setAttribute('aria-hidden', 'true');
         this.toggleBtn.appendChild(iconEl);
       }
-      const icons = { system: '◐', light: '☀', dark: '🌙' };
-      iconEl.textContent = icons[mode];
+      iconEl.innerHTML = THEME_TOGGLE_SVG[mode] || THEME_TOGGLE_SVG.system;
     },
     updateMetaThemeColor() {
       const meta = document.querySelector('meta[name="theme-color"]');
       if (!meta) return;
-      const dark = '#0b1221';
-      const light = '#4338ca';
+      const dark = '#09090b';
+      const light = '#2563eb';
       const mode = this.getMode();
       if (mode === 'dark') meta.setAttribute('content', dark);
       else if (mode === 'light') meta.setAttribute('content', light);
@@ -458,7 +550,7 @@
                 card.classList.remove('prompt-card--copied');
               }, 400);
             }
-            Toast.success(strings.toastOk);
+            Toast.success(`${strings.toastOk} ${strings.toastNextHint}`, 3800);
             setTimeout(() => {
               button.innerHTML = originalHTML;
               button.classList.remove('copied');
@@ -577,6 +669,7 @@
       }
       this.refreshDom();
       syncLangLinksQuery();
+      renderSearchChips();
     },
     refreshDom() {
       this.cards = document.querySelectorAll('.prompt-card');
@@ -1085,25 +1178,98 @@
     container.appendChild(wrap);
   }
 
+  const NAV_VISIBLE_COUNT = 6;
+
+  function appendCategoryNavLink(ul, cat) {
+    const li = document.createElement('li');
+    li.className = 'nav__item';
+    const a = document.createElement('a');
+    a.className = 'nav__link';
+    a.href = `#${cat.id}`;
+    const iconSpan = document.createElement('span');
+    iconSpan.className = 'nav__cat-icon';
+    iconSpan.setAttribute('aria-hidden', 'true');
+    iconSpan.innerHTML = categoryIconSvg(cat.id);
+    a.appendChild(iconSpan);
+    a.appendChild(document.createTextNode(cat.name));
+    li.appendChild(a);
+    ul.appendChild(li);
+  }
+
   function buildNav(categories) {
     const ul = document.getElementById('primary-nav');
     if (!ul) return;
     ul.innerHTML = '';
-    categories.forEach(cat => {
+    const strings = t();
+    const visible = categories.slice(0, NAV_VISIBLE_COUNT);
+    const overflow = categories.slice(NAV_VISIBLE_COUNT);
+    visible.forEach(cat => appendCategoryNavLink(ul, cat));
+    if (overflow.length > 0) {
       const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.className = 'nav__link';
-      a.href = `#${cat.id}`;
-      if (cat.icon) {
+      li.className = 'nav__item nav__item--more';
+      const det = document.createElement('details');
+      det.className = 'nav__details';
+      const sum = document.createElement('summary');
+      sum.className = 'nav__summary';
+      sum.textContent = strings.navMore;
+      det.appendChild(sum);
+      const subUl = document.createElement('ul');
+      subUl.className = 'nav__sublist';
+      overflow.forEach(cat => {
+        const sli = document.createElement('li');
+        sli.className = 'nav__subitem';
+        const a = document.createElement('a');
+        a.className = 'nav__link nav__link--sub';
+        a.href = `#${cat.id}`;
         const iconSpan = document.createElement('span');
+        iconSpan.className = 'nav__cat-icon';
         iconSpan.setAttribute('aria-hidden', 'true');
-        iconSpan.textContent = `${cat.icon} `;
+        iconSpan.innerHTML = categoryIconSvg(cat.id);
         a.appendChild(iconSpan);
-      }
-      a.appendChild(document.createTextNode(cat.name));
-      li.appendChild(a);
+        a.appendChild(document.createTextNode(cat.name));
+        sli.appendChild(a);
+        subUl.appendChild(sli);
+      });
+      det.appendChild(subUl);
+      li.appendChild(det);
       ul.appendChild(li);
+    }
+  }
+
+  function renderSearchChips() {
+    const wrap = document.getElementById('search-chips');
+    if (!wrap) return;
+    const strings = t();
+    const tags = strings.searchQuickTags || [];
+    wrap.innerHTML = '';
+    if (!tags.length) {
+      wrap.hidden = true;
+      return;
+    }
+    wrap.hidden = false;
+    const label = document.createElement('span');
+    label.className = 'search-chips__label';
+    label.textContent = strings.searchChipsLabel;
+    const row = document.createElement('div');
+    row.className = 'search-chips__row';
+    row.setAttribute('role', 'group');
+    tags.forEach(tag => {
+      const q = typeof tag === 'string' ? tag : tag.q;
+      const lab = typeof tag === 'string' ? tag : tag.label;
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'search-chip';
+      btn.textContent = lab;
+      btn.addEventListener('click', () => {
+        if (!Search.input) return;
+        Search.input.value = q;
+        if (Search.mobileInput) Search.mobileInput.value = q;
+        Search.handleSearch(q);
+        Search.input.focus();
+      });
+      row.appendChild(btn);
     });
+    wrap.append(label, row);
   }
 
   function buildPromptsDom(data) {
@@ -1122,7 +1288,7 @@
       const icon = document.createElement('div');
       icon.className = 'dept__icon';
       icon.setAttribute('aria-hidden', 'true');
-      icon.textContent = cat.icon || '📁';
+      icon.innerHTML = categoryIconSvg(cat.id);
       const h2 = document.createElement('h2');
       h2.className = 'dept__title';
       h2.textContent = cat.name;
@@ -1195,6 +1361,13 @@
     if (kh) kh.innerHTML = strings.keyboardHint;
     const libKh = document.getElementById('library-keyboard-hint');
     if (libKh) libKh.textContent = strings.libraryKeyboardHint;
+    const chipsWrap = document.getElementById('search-chips');
+    if (chipsWrap) {
+      chipsWrap.setAttribute(
+        'aria-label',
+        `${strings.searchChipsLabel} ${(strings.searchQuickTags || []).map(t => (typeof t === 'string' ? t : t.label)).join(', ')}`
+      );
+    }
   }
 
   function applyPromptDeepLink() {

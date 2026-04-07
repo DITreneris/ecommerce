@@ -16,7 +16,7 @@
         }
       })();
     </script>
-    <meta name="theme-color" content="#4338ca" />
+    <meta name="theme-color" content="#2563eb" />
     <title>AI prompt library for e-commerce — Spin-off No. 8</title>
     <meta
       name="description"
@@ -49,12 +49,6 @@
     <div id="nav-overlay" class="nav__overlay" aria-hidden="true"></div>
 
     <div class="sticky-head">
-      <div class="top-announcement" role="region" aria-label="Announcement">
-        <div class="container container--wide top-announcement__inner">
-          <span>E-commerce and ops prompts — ship faster with AI</span>
-        </div>
-      </div>
-
       <header class="site-header">
         <div class="site-header__brand-row">
           <div class="container container--wide site-header__brand-inner">
@@ -112,9 +106,6 @@
               </button>
               <ul id="primary-nav" class="nav__list"></ul>
             </nav>
-            <div class="site-header__cta-row">
-              <a class="btn-cta-red" href="#ecommerce">E-commerce</a>
-            </div>
           </div>
         </div>
       </header>
@@ -123,36 +114,43 @@
     <main id="main">
       <section class="hero hero--spinoff" aria-label="Introduction">
         <div class="container hero__inner">
-          <h1 class="hero__title">Not theory — ready-made AI tasks for sales and operations</h1>
+          <h1 class="hero__title">
+            Faster e-commerce and operations outcomes with ready-made AI tasks
+          </h1>
           <p class="hero__subtitle">
-            Search at the top or jump to a section in the menu. Copy → paste into your AI tool →
-            fill in
+            Structured prompts in one place — less blank-page prompting, clearer output. Copy, paste
+            into ChatGPT, Claude, or Gemini, then fill in
             <span class="hero__placeholder-hint">[placeholders]</span>.
           </p>
           <ul class="hero__features">
-            <li>For teams and solo operators</li>
-            <li>Sections from sales to analytics</li>
-            <li>Fast search and one click to copy</li>
+            <li>Marketing, sales, ops, and analytics — organized by topic</li>
+            <li>Search at the top or use the section menu — minutes, not hours</li>
+            <li>Runs in the browser — no account</li>
           </ul>
           <div class="hero__cta">
-            <a href="#library" class="btn btn--primary">Find your prompt</a>
-            <a href="#guide" class="btn btn--secondary">How to use</a>
+            <a href="#library" class="btn btn--primary">Open the library</a>
+            <a href="#guide" class="btn btn--secondary btn--ghost">Quick how-to</a>
           </div>
+          <p class="hero__start">
+            <span class="hero__start-label">Start here:</span>
+            <a href="#library" class="hero__start-link">library and search above</a>
+          </p>
+          <div class="search-chips" id="search-chips" hidden></div>
           <div class="hero__stats">
             <a href="#library" class="stat stat--clickable">
               <div class="stat__number" id="hero-stat-tasks">107</div>
               <div class="stat__label">Tasks</div>
-              <div class="stat__hint">In the library</div>
+              <div class="stat__hint">Ready-to-run scenarios</div>
             </a>
             <a href="#library" class="stat stat--clickable">
               <div class="stat__number" id="hero-stat-sections">13</div>
               <div class="stat__label">Sections</div>
-              <div class="stat__hint">By topic</div>
+              <div class="stat__hint">From sales to IT and HR</div>
             </a>
             <div class="stat">
               <div class="stat__number">100%</div>
               <div class="stat__label">Copy-ready</div>
-              <div class="stat__hint">One click</div>
+              <div class="stat__hint">Into any AI tool</div>
             </div>
           </div>
         </div>
@@ -258,10 +256,49 @@
         </div>
       </section>
 
-      <section class="section section--guide" id="guide" aria-labelledby="guide-heading-en">
+      <section class="trust-strip" aria-labelledby="trust-heading-en">
+        <div class="container">
+          <h2 id="trust-heading-en" class="trust-strip__title">Who it is for</h2>
+          <ul class="trust-strip__list">
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">E-commerce and operations teams</strong>
+              <span class="trust-strip__detail">from daily tasks to analytics</span>
+            </li>
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">ChatGPT, Claude, Gemini</strong>
+              <span class="trust-strip__detail">same prompt — your preferred tool</span>
+            </li>
+            <li class="trust-strip__item">
+              <strong class="trust-strip__lead">Less guesswork</strong>
+              <span class="trust-strip__detail">a clear path from task to output</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="library" aria-label="Task library">
+        <div class="container container--wide">
+          <div class="section__header">
+            <h2 class="section__title">All tasks</h2>
+            <p class="section__subtitle">
+              Search at the top or open a section in the menu. Then copy, paste into your AI tool,
+              and replace <span class="hero__placeholder-hint">[placeholders]</span>.
+              <a href="#guide" class="section__subtitle-link">Quick how-to</a>
+            </p>
+            <p class="library-keyboard-hint" id="library-keyboard-hint"></p>
+          </div>
+          <div id="prompts-container"></div>
+        </div>
+      </section>
+
+      <section
+        class="section section--guide section--guide-compact"
+        id="guide"
+        aria-labelledby="guide-heading-en"
+      >
         <div class="container">
           <h2 id="guide-heading-en" class="guide-steps__heading">How it works — 4 steps</h2>
-          <div class="guide-steps">
+          <div class="guide-steps guide-steps--compact">
             <div class="guide-steps__item">
               <span class="guide-steps__num">1</span
               ><span>Find a task via search or a section</span>
@@ -280,21 +317,6 @@
           <p class="guide-steps__after">
             <a href="#library" class="guide-steps__library-link">Open the task library</a>
           </p>
-        </div>
-      </section>
-
-      <section class="section" id="library" aria-label="Task library">
-        <div class="container container--wide">
-          <div class="section__header">
-            <h2 class="section__title">All tasks</h2>
-            <p class="section__subtitle">
-              Search at the top or open a section in the menu. Then copy, paste into your AI tool,
-              and replace <span class="hero__placeholder-hint">[placeholders]</span>.
-              <a href="#guide" class="section__subtitle-link">Quick how-to</a>
-            </p>
-            <p class="library-keyboard-hint" id="library-keyboard-hint"></p>
-          </div>
-          <div id="prompts-container"></div>
         </div>
       </section>
 
@@ -394,6 +416,10 @@
             <button class="button button--secondary" type="reset">Reset</button>
           </div>
         </form>
+        <p class="footer__deep-link-hint" id="footer-deep-link-hint">
+          Link to one task: append <code>?prompt=&lt;id&gt;</code> or use
+          <code>#prompt-&lt;id&gt;</code> (numeric id from the library).
+        </p>
         <p class="footer__meta">
           <a href="privacy.html">Privacy policy</a> · Spin-off No. 8 ·
           <span id="footer-year"></span>

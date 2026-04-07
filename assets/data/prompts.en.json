@@ -5,7 +5,6 @@
     {
       "id": "start",
       "name": "Get started",
-      "icon": "🚀",
       "count": 3,
       "prompts": [
         {
@@ -13,7 +12,13 @@
           "title": "email letter to the client",
           "text": "Write a clear, friendly email to a customer interested in [product]. Explain the main advantages and suggest suitable alternatives.",
           "copyText": "Write a clear, friendly email to a customer interested in [product]. Explain the main advantages and suggest suitable alternatives.",
-          "keywords": ["email", "letter", "customer", "product", "advantages"],
+          "keywords": [
+            "email",
+            "letter",
+            "customer",
+            "product",
+            "advantages"
+          ],
           "category": "start"
         },
         {
@@ -21,7 +26,12 @@
           "title": "SEO Product Description",
           "text": "Write a 120 word SEO optimized [product] description with key search terms.",
           "copyText": "Write a 120 word SEO optimized [product] description with key search terms.",
-          "keywords": ["seo", "description", "product", "keywords"],
+          "keywords": [
+            "seo",
+            "description",
+            "product",
+            "keywords"
+          ],
           "category": "start"
         },
         {
@@ -29,7 +39,12 @@
           "title": "Monthly report",
           "text": "Generate a short management report showing changes in monthly sales using the following data: [paste CSV].",
           "copyText": "Generate a short management report showing changes in monthly sales using the following data: [paste CSV].",
-          "keywords": ["report", "sales", "monthly", "data"],
+          "keywords": [
+            "report",
+            "sales",
+            "monthly",
+            "data"
+          ],
           "category": "start"
         }
       ]
@@ -37,7 +52,6 @@
     {
       "id": "sales",
       "name": "Sales",
-      "icon": "💼",
       "count": 18,
       "prompts": [
         {
@@ -45,7 +59,11 @@
           "title": "Rewriting the proposal",
           "text": "Rewrite this proposal to make it shorter, more professional and clearer: [paste text].",
           "copyText": "Rewrite this proposal to make it shorter, more professional and clearer: [paste text].",
-          "keywords": ["offer", "rewrite", "professional"],
+          "keywords": [
+            "offer",
+            "rewrite",
+            "professional"
+          ],
           "category": "sales"
         },
         {
@@ -53,7 +71,11 @@
           "title": "Creating an FAQ",
           "text": "Create a list of 5 frequently asked questions (FAQs) and answers about [product category].",
           "copyText": "Create a list of 5 frequently asked questions (FAQs) and answers about [product category].",
-          "keywords": ["faq", "questions", "answers"],
+          "keywords": [
+            "faq",
+            "questions",
+            "answers"
+          ],
           "category": "sales"
         },
         {
@@ -61,7 +83,11 @@
           "title": "A message to those switching from a competitor",
           "text": "Prepare a short message for a customer considering switching from a competitor [X] to our solution.",
           "copyText": "Prepare a short message for a customer considering switching from a competitor [X] to our solution.",
-          "keywords": ["competitor", "transition", "a message"],
+          "keywords": [
+            "competitor",
+            "transition",
+            "a message"
+          ],
           "category": "sales"
         },
         {
@@ -69,7 +95,11 @@
           "title": "Structure of the commercial offer",
           "text": "Create a structure for a professional commercial proposal [client/project]. Include: executive summary, problem description, solution, benefits, pricing, implementation plan, warranties, CTA. Optimize for re-reading and quick resolution.",
           "copyText": "Create a structure for a professional commercial proposal [client/project]. Include: executive summary, problem description, solution, benefits, pricing, implementation plan, warranties, CTA. Optimize for re-reading and quick resolution.",
-          "keywords": ["offer", "commercial", "offer"],
+          "keywords": [
+            "offer",
+            "commercial",
+            "offer"
+          ],
           "category": "sales"
         },
         {
@@ -77,7 +107,11 @@
           "title": "Objection Answer Guide",
           "text": "Create a [product/service] objection response guide. For each objection (price, time, reliability, competitors), provide: understanding of the objection, empathetic response, solution/alternative, social proof. Use natural, non-aggressive language.",
           "copyText": "Create a [product/service] objection response guide. For each objection (price, time, reliability, competitors), provide: understanding of the objection, empathetic response, solution/alternative, social proof. Use natural, non-aggressive language.",
-          "keywords": ["objections", "responses", "sales"],
+          "keywords": [
+            "objections",
+            "responses",
+            "sales"
+          ],
           "category": "sales"
         },
         {
@@ -85,7 +119,13 @@
           "title": "RFQ (Request for Proposal) template",
           "text": "Create a professional RFQ for [Product/Component] for suppliers. Include: product specifications, quantity required, delivery time, quality requirements, payment terms and evaluation criteria. Format as a professional business email.",
           "copyText": "Create a professional RFQ for [Product/Component] for suppliers. Include: product specifications, quantity required, delivery time, quality requirements, payment terms and evaluation criteria. Format as a professional business email.",
-          "keywords": ["rfq", "offer", "request", "template", "competition"],
+          "keywords": [
+            "rfq",
+            "offer",
+            "request",
+            "template",
+            "competition"
+          ],
           "category": "sales"
         },
         {
@@ -93,7 +133,12 @@
           "title": "Returns (RMA) Processing Guide",
           "text": "Prepare return processing procedure for RMA #[number]. Record: reason for return, product condition assessment, quality control steps, return/exchange decision criteria, and return-to-warehouse instructions. Include a client communication template.",
           "copyText": "Prepare return processing procedure for RMA #[number]. Record: reason for return, product condition assessment, quality control steps, return/exchange decision criteria, and return-to-warehouse instructions. Include a client communication template.",
-          "keywords": ["returns", "rma", "quality", "process"],
+          "keywords": [
+            "returns",
+            "rma",
+            "quality",
+            "process"
+          ],
           "category": "sales"
         },
         {
@@ -101,7 +146,12 @@
           "title": "Product comparison table",
           "text": "Create a comparison table of [Product 1] vs [Product 2] vs [Product 3]. Compare: key specs, price, features, best use cases, pros and cons. Format as an HTML table with a clear visual hierarchy. Help customers make an informed decision.",
           "copyText": "Create a comparison table of [Product 1] vs [Product 2] vs [Product 3]. Compare: key specs, price, features, best use cases, pros and cons. Format as an HTML table with a clear visual hierarchy. Help customers make an informed decision.",
-          "keywords": ["products", "comparison", "table", "specifications"],
+          "keywords": [
+            "products",
+            "comparison",
+            "table",
+            "specifications"
+          ],
           "category": "sales"
         },
         {
@@ -109,7 +159,13 @@
           "title": "Abandoned cart email series",
           "text": "Create a 3-email sequence for an abandoned cart. Email 1 (after 1 hour): friendly reminder + product photos. Email 2 (after 24 hours): add social proof and an element of urgency. Email 3 (after 48 hours): last chance with a small discount. Maintain a friendly, non-intrusive tone.",
           "copyText": "Create a 3-email sequence for an abandoned cart. Email 1 (after 1 hour): friendly reminder + product photos. Email 2 (after 24 hours): add social proof and an element of urgency. Email 3 (after 48 hours): last chance with a small discount. Maintain a friendly, non-intrusive tone.",
-          "keywords": ["email", "letter", "abandoned", "basket", "conversion"],
+          "keywords": [
+            "email",
+            "letter",
+            "abandoned",
+            "basket",
+            "conversion"
+          ],
           "category": "sales"
         },
         {
@@ -117,7 +173,12 @@
           "title": "Product page conversion optimization",
           "text": "Create a product page optimization plan [product]. Include: hero section improvements, product description structure, image strategy, social proof elements, CTA optimization, trust signals, mobile optimization. Provide priorities and expected impact.",
           "copyText": "Create a product page optimization plan [product]. Include: hero section improvements, product description structure, image strategy, social proof elements, CTA optimization, trust signals, mobile optimization. Provide priorities and expected impact.",
-          "keywords": ["conversions", "optimization", "CRO", "page"],
+          "keywords": [
+            "conversions",
+            "optimization",
+            "CRO",
+            "page"
+          ],
           "category": "sales"
         },
         {
@@ -125,7 +186,11 @@
           "title": "Introduction to the catalog",
           "text": "Write a professional and clear product catalog introduction of 120 words.",
           "copyText": "Write a professional and clear product catalog introduction of 120 words.",
-          "keywords": ["directory", "introduction", "professional"],
+          "keywords": [
+            "directory",
+            "introduction",
+            "professional"
+          ],
           "category": "sales"
         },
         {
@@ -133,7 +198,12 @@
           "title": "Draft press release",
           "text": "Draft a press release about [Company News/Product Launch]. Structure: headline, date and place, introductory paragraph (who/what/when/where/why), body with quotes, company description and contact information. Tone: newsy, factual, professional. Target: Industry media.",
           "copyText": "Draft a press release about [Company News/Product Launch]. Structure: headline, date and place, introductory paragraph (who/what/when/where/why), body with quotes, company description and contact information. Tone: newsy, factual, professional. Target: Industry media.",
-          "keywords": ["message", "for the press", "message", "to the media"],
+          "keywords": [
+            "message",
+            "for the press",
+            "message",
+            "to the media"
+          ],
           "category": "sales"
         },
         {
@@ -141,7 +211,13 @@
           "title": "LinkedIn post series",
           "text": "Create 5 LinkedIn posts on [topic/industry trend] for a B2B audience. Mix up the formats: 1) question/survey, 2) quick carousel structure tip, 3) personal story or case study, 4) industry insight or data, 5) how-to guide. Include a hashtag strategy and publishing schedule.",
           "copyText": "Create 5 LinkedIn posts on [topic/industry trend] for a B2B audience. Mix up the formats: 1) question/survey, 2) quick carousel structure tip, 3) personal story or case study, 4) industry insight or data, 5) how-to guide. Include a hashtag strategy and publishing schedule.",
-          "keywords": ["linkedin", "post", "b2b", "professional", "leadership"],
+          "keywords": [
+            "linkedin",
+            "post",
+            "b2b",
+            "professional",
+            "leadership"
+          ],
           "category": "sales"
         },
         {
@@ -149,7 +225,13 @@
           "title": "Product video script",
           "text": "Write a script for a 90-second product video [product]. Include: hook (first 5 seconds), problem presentation, solution demo, key features (up to 3), benefits, social proof, and CTA. Format with timestamps, voiceover text, and visual notes. Purpose: YouTube and social networks.",
           "copyText": "Write a script for a 90-second product video [product]. Include: hook (first 5 seconds), problem presentation, solution demo, key features (up to 3), benefits, social proof, and CTA. Format with timestamps, voiceover text, and visual notes. Purpose: YouTube and social networks.",
-          "keywords": ["video", "script", "youtube", "demo", "explainer"],
+          "keywords": [
+            "video",
+            "script",
+            "youtube",
+            "demo",
+            "explainer"
+          ],
           "category": "sales"
         },
         {
@@ -157,7 +239,12 @@
           "title": "GTD method - organization of tasks",
           "text": "Organize tasks [paste tasks] using GTD (Getting Things Done) method. Categories: 1) Do now (2 min or less), 2) Delegate (to whom and when), 3) Snooze (when and how to remind), 4) Archive (information without action). Create an action plan and tracking system for each category.",
           "copyText": "Organize tasks [paste tasks] using GTD (Getting Things Done) method. Categories: 1) Do now (2 min or less), 2) Delegate (to whom and when), 3) Snooze (when and how to remind), 4) Archive (information without action). Create an action plan and tracking system for each category.",
-          "keywords": ["gtd", "method", "organization", "tasks"],
+          "keywords": [
+            "gtd",
+            "method",
+            "organization",
+            "tasks"
+          ],
           "category": "sales"
         },
         {
@@ -165,23 +252,41 @@
           "title": "Kanban board structure",
           "text": "Create a Kanban board structure [project/team]. Include: columns (To Do, In Progress, Review, Done), tasks with priorities, responsible persons, deadlines, blocking factors. Optimize for visualization and flow. Present as a structured plan that can be used in Trello, Asana, or other platforms.",
           "copyText": "Create a Kanban board structure [project/team]. Include: columns (To Do, In Progress, Review, Done), tasks with priorities, responsible persons, deadlines, blocking factors. Optimize for visualization and flow. Present as a structured plan that can be used in Trello, Asana, or other platforms.",
-          "keywords": ["kanban", "board", "project", "tasks"],
+          "keywords": [
+            "kanban",
+            "board",
+            "project",
+            "tasks"
+          ],
           "category": "sales"
         },
         {
           "id": 102,
-          "title": "🎯 Optimizing the customer journey",
-          "text": "You are a UX researcher and customer experience strategist specializing in B2B e-commerce platforms.\n\nROLE CONTEXT: You have helped over 50 companies optimize their customer engagement processes, reducing churn by an average of 32%.\n\nTASK: Analyze our current customer journey [customer segment] and identify friction points in the following stages:\n- Search and investigation\n- Account creation and first purchase\n- After purchase and support\n- Repeat purchase and loyalty\n\nFORMAT: Create a detailed travel map with:\n1. Timeline (visual description of each stage)\n2. Customer actions at each touch point\n3. Emotion and Pain Points (3-5 per stage)\n4. Opportunities for improvement (ranked by impact/effort)\n5. Quick wins (implemented within 2 weeks)\n\nTONE: Empathetic to customers, constructive to internal teams, action driven\n\nSTYLE: Use a story to illustrate the customer's perspective. Include:\n- real customer quotes or realistic examples\n- emotional language when describing pain points\n- recommendations based on data (even if the percentages are hypothetical)\n- visual metaphors that help concretize abstract ideas\n\nRESULT REQUIREMENTS:\n- Customer quotes are enclosed in quotation marks\n- Mark pain points with ⚠️\n- Opportunities are marked with 💡\n- Quick wins are marked with ⚡\n\nGOAL: Enable the team to implement at least 3 improvements in the next sprint that will visibly improve customer satisfaction indicators.",
-          "copyText": "You are a UX researcher and customer experience strategist specializing in B2B e-commerce platforms.\n\nROLE CONTEXT: You have helped over 50 companies optimize their customer engagement processes, reducing churn by an average of 32%.\n\nTASK: Analyze our current customer journey [customer segment] and identify friction points in the following stages:\n- Search and investigation\n- Account creation and first purchase\n- After purchase and support\n- Repeat purchase and loyalty\n\nFORMAT: Create a detailed travel map with:\n1. Timeline (visual description of each stage)\n2. Customer actions at each touch point\n3. Emotion and Pain Points (3-5 per stage)\n4. Opportunities for improvement (ranked by impact/effort)\n5. Quick wins (implemented within 2 weeks)\n\nTONE: Empathetic to customers, constructive to internal teams, action driven\n\nSTYLE: Use a story to illustrate the customer's perspective. Include:\n- real customer quotes or realistic examples\n- emotional language when describing pain points\n- recommendations based on data (even if the percentages are hypothetical)\n- visual metaphors that help concretize abstract ideas\n\nRESULT REQUIREMENTS:\n- Customer quotes are enclosed in quotation marks\n- Mark pain points with ⚠️\n- Opportunities are marked with 💡\n- Quick wins are marked with ⚡\n\nGOAL: Enable the team to implement at least 3 improvements in the next sprint that will visibly improve customer satisfaction indicators.",
-          "keywords": ["customer", "journey", "onboarding", "experience", "pain points"],
+          "title": "Optimizing the customer journey",
+          "text": "You are a UX researcher and customer experience strategist specializing in B2B e-commerce platforms.\n\nROLE CONTEXT: You have helped over 50 companies optimize their customer engagement processes, reducing churn by an average of 32%.\n\nTASK: Analyze our current customer journey [customer segment] and identify friction points in the following stages:\n- Search and investigation\n- Account creation and first purchase\n- After purchase and support\n- Repeat purchase and loyalty\n\nFORMAT: Create a detailed travel map with:\n1. Timeline (visual description of each stage)\n2. Customer actions at each touch point\n3. Emotion and Pain Points (3-5 per stage)\n4. Opportunities for improvement (ranked by impact/effort)\n5. Quick wins (implemented within 2 weeks)\n\nTONE: Empathetic to customers, constructive to internal teams, action driven\n\nSTYLE: Use a story to illustrate the customer's perspective. Include:\n- real customer quotes or realistic examples\n- emotional language when describing pain points\n- recommendations based on data (even if the percentages are hypothetical)\n- visual metaphors that help concretize abstract ideas\n\nRESULT REQUIREMENTS:\n- Customer quotes are enclosed in quotation marks\n- Mark pain points with\n- Opportunities are marked with\n- Quick wins are marked with\n\nGOAL: Enable the team to implement at least 3 improvements in the next sprint that will visibly improve customer satisfaction indicators.",
+          "copyText": "You are a UX researcher and customer experience strategist specializing in B2B e-commerce platforms.\n\nROLE CONTEXT: You have helped over 50 companies optimize their customer engagement processes, reducing churn by an average of 32%.\n\nTASK: Analyze our current customer journey [customer segment] and identify friction points in the following stages:\n- Search and investigation\n- Account creation and first purchase\n- After purchase and support\n- Repeat purchase and loyalty\n\nFORMAT: Create a detailed travel map with:\n1. Timeline (visual description of each stage)\n2. Customer actions at each touch point\n3. Emotion and Pain Points (3-5 per stage)\n4. Opportunities for improvement (ranked by impact/effort)\n5. Quick wins (implemented within 2 weeks)\n\nTONE: Empathetic to customers, constructive to internal teams, action driven\n\nSTYLE: Use a story to illustrate the customer's perspective. Include:\n- real customer quotes or realistic examples\n- emotional language when describing pain points\n- recommendations based on data (even if the percentages are hypothetical)\n- visual metaphors that help concretize abstract ideas\n\nRESULT REQUIREMENTS:\n- Customer quotes are enclosed in quotation marks\n- Mark pain points with\n- Opportunities are marked with\n- Quick wins are marked with\n\nGOAL: Enable the team to implement at least 3 improvements in the next sprint that will visibly improve customer satisfaction indicators.",
+          "keywords": [
+            "customer",
+            "journey",
+            "onboarding",
+            "experience",
+            "pain points"
+          ],
           "category": "sales"
         },
         {
           "id": 104,
-          "title": "🎯 Multi-touch sales email sequence",
+          "title": "Multi-touch sales email sequence",
           "text": "You are a B2B sales copywriter specializing in cold outreach and email automation sequences, achieving 25%+ open rates and 8%+ response rates.\n\nROLE EXPERTISE: Understand buyer psychology, decision-making processes in technical procurement, and the art of consistent but respectful reminders.\n\nTASK: Write a 5-email sequence for [position title] [business type], introducing [product/service].\n\nSEQUENCE STRUCTURE:\n\n1 email letter (day 0): Pattern Interrupt\n- A topic that stands out in the noise\n- Personalized first line based on [research signal]\n- One clear value proposition\n- Soft CTA (a question, not a meeting request)\n\n2 emails Letter (Day 3): Value Add\n- Subject: link to letter 1\n- Share a relevant resource (case study/guide/data)\n- No request—just value\n- P.S. with social proof\n\n3 emails letter (day 7): Specific use case\n- Topic: How [similar company] achieved [result]\n- Tell a micro story (problem → solution → result)\n- Include specific indicators\n- CTA: \"Would this be relevant to your company?\"\n\n4 emails letter (day 14): An honest \"goodbye\"\n- Subject: \"Should I close your case?\"\n- Admit that they are busy\n- Offer an easy opt-out or a specific contact time\n- Create FOMO without the pressure\n\n5 emails Letter (Day 21): A valuable alternative offer\n- Topic: \"Last Resource Before Leaving\"\n- Share your best content (ultimate guide/tool/template)\n- No sale—final value only\n- Leave the door open: \"If plans change, you know where to find me\"\n\nTONE: Professional, conversational, human. Non-sales and non-corporate. Confident but modest.\n\nSTYLE:\n- Write at an 8th grade reading level for clarity\n- Use \"you\" 3 times more than \"I\" or \"we\"\n- Sentences shorter than 20 words\n- One CTA per email\n- Include [CUSTOMIZATION TAGS] in brackets\n- Format for mobile\n\nLIMITATIONS:\n- Each letter: 75-125 words (without signature)\n- Subject lines: up to 50 characters\n- Avoid the phrases \"just checking in\", \"following up\", \"circle back\", \"touch base\"\n- Provide an A/B tested alternate subject line for the first email\n\nOBJECTIVE: Start conversations, not close deals. Focus on building curiosity and trust.",
           "copyText": "You are a B2B sales copywriter specializing in cold outreach and email automation sequences, achieving 25%+ open rates and 8%+ response rates.\n\nROLE EXPERTISE: Understand buyer psychology, decision-making processes in technical procurement, and the art of consistent but respectful reminders.\n\nTASK: Write a 5-email sequence for [position title] [business type], introducing [product/service].\n\nSEQUENCE STRUCTURE:\n\n1 email letter (day 0): Pattern Interrupt\n- A topic that stands out in the noise\n- Personalized first line based on [research signal]\n- One clear value proposition\n- Soft CTA (a question, not a meeting request)\n\n2 emails Letter (Day 3): Value Add\n- Subject: link to letter 1\n- Share a relevant resource (case study/guide/data)\n- No request—just value\n- P.S. with social proof\n\n3 emails letter (day 7): Specific use case\n- Topic: How [similar company] achieved [result]\n- Tell a micro story (problem → solution → result)\n- Include specific indicators\n- CTA: \"Would this be relevant to your company?\"\n\n4 emails letter (day 14): An honest \"goodbye\"\n- Subject: \"Should I close your case?\"\n- Admit that they are busy\n- Offer an easy opt-out or a specific contact time\n- Create FOMO without the pressure\n\n5 emails Letter (Day 21): A valuable alternative offer\n- Topic: \"Last Resource Before Leaving\"\n- Share your best content (ultimate guide/tool/template)\n- No sale—final value only\n- Leave the door open: \"If plans change, you know where to find me\"\n\nTONE: Professional, conversational, human. Non-sales and non-corporate. Confident but modest.\n\nSTYLE:\n- Write at an 8th grade reading level for clarity\n- Use \"you\" 3 times more than \"I\" or \"we\"\n- Sentences shorter than 20 words\n- One CTA per email\n- Include [CUSTOMIZATION TAGS] in brackets\n- Format for mobile\n\nLIMITATIONS:\n- Each letter: 75-125 words (without signature)\n- Subject lines: up to 50 characters\n- Avoid the phrases \"just checking in\", \"following up\", \"circle back\", \"touch base\"\n- Provide an A/B tested alternate subject line for the first email\n\nOBJECTIVE: Start conversations, not close deals. Focus on building curiosity and trust.",
-          "keywords": ["sales", "email", "letters", "personalization", "automation", "follow-up"],
+          "keywords": [
+            "sales",
+            "email",
+            "letters",
+            "personalization",
+            "automation",
+            "follow-up"
+          ],
           "category": "sales"
         }
       ]
@@ -189,7 +294,6 @@
     {
       "id": "procurement",
       "name": "Procurement",
-      "icon": "📦",
       "count": 2,
       "prompts": [
         {
@@ -197,7 +301,12 @@
           "title": "Notice of delay",
           "text": "Write a formal email to the supplier about the order delay and ask for an updated delivery date.",
           "copyText": "Write a formal email to the supplier about the order delay and ask for an updated delivery date.",
-          "keywords": ["delay", "email", "letter", "supplier"],
+          "keywords": [
+            "delay",
+            "email",
+            "letter",
+            "supplier"
+          ],
           "category": "procurement"
         },
         {
@@ -205,7 +314,12 @@
           "title": "Supplier contract summary",
           "text": "Summarize this supplier agreement [insert text], highlighting: key terms, pricing, delivery obligations, quality guarantees, payment terms, penalties/incentives, and potential risks or negotiation points.",
           "copyText": "Summarize this supplier agreement [insert text], highlighting: key terms, pricing, delivery obligations, quality guarantees, payment terms, penalties/incentives, and potential risks or negotiation points.",
-          "keywords": ["contract", "supplier", "negotiations", "conditions"],
+          "keywords": [
+            "contract",
+            "supplier",
+            "negotiations",
+            "conditions"
+          ],
           "category": "procurement"
         }
       ]
@@ -213,7 +327,6 @@
     {
       "id": "logistics",
       "name": "Logistics",
-      "icon": "🚚",
       "count": 5,
       "prompts": [
         {
@@ -221,7 +334,12 @@
           "title": "Comparison of suppliers",
           "text": "Create a comparison table of suppliers based on price, delivery time and reliability using the following data: [paste data].",
           "copyText": "Create a comparison table of suppliers based on price, delivery time and reliability using the following data: [paste data].",
-          "keywords": ["supplier", "comparison", "the price", "delivery"],
+          "keywords": [
+            "supplier",
+            "comparison",
+            "the price",
+            "delivery"
+          ],
           "category": "logistics"
         },
         {
@@ -229,7 +347,12 @@
           "title": "Daily task plan",
           "text": "Prepare a simple daily task plan for the warehouse team according to priorities (order picking, receiving, inventory).",
           "copyText": "Prepare a simple daily task plan for the warehouse team according to priorities (order picking, receiving, inventory).",
-          "keywords": ["of work", "plan", "warehouse", "priorities"],
+          "keywords": [
+            "of work",
+            "plan",
+            "warehouse",
+            "priorities"
+          ],
           "category": "logistics"
         },
         {
@@ -237,7 +360,11 @@
           "title": "Safety summary",
           "text": "Summarize basic safety instructions for a new warehouse worker (short version).",
           "copyText": "Summarize basic safety instructions for a new warehouse worker (short version).",
-          "keywords": ["safety", "instructions", "warehouse"],
+          "keywords": [
+            "safety",
+            "instructions",
+            "warehouse"
+          ],
           "category": "logistics"
         },
         {
@@ -245,7 +372,12 @@
           "title": "Packing and shipping instructions",
           "text": "Create packing and shipping instructions for order [Order #]. Include: items to be packaged, special handling requirements (fragile, ESD sensitive), required packaging materials, carrier selection, and shipping notes. Format as a warehouse checklist.",
           "copyText": "Create packing and shipping instructions for order [Order #]. Include: items to be packaged, special handling requirements (fragile, ESD sensitive), required packaging materials, carrier selection, and shipping notes. Format as a warehouse checklist.",
-          "keywords": ["packing", "shipping", "instructions", "delivery"],
+          "keywords": [
+            "packing",
+            "shipping",
+            "instructions",
+            "delivery"
+          ],
           "category": "logistics"
         },
         {
@@ -253,7 +385,12 @@
           "title": "Optimization of delivery routes",
           "text": "Create a delivery route optimization plan [region]. Evaluate: delivery addresses, distances, time, cargo weight/volume, delivery terms. Provide: optimal routes, time plan, fuel consumption, delivery sequence. Optimize for time and costs.",
           "copyText": "Create a delivery route optimization plan [region]. Evaluate: delivery addresses, distances, time, cargo weight/volume, delivery terms. Provide: optimal routes, time plan, fuel consumption, delivery sequence. Optimize for time and costs.",
-          "keywords": ["delivery", "route", "optimization", "transport"],
+          "keywords": [
+            "delivery",
+            "route",
+            "optimization",
+            "transport"
+          ],
           "category": "logistics"
         }
       ]
@@ -261,7 +398,6 @@
     {
       "id": "ecommerce",
       "name": "E-commerce",
-      "icon": "🛒",
       "count": 9,
       "prompts": [
         {
@@ -269,7 +405,11 @@
           "title": "Category names",
           "text": "Generate 10 product category titles with clear, human-understandable descriptions.",
           "copyText": "Generate 10 product category titles with clear, human-understandable descriptions.",
-          "keywords": ["categories", "names", "descriptions"],
+          "keywords": [
+            "categories",
+            "names",
+            "descriptions"
+          ],
           "category": "ecommerce"
         },
         {
@@ -277,7 +417,12 @@
           "title": "E-store text rewriting",
           "text": "Rewrite this product description to make it more attractive for the online store: [paste text].",
           "copyText": "Rewrite this product description to make it more attractive for the online store: [paste text].",
-          "keywords": ["rewrite", "description", "e-commerce", "shop"],
+          "keywords": [
+            "rewrite",
+            "description",
+            "e-commerce",
+            "shop"
+          ],
           "category": "ecommerce"
         },
         {
@@ -285,7 +430,14 @@
           "title": "Product page meta tags",
           "text": "Generate SEO meta tags for [product name] page. Provide: meta name (up to 60 characters), meta description (up to 155 characters), Open Graph tags and JSON-LD product schema with price, availability, ratings. Include target keywords: [keyword list].",
           "copyText": "Generate SEO meta tags for [product name] page. Provide: meta name (up to 60 characters), meta description (up to 155 characters), Open Graph tags and JSON-LD product schema with price, availability, ratings. Include target keywords: [keyword list].",
-          "keywords": ["seo", "meta", "tags", "title", "description", "schema"],
+          "keywords": [
+            "seo",
+            "meta",
+            "tags",
+            "title",
+            "description",
+            "schema"
+          ],
           "category": "ecommerce"
         },
         {
@@ -293,7 +445,11 @@
           "title": "E-commerce pricing strategy",
           "text": "Create a pricing strategy for [product category]. Evaluate: competitors' prices, product value, target audience, profit margin. Offer: basic price, discount strategy, bundle prices, seasonal prices. Provide recommendations with justification.",
           "copyText": "Create a pricing strategy for [product category]. Evaluate: competitors' prices, product value, target audience, profit margin. Offer: basic price, discount strategy, bundle prices, seasonal prices. Provide recommendations with justification.",
-          "keywords": ["pricing", "strategy", "competition"],
+          "keywords": [
+            "pricing",
+            "strategy",
+            "competition"
+          ],
           "category": "ecommerce"
         },
         {
@@ -301,7 +457,12 @@
           "title": "Product Category Hierarchy Plan",
           "text": "Create a hierarchy of product categories [for e-store]. Structure: 3-4 main categories, 3-5 subcategories in each, product filtering criteria (price, brand, specifications). Optimize for user experience and SEO.",
           "copyText": "Create a hierarchy of product categories [for e-store]. Structure: 3-4 main categories, 3-5 subcategories in each, product filtering criteria (price, brand, specifications). Optimize for user experience and SEO.",
-          "keywords": ["product", "categories", "structure", "navigation"],
+          "keywords": [
+            "product",
+            "categories",
+            "structure",
+            "navigation"
+          ],
           "category": "ecommerce"
         },
         {
@@ -309,7 +470,12 @@
           "title": "Description of delivery strategy",
           "text": "Create a clear description of the delivery strategy [for the e-store]. Include: shipping methods and prices, delivery times, international shipping options, free shipping terms, return policy. Format it as a page that customers can easily understand.",
           "copyText": "Create a clear description of the delivery strategy [for the e-store]. Include: shipping methods and prices, delivery times, international shipping options, free shipping terms, return policy. Format it as a page that customers can easily understand.",
-          "keywords": ["delivery", "strategy", "shipping", "description"],
+          "keywords": [
+            "delivery",
+            "strategy",
+            "shipping",
+            "description"
+          ],
           "category": "ecommerce"
         },
         {
@@ -317,7 +483,12 @@
           "title": "Job Description Generator",
           "text": "Write a compelling job description for [job title]. Include: a summary of the role, 5-7 key responsibilities, required qualifications, preferred competencies and why you should work for us. Tone: Professional but welcoming.",
           "copyText": "Write a compelling job description for [job title]. Include: a summary of the role, 5-7 key responsibilities, required qualifications, preferred competencies and why you should work for us. Tone: Professional but welcoming.",
-          "keywords": ["of work", "description", "ad", "selection"],
+          "keywords": [
+            "of work",
+            "description",
+            "ad",
+            "selection"
+          ],
           "category": "ecommerce"
         },
         {
@@ -325,15 +496,27 @@
           "title": "Job Description Template",
           "text": "Create a job description for [position title]. Include: job overview, key responsibilities, skills and experience required, education requirements, working conditions, salary range, benefits and how to apply. Optimize to attract the right candidates.",
           "copyText": "Create a job description for [position title]. Include: job overview, key responsibilities, skills and experience required, education requirements, working conditions, salary range, benefits and how to apply. Optimize to attract the right candidates.",
-          "keywords": ["of work", "description", "duties", "requirements"],
+          "keywords": [
+            "of work",
+            "description",
+            "duties",
+            "requirements"
+          ],
           "category": "ecommerce"
         },
         {
           "id": 103,
-          "title": "🎯 Content strategy and editorial calendar",
+          "title": "Content strategy and editorial calendar",
           "text": "You are a content marketing strategist and SEO specialist working with technical B2B content and thought leadership.\n\nCONTEXT: You've created content programs that have increased organic traffic by over 200% for industrial and electronics companies.\n\nASSIGNMENT: Create a 3-month editorial calendar for our company blog targeting [target audience] in the [industry] sector.\n\nFORMAT: For each content item, provide:\n1. Title (SEO optimized, up to 60 characters)\n2. Main keyword + 3 secondary keywords\n3. Search intent (informational/commercial/transactional)\n4. Content angle (unique perspective or hook)\n5. Structure (H2 and H3 plan)\n6. The target number of words\n7. Possibilities of internal links\n8. CTA strategy\n9. Predicted organic traffic potential (low/medium/high)\n\nBALANCE OF CONTENTS:\n- 40% educational How-to guides\n- 30% industry insights and trends\n- 20% product/solution explanations\n- 10% customer success stories\n\nTONE: Authoritative yet approachable; technical but without excessive jargon; educational with subtle sales support\n\nSTYLE:\n- Use strong words in titles (\"Ultimate\", \"Complete\", \"Essential\")\n- Structure for readability (short paragraphs, points)\n- Provide data and statistics when needed\n- Write to the technical buyer (engineer or purchasing manager)\n\nSEO REQUIREMENTS:\n- Choose keywords with 500-5000 monthly searches\n- Focus on low-medium competition keywords\n- Prioritize featured snippet opportunities\n- Include variations of long tails\n\nDELIVERY: Provide a schedule of 12 blog posts (4 per month) that form a cohesive narrative, build authority in our niche, and cover different stages of the buyer's journey.",
           "copyText": "You are a content marketing strategist and SEO specialist working with technical B2B content and thought leadership.\n\nCONTEXT: You've created content programs that have increased organic traffic by over 200% for industrial and electronics companies.\n\nASSIGNMENT: Create a 3-month editorial calendar for our company blog targeting [target audience] in the [industry] sector.\n\nFORMAT: For each content item, provide:\n1. Title (SEO optimized, up to 60 characters)\n2. Main keyword + 3 secondary keywords\n3. Search intent (informational/commercial/transactional)\n4. Content angle (unique perspective or hook)\n5. Structure (H2 and H3 plan)\n6. The target number of words\n7. Possibilities of internal links\n8. CTA strategy\n9. Predicted organic traffic potential (low/medium/high)\n\nBALANCE OF CONTENTS:\n- 40% educational How-to guides\n- 30% industry insights and trends\n- 20% product/solution explanations\n- 10% customer success stories\n\nTONE: Authoritative yet approachable; technical but without excessive jargon; educational with subtle sales support\n\nSTYLE:\n- Use strong words in titles (\"Ultimate\", \"Complete\", \"Essential\")\n- Structure for readability (short paragraphs, points)\n- Provide data and statistics when needed\n- Write to the technical buyer (engineer or purchasing manager)\n\nSEO REQUIREMENTS:\n- Choose keywords with 500-5000 monthly searches\n- Focus on low-medium competition keywords\n- Prioritize featured snippet opportunities\n- Include variations of long tails\n\nDELIVERY: Provide a schedule of 12 blog posts (4 per month) that form a cohesive narrative, build authority in our niche, and cover different stages of the buyer's journey.",
-          "keywords": ["content", "strategy", "seo", "blog", "editorial", "calendar"],
+          "keywords": [
+            "content",
+            "strategy",
+            "seo",
+            "blog",
+            "editorial",
+            "calendar"
+          ],
           "category": "ecommerce"
         }
       ]
@@ -341,7 +524,6 @@
     {
       "id": "design",
       "name": "Design",
-      "icon": "🎨",
       "count": 8,
       "prompts": [
         {
@@ -349,7 +531,13 @@
           "title": "Logo design concept",
           "text": "Create 5 logo design concepts for [company/product name]. Describe each option: color palette, typography, symbolism, adaptation to different media (print, digital, social). Provide a clear description for the designer to use as a reference.",
           "copyText": "Create 5 logo design concepts for [company/product name]. Describe each option: color palette, typography, symbolism, adaptation to different media (print, digital, social). Provide a clear description for the designer to use as a reference.",
-          "keywords": ["logo", "design", "brand", "identity", "typography"],
+          "keywords": [
+            "logo",
+            "design",
+            "brand",
+            "identity",
+            "typography"
+          ],
           "category": "design"
         },
         {
@@ -357,7 +545,12 @@
           "title": "Color palette recommendation",
           "text": "Suggest a color palette for the [project/company] type. Include: primary color (hex code), secondary colors, accent colors, neutral colors. Explain the psychological effects of each color and how they work together. Give examples of where to use each color.",
           "copyText": "Suggest a color palette for the [project/company] type. Include: primary color (hex code), secondary colors, accent colors, neutral colors. Explain the psychological effects of each color and how they work together. Give examples of where to use each color.",
-          "keywords": ["colors", "palette", "brand", "psychology"],
+          "keywords": [
+            "colors",
+            "palette",
+            "brand",
+            "psychology"
+          ],
           "category": "design"
         },
         {
@@ -365,7 +558,15 @@
           "title": "Description of graphic elements of social media",
           "text": "Create a detailed description of 10 social media graphics [topic/campaign]. Specify: size, composition, colors, typography, images/icons, text and CTA for each element. Optimize for Instagram, Facebook, LinkedIn formats.",
           "copyText": "Create a detailed description of 10 social media graphics [topic/campaign]. Specify: size, composition, colors, typography, images/icons, text and CTA for each element. Optimize for Instagram, Facebook, LinkedIn formats.",
-          "keywords": ["social", "the media", "graphic", "design", "post", "instagram", "facebook"],
+          "keywords": [
+            "social",
+            "the media",
+            "graphic",
+            "design",
+            "post",
+            "instagram",
+            "facebook"
+          ],
           "category": "design"
         },
         {
@@ -373,7 +574,13 @@
           "title": "Presentation template structure",
           "text": "Create the structure of a professional [topic] presentation template. Describe: title slide design, content slides (3-4 types), data visualization slides, closing slide. For each slide, specify: layout, colors, typography, places for images/graphics.",
           "copyText": "Create the structure of a professional [topic] presentation template. Describe: title slide design, content slides (3-4 types), data visualization slides, closing slide. For each slide, specify: layout, colors, typography, places for images/graphics.",
-          "keywords": ["presentations", "template", "slide", "design", "powerpoint"],
+          "keywords": [
+            "presentations",
+            "template",
+            "slide",
+            "design",
+            "powerpoint"
+          ],
           "category": "design"
         },
         {
@@ -381,7 +588,13 @@
           "title": "Product packaging design specification",
           "text": "Create a detailed product packaging design specification [product]. Include: package size and shape, color scheme, logo and branding placement, product information structure, necessary texts and symbols, material recommendations. Optimize for recognition at the point of sale.",
           "copyText": "Create a detailed product packaging design specification [product]. Include: package size and shape, color scheme, logo and branding placement, product information structure, necessary texts and symbols, material recommendations. Optimize for recognition at the point of sale.",
-          "keywords": ["product", "packaging", "design", "label", "description"],
+          "keywords": [
+            "product",
+            "packaging",
+            "design",
+            "label",
+            "description"
+          ],
           "category": "design"
         },
         {
@@ -389,7 +602,13 @@
           "title": "Web page wireframe description",
           "text": "Create a detailed wireframe description of the web page [page type: e.g. main, product, contact]. Describe: header structure, navigation, hero section, content blocks, footer. For each element, specify: size, position, functionality, priority. Optimize for mobile-first access.",
           "copyText": "Create a detailed wireframe description of the web page [page type: e.g. main, product, contact]. Describe: header structure, navigation, hero section, content blocks, footer. For each element, specify: size, position, functionality, priority. Optimize for mobile-first access.",
-          "keywords": ["web", "design", "UI", "UX", "wireframe"],
+          "keywords": [
+            "web",
+            "design",
+            "UI",
+            "UX",
+            "wireframe"
+          ],
           "category": "design"
         },
         {
@@ -397,7 +616,12 @@
           "title": "Infographic structure plan",
           "text": "Create an infographic structure plan [topic/data]. Describe: layout, types of data visualization (graphs, diagrams, icons), color coding, text hierarchy, flow (from top to bottom). Provide a clear description for the designer to use as a reference.",
           "copyText": "Create an infographic structure plan [topic/data]. Describe: layout, types of data visualization (graphs, diagrams, icons), color coding, text hierarchy, flow (from top to bottom). Provide a clear description for the designer to use as a reference.",
-          "keywords": ["infographics", "data", "visualization", "diagram"],
+          "keywords": [
+            "infographics",
+            "data",
+            "visualization",
+            "diagram"
+          ],
           "category": "design"
         },
         {
@@ -405,7 +629,12 @@
           "title": "email letter design template specification",
           "text": "Create email letter design template specification [type: e.g. newsletter, campaign, transactional]. Describe: header design, content blocks, CTA buttons, footer. Specify: colors, typography, spacing, responsive breakpoints, email client compatibility. Optimize for readability and drive to action.",
           "copyText": "Create email letter design template specification [type: e.g. newsletter, campaign, transactional]. Describe: header design, content blocks, CTA buttons, footer. Specify: colors, typography, spacing, responsive breakpoints, email client compatibility. Optimize for readability and drive to action.",
-          "keywords": ["email", "design", "template", "newsletter"],
+          "keywords": [
+            "email",
+            "design",
+            "template",
+            "newsletter"
+          ],
           "category": "design"
         }
       ]
@@ -413,7 +642,6 @@
     {
       "id": "analytics",
       "name": "Data analytics",
-      "icon": "📊",
       "count": 20,
       "prompts": [
         {
@@ -421,7 +649,11 @@
           "title": "Supply contract risk analysis",
           "text": "Analyze supply contract risks [contracts]. Identify: risk of price fluctuations, risk of delivery delays, quality risk, supplier financial risk, power fluctuation risk. For each risk, provide: probability, impact, mitigation strategies.",
           "copyText": "Analyze supply contract risks [contracts]. Identify: risk of price fluctuations, risk of delivery delays, quality risk, supplier financial risk, power fluctuation risk. For each risk, provide: probability, impact, mitigation strategies.",
-          "keywords": ["contract", "conditions", "risk"],
+          "keywords": [
+            "contract",
+            "conditions",
+            "risk"
+          ],
           "category": "analytics"
         },
         {
@@ -429,7 +661,12 @@
           "title": "Inventory audit report",
           "text": "Generate inventory audit report [location/category]. Compare: system quantities with physical count, identify discrepancies >5%, calculate loss percentage, suggest possible causes (damages, theft, errors) and recommend corrective actions.",
           "copyText": "Generate inventory audit report [location/category]. Compare: system quantities with physical count, identify discrepancies >5%, calculate loss percentage, suggest possible causes (damages, theft, errors) and recommend corrective actions.",
-          "keywords": ["inventory", "audit", "stocks", "control"],
+          "keywords": [
+            "inventory",
+            "audit",
+            "stocks",
+            "control"
+          ],
           "category": "analytics"
         },
         {
@@ -437,7 +674,12 @@
           "title": "Product review analysis and answers",
           "text": "Analyze [product] reviews [paste reviews] and: identify key themes (positive/negative), create professional responses to each question or complaint, suggest product improvements, create an FAQ section based on frequently asked questions.",
           "copyText": "Analyze [product] reviews [paste reviews] and: identify key themes (positive/negative), create professional responses to each question or complaint, suggest product improvements, create an FAQ section based on frequently asked questions.",
-          "keywords": ["product", "review", "feedback", "SEO"],
+          "keywords": [
+            "product",
+            "review",
+            "feedback",
+            "SEO"
+          ],
           "category": "analytics"
         },
         {
@@ -445,7 +687,13 @@
           "title": "Analysis of sales data",
           "text": "Analyze the following sales data [paste CSV or Excel data] and provide: monthly/quarterly comparison, top 10 products, geographic distribution, customer segmentation, trends and forecasts. Make recommendations to improve results.",
           "copyText": "Analyze the following sales data [paste CSV or Excel data] and provide: monthly/quarterly comparison, top 10 products, geographic distribution, customer segmentation, trends and forecasts. Make recommendations to improve results.",
-          "keywords": ["data", "analysis", "excel", "report", "trends"],
+          "keywords": [
+            "data",
+            "analysis",
+            "excel",
+            "report",
+            "trends"
+          ],
           "category": "analytics"
         },
         {
@@ -453,7 +701,12 @@
           "title": "KPI dashboard structure",
           "text": "Create a KPI dashboard structure [department/project]. Define: 8-10 main indicators, calculation formula for each indicator, data sources, update frequency, visualization type (graph, number, indicator). Provide a clear description that can be used in Excel, Power BI or Tableau.",
           "copyText": "Create a KPI dashboard structure [department/project]. Define: 8-10 main indicators, calculation formula for each indicator, data sources, update frequency, visualization type (graph, number, indicator). Provide a clear description that can be used in Excel, Power BI or Tableau.",
-          "keywords": ["KPIs", "dashboard", "indicators", "metrics"],
+          "keywords": [
+            "KPIs",
+            "dashboard",
+            "indicators",
+            "metrics"
+          ],
           "category": "analytics"
         },
         {
@@ -461,7 +714,13 @@
           "title": "Web analytics report",
           "text": "Create a monthly web analytics report [website]. Include: number of visitors and unique visitors, session duration, bounce rate, top pages, sources, devices, geography. Provide insights and recommendations to improve actions.",
           "copyText": "Create a monthly web analytics report [website]. Include: number of visitors and unique visitors, session duration, bounce rate, top pages, sources, devices, geography. Provide insights and recommendations to improve actions.",
-          "keywords": ["web", "analytics", "google", "analytics", "report"],
+          "keywords": [
+            "web",
+            "analytics",
+            "google",
+            "analytics",
+            "report"
+          ],
           "category": "analytics"
         },
         {
@@ -469,7 +728,12 @@
           "title": "Customer segmentation analysis",
           "text": "Perform RFM (Recency, Frequency, Monetary) customer segmentation analysis using [data]. Identify: VIP customers, loyal customers, potential customers, risk customers. For each segment, provide: characteristics, size, recommended marketing strategies.",
           "copyText": "Perform RFM (Recency, Frequency, Monetary) customer segmentation analysis using [data]. Identify: VIP customers, loyal customers, potential customers, risk customers. For each segment, provide: characteristics, size, recommended marketing strategies.",
-          "keywords": ["customers", "segmentation", "RFM", "analysis"],
+          "keywords": [
+            "customers",
+            "segmentation",
+            "RFM",
+            "analysis"
+          ],
           "category": "analytics"
         },
         {
@@ -477,7 +741,12 @@
           "title": "Sales forecast",
           "text": "Create a [period: eg 3 months, 6 months] sales forecast based on historical data [paste data]. Include: seasonality analysis, trend identification, optimistic/pessimistic/realistic scenario, risk factors and recommendations.",
           "copyText": "Create a [period: eg 3 months, 6 months] sales forecast based on historical data [paste data]. Include: seasonality analysis, trend identification, optimistic/pessimistic/realistic scenario, risk factors and recommendations.",
-          "keywords": ["forecasting", "trend", "analysis", "forecast"],
+          "keywords": [
+            "forecasting",
+            "trend",
+            "analysis",
+            "forecast"
+          ],
           "category": "analytics"
         },
         {
@@ -485,7 +754,12 @@
           "title": "Analysis of A/B test results",
           "text": "Analyze A/B test results [paste data: option A vs option B]. Include: conversion rates, statistical significance, confidence intervals, insights into causes and recommendations on which option to use and why.",
           "copyText": "Analyze A/B test results [paste data: option A vs option B]. Include: conversion rates, statistical significance, confidence intervals, insights into causes and recommendations on which option to use and why.",
-          "keywords": ["A/B", "the test", "an experiment", "results"],
+          "keywords": [
+            "A/B",
+            "the test",
+            "an experiment",
+            "results"
+          ],
           "category": "analytics"
         },
         {
@@ -493,7 +767,12 @@
           "title": "Data report for management",
           "text": "Create a [period] data report [topic] for management. Structure: executive summary (3-5 points), key indicators with comparisons, insights, risks and opportunities, recommended actions. Use clear language, visualizations and specific numbers.",
           "copyText": "Create a [period] data report [topic] for management. Structure: executive summary (3-5 points), key indicators with comparisons, insights, risks and opportunities, recommended actions. Use clear language, visualizations and specific numbers.",
-          "keywords": ["report", "management", "executive", "summary"],
+          "keywords": [
+            "report",
+            "management",
+            "executive",
+            "summary"
+          ],
           "category": "analytics"
         },
         {
@@ -501,7 +780,13 @@
           "title": "Customer success story",
           "text": "Write a compelling customer success story about [customer name]. Structure: a description of the client's performance, what challenge was faced, the solution implemented, the results achieved (with indicators), a quote from the client and lessons learned. Scope: 500-700 words. Tone: Inspirational but matter-of-fact, with a focus on measurable results.",
           "copyText": "Write a compelling customer success story about [customer name]. Structure: a description of the client's performance, what challenge was faced, the solution implemented, the results achieved (with indicators), a quote from the client and lessons learned. Scope: 500-700 words. Tone: Inspirational but matter-of-fact, with a focus on measurable results.",
-          "keywords": ["customer", "success", "story", "case study", "testimonial"],
+          "keywords": [
+            "customer",
+            "success",
+            "story",
+            "case study",
+            "testimonial"
+          ],
           "category": "analytics"
         },
         {
@@ -509,7 +794,12 @@
           "title": "Data import instruction",
           "text": "Create step-by-step instructions on how to import product data from CSV into our system.",
           "copyText": "Create step-by-step instructions on how to import product data from CSV into our system.",
-          "keywords": ["data", "import", "csv", "instruction"],
+          "keywords": [
+            "data",
+            "import",
+            "csv",
+            "instruction"
+          ],
           "category": "analytics"
         },
         {
@@ -517,7 +807,12 @@
           "title": "Budget Variance Analysis",
           "text": "Analyze the [department/project] budget variance by comparing planned and actual costs. Identify: the 3 largest overplanned categories, the 3 largest savings, the reasons for the deviation and recommendations for the next quarter. Format as an executive summary with key insights.",
           "copyText": "Analyze the [department/project] budget variance by comparing planned and actual costs. Identify: the 3 largest overplanned categories, the 3 largest savings, the reasons for the deviation and recommendations for the next quarter. Format as an executive summary with key insights.",
-          "keywords": ["budget", "deviation", "analysis", "expenses"],
+          "keywords": [
+            "budget",
+            "deviation",
+            "analysis",
+            "expenses"
+          ],
           "category": "analytics"
         },
         {
@@ -525,7 +820,12 @@
           "title": "Summary of the expense report",
           "text": "Summarize employee expense reports for [month/quarter]. Group by: travel, dining, office supplies and more. Flag expenses that exceed policy limits or require an explanation. Please provide the total approved amount and rejected requests with reasons.",
           "copyText": "Summarize employee expense reports for [month/quarter]. Group by: travel, dining, office supplies and more. Flag expenses that exceed policy limits or require an explanation. Please provide the total approved amount and rejected requests with reasons.",
-          "keywords": ["expenses", "report", "compensation", "politics"],
+          "keywords": [
+            "expenses",
+            "report",
+            "compensation",
+            "politics"
+          ],
           "category": "analytics"
         },
         {
@@ -533,7 +833,13 @@
           "title": "Summary of financial KPIs",
           "text": "Create a summary of financial KPIs for [period]. Include: revenue growth %, gross margin %, operating expense ratio, days owed by customers, inventory turnover, and cash conversion cycle. Add a year-on-year (YoY) comparison and a brief comment on the trend for each indicator.",
           "copyText": "Create a summary of financial KPIs for [period]. Include: revenue growth %, gross margin %, operating expense ratio, days owed by customers, inventory turnover, and cash conversion cycle. Add a year-on-year (YoY) comparison and a brief comment on the trend for each indicator.",
-          "keywords": ["financial", "kpi", "summary", "indicators", "performance"],
+          "keywords": [
+            "financial",
+            "kpi",
+            "summary",
+            "indicators",
+            "performance"
+          ],
           "category": "analytics"
         },
         {
@@ -541,7 +847,13 @@
           "title": "Pricing strategy analysis",
           "text": "Analyze optimal prices for [product/service] considering: cost price (€[X]), competitor prices ([paste data]), target margin ([Y]%) and market positioning. Provide 3 pricing scenarios (economy, standard, premium) with profit forecasts and recommendations.",
           "copyText": "Analyze optimal prices for [product/service] considering: cost price (€[X]), competitor prices ([paste data]), target margin ([Y]%) and market positioning. Provide 3 pricing scenarios (economy, standard, premium) with profit forecasts and recommendations.",
-          "keywords": ["pricing", "of profit", "margin", "costs", "analysis"],
+          "keywords": [
+            "pricing",
+            "of profit",
+            "margin",
+            "costs",
+            "analysis"
+          ],
           "category": "analytics"
         },
         {
@@ -549,7 +861,13 @@
           "title": "SWOT analysis",
           "text": "Conduct a detailed SWOT analysis for [project/company/product]. Include: Strengths (4-6 points), Weaknesses (4-6 points), Opportunities (4-6 points), Risks (4-6 points). For each point, provide: description, evidence/data, impact and recommendations. Format as a structured report with priorities.",
           "copyText": "Conduct a detailed SWOT analysis for [project/company/product]. Include: Strengths (4-6 points), Weaknesses (4-6 points), Opportunities (4-6 points), Risks (4-6 points). For each point, provide: description, evidence/data, impact and recommendations. Format as a structured report with priorities.",
-          "keywords": ["swot", "analysis", "strategy", "strengths", "weaknesses"],
+          "keywords": [
+            "swot",
+            "analysis",
+            "strategy",
+            "strengths",
+            "weaknesses"
+          ],
           "category": "analytics"
         },
         {
@@ -557,22 +875,36 @@
           "title": "PEST analysis",
           "text": "Conduct a PEST analysis for [company/project/business] [country/region]. Include: Political factors (4-5 points), Economic factors (4-5 points), Social factors (4-5 points), Technological factors (4-5 points). For each factor, provide: description, impact, trends and recommendations. Submit as a strategic report.",
           "copyText": "Conduct a PEST analysis for [company/project/business] [country/region]. Include: Political factors (4-5 points), Economic factors (4-5 points), Social factors (4-5 points), Technological factors (4-5 points). For each factor, provide: description, impact, trends and recommendations. Submit as a strategic report.",
-          "keywords": ["pest", "analysis", "politics", "economy", "social", "technology"],
+          "keywords": [
+            "pest",
+            "analysis",
+            "politics",
+            "economy",
+            "social",
+            "technology"
+          ],
           "category": "analytics"
         },
         {
           "id": 101,
-          "title": "🎯 Strategic analysis of competitors",
+          "title": "Strategic analysis of competitors",
           "text": "You are a senior market research analyst with 15 years of experience in B2B electronics distribution.\n\nASSIGNMENT: Perform a detailed analysis of the competitor [competitor name] in the [product category] market.\n\nFORMAT: Present the analysis in the following structure:\n1. Executive Summary (2-3 sentences)\n2. SWOT analysis (4-6 points in each quadrant)\n3. Evaluation of pricing strategy\n4. Market positioning map (describe visually)\n5. Three actionable recommendations with expected impact\n\nTONE: Professional, data-driven, strategic\n\nSTYLE: Use business terminology, include specific metrics where possible, refer to industry benchmarks, and avoid guesswork—focus on visible facts and logical conclusions.\n\nCONTEXT: We are a mid-sized distributor looking to differentiate our offering in a competitive market. Our strengths are customer service and technical expertise.\n\nLIMITS: Total output must be up to 500 words. Prioritize insights that deliver rapid competitive advantages.",
           "copyText": "You are a senior market research analyst with 15 years of experience in B2B electronics distribution.\n\nASSIGNMENT: Perform a detailed analysis of the competitor [competitor name] in the [product category] market.\n\nFORMAT: Present the analysis in the following structure:\n1. Executive Summary (2-3 sentences)\n2. SWOT analysis (4-6 points in each quadrant)\n3. Evaluation of pricing strategy\n4. Market positioning map (describe visually)\n5. Three actionable recommendations with expected impact\n\nTONE: Professional, data-driven, strategic\n\nSTYLE: Use business terminology, include specific metrics where possible, refer to industry benchmarks, and avoid guesswork—focus on visible facts and logical conclusions.\n\nCONTEXT: We are a mid-sized distributor looking to differentiate our offering in a competitive market. Our strengths are customer service and technical expertise.\n\nLIMITS: Total output must be up to 500 words. Prioritize insights that deliver rapid competitive advantages.",
-          "keywords": ["competitors", "analysis", "swot", "strategic", "market", "research"],
+          "keywords": [
+            "competitors",
+            "analysis",
+            "swot",
+            "strategic",
+            "market",
+            "research"
+          ],
           "category": "analytics"
         },
         {
           "id": 106,
-          "title": "🔬 Deep research methodology",
-          "text": "You are a senior research analyst with an academic background and 10+ years of experience in multi-layered market, scientific and business research.\n\nASSIGNMENT: Carry out a detailed in-depth study on: [research topic/question].\n\nRESEARCH METHODOLOGY (5 PHASES):\n\n## PHASE 1: SCOPE DEFINITION\n- Main research question: [formulate clearly]\n- Hypotheses (2-3): [what is expected to be found]\n- Limits: [what is NOT included in the study]\n- Success criteria: [how we will know the study is successful]\n\n## PHASE 2: SOURCE MAPPING\nGather information from different levels:\n🏛️ Primary sources: [official statistics, company reports, patents]\n📊 Secondary sources: [scientific articles, analyses, reviews]\n💬 Third-party sources: [expert opinions, forums, podcasts]\n⚡ Real-time signals: [news, social networks, trends]\n\n## PHASE 3: CROSS VERIFICATION\nFor each key statement:\n- Source A claims: [X]\n- Source B confirms/disagrees: [Y]\n- Confidence Score: [High/Medium/Low]\n- Uncertainties: [what remains unconfirmed]\n\n## PHASE 4: SYNTHESIS AND INSIGHTS\nStructured Analysis:\n1. Executive summary (5 sentences)\n2. Key findings (points 5-7 with evidence)\n3. Unexpected discoveries (what surprised)\n4. Contradictions between sources\n5. Knowledge gaps (what could not be found)\n\n## PHASE 5: RECOMMENDATIONS AND NEXT STEPS\n- Practical conclusions: [3-5 action recommendations]\n- Further research: [what questions need to be explored]\n- Declaration of credibility: [research limitations]\n\nFORMAT: Present your research with a clear visual structure, numbering and citations.\n\nLIMITATION: Clearly separate FACTS from INTERPRETATIONS from ASSUMPTIONS.",
-          "copyText": "You are a senior research analyst with an academic background and 10+ years of experience in multi-layered market, scientific and business research.\n\nASSIGNMENT: Carry out a detailed in-depth study on: [research topic/question].\n\nRESEARCH METHODOLOGY (5 PHASES):\n\n## PHASE 1: SCOPE DEFINITION\n- Main research question: [formulate clearly]\n- Hypotheses (2-3): [what is expected to be found]\n- Limits: [what is NOT included in the study]\n- Success criteria: [how we will know the study is successful]\n\n## PHASE 2: SOURCE MAPPING\nGather information from different levels:\n🏛️ Primary sources: [official statistics, company reports, patents]\n📊 Secondary sources: [scientific articles, analyses, reviews]\n💬 Third-party sources: [expert opinions, forums, podcasts]\n⚡ Real-time signals: [news, social networks, trends]\n\n## PHASE 3: CROSS VERIFICATION\nFor each key statement:\n- Source A claims: [X]\n- Source B confirms/disagrees: [Y]\n- Confidence Score: [High/Medium/Low]\n- Uncertainties: [what remains unconfirmed]\n\n## PHASE 4: SYNTHESIS AND INSIGHTS\nStructured Analysis:\n1. Executive summary (5 sentences)\n2. Key findings (points 5-7 with evidence)\n3. Unexpected discoveries (what surprised)\n4. Contradictions between sources\n5. Knowledge gaps (what could not be found)\n\n## PHASE 5: RECOMMENDATIONS AND NEXT STEPS\n- Practical conclusions: [3-5 action recommendations]\n- Further research: [what questions need to be explored]\n- Declaration of credibility: [research limitations]\n\nFORMAT: Present your research with a clear visual structure, numbering and citations.\n\nLIMITATION: Clearly separate FACTS from INTERPRETATIONS from ASSUMPTIONS.",
+          "title": "Deep research methodology",
+          "text": "You are a senior research analyst with an academic background and 10+ years of experience in multi-layered market, scientific and business research.\n\nASSIGNMENT: Carry out a detailed in-depth study on: [research topic/question].\n\nRESEARCH METHODOLOGY (5 PHASES):\n\n## PHASE 1: SCOPE DEFINITION\n- Main research question: [formulate clearly]\n- Hypotheses (2-3): [what is expected to be found]\n- Limits: [what is NOT included in the study]\n- Success criteria: [how we will know the study is successful]\n\n## PHASE 2: SOURCE MAPPING\nGather information from different levels:\n Primary sources: [official statistics, company reports, patents]\n Secondary sources: [scientific articles, analyses, reviews]\n Third-party sources: [expert opinions, forums, podcasts]\n Real-time signals: [news, social networks, trends]\n\n## PHASE 3: CROSS VERIFICATION\nFor each key statement:\n- Source A claims: [X]\n- Source B confirms/disagrees: [Y]\n- Confidence Score: [High/Medium/Low]\n- Uncertainties: [what remains unconfirmed]\n\n## PHASE 4: SYNTHESIS AND INSIGHTS\nStructured Analysis:\n1. Executive summary (5 sentences)\n2. Key findings (points 5-7 with evidence)\n3. Unexpected discoveries (what surprised)\n4. Contradictions between sources\n5. Knowledge gaps (what could not be found)\n\n## PHASE 5: RECOMMENDATIONS AND NEXT STEPS\n- Practical conclusions: [3-5 action recommendations]\n- Further research: [what questions need to be explored]\n- Declaration of credibility: [research limitations]\n\nFORMAT: Present your research with a clear visual structure, numbering and citations.\n\nLIMITATION: Clearly separate FACTS from INTERPRETATIONS from ASSUMPTIONS.",
+          "copyText": "You are a senior research analyst with an academic background and 10+ years of experience in multi-layered market, scientific and business research.\n\nASSIGNMENT: Carry out a detailed in-depth study on: [research topic/question].\n\nRESEARCH METHODOLOGY (5 PHASES):\n\n## PHASE 1: SCOPE DEFINITION\n- Main research question: [formulate clearly]\n- Hypotheses (2-3): [what is expected to be found]\n- Limits: [what is NOT included in the study]\n- Success criteria: [how we will know the study is successful]\n\n## PHASE 2: SOURCE MAPPING\nGather information from different levels:\n Primary sources: [official statistics, company reports, patents]\n Secondary sources: [scientific articles, analyses, reviews]\n Third-party sources: [expert opinions, forums, podcasts]\n Real-time signals: [news, social networks, trends]\n\n## PHASE 3: CROSS VERIFICATION\nFor each key statement:\n- Source A claims: [X]\n- Source B confirms/disagrees: [Y]\n- Confidence Score: [High/Medium/Low]\n- Uncertainties: [what remains unconfirmed]\n\n## PHASE 4: SYNTHESIS AND INSIGHTS\nStructured Analysis:\n1. Executive summary (5 sentences)\n2. Key findings (points 5-7 with evidence)\n3. Unexpected discoveries (what surprised)\n4. Contradictions between sources\n5. Knowledge gaps (what could not be found)\n\n## PHASE 5: RECOMMENDATIONS AND NEXT STEPS\n- Practical conclusions: [3-5 action recommendations]\n- Further research: [what questions need to be explored]\n- Declaration of credibility: [research limitations]\n\nFORMAT: Present your research with a clear visual structure, numbering and citations.\n\nLIMITATION: Clearly separate FACTS from INTERPRETATIONS from ASSUMPTIONS.",
           "keywords": [
             "investigation",
             "analysis",
@@ -590,7 +922,6 @@
     {
       "id": "marketing",
       "name": "Marketing",
-      "icon": "📢",
       "count": 4,
       "prompts": [
         {
@@ -598,7 +929,12 @@
           "title": "Banner text for promotions",
           "text": "Write a compelling banner text for the [Promotion/Sale] campaign. Create 3 versions: 1) Short headline + CTA button (5-7 words), 2) Medium length text with benefits (15-20 words), 3) Urgent text with deadline. Provide recommendations for A/B testing.",
           "copyText": "Write a compelling banner text for the [Promotion/Sale] campaign. Create 3 versions: 1) Short headline + CTA button (5-7 words), 2) Medium length text with benefits (15-20 words), 3) Urgent text with deadline. Provide recommendations for A/B testing.",
-          "keywords": ["banner", "action", "campaign", "title"],
+          "keywords": [
+            "banner",
+            "action",
+            "campaign",
+            "title"
+          ],
           "category": "marketing"
         },
         {
@@ -606,7 +942,11 @@
           "title": "Newsletter text",
           "text": "Write the text of the newsletter about the promotion: -20% for all measuring devices until Sunday.",
           "copyText": "Write the text of the newsletter about the promotion: -20% for all measuring devices until Sunday.",
-          "keywords": ["newsletter", "action", "discount"],
+          "keywords": [
+            "newsletter",
+            "action",
+            "discount"
+          ],
           "category": "marketing"
         },
         {
@@ -614,7 +954,13 @@
           "title": "Facebook post ideas",
           "text": "Generate 5 Facebook post ideas about new Arduino products, each with a clear call to action.",
           "copyText": "Generate 5 Facebook post ideas about new Arduino products, each with a clear call to action.",
-          "keywords": ["facebook", "post", "social", "networks", "arduino"],
+          "keywords": [
+            "facebook",
+            "post",
+            "social",
+            "networks",
+            "arduino"
+          ],
           "category": "marketing"
         },
         {
@@ -622,7 +968,12 @@
           "title": "Email marketing campaign plan",
           "text": "Create an email marketing campaign plan for [period] on [subject]. Include: campaign goals, audience segmentation, email subject lines and creative, personalization strategy, A/B tests, and success metrics. Optimize for open and conversion rates.",
           "copyText": "Create an email marketing campaign plan for [period] on [subject]. Include: campaign goals, audience segmentation, email subject lines and creative, personalization strategy, A/B tests, and success metrics. Optimize for open and conversion rates.",
-          "keywords": ["email", "marketing", "campaign", "segmentation"],
+          "keywords": [
+            "email",
+            "marketing",
+            "campaign",
+            "segmentation"
+          ],
           "category": "marketing"
         }
       ]
@@ -630,7 +981,6 @@
     {
       "id": "it",
       "name": "IT",
-      "icon": "💻",
       "count": 12,
       "prompts": [
         {
@@ -638,7 +988,13 @@
           "title": "Import price calculator",
           "text": "Create a calculator for imported goods (goods + transport + VAT + customs fees = final price).",
           "copyText": "Create a calculator for imported goods (goods + transport + VAT + customs fees = final price).",
-          "keywords": ["import", "calculator", "VAT", "customs duty", "transport"],
+          "keywords": [
+            "import",
+            "calculator",
+            "VAT",
+            "customs duty",
+            "transport"
+          ],
           "category": "it"
         },
         {
@@ -646,7 +1002,13 @@
           "title": "Data quality audit",
           "text": "Perform a data quality audit [dataset]. Identify: missing data, duplicates, incorrect formats, outliers, inconsistencies. Provide: problem overview, impact assessment, priorities and recommendations for data cleanup.",
           "copyText": "Perform a data quality audit [dataset]. Identify: missing data, duplicates, incorrect formats, outliers, inconsistencies. Provide: problem overview, impact assessment, priorities and recommendations for data cleanup.",
-          "keywords": ["data", "cleaning", "date", "cleaning", "quality"],
+          "keywords": [
+            "data",
+            "cleaning",
+            "date",
+            "cleaning",
+            "quality"
+          ],
           "category": "it"
         },
         {
@@ -654,7 +1016,13 @@
           "title": "ERP error help",
           "text": "Explain in simple terms how a user can fix this ERP login error: [error message].",
           "copyText": "Explain in simple terms how a user can fix this ERP login error: [error message].",
-          "keywords": ["erp", "mistake", "repair", "malfunctions", "removal"],
+          "keywords": [
+            "erp",
+            "mistake",
+            "repair",
+            "malfunctions",
+            "removal"
+          ],
           "category": "it"
         },
         {
@@ -662,7 +1030,13 @@
           "title": "IT Support Response Template",
           "text": "Create a Help Desk Response Template [Common IT Problem: Password Reset/Email access/VPN connection]. Include: greeting, problem confirmation, numbered troubleshooting steps, estimated resolution time, escalation path if not resolved, and closing with a ticket number.",
           "copyText": "Create a Help Desk Response Template [Common IT Problem: Password Reset/Email access/VPN connection]. Include: greeting, problem confirmation, numbered troubleshooting steps, estimated resolution time, escalation path if not resolved, and closing with a ticket number.",
-          "keywords": ["password", "restoration", "account", "security", "help"],
+          "keywords": [
+            "password",
+            "restoration",
+            "account",
+            "security",
+            "help"
+          ],
           "category": "it"
         },
         {
@@ -670,7 +1044,14 @@
           "title": "Backup and recovery plan",
           "text": "Develop a backup and recovery procedure for [system/database]. Set: backup frequency (daily/weekly), type (full/incremental), storage location (local/cloud), storage policy, recovery time (RTO), recovery point objective (RPO) and testing schedule.",
           "copyText": "Develop a backup and recovery procedure for [system/database]. Set: backup frequency (daily/weekly), type (full/incremental), storage location (local/cloud), storage policy, recovery time (RTO), recovery point objective (RPO), and testing schedule.",
-          "keywords": ["spare", "copies", "recovery", "plan", "data", "protection"],
+          "keywords": [
+            "spare",
+            "copies",
+            "recovery",
+            "plan",
+            "data",
+            "protection"
+          ],
           "category": "it"
         },
         {
@@ -678,7 +1059,13 @@
           "title": "User access matrix",
           "text": "Create a user access control matrix for [system/application]. Define roles (administrator, manager, user, read-only), permissions for each role, data access levels, approval process for access requests, and periodic review schedule. Format as a clear table with RBAC logic.",
           "copyText": "Create a user access control matrix for [system/application]. Define roles (administrator, manager, user, read-only), permissions for each role, data access levels, approval process for access requests, and periodic review schedule. Format as a clear table with RBAC logic.",
-          "keywords": ["users", "access", "permits", "roles", "security"],
+          "keywords": [
+            "users",
+            "access",
+            "permits",
+            "roles",
+            "security"
+          ],
           "category": "it"
         },
         {
@@ -686,7 +1073,13 @@
           "title": "Technical documentation template",
           "text": "Prepare technical documentation for [feature/API/module]. Include: overview and purpose, requirements, step-by-step instructions with screenshots, code samples (if applicable), common errors and solutions, FAQ, and version history. Target audience: [developers/end users/administrators].",
           "copyText": "Prepare technical documentation for [feature/API/module]. Include: overview and purpose, requirements, step-by-step instructions with screenshots, code samples (if applicable), common errors and solutions, FAQ, and version history. Target audience: [developers/end users/administrators].",
-          "keywords": ["software", "documentation", "api", "technical", "specifications"],
+          "keywords": [
+            "software",
+            "documentation",
+            "api",
+            "technical",
+            "specifications"
+          ],
           "category": "it"
         },
         {
@@ -694,7 +1087,13 @@
           "title": "Data backup strategy",
           "text": "Create a data backup strategy [system/data]. Include: what is backed up, frequency (daily/weekly), storage locations (cloud/local), storage period, recovery procedures, testing schedule. Optimize for security and fast recovery.",
           "copyText": "Create a data backup strategy [system/data]. Include: what is backed up, frequency (daily/weekly), storage locations (cloud/local), storage period, recovery procedures, testing schedule. Optimize for security and fast recovery.",
-          "keywords": ["backup", "strategy", "spare", "copy", "data"],
+          "keywords": [
+            "backup",
+            "strategy",
+            "spare",
+            "copy",
+            "data"
+          ],
           "category": "it"
         },
         {
@@ -702,7 +1101,12 @@
           "title": "Payment reminder email",
           "text": "Write a professional yet friendly payment reminder email regarding invoice #[number], which is [X days] overdue. Include: invoice details, payment methods, and contact information. Tone: polite but firm while maintaining a good customer relationship.",
           "copyText": "Write a professional yet friendly payment reminder email regarding invoice #[number], which is [X days] overdue. Include: invoice details, payment methods, and contact information. Tone: polite but firm while maintaining a good customer relationship.",
-          "keywords": ["account", "a reminder", "payment", "is late"],
+          "keywords": [
+            "account",
+            "a reminder",
+            "payment",
+            "is late"
+          ],
           "category": "it"
         },
         {
@@ -710,7 +1114,12 @@
           "title": "Financial audit checklist",
           "text": "Create an audit preparation checklist [audit type: annual/internal/tax]. Include: documents to be prepared, compliance procedures required, compliance points and performance schedule. Arrange according to priorities (critical, important, available).",
           "copyText": "Create an audit preparation checklist [audit type: annual/internal/tax]. Include: documents to be prepared, compliance procedures required, compliance points and performance schedule. Arrange according to priorities (critical, important, available).",
-          "keywords": ["audit", "control", "list", "compliance"],
+          "keywords": [
+            "audit",
+            "control",
+            "list",
+            "compliance"
+          ],
           "category": "it"
         },
         {
@@ -718,7 +1127,13 @@
           "title": "Eisenhower matrix task classification",
           "text": "Classify the following tasks [paste list of tasks] using the Eisenhower matrix. Categories: 1) Urgent and important (do now), 2) Important but not urgent (plan), 3) Urgent but not important (delegate), 4) Not urgent and not important (put aside). For each category, provide: tasks, action plan and time estimate.",
           "copyText": "Classify the following tasks [paste list of tasks] using the Eisenhower matrix. Categories: 1) Urgent and important (do now), 2) Important but not urgent (plan), 3) Urgent but not important (delegate), 4) Not urgent and not important (put aside). For each category, provide: tasks, action plan and time estimate.",
-          "keywords": ["Eisenhower", "matrix", "priorities", "urgency", "importance"],
+          "keywords": [
+            "Eisenhower",
+            "matrix",
+            "priorities",
+            "urgency",
+            "importance"
+          ],
           "category": "it"
         },
         {
@@ -726,7 +1141,12 @@
           "title": "Decision matrix",
           "text": "Create a decision matrix [decision: eg product choice, strategy choice]. Include: alternatives (3-5 options), evaluation criteria (5-7 criteria), weight of each criterion (1-10), evaluation of each alternative (1-10). Calculate the total score and provide a recommendation with justification.",
           "copyText": "Create a decision matrix [decision: eg product choice, strategy choice]. Include: alternatives (3-5 options), evaluation criteria (5-7 criteria), weight of each criterion (1-10), evaluation of each alternative (1-10). Calculate the total score and provide a recommendation with justification.",
-          "keywords": ["solutions", "matrix", "criteria", "evaluation"],
+          "keywords": [
+            "solutions",
+            "matrix",
+            "criteria",
+            "evaluation"
+          ],
           "category": "it"
         }
       ]
@@ -734,7 +1154,6 @@
     {
       "id": "finance",
       "name": "Finance",
-      "icon": "💰",
       "count": 3,
       "prompts": [
         {
@@ -742,7 +1161,12 @@
           "title": "Price calculation",
           "text": "Calculate the final price, apply 15% markup and 21% VAT if the purchase price is [x EUR].",
           "copyText": "Calculate the final price, apply 15% markup and 21% VAT if the purchase price is [x EUR].",
-          "keywords": ["the price", "calculation", "markup", "VAT"],
+          "keywords": [
+            "the price",
+            "calculation",
+            "markup",
+            "VAT"
+          ],
           "category": "finance"
         },
         {
@@ -750,7 +1174,12 @@
           "title": "VAT explanation",
           "text": "Write a clear explanation to the client on how VAT is calculated and what rules apply to buyers from Lithuania.",
           "copyText": "Write a clear explanation to the client on how VAT is calculated and what rules apply to buyers from Lithuania.",
-          "keywords": ["VAT", "explanation", "tax", "Lithuania"],
+          "keywords": [
+            "VAT",
+            "explanation",
+            "tax",
+            "Lithuania"
+          ],
           "category": "finance"
         },
         {
@@ -758,7 +1187,12 @@
           "title": "Cash flow forecast",
           "text": "Create a 3-month cash flow forecast based on the following data: [paste numbers]. Include: opening balance, expected inflows (with payment terms), expected outflows, and projected ending balance. Highlight potential liquidity risks and suggest mitigation measures.",
           "copyText": "Create a 3-month cash flow forecast based on the following data: [paste numbers]. Include: opening balance, expected inflows (with payment terms), expected outflows, and projected ending balance. Highlight potential liquidity risks and suggest mitigation measures.",
-          "keywords": ["money", "streams", "forecast", "liquidity"],
+          "keywords": [
+            "money",
+            "streams",
+            "forecast",
+            "liquidity"
+          ],
           "category": "finance"
         }
       ]
@@ -766,7 +1200,6 @@
     {
       "id": "hr",
       "name": "HR",
-      "icon": "👥",
       "count": 7,
       "prompts": [
         {
@@ -774,7 +1207,12 @@
           "title": "A set of interview questions",
           "text": "Create 10 behavioral interview questions for [position title] candidate. Include 3 questions on problem solving, 3 on teamwork skills, 2 on working under pressure and 2 technical questions related to the role. Give what to look for when a candidate answers well.",
           "copyText": "Create 10 behavioral interview questions for [position title] candidate. Include 3 questions on problem solving, 3 on teamwork skills, 2 on working under pressure and 2 technical questions related to the role. Give what to look for when a candidate answers well.",
-          "keywords": ["interview", "questions", "candidates", "evaluation"],
+          "keywords": [
+            "interview",
+            "questions",
+            "candidates",
+            "evaluation"
+          ],
           "category": "hr"
         },
         {
@@ -782,7 +1220,13 @@
           "title": "Entry Checklist",
           "text": "Create a comprehensive 30-day onboarding checklist for a new [position title] starting on [date]. Sort by: 1 day, 1 week, 2-4 weeks and 1 month. Include tasks for staff, manager and new employee.",
           "copyText": "Create a comprehensive 30-day onboarding checklist for a new [position title] starting on [date]. Sort by: 1 day, 1 week, 2-4 weeks and 1 month. Include tasks for staff, manager and new employee.",
-          "keywords": ["introduction", "control", "list", "new", "an employee"],
+          "keywords": [
+            "introduction",
+            "control",
+            "list",
+            "new",
+            "an employee"
+          ],
           "category": "hr"
         },
         {
@@ -790,7 +1234,13 @@
           "title": "Performance appraisal template",
           "text": "Create a balanced performance appraisal template for employee [employee name] working in [position title]. Include sections for: achievements, areas for improvement, goal progress, skill development, and goals for next quarter. Use constructive, growth-oriented language.",
           "copyText": "Create a balanced performance appraisal template for employee [employee name] working in [position title]. Include sections for: achievements, areas for improvement, goal progress, skill development, and goals for next quarter. Use constructive, growth-oriented language.",
-          "keywords": ["activities", "evaluation", "reversible", "connection", "goals"],
+          "keywords": [
+            "activities",
+            "evaluation",
+            "reversible",
+            "connection",
+            "goals"
+          ],
           "category": "hr"
         },
         {
@@ -798,7 +1248,12 @@
           "title": "Draft personnel policy",
           "text": "Draft a clear, employee-friendly [policy topic: eg telecommuting, leave, expenses] policy. Structure: purpose, scope, policy details, procedures and FAQs. Use simple language and give 3-5 most common situations with examples.",
           "copyText": "Draft a clear, employee-friendly [policy topic: eg telecommuting, leave, expenses] policy. Structure: purpose, scope, policy details, procedures and FAQs. Use simple language and give 3-5 most common situations with examples.",
-          "keywords": ["politics", "personnel", "rules", "manager"],
+          "keywords": [
+            "politics",
+            "personnel",
+            "rules",
+            "manager"
+          ],
           "category": "hr"
         },
         {
@@ -806,7 +1261,13 @@
           "title": "Curriculum plan",
           "text": "Create a half-day training program on [topic] for [department/team]. Include: learning objectives, agenda with time plan, activities/practice, materials needed and how to measure teaching effectiveness.",
           "copyText": "Create a half-day training program on [topic] for [department/team]. Include: learning objectives, agenda with time plan, activities/practice, materials needed and how to measure teaching effectiveness.",
-          "keywords": ["training", "program", "skills", "education", "workshop"],
+          "keywords": [
+            "training",
+            "program",
+            "skills",
+            "education",
+            "workshop"
+          ],
           "category": "hr"
         },
         {
@@ -814,7 +1275,13 @@
           "title": "Job offer letter",
           "text": "Write a professional job offer letter to candidate [candidate name] for [position title]. Include: salary, start date, summary of benefits, accountability and next steps. Tone: Warm and welcoming while maintaining formality.",
           "copyText": "Write a professional job offer letter to candidate [candidate name] for [position title]. Include: salary, start date, summary of benefits, accountability and next steps. Tone: Warm and welcoming while maintaining formality.",
-          "keywords": ["of work", "offer", "letter", "employment", "contract"],
+          "keywords": [
+            "of work",
+            "offer",
+            "letter",
+            "employment",
+            "contract"
+          ],
           "category": "hr"
         },
         {
@@ -822,7 +1289,13 @@
           "title": "Employee Engagement Survey",
           "text": "Create a 15-question employee engagement survey covering: job satisfaction, manager effectiveness, work-life balance, growth opportunities, and company culture. Use a mixed form of rating scale (1-5) and open-ended questions. Make sure the survey is anonymous.",
           "copyText": "Create a 15-question employee engagement survey covering: job satisfaction, manager effectiveness, work-life balance, growth opportunities, and company culture. Use a mixed form of rating scale (1-5) and open-ended questions. Make sure the survey is anonymous.",
-          "keywords": ["employees", "engagement", "survey", "feedback", "culture"],
+          "keywords": [
+            "employees",
+            "engagement",
+            "survey",
+            "feedback",
+            "culture"
+          ],
           "category": "hr"
         }
       ]
@@ -830,7 +1303,6 @@
     {
       "id": "productivity",
       "name": "Productivity",
-      "icon": "⚡",
       "count": 13,
       "prompts": [
         {
@@ -838,7 +1310,11 @@
           "title": "Client meeting agenda",
           "text": "Create a 30-minute client meeting agenda [topic]. Include: introductory part (5 min), identification of customer needs (10 min), presentation of the solution (10 min), questions and answers (5 min). Provide a list of questions and guidelines for the discussion.",
           "copyText": "Create a 30-minute client meeting agenda [topic]. Include: introductory part (5 min), identification of customer needs (10 min), presentation of the solution (10 min), questions and answers (5 min). Provide a list of questions and guidelines for the discussion.",
-          "keywords": ["of the client", "a meeting", "presentation"],
+          "keywords": [
+            "of the client",
+            "a meeting",
+            "presentation"
+          ],
           "category": "productivity"
         },
         {
@@ -846,7 +1322,12 @@
           "title": "Stock replenishment recommendation",
           "text": "Analyze [product category] inventory levels and suggest replenishment quantities. Evaluate: current inventory, average monthly sales, lead time ([X days]), safety stock requirements, and seasonality. Provide a prioritized list of procurement actions.",
           "copyText": "Analyze [product category] inventory levels and suggest replenishment quantities. Evaluate: current inventory, average monthly sales, lead time ([X days]), safety stock requirements, and seasonality. Provide a prioritized list of procurement actions.",
-          "keywords": ["stocks", "addition", "inventory", "planning"],
+          "keywords": [
+            "stocks",
+            "addition",
+            "inventory",
+            "planning"
+          ],
           "category": "productivity"
         },
         {
@@ -854,7 +1335,12 @@
           "title": "Optimization of warehouse space",
           "text": "Analyze warehouse space utilization in zone [zone/corridor]. Identify: slow-moving items occupying prime locations, frequently assembled items far from the packing station, and wasted space. Provide 5 reorganization recommendations to improve assembly efficiency by [X]%.",
           "copyText": "Analyze warehouse space utilization in zone [zone/corridor]. Identify: slow-moving items occupying prime locations, frequently assembled items far from the packing station, and wasted space. Provide 5 reorganization recommendations to improve assembly efficiency by [X]%.",
-          "keywords": ["warehouse", "layout", "optimization", "efficiency"],
+          "keywords": [
+            "warehouse",
+            "layout",
+            "optimization",
+            "efficiency"
+          ],
           "category": "productivity"
         },
         {
@@ -862,7 +1348,13 @@
           "title": "Pomodoro Agenda Plan",
           "text": "Create a Pomodoro agenda for [day/week] [topic/project]. Include: list of tasks with priorities, number of Pomodoros for each task (1 Pomodoro = 25 min), short breaks (5 min) and long breaks (15-30 min after 4 Pomodoros). Optimize task sequence based on energy level and priorities. Submit as a lesson plan.",
           "copyText": "Create a Pomodoro agenda for [day/week] [topic/project]. Include: list of tasks with priorities, number of Pomodoros for each task (1 Pomodoro = 25 min), short breaks (5 min) and long breaks (15-30 min after 4 Pomodoros). Optimize task sequence based on energy level and priorities. Submit as a lesson plan.",
-          "keywords": ["pomodoro", "agenda", "time", "management", "productivity"],
+          "keywords": [
+            "pomodoro",
+            "agenda",
+            "time",
+            "management",
+            "productivity"
+          ],
           "category": "productivity"
         },
         {
@@ -870,7 +1362,12 @@
           "title": "Formulating SMART goals",
           "text": "Create 5 SMART goals [topic/project]. Each goal must be: Specific, Measurable, Achievable, Relevant, Time-bound. For each goal, provide: a description, metrics, action plan, time frames, and success criteria.",
           "copyText": "Create 5 SMART goals [topic/project]. Each goal must be: Specific, Measurable, Achievable, Relevant, Time-bound. For each goal, provide: a description, metrics, action plan, time frames, and success criteria.",
-          "keywords": ["smart", "goals", "planning", "purpose"],
+          "keywords": [
+            "smart",
+            "goals",
+            "planning",
+            "purpose"
+          ],
           "category": "productivity"
         },
         {
@@ -878,7 +1375,12 @@
           "title": "Time blocking agenda",
           "text": "Create a time-blocking agenda for [day/week] [task/project]. Include: fixed times (meetings, calls), deep agenda blocks (2-3 hours without breaks), short task blocks (30-60 min), breaks and free time. Optimize according to energy level and priorities. Submit as a time calendar.",
           "copyText": "Create a time-blocking agenda for [day/week] [task/project]. Include: fixed times (meetings, calls), deep agenda blocks (2-3 hours without breaks), short task blocks (30-60 min), breaks and free time. Optimize according to energy level and priorities. Submit as a time calendar.",
-          "keywords": ["time", "blocking", "agenda", "planning"],
+          "keywords": [
+            "time",
+            "blocking",
+            "agenda",
+            "planning"
+          ],
           "category": "productivity"
         },
         {
@@ -886,7 +1388,14 @@
           "title": "2 minute rule task identification",
           "text": "Analyze the list of tasks [paste tasks] and identify which can be completed in 2 minutes or less. Create: 1) A list of quick tasks (do it now), 2) Tasks that can be broken down into 2 min. part, 3) Action plan, how to quickly perform them. Optimize for productivity and time savings.",
           "copyText": "Analyze the list of tasks [paste tasks] and identify which can be completed in 2 minutes or less. Create: 1) A list of quick tasks (do it now), 2) Tasks that can be broken down into 2 min. part, 3) Action plan, how to quickly perform them. Optimize for productivity and time savings.",
-          "keywords": ["2", "minutes", "the rule", "fast", "tasks", "productivity"],
+          "keywords": [
+            "2",
+            "minutes",
+            "the rule",
+            "fast",
+            "tasks",
+            "productivity"
+          ],
           "category": "productivity"
         },
         {
@@ -894,7 +1403,12 @@
           "title": "Deep work schedule",
           "text": "Create a deep work schedule [week/month] [project]. Include: 2-4 hrs. blocks of deep work without breaks, optimal times according to energy level, preparation before deep work (list of tasks, materials), activities after deep work (easier tasks). Optimize for concentration and productivity.",
           "copyText": "Create a deep work schedule [week/month] [project]. Include: 2-4 hrs. blocks of deep work without breaks, optimal times according to energy level, preparation before deep work (list of tasks, materials), activities after deep work (easier tasks). Optimize for concentration and productivity.",
-          "keywords": ["deep", "work", "concentration", "productivity"],
+          "keywords": [
+            "deep",
+            "work",
+            "concentration",
+            "productivity"
+          ],
           "category": "productivity"
         },
         {
@@ -902,7 +1416,12 @@
           "title": "Weekly review template",
           "text": "Create a weekly review template [week]. Include: 1) Goals and successes achieved, 2) Tasks not completed and why, 3) Lessons learned, 4) Priorities for the next week, 5) Action plan. Optimize for reflection, learning and future planning.",
           "copyText": "Create a weekly review template [week]. Include: 1) Goals and successes achieved, 2) Tasks not completed and why, 3) Lessons learned, 4) Priorities for the next week, 5) Action plan. Optimize for reflection, learning and future planning.",
-          "keywords": ["weeks", "overview", "reflection", "planning"],
+          "keywords": [
+            "weeks",
+            "overview",
+            "reflection",
+            "planning"
+          ],
           "category": "productivity"
         },
         {
@@ -910,7 +1429,13 @@
           "title": "Energy Management Day Plan",
           "text": "Create an energy management daily plan [day] [task]. Identify: high energy times (difficult tasks), medium energy times (moderate tasks), low energy times (easy tasks). Optimize task sequence based on energy level. Submit as an hourly plan with a breakdown of tasks.",
           "copyText": "Create an energy management daily plan [day] [task]. Identify: high energy times (difficult tasks), medium energy times (moderate tasks), low energy times (easy tasks). Optimize task sequence based on energy level. Submit as an hourly plan with a breakdown of tasks.",
-          "keywords": ["energy", "management", "productivity", "days", "plan"],
+          "keywords": [
+            "energy",
+            "management",
+            "productivity",
+            "days",
+            "plan"
+          ],
           "category": "productivity"
         },
         {
@@ -918,7 +1443,12 @@
           "title": "Habit Stacking Plan",
           "text": "Create a habit-building plan using the Habit Stacking method [Target Habit]. Include: existing habit (anchor), new habit (add before/after anchor), specific actions, time, place, success criteria. Provide a 30-day plan with progress tracking and motivation strategies.",
           "copyText": "Create a habit-building plan using the Habit Stacking method [Target Habit]. Include: existing habit (anchor), new habit (add before/after anchor), specific actions, time, place, success criteria. Provide a 30-day plan with progress tracking and motivation strategies.",
-          "keywords": ["habits", "creation", "routine", "productivity"],
+          "keywords": [
+            "habits",
+            "creation",
+            "routine",
+            "productivity"
+          ],
           "category": "productivity"
         },
         {
@@ -926,7 +1456,13 @@
           "title": "Batch processing strategy",
           "text": "Create a batch processing strategy [task type: e.g. letters, calls, documents]. Include: grouping of similar tasks, optimal time for batch processing, preparation (templates, materials), sequence of processing and estimation of time savings. Optimize for efficiency and concentration.",
           "copyText": "Create a batch processing strategy [task type: e.g. letters, calls, documents]. Include: grouping of similar tasks, optimal time for batch processing, preparation (templates, materials), sequence of processing and estimation of time savings. Optimize for efficiency and concentration.",
-          "keywords": ["batch", "processing", "efficiency", "time", "management"],
+          "keywords": [
+            "batch",
+            "processing",
+            "efficiency",
+            "time",
+            "management"
+          ],
           "category": "productivity"
         },
         {
@@ -934,7 +1470,13 @@
           "title": "A plan for a productive morning routine",
           "text": "Create a plan for a productive morning routine [duration: 30-60 min]. Include: wake-up activities (hydration, movement), planning activities (goals, priorities), motivation activities (reading, meditation), preparation for the day (to-do list). Optimize for energy, focus and productivity throughout the day.",
           "copyText": "Create a plan for a productive morning routine [duration: 30-60 min]. Include: wake-up activities (hydration, movement), planning activities (goals, priorities), motivation activities (reading, meditation), preparation for the day (to-do list). Optimize for energy, focus and productivity throughout the day.",
-          "keywords": ["morning", "routine", "productivity", "days", "beginning"],
+          "keywords": [
+            "morning",
+            "routine",
+            "productivity",
+            "days",
+            "beginning"
+          ],
           "category": "productivity"
         }
       ]
@@ -942,7 +1484,6 @@
     {
       "id": "advanced",
       "name": "Advanced",
-      "icon": "🚀",
       "count": 3,
       "prompts": [
         {
@@ -950,14 +1491,19 @@
           "title": "Supplier evaluation system",
           "text": "Create a supplier evaluation system [supplier]. Include: quality metrics, delivery time, price competitiveness, communication effectiveness, problem solving. For each indicator, specify: weight, evaluation scale (1-10), minimum requirements. Provide an overall assessment and recommendations.",
           "copyText": "Create a supplier evaluation system [supplier]. Include: quality metrics, delivery time, price competitiveness, communication effectiveness, problem solving. For each indicator, specify: weight, evaluation scale (1-10), minimum requirements. Provide an overall assessment and recommendations.",
-          "keywords": ["supplier", "evaluation", "quality", "reliability"],
+          "keywords": [
+            "supplier",
+            "evaluation",
+            "quality",
+            "reliability"
+          ],
           "category": "advanced"
         },
         {
           "id": 105,
-          "title": "🔧 Systematic AI assistant prompt",
-          "text": "You are an AI system architect specializing in the development and optimization of custom assistants.\n\nASSIGNMENT: Create a detailed system prompt for an AI assistant that will act as [type of assistant] in the context of [organization/area].\n\nSYSTEM PROMPT STRUCTURE:\n\n## IDENTITY AND ROLE\n- Define: Who are you? What is your level of expertise?\n- Specialization: [3-5 core competencies]\n- Limits: What you DON'T do and what you direct the user to\n\n## RULES OF CONDUCT\n1. Answer format: [structure, length, style]\n2. Tone: [formal/friendly/technical]\n3. Language selection: [according to the user's language/always LT]\n4. Uncertainty management: [ask for clarification/make assumptions]\n\n## KNOWLEDGE BASE\n- Primary sources: [docs, DB, API]\n- Update frequency: [real-time/daily/weekly]\n- Credibility: When you don't know → [admit/direct]\n\n## SECURITY PROTOCOLS\n- Prohibited actions: [list]\n- Confidentiality: [what can/cannot be disclosed]\n- Escalation: When and how to hand over to a person\n\n## INTERACTION EXAMPLES\n✅ Good answer: [example]\n❌ Bad answer: [example]\n🔄 How to respond to [specific situation]\n\n## METRICS AND OPTIMIZATION\n- Success criteria: [KPI]\n- Feedback mechanism: [how to get feedback]\n\nOUTPUT: Provide a complete, copy-paste ready system prompt that can be used directly in ChatGPT Custom Instructions, Claude Projects, or API system messages.",
-          "copyText": "You are an AI system architect specializing in the development and optimization of custom assistants.\n\nASSIGNMENT: Create a detailed system prompt for an AI assistant that will act as [type of assistant] in the context of [organization/area].\n\nSYSTEM PROMPT STRUCTURE:\n\n## IDENTITY AND ROLE\n- Define: Who are you? What is your level of expertise?\n- Specialization: [3-5 core competencies]\n- Limits: What you DON'T do and what you direct the user to\n\n## RULES OF CONDUCT\n1. Answer format: [structure, length, style]\n2. Tone: [formal/friendly/technical]\n3. Language selection: [according to the user's language/always LT]\n4. Uncertainty management: [ask for clarification/make assumptions]\n\n## KNOWLEDGE BASE\n- Primary sources: [docs, DB, API]\n- Update frequency: [real-time/daily/weekly]\n- Credibility: When you don't know → [admit/direct]\n\n## SECURITY PROTOCOLS\n- Prohibited actions: [list]\n- Confidentiality: [what can/cannot be disclosed]\n- Escalation: When and how to hand over to a person\n\n## INTERACTION EXAMPLES\n✅ Good answer: [example]\n❌ Bad answer: [example]\n🔄 How to respond to [specific situation]\n\n## METRICS AND OPTIMIZATION\n- Success criteria: [KPI]\n- Feedback mechanism: [how to get feedback]\n\nOUTPUT: Provide a complete, copy-paste ready system prompt that can be used directly in ChatGPT Custom Instructions, Claude Projects, or API system messages.",
+          "title": "Systematic AI assistant prompt",
+          "text": "You are an AI system architect specializing in the development and optimization of custom assistants.\n\nASSIGNMENT: Create a detailed system prompt for an AI assistant that will act as [type of assistant] in the context of [organization/area].\n\nSYSTEM PROMPT STRUCTURE:\n\n## IDENTITY AND ROLE\n- Define: Who are you? What is your level of expertise?\n- Specialization: [3-5 core competencies]\n- Limits: What you DON'T do and what you direct the user to\n\n## RULES OF CONDUCT\n1. Answer format: [structure, length, style]\n2. Tone: [formal/friendly/technical]\n3. Language selection: [according to the user's language/always LT]\n4. Uncertainty management: [ask for clarification/make assumptions]\n\n## KNOWLEDGE BASE\n- Primary sources: [docs, DB, API]\n- Update frequency: [real-time/daily/weekly]\n- Credibility: When you don't know → [admit/direct]\n\n## SECURITY PROTOCOLS\n- Prohibited actions: [list]\n- Confidentiality: [what can/cannot be disclosed]\n- Escalation: When and how to hand over to a person\n\n## INTERACTION EXAMPLES\n Good answer: [example]\n Bad answer: [example]\n How to respond to [specific situation]\n\n## METRICS AND OPTIMIZATION\n- Success criteria: [KPI]\n- Feedback mechanism: [how to get feedback]\n\nOUTPUT: Provide a complete, copy-paste ready system prompt that can be used directly in ChatGPT Custom Instructions, Claude Projects, or API system messages.",
+          "copyText": "You are an AI system architect specializing in the development and optimization of custom assistants.\n\nASSIGNMENT: Create a detailed system prompt for an AI assistant that will act as [type of assistant] in the context of [organization/area].\n\nSYSTEM PROMPT STRUCTURE:\n\n## IDENTITY AND ROLE\n- Define: Who are you? What is your level of expertise?\n- Specialization: [3-5 core competencies]\n- Limits: What you DON'T do and what you direct the user to\n\n## RULES OF CONDUCT\n1. Answer format: [structure, length, style]\n2. Tone: [formal/friendly/technical]\n3. Language selection: [according to the user's language/always LT]\n4. Uncertainty management: [ask for clarification/make assumptions]\n\n## KNOWLEDGE BASE\n- Primary sources: [docs, DB, API]\n- Update frequency: [real-time/daily/weekly]\n- Credibility: When you don't know → [admit/direct]\n\n## SECURITY PROTOCOLS\n- Prohibited actions: [list]\n- Confidentiality: [what can/cannot be disclosed]\n- Escalation: When and how to hand over to a person\n\n## INTERACTION EXAMPLES\n Good answer: [example]\n Bad answer: [example]\n How to respond to [specific situation]\n\n## METRICS AND OPTIMIZATION\n- Success criteria: [KPI]\n- Feedback mechanism: [how to get feedback]\n\nOUTPUT: Provide a complete, copy-paste ready system prompt that can be used directly in ChatGPT Custom Instructions, Claude Projects, or API system messages.",
           "keywords": [
             "system",
             "instructions",
@@ -971,9 +1517,9 @@
         },
         {
           "id": 107,
-          "title": "🤖 Agent execution of tasks",
-          "text": "You are an autonomous AI agent with planning, decomposition and iterative execution capabilities.\n\nMAIN TASK: [Describe a complex task, eg: \"Develop a complete marketing campaign for a new product launch\"]\n\nAGENCY EXECUTION PROTOCOL:\n\n## 1. TASK DECOMPOSITION\nBreak down the main task into smaller, executable parts:\n\n```\nMAIN_TASK: [Main Objective]\n├── SUBTASK_1: [Step One]\n│ ├── action_1.1: [Specific Action]\n│ ├── action_1.2: [Specific Action]\n│ └── checkpoint_1: [How to check done]\n├── SUBTASK_2: [Step Two]\n│ └── ...\n└── SUBTASK_N: [Last Step]\n```\n\n## 2. DEPENDENCY MAP\nDefine order and relationships:\n- [SUBTASK_1] → blocks → [SUBTASK_3]\n- [SUBTASK_2] → parallelized with → [SUBTASK_1]\n- Critical path: [which steps are necessary]\n\n## 3. TOOLS AND RESOURCES INVENTORY\nFor each task:\n| Task | Required Tool | Data Source | Human input? |\n|----------|--------------------|--------------------|------------------|\n| 1.1 | [tool] | [source] | Yes/No |\n\n## 4. EXECUTION CYCLE (for each step)\n```\nWHILE task_incomplete:\n    1. PLAN: What will I do in this step?\n    2. EXECUTE: I perform an action\n    3. MONITOR: Does the result meet expectations?\n    4. REFLECT: What worked? What did not? Why?\n    5. ADAPT: Do you need to adjust the plan?\n    6. CONTINUE or ASK a human\n```\n\n## 5. ERROR MANAGEMENT PROTOCOL\n- If step X fails → [backup plan]\n- If information is missing → [how to get]\n- If limitation is reached → [escalate with context]\n\n## 6. FORMAT OF PROGRESS REPORTS\nAfter each stage, provide:\n✅ Done: [what's done]\n⏳ Ongoing: [what is being done now]\n📋 Remaining: [what is left]\n🚧 Blockers: [what blocks]\n💡 Insights: [what I learned]\n\nOUTPUT REQUIREMENT: Start with a complete plan, then proceed step by step, waiting for approval or corrections after each step. Be proactive, but ask for human input at critical decision points.",
-          "copyText": "You are an autonomous AI agent with planning, decomposition and iterative execution capabilities.\n\nMAIN TASK: [Describe a complex task, eg: \"Develop a complete marketing campaign for a new product launch\"]\n\nAGENCY EXECUTION PROTOCOL:\n\n## 1. TASK DECOMPOSITION\nBreak down the main task into smaller, executable parts:\n\n```\nMAIN_TASK: [Main Objective]\n├── SUBTASK_1: [Step One]\n│ ├── action_1.1: [Specific Action]\n│ ├── action_1.2: [Specific Action]\n│ └── checkpoint_1: [How to check done]\n├── SUBTASK_2: [Step Two]\n│ └── ...\n└── SUBTASK_N: [Last Step]\n```\n\n## 2. DEPENDENCY MAP\nDefine order and relationships:\n- [SUBTASK_1] → blocks → [SUBTASK_3]\n- [SUBTASK_2] → parallelized with → [SUBTASK_1]\n- Critical path: [which steps are necessary]\n\n## 3. TOOLS AND RESOURCES INVENTORY\nFor each task:\n| Task | Required Tool | Data Source | Human input? |\n|----------|--------------------|--------------------|------------------|\n| 1.1 | [tool] | [source] | Yes/No |\n\n## 4. EXECUTION CYCLE (for each step)\n```\nWHILE task_incomplete:\n    1. PLAN: What will I do in this step?\n    2. EXECUTE: I perform an action\n    3. MONITOR: Does the result meet expectations?\n    4. REFLECT: What worked? What did not? Why?\n    5. ADAPT: Do you need to adjust the plan?\n    6. CONTINUE or ASK a human\n```\n\n## 5. ERROR MANAGEMENT PROTOCOL\n- If step X fails → [backup plan]\n- If information is missing → [how to get]\n- If limitation is reached → [escalate with context]\n\n## 6. FORMAT OF PROGRESS REPORTS\nAfter each stage, provide:\n✅ Done: [what's done]\n⏳ Ongoing: [what is being done now]\n📋 Remaining: [what is left]\n🚧 Blockers: [what blocks]\n💡 Insights: [what I learned]\n\nOUTPUT REQUIREMENT: Start with a complete plan, then proceed step by step, waiting for approval or corrections after each step. Be proactive, but ask for human input at critical decision points.",
+          "title": "Agent execution of tasks",
+          "text": "You are an autonomous AI agent with planning, decomposition and iterative execution capabilities.\n\nMAIN TASK: [Describe a complex task, eg: \"Develop a complete marketing campaign for a new product launch\"]\n\nAGENCY EXECUTION PROTOCOL:\n\n## 1. TASK DECOMPOSITION\nBreak down the main task into smaller, executable parts:\n\n```\nMAIN_TASK: [Main Objective]\n├── SUBTASK_1: [Step One]\n│ ├── action_1.1: [Specific Action]\n│ ├── action_1.2: [Specific Action]\n│ └── checkpoint_1: [How to check done]\n├── SUBTASK_2: [Step Two]\n│ └── ...\n└── SUBTASK_N: [Last Step]\n```\n\n## 2. DEPENDENCY MAP\nDefine order and relationships:\n- [SUBTASK_1] → blocks → [SUBTASK_3]\n- [SUBTASK_2] → parallelized with → [SUBTASK_1]\n- Critical path: [which steps are necessary]\n\n## 3. TOOLS AND RESOURCES INVENTORY\nFor each task:\n| Task | Required Tool | Data Source | Human input? |\n|----------|--------------------|--------------------|------------------|\n| 1.1 | [tool] | [source] | Yes/No |\n\n## 4. EXECUTION CYCLE (for each step)\n```\nWHILE task_incomplete:\n 1. PLAN: What will I do in this step?\n 2. EXECUTE: I perform an action\n 3. MONITOR: Does the result meet expectations?\n 4. REFLECT: What worked? What did not? Why?\n 5. ADAPT: Do you need to adjust the plan?\n 6. CONTINUE or ASK a human\n```\n\n## 5. ERROR MANAGEMENT PROTOCOL\n- If step X fails → [backup plan]\n- If information is missing → [how to get]\n- If limitation is reached → [escalate with context]\n\n## 6. FORMAT OF PROGRESS REPORTS\nAfter each stage, provide:\n Done: [what's done]\n Ongoing: [what is being done now]\n Remaining: [what is left]\n Blockers: [what blocks]\n Insights: [what I learned]\n\nOUTPUT REQUIREMENT: Start with a complete plan, then proceed step by step, waiting for approval or corrections after each step. Be proactive, but ask for human input at critical decision points.",
+          "copyText": "You are an autonomous AI agent with planning, decomposition and iterative execution capabilities.\n\nMAIN TASK: [Describe a complex task, eg: \"Develop a complete marketing campaign for a new product launch\"]\n\nAGENCY EXECUTION PROTOCOL:\n\n## 1. TASK DECOMPOSITION\nBreak down the main task into smaller, executable parts:\n\n```\nMAIN_TASK: [Main Objective]\n├── SUBTASK_1: [Step One]\n│ ├── action_1.1: [Specific Action]\n│ ├── action_1.2: [Specific Action]\n│ └── checkpoint_1: [How to check done]\n├── SUBTASK_2: [Step Two]\n│ └── ...\n└── SUBTASK_N: [Last Step]\n```\n\n## 2. DEPENDENCY MAP\nDefine order and relationships:\n- [SUBTASK_1] → blocks → [SUBTASK_3]\n- [SUBTASK_2] → parallelized with → [SUBTASK_1]\n- Critical path: [which steps are necessary]\n\n## 3. TOOLS AND RESOURCES INVENTORY\nFor each task:\n| Task | Required Tool | Data Source | Human input? |\n|----------|--------------------|--------------------|------------------|\n| 1.1 | [tool] | [source] | Yes/No |\n\n## 4. EXECUTION CYCLE (for each step)\n```\nWHILE task_incomplete:\n 1. PLAN: What will I do in this step?\n 2. EXECUTE: I perform an action\n 3. MONITOR: Does the result meet expectations?\n 4. REFLECT: What worked? What did not? Why?\n 5. ADAPT: Do you need to adjust the plan?\n 6. CONTINUE or ASK a human\n```\n\n## 5. ERROR MANAGEMENT PROTOCOL\n- If step X fails → [backup plan]\n- If information is missing → [how to get]\n- If limitation is reached → [escalate with context]\n\n## 6. FORMAT OF PROGRESS REPORTS\nAfter each stage, provide:\n Done: [what's done]\n Ongoing: [what is being done now]\n Remaining: [what is left]\n Blockers: [what blocks]\n Insights: [what I learned]\n\nOUTPUT REQUIREMENT: Start with a complete plan, then proceed step by step, waiting for approval or corrections after each step. Be proactive, but ask for human input at critical decision points.",
           "keywords": [
             "agent",
             "autonomous",

@@ -1,6 +1,6 @@
 {
   "name": "di-promptu-biblioteka-e-komercijai",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "description": "DI Promptų biblioteka e-komercijai (Spin-off Nr. 8) — LT/EN/ET/LV statinė promptų biblioteka",
   "type": "module",
   "scripts": {
